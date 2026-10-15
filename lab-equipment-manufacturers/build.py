@@ -170,7 +170,7 @@ def entity_key(name):
     """Normalise an Israeli entity name to a grouping key: first word, ignoring 'Dr.'/'The' and parentheticals."""
     base = re.sub(r"\s*\(.*?\)", "", name or "").strip().lower()
     toks = [t for t in re.split(r"[\s,/]+", base) if t]
-    while toks and toks[0] in ("dr.", "dr", "the"):
+    while toks and (toks[0] in ("dr.", "dr", "the", "y.a.", "s.l.", "uri") or (len(toks[0]) <= 4 and "." in toks[0])):
         toks.pop(0)
     return toks[0].strip(".") if toks else base
 

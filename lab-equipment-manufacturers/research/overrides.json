@@ -754,14 +754,6 @@
   "israel_presence": "distributor",
   "israel_entities": [
    {
-    "name": "Israeli distributor listed on Novus Biologicals' distributor page (name not visible in the search excerpt) - 6 Hasadna St., P.O. Box 8006, Kfar Saba 4442405",
-    "name_he": "",
-    "type": "distributor",
-    "scope": "Novus Biologicals antibodies (Bio-Techne brand); coverage of R&D Systems / Tocris / ProteinSimple not shown",
-    "website": "",
-    "source": "https://www.novusbio.com/distributors/www.novusbio.com"
-   },
-   {
     "name": "Getter Bio-Med (Getter Group)",
     "name_he": "גטר ביו-מד",
     "type": "distributor",
@@ -770,7 +762,7 @@
     "source": "https://www.getter.co.il/about-en/"
    }
   ],
-  "israel_note": "Bio-Techne's Novus Biologicals distributor page lists an Israeli distributor at 6 Hasadna St., P.O. Box 8006, Kfar Saba 4442405 with phone and e-mail, but the company name was not in the excerpt and a follow-up search for that address did not identify it; the R&D Systems distributor locator exists but showed no Israel entry in the snippets. The 40-domain sweep surfaced ENCO (self-described official Israeli distributor of 250+ antibody/protein suppliers) and Danyel, Gamidor and HyLabs pages, none of which mention R&D Systems, Novus, Tocris or ProteinSimple in any snippet. Bio-Techne's FY2025 10-K states it 'has not historically had significant business in Russia, Ukraine or Israel'. Getter Bio-Med's posts describe it as the official Israeli representative of Lunaphore, a Bio-Techne brand; no channel found for R&D Systems / ProteinSimple products.",
+  "israel_note": "Bio-Techne's Novus Biologicals distributor page lists an Israeli distributor at 6 Hasadna St., P.O. Box 8006, Kfar Saba 4442405 with phone and e-mail, but the company name was not in the excerpt and a follow-up search for that address did not identify it; the R&D Systems distributor locator exists but showed no Israel entry in the snippets. The 40-domain sweep surfaced ENCO (self-described official Israeli distributor of 250+ antibody/protein suppliers) and Danyel, Gamidor and HyLabs pages, none of which mention R&D Systems, Novus, Tocris or ProteinSimple in any snippet. Bio-Techne's FY2025 10-K states it 'has not historically had significant business in Russia, Ukraine or Israel'. Getter Bio-Med's posts describe it as the official Israeli representative of Lunaphore, a Bio-Techne brand; no channel found for R&D Systems / ProteinSimple products. Novus Biologicals' (Bio-Techne) distributor page lists an unnamed Israeli distributor at 6 Hasadna St., Kfar Saba (identity not resolved).",
   "confidence": "low",
   "confidence_note": "The manufacturer's own page shows an Israeli distributor exists (Kfar Saba address) but its name was not captured; ENCO is a plausible but unconfirmed candidate.",
   "sources": [

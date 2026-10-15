@@ -280,7 +280,7 @@ footer.meth p{margin:0}
   qEl.value=state.q; catEl.value=state.cat; countryEl.value=state.country; sizeEl.value=state.size;
 
   function entShort(e){ return (e.name||"").replace(/\s*\([^)]*\)/g,"").trim(); }
-  function entKey(e){ var t=entShort(e).toLowerCase().split(/[\s,\/]+/).filter(Boolean); while(t.length&&(t[0]==="dr."||t[0]==="dr"||t[0]==="the")) t.shift(); return t.length?t[0].replace(/\.$/,""):""; }
+  function entKey(e){ var t=entShort(e).toLowerCase().split(/[\s,\/]+/).filter(Boolean); while(t.length&&(t[0]==="dr."||t[0]==="dr"||t[0]==="the"||t[0]==="y.a."||t[0]==="s.l."||t[0]==="uri"||(t[0].length<=4&&t[0].indexOf(".")>=0))) t.shift(); return t.length?t[0].replace(/\.$/,""):""; }
   var ENT_INDEX={};
   DATA.forEach(function(r){ r.israel_entities.forEach(function(e){ var k=entKey(e); if(!k) return; var d=ENT_INDEX[k]||(ENT_INDEX[k]={key:k,name:entShort(e),he:e.name_he||"",ids:{}}); var sh=entShort(e); if(sh.length<d.name.length) d.name=sh; if(!d.he&&e.name_he) d.he=e.name_he; d.ids[r.id]=1; }); });
   function renderDist(){
