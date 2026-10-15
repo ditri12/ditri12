@@ -12,6 +12,7 @@ Outputs: data/manufacturers.json  (merged, with metadata header)
 Run:  python3 build.py
 """
 import csv
+import re
 import datetime as dt
 import json
 import sqlite3
@@ -138,6 +139,33 @@ def fmt_entities(r):
     return " | ".join(out)
 
 
+def entity_key(name):
+    """Normalise an Israeli entity name to a grouping key: first word, ignoring 'Dr.'/'The' and parentheticals."""
+    base = re.sub(r"\s*\(.*?\)", "", name or "").strip().lower()
+    toks = [t for t in re.split(r"[\s,/]+", base) if t]
+    while toks and toks[0] in ("dr.", "dr", "the"):
+        toks.pop(0)
+    return toks[0].strip(".") if toks else base
+
+
+def distributor_index(rows):
+    """Group Israeli entities (distributors / subsidiaries) -> list of manufacturers they carry."""
+    idx = {}
+    for r in rows:
+        for e in r["israel_entities"]:
+            key = entity_key(e["name"])
+            short = re.sub(r"\s*\(.*?\)", "", e["name"]).strip()
+            d = idx.setdefault(key, {"key": key, "name": short, "name_he": e.get("name_he") or "", "type": e["type"], "website": e.get("website") or "", "brands": []})
+            if len(short) < len(d["name"]):
+                d["name"] = short
+            if not d["name_he"] and e.get("name_he"):
+                d["name_he"] = e["name_he"]
+            if not d["website"] and e.get("website"):
+                d["website"] = e["website"]
+            d["brands"].append({"id": r["id"], "manufacturer": r["name"], "scope": e.get("scope") or ""})
+    return sorted(idx.values(), key=lambda d: (-len(d["brands"]), d["name"]))
+
+
 def write_json(rows, generated):
     DATA.mkdir(exist_ok=True)
     doc = {
@@ -150,6 +178,7 @@ def write_json(rows, generated):
         "israel_check_values": CHECK_HE,
         "employees_scope_values": {"company": "headcount of the listed company", "parent": "parent group headcount", "estimate": "approximate / unverified"},
         "manufacturers": rows,
+        "israeli_entities_index": distributor_index(rows),
     }
     with open(DATA / "manufacturers.json", "w", encoding="utf-8") as fh:
         json.dump(doc, fh, ensure_ascii=False, indent=2)
@@ -287,6 +316,26 @@ def write_xlsx(rows, generated):
             row_i += 1
     ws3.freeze_panes = "C2"
     ws3.auto_filter.ref = f"A1:E{row_i - 1}"
+
+    # --- Sheet 3b: By Israeli entity (distributor -> manufacturers it carries) ---
+    ws5 = wb.create_sheet("By Israeli entity")
+    ws5.sheet_view.rightToLeft = True
+    h5 = ["גוף ישראלי / Israeli entity", "שם בעברית", "סוג / Type", "אתר / Website", "מס׳ יצרנים / # makers", "# יצרן", "יצרן / Manufacturer", "תחום / Scope"]
+    for c, h in enumerate(h5, 1):
+        cell = ws5.cell(row=1, column=c, value=h)
+        cell.font, cell.fill = head_font, head_fill
+    for w, c in zip([34, 18, 12, 28, 10, 7, 30, 60], range(1, 9)):
+        ws5.column_dimensions[get_column_letter(c)].width = w
+    row_i = 2
+    for d in distributor_index(rows):
+        for b in d["brands"]:
+            vals = [d["name"], d["name_he"], ENTITY_TYPE_HE.get(d["type"], d["type"]), d["website"], len(d["brands"]), b["id"], b["manufacturer"], b["scope"]]
+            for c, v in enumerate(vals, 1):
+                cell = ws5.cell(row=row_i, column=c, value=v)
+                cell.font, cell.alignment = base, wrap
+            row_i += 1
+    ws5.freeze_panes = "B2"
+    ws5.auto_filter.ref = f"A1:H{row_i - 1}"
 
     # --- Sheet 4: Summary (live formulas over the Manufacturers sheet) ---
     ws4 = wb.create_sheet("Summary")

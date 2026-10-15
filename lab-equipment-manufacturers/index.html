@@ -66,6 +66,14 @@ main.wrap>*{min-width:0}
 .btn{font:inherit;font-size:13px;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:var(--radius);padding:7px 12px;cursor:pointer}
 .btn.primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
 .count{color:var(--muted);font-size:13px;margin-inline-start:auto;font-variant-numeric:tabular-nums}
+details.dist{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+details.dist summary{cursor:pointer;padding:9px 12px;font-weight:500;color:var(--fg)}
+details.dist summary::marker{color:var(--accent)}
+.dist-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;padding:4px 12px 12px}
+.dist-grid button{font:inherit;text-align:start;background:var(--surface-2);color:var(--fg);border:1px solid var(--line);border-radius:var(--radius);padding:7px 10px;cursor:pointer;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.dist-grid button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.dist-grid button .n{font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px;white-space:nowrap}
+.dist-grid button .t{min-width:0;overflow-wrap:anywhere}
 .table-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
 table{border-collapse:collapse;width:100%;min-width:880px;table-layout:fixed}
 th.c-id{width:40px} th.c-name{width:21%} th.c-country{width:8%} th.c-cat{width:16%} th.c-emp{width:10%} th.c-rev{width:12%} th.c-pres{width:14%}
@@ -153,6 +161,11 @@ footer.meth p{margin:0}
     <button class="btn" id="copy" type="button" title="מעתיק את הטבלה המסוננת כטקסט מופרד בטאבים (להדבקה באקסל)">העתק טבלה</button>
     <span class="count" id="count"></span>
   </section>
+
+  <details class="dist" id="dist">
+    <summary>מפיצים וגופים ישראליים במאגר (לחיצה על מפיץ מסננת את הטבלה)</summary>
+    <div class="dist-grid" id="dist-grid"></div>
+  </details>
 
   <div class="table-wrap">
     <table id="t">
@@ -248,7 +261,7 @@ footer.meth p{margin:0}
   }
   DATA.forEach(function(r){ r._hay=hay(r); r._size=sizeBucket(r); });
 
-  var state={q:"",cat:"",country:"",size:"",presence:"",onlyVerified:false,sortKey:"id",sortDir:1,open:{}};
+  var state={q:"",cat:"",country:"",size:"",presence:"",onlyVerified:false,entity:"",sortKey:"id",sortDir:1,open:{}};
   try{ var saved=JSON.parse(localStorage.getItem("labmakers.filters")||"null"); if(saved){ ["q","cat","country","size","presence","onlyVerified","sortKey","sortDir"].forEach(function(k){ if(saved[k]!=null) state[k]=saved[k]; }); } }catch(e){}
   function persist(){ try{ localStorage.setItem("labmakers.filters",JSON.stringify({q:state.q,cat:state.cat,country:state.country,size:state.size,presence:state.presence,onlyVerified:state.onlyVerified,sortKey:state.sortKey,sortDir:state.sortDir})); }catch(e){} }
 
@@ -261,6 +274,16 @@ footer.meth p{margin:0}
   Object.keys(cats).sort(function(a,b){return catHe(a).localeCompare(catHe(b),"he");}).forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=catHe(c)+" ("+cats[c]+")"; catEl.appendChild(o); });
   Object.keys(countries).sort(function(a,b){return countries[b]-countries[a];}).forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=countryHe(c)+" ("+countries[c]+")"; countryEl.appendChild(o); });
   qEl.value=state.q; catEl.value=state.cat; countryEl.value=state.country; sizeEl.value=state.size;
+
+  function entShort(e){ return (e.name||"").replace(/\s*\([^)]*\)/g,"").trim(); }
+  function entKey(e){ var t=entShort(e).toLowerCase().split(/[\s,\/]+/).filter(Boolean); while(t.length&&(t[0]==="dr."||t[0]==="dr"||t[0]==="the")) t.shift(); return t.length?t[0].replace(/\.$/,""):""; }
+  var ENT_INDEX={};
+  DATA.forEach(function(r){ r.israel_entities.forEach(function(e){ var k=entKey(e); if(!k) return; var d=ENT_INDEX[k]||(ENT_INDEX[k]={key:k,name:entShort(e),he:e.name_he||"",ids:{}}); var sh=entShort(e); if(sh.length<d.name.length) d.name=sh; if(!d.he&&e.name_he) d.he=e.name_he; d.ids[r.id]=1; }); });
+  function renderDist(){
+    var list=Object.keys(ENT_INDEX).map(function(k){var d=ENT_INDEX[k]; d.n=Object.keys(d.ids).length; return d;}).sort(function(a,b){return b.n-a.n||a.name.localeCompare(b.name);});
+    $("dist-grid").innerHTML=list.map(function(d){ return '<button type="button" data-e="'+esc(d.key)+'" aria-pressed="'+(state.entity===d.key?"true":"false")+'"><span class="t">'+esc(d.name)+(d.he?' <small>('+esc(d.he)+')</small>':'')+'</span><span class="n">'+d.n+' יצרנים</span></button>'; }).join("");
+  }
+  $("dist-grid").addEventListener("click",function(ev){ var b=ev.target.closest("button[data-e]"); if(!b) return; state.entity=(state.entity===b.dataset.e)?"":b.dataset.e; renderDist(); render(); });
 
   // chips (counts over the whole dataset)
   function renderChips(){
@@ -284,6 +307,7 @@ footer.meth p{margin:0}
       if(state.size && r._size!==state.size) return false;
       if(state.presence && r.israel_presence!==state.presence) return false;
       if(state.onlyVerified && r.israel_check!=="verified") return false;
+      if(state.entity && !r.israel_entities.some(function(e){return entKey(e)===state.entity;})) return false;
       return true;
     });
   }
@@ -365,7 +389,7 @@ footer.meth p{margin:0}
     lastRows=rows;
     tb.innerHTML=rows.map(rowHtml).join("");
     emptyEl.hidden=rows.length>0;
-    countEl.textContent="מציג "+rows.length+" מתוך "+DATA.length;
+    countEl.textContent="מציג "+rows.length+" מתוך "+DATA.length+(state.entity&&ENT_INDEX[state.entity]?" · "+ENT_INDEX[state.entity].name:"");
     document.querySelectorAll("thead th[data-sort]").forEach(function(th){ var a=th.querySelector(".arrow"); a.textContent=(th.dataset.sort===state.sortKey)?(state.sortDir===1?" ▲":" ▼"):""; });
     persist();
   }
@@ -379,7 +403,7 @@ footer.meth p{margin:0}
   catEl.addEventListener("change",function(){ state.cat=catEl.value; render(); });
   countryEl.addEventListener("change",function(){ state.country=countryEl.value; render(); });
   sizeEl.addEventListener("change",function(){ state.size=sizeEl.value; render(); });
-  $("reset").addEventListener("click",function(){ state.q=state.cat=state.country=state.size=state.presence=""; state.sortKey="id"; state.sortDir=1; qEl.value=""; catEl.value=""; countryEl.value=""; sizeEl.value=""; renderChips(); render(); });
+  $("reset").addEventListener("click",function(){ state.q=state.cat=state.country=state.size=state.presence=state.entity=""; state.onlyVerified=false; state.sortKey="id"; state.sortDir=1; qEl.value=""; catEl.value=""; countryEl.value=""; sizeEl.value=""; renderChips(); renderDist(); render(); });
 
   function toast(msg){ var t=$("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(function(){t.hidden=true;},2200); }
   $("copy").addEventListener("click",function(){
@@ -395,6 +419,7 @@ footer.meth p{margin:0}
   });
 
   renderChips();
+  renderDist();
   render();
 })();
 </script>

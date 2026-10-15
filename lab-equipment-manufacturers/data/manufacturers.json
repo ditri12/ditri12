@@ -5811,5 +5811,888 @@
       "israel_check": "partial",
       "employees_scope": "company"
     }
+  ],
+  "israeli_entities_index": [
+    {
+      "key": "agentek",
+      "name": "Agentek Ltd.",
+      "name_he": "אגנטק",
+      "type": "distributor",
+      "website": "https://agentek.co.il",
+      "brands": [
+        {
+          "id": 6,
+          "manufacturer": "Shimadzu Corporation",
+          "scope": "analytical instruments - HPLC/UHPLC (i-Series LC-2070/LC-2080), LC-MS (LCMS-9050, LCMS-8065XE), GC (Nexis GC-2060), XRF (ALTRACE) per Agentek's product pages"
+        },
+        {
+          "id": 7,
+          "manufacturer": "Mettler-Toledo International",
+          "scope": "laboratory weighing (balances) per mt.com Israel page; Agentek's own site also shows Rainin pipettes (distributing since replacing Gilson), titration/automated chemistry (reactor sampling), FreeWeigh.NET and industrial scales; Euro Park Yakum, sales +972 9 9657000, service +972 9 9657007"
+        },
+        {
+          "id": 35,
+          "manufacturer": "Nikon – Healthcare Business (Nikon Instruments)",
+          "scope": "Nikon research microscopes (AX/AXR confocal, AXR MP multiphoton, ECLIPSE Ji, CFI60 objectives); listed as Nikon's Israel contact in Nikon Healthcare's microscope contact directory (Atidim Scientific Park Bldg 2, Tel Aviv, +972-3-649-3111, sales1@agentek.co.il) and has a Nikon 'representative' page on its own site."
+        },
+        {
+          "id": 45,
+          "manufacturer": "LECO Corporation",
+          "scope": "LECO analytical instruments, mass spectrometers and metallography (Agentek LECO representative page)"
+        },
+        {
+          "id": 80,
+          "manufacturer": "SPT Labtech",
+          "scope": "SPT Labtech distributor for Israel (listed on sptlabtech.com/distributors; Agentek has an SPT Labtech brand page)"
+        },
+        {
+          "id": 84,
+          "manufacturer": "Gilson",
+          "scope": "Gilson liquid handling (per Agentek vendors list)"
+        }
+      ]
+    },
+    {
+      "key": "danyel",
+      "name": "Danyel Biotech",
+      "name_he": "דניאל ביוטק",
+      "type": "distributor",
+      "website": "https://www.danyel.co.il",
+      "brands": [
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "Olink proteomics (a Thermo Fisher business)"
+        },
+        {
+          "id": 15,
+          "manufacturer": "Illumina",
+          "scope": "Illumina sequencers, arrays and reagents (long-standing distributor; 2020 evidence – verify current status)"
+        },
+        {
+          "id": 17,
+          "manufacturer": "Cytiva (Danaher)",
+          "scope": "Cytiva chromatography (ÄKTA pure) and Biacore; other Cytiva lines (Whatman, Amersham, Pall) not confirmed"
+        },
+        {
+          "id": 27,
+          "manufacturer": "10x Genomics",
+          "scope": "10x Genomics instruments, reagents and software (Chromium single-cell; Visium/Xenium not seen explicitly)"
+        },
+        {
+          "id": 31,
+          "manufacturer": "Hamilton Company",
+          "scope": "Hamilton (liquid-handling robotics) listed among the brands on Danyel Biotech's site – scope to confirm"
+        },
+        {
+          "id": 92,
+          "manufacturer": "Greiner Bio-One",
+          "scope": "Greiner Bio-One plates, tubes and consumables (Danyel brand page)"
+        }
+      ]
+    },
+    {
+      "key": "labotal",
+      "name": "Labotal Scientific Equipment",
+      "name_he": "לבוטל",
+      "type": "distributor",
+      "website": "https://labotal.co.il",
+      "brands": [
+        {
+          "id": 8,
+          "manufacturer": "Sartorius AG",
+          "scope": "self-described exclusive Sartorius representative in Israel for weighing (Cubis II balances) and lab products incl. pipettes"
+        },
+        {
+          "id": 61,
+          "manufacturer": "BINDER",
+          "scope": "Binder incubators, drying ovens and climate chambers (Labotal 'firms/binder' page and product pages)"
+        },
+        {
+          "id": 64,
+          "manufacturer": "Heidolph Instruments (ATS Corporation)",
+          "scope": "Heidolph rotary evaporators, stirrers and shakers (Labotal joined Heidolph's premium distributor programme)"
+        },
+        {
+          "id": 65,
+          "manufacturer": "JULABO",
+          "scope": "JULABO circulators, chillers and baths – Labotal states it is JULABO's exclusive representative in Israel"
+        },
+        {
+          "id": 71,
+          "manufacturer": "Labconco",
+          "scope": "Labconco biosafety cabinets and CentriVap concentrators (Labotal product pages)"
+        },
+        {
+          "id": 81,
+          "manufacturer": "OHAUS (Mettler-Toledo)",
+          "scope": "OHAUS balances (listed among Labotal's represented firms)"
+        }
+      ]
+    },
+    {
+      "key": "eldan",
+      "name": "Eldan Electronic Instruments",
+      "name_he": "אלדן",
+      "type": "distributor",
+      "website": "https://www.eldan.biz",
+      "brands": [
+        {
+          "id": 2,
+          "manufacturer": "Agilent Technologies",
+          "scope": "Agilent authorised distributor for Israel (chromatography, spectroscopy, mass spectrometry, lab products)"
+        },
+        {
+          "id": 14,
+          "manufacturer": "QIAGEN",
+          "scope": "listed QIAGEN among the manufacturers it represents in Israel (life-science research) on a 2014 page and showed QIAGEN products at ISM/IIS meetings in 2015-2016; current status unconfirmed"
+        },
+        {
+          "id": 60,
+          "manufacturer": "Mindray",
+          "scope": "Mindray IVD line - hematology analyzers and reagents (clinical diagnostics division)"
+        },
+        {
+          "id": 69,
+          "manufacturer": "Andreas Hettich",
+          "scope": "Hettich centrifuges – Eldan states it offers the whole Hettich range in Israel (eldan.biz page; verify currency)"
+        },
+        {
+          "id": 73,
+          "manufacturer": "PHC Holdings (PHCbi)",
+          "scope": "PHCbi CO2 and multigas incubators (incl. Cell-IQ) and PHCbi biomedical/pharmaceutical freezers"
+        }
+      ]
+    },
+    {
+      "key": "rhenium",
+      "name": "Rhenium Ltd.",
+      "name_he": "רניום",
+      "type": "distributor",
+      "website": "https://www.rhenium.co.il",
+      "brands": [
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "Invitrogen / Applied Biosystems / Gibco (Life Technologies brands; evidence from 2011 – verify current scope)"
+        },
+        {
+          "id": 16,
+          "manufacturer": "Beckman Coulter (Danaher)",
+          "scope": "Beckman Coulter Life Sciences (official Israel contact page: Rhenium, 20 Hasatat St, Modi'in); the Diagnostics channel may be a different partner – to verify"
+        },
+        {
+          "id": 18,
+          "manufacturer": "Leica Microsystems (Danaher)",
+          "scope": "research microscopes — per a 2009 Israel Physical Society trade-fair listing only (exclusive representative then); NOT re-confirmed in 2026"
+        },
+        {
+          "id": 19,
+          "manufacturer": "SCIEX (Danaher)",
+          "scope": "SCIEX mass spectrometry – Israeli distributor since 1 April 2025 (took over from Agentek)"
+        },
+        {
+          "id": 39,
+          "manufacturer": "Rigaku Holdings",
+          "scope": "Rigaku (XRD/XRF) listed among represented lines in Rhenium's 2009 Israel Physical Society trade-fair profile (Beit Nekofa); current status NOT confirmed - rhenium.co.il did not appear in any search result and Rigaku's distributor finder did not surface an Israel entry."
+        }
+      ]
+    },
+    {
+      "key": "gamidor",
+      "name": "Gamidor Diagnostics",
+      "name_he": "גמידור דיאגנוסטיקה",
+      "type": "distributor",
+      "website": "https://www.gamidor.co.il",
+      "brands": [
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "Thermo Scientific microbiology / diagnostics (non-exclusive distributor letter, Mar 2025–Mar 2026)"
+        },
+        {
+          "id": 9,
+          "manufacturer": "Revvity",
+          "scope": "reproductive health / prenatal screening immunoassays (PAPP-A, free beta-hCG, AFP, hCG, uE3, inhibin, PlGF) - Gamidor states it has represented Revvity (ex-PerkinElmer/Wallac) in prenatal screening since 1984"
+        },
+        {
+          "id": 30,
+          "manufacturer": "Tecan Group",
+          "scope": "Tecan diagnostics / LC-MS sample-prep kits (2025 LinkedIn evidence); the life-science liquid-handling channel is not established"
+        },
+        {
+          "id": 55,
+          "manufacturer": "Roche Diagnostics",
+          "scope": "Roche Tissue Diagnostics only (VENTANA automated IHC/ISH slide stainers) - not cobas/LightCycler"
+        }
+      ]
+    },
+    {
+      "key": "lapidot",
+      "name": "Lapidot Group",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://www.lapidot.com",
+      "brands": [
+        {
+          "id": 5,
+          "manufacturer": "Bruker Corporation",
+          "scope": "Bruker's official Israel contact/partner (Caesarea Industrial Park); the Bruker Israel page covers the Bruker business generally - no separate NMR / AXS / Nano / microCT listings were visible"
+        },
+        {
+          "id": 18,
+          "manufacturer": "Leica Microsystems (Danaher)",
+          "scope": "Leica surgical microscopes (ophthalmology, neurosurgery, ENT; floor- and ceiling-mounted) — Leica Microsystems medical division only"
+        },
+        {
+          "id": 21,
+          "manufacturer": "BD Biosciences & BD Diagnostic Solutions (part of Waters since Feb 2026)",
+          "scope": "lists BD as a business partner ('global medical technology company'); product scope not stated - likely BD Medical lines, not confirmed for Biosciences/Diagnostics"
+        },
+        {
+          "id": 33,
+          "manufacturer": "Carl Zeiss AG – Research Microscopy Solutions",
+          "scope": "'ZEISS lenses' product page on Lapidot's site (medical/ophthalmic context) - NOT research microscopy"
+        }
+      ]
+    },
+    {
+      "key": "bargal",
+      "name": "Bargal Analytical Instruments Ltd.",
+      "name_he": "ברגל",
+      "type": "distributor",
+      "website": "https://www.bargal.co.il",
+      "brands": [
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "chromatography & mass spectrometry (2018-19 evidence – verify current scope)"
+        },
+        {
+          "id": 36,
+          "manufacturer": "JEOL",
+          "scope": "JEOL electron microscopes (SEM: JSM-IT200/IT510/IT710HR, benchtop JCM-7000; TEM: JEM-F200, JEM-1400Flash; cryo-EM: CRYO ARM 300/300 II) - sales and service; listed on jeol.com as the Israel office (Shaked St 10, Shoham, +972-3-9796-533; JEOL UK as alternate contact). NMR/MS lines not confirmed."
+        },
+        {
+          "id": 51,
+          "manufacturer": "Biotage",
+          "scope": "Biotage distributor for Israel (listed on Biotage's contact page)"
+        }
+      ]
+    },
+    {
+      "key": "getter",
+      "name": "Getter Group",
+      "name_he": "קבוצת גטר",
+      "type": "distributor",
+      "website": "https://www.getter.co.il",
+      "brands": [
+        {
+          "id": 22,
+          "manufacturer": "Corning Life Sciences (Corning Inc.)",
+          "scope": "Corning – Getter Group states it is Corning's exclusive representative (page ~2 years old; life-science vs. other Corning lines not specified)"
+        },
+        {
+          "id": 33,
+          "manufacturer": "Carl Zeiss AG – Research Microscopy Solutions",
+          "scope": "Zeiss – Getter Group states it exclusively represents Zeiss; scope (medical/surgical vs. research microscopy) to confirm"
+        },
+        {
+          "id": 34,
+          "manufacturer": "Evident (ex-Olympus Scientific Solutions)",
+          "scope": "Olympus (now Evident) – Getter Group states it exclusively represents Olympus; scope (microscopy vs. medical endoscopy) to confirm"
+        }
+      ]
+    },
+    {
+      "key": "lumitron",
+      "name": "Lumitron Ltd.",
+      "name_he": "לומיטרון",
+      "type": "distributor",
+      "website": "https://www.lumitron.co.il",
+      "brands": [
+        {
+          "id": 13,
+          "manufacturer": "Eppendorf SE",
+          "scope": "Eppendorf importer / distributor (centrifuges, pipettes, consumables)"
+        },
+        {
+          "id": 73,
+          "manufacturer": "PHC Holdings (PHCbi)",
+          "scope": "PHCbi (ultralow freezers, incubators) listed on Lumitron's 'Our brands' page"
+        },
+        {
+          "id": 98,
+          "manufacturer": "ELGA LabWater (Veolia)",
+          "scope": "ELGA approved partner for Israel (ELGA 'Approved Partners' directory, tel. 972-52-525-6287)"
+        }
+      ]
+    },
+    {
+      "key": "thermo",
+      "name": "Thermo Fisher Scientific Israel Ltd.",
+      "name_he": "תרמו פישר ישראל (רעננה)",
+      "type": "subsidiary",
+      "website": "https://www.thermofisher.com",
+      "brands": [
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "direct life-science sales & field service organisation being built out 2025-26"
+        },
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "manufacturing / engineering site (ISO 9001/13485); not a sales channel"
+        },
+        {
+          "id": 1,
+          "manufacturer": "Thermo Fisher Scientific",
+          "scope": "electron-microscopy service & support"
+        }
+      ]
+    },
+    {
+      "key": "bio-rad",
+      "name": "Bio-Rad Haifa Ltd.",
+      "name_he": "ביו-ראד ישראל",
+      "type": "subsidiary",
+      "website": "https://www.bio-rad.com",
+      "brands": [
+        {
+          "id": 11,
+          "manufacturer": "Bio-Rad Laboratories",
+          "scope": "direct sales & service of life-science and clinical-diagnostics products (Rishon LeZion; branch since 1991)"
+        },
+        {
+          "id": 11,
+          "manufacturer": "Bio-Rad Laboratories",
+          "scope": "R&D site (ex-ProteOptics, 2006); not a sales channel"
+        }
+      ]
+    },
+    {
+      "key": "zotal",
+      "name": "Zotal Ltd.",
+      "name_he": "זוטל",
+      "type": "distributor",
+      "website": "https://www.zotal.co.il",
+      "brands": [
+        {
+          "id": 28,
+          "manufacturer": "Oxford Nanopore Technologies",
+          "scope": "officially licensed channel partner for Nanopore products in Israel (nanoporetech.com channel-partner page)"
+        },
+        {
+          "id": 86,
+          "manufacturer": "BMG LABTECH",
+          "scope": "BMG LABTECH microplate readers (CLARIOstar, PHERAstar etc.) - listed as BMG's Israel sales & support contact, 4 Habarzel St., Tel Aviv 69710, sales@zotal.co.il"
+        }
+      ]
+    },
+    {
+      "key": "abbott",
+      "name": "Abbott Medical Laboratories Ltd.",
+      "name_he": "אבוט מעבדות רפואיות בע\"מ",
+      "type": "subsidiary",
+      "website": "https://www.il.abbott",
+      "brands": [
+        {
+          "id": 56,
+          "manufacturer": "Abbott Diagnostics",
+          "scope": "Abbott's Israeli affiliate for nutrition, pharmaceuticals and diagnostics (core laboratory, molecular and point-of-care), Atidim Science Park Bldg. 4, Tel Aviv; about 160 employees incl. the Haifa (STARLIMS/Abbott Informatics) development center"
+        }
+      ]
+    },
+    {
+      "key": "accellix",
+      "name": "Accellix, Jerusalem",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "",
+      "brands": [
+        {
+          "id": 58,
+          "manufacturer": "bioMérieux",
+          "scope": "R&D/manufacturing site of Accellix (automated flow-cytometry QC for pharma), acquired by bioMérieux in 2025 - not a sales office for VITEK/BACT/ALERT/BIOFIRE"
+        }
+      ]
+    },
+    {
+      "key": "agrolan",
+      "name": "Agrolan Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 40,
+          "manufacturer": "HORIBA",
+          "scope": "HORIBA water-quality / LAQUA electrochemistry instruments only (Moshav Nov 45, Ramat HaGolan); listed on HORIBA's water-quality distributor page for Israel and marked 'water quality' on HORIBA's worldwide-locations page."
+        }
+      ]
+    },
+    {
+      "key": "almog",
+      "name": "Almog Diagnostic and Medical Equipment Ltd.",
+      "name_he": "אלמוג דיאגנוסטיקה",
+      "type": "distributor",
+      "website": "https://www.almog.co.il",
+      "brands": [
+        {
+          "id": 32,
+          "manufacturer": "Cytek Biosciences",
+          "scope": "Cytek Aurora / Aurora CS spectral flow cytometers (2022 press release; installs at TAU, Technion)"
+        }
+      ]
+    },
+    {
+      "key": "augusta",
+      "name": "Augusta Life Sciences Israel Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.waters.com",
+      "brands": [
+        {
+          "id": 21,
+          "manufacturer": "BD Biosciences & BD Diagnostic Solutions (part of Waters since Feb 2026)",
+          "scope": "Israeli entity of the acquired BD Biosciences & Diagnostic Solutions business (flow cytometry, BD MAX, BACTEC, Phoenix lines), listed by Waters among the SpinCo entities wholly owned by Waters since 9 Feb 2026; Harduf HaNehalim St 2, Caesarea 3079857"
+        }
+      ]
+    },
+    {
+      "key": "bd",
+      "name": "BD Israel",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.bd.com/en-il",
+      "brands": [
+        {
+          "id": 21,
+          "manufacturer": "BD Biosciences & BD Diagnostic Solutions (part of Waters since Feb 2026)",
+          "scope": "BD's own Israeli office and technical service, 14 Hashita St., Caesarea; +972-73-229-0850 (priceisrael@bd.com), technical service +972-73-229-0830 (TSBDISRAEL@bd.com); after the split this entity belongs to the remaining BD (medical) group"
+        }
+      ]
+    },
+    {
+      "key": "bepex",
+      "name": "Bepex",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 60,
+          "manufacturer": "Mindray",
+          "scope": "Mindray hospital beds and clinical lighting only (per LinkedIn post; unverified)"
+        }
+      ]
+    },
+    {
+      "key": "bruker",
+      "name": "Bruker - Israel office, Gedera",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.bruker.com",
+      "brands": [
+        {
+          "id": 5,
+          "manufacturer": "Bruker Corporation",
+          "scope": "mass-spectrometry (Bruker Daltonics) enquiries are directed to Bruker's own office in Gedera, Israel; legal entity name not shown on the page"
+        }
+      ]
+    },
+    {
+      "key": "dinco",
+      "name": "Dinco Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 7,
+          "manufacturer": "Mettler-Toledo International",
+          "scope": "product inspection (Safeline X-ray etc.); Tirat Carmel, +972 4 813 15 15"
+        }
+      ]
+    },
+    {
+      "key": "dover",
+      "name": "Dover Medical & Scientific Equipment",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 59,
+          "manufacturer": "Sysmex",
+          "scope": "Sysmex distributor for Israel as listed in Sysmex Europe's official distributor directory (product-line scope not stated; presumably hematology/urinalysis in-vitro diagnostics)"
+        }
+      ]
+    },
+    {
+      "key": "uri",
+      "name": "Dr. Uri Golik Chemical Instrumentation",
+      "name_he": "ד\"ר גוליק",
+      "type": "distributor",
+      "website": "https://www.golik.co.il",
+      "brands": [
+        {
+          "id": 41,
+          "manufacturer": "Malvern Panalytical (Spectris)",
+          "scope": "Malvern Panalytical particle/materials characterization (Zetasizer, Mastersizer 3000+, NanoSight, Morphologi 4, Archimedes, MicroCal); XRD line not seen on its pages"
+        }
+      ]
+    },
+    {
+      "key": "dyn",
+      "name": "Dyn Diagnostics",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://dyn.co.il",
+      "brands": [
+        {
+          "id": 55,
+          "manufacturer": "Roche Diagnostics",
+          "scope": "Roche Diabetes Care only (Accu-Chek home-care line) - not laboratory analyzers"
+        }
+      ]
+    },
+    {
+      "key": "eisenberg",
+      "name": "Eisenberg Bros. Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://eisenbros.co.il",
+      "brands": [
+        {
+          "id": 34,
+          "manufacturer": "Evident (ex-Olympus Scientific Solutions)",
+          "scope": "Evident (ex-Olympus) microscopes: its 'Microscopy & Imaging' catalogue lists Evident industrial/materials lines (BX53M, GX53, LEXT OLS, DSX, MX63/MX63L, SZ/SZX stereo) and OEM microscope components tagged EVIDENT (OLYMPUS); life-science confocal (FLUOVIEW FV4000/FV5000) demo events promoted by an Eisenberg applications specialist on LinkedIn. Olympus microscopes already listed in its 2009 IPS trade-fair profile."
+        }
+      ]
+    },
+    {
+      "key": "enco",
+      "name": "Enco",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://www.enco.co.il",
+      "brands": [
+        {
+          "id": 9,
+          "manufacturer": "Revvity",
+          "scope": "Revvity screening reagents and consumables (OptiPlate/SpectraPlate microplates, AlphaLISA SureFire Ultra kits) listed in Enco's online catalogue"
+        }
+      ]
+    },
+    {
+      "key": "globus",
+      "name": "GLOBUS Technical Equipment Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 88,
+          "manufacturer": "ZwickRoell",
+          "scope": "ZwickRoell sales partner for Israel (materials testing machines); Kadima Industrial Zone"
+        }
+      ]
+    },
+    {
+      "key": "hitachi",
+      "name": "Hitachi High-Tech Israel, Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "",
+      "brands": [
+        {
+          "id": 37,
+          "manufacturer": "Hitachi High-Tech",
+          "scope": "Maintenance/service of semiconductor manufacturing and inspection equipment (Kiryat Gat office, P.O. Box 1000, MS: Hitachi LC2-3S, +972-8-666-6342); formerly H.H.T.A. Semiconductor Equipment Israel Ltd., renamed April 2020; 100% owned by Hitachi High-Tech. NOT confirmed as a sales channel for SEM/TEM/analytical instruments."
+        }
+      ]
+    },
+    {
+      "key": "isi",
+      "name": "ISI Israel Scientific Instruments Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://www.isil.co.il",
+      "brands": [
+        {
+          "id": 10,
+          "manufacturer": "PerkinElmer (New Mountain Capital)",
+          "scope": "food testing / food quality products, as listed on PerkinElmer's site; Shacham St 32, Petach Tikva, +972 3-9232202 (site given as isil.co.il)"
+        }
+      ]
+    },
+    {
+      "key": "ilex",
+      "name": "Ilex Medical Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://www.ilexmedical.com",
+      "brands": [
+        {
+          "id": 14,
+          "manufacturer": "QIAGEN",
+          "scope": "molecular diagnostics and research - QIAcuity digital PCR, Rotor-Gene Q qPCR, QIAxcel, nucleic-acid extraction, oncology and hematology assay kits (Ilex catalogue pages, c. 2024)"
+        }
+      ]
+    },
+    {
+      "key": "illumina",
+      "name": "Illumina Israel",
+      "name_he": "אילומינה ישראל",
+      "type": "subsidiary",
+      "website": "",
+      "brands": [
+        {
+          "id": 15,
+          "manufacturer": "Illumina",
+          "scope": "R&D / AI centre of excellence (~30 staff); not a sales channel"
+        }
+      ]
+    },
+    {
+      "key": "israel",
+      "name": "Israel Scientific Instruments Ltd.",
+      "name_he": "ISI – ישראל מכשור מדעי",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 44,
+          "manufacturer": "Metrohm",
+          "scope": "official distributor of all Metrohm products and services in Israel from 17 July 2025 (Metrohm news page)"
+        }
+      ]
+    },
+    {
+      "key": "medent",
+      "name": "Medent - Scientific Equipment Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "https://www.medent.co.il",
+      "brands": [
+        {
+          "id": 85,
+          "manufacturer": "INTEGRA Biosciences",
+          "scope": "INTEGRA liquid-handling products (VIAFLO, ASSIST PLUS, VACUSAFE etc.) - listed as INTEGRA's distributor for Israel, Beer Sheva 84206"
+        }
+      ]
+    },
+    {
+      "key": "mercury",
+      "name": "Mercury Scientific & Industrial Products Ltd.",
+      "name_he": "מרקורי מוצרי מדע ותעשייה (גדות מרקורי)",
+      "type": "distributor",
+      "website": "https://www.mercury-ltd.co.il",
+      "brands": [
+        {
+          "id": 3,
+          "manufacturer": "Merck KGaA – Life Science (MilliporeSigma / Sigma-Aldrich / Merck Millipore)",
+          "scope": "self-described exclusive Israeli representative for Merck Milli-Q lab-water systems (sales + certified service since 2012) and distributor of Merck KGaA life-science and chemicals divisions (Millipore filtration, MQuant etc.)"
+        }
+      ]
+    },
+    {
+      "key": "modcon",
+      "name": "Modcon Systems Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 7,
+          "manufacturer": "Mettler-Toledo International",
+          "scope": "process analytics (Ingold sensors/transmitters); Akko, +972 4 9553955"
+        }
+      ]
+    },
+    {
+      "key": "new-road",
+      "name": "New-Road Agencies Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 40,
+          "manufacturer": "HORIBA",
+          "scope": "HORIBA Scientific instruments (marked 'scientific' on HORIBA's worldwide-locations page; Rosh Ha'Ayin) - exact product lines (Raman, particle size, fluorescence, elemental) not itemised; own website not found."
+        }
+      ]
+    },
+    {
+      "key": "opteamx",
+      "name": "OpteamX Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 33,
+          "manufacturer": "Carl Zeiss AG – Research Microscopy Solutions",
+          "scope": "ZEISS industrial camera lenses only (listed on ZEISS's industrial-lens distribution-partners page; 29 Ha'Metsuda St, Azor, info@opteamx.com) - NOT microscopes"
+        }
+      ]
+    },
+    {
+      "key": "ornat",
+      "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+      "name_he": "אורנת",
+      "type": "distributor",
+      "website": "https://www.ornat.co.il",
+      "brands": [
+        {
+          "id": 24,
+          "manufacturer": "New England Biolabs",
+          "scope": "New England Biolabs reagents (per Ornat's brand list quoted on the FISEB vendors page)"
+        }
+      ]
+    },
+    {
+      "key": "perkinelmer",
+      "name": "PerkinElmer Israel Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.perkinelmer.com",
+      "brands": [
+        {
+          "id": 10,
+          "manufacturer": "PerkinElmer (New Mountain Capital)",
+          "scope": "direct sales, service and support for analytical instruments (atomic spectroscopy/ICP-MS, chromatography, mass spectrometry, FTIR) and OneSource lab services; 4 HaSheizaf St., Ra'anana 4366411, +972 3655 8777"
+        }
+      ]
+    },
+    {
+      "key": "picotech",
+      "name": "PicoTech Ltd.",
+      "name_he": "",
+      "type": "distributor",
+      "website": "",
+      "brands": [
+        {
+          "id": 38,
+          "manufacturer": "TESCAN",
+          "scope": "TESCAN SEM / FIB-SEM sales and after-sales support (PicoTech SEM division); Ha-Mefalsim St 17, Petah Tikva, +972-3-6356650, contact Nitzan Cafif per TESCAN's distributor page."
+        }
+      ]
+    },
+    {
+      "key": "rigaku",
+      "name": "Rigaku Semiconductor Instruments Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://rigaku.com/about/rigaku-divisions/rigaku-semiconductor-instruments-ltd",
+      "brands": [
+        {
+          "id": 39,
+          "manufacturer": "Rigaku Holdings",
+          "scope": "Rigaku Group company doing R&D and manufacturing of X-ray semiconductor metrology tools (Ramat Gabriel Industrial Zone, 6 HaMehkar St, Migdal HaEmek; rsi@rigaku.com, +972-4-9951051); joined Rigaku 2019, renamed Dec 2024. Not a sales channel for analytical XRD/XRF."
+        }
+      ]
+    },
+    {
+      "key": "roche",
+      "name": "Roche Pharmaceuticals Ltd. - Diagnostics division",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.roche.co.il",
+      "brands": [
+        {
+          "id": 55,
+          "manufacturer": "Roche Diagnostics",
+          "scope": "Roche Diagnostics business in Israel (cobas core-lab/molecular, point-of-care IVD instruments and reagents); diagnostics division of the Roche group's Israeli affiliate, 6 Hacharash St., Hod Hasharon 4524079"
+        }
+      ]
+    },
+    {
+      "key": "sartorius",
+      "name": "Sartorius Israel Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.sartorius.com/en/general-contact/local-contact",
+      "brands": [
+        {
+          "id": 8,
+          "manufacturer": "Sartorius AG",
+          "scope": "Sartorius' Israeli company at Kibbutz Beit Haemek (ex-Biological Industries; cell-culture media production and local contact, info.israel@sartorius.com, +972-4-9960595); in-country sales representative advertised"
+        }
+      ]
+    },
+    {
+      "key": "siemens",
+      "name": "Siemens Healthineers Israel",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.siemens-healthineers.com/il",
+      "brands": [
+        {
+          "id": 57,
+          "manufacturer": "Siemens Healthineers – Diagnostics",
+          "scope": "all Siemens Healthineers businesses in Israel, including a dedicated Diagnostics unit (a 'Head of Diagnostics, Siemens Healthineers Israel' is named on the company's Israeli site)"
+        }
+      ]
+    },
+    {
+      "key": "sigma-aldrich",
+      "name": "Sigma-Aldrich Israel Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.sigmaaldrich.com/IL/en",
+      "brands": [
+        {
+          "id": 3,
+          "manufacturer": "Merck KGaA – Life Science (MilliporeSigma / Sigma-Aldrich / Merck Millipore)",
+          "scope": "Merck's own Israeli entity: sales/customer contact for Israel and production sites in Rehovot (antibodies, primers, peptides; 3 Plaut St.) and Jerusalem (Har Hotzvim)"
+        }
+      ]
+    },
+    {
+      "key": "tamar",
+      "name": "Tamar Laboratory Supplies Ltd.",
+      "name_he": "תמר ציוד מעבדתי",
+      "type": "distributor",
+      "website": "https://www.tamar.co.il",
+      "brands": [
+        {
+          "id": 93,
+          "manufacturer": "SARSTEDT",
+          "scope": "Sarstedt consumables (tubes, cuvettes, pipette tips) – Sarstedt is on Tamar's represented-companies page"
+        }
+      ]
+    },
+    {
+      "key": "waters",
+      "name": "Waters Israel Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "",
+      "brands": [
+        {
+          "id": 4,
+          "manufacturer": "Waters Corporation",
+          "scope": "Israeli legal entity listed in Waters' 10-K subsidiaries exhibit; sales/service scope not established"
+        }
+      ]
+    },
+    {
+      "key": "zeiss",
+      "name": "ZEISS Israel / Carl Zeiss SMS Ltd.",
+      "name_he": "",
+      "type": "subsidiary",
+      "website": "https://www.zeiss.co.il",
+      "brands": [
+        {
+          "id": 33,
+          "manufacturer": "Carl Zeiss AG – Research Microscopy Solutions",
+          "scope": "Legal entity (publisher) behind the official ZEISS Israel website zeiss.co.il; HaDolev 3, Bar Lev Industrial Park, D.N. Misgav 2015600. The site's contact form lists 'Research Microscopy Solutions' among the product areas it takes inquiries for, but the entity itself is ZEISS's semiconductor (SMS/SMT) unit; a local ZEISS microscopy sales/service team was NOT confirmed."
+        }
+      ]
+    }
   ]
 }
