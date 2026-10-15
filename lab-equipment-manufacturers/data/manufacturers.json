@@ -270,14 +270,14 @@
       "founded": 1999,
       "website": "https://www.agilent.com",
       "category": "Diversified analytical & life-science instruments",
-      "employees": 18000,
-      "employees_year": 2024,
-      "employees_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). FY2024 Form 10-K: approximately 18,000 employees (FY2025 10-K figure not checked).",
-      "revenue_original": "USD 6.51 billion",
-      "revenue_usd_m": 6510,
-      "revenue_year": "FY2024 (ended 31 Oct 2024)",
+      "employees": 18100,
+      "employees_year": 2025,
+      "employees_note": "Approximately 18,100 employees worldwide as of Oct 31, 2025 per FY2025 10-K (17,900 at Oct 31, 2024)",
+      "revenue_original": "USD 6.95 billion",
+      "revenue_usd_m": 6950,
+      "revenue_year": "FY2025 (ended 31 Oct 2025)",
       "revenue_scope": "company",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). FY2025 (ended 31 Oct 2025) revenue was reported around USD 6.9-7.0 billion but is not verified here.",
+      "revenue_note": "Agilent Q4/FY2025 results release (24 Nov 2025): revenue USD 6.95 billion, +6.7% reported; FY2026 guidance USD 7.3-7.4 billion.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -315,13 +315,16 @@
       "sources": [
         "https://www.agilent.com/en/contact-us/israel",
         "https://www.chem-nextgen.agilent.com/cs/Satellite?assettype=GSA_C&assetid=1404943326173&d=&formassembly=false&pagename=Agilent/GSA_C/GenericInnerTemplateWithFourZones_New",
-        "http://eldan.biz/fisebilanit-2014/"
+        "http://eldan.biz/fisebilanit-2014/",
+        "https://www.sec.gov/Archives/edgar/data/1090872/000109087225000087/a-20251031.htm",
+        "https://www.businesswire.com/news/home/20251124941358/en/Agilent-Reports-Fourth-Quarter-Fiscal-Year-2025-Financial-Results"
       ],
       "confidence": "medium",
       "confidence_note": "Israel: one official-source entity supplied by the brief, not re-verified and not checked for completeness. Low: identity/products from model knowledge; size figures recalled from published reports but not verified in-session; Israeli presence not researched (search budget exhausted, WebFetch/curl blocked). Needs a follow-up research run.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 408-345-8886 / +1 877-424-4536",
         "email": "contact_us@agilent.com",
@@ -329,8 +332,7 @@
         "contact_url": "",
         "note": "HQ (Agilent site footer); no Israel/EMEA contact shown.",
         "source": "https://reporting.chem.agilent.com/cdc/bottom_page.html"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 3,
@@ -343,14 +345,14 @@
       "founded": 1668,
       "website": "https://www.sigmaaldrich.com",
       "category": "Life-science instruments & reagents",
-      "employees": 62000,
-      "employees_year": 2024,
-      "employees_note": "Merck KGaA group headcount (~62,000); the Life Science business sector employs roughly 28,000 (recalled, unverified).",
-      "revenue_original": "EUR 9.26 billion",
-      "revenue_usd_m": 10188,
-      "revenue_year": "FY2024",
+      "employees": 62461,
+      "employees_year": 2025,
+      "employees_note": "Merck KGaA group headcount (fully consolidated subsidiaries) as of Dec 31, 2025 per Annual Report 2025 combined management report (62,557 at end-2024)",
+      "revenue_original": "EUR 9.0 billion",
+      "revenue_usd_m": 9900,
+      "revenue_year": "FY2025",
       "revenue_scope": "segment",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Life Science sector net sales ~EUR 9,262 million in 2024 (group net sales ~EUR 21.2 billion). FY2025 figures not verified. Converted at EUR 1.10.",
+      "revenue_note": "Life Science business sector net sales FY2025 (organic +4.0%, FX -3.4%; Process Solutions EUR 3.8bn, Science & Lab Solutions EUR 4.5bn) per Q4/FY2025 results release of 5 Mar 2026 and Annual Report 2025; the release rounds to EUR 9.0bn. Group net sales EUR 21.1bn. Life Science business units reorganised as of Jan 1, 2026.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -409,7 +411,10 @@
         "https://eng.mercury-ltd.co.il/analytical_and_sample_preparation",
         "https://eng.mercury-ltd.co.il/lab_water_purification",
         "https://www.mercury-ltd.co.il/milli_q",
-        "https://www.mercury-ltd.co.il/milli_q_iq_7003051015"
+        "https://www.mercury-ltd.co.il/milli_q_iq_7003051015",
+        "https://www.emdgroup.com/en/news/q4-2025-05-03-2026",
+        "https://reports.emdgroup.com/en/annualreport/2025/_assets/downloads/lsc-life-science-emd-ar25.pdf",
+        "https://www.reports.emdgroup.com/en/annualreport/2025/_assets/downloads/cmr-combined-management-report-emd-ar25.pdf"
       ],
       "confidence": "high",
       "confidence_note": "Subsidiary confirmed on the manufacturer's own contact page and certificates; Milli-Q distributor role is the distributor's own statement.",
@@ -437,14 +442,14 @@
       "founded": 1958,
       "website": "https://www.waters.com",
       "category": "Analytical instruments (chromatography / mass spectrometry / spectroscopy)",
-      "employees": 7800,
-      "employees_year": 2024,
-      "employees_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Stand-alone Waters, ~7,800 employees (2024 10-K). The combination with BD's Biosciences & Diagnostic Solutions business (announced 14 Jul 2025, Reverse Morris Trust, ~USD 17.5 billion; expected to close around end of Q1 calendar 2026) roughly doubles headcount (~16,000) and revenue (~USD 6.5 billion pro forma) - closing status and combined figures NOT verified in this session.",
-      "revenue_original": "USD 2.96 billion",
-      "revenue_usd_m": 2958,
-      "revenue_year": "FY2024",
+      "employees": 7900,
+      "employees_year": 2025,
+      "employees_note": "Approximately 7,900 employees as of Dec 31, 2025 per FY2025 10-K (pre-combination; the combination with BD's Biosciences & Diagnostic Solutions business closed Feb 9, 2026 and is not reflected)",
+      "revenue_original": "USD 3,165 million",
+      "revenue_usd_m": 3165,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 stand-alone figure. On 9 Feb 2026 Waters completed the Reverse Morris Trust combination with BD's Biosciences & Diagnostic Solutions businesses; the combined company has pro-forma revenue of roughly USD 6.5 billion and ~16,000 employees (deal announcement, not re-verified).",
+      "revenue_note": "FY2025 sales per Q4/FY2025 results release of Feb 9, 2026 (+7% reported and constant currency vs USD 2,958m FY2024); excludes BD Biosciences & Diagnostic Solutions (combination completed Feb 9, 2026) Correction: Waters' FY2025 10-K gives approximately 7,600 employees at Dec 31, 2024 (not 7,800). Combination with BD's Biosciences & Diagnostic Solutions business completed Feb 9, 2026; FY2026 figures will include it.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -501,13 +506,16 @@
         "https://mr.gov.il/ilgstorefront/he/p/515797",
         "https://mr.gov.il/ilgstorefront/en/p/574186",
         "https://www.waters.com/waters/en_IL/Course-List-Israel/nav.htm?locale=en_IL&cid=134734604",
-        "https://www.sec.gov/Archives/edgar/data/1000697/000119312524047491/d691142dex211.htm"
+        "https://www.sec.gov/Archives/edgar/data/1000697/000119312524047491/d691142dex211.htm",
+        "https://s205.q4cdn.com/962852172/files/doc_news/Waters-Corporation-NYSE-WAT-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-2026.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1000697/000119312526062604/d778470d10k.htm"
       ],
       "confidence": "medium",
       "confidence_note": "",
       "israel_check": "partial",
       "israel_evidence_year": 2024,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 508 478 2000",
         "email": "",
@@ -515,8 +523,7 @@
         "contact_url": "",
         "note": "HQ — Israel office (Waters (TC) Israel Ltd.) not found in 2 searches (results were Israeli water utilities); Waters says local offices/distributors are listed on waters.com; HQ details from a GlobalData profile.",
         "source": "https://www.globaldata.com/company-profile/waters-corp/locations/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 5,
@@ -529,14 +536,14 @@
       "founded": 1960,
       "website": "https://www.bruker.com",
       "category": "Diversified analytical & life-science instruments",
-      "employees": 9900,
-      "employees_year": 2024,
-      "employees_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Approximately 9,900 employees (2024 10-K); 2025 figure not checked.",
-      "revenue_original": "USD 3.37 billion",
-      "revenue_usd_m": 3366,
-      "revenue_year": "FY2024",
+      "employees": 11085,
+      "employees_year": 2025,
+      "employees_note": "11,085 employees at Dec 31, 2025 as attributed to the FY2025 10-K by data aggregators (Tracenable, Motley Fool); not verified directly against the filing's Human Capital section",
+      "revenue_original": "USD 3.44 billion",
+      "revenue_usd_m": 3440,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). FY2024 revenue USD 3,366 million; FY2025 (~USD 3.4-3.5 billion) not verified.",
+      "revenue_note": "FY2025 revenue per Q4/FY2025 results release of Feb 12, 2026 (+2.1% reported, -3.7% organic vs USD 3.37bn FY2024); includes USD 127.2m impairments and USD 77.4m restructuring charges",
       "size_basis": "reported",
       "top_products": [
         {
@@ -620,13 +627,17 @@
         "https://www.bruker.com/en/services/support/office.india-middle-east-africa.israel-caesarea.html",
         "https://www.bruker.com/es/services/support/india-middleeast-africa/israel-caesarea.html",
         "https://www.lapidot.com/en/partners/",
-        "https://www.bruker.com/en/services/support/india-middleeast-africa/israel-rehovot.html"
+        "https://www.bruker.com/en/services/support/india-middleeast-africa/israel-rehovot.html",
+        "https://ir.bruker.com/press-releases/press-release-details/2026/Bruker-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/1109354/000119312526082523/brkr-20251231.htm",
+        "https://tracenable.com/company/bruker/employee-count"
       ],
       "confidence": "high",
       "confidence_note": "Both Israeli entities come from Bruker's official support page; division-level scope and the Gedera entity name remain unconfirmed.",
       "israel_check": "partial",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+972 8 947 7705",
         "email": "bsis@bruker.com",
@@ -634,8 +645,7 @@
         "contact_url": "https://www.bruker.com/en/services/support/india-middleeast-africa/israel-rehovot.html",
         "note": "Israel office (Bruker Scientific Israel Ltd., Rehovot; sales line/email shown for X-ray products; support +972 8 947 7704, service.baxs.ime@bruker.com; Magnetic Resonance/Preclinical Imaging at 1st Yaacov Perry St., Rehovot). AFM/mechanical testing via distributor New Technology, 11 Tuval St., 7th Floor, Ramat Gan 52522, +972 3 679 2000; microbiology/diagnostics via Lapidot Medical, 8 Hashita St., Caesarea Industrial Park 3088900; mass spectrometry: Bruker office in Gedera (no address/phone shown).",
         "source": "https://www.bruker.com/en/services/support/india-middleeast-africa/israel-rehovot.html"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 6,
@@ -651,11 +661,11 @@
       "employees": 14600,
       "employees_year": 2025,
       "employees_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Consolidated group headcount approx. 14,600 as of 31 Mar 2025 (approximate).",
-      "revenue_original": "JPY 511.9 billion",
-      "revenue_usd_m": 3430,
-      "revenue_year": "FY ending Mar-2025",
+      "revenue_original": "JPY 560,728 million",
+      "revenue_usd_m": 3757,
+      "revenue_year": "FY ended Mar-2026",
       "revenue_scope": "company",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Consolidated net sales ~JPY 511.9 billion for FY2024 (ended 31 Mar 2025); FY ending Mar-2026 not verified. Converted at JPY 0.0067.",
+      "revenue_note": "Consolidated net sales for FY ended Mar 31, 2026 (record; +4.0% vs JPY 539,047m) per consolidated financial results (J-GAAP) released May 12, 2026; FY Mar-2027 forecast JPY 575.0bn Correction: Bracketed JPY 511.9bn is the FY ended Mar-2024 figure; FY ended Mar-2025 net sales were JPY 539.0bn. Consolidated employees were 14,219 at Mar 31, 2024 (corporate profile) and 14,481 at Mar 31, 2025 (Integrated Report 2025); the Mar-2026 headcount was not found in search snippets.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -697,7 +707,9 @@
         "https://www.shimadzu.com/med/contactsearch/index.html",
         "https://www.shimadzu.com/an/contact/index.html",
         "https://agentek.co.il/products/shimadzu-gcms-tq-8040-nx/",
-        "https://agentek.co.il/products/shimadzu-toc-l-series/"
+        "https://agentek.co.il/products/shimadzu-toc-l-series/",
+        "https://www.shimadzu.com/sites/shimadzu.com/files/ir/sk9v/bwsa7egx2qmcfltg.pdf",
+        "https://filingreader.com/news-wire/tokyo/2026-05-12/shimadzu-net-sales-hit-record-5607bn-yen-as-dividend-rises"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own brand page with current products; not confirmed on Shimadzu's site.",
@@ -725,14 +737,14 @@
       "founded": 1945,
       "website": "https://www.mt.com",
       "category": "Lab balances & weighing",
-      "employees": 17000,
-      "employees_year": 2024,
-      "employees_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Approximately 17,000 employees (2024 10-K).",
-      "revenue_original": "USD 3.87 billion",
-      "revenue_usd_m": 3872,
-      "revenue_year": "FY2024",
+      "employees": 18100,
+      "employees_year": 2025,
+      "employees_note": "Total global workforce approximately 18,100 as of Dec 31, 2025 per FY2025 10-K, consisting of ~16,600 employees plus ~1,500 temporary personnel (Europe ~6,200, Americas ~5,200, Asia/other ~6,700)",
+      "revenue_original": "USD 4.026 billion",
+      "revenue_usd_m": 4026,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). FY2024 net sales USD 3,872 million; FY2025 (~USD 3.9-4.0 billion) not verified.",
+      "revenue_note": "FY2025 reported sales per Q4 2025 results release of Feb 5, 2026 (+4% reported)",
       "size_basis": "reported",
       "top_products": [
         {
@@ -805,13 +817,16 @@
         "https://agentek.co.il/vendors/",
         "https://agentek.co.il/products/chronect-xpr-robotic-powder-and-liquid-dispensing/",
         "https://agentek.co.il/products/mettler-toledo-96-channel-pipette-rainin-micropro/",
-        "https://agentek.co.il/products/mettler-toledo-throat-profile-metal-detector/"
+        "https://agentek.co.il/products/mettler-toledo-throat-profile-metal-detector/",
+        "https://investor.mt.com/news/news-details/2026/Mettler-Toledo-International-Inc--Reports-Fourth-Quarter-2025-Results/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/1037646/000103764626000011/mtd-20251231.htm"
       ],
       "confidence": "high",
       "confidence_note": "Manufacturer's own Israel page plus the distributor's own site agree.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 614-438-4511",
         "email": "",
@@ -819,8 +834,7 @@
         "contact_url": "",
         "note": "HQ (Columbus, OH; address also on GlobalData profile). Operational HQ: Im Langacher 44, CH-8606 Greifensee, Switzerland — +41 44 944 22 11 (2014 annual report) / +41 44 944 45 45 (American Pharmaceutical Review). Phone numbers come from a 2014 report and directories — verify. No general email shown.",
         "source": "https://s202.q4cdn.com/258391627/files/doc_financials/2014-Annual-Report.pdf"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 8,
@@ -833,14 +847,14 @@
       "founded": 1870,
       "website": "https://www.sartorius.com",
       "category": "Bioprocess & filtration",
-      "employees": 13500,
-      "employees_year": 2024,
-      "employees_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). Group headcount approx. 13,500 at end-2024 (approximate).",
-      "revenue_original": "EUR 3.38 billion",
-      "revenue_usd_m": 3719,
-      "revenue_year": "FY2024",
+      "employees": 14042,
+      "employees_year": 2025,
+      "employees_note": "14,042 employees as of Dec 31, 2025 per preliminary FY2025 results release (Feb 3, 2026); +514 vs end-2024",
+      "revenue_original": "EUR 3,538 million",
+      "revenue_usd_m": 3892,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). FY2024 sales revenue EUR 3,381 million; FY2025 (~EUR 3.5-3.6 billion) not verified. Converted at EUR 1.10.",
+      "revenue_note": "Group sales revenue FY2025 per preliminary results release of Feb 3, 2026 (+7.6% constant currency, +4.7% reported); underlying EBITDA margin 29.7%",
       "size_basis": "reported",
       "top_products": [
         {
@@ -901,13 +915,15 @@
         "https://labotal.co.il/firms/?lang=en",
         "https://www.sartorius.com/en/contact-us/local-contact",
         "https://www.sartorius.com/en/company/newsroom/blog/israel-a-new-site-for-cell-culture-media-production-808260",
-        "https://labotal.co.il/product-category/liquid-handling/multichannel-pipettors/?lang=en"
+        "https://labotal.co.il/product-category/liquid-handling/multichannel-pipettors/?lang=en",
+        "https://www.sartorius.com/en/company/newsroom/corporate-news/preliminary-full-year-results-2025-sartorius-group-1793940"
       ],
       "confidence": "high",
       "confidence_note": "Israeli entity confirmed on manufacturer's contact and subsidiaries pages; Labotal's exclusivity for balances is self-reported.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+972 4 996 0595",
         "email": "",
@@ -915,8 +931,7 @@
         "contact_url": "https://www.sartorius.com/en/contact-us/local-contact",
         "note": "Israel office (Sartorius Israel, per third-party directory — fax +972 4 996 0043; not confirmed on sartorius.com, whose newsroom mentions an upgraded facility/new site for cell culture media production in Israel). HQ: Sartorius Campus, Otto-Brenner-Str. 20, 37079 Göttingen, Germany, +49 551 3080.",
         "source": "https://pharmchoices.com/list-of-biotech-companies-in-israel-2/5/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 9,
@@ -931,12 +946,12 @@
       "category": "Life-science instruments & reagents",
       "employees": 11000,
       "employees_year": 2025,
-      "employees_note": "11,000+ employees per Revvity 2025 Corporate Fact Sheet (March 2025)",
-      "revenue_original": "USD 2.76 billion",
-      "revenue_usd_m": 2755,
-      "revenue_year": "FY2024",
+      "employees_note": "Approximately 11,000 employees as of Dec 28, 2025 per FY2025 10-K",
+      "revenue_original": "USD 2,856 million",
+      "revenue_usd_m": 2856,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "Figure from model knowledge of the company's published report; could not be re-verified against a source in this session (search budget exhausted, network blocked). FY2024 revenue USD 2,755 million; FY2025 (~USD 2.8 billion) not verified.",
+      "revenue_note": "FY2025 revenue per Q4/FY2025 results release of Feb 2, 2026 (vs USD 2,755m in 2024)",
       "size_basis": "reported",
       "top_products": [
         {
@@ -996,13 +1011,16 @@
         "https://s202.q4cdn.com/908952201/files/doc_downloads/2025/2025-Corporate-Fact-Sheet_March-2025.pdf",
         "https://www.enco.co.il/suppliers.php",
         "https://www.enco.co.il/news/revvity_automatic_cell_counting_because_every_cell_counts/",
-        "https://www.enco.co.il/screening_reagents/sa_optiplate384_b128_janssenp_disc/cusg82832/"
+        "https://www.enco.co.il/screening_reagents/sa_optiplate384_b128_janssenp_disc/cusg82832/",
+        "https://ir.revvity.com/news/investor-news/news-details/2026/Revvity-Announces-Financial-Results-for-the-Fourth-Quarter-and-Full-Year-of-2025/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/31791/000003179126000012/revv-20251228.htm"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor-site evidence for diagnostics reagents and consumables; coverage of instruments and newborn screening unverified; no manufacturer-side confirmation.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 781-663-6900",
         "email": "",
@@ -1010,8 +1028,7 @@
         "contact_url": "",
         "note": "HQ (address from official 2024 corporate fact sheet); phone from a third-party directory (Prospeo) — other directories list +1 781-462-5126 and +1 781-663-5791; no general email shown.",
         "source": "https://s202.q4cdn.com/908952201/files/doc_downloads/2024/1365241-revvity-corporate-fact-sheet-2-26-24.pdf"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 10,
@@ -1359,15 +1376,15 @@
       "founded": 1984,
       "website": "https://www.qiagen.com",
       "category": "Life-science instruments & reagents",
-      "employees": 6000,
+      "employees": 5654,
       "employees_year": 2025,
-      "employees_note": "Approximate: QIAGEN's corporate boilerplate states 'more than 6,000 employees'; the exact 2025 annual-report figure was not retrieved in this session (search budget exhausted). Company materials seen describe 35 subsidiaries in 25+ countries and distribution partners in 60+ countries.",
-      "revenue_original": "USD 2.09 billion",
+      "employees_note": "QIAGEN FY2025 Form 20-F: 5,654 employees as of 31 Dec 2025 (Annual Report 2025 key figures round this to ~5,700).",
+      "revenue_original": "USD 2,090.0 million",
       "revenue_usd_m": 2090,
       "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2025 net sales USD 2.09B vs USD 1.98B in 2024 (~+5% CER); net income USD 424.9M (360Dx/GenomeWeb coverage of the Q4 2025 release). QIAGEN reports in USD.",
-      "size_basis": "mixed",
+      "revenue_note": "QIAGEN Q4/FY2025 results (4 Feb 2026) and 20-F: net sales $2,090.0m (+6% actual rates, +5% CER; 2024: $1,978.2m) - confirms existing figure. Correction: Bracketed employee count of 6,000 is overstated; the FY2025 20-F reports 5,654 employees at 31 Dec 2025.",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "QIAcube Connect",
@@ -1448,13 +1465,17 @@
         "https://www.ilexmedical.com/catallog_category/ביולוגיה-מולקולרית/",
         "https://www.ilexmedical.com/catalog_products/הפקות/",
         "http://eldan.biz/fisebilanit-2014/",
-        "https://www.eldan.biz/diagnostics-kits-and-consumables/"
+        "https://www.eldan.biz/diagnostics-kits-and-consumables/",
+        "https://www.businesswire.com/news/home/20260204085226/en/QIAGEN-Exceeds-Q4-2025-Outlook-Driven-by-Growth-Pillars",
+        "https://stocktitan.net/sec-filings/QGEN/20-f-qiagen-n-v-files-annual-report-foreign-issuer-abe7e9c1d1d1.html",
+        "https://www.hauptversammlung.de/fileadmin/public/user_upload/QIAGEN_GB25.pdf"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor-site evidence (Ilex current, Eldan stale); no confirmation on QIAGEN's site and the research-vs-clinical split between distributors is unverified.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+49 2103 29 12000",
         "email": "",
@@ -1462,8 +1483,7 @@
         "contact_url": "https://qiagen.com/ch/knowledge-and-support/contact-customer-support",
         "note": "HQ — statutory seat Hulsterweg 82, 5912 PL Venlo, Netherlands (Private Equity International profile); phone shown is Hilden customer care, technical service +49 2103 29 12400; investor relations ir@qiagen.com, +49 2103 29 11711 / +1 240 686 2222; US (Germantown, MD) customer care +1 800-426-8157; contact URL shown is the Swiss version of QIAGEN's customer-support contact page.",
         "source": "https://www.biocompare.com/100425-QIAGEN/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 15,
@@ -2144,14 +2164,14 @@
       "founded": 1851,
       "website": "https://www.corning.com/worldwide/en/products/life-sciences.html",
       "category": "Labware & consumables (plastic & glass)",
-      "employees": 55500,
-      "employees_year": 2024,
-      "employees_note": "Corning Incorporated group headcount; the Life Sciences segment is not broken out.",
-      "revenue_original": "USD 979 million",
-      "revenue_usd_m": 979,
-      "revenue_year": "FY2024",
+      "employees": 67200,
+      "employees_year": 2025,
+      "employees_note": "Corning Incorporated total: approximately 67,200 full- and part-time employees in 44 countries per FY2025 10-K (Human Capital section). Large increase vs ~56,300 reported for end-2024; verify in the filing before use.",
+      "revenue_original": "USD 972 million",
+      "revenue_usd_m": 972,
+      "revenue_year": "FY2025",
       "revenue_scope": "segment",
-      "revenue_note": "Corning Life Sciences segment net sales FY2024 ~USD 979 million (Corning 10-K/segment reporting; recalled, not re-verified). Parent Corning Inc. FY2024 GAAP net sales ~USD 13.1 billion (core sales ~USD 14.5 billion). FY2025 results (published Jan 2026, Life Sciences roughly USD 1.0 billion) could not be verified in this session.",
+      "revenue_note": "Life Sciences segment net sales FY2025 (about -1% vs USD 979m in 2024; Q4 2025 USD 246m; segment net income USD 61m) per Corning Q4/FY2025 results release of Jan 27, 2026",
       "size_basis": "reported",
       "top_products": [
         {
@@ -2196,7 +2216,9 @@
         "https://www.getter.co.il/about-en/",
         "https://www.getter.co.il/brands/",
         "https://www.getter.co.il/about/",
-        "https://getter.co.il/4203-2"
+        "https://getter.co.il/4203-2",
+        "https://www.businesswire.com/news/home/20260127020453/en",
+        "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm"
       ],
       "confidence": "medium",
       "confidence_note": "",
@@ -2386,11 +2408,11 @@
       "employees": 3100,
       "employees_year": 2025,
       "employees_note": "Approximately 3,100 employees (Bio-Techne 10-K for FY ended 30 Jun 2025; recalled, not re-verified).",
-      "revenue_original": "USD 1.2 billion",
-      "revenue_usd_m": 1200,
-      "revenue_year": "FY2025 (ended 30 Jun 2025)",
+      "revenue_original": "USD 1.2 billion (approx.; flat vs FY2025 USD 1,219.6 million)",
+      "revenue_usd_m": 1220,
+      "revenue_year": "FY Jun-2026",
       "revenue_scope": "company",
-      "revenue_note": "FY2025 net sales approx. USD 1.2 billion (about USD 1.21-1.22 bn; recalled from company results, not re-verified). FY2026 (ended Jun 2026) results released Aug 2026 were not accessible in this session.",
+      "revenue_note": "Bio-Techne Q4 fiscal 2026 results release 12 Aug 2026 (SEC 8-K Ex. 99.1) and FY2026 10-K: full-year fiscal 2026 (ended 30 Jun 2026) net sales flat at $1.2 billion (organic flat; FX +2%, held-for-sale business -2%); Protein Sciences $874.6m. Exact total should be taken from the FY2026 10-K. Company is pending acquisition by Merck KGaA. FY2026 headcount not found; existing 3,100 left unchanged.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -2451,7 +2473,10 @@
         "https://www.enco.co.il/about.php",
         "https://www.getter.co.il/about-en/",
         "https://www.bio-techne.com/distributors/novus",
-        "https://www.bio-techne.com/distributors"
+        "https://www.bio-techne.com/distributors",
+        "https://investors.bio-techne.com/press-releases/detail/537/bio-techne-releases-fourth-quarter-fiscal-2026-results",
+        "https://www.sec.gov/Archives/edgar/data/0000842023/000110465926094391/tech-20260812xex99d1.htm",
+        "https://www.sec.gov/Archives/edgar/data/0000842023/000110465926100322/tech-20260630x10k.htm"
       ],
       "confidence": "low",
       "confidence_note": "The manufacturer's own page shows an Israeli distributor exists (Kfar Saba address) but its name was not captured; ENCO is a plausible but unconfirmed candidate.",
@@ -2479,15 +2504,15 @@
       "founded": 1989,
       "website": "https://www.miltenyibiotec.com",
       "category": "Cell analysis (flow cytometry / cell sorting)",
-      "employees": 4700,
+      "employees": 4900,
       "employees_year": 2025,
-      "employees_note": "Company boilerplate: 'more than 4,700 employees in 23 countries' (also Randstad employer profile ~4,700). Nordkurier (regional press, Aug 2025) reports almost 4,900 employees worldwide incl. ~570 at Teterow. No 2024/2025 revenue figure found (Nordkurier only says the company aimed to pass the EUR 1 billion mark).",
+      "employees_note": "Nordkurier (Aug 2025): almost 4,900 employees worldwide (c. 570 in Teterow); company careers/job-ad boilerplate: 'more than 4,900 people in over 50 countries'. No 2023-2025 revenue disclosure found (an undated Nordkurier piece quotes the CEO expecting to pass EUR 1bn in sales).",
       "revenue_original": "EUR ~600 million (trade estimate; private)",
       "revenue_usd_m": 660,
       "revenue_year": "2024 (estimate)",
       "revenue_scope": "estimate",
       "revenue_note": "No official 2024/2025 revenue figure found; Bundesanzeiger filing not seen in snippets.",
-      "size_basis": "mixed",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "MACS MicroBeads / autoMACS / MultiMACS",
@@ -2574,14 +2599,14 @@
       "founded": 2012,
       "website": "https://www.10xgenomics.com",
       "category": "Genomics / sequencing",
-      "employees": 1100,
-      "employees_year": 2024,
-      "employees_note": "Approximately 1,100 employees at 31 Dec 2024 (10-K; recalled, not re-verified).",
-      "revenue_original": "USD 610.8 million",
-      "revenue_usd_m": 611,
-      "revenue_year": "FY2024",
+      "employees": 1178,
+      "employees_year": 2025,
+      "employees_note": "1,178 employees as of Dec 31, 2025 per FY2025 10-K (822 US, 356 international; R&D 332, sales/marketing/support 473, G&A 185, manufacturing 188); ~8% workforce reduction announced May 2025",
+      "revenue_original": "USD 642.8 million",
+      "revenue_usd_m": 643,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 revenue USD 610.8 million (10-K; recalled). FY2025 revenue (reported Feb 2026, roughly flat at ~USD 0.6 billion) could not be verified in this session.",
+      "revenue_note": "FY2025 revenue per Q4/FY2025 results release of Feb 12, 2026; includes USD 44.1m one-time patent settlement revenue (USD 598.7m excluding it, about -2% vs 2024)",
       "size_basis": "reported",
       "top_products": [
         {
@@ -2639,13 +2664,16 @@
         "https://www.danyel.co.il/10x-genomics/",
         "https://www.10xgenomics.com/distributors/application",
         "https://scale.10xgenomics.com/distributors/",
-        "https://www.weizmann.ac.il/life-sciences/events/25669"
+        "https://www.weizmann.ac.il/life-sciences/events/25669",
+        "https://www.sec.gov/Archives/edgar/data/1770787/000162828026007673/txg-fy2025earningsreleasee.htm",
+        "https://www.sec.gov/Archives/edgar/data/1770787/000162828026007822/txg-20251231.htm"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own brand page plus a 2019 university event; no manufacturer-side listing seen.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 925 401 7300",
         "email": "",
@@ -2653,8 +2681,7 @@
         "contact_url": "",
         "note": "HQ. Address/phone from GlobalData, Creditsafe and IPOScoop profiles; no general email seen.",
         "source": "https://www.globaldata.com/company-profile/10x-genomics-inc/locations/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 28,
@@ -2667,14 +2694,14 @@
       "founded": 2005,
       "website": "https://nanoporetech.com",
       "category": "Genomics / sequencing",
-      "employees": 1100,
-      "employees_year": 2024,
-      "employees_note": "Approximately 1,100 employees (FY2024 annual report; recalled, not re-verified).",
-      "revenue_original": "GBP 183.2 million",
-      "revenue_usd_m": 238,
-      "revenue_year": "FY2024",
+      "employees": 1335,
+      "employees_year": 2025,
+      "employees_note": "1,335 employees at end-2025 (up from 1,315; 504 in R&D) per annual results for the year ended Dec 31, 2025 as reported by GenomeWeb; PitchBook also lists 1,335",
+      "revenue_original": "GBP 223.9 million",
+      "revenue_usd_m": 291,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 revenue GBP 183.2 million (annual report; recalled). FY2025 results (published Mar 2026; company had guided ~20%+ growth) could not be verified in this session. Converted at GBP 1.30.",
+      "revenue_note": "FY2025 revenue per annual results announcement of Mar 2, 2026 (+22.2% reported, +24.2% constant currency vs GBP 183.2m); adjusted EBITDA loss GBP 86.7m",
       "size_basis": "reported",
       "top_products": [
         {
@@ -2715,13 +2742,16 @@
         "https://nanoporetech.com/news/news-g42-healthcare-signs-distribution-agreement-oxford-nanopore-technologies-sequencing",
         "https://nanoporetech.com/about/channel-partners",
         "https://www.zotal.co.il/oxford-nanopore-now-in-israel/",
-        "https://www.zotal.co.il/product_brands/oxford-nanopore-technologies/"
+        "https://www.zotal.co.il/product_brands/oxford-nanopore-technologies/",
+        "https://a.storyblok.com/f/196663/x/eb9b67d55c/oxford-nanopore-annual-results-for-the-year-ended-31-december-2025-2-march-2026.pdf",
+        "https://www.genomeweb.com/node/650096"
       ],
       "confidence": "medium",
       "confidence_note": "Israel distributor confirmed by the manufacturer's official channel-partner page (high); size figures recalled rather than re-verified (hence medium overall).",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+44 845 034 7900",
         "email": "",
@@ -2729,8 +2759,7 @@
         "contact_url": "https://nanoporetech.com/ja/contact",
         "note": "HQ (Global headquarters). Phone is the EMEAI line on the official contact page (fax +44 845 034 7901); Americas +1 212 202 1712. The contact page surfaced only as localized /ja/ and /zh/ variants (English version presumably https://nanoporetech.com/contact). No general email seen; the page offers live chat and web forms.",
         "source": "https://nanoporetech.com/ja/contact"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 29,
@@ -2743,14 +2772,14 @@
       "founded": 2004,
       "website": "https://www.pacb.com",
       "category": "Genomics / sequencing",
-      "employees": 530,
-      "employees_year": 2024,
-      "employees_note": "Approximate headcount after the 2024-25 restructurings (10-K FY2024 figure recalled). Figures recalled from company statements / filings and not re-verified online in this session.",
-      "revenue_original": "USD 154.0 million",
-      "revenue_usd_m": 154,
-      "revenue_year": "FY2024",
+      "employees": 485,
+      "employees_year": 2025,
+      "employees_note": "485 full-time employees as of Dec 31, 2025 per FY2025 10-K (as cited by GenomeWeb; R&D 162, operations 64, service 37, marketing & sales 163, administration 59)",
+      "revenue_original": "USD 160.0 million",
+      "revenue_usd_m": 160,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 revenue USD 154.0 million (10-K; recalled). FY2025 revenue (reported Feb 2026; guided ~USD 150-170 million) not verified in this session.",
+      "revenue_note": "FY2025 revenue per Q4/FY2025 results release of Feb 12, 2026 (vs USD 154.0m in 2024; consumables USD 82m, instruments USD 53.8m, service USD 24.2m)",
       "size_basis": "reported",
       "top_products": [
         {
@@ -2796,11 +2825,14 @@
         "https://www.eisenbros.co.il/product/revio/",
         "https://www.eisenbros.co.il/product/sequel-ii-systems/",
         "https://www.eisenbros.co.il/product/onso/",
-        "https://www.eisenbros.co.il/pacbio-celebrates-nature-methods-naming-long-read-sequencing-method-of-the-year/"
+        "https://www.eisenbros.co.il/pacbio-celebrates-nature-methods-naming-long-read-sequencing-method-of-the-year/",
+        "https://www.pacb.com/press_releases/pacbio-announces-fourth-quarter-and-full-year-2025-financial-results/",
+        "https://www.sec.gov/Archives/edgar/data/1299130/000129913026000034/pacb-20251231.htm",
+        "https://www.genomeweb.com/node/656291"
       ],
       "confidence": "low",
       "confidence_note": "Manufacturer's distributor list shows no Israel entry; absence of evidence only.",
-      "employees_scope": "estimate",
+      "employees_scope": "company",
       "israel_check": "partial",
       "israel_evidence_year": 2026,
       "israel_current": "changed",
@@ -2827,11 +2859,11 @@
       "employees": 3300,
       "employees_year": 2024,
       "employees_note": "Approximately 3,300 employees (Tecan Annual Report 2024; recalled, not re-verified).",
-      "revenue_original": "CHF 934.2 million",
-      "revenue_usd_m": 1093,
-      "revenue_year": "FY2024",
+      "revenue_original": "CHF 882.5 million",
+      "revenue_usd_m": 1033,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 sales CHF 934.2 million (annual report; recalled). FY2025 results (published Mar 2026; Tecan had guided a sales decline) not verified in this session. Converted at CHF 1.17.",
+      "revenue_note": "FY2025 sales per full-year results release of Mar 16, 2026 (-5.5% in CHF, -1.6% in local currencies vs CHF 934.3m); net loss CHF 110.7m after CHF 139.5m impairments; year-end 2025 headcount not found in search snippets",
       "size_basis": "reported",
       "top_products": [
         {
@@ -2870,7 +2902,9 @@
         "https://il.linkedin.com/in/moshe-cohen-84656279",
         "https://www.labmanager.com/tecan-expands-presence-in-the-united-states-with-new-distribution-agreement-for-detection-instruments-and-consumables-23766",
         "https://www.tecan.com/contact-us",
-        "https://www.tecan.com/knowledge-portal/i-am-from-xyz-and-are-looking-for-service-in-my-country"
+        "https://www.tecan.com/knowledge-portal/i-am-from-xyz-and-are-looking-for-service-in-my-country",
+        "https://www.tecan.com/corporate-news/tecan-reports-return-to-sales-growth-and-strong-order-entry-in-the-second-half-of-2025-63549",
+        "https://www.nasdaq.com/press-release/tecan-presents-2025-results-and-provides-details-program-reignite-profitable-growth"
       ],
       "confidence": "low",
       "confidence_note": "Israel partner based on one LinkedIn source covering only the diagnostics line; size figures recalled.",
@@ -3008,9 +3042,9 @@
       "founded": 2014,
       "website": "https://www.cytekbio.com",
       "category": "Cell analysis (flow cytometry / cell sorting)",
-      "employees": 680,
-      "employees_year": 2024,
-      "employees_note": "~680 employees per 10-K FY2024 (recalled, unverified).",
+      "employees": 702,
+      "employees_year": 2025,
+      "employees_note": "Cytek FY2025 10-K: 702 full-time employees as of 31 Dec 2025.",
       "revenue_original": "USD 201.5 million",
       "revenue_usd_m": 201.5,
       "revenue_year": "FY2025",
@@ -3063,7 +3097,7 @@
       ],
       "confidence": "medium",
       "confidence_note": "Revenue from the SEC 10-K (via search result); headcount not retrieved. Israeli distributor (Almog) supported by a 2022 press release plus recent LinkedIn/installation evidence, not by a Cytek-published distributor list.",
-      "employees_scope": "estimate",
+      "employees_scope": "company",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
@@ -3292,14 +3326,14 @@
       "founded": 1917,
       "website": "https://www.microscope.healthcare.nikon.com",
       "category": "Light microscopy & imaging",
-      "employees": 18790,
-      "employees_year": 2024,
-      "employees_note": "Nikon group consolidated headcount (approx. 18,800 as of Mar-2024); Healthcare Business headcount not disclosed. Figures recalled from company reports, NOT verified in this session (web tools unavailable) - verify before use.",
-      "revenue_original": "JPY 715.0 billion (Nikon group)",
-      "revenue_usd_m": 4791,
-      "revenue_year": "FY ending Mar-2025",
-      "revenue_scope": "parent",
-      "revenue_note": "Nikon group revenue; the Healthcare Business segment (microscopes, cell-culture observation, retinal imaging) is roughly JPY 110-120 billion (recalled, unverified).",
+      "employees": 19928,
+      "employees_year": 2026,
+      "employees_note": "Nikon Corporation consolidated employees as of Mar 31, 2026 per Nikon company data page (20,069 at Mar 31, 2025)",
+      "revenue_original": "JPY 111,922 million",
+      "revenue_usd_m": 750,
+      "revenue_year": "FY ended Mar-2026",
+      "revenue_scope": "segment",
+      "revenue_note": "Healthcare Business segment revenue for FY ended Mar 31, 2026 per Nikon 'Financial Results by Segment'. Nikon group revenue JPY 677,163m (-5.3% vs JPY 715,285m; about USD 4,537m) with operating loss JPY 112.4bn on impairments mainly in Digital Manufacturing/Precision Equipment (results of May 8, 2026) Correction: Nikon consolidated employees were 20,069 at Mar 31, 2025 per Nikon Sustainability Report 2025 (bracket shows 18,790).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -3342,7 +3376,11 @@
         "https://agentek.co.il/vendors/",
         "https://www.microscope.healthcare.nikon.com/en_EU/contact/service/171079",
         "https://industry.nikon.com/en-gb/european-reseller-network/",
-        "https://agentek.co.il/about-us/"
+        "https://agentek.co.il/about-us/",
+        "https://www.nikon.com/company/ir/finance/segment/",
+        "https://www.nikon.com/company/ir/finance/performance/",
+        "https://www.nikon.com/company/ir/ir_library/result/pdf/2026/26_all_e.pdf",
+        "https://nikon.com/company/corporate/data/"
       ],
       "confidence": "high",
       "confidence_note": "Manufacturer's contact directory and distributor's own brand page agree.",
@@ -3370,14 +3408,14 @@
       "founded": 1949,
       "website": "https://www.jeol.com",
       "category": "Electron microscopy & X-ray / materials characterization",
-      "employees": 3900,
-      "employees_year": 2024,
-      "employees_note": "Consolidated headcount approx. 3,900 (as of Mar-2024). Figures recalled from company reports, NOT verified in this session (web tools unavailable) - verify before use.",
-      "revenue_original": "JPY 171.6 billion",
-      "revenue_usd_m": 1150,
-      "revenue_year": "FY ending Mar-2024",
+      "employees": 3604,
+      "employees_year": 2025,
+      "employees_note": "3,604 consolidated employees as of Mar 31, 2025 per annual securities report (EDINET-sourced listings); Mar 31, 2026 figure not found in search snippets",
+      "revenue_original": "JPY 179,353 million",
+      "revenue_usd_m": 1202,
+      "revenue_year": "FY ended Mar-2026",
       "revenue_scope": "company",
-      "revenue_note": "Consolidated net sales approx. JPY 171.6 billion for the year ended 31 Mar 2024 (record at the time); FY ending Mar-2025 (reportedly higher, ~JPY 180+ bn) and Mar-2026 not verified. Figures recalled from company reports, NOT verified in this session (web tools unavailable) - verify before use.",
+      "revenue_note": "Consolidated net sales for FY ended Mar 31, 2026 (-8.8% vs JPY 196,695m; operating profit JPY 26.0bn) per earnings release of May 15, 2026 as summarised by Quartr and StockAnalysis (company release not retrieved directly) Correction: Bracketed JPY 171.6bn is the FY ended Mar-2024 figure; FY ended Mar-2025 net sales were JPY 196.7bn. JEOL transferred its Medical Equipment business to Sysmex effective Apr 1, 2026 (FY Mar-2027 net sales forecast JPY 164.0bn).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -3420,13 +3458,17 @@
         "https://bargal.co.il/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%95%D7%90%D7%99%D7%A8%D7%95%D7%A2%D7%99%D7%9D/",
         "https://bargal.co.il/product/scanning-electron-microscope-sem-jsm-it210/",
         "https://bargal.co.il/product/transmission-electron-microscope-tem-jem-f200-multi-purpose/",
-        "https://bargal.co.il/product/cryo-arm-300-ii-jem-3300-field-emission-cryo-electron-microscope/"
+        "https://bargal.co.il/product/cryo-arm-300-ii-jem-3300-field-emission-cryo-electron-microscope/",
+        "https://quartr.com/events/jeol-ltd-6951-q4-2026_FsIaynJo",
+        "https://stockanalysis.com/quote/tyo/6951/financials/income-statement/",
+        "https://atsoho.com/companies/en/4010001122986"
       ],
       "confidence": "high",
       "confidence_note": "Manufacturer page and distributor's own product pages agree.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+81 42 543 1111",
         "email": "",
@@ -3434,8 +3476,7 @@
         "contact_url": "",
         "note": "HQ. Address/phone consistent across GlobalData, Datanyze and other directories; no general email seen; website www.jeol.co.jp.",
         "source": "https://www.globaldata.com/company-profile/jeol-ltd/locations/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 37,
@@ -3448,15 +3489,15 @@
       "founded": 1947,
       "website": "https://www.hitachi-hightech.com",
       "category": "Electron microscopy & X-ray / materials characterization",
-      "employees": 12400,
-      "employees_year": 2025,
-      "employees_note": "Consolidated headcount ~12,000-12,500 (recalled, unverified).",
-      "revenue_original": "JPY ~750 billion (estimate)",
-      "revenue_usd_m": 5000,
-      "revenue_year": "FY ending Mar-2025 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "Hitachi High-Tech has been wholly owned by Hitachi, Ltd. since 2020 and no longer publishes stand-alone results; order of magnitude from its last public filings and Hitachi segment data. Figures recalled from company statements / filings and not re-verified online in this session.",
-      "size_basis": "estimate",
+      "employees": 15514,
+      "employees_year": 2026,
+      "employees_note": "company outline (hitachi-hightech.com): 15,514 consolidated / 7,318 non-consolidated employees as of March 2026",
+      "revenue_original": "JPY 821.7 billion",
+      "revenue_usd_m": 5505,
+      "revenue_year": "FY2025 (ended Mar 2026)",
+      "revenue_scope": "company",
+      "revenue_note": "company outline (hitachi-hightech.com): consolidated revenue JPY 821.7bn for the fiscal year ended March 2026 (wholly owned subsidiary of Hitachi, Ltd.)",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "Regulus / SU series FE-SEM (e.g. SU8600, SU7000)",
@@ -3500,11 +3541,13 @@
         "https://www.dunsguide.co.il/Cbb1f8bb487930de25836c244c98d6697_%D7%97%D7%91%D7%A8%D7%95%D7%AA_%D7%94%D7%99%D7%99%D7%98%D7%A7_%D7%95%D7%9E%D7%99%D7%97%D7%A9%D7%95%D7%91/%D7%94%D7%99%D7%98%D7%90%D7%A6%D7%99_%D7%94%D7%99%D7%99_%D7%98%D7%A7_%D7%99%D7%A9%D7%A8%D7%90%D7%9C/",
         "https://bargal.co.il/product/jsm-it200-scanning-electron-microscope-sem/",
         "https://qd-europe.com/de/en/product/tm4000-series-tabletop-sem/",
-        "https://qd-europe.com/il/en/about-us/contact/"
+        "https://qd-europe.com/il/en/about-us/contact/",
+        "https://www.hitachi-hightech.com/global/en/company/outline.html",
+        "https://www.hitachi-hightech.com/global/name/"
       ],
       "confidence": "low",
       "confidence_note": "Subsidiary verified on hitachi-hightech.com but it is semiconductor-focused; SEM/TEM/analytical distributor not found.",
-      "employees_scope": "estimate",
+      "employees_scope": "company",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
@@ -3528,15 +3571,15 @@
       "founded": 1991,
       "website": "https://www.tescan.com",
       "category": "Electron microscopy & X-ray / materials characterization",
-      "employees": 800,
-      "employees_year": 2024,
-      "employees_note": "Approximately 700-800 employees worldwide (company statements, recalled).",
-      "revenue_original": "EUR ~130 million (trade estimate; private)",
-      "revenue_usd_m": 143,
-      "revenue_year": "2024 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "TESCAN Group (Brno) is privately held; revenue estimate from trade press / Czech register figures. Figures recalled from company statements / filings and not re-verified online in this session.",
-      "size_basis": "estimate",
+      "employees": 898,
+      "employees_year": 2025,
+      "employees_note": "headcount cited in coverage of Shimadzu's 25 Dec 2025 acquisition announcement (pulse2.com); directory band 501-1,000 (Dec 2025)",
+      "revenue_original": "CZK 4,026 million",
+      "revenue_usd_m": 176,
+      "revenue_year": "FY2024",
+      "revenue_scope": "company",
+      "revenue_note": "TESCAN Group consolidated net sales per Shimadzu's acquisition notice (25 Dec 2025): CZK 3,316m (2023), CZK 4,026m (2024), 2024 EBITDA CZK 627m. USD via ~25.1 CZK/EUR then EUR 1.10 (CZK not in the conversion table). Shimadzu completed the share purchase on 10 Jul 2026 (TESCAN now a wholly owned subsidiary; price reported USD 678-711m).",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "TESCAN CLARA / MIRA",
@@ -3578,11 +3621,14 @@
         "https://shimadzu.com/news/2026/j97cvpy4m18o8cm3.html",
         "https://tescan.com/about-tescan/",
         "https://picotech.co.il/news/tescan-vega-3-sem-in-stock/",
-        "https://picotech.co.il/analytical-equipment/sem-fib-sem-accessories/compact-analytical-sem/"
+        "https://picotech.co.il/analytical-equipment/sem-fib-sem-accessories/compact-analytical-sem/",
+        "https://www.shimadzu.com/sites/shimadzu.com/files/ir/ugq2/9gwn9rgijjzm2gya.pdf",
+        "https://pulse2.com/shimadzu-acquires-tescan-for-711-million-to-expand-electron-microscopy-business/",
+        "https://www.azolifesciences.com/news/20260715/Tescan-Joins-Shimadzu-Group-to-Accelerate-Innovation-and-Deliver-Greater-Value-to-Customers.aspx"
       ],
       "confidence": "high",
       "confidence_note": "Named on the manufacturer's official distributor page; corroborated by LinkedIn.",
-      "employees_scope": "estimate",
+      "employees_scope": "company",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
@@ -3609,12 +3655,12 @@
       "employees": 2000,
       "employees_year": 2024,
       "employees_note": "Approximately 2,000 employees (IPO prospectus, recalled).",
-      "revenue_original": "JPY ~100 billion (estimate)",
-      "revenue_usd_m": 670,
-      "revenue_year": "FY2024 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "Rigaku Holdings (TSE Prime 268A, listed Oct 2023) reported revenue of roughly JPY 95-100 billion for FY2024 (recalled, unverified).",
-      "size_basis": "estimate",
+      "revenue_original": "JPY 94,193 million",
+      "revenue_usd_m": 631,
+      "revenue_year": "FY2025",
+      "revenue_scope": "company",
+      "revenue_note": "Revenue (IFRS) for FY ended Dec 31, 2025, +3.9% YoY, per full-year results of Feb 13, 2026 as reported by StockAnalysis and Envalith (company's own release not retrieved in snippets; matches Nov-2025 company forecast of JPY 94.12bn); FY2026 forecast JPY 101.0bn Correction: Implied FY2024 revenue was about JPY 90.7bn (not ~100bn). Employee count: only an undated ~1,970 (Google Finance) was found; not updated.",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "SmartLab",
@@ -3674,7 +3720,10 @@
         "https://www.cbinsights.com/company/xwinsys/",
         "https://www.yarden-biotec.co.il/lab-products-2/nex-de----60-kv",
         "https://www.yarden-biotec.co.il/lab-products-2/nex-qc---50kv",
-        "https://rigaku.com/about/news-and-press-releases/rigaku-launches-nexqcii"
+        "https://rigaku.com/about/news-and-press-releases/rigaku-launches-nexqcii",
+        "https://stockanalysis.com/quote/tyo/268A/financials/income-statement/",
+        "https://envalith.com/en/companies/268A/segments",
+        "https://simplywall.st/stocks/jp/tech/tse-268a/rigaku-holdings-shares/news/rigaku-holdings-sharp-profit-drop-and-upbeat-guidance-might"
       ],
       "confidence": "medium",
       "confidence_note": "XRF channel verified on distributor site; XRD channel unknown; subsidiary verified on rigaku.com but out of scope for lab sales.",
@@ -3705,11 +3754,11 @@
       "employees": 9000,
       "employees_year": 2024,
       "employees_note": "Consolidated group headcount approx. 9,000 (end-2024). Figures recalled from company reports, NOT verified in this session (web tools unavailable) - verify before use.",
-      "revenue_original": "JPY 306 billion",
-      "revenue_usd_m": 2050,
-      "revenue_year": "FY2024 (Dec-2024)",
+      "revenue_original": "JPY 333.0 billion",
+      "revenue_usd_m": 2231,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "Consolidated net sales approx. JPY 306 billion in FY2024 (record; segments: Energy & Environment/automotive, Bio & Healthcare, Materials & Semiconductor incl. HORIBA STEC). FY2025 (Dec-2025) results not checked. Figures recalled from company reports, NOT verified in this session (web tools unavailable) - verify before use.",
+      "revenue_note": "Net sales for FY ended Dec 31, 2025 (record; +JPY 15.7bn vs JPY 317.3bn in 2024; operating profit JPY 53.0bn) per HORIBA FY2025 results presentation of Feb 25, 2026; segments: Energy & Environment JPY 134.4bn, Bio & Healthcare JPY 42.1bn, Materials & Semiconductor JPY 156.5bn Correction: Bracketed JPY 306bn for FY2024 is inconsistent with HORIBA's FY2025 presentation, which shows FY2024 net sales of JPY 317.3bn. Consolidated employees were 8,955 at Dec 31, 2024 per corporate profile; the Dec-2025 group figure was not found (Japan group companies only: 3,324).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -3765,7 +3814,9 @@
         "http://www-origin.horiba.com/application/material-property-characterization/water-analysis/water-quality-electrochemistry-instrumentation/distributors/israel/",
         "https://www.horiba.com/esp/company/group-companies/",
         "https://www.horiba.com/int/company/events/detail/news/6/2026/20260625hme/",
-        "https://www.horiba.com/medical/products/hematology"
+        "https://www.horiba.com/medical/products/hematology",
+        "https://static.horiba.com/fileadmin/Horiba/Company/Investor_Relations/IR_Library/Presentation_Materials/20260225_PR_en_01_B5s.pdf",
+        "https://stockanalysis.com/quote/tyo/6856/financials/income-statement/"
       ],
       "confidence": "medium",
       "confidence_note": "Both entities named on HORIBA's own pages, but the listings are dated, no distributor-side confirmation, and the medical division channel is unknown.",
@@ -3877,11 +3928,11 @@
       "employees": 2200,
       "employees_year": 2025,
       "employees_note": "Annual Report 2025 'at a glance' reads as '2,200+ employees' (text extraction ambiguous); operations in 23 countries, 27 base locations. Third-party aggregators show ~2,000.",
-      "revenue_original": "GBP 500.6 million",
-      "revenue_usd_m": 651,
-      "revenue_year": "FY ending Mar-2025",
+      "revenue_original": "GBP 423.2 million",
+      "revenue_usd_m": 550,
+      "revenue_year": "FY ended Mar-2026",
       "revenue_scope": "company",
-      "revenue_note": "FY2024/25 group revenue GBP 500.6m (prior year 470.4m), adjusted operating profit GBP 82.2m. NanoScience (quantum/cryogenics) contributed ~GBP 59m revenue and ~GBP 1m adjusted operating profit in FY25. FY2025/26 results (year to Mar-2026) were not retrieved in this session.",
+      "revenue_note": "Revenue from continuing operations for FY ended Mar 31, 2026 (-4.6% reported, -3.0% organic constant currency vs restated GBP 443.4m) per preliminary results of Jun 9, 2026; NanoScience reclassified as a discontinued operation; adjusted operating profit GBP 73.7m Correction: FY Mar-2025 revenue was restated to GBP 443.4m (continuing operations) after the NanoScience sale; GBP 500.6m was the previously reported figure including NanoScience. FY26 headcount not found (Annual Report 2025 'at a glance' still ~2,200).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -3948,7 +3999,9 @@
         "https://qd-europe.com/be/en/news/latest-updates/newsdetails/quantum-design-acquires-nanoscience-division-of-oxford-instruments--2516/",
         "https://qd-europe.com/il/en/about-us/contact/",
         "https://qd-europe.com/at/en/product/high-performance-ccd-detectors/",
-        "https://qd-europe.com/lu/en/product/automated-3d-raman-imaging-system/"
+        "https://qd-europe.com/lu/en/product/automated-3d-raman-imaging-system/",
+        "https://www.oxinst.com/news/full-year-results-2026-improving-momentum-through-h2.-advanced-technologies-entering-a-new-phase-of-growth/",
+        "https://www.oxinst.com/assets/uploads/Oxford_Instruments_plc_preliminary_FY26_results_9_June_2026.pdf"
       ],
       "confidence": "low",
       "confidence_note": "Four different search angles found no Israeli entity; absence of evidence only.",
@@ -4290,15 +4343,15 @@
       "founded": 1979,
       "website": "https://www.spectro.com",
       "category": "Elemental & materials analysis",
-      "employees": 500,
-      "employees_year": 2024,
-      "employees_note": "SPECTRO (Kleve) employs roughly 400-500; parent AMETEK ~21,500 (recalled, unverified).",
-      "revenue_original": "USD 6.94 billion",
-      "revenue_usd_m": 6940,
-      "revenue_year": "FY2024",
+      "employees": 22500,
+      "employees_year": 2025,
+      "employees_note": "AMETEK group headcount at 31 Dec 2025 as shown by headcount trackers citing the FY2025 10-K (PitchBook/Tickerleague/Datanyze 22,500; Revelio ~22,300). The 10-K Human Capital sentence itself was not visible in search snippets - verify against the FY2025 10-K.",
+      "revenue_original": "USD 7.4 billion",
+      "revenue_usd_m": 7400,
+      "revenue_year": "FY2025",
       "revenue_scope": "parent",
-      "revenue_note": "AMETEK group revenue (parent); SPECTRO alone is not disclosed (order of EUR 100-150M, trade estimate).",
-      "size_basis": "mixed",
+      "revenue_note": "AMETEK press release 3 Feb 2026 (SEC 8-K Ex. 99.1): FY2025 sales $7.4 billion, +7% vs 2024 (rounded in release; exact figure ~USD 7.43bn in the 10-K).",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "SPECTRO ARCOS",
@@ -4349,11 +4402,14 @@
         "https://spectro.co.il/index.php?cs=5302&dir=site&op=category&page=catalog",
         "http://www.spectro.co.il/ICP",
         "https://spectro.co.il/index.php?cs=5290&dir=site&op=item&page=catalog",
-        "https://spectro.co.il/product/xrf-xsort/"
+        "https://spectro.co.il/product/xrf-xsort/",
+        "https://www.ametek.com/newsroom/news/investor/2026/february/ametek-announces-record-fourth-quarter-and-full-year-results",
+        "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000006/ametek8kexhibit99102032026.htm",
+        "https://tickerleague.com/companies/AME/employee-count"
       ],
       "confidence": "low",
       "confidence_note": "No confirming source; the Spectro (Israel) Ltd. lead is unverified and may be a coincidence of names.",
-      "employees_scope": "estimate",
+      "employees_scope": "parent",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "changed",
@@ -4569,12 +4625,12 @@
       "category": "Thermal analysis & materials testing",
       "employees": 4000,
       "employees_year": 2025,
-      "employees_note": "PARENT scope: NETZSCH Group 'more than 4,000 employees in 36 countries' per NETZSCH's own exhibitor profiles (German Pavilion, Arablab/Chinaplas) and 2026 job postings. No separate headcount for the Analyzing & Testing business unit found.",
-      "revenue_original": "EUR ~150 million (A&T business unit; trade estimate)",
-      "revenue_usd_m": 165,
-      "revenue_year": "2024 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "Not recorded: only aggregator figure seen (Craft: NETZSCH Group EUR 877.1 million FY2024) - not from an official/reputable source; no A&T segment revenue found.",
+      "employees_note": "NETZSCH Group: 'more than 4,000 employees in 36 countries' per the company's own exhibitor profiles 2024-2026 (group total, not the Analyzing & Testing unit)",
+      "revenue_original": "EUR 877.1 million",
+      "revenue_usd_m": 965,
+      "revenue_year": "FY2024",
+      "revenue_scope": "parent",
+      "revenue_note": "NETZSCH Group consolidated FY2024 per craft.co (filing-derived figures: gross profit EUR 547.4m, net income EUR 62.7m); the Analyzing & Testing unit is not disclosed separately - verify against the Bundesanzeiger consolidated statement of the NETZSCH Holding",
       "size_basis": "mixed",
       "top_products": [
         {
@@ -4623,7 +4679,9 @@
         "https://chinaplas.german-pavilion.com/en/sites/exhibitors/116482",
         "https://craft.co/netzsch-group",
         "https://www.medent.co.il/scientific.equipment/wp-content/uploads/2019/09/Simultaneous-Thermal-Analyzer-%E2%80%93-STA-449-F5-Jupiter-1.pdf",
-        "https://www.netzsch.com/en/company/locations"
+        "https://www.netzsch.com/en/company/locations",
+        "https://arablab.german-pavilion.com/en/sites/exhibitors/98670",
+        "https://chinaplas.german-pavilion.com/en/sites/exhibitors/135087"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own site only; some pages stale; manufacturer page not checked.",
@@ -4732,14 +4790,14 @@
       "website": "https://www.hach.com",
       "category": "Water & electrochemical analysis",
       "employees": 17000,
-      "employees_year": 2024,
-      "employees_note": "Parent Veralto headcount, approx. (Veralto reports roughly 16,000-17,000 associates in its recent 10-Ks; figure from memory, not verified this session). Hach's own headcount is not disclosed separately.",
-      "revenue_original": "USD 3.16 billion (Veralto Water Quality segment, approx.)",
-      "revenue_usd_m": 3160,
-      "revenue_year": "FY2024",
+      "employees_year": 2025,
+      "employees_note": "Veralto FY2025 10-K: approximately 17,000 associates as of 31 Dec 2025 (whole company, not segment).",
+      "revenue_original": "USD 3,321 million",
+      "revenue_usd_m": 3321,
+      "revenue_year": "FY2025",
       "revenue_scope": "segment",
-      "revenue_note": "Hach is the largest business in Veralto's Water Quality segment (which also includes Trojan Technologies, ChemTreat, OTT HydroMet, Sea-Bird, McCrometer); Hach-only revenue is not disclosed. Segment figure (~USD 3.16 bn of Veralto's ~USD 5.23 bn FY2024 sales) is from memory of Veralto's FY2024 10-K and could not be verified this session (search budget exhausted, fetch failures) — verify before use.",
-      "size_basis": "mixed",
+      "revenue_note": "Veralto FY2025 10-K / annual report segment table: Water Quality sales $3,321m (2024: $3,138m, +5.9%); Veralto total sales $5,503m.",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "DR3900 / DR6000",
@@ -4786,13 +4844,16 @@
         "https://www.modotec.co.il/%D7%A1%D7%A4%D7%A7%D7%98%D7%95%D7%A4%D7%95%D7%98%D7%95%D7%9E%D7%98%D7%A8%D7%99%D7%9D/",
         "https://www.modotec.co.il/%D7%91%D7%A7%D7%A8%D7%99%D7%9D/",
         "https://www.hach.com/support/global-distributors",
-        "https://mena.hach.com/global-distributor-support"
+        "https://mena.hach.com/global-distributor-support",
+        "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000011/vlto-20251231.htm",
+        "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000018/a2025_annualxreportxfina.htm"
       ],
       "confidence": "low",
       "confidence_note": "Only a ~5-year-old manufacturer page for the Flow line; core lab line channel unknown.",
       "israel_check": "partial",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "parent",
       "contact": {
         "phone": "+1 800-227-4224 (toll-free); +1 970-669-3050 (international line)",
         "email": "orders@hach.com; support@hach.com",
@@ -4800,8 +4861,7 @@
         "contact_url": "https://hach.com/contact",
         "note": "HQ; fax +1 970-669-2932; export/international: export@hach.com, intl@hach.com; tech support techhelp@hach.com / support.hach.com; Middle East regional contact page https://mena.hach.com/contact",
         "source": "https://hach.com/contact"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 53,
@@ -4945,12 +5005,12 @@
       "employees": 200,
       "employees_year": 2024,
       "employees_note": "Roughly 200 employees (recalled, unverified).",
-      "revenue_original": "EUR ~40 million (trade estimate; private)",
-      "revenue_usd_m": 44,
-      "revenue_year": "2024 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "VELP (Usmate Velate, Italy) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-      "size_basis": "estimate",
+      "revenue_original": "EUR 23.26 million",
+      "revenue_usd_m": 25.6,
+      "revenue_year": "FY2024",
+      "revenue_scope": "company",
+      "revenue_note": "VELP Scientifica Srl (Usmate) standalone filed accounts as republished by Topaziende/Quotidiano.net: revenue EUR 23.26m in 2024 (2023: EUR 21.98m), net profit EUR 3.98m, value of production EUR 24.13m; excludes foreign subsidiaries (USA, China, India); verify against the bilancio depositato. Company press: listed in Assolombarda/PwC Top500 Monza-Brianza 2024.",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "UDK 169 / UDK 139",
@@ -4992,7 +5052,9 @@
         "https://labotal.co.il/product-category/analytical-instruments/kjeldahl-analyzers/",
         "https://biofindly.co.il/distributor/labotal/",
         "https://labotal.co.il/firms/?lang=en",
-        "https://www.velp.com/en-ww/velp-scientifica-distribution-awards.aspx"
+        "https://www.velp.com/en-ww/velp-scientifica-distribution-awards.aspx",
+        "https://topaziende.quotidiano.net/?p=150864",
+        "https://www.velp.com/en-ww/velps-recognition-in-the-top500-2024-companies-of-monza-province.aspx"
       ],
       "confidence": "high",
       "confidence_note": "Explicit, dated statement on the distributor's own site plus directory corroboration; manufacturer page not checked.",
@@ -5020,14 +5082,14 @@
       "founded": 1968,
       "website": "https://diagnostics.roche.com",
       "category": "Clinical / IVD laboratory analyzers",
-      "employees": 103600,
+      "employees": 103249,
       "employees_year": 2024,
-      "employees_note": "Roche Group headcount (~103,600 at end-2024, Roche Annual Report 2024) — from memory, not verified this session; Diagnostics Division headcount not separately recorded. Founded: Roche 1896; diagnostics activities since 1968 (Boehringer Mannheim acquired 1998).",
-      "revenue_original": "CHF 14.3 billion (Diagnostics Division, approx.)",
-      "revenue_usd_m": 16731,
-      "revenue_year": "FY2024",
+      "employees_note": "Roche Group FTE at 31 Dec 2024 (Statista/Macrotrends citing Roche Annual Report 2024). End-2025 figure not found in search snippets; Roche Annual Report 2025 only says 'more than 100,000 employees' - check the Annual Report 2025 key figures.",
+      "revenue_original": "CHF 13.85 billion",
+      "revenue_usd_m": 16205,
+      "revenue_year": "FY2025",
       "revenue_scope": "segment",
-      "revenue_note": "Roche Diagnostics Division sales FY2024 ≈ CHF 14.3 bn (Roche Group ≈ CHF 60.5 bn). FY2025 (reported Jan 2026) was broadly similar in CHF (low-single-digit CER growth, strong-franc headwind) — exact FY2025 figure not verified this session. All figures from memory of Roche results releases; no source could be opened (search budget exhausted, fetch failures) — verify.",
+      "revenue_note": "Roche full-year 2025 results (29 Jan 2026): Diagnostics division sales CHF 13.85bn (2024: CHF 14.32bn), -3% in CHF, +2% at CER; reported via 360Dx/GenomeWeb coverage of the Roche release. Correction: Bracketed 'Roche 103,600' is the end-2023 FTE count (103,605); the end-2024 figure was 103,249 FTE.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -5100,13 +5162,18 @@
         "https://mr.gov.il/ilgstorefront/en/p/attachment/005056BF4DAB1EDD8BE98F48448B8144/%D7%97%D7%95%D7%91%D7%A8%D7%AA%20%D7%94%D7%9E%D7%9B%D7%A8%D7%96",
         "https://gamidor.co.il/en/tissue-diagnostics-2/",
         "https://dyn.co.il/home-care-en",
-        "https://careers.roche.com/global/en/job/ROCHGLOBAL202605111903EXTERNALENGLOBAL/Application-Specialist-Molecular-Solutions"
+        "https://careers.roche.com/global/en/job/ROCHGLOBAL202605111903EXTERNALENGLOBAL/Application-Specialist-Molecular-Solutions",
+        "https://www.roche.com/investors/events/annual-results-2025",
+        "https://www.360dx.com/node/109221",
+        "https://www.genomeweb.com/node/648686",
+        "https://de.statista.com/statistik/daten/studie/77111/umfrage/roche-gruppe-anzahl-der-mitarbeiter-seit-2007"
       ],
       "confidence": "high",
       "confidence_note": "Israel finding only: entity named on two official Roche pages; the direct-sales channel for cobas/LightCycler is inferred from the affiliate's IVD sales roles and the absence of any distributor, not from an explicit statement.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "parent",
       "contact": {
         "phone": "+972 9 973 7777",
         "email": "",
@@ -5114,8 +5181,7 @@
         "contact_url": "https://diagnostics.roche.com/me/en/contact-forms/contact-us-support.html",
         "note": "Israel office; address/phone from a third-party directory (Roche Israel, roche.co.il), not confirmed on an official Roche page; contact_url is the Roche Diagnostics Middle East contact form; an older Accu-Chek manual lists former distributor Dyn Diagnostics, 7 Ha'Eshel St, Caesarea, +972 4 627 7090",
         "source": "https://ichgcp.net/pharma-list/office/84-roche"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 56,
@@ -5128,14 +5194,14 @@
       "founded": 1972,
       "website": "https://www.corelaboratory.abbott",
       "category": "Clinical / IVD laboratory analyzers",
-      "employees": 114000,
-      "employees_year": 2024,
-      "employees_note": "Abbott Laboratories total headcount (~114,000, Abbott 10-K for FY2024) — from memory, not verified this session; Diagnostics division headcount not disclosed. Founded: Abbott 1888; Diagnostics Division established 1972.",
-      "revenue_original": "USD 9.3 billion (Diagnostic Products segment, approx.)",
-      "revenue_usd_m": 9300,
-      "revenue_year": "FY2024",
+      "employees": 115000,
+      "employees_year": 2025,
+      "employees_note": "Abbott FY2025 10-K: approximately 115,000 employees as of 31 Dec 2025 (whole company, 69% outside the US).",
+      "revenue_original": "USD 8,937 million",
+      "revenue_usd_m": 8937,
+      "revenue_year": "FY2025",
       "revenue_scope": "segment",
-      "revenue_note": "Abbott Diagnostic Products segment sales FY2024 ≈ USD 9.3 bn (Abbott total ≈ USD 42.0 bn); FY2025 Diagnostics ≈ USD 9 bn (lower COVID testing; approx., reported Jan 2026). From memory of Abbott 10-K / earnings releases; could not be verified this session (search budget exhausted, fetch failures) — verify.",
+      "revenue_note": "Abbott Q4/FY2025 results release 22 Jan 2026: Diagnostics full-year sales $8,937m, -4.3% reported / -4.5% organic (Abbott total sales $44.3bn).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -5196,13 +5262,16 @@
         "https://www.abbott.com/global-locations-contacts/israel.html",
         "https://www.il.abbott/contact.html",
         "https://www.ilexmedical.com/wp-content/uploads/2025/04/%D7%93%D7%95%D7%97-%D7%AA%D7%A7%D7%95%D7%A4%D7%AA%D7%99-%D7%9C%D7%A9%D7%A0%D7%AA-2024.pdf",
-        "https://www.ilexmedical.com/invest/"
+        "https://www.ilexmedical.com/invest/",
+        "https://abbott.mediaroom.com/2026-01-22-Abbott-Reports-Fourth-Quarter-and-Full-Year-2025-Results-Issues-2026-Financial-Outlook",
+        "https://www.sec.gov/Archives/edgar/data/1800/000162828026010185/abt-20251231.htm"
       ],
       "confidence": "high",
       "confidence_note": "Israel finding only: entity named on Abbott's own pages; direct channel for Alinity/Architect inferred from the affiliate's diagnostics scope and absence of a distributor.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "parent",
       "contact": {
         "phone": "+972 3 769 1000",
         "email": "",
@@ -5210,8 +5279,7 @@
         "contact_url": "https://www.abbott.com/global-locations-contacts/israel.html",
         "note": "Israel office; official Abbott global-locations page; fax +972 3 649 4973",
         "source": "https://www.abbott.com/global-locations-contacts/israel.html"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 57,
@@ -5224,14 +5292,14 @@
       "founded": 2015,
       "website": "https://www.siemens-healthineers.com",
       "category": "Clinical / IVD laboratory analyzers",
-      "employees": 73000,
+      "employees": 74000,
       "employees_year": 2025,
-      "employees_note": "Siemens Healthineers group headcount (~73,000 at end of FY2025, approx.; from memory of the FY2025 annual report) — Diagnostics segment headcount not separately disclosed. Founded: Siemens Healthcare GmbH established as separately managed company in 2015 (Healthineers brand 2016, IPO 2018); medical-technology roots date to 1896 (Siemens-Reiniger).",
-      "revenue_original": "EUR 4.4 billion (Diagnostics segment, approx.)",
-      "revenue_usd_m": 4840,
-      "revenue_year": "FY2025 (Oct-2024 to Sep-2025)",
+      "employees_note": "Siemens Healthineers group: approximately 74,000 employees worldwide in fiscal 2025 (ended 30 Sep 2025), per company press-release boilerplate; group revenue ~EUR 23.4bn.",
+      "revenue_original": "EUR 4.34 billion (approx.)",
+      "revenue_usd_m": 4774,
+      "revenue_year": "FY2025 (Oct 2024 - Sep 2025)",
       "revenue_scope": "segment",
-      "revenue_note": "Diagnostics segment revenue ≈ EUR 4.4 bn in both FY2024 and FY2025 (group revenue ≈ EUR 22.4 bn FY2024, ≈ EUR 23-24 bn FY2025). From memory of Siemens Healthineers annual reports; not verified this session — verify.",
+      "revenue_note": "Diagnostics segment revenue fiscal 2025: MPO Magazine, citing the Siemens Healthineers FY2025 annual report, gives '4.34 billion', -1.6% reported / +0.4% comparable (labelled USD but matches the EUR segment figure: FY2024 segment revenue EUR 4.41bn, and company quarterly EUR figures Q1 1,068m, Q3 1,059m, Q4 1,098m). Exact EUR figure should be verified in the Annual Report 2025 segment table. Correction: Bracketed 'employees 72,000?' is the fiscal 2024 group headcount (30 Sep 2024); fiscal 2025 group headcount is ~74,000. Both are company-wide, not Diagnostics-segment figures.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -5271,13 +5339,17 @@
         "https://www.medicaldevice-network.com/?p=133652",
         "https://www.siemens-healthineers.com/il",
         "https://www.siemens-healthineers.com/il/how-can-we-help-you",
-        "https://www.siemens.com/en-us/company/region-legal-info/"
+        "https://www.siemens.com/en-us/company/region-legal-info/",
+        "https://www.siemens-healthineers.com/press/releases/2025q4",
+        "https://corporate.webassets.siemens-healthineers.com/5b588c3df3f651ab/19a88c926ce0/siemens-healthineers-Q4_FY2025_Ergebnisver-ffentlichung-Finanzkennzahlen.pdf",
+        "https://www.mpo-mag.com/top-company-profile/siemens-healthineers/?cyear=2008"
       ],
       "confidence": "medium",
       "confidence_note": "Israeli subsidiary evidenced by the company's own Israeli web pages (via search extract, 2019); size figures from memory of annual reports, unverified this session.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "parent",
       "contact": {
         "phone": "+972 73 321 9803",
         "email": "Siemens.il@siemens.com",
@@ -5285,8 +5357,7 @@
         "contact_url": "",
         "note": "Israel office (Siemens Healthineers entry on the Siemens 'hotline Israel' page; email is the general Siemens Israel mailbox, undated page); global Siemens Healthineers line +49 69 797 6602 (24/7), contact.healthcare@siemens.com",
         "source": "https://www.siemens.com/de-de/content/hotline-israel/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 58,
@@ -5302,11 +5373,11 @@
       "employees": 14000,
       "employees_year": 2024,
       "employees_note": "Approx. 14,000 employees in ~45 countries (bioMérieux 2024 reporting) — from memory, not verified this session.",
-      "revenue_original": "EUR 3.98 billion (approx.)",
-      "revenue_usd_m": 4378,
-      "revenue_year": "FY2024",
+      "revenue_original": "EUR 4,070 million",
+      "revenue_usd_m": 4477,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 sales ≈ EUR 3.98 bn (double-digit organic growth driven by BIOFIRE); FY2025 ≈ EUR 4.1-4.2 bn (approx., reported early 2026). From memory of bioMérieux results releases; not verified this session — verify.",
+      "revenue_note": "bioMérieux FY2025 results press release (Feb 2026): net sales EUR 4,070m, +2.3% reported / +6.2% organic (2024: EUR 3,980m). Headcount for end-2025 not found in snippets (2025 URD section 3.4); existing 14,000 figure left unchanged.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -5370,7 +5441,9 @@
         "https://en.wikipedia.org/wiki/BioM%C3%A9rieux",
         "https://www.sid-israel.org/en/index/ilex-medical-ltd",
         "https://www.ilexmedical.com/catalog_products/%D7%AA%D7%A8%D7%91%D7%99%D7%95%D7%AA-%D7%93%D7%9D/",
-        "https://www.ilexmedical.com/wp-content/uploads/2025/04/%D7%93%D7%95%D7%97-%D7%AA%D7%A7%D7%95%D7%A4%D7%AA%D7%99-%D7%9C%D7%A9%D7%A0%D7%AA-2024.pdf"
+        "https://www.ilexmedical.com/wp-content/uploads/2025/04/%D7%93%D7%95%D7%97-%D7%AA%D7%A7%D7%95%D7%A4%D7%AA%D7%99-%D7%9C%D7%A9%D7%A0%D7%AA-2024.pdf",
+        "https://www.biomerieux.com/us/en/journalists/press-releases/2025-financial-results.html",
+        "https://www.biomerieux.com/content/dam/biomerieux-com/investor/02---news---reports/2026/en/press-releases/bioMerieux-PR-financial-Results-FY-2025.pdf"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own site confirms the BIOFIRE line; the VITEK/BACT/ALERT distributor is still unidentified and the Ilex page dates from ~2024.",
@@ -5398,14 +5471,14 @@
       "founded": 1968,
       "website": "https://www.sysmex.co.jp/en/",
       "category": "Clinical / IVD laboratory analyzers",
-      "employees": 11000,
-      "employees_year": 2025,
-      "employees_note": "Consolidated headcount ≈ 11,000 as of March 2025 (approx.; from memory of Sysmex's integrated report, not verified this session).",
-      "revenue_original": "JPY 511.4 billion",
-      "revenue_usd_m": 3426,
-      "revenue_year": "FY ending Mar-2025",
+      "employees": 11731,
+      "employees_year": 2026,
+      "employees_note": "Consolidated employees 11,731 (non-consolidated 3,502) as of 31 Mar 2026, per company data reproduced on Mynavi/OneCareer recruiting profiles; official source is the 59th-term securities report (EDINET S100YFAW).",
+      "revenue_original": "JPY 500,006 million",
+      "revenue_usd_m": 3350,
+      "revenue_year": "FY Mar-2026",
       "revenue_scope": "company",
-      "revenue_note": "Net sales for the fiscal year ended 31 March 2025 ≈ JPY 511 bn (from memory of Sysmex's results; not verified this session). Results for FY ending Mar-2026 (published May 2026) were not verified.",
+      "revenue_note": "Sysmex kessan tanshin (IFRS, consolidated) for fiscal year ended 31 Mar 2026, released 14 May 2026: net sales JPY 500,006m, -1.7% YoY (China -24%).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -5448,13 +5521,18 @@
         "https://connections.medlabme.com/event/medlab-middle-east-2025/exhibitor/RXhoaWJpdG9yXzIwNDE3NTU=",
         "https://www.israc.gov.il/_Uploads/dbsLabs/AK0115-27.pdf",
         "https://jobify360.co.il/jobs/4220936142-in",
-        "https://dovermed.co.il/"
+        "https://dovermed.co.il/",
+        "https://www2.jpx.co.jp/disc/68690/081220260514532236_tse-acedifsm-68690-20260514368690-ixbrl.htm",
+        "https://disclosure2dl.edinet-fsa.go.jp/searchdocument/pdf/S100YFAW.pdf",
+        "https://www.nasdaq.com/articles/sysmex-fy-net-profit-declines",
+        "https://job.mynavi.jp/27/pc/search/corp4258/outline.html"
       ],
       "confidence": "medium",
       "confidence_note": "Single official Sysmex source (distributor directory), not corroborated by the distributor's site or a tender document.",
       "israel_check": "partial",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+81 78 265 0500",
         "email": "",
@@ -5462,8 +5540,7 @@
         "contact_url": "",
         "note": "HQ; phone/address from third-party profiles (GlobalData, Plunkett Research); fax +81 78 265 0524; no general email seen",
         "source": "https://www.globaldata.com/company-profile/sysmex-corp/locations/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 60,
@@ -5479,11 +5556,11 @@
       "employees": 20000,
       "employees_year": 2024,
       "employees_note": "Approx. 20,000 employees (Mindray 2024 annual report; from memory, not verified this session). Company states subsidiaries in 31 countries.",
-      "revenue_original": "CNY 36.73 billion",
-      "revenue_usd_m": 5105,
-      "revenue_year": "FY2024",
+      "revenue_original": "CNY 33,282 million",
+      "revenue_usd_m": 4626,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 revenue ≈ CNY 36.7 bn (+5%); FY2025 (reported April 2026) was lower after an ~18% H1-2025 decline in domestic sales — exact FY2025 figure not verified this session. Figures from memory of Mindray's annual reports — verify.",
+      "revenue_note": "Mindray 2025 annual report (released 30 Mar 2026): operating revenue CNY 33.282bn, -9.38% YoY (first decline since IPO); IVD CNY 12.24bn; overseas CNY 17.65bn (53%). 2025 headcount not found in snippets; existing 20,000 (2024) left unchanged.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -5548,7 +5625,10 @@
         "https://mr.gov.il/ilgstorefront/en/p/583549",
         "https://mr.gov.il/ilgstorefront/he/p/547024",
         "https://www.gov.il/BlobFolder/unit/committee-commercial-contracts/he/files_committees_commercial-company_vaadat_hitkashruyot2019-2020.pdf",
-        "https://www.mindray.com/en"
+        "https://www.mindray.com/en",
+        "https://wallstreetcn.com/articles/3768782",
+        "https://www.nbd.com.cn/articles/2026-03-30/4316465.html",
+        "https://szse.io/releases/300760-shenzhen-mindray-bio-medical-electronics-co-ltd/1225059023-2025-annual-board-work-report"
       ],
       "confidence": "medium",
       "confidence_note": "Eldan confirmed only from its own site snippets for the hematology/IVD line; no manufacturer-side confirmation and the rest of the portfolio's channel is unresolved.",
@@ -6117,15 +6197,15 @@
       "founded": 1968,
       "website": "https://www.huber-online.com",
       "category": "General lab equipment (incubators, ovens, baths, shakers, stirrers)",
-      "employees": 420,
-      "employees_year": null,
-      "employees_note": "Undated company news page on huber-online.com: 'over 420 people at its headquarters'; a 2017 TOP 100 award listed it in the >200-employee class; job listing gives a 51-500 band. Year not established.",
+      "employees": 480,
+      "employees_year": 2023,
+      "employees_note": "chemie.de trade-press report (Oct 2023, 'Großer Preis des Mittelstandes'): about 480 employees. Company exhibitor profile for a 2026 fair cites 'more than 350 employees' at the Offenburg HQ (site level only). The Huber family also took over J. Schneider Elektrotechnik (420 staff, ~EUR 100m sales) effective 1 Jan 2024, run as a separate company - not included.",
       "revenue_original": "EUR ~75 million (trade estimate; private)",
       "revenue_usd_m": 83,
       "revenue_year": "2024 (estimate)",
       "revenue_scope": "estimate",
       "revenue_note": "Huber (Offenburg) is family-owned and publishes no revenue; order-of-magnitude estimate from headcount (~420) and trade press. Figures recalled from company statements / filings and not re-verified online in this session.",
-      "size_basis": "estimate",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "Unistat",
@@ -6189,13 +6269,17 @@
         "http://master-cold.co.il/1634/products/unistat-cc",
         "https://www.huber-online.com/en/company/locations",
         "https://slmoran.co.il/products_cat/%D7%90%D7%9E%D7%91%D7%98%D7%99-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%A7%D7%99%D7%A8%D7%95%D7%A8-%D7%A1%D7%99%D7%A8%D7%A7%D7%95%D7%9C%D7%98%D7%95%D7%A8/",
-        "https://slmoran.co.il/%D7%A1%D7%A4%D7%A7%D7%99%D7%9D/"
+        "https://slmoran.co.il/%D7%A1%D7%A4%D7%A7%D7%99%D7%9D/",
+        "https://www.chemie.de/news/1181890/huber-kaeltemaschinenbau-erhaelt-hoechste-auszeichnung-beim-grossen-preis-des-mittelstandes.html",
+        "https://iac.german-pavilion.com/en/sites/exhibitors/139650",
+        "https://huber-online.com/en/company/news-/-exhibitions/detail-view/zuwachs-in-der-huber-unternehmensgruppe"
       ],
       "confidence": "medium",
       "confidence_note": "S.L. Moran established from its own site (current catalogue + product category); no confirmation from Huber's locator; Master-Cold is weak evidence.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+49 781 9603-0",
         "email": "info@huber-online.com",
@@ -6203,8 +6287,7 @@
         "contact_url": "https://huber-online.com/en/company/locations",
         "note": "HQ (Peter Huber Kältemaschinenbau SE); email from ARABLAB German-pavilion exhibitor listing; subsidiaries in US, CH, IT, IN, UK listed on locations page",
         "source": "https://huber-online.com/en/company/locations"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 68,
@@ -6303,13 +6386,13 @@
       "category": "Centrifuges",
       "employees": 500,
       "employees_year": 2025,
-      "employees_note": "Company website: approximately 500 employees (group head office Tuttlingen, ~18,000 m2 site). Older third-party profiles give 342 (SelectScience) and ~450 (MedicalExpo).",
-      "revenue_original": "EUR ~100 million",
+      "employees_note": "company job ads (StepStone, 2025): about 500 employees worldwide (Hettich Group)",
+      "revenue_original": "> EUR 100 million",
       "revenue_usd_m": 110,
       "revenue_year": "FY2023",
-      "revenue_scope": "estimate",
-      "revenue_note": "Life-sciences-europe business directory lists annual sales EUR 100,000,000 (revenue date 2023-12-31) - a rounded, unaudited directory figure; Prospeo estimates only USD 25M. Treat as estimate.",
-      "size_basis": "mixed",
+      "revenue_scope": "company",
+      "revenue_note": "company press release Jan 2024 (via bionity.com/chemie.de): 2023 was the strongest sales year in the group's 120-year history and the first above the EUR 100m mark; 100% takeover of Philipp Kirsch GmbH (Kirsch Medical) completed end-2023; growth partnership with Bregal Unternehmerkapital announced Jul 2024",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "UNIVERSAL 320 / 320 R",
@@ -6354,13 +6437,17 @@
         "https://prospeo.io/c/andreas-hettich-revenue",
         "https://b2b.sigmaaldrich.com/IL/en/product/sigma/z631116",
         "https://www.hettichlab.com/contact/",
-        "https://www.eldan.biz/laboratory-instruments/"
+        "https://www.eldan.biz/laboratory-instruments/",
+        "https://www.bionity.com/de/news/1182379/hettich-schliesst-uebernahme-von-kirsch-medical-zum-jahresende-erfolgreich-ab.html",
+        "https://www.stepstone.de/cmp/de/Andreas-Hettich-GmbH-239096/jobs.html",
+        "https://www.life-sciences-europe.com/organisation/andreas-hettich-gmbh-group-tuttlingen-baden-wuerttemberg-federal-2001-19621.html"
       ],
       "confidence": "medium",
       "confidence_note": "Israeli distributor evidenced by the distributor's own site (2016-dated, not re-confirmed by manufacturer); revenue is a directory estimate; ownership details (Bregal stake) not verified in a primary source.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+49 7461 705-0",
         "email": "info@hettichlab.com",
@@ -6368,8 +6455,7 @@
         "contact_url": "",
         "note": "HQ; official imprint; fax +49 7461 705-1125; legal form changed Sept 2024 from GmbH & Co. KG to Andreas Hettich GmbH",
         "source": "https://www.hettichlab.com/imprint"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 70,
@@ -6545,14 +6631,14 @@
       "website": "https://www.nuaire.com",
       "category": "Biosafety cabinets & clean-air equipment",
       "employees": 300,
-      "employees_year": null,
-      "employees_note": "Third-party estimates: PitchBook ~300, Datanyze 267, ZoomInfo 201-500, other directories 114-200. NuAire's site says it 'supports 350 Minnesota families' (three facilities in Plymouth and Long Lake, MN, >300,000 sq ft). PitchBook labels ownership 'Acquired/Merged (Operating Subsidiary)' without naming a parent; no parent found in sources seen.",
+      "employees_year": 2024,
+      "employees_note": "Business North Carolina report on the Kewaunee deal (2024, reposted by Greater Statesville Chamber): about 300 workers in Minnesota plus 60 sales reps. Kewaunee Scientific completed the acquisition on 1 Nov 2024 for USD 55.0m; NuAire standalone revenue is not disclosed in the Kewaunee releases found (only consolidated/pro-forma totals).",
       "revenue_original": "approx. USD 96 million (third-party estimate)",
       "revenue_usd_m": 96,
       "revenue_year": "n/a (aggregator estimate seen Oct 2026)",
       "revenue_scope": "estimate",
       "revenue_note": "Datanyze and ZoomInfo both list ~USD 96M; Visual Visitor gives USD 10-50M. No published figure (private company).",
-      "size_basis": "estimate",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "LabGard ES NU-540 / NU-543",
@@ -6614,13 +6700,17 @@
         "https://www.citrinesolutions.co.il/userfiles/documents/AutoFlow_CO2_Incubators%20ללקוחות%20סיטרין.pdf",
         "https://www.nuaire.com/sales-and-support/sales-locator",
         "https://www.nuaire.com/sales-and-support",
-        "https://nuaire.com/en/products/laminar-airflow-workstations/airegard-nu-240-horizontal-laminar-flow-hood"
+        "https://nuaire.com/en/products/laminar-airflow-workstations/airegard-nu-240-horizontal-laminar-flow-hood",
+        "https://www.locable.com/connections/16479-greater-statesville-chamber-of-commerce/posts/2024/11/14/15465/kewaunee-acquires-nuaire-for-55-million/",
+        "https://www.sec.gov/Archives/edgar/data/55529/000005552925000007/prfy25q3earningsrelease.htm",
+        "https://kewaunee.com/wp-content/uploads/2024/12/Nasdaq-Version-12.11-1215PM.pdf"
       ],
       "confidence": "medium",
       "confidence_note": "Ormir established from several of its own NuAire product pages; Citrine from a hosted catalogue only; NuAire's locator could not be read.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 763-553-1270",
         "email": "",
@@ -6628,8 +6718,7 @@
         "contact_url": "",
         "note": "HQ; from third-party listings (labcompare, ZoomInfo/Datanyze); toll-free +1 800-328-3352, fax +1 763-553-0459; no general email seen",
         "source": "https://www.labcompare.com/5-NuAire/"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 73,
@@ -6642,14 +6731,14 @@
       "founded": 1969,
       "website": "https://www.phchd.com",
       "category": "Lab refrigeration & cold storage",
-      "employees": 9041,
-      "employees_year": 2025,
-      "employees_note": "Consolidated PHC Holdings group headcount (Simply Wall St / TradingView, shown as of Dec 2025, presumably from the FY2024 report). The PHCbi biomedical business's own headcount is not disclosed in sources seen. Founding year 1969 refers to PHC Corporation's origin (Matsushita Kotobuki Electronics); PHC Holdings itself was established 2014 when KKR acquired Panasonic Healthcare.",
-      "revenue_original": "JPY 361.6 billion",
-      "revenue_usd_m": 2423,
-      "revenue_year": "FY2024 (ending Mar-2025)",
-      "revenue_scope": "parent",
-      "revenue_note": "Group revenue JPY 361.6bn (+2.2% YoY) per the CFO message in PHC's Integrated Report 2025. The Diagnostics & Life Sciences segment (Epredia + PHCbi biomedical) was JPY 130.9bn (~USD 877M, +1.0%); the biomedical (PHCbi) sub-segment alone is not broken out in sources seen. PitchBook shows TTM revenue ~USD 2.42bn to Sep-2025. FY2025 (ending Mar-2026) results were not retrieved.",
+      "employees": 8647,
+      "employees_year": 2026,
+      "employees_note": "PHC Holdings Integrated Report 2026: 8,647 employees as of end of March 2026 (consolidated).",
+      "revenue_original": "JPY 364,403 million",
+      "revenue_usd_m": 2442,
+      "revenue_year": "FY Mar-2026",
+      "revenue_scope": "company",
+      "revenue_note": "Consolidated revenue for fiscal year ended 31 Mar 2026: JPY 364,403m (+0.8% YoY), per PHC Integrated Report 2026 / financial data aggregators.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -6712,12 +6801,15 @@
         "https://phceu.phcbi.phchd.com/",
         "https://www.enco.co.il/antibodies/mki67ki67_antibody_aa28152928_lsc295028/ls-c295028/",
         "https://www.lumitron.co.il/our-brands-heb/?lang=en",
-        "https://www.lumitron.co.il/products/cellxpert-cs220-co2-incubator-shaker/?lang=en"
+        "https://www.lumitron.co.il/products/cellxpert-cs220-co2-incubator-shaker/?lang=en",
+        "https://www.phchd.com/~/Media/phchd_g/sustainability/integratedreport2026/pdf/integratedreport2026_6.pdf",
+        "https://www.phchd.com/global/sustainability/integratedreport2026/executive/ataglance",
+        "https://stockanalysis.com/quote/tyo/6523/financials/income-statement/"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own product page names PHCbi; manufacturer-side listing for Israel not seen.",
       "israel_check": "verified",
-      "employees_scope": "parent",
+      "employees_scope": "company",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
       "contact": {
@@ -6994,15 +7086,15 @@
       "founded": 1889,
       "website": "https://www.yamato-scientific.com",
       "category": "General lab equipment (incubators, ovens, baths, shakers, stirrers)",
-      "employees": 600,
-      "employees_year": 2024,
-      "employees_note": "Roughly 600 employees (recalled, unverified).",
-      "revenue_original": "JPY ~25 billion (trade estimate; private)",
-      "revenue_usd_m": 170,
-      "revenue_year": "FY2024 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "Yamato Scientific (Tokyo, founded 1889) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-      "size_basis": "estimate",
+      "employees": 776,
+      "employees_year": 2025,
+      "employees_note": "company recruiting pages (hrmos.co/yamato-net, doda.jp): 776 employees standalone as of Oct 2025; group total stated as 1,577 as of Dec 2025",
+      "revenue_original": "JPY 43.66 billion",
+      "revenue_usd_m": 293,
+      "revenue_year": "FY2025 (ended Sep 2025)",
+      "revenue_scope": "company",
+      "revenue_note": "company recruiting pages: standalone sales JPY 43.66bn for the fiscal year ended Sep 2025 (described as record high); group-wide sales stated as JPY 131.03bn (~USD 878m) - group definition unclear, verify before use",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "DKN / DKM constant temperature ovens",
@@ -7047,11 +7139,14 @@
         "https://slmoran.co.il/about/",
         "https://biofindly.co.il/distributor-category/analytical-chemistry/",
         "https://www.yamato-usa.com/global-presence",
-        "https://slmoran.co.il/wp-content/uploads/2019/12/2020-VDH-Catalog.pdf"
+        "https://slmoran.co.il/wp-content/uploads/2019/12/2020-VDH-Catalog.pdf",
+        "https://hrmos.co/pages/yamato-net/jobs/01_01_201",
+        "https://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3015613735/",
+        "https://employment.en-japan.com/comp-134709/"
       ],
       "confidence": "low",
       "confidence_note": "Manufacturer's own partner page names the entity, but the page appears old and the distributor's site shows no Yamato products.",
-      "employees_scope": "estimate",
+      "employees_scope": "company",
       "israel_check": "partial",
       "israel_evidence_year": 2018,
       "israel_current": "older_evidence_only",
@@ -7656,15 +7751,15 @@
       "founded": 1965,
       "website": "https://www.integra-biosciences.com",
       "category": "Liquid handling & lab automation",
-      "employees": 1000,
+      "employees": 614,
       "employees_year": 2024,
-      "employees_note": "INTEGRA states roughly 1,000 employees (recalled, unverified).",
+      "employees_note": "company 2024 results story: 'now employs 614 people worldwide' (end 2024; 573 at end 2023; 234 in Zizers). Database figure of 1,000 appears overstated. Last disclosed revenue: CHF 191m (2021, +46%); 2024/2025 stories give no total.",
       "revenue_original": "CHF ~250 million (trade estimate; private)",
       "revenue_usd_m": 290,
       "revenue_year": "2024 (estimate)",
       "revenue_scope": "estimate",
       "revenue_note": "INTEGRA (Zizers) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-      "size_basis": "estimate",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "VIAFLO / VOYAGER",
@@ -7702,12 +7797,15 @@
         "https://www.integra-biosciences.com/global/en/where-buy",
         "https://www.integra-biosciences.com/united-kingdom/en/where-buy?field_distributor_country_target_id=All&page=7",
         "https://www.integra-biosciences.com/global/en/support/contacts",
-        "https://www.integra-biosciences.com/united-states/en/support/contacts"
+        "https://www.integra-biosciences.com/united-states/en/support/contacts",
+        "https://www.integra-biosciences.com/china/en/stories/integra-biosciences-maintains-its-strong-position-2024-despite-market-challenges",
+        "https://www.integra-biosciences.com/japan/ja/stories/integra-biosciences-strengthened-market-position-2025",
+        "https://www.bionity.com/de/news/1174720/integra-biosciences-steigert-weltweiten-umsatz-um-46-prozent.html"
       ],
       "confidence": "high",
       "confidence_note": "Israel finding only: named on the manufacturer's official distributor page.",
       "israel_check": "verified",
-      "employees_scope": "estimate",
+      "employees_scope": "company",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
       "contact": {
@@ -7805,14 +7903,14 @@
       "founded": 1981,
       "website": "https://www.repligen.com",
       "category": "Bioprocess & filtration",
-      "employees": 1900,
-      "employees_year": 2024,
-      "employees_note": "Approx. 1,900 employees as recalled from Repligen's FY2024 Form 10-K; could not be re-verified this run (WebFetch/proxy unavailable), so treat as approximate.",
-      "revenue_original": "USD 634.5 million (recalled, unverified this run)",
-      "revenue_usd_m": 634.5,
-      "revenue_year": "FY2024",
+      "employees": 2000,
+      "employees_year": 2025,
+      "employees_note": "Repligen FY2025 10-K: approximately 2,000 full-time and part-time employees as of 31 Dec 2025.",
+      "revenue_original": "USD 738 million",
+      "revenue_usd_m": 738,
+      "revenue_year": "FY2025",
       "revenue_scope": "company",
-      "revenue_note": "FY2024 10-K figure (recalled; FY2025 revenue was guided at roughly USD 700M). Figures recalled from company statements / filings and not re-verified online in this session.",
+      "revenue_note": "Repligen Q4/FY2025 results release 24 Feb 2026: full-year 2025 revenue $738m vs $634m in 2024 (+16%).",
       "size_basis": "reported",
       "top_products": [
         {
@@ -7841,12 +7939,15 @@
         "https://www.repligen.com/company",
         "https://www.sec.gov/Archives/edgar/data/730272/000095017025105166/rgen-20250630.htm",
         "https://www.repligen.com/company/about",
-        "https://www.labmanager.com/repligen-reports-strong-q1-2026-growth-driven-by-process-analytics-and-strategic-refinement-35336"
+        "https://www.labmanager.com/repligen-reports-strong-q1-2026-growth-driven-by-process-analytics-and-strategic-refinement-35336",
+        "https://investors.repligen.com/press-releases/news-details/2026/Repligen-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results-and-Provides-2026-Financial-Guidance/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/730272/000119312526076528/rgen-20251231.htm"
       ],
       "confidence": "low",
       "confidence_note": "Absence of evidence only.",
       "israel_check": "partial",
       "israel_current": "not_found",
+      "employees_scope": "company",
       "contact": {
         "phone": "+1 781-250-0111",
         "email": "",
@@ -7855,7 +7956,6 @@
         "note": "HQ. From official investor site; toll-free +1 800-622-2259, fax +1 781-250-0115. Only role email seen is investor relations investors@repligen.com (no general/sales email).",
         "source": "https://investors.repligen.com/overview/default.aspx"
       },
-      "employees_scope": "company",
       "israel_evidence_year": null
     },
     {
@@ -8157,14 +8257,14 @@
       "founded": 1963,
       "website": "https://www.gbo.com",
       "category": "Labware & consumables (plastic & glass)",
-      "employees": 2624,
-      "employees_year": 2024,
-      "employees_note": "Greiner Bio-One division: 29 locations and 2,624 employees in 2024 (Greiner AG 2024 results release). Greiner AG group: 10,242 employees in 2025 (10,318 in 2024). Division headcount for 2025 not found.",
+      "employees": 2651,
+      "employees_year": 2025,
+      "employees_note": "Greiner AG 2025 annual report press release / Greiner Bio-One division page: 2,651 employees as of 31 Dec 2025 (Greiner Bio-One International GmbH incl. Greiner Mediscan, excl. leased personnel; Mediscan became a separate Greiner division on 1 Jan 2026).",
       "revenue_original": "EUR 637 million",
       "revenue_usd_m": 701,
       "revenue_year": "FY2025",
-      "revenue_scope": "segment",
-      "revenue_note": "Greiner Bio-One division sales c. EUR 637M in 2025, down from EUR 666M in 2024 (+4.5% that year), per Greiner AG financial-year 2025 release; cites regulatory requirements and slower growth in core markets, especially the USA. Greiner Mediscan to be run as an independent division from 2026.",
+      "revenue_scope": "company",
+      "revenue_note": "Greiner Bio-One key figures 2025: sales revenue EUR 637m (confirms existing figure); Greiner group revenue ~EUR 1.94bn, 10,242 employees.",
       "size_basis": "reported",
       "top_products": [
         {
@@ -8207,13 +8307,15 @@
         "https://www.gbo.com/en-us/press-events/press/article/greiner-bio-one-opens-new-sales-office-in-dubai",
         "https://www.selectscience.net/company/greiner-bio-one-gmbh",
         "https://www.danyel.co.il/greiner-bio-one/",
-        "https://www.gbo.com/en-int/company/subsidiaries-distributors"
+        "https://www.gbo.com/en-int/company/subsidiaries-distributors",
+        "https://www.greiner-gpi.com/en/Newsroom/Press/Greiner-publishes-2025-Annual-and-Sustainability-Report_s_366661"
       ],
       "confidence": "medium",
       "confidence_note": "",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+43 7583 6791-0",
         "email": "office@gbo.com",
@@ -8221,8 +8323,7 @@
         "contact_url": "",
         "note": "HQ (Greiner Bio-One International GmbH). Phone/address from official imprint; fax +43 7583 6318; office@gbo.com from the 2022 press kit on gbo.com - verify. North America office Monroe, NC +1 704-261-7800; Netherlands info.nl@gbo.com. Second search used.",
         "source": "https://www.gbo.com/en-int/imprint"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 93,
@@ -8317,15 +8418,15 @@
       "founded": 1949,
       "website": "https://www.brand.de",
       "category": "Liquid handling & lab automation",
-      "employees": 500,
+      "employees": 1000,
       "employees_year": 2025,
-      "employees_note": "Company recruitment text (Stepstone, BRAND GMBH + CO KG): about 500 people develop and manufacture at the Wertheim site; BRAND, VACUUBRAND and VITLAB together form a group of about 1,000 employees worldwide. Undated job-ad figures.",
-      "revenue_original": "EUR ~150 million (group, trade estimate; private)",
-      "revenue_usd_m": 165,
-      "revenue_year": "2024 (estimate)",
-      "revenue_scope": "estimate",
-      "revenue_note": "No revenue figure found (GmbH & Co KG; Bundesanzeiger not surfaced).",
-      "size_basis": "mixed",
+      "employees_note": "company brand brochure on brand.de (undated, current): 'weltweit rund 1.000 Mitarbeiter' for the BRAND group (incl. VACUUBRAND, VITLAB); company job ads (2025): '500 Mitarbeiter ... am Standort Wertheim'",
+      "revenue_original": "EUR ~160 million p.a.",
+      "revenue_usd_m": 176,
+      "revenue_year": "c. FY2024 (undated current company brochure)",
+      "revenue_scope": "parent",
+      "revenue_note": "company brand brochure on brand.de states 'Umsatz ca. 160.000.000 EUR p.a.' for the BRAND group; self-stated, fiscal year not given",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "Transferpette S / electronic",
@@ -8389,12 +8490,15 @@
         "https://labotal.co.il/product-category/liquid-handling/single-channel-pipettors/?lang=en",
         "https://www.stepstone.de/results/manufacturing-manager/in-wertheim",
         "https://www.brand.de/en/company/sales-worldwide",
-        "https://www.vacuubrand.com/service-advice/contact/contacts-worldwide"
+        "https://www.vacuubrand.com/service-advice/contact/contacts-worldwide",
+        "https://www.brand.de/brand/contentserv_data/Context/BRAND%20GMBH%20%2B%20CO%20KG/Dokumente/Firma%20intern/Markenbrosch%C3%BCre/Markenbrosch%C3%BCre_BRAND.pdf",
+        "https://www.brand.de/fileadmin/user_upload/documents/Stellenanzeigen/202300406_Anzeige_Techniker_TPD_Serienentwicklung.pdf",
+        "https://group.brand.de/en/about-us/about-us"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own site is explicit about both brands; manufacturer confirmation not seen.",
       "israel_check": "verified",
-      "employees_scope": "company",
+      "employees_scope": "parent",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
       "contact": {
@@ -8418,14 +8522,14 @@
       "website": "https://www.berthold.com",
       "category": "Microplate readers & detection",
       "employees": 360,
-      "employees_year": 2024,
-      "employees_note": "'More than 360 employees' per the 75-year anniversary message from managing director Marco Gauger on berthold.com; company boilerplate elsewhere says c. 350 worldwide. Subsidiaries in Austria, Belgium, France, UK, Italy, Switzerland and USA.",
-      "revenue_original": "EUR 77 million",
-      "revenue_usd_m": 85,
-      "revenue_year": "FY2017",
+      "employees_year": 2025,
+      "employees_note": "company job ads (StepStone / make-it-in-germany, 2025): '360 Mitarbeiter'",
+      "revenue_original": "EUR ~100 million",
+      "revenue_usd_m": 110,
+      "revenue_year": "c. FY2024 (company job-ad boilerplate, fiscal year not stated)",
       "revenue_scope": "company",
-      "revenue_note": "Only figure found: 2017 sales of EUR 77M with 330 employees (EverybodyWiki, secondary source); no newer figure located.",
-      "size_basis": "mixed",
+      "revenue_note": "company job ads (StepStone, make-it-in-germany; 2025) describe Berthold as 'konzernunabhängiges mittelständisches Unternehmen mit ca. 100 Mio. Euro Umsatz und 360 Mitarbeitern'; self-stated, not audited",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "Tristar 5 / Mithras²",
@@ -8483,13 +8587,16 @@
         "https://www.danyel.co.il/berthold-technologies/",
         "https://www.danyel.co.il/hidex/",
         "https://www.berthold.com/en-us/company/contacts/",
-        "https://www.berthold.com/en-in/process-control/contacts/"
+        "https://www.berthold.com/en-in/process-control/contacts/",
+        "https://www.stepstone.de/job/13650852",
+        "https://www.make-it-in-germany.com/en/working-in-germany/job-listings/job/job-14895-k36825.19289-S"
       ],
       "confidence": "medium",
       "confidence_note": "Distributor's own brand page; manufacturer confirmation not seen.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+49 7081 177-0",
         "email": "",
@@ -8497,8 +8604,7 @@
         "contact_url": "",
         "note": "HQ. Third-party directory listings (Laser Focus World, CHEManager, rapidmicrobiology); fax +49 7081 177-167. No email seen.",
         "source": "https://laserfocusworld.com/directory/optical-test-measurement-equipment/densitometers/company/14047388/berthold-technologies-gmbh-co-kg"
-      },
-      "employees_scope": "company"
+      }
     },
     {
       "id": 96,
@@ -8821,15 +8927,15 @@
       "founded": 1984,
       "website": "https://radwag.com",
       "category": "Lab balances & weighing",
-      "employees": 500,
-      "employees_year": 2024,
-      "employees_note": "'Nearly 500 people' per RADWAG's 40-years company profile; the company's English 'about us' page lists 403 employees and a 2017-era presentation says 400+ incl. 100 in R&D.",
+      "employees": 403,
+      "employees_year": 2025,
+      "employees_note": "company website (radwag.com, undated/current): '403 employees' / 'over 400'; Feb 2024 industry presentation (SAiPPW): over 400 staff incl. ~100 in R&D. Database figure of 500 not supported. Last disclosed sales remain PLN 100m (2017).",
       "revenue_original": "PLN 100 million",
       "revenue_usd_m": 26,
       "revenue_year": "FY2017",
       "revenue_scope": "company",
       "revenue_note": "Sales value of c. PLN 100M in 2017 per a presentation by founder Witold Lewandowski (saippw.pl); converted at c. USD 0.26/PLN. No newer figure found; KRS filings would give current numbers.",
-      "size_basis": "mixed",
+      "size_basis": "reported",
       "top_products": [
         {
           "name": "MYA 5Y microbalances",
@@ -8903,13 +9009,15 @@
         "https://www.lumitron.co.il/our-brands-heb/?lang=en",
         "https://www.lumitron.co.il/products/מאזני-לחות/",
         "https://www.lumitron.co.il/wp-content/uploads/2020/12/RADWAG_Data_Sheet_WTC-2000-Precision-Balance.pdf",
-        "https://radwag.com/en/contact,1,5"
+        "https://radwag.com/en/contact,1,5",
+        "https://radwag.com/en/company,1,3,1"
       ],
       "confidence": "medium",
       "confidence_note": "Israeli distributor verified from the distributor's own brand page; manufacturer-side confirmation (Radwag dealer list) not seen. No size research requested this round.",
       "israel_check": "verified",
       "israel_evidence_year": 2026,
       "israel_current": "confirmed_current",
+      "employees_scope": "company",
       "contact": {
         "phone": "+48 48 386 60 00",
         "email": "office@radwag.com",
@@ -8917,8 +9025,7 @@
         "contact_url": "https://radwag.com/en/nasze-biura,2,5",
         "note": "HQ. From official offices/contact pages; fax +48 48 385 00 10; export enquiries export@radwag.com.",
         "source": "https://radwag.com/en/nasze-biura,2,5"
-      },
-      "employees_scope": "company"
+      }
     }
   ],
   "israeli_entities_index": [
