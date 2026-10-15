@@ -67,24 +67,24 @@
           "scope": "direct life-science sales & field service organisation being built out 2025-26",
           "website": "https://www.thermofisher.com",
           "source": "https://www.thermofisher.com/il/en/home.html",
-          "phone": "",
+          "phone": "+972 8-940-8618",
           "email": "",
-          "address": "Ra'anana",
-          "contact_url": "",
-          "contact_source": "https://www.drushim.co.il/job/38446579/fe4d833d/"
+          "address": "5 Golda Meir St., Ness Ziona (also Airport City 1, Lod)",
+          "contact_url": "https://www.thermofisher.com/il/en/home.html",
+          "contact_source": "https://www.dunsguide.co.il/en/Cca1d211edb8c60a49443657aecbde850_high_tech_computing_services/thermo_fisher_israel/"
         },
         {
           "name": "Thermo Fisher Scientific Israel Ltd. (Kiryat Shmona)",
           "name_he": "תרמו פישר קריית שמונה",
           "type": "subsidiary",
           "scope": "manufacturing / engineering site (ISO 9001/13485); not a sales channel",
-          "website": "",
+          "website": "https://www.thermofisher.com",
           "source": "",
-          "phone": "",
+          "phone": "+972 8-940-8618",
           "email": "",
-          "address": "Ra'anana",
-          "contact_url": "",
-          "contact_source": "https://www.drushim.co.il/job/38446579/fe4d833d/"
+          "address": "5 Golda Meir St., Ness Ziona (also Airport City 1, Lod)",
+          "contact_url": "https://www.thermofisher.com/il/en/home.html",
+          "contact_source": "https://www.dunsguide.co.il/en/Cca1d211edb8c60a49443657aecbde850_high_tech_computing_services/thermo_fisher_israel/"
         },
         {
           "name": "Rhenium Ltd.",
@@ -93,11 +93,11 @@
           "scope": "Invitrogen / Applied Biosystems / Gibco (Life Technologies brands; evidence from 2011 – verify current scope)",
           "website": "https://www.rhenium.co.il",
           "source": "",
-          "phone": "+972-8-9558888",
+          "phone": "+972 8-955-8888",
           "email": "",
           "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
           "contact_url": "",
-          "contact_source": "https://innovationisrael.org.il/importWinner/511642449; https://www.datanyze.com/people/Sivan-Raz/3332444628"
+          "contact_source": "https://www.beckman.com/contact-us/israel"
         },
         {
           "name": "Gamidor Diagnostics (1984) Ltd.",
@@ -132,7 +132,7 @@
           "scope": "Olink proteomics (a Thermo Fisher business)",
           "website": "https://www.danyel.co.il",
           "source": "",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -143,13 +143,13 @@
           "name_he": "",
           "type": "service",
           "scope": "electron-microscopy service & support",
-          "website": "",
+          "website": "https://www.thermofisher.com",
           "source": "",
-          "phone": "",
+          "phone": "+972 8-940-8618",
           "email": "",
-          "address": "Ra'anana",
-          "contact_url": "",
-          "contact_source": "https://www.drushim.co.il/job/38446579/fe4d833d/"
+          "address": "5 Golda Meir St., Ness Ziona (also Airport City 1, Lod)",
+          "contact_url": "https://www.thermofisher.com/il/en/home.html",
+          "contact_source": "https://www.dunsguide.co.il/en/Cca1d211edb8c60a49443657aecbde850_high_tech_computing_services/thermo_fisher_israel/"
         }
       ],
       "israel_note": "Established from search-result evidence only (WebFetch and curl were blocked by the environment's network policy, so manufacturer and distributor pages could not be opened). Searches run: '\"Thermo Fisher\" Israel distributor', '\"Thermo Fisher Scientific\" Israel office Ltd', '\"Thermo Fisher\" ישראל נציג יבואן', 'Rhenium Thermo Scientific Israel distributor', 'Invitrogen Applied Biosystems Gibco Israel distributor', '\"Thermo Fisher Integrated Solutions Israel\"', 'Bargal Analytical Instruments ... Thermo Scientific'. Picture: Thermo Fisher has its OWN Israeli presence (Thermo Fisher Israel Ltd. site in Kiryat Shmona with Israeli ISO certificates; an EM service location in Airport City, Lod; and a newly formed 'Thermo Fisher Integrated Solutions Israel' subsidiary in Ra'anana that is hiring key-account managers and building a field-service team - i.e. a move toward direct sales for life-science products), PLUS division-specific Israeli distributors: Gamidor Diagnostics (non-exclusive distributor letter valid to Mar 2026, likely diagnostics/microbiology), Danyel Biotech (Olink), Rhenium (Life Technologies brands since 2011 - stale, may have been superseded by the new direct subsidiary) and Bargal (chromatography, 2018-2019 letter - stale). Fisher Scientific channel / Phadia (ImmunoCAP) / Thermo Scientific lab-equipment distributors in Israel were NOT established (the Phadia-locations page exists but could not be read). The exact registered names of the Israeli entities are unconfirmed (job ads say 'Thermo Fisher Integrated Solutions Israel' / '...Integrated Solutions Ltd').",
@@ -748,11 +748,11 @@
           "scope": "self-described exclusive Sartorius representative in Israel for weighing (Cubis II balances) and lab products incl. pipettes",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/המדריך-המקיף-לבחירת-מאזניים-אנליטיים/",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Searched Sartorius Israel/Beit HaEmek generically, Sartorius on Israeli distributor domains, sartorius.com and labotal.co.il. Sartorius' 'local contact' page lists Sartorius Israel at Kibbutz Beit Haemek 2511500, its list of companies includes Sartorius Israel Ltd., press releases confirm the majority acquisition of Biological Industries (2019) and the June 2021 opening of the Beit Haemek cell-culture-media plant, and a Sartorius job ad for a home-office sales representative in Israel shows in-country sales staff. Lab products: Labotal describes itself on its own site as the exclusive Sartorius representative in Israel for weighing (Cubis II balances) and lists Sartorius pipettes; the filtration channel was not seen. Caveat: a Sartorius Stedim Biotech financial-statement note refers to 'Sartorius Israel Ltd. (51%)' as not consolidated for materiality, so the legal entity may be a small, partly-owned company distinct from the Beit Haemek production business.",
@@ -1148,7 +1148,7 @@
           "source": "",
           "phone": "+972 52-525-6287",
           "email": "",
-          "address": "",
+          "address": "17 Hamiflasim St., Petah Tikva",
           "contact_url": "",
           "contact_source": "https://www.elgalabwater.com/about-us/approved-partners"
         }
@@ -1322,7 +1322,7 @@
           "scope": "Illumina sequencers, arrays and reagents (long-standing distributor; 2020 evidence – verify current status)",
           "website": "https://www.danyel.co.il",
           "source": "",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -1410,11 +1410,11 @@
           "scope": "Beckman Coulter Life Sciences (official Israel contact page: Rhenium, 20 Hasatat St, Modi'in); the Diagnostics channel may be a different partner – to verify",
           "website": "https://www.rhenium.co.il",
           "source": "https://www.beckman.com/contact-us/israel",
-          "phone": "+972-8-9558888",
+          "phone": "+972 8-955-8888",
           "email": "",
           "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
           "contact_url": "",
-          "contact_source": "https://innovationisrael.org.il/importWinner/511642449; https://www.datanyze.com/people/Sivan-Raz/3332444628"
+          "contact_source": "https://www.beckman.com/contact-us/israel"
         }
       ],
       "israel_note": "Life Sciences: Beckman Coulter Life Sciences' own contact page for Israel (beckman.com/contact-us/israel, mirrored on mybeckman.vn) lists 'Rhenium Ltd (Distributor), 20 Hasatat, P.O.B. 180, Modi'in 7171101, Israel, +972 8 955 8888'. A 2009 Israel Physical Society trade-fair listing also names Beckman Coulter among the brands Rhenium represents. Diagnostics: no Israeli distributor or office was identified - the search ('Beckman Coulter diagnostics Israel distributor hematology DxH AU analyzer') returned only regulatory recall records listing Israel among AU5800 distribution countries; the Hebrew query and a beckmancoulter.com domain search were blocked by the search budget and the Diagnostics site could not be opened (fetch failure). The Diagnostics channel therefore remains unverified and may be a different Israeli partner (the brief's hints Ilex Medical / Dyn Diagnostics were not checked). Agentek appeared in results but shows no Beckman Coulter link.",
@@ -1483,7 +1483,7 @@
           "scope": "Cytiva chromatography (ÄKTA pure) and Biacore; other Cytiva lines (Whatman, Amersham, Pall) not confirmed",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/cytiva/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -1587,11 +1587,11 @@
           "scope": "research microscopes — per a 2009 Israel Physical Society trade-fair listing only (exclusive representative then); NOT re-confirmed in 2026",
           "website": "https://www.rhenium.co.il",
           "source": "https://archive.israelphysicalsociety.org/ips-conference-2009/fairs/rhenium-ltd.html",
-          "phone": "+972-8-9558888",
+          "phone": "+972 8-955-8888",
           "email": "",
           "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
           "contact_url": "",
-          "contact_source": "https://innovationisrael.org.il/importWinner/511642449; https://www.datanyze.com/people/Sivan-Raz/3332444628"
+          "contact_source": "https://www.beckman.com/contact-us/israel"
         }
       ],
       "israel_note": "Searched generic queries, 27 Israeli distributor domains, leica-microsystems.com, lapidot.com and rhenium.co.il. Lapidot Group's own partner and eye-surgery pages show it markets Leica surgical microscopes in Israel, i.e. the Leica Microsystems medical division. For research microscopes (confocal, stereo, cryo-EM sample prep) the only evidence remains the 2009 Israel Physical Society listing naming Rhenium as exclusive representative; a 2026 search restricted to rhenium.co.il returned nothing, and Leica's site shows no Israeli office (country selector only, 'contact your local representative'). The research-microscope channel is therefore unconfirmed and the Rhenium entry is stale.",
@@ -1664,11 +1664,11 @@
           "scope": "SCIEX mass spectrometry – Israeli distributor since 1 April 2025 (took over from Agentek)",
           "website": "https://www.rhenium.co.il",
           "source": "",
-          "phone": "+972-8-9558888",
+          "phone": "+972 8-955-8888",
           "email": "",
           "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
           "contact_url": "",
-          "contact_source": "https://innovationisrael.org.il/importWinner/511642449; https://www.datanyze.com/people/Sivan-Raz/3332444628"
+          "contact_source": "https://www.beckman.com/contact-us/israel"
         }
       ],
       "israel_note": "Rhenium announced it became SCIEX's Israeli distributor effective 1 April 2025 (Rhenium site + LinkedIn posts); Agentek (1987) Ltd. was the previous distributor. Not confirmed on sciex.com (page could not be opened).",
@@ -1736,11 +1736,11 @@
           "scope": "Hosts a Molecular Devices FLIPR Penta high-throughput cellular screening system brochure on its own site (uploaded March 2026) - probable reseller of Molecular Devices screening/plate-reader instruments; no explicit distributor statement seen",
           "website": "https://eisenbros.co.il",
           "source": "https://eisenbros.co.il/wp-content/uploads/2026/03/flipr-penta-high-throughput-cellular-screening-system.pdf",
-          "phone": "",
+          "phone": "+972 3-977-7000",
           "email": "",
           "address": "Airport City",
           "contact_url": "",
-          "contact_source": "https://www.genomeweb.com/pcrsample-prep/fluidigm-taps-eisenberg-brothers-israeli-distributor"
+          "contact_source": "https://www.ismicroscopy.org.il/sponsors-2014/"
         }
       ],
       "israel_note": "חיפוש רשת בלבד; דפי ״מפיצים״ של היצרן ואתרי המפיצים לא נפתחו (חסימת רשת). The 40-domain sweep surfaced a Molecular Devices FLIPR Penta product brochure hosted on Eisenberg Brothers' own site (eisenbros.co.il/wp-content/uploads/2026/03/...), which indicates Eisenberg Bros. markets at least the FLIPR line in Israel. A follow-up search for 'Eisenberg Brothers' + 'Molecular Devices' found no explicit distributor statement (its older supplier lists name PerkinElmer, Thermo Fisher, Lonza, Affymetrix and Fluidigm), a second domain-restricted SpectraMax/FLIPR query returned only patents, and no other Israeli distributor site mentions SpectraMax. Marked 'unclear' because the only evidence is the hosted brochure rather than a statement by Eisenberg Bros. or by Molecular Devices.",
@@ -1921,11 +1921,11 @@
           "scope": "Corning – Getter Group states it is Corning's exclusive representative (page ~2 years old; life-science vs. other Corning lines not specified)",
           "website": "https://www.getter.co.il",
           "source": "https://www.getter.co.il/about-en/",
-          "phone": "+972-3-576-6704",
+          "phone": "+972 3-576-1555 (Getter Group switchboard)",
           "email": "",
-          "address": "7 Shimshon St, Petah Tikva 4912502",
+          "address": "7 Shimshon St., Petah Tikva 4912502",
           "contact_url": "",
-          "contact_source": "https://prospeo.io/c/getter-group-email-format"
+          "contact_source": "https://www.d.co.il/831130/41880/"
         }
       ],
       "israel_note": "Getter Group's about page says it exclusively represents Corning, Olympus and Zeiss in Israel (seen in a search excerpt; ~2 years old). Getter Group's brand page and about page name Corning among the brands it exclusively represents.",
@@ -1989,19 +1989,20 @@
       "israel_presence": "distributor",
       "israel_entities": [
         {
-          "name": "IM Beit Haemek (as listed on Promega's contact page; Kibbutz Beit HaEmek)",
-          "name_he": "",
+          "name": "IM Beit HaEmek (Beit HaEmek Industries)",
+          "name_he": "תעשיות בית העמק",
           "type": "distributor",
-          "scope": "Promega products - marketing area Israel (Promega 'Contact Promega' distributor listing; e-mail info@bemek.co.il)",
-          "website": "https://bemek.co.il",
-          "source": "https://www.promega.com/support/contact-promega/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "scope": "official Israeli distributor of Promega (also ATCC, PromoCell, ChemoMetec, Biowest and others) per its own site and Promega's contact page",
+          "website": "https://www.bemek.co.il",
+          "source": "https://www.bemek.co.il/about-us/",
+          "phone": "+972 4-868-9015",
+          "email": "info@bemek.co.il",
+          "address": "Kibbutz Beit HaEmek",
+          "contact_url": "https://www.bemek.co.il/about-us/",
+          "contact_source": "https://www.bemek.co.il/about-us/"
         }
       ],
-      "israel_note": "Promega's own 'Contact Promega' page lists one Israel distributor: 'IM Beit Haemek', Kibbutz Beit Ha'Emek, marketing area Israel, with phone/fax, e-mail info@bemek.co.il and website bemek.co.il. A follow-up search could not resolve what 'IM Beit Haemek'/bemek.co.il is: the only Beit HaEmek life-science company found is Biological Industries Israel Beit-Haemek Ltd. (Sartorius group), whose own 'BI Worldwide' page lists Promega among its strategic partnerships, so the listed distributor is probably a Beit HaEmek entity related to BI, but that link and the listing's date are unconfirmed. The 40-domain sweep and the Hebrew query ('Promega יבואן ישראל ריאגנטים נציגות') found no other Israeli reseller claiming Promega.",
+      "israel_note": "Promega's 'Contact Promega' page lists IM Beit HaEmek (Kibbutz Beit HaEmek) as its Israel distributor, and IM Beit HaEmek's own site names Promega among the brands it officially distributes.",
       "sources": [
         "https://at.promega.com/products/",
         "https://ch.promega.com/products/",
@@ -2014,7 +2015,7 @@
         "https://bioind.com/worldwide/about/bi-worldwide",
         "https://www.developmentaid.org/organizations/view/443494/biological-industries-israel-beit-haemek"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "confidence_note": "Named on the manufacturer's own contact page, but the entity's identity and website could not be independently verified.",
       "israel_check": "verified",
       "contact": {
@@ -2140,11 +2141,11 @@
           "scope": "Lunaphore (a Bio-Techne brand) spatial-biology platforms – Getter describes itself as the official Israeli representative (LinkedIn)",
           "website": "https://www.getter.co.il",
           "source": "https://www.getter.co.il/about-en/",
-          "phone": "+972-3-576-6704",
+          "phone": "+972 3-576-1555 (Getter Group switchboard)",
           "email": "",
-          "address": "7 Shimshon St, Petah Tikva 4912502",
+          "address": "7 Shimshon St., Petah Tikva 4912502",
           "contact_url": "",
-          "contact_source": "https://prospeo.io/c/getter-group-email-format"
+          "contact_source": "https://www.d.co.il/831130/41880/"
         }
       ],
       "israel_note": "חיפוש רשת בלבד; דפי ״מפיצים״ של היצרן ואתרי המפיצים לא נפתחו (חסימת רשת). Bio-Techne's Novus Biologicals distributor page lists an Israeli distributor at 6 Hasadna St., P.O. Box 8006, Kfar Saba 4442405 with phone and e-mail, but the company name was not in the excerpt and a follow-up search for that address did not identify it; the R&D Systems distributor locator exists but showed no Israel entry in the snippets. The 40-domain sweep surfaced ENCO (self-described official Israeli distributor of 250+ antibody/protein suppliers) and Danyel, Gamidor and HyLabs pages, none of which mention R&D Systems, Novus, Tocris or ProteinSimple in any snippet. Bio-Techne's FY2025 10-K states it 'has not historically had significant business in Russia, Ukraine or Israel'. Getter Bio-Med's posts describe it as the official Israeli representative of Lunaphore, a Bio-Techne brand; no channel found for R&D Systems / ProteinSimple products. Novus Biologicals' (Bio-Techne) distributor page lists an unnamed Israeli distributor at 6 Hasadna St., Kfar Saba (identity not resolved).",
@@ -2305,7 +2306,7 @@
           "scope": "10x Genomics instruments, reagents and software (Chromium single-cell; Visium/Xenium not seen explicitly)",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/10x-genomics/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -2391,10 +2392,11 @@
           "scope": "officially licensed channel partner for Nanopore products in Israel (nanoporetech.com channel-partner page)",
           "website": "https://www.zotal.co.il",
           "source": "https://nanoporetech.com/about/channel-partners",
-          "phone": "",
+          "phone": "+972 3-649-2444",
           "email": "",
-          "address": "",
-          "contact_url": ""
+          "address": "4 Habarzel St., Tel Aviv 6971008",
+          "contact_url": "",
+          "contact_source": "https://www.dunsguide.co.il/en/C0adbc6e5365ecf0878126e9b113fe98d_zotal/"
         }
       ],
       "israel_note": "Confirmed on the manufacturer's own channel-partner directory: nanoporetech.com/about/channel-partners/zotal-ltd lists Zotal Ltd (Tel Aviv, Israel 6971008) as officially licensed to sell Nanopore products in Israel, with expertise areas including biopharma, infectious disease/SARS-CoV-2, environmental, microbiome and human genomics; the page exists in several language versions of the ONT site. ONT's Gulf deal with G42 Healthcare covers GCC, Jordan, Pakistan, Egypt and Iraq - not Israel. Zotal's own website could not be fetched to cross-check its brand list, and the Hebrew search could not be run, but the official ONT listing is sufficient. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
@@ -2585,7 +2587,7 @@
           "scope": "Hamilton (liquid-handling robotics) listed among the brands on Danyel Biotech's site – scope to confirm",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -2745,11 +2747,11 @@
           "scope": "Zeiss – Getter Group states it exclusively represents Zeiss; scope (medical/surgical vs. research microscopy) to confirm",
           "website": "https://www.getter.co.il",
           "source": "https://www.getter.co.il/about-en/",
-          "phone": "+972-3-576-6704",
+          "phone": "+972 3-576-1555 (Getter Group switchboard)",
           "email": "",
-          "address": "7 Shimshon St, Petah Tikva 4912502",
+          "address": "7 Shimshon St., Petah Tikva 4912502",
           "contact_url": "",
-          "contact_source": "https://prospeo.io/c/getter-group-email-format"
+          "contact_source": "https://www.d.co.il/831130/41880/"
         }
       ],
       "israel_note": "Getter BioMed (גטר ביומד, Getter Group) states on its own site that it imports, markets and professionally supports ZEISS laboratory microscopes in Israel under the 'צייס ישראל' banner, listing LSM 900 and LSM 980 Airyscan confocals, Axioscope 7, Axiovert 5 digital and ZEISS dental/surgical microscopes. zeiss.com was not checked (search budget) and some Getter pages are about three years old, so current exclusivity should be confirmed with ZEISS. Other ZEISS lines have separate Israeli importers (eyeglass lenses via Lapidot/LuxVision, camera lenses and binoculars via A.B.S.), which are not microscopy channels. Getter Group's brand page lists Zeiss (described there as an optics company) among the brands it represents; scope for research microscopy unconfirmed.",
@@ -2831,11 +2833,11 @@
           "scope": "Evident (ex-Olympus) microscopes: its 'Microscopy & Imaging' catalogue lists Evident industrial/materials lines (BX53M, GX53, LEXT OLS, DSX, MX63/MX63L, SZ/SZX stereo) and OEM microscope components tagged EVIDENT (OLYMPUS); life-science confocal (FLUOVIEW FV4000/FV5000) demo events promoted by an Eisenberg applications specialist on LinkedIn. Olympus microscopes already listed in its 2009 IPS trade-fair profile.",
           "website": "https://eisenbros.co.il",
           "source": "https://eisenbros.co.il/product-category/microscopy-imaging/",
-          "phone": "",
+          "phone": "+972 3-977-7000",
           "email": "",
           "address": "Airport City",
           "contact_url": "",
-          "contact_source": "https://www.genomeweb.com/pcrsample-prep/fluidigm-taps-eisenberg-brothers-israeli-distributor"
+          "contact_source": "https://www.ismicroscopy.org.il/sponsors-2014/"
         },
         {
           "name": "Getter Group (Getter Bio-Med)",
@@ -2844,11 +2846,11 @@
           "scope": "Olympus (now Evident) – Getter Group states it exclusively represents Olympus; scope (microscopy vs. medical endoscopy) to confirm",
           "website": "https://www.getter.co.il",
           "source": "https://www.getter.co.il/about-en/",
-          "phone": "+972-3-576-6704",
+          "phone": "+972 3-576-1555 (Getter Group switchboard)",
           "email": "",
-          "address": "7 Shimshon St, Petah Tikva 4912502",
+          "address": "7 Shimshon St., Petah Tikva 4912502",
           "contact_url": "",
-          "contact_source": "https://prospeo.io/c/getter-group-email-format"
+          "contact_source": "https://www.d.co.il/831130/41880/"
         }
       ],
       "israel_note": "Searched 'Evident/Olympus microscope Israel distributor/נציג/יבואן', 'Eisenberg Olympus/Evident', Hebrew 'אייזנברג Olympus/Evident', the brand across the Israeli distributor domains and evidentscientific.com. Eisenberg Bros. Ltd. (eisenbros.co.il) carries the Evident range on its own site (industrial microscopes BX53M/GX53/LEXT/DSX/MX63/SZX plus Evident OEM components), consistent with its 2009 listing as Olympus microscope supplier and with a LinkedIn post by an Eisenberg applications specialist promoting Evident FV5000/FV4000 confocal demos in Israel. Evident's own locations page has no Israel office and its distributor network is not listed by country, so no manufacturer-side confirmation was seen; the 2009 Eisenberg hint is therefore still true as of the distributor's current website. Evident is owned by Bain Capital since Jan 2023. Getter Group's about page lists Olympus among the brands it exclusively represents in Israel (~2 years old); whether this covers Evident research microscopes or only Olympus medical products is not stated.",
@@ -3222,10 +3224,11 @@
           "scope": "Rigaku ED-XRF analysers (e.g. NEX DE VS); XRD channel not confirmed",
           "website": "https://www.yarden-biotec.co.il",
           "source": "https://www.yarden-biotec.co.il/lab-products/xrf-analyzers",
-          "phone": "",
+          "phone": "+972 2-651-1102",
           "email": "",
-          "address": "",
-          "contact_url": ""
+          "address": "Moshav Yad HaShmona 9089500",
+          "contact_url": "",
+          "contact_source": "https://www.dunsguide.co.il/en/C5d1ac4a1db5552042ab4a8a44eca83bc_professional_equipment_engineering_scientific_equipment/yarden_biotec/"
         }
       ],
       "israel_note": "Yarden Biotec (yarden-biotec.co.il) markets Rigaku ED-XRF analysers (e.g. NEX DE VS) in Israel on its own site, which is the only sales channel found for Rigaku lab instruments; no Israeli distributor for Rigaku XRD (MiniFlex, SmartLab, XtaLAB) was identified. Rigaku also owns Rigaku Semiconductor Instruments Ltd. in Migdal HaEmek (the former XwinSys, acquired 2019), listed on rigaku.com as a division for semiconductor metrology rather than an XRD/XRF sales office. Rigaku's EMEA service page lists Israel as served through partners/distributors (Service.Europe@rigaku.com).",
@@ -3306,12 +3309,13 @@
           "name_he": "",
           "type": "distributor",
           "scope": "HORIBA Scientific instruments (marked 'scientific' on HORIBA's worldwide-locations page; Rosh Ha'Ayin) - exact product lines (Raman, particle size, fluorescence, elemental) not itemised; own website not found.",
-          "website": "",
+          "website": "https://newroad.sgo.co.il",
           "source": "https://www.horiba.com/int/contact/worldwide-locations/",
           "phone": "",
           "email": "",
-          "address": "",
-          "contact_url": ""
+          "address": "Park Afek, Rosh Ha'ayin",
+          "contact_url": "https://newroad.sgo.co.il/?p=58",
+          "contact_source": "https://biofindly.co.il/distributor/newroad/"
         }
       ],
       "israel_note": "Searched 'HORIBA Israel distributor/נציג/יבואן', the brand across the Israeli distributor domains, horiba.com, 'HORIBA Medical/ABX/Yumizen Israel' and 'New-Road Agencies'. HORIBA's worldwide-locations page lists two Israeli partners: Agrolan Ltd (water quality only; also on the LAQUA distributor page for Israel) and New-Road Agencies Ltd (scientific); HORIBA has no Israeli office (its only Middle East base is HORIBA Middle East in the UAE, created June 2026 by acquiring distributor FANDA). No Israeli distributor for HORIBA Medical (hematology) was found. Caveat: the HORIBA pages are roughly 3-4 years old and neither distributor's own site was seen, so current status should be confirmed.",
@@ -3886,11 +3890,11 @@
           "scope": "qTOWER³ real-time PCR thermal cycler",
           "website": "http://www.tamar.co.il",
           "source": "http://www.tamar.co.il/qtower%C2%B3/",
-          "phone": "",
+          "phone": "+972 2-533-6070 (also 02-579-9777)",
           "email": "",
-          "address": "Jerusalem",
+          "address": "HaAla St., Mevaseret Zion 90805",
           "contact_url": "",
-          "contact_source": "https://ensun.io/search/laboratory-equipment/israel"
+          "contact_source": "https://www.d.co.il/3694880/30660/"
         },
         {
           "name": "Lumitron",
@@ -3901,7 +3905,7 @@
           "source": "https://www.lumitron.co.il/about-us/",
           "phone": "+972 52-525-6287",
           "email": "",
-          "address": "",
+          "address": "17 Hamiflasim St., Petah Tikva",
           "contact_url": "",
           "contact_source": "https://www.elgalabwater.com/about-us/approved-partners"
         }
@@ -4048,10 +4052,11 @@
           "scope": "NETZSCH thermal analysis (DSC 204 F1 Phoenix, DSC 404 F1 Pegasus, DSC 3500 Sirius, STA 449 F5 Jupiter, STA 409 CD / QMS 403 coupling)",
           "website": "https://www.medent.co.il",
           "source": "https://www.medent.co.il/scientific.equipment/store/product/netzsch/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         }
       ],
       "israel_note": "Medent Scientific Instruments (מדנט מכשור מדעי) lists NETZSCH thermal-analysis instruments on its own site with a dedicated 'NETZSCH - Germany' supplier page and DSC/STA categories (DSC 204 F1 Phoenix, DSC 404 F1 Pegasus, DSC 3500 Sirius, STA 449 F5 Jupiter, STA 409 CD with QMS 403 skimmer coupling). Some listings are old (one about 11 years), but models such as the DSC 3500 Sirius and STA 449 F5 date the catalogue to at least the mid/late 2010s. Not cross-checked on analyzing-testing.netzsch.com (search budget), so whether Medent is the current exclusive representative is unconfirmed.",
@@ -4269,10 +4274,11 @@
           "scope": "Hanna pH/EC/TDS meters, electrodes, photometers (extensive catalogue on own site, prices in ILS)",
           "website": "https://www.medent.co.il",
           "source": "https://www.medent.co.il/scientific.equipment/store/product-tag/hanna-instruments/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         },
         {
           "name": "BioAnalytics",
@@ -4369,11 +4375,11 @@
           "scope": "exclusive representative for VELP's analytical product line in Israel since 2024 (UDK Kjeldahl distillers, DKL digesters, NDA 702 Dumas N/protein analyser, fibre/fat extractors, oxidation testers)",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/firms/velp/?lang=en",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Labotal (לבוטל) states on its own VELP supplier page that during 2024 it became the exclusive representative for VELP's analytical product line in Israel (UDK Kjeldahl distillers, DKL digesters, NDA 702 Dumas nitrogen/protein analyser, fibre/fat extractors), and the BioFindly directory lists Labotal under VELP. The statement covers the analytical line only; VELP's general lab equipment (stirrers, shakers, hotplates) may have a different Israeli channel, which was not found. velp.com was not checked (search budget).",
@@ -4944,11 +4950,11 @@
           "scope": "Binder incubators, drying ovens and climate chambers (Labotal 'firms/binder' page and product pages)",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/firms/binder/",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Labotal's own site lists the brand among the firms it represents and sells its products in Israel (some Labotal pages are several years old; the manufacturer's distributor page was not opened).",
@@ -5019,10 +5025,11 @@
           "scope": "Memmert CO2 incubators (e.g. INC108ivf), cooled incubators (IPP/IPS), vacuum ovens (VO), drying ovens (UF/UN) and incubators (IF/IN) listed with Hebrew product pages",
           "website": "https://www.medent.co.il",
           "source": "https://medent.co.il/scientific.equipment/product/איקובטור-co2-בנפח-108-ליטר-תוצרת-memmert-גרמניה-דג-2/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         }
       ],
       "israel_note": "A search for 'Memmert' restricted to Israeli lab-distributor domains returned a series of Medent (מדנט מכשור מדעי) product pages that explicitly describe the items as 'made by MEMMERT Germany' (CO2 incubator INC108ivf, IPP/IPS cooled incubators, VO vacuum ovens, UF/UN drying ovens), so Medent is recorded as an Israeli distributor on the strength of its own site. A .co.il-wide search also found a Memmert UF260 datasheet (2017) hosted on kimron.co.il, which is a possible second reseller but is not recorded as an entity because no product or brand page was seen. Memmert's own distributor locator (memmert.com) was not searched within the budget, so this is distributor-side evidence only; a Labotal 2026 incubator buyer's guide mentions Memmert's IPPeco Peltier models but Labotal is a Binder partner and was not seen offering Memmert.",
@@ -5097,10 +5104,11 @@
           "scope": "IKA brand page ('IKA - Germany'): mixing, heating, distilling, crushing; Medent states it imports IKA viscometers; product categories for magnetic stirrers with heating, vortex mixers, chillers (RC 2/RC 5) and drying ovens (Oven 125)",
           "website": "https://www.medent.co.il",
           "source": "https://www.medent.co.il/en/project/ika-germany/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         },
         {
           "name": "Labotal Scientific Equipment Ltd.",
@@ -5109,11 +5117,11 @@
           "scope": "overhead and magnetic stirrers - Labotal's overhead-stirrer category page names IKA among the brands it stocks (scope beyond stirrers not seen)",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/product-category/hot-plate-and-stirrers/overhead-stirrers/?lang=en",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Medent's own site has a dedicated 'IKA - Germany' manufacturer page and Hebrew product categories listing IKA RCT hot-plate stirrers, vortex mixers, RC 2/RC 5 chillers and the Oven 125, and it says it imports IKA viscometers; Labotal's overhead-stirrer page names IKA among the brands it stocks, so both are recorded as Israeli distributors. A .co.il-wide search additionally surfaced a 2012 IKA magnetic-stirrer catalogue hosted on master-cold.co.il, which is too old and indirect to record as an entity. IKA's own dealer locator (ika.com) was not searched within the budget, so the exclusivity or split between Medent and Labotal is unknown.",
@@ -5188,11 +5196,11 @@
           "scope": "Heidolph rotary evaporators, stirrers and shakers (Labotal joined Heidolph's premium distributor programme)",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/company-news/?lang=en",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Labotal's own site lists the brand among the firms it represents and sells its products in Israel (some Labotal pages are several years old; the manufacturer's distributor page was not opened).",
@@ -5262,11 +5270,11 @@
           "scope": "JULABO circulators, chillers and baths – Labotal states it is JULABO's exclusive representative in Israel",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/product/julabo-magio-ms-and-mx-heating-circulatorsideal-for-demanding-external-applications/",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Labotal's own site lists the brand among the firms it represents and sells its products in Israel (some Labotal pages are several years old; the manufacturer's distributor page was not opened).",
@@ -5335,10 +5343,11 @@
           "scope": "LAUDA brand page ('Lauda - Germany') and a Hebrew product category 'LAUDA baths, circulators and chillers'; GFL-brand (LAUDA) water stills and lab refrigerators also listed",
           "website": "https://www.medent.co.il",
           "source": "https://www.medent.co.il/en/project/lauda-germany/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         },
         {
           "name": "Citrine Solutions",
@@ -5680,7 +5689,7 @@
           "scope": "Esco Life Sciences division: biological safety cabinets (Airstream Class I/III, Labculture Class II A2/B1/B2), fume hoods, incubators and ULT freezers - dedicated Esco page on Danyel's site",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/esco/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -5755,11 +5764,11 @@
           "scope": "Labconco biosafety cabinets and CentriVap concentrators (Labotal product pages)",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/sitemap/?lang=en",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Labotal's own site lists the brand among the firms it represents and sells its products in Israel (some Labotal pages are several years old; the manufacturer's distributor page was not opened).",
@@ -5831,8 +5840,9 @@
           "source": "https://ormir.co.il/card-with-image/",
           "phone": "",
           "email": "",
-          "address": "",
-          "contact_url": ""
+          "address": "Kfar Yona",
+          "contact_url": "",
+          "contact_source": "https://biofindly.co.il/distributor/ormir/"
         },
         {
           "name": "Citrine Solutions",
@@ -5933,7 +5943,7 @@
           "source": "https://www.lumitron.co.il/our-brands-heb/?lang=en",
           "phone": "+972 52-525-6287",
           "email": "",
-          "address": "",
+          "address": "17 Hamiflasim St., Petah Tikva",
           "contact_url": "",
           "contact_source": "https://www.elgalabwater.com/about-us/approved-partners"
         }
@@ -6011,9 +6021,9 @@
           "source": "https://www.haiermedical.com/News/HB-Showcases-Cutting-Edge-Innovations-at-Israel-Expo",
           "phone": "",
           "email": "",
-          "address": "Petah Tikva",
+          "address": "4 Nevatim St., Petah Tikva",
           "contact_url": "",
-          "contact_source": "https://ensun.io/search/laboratory-equipment/israel"
+          "contact_source": "https://www.b144.co.il/b144_sip/401C04134676625D4E130311/"
         }
       ],
       "israel_note": "A search restricted to haiermedical.com surfaced the news item 'HB Showcases Cutting-Edge Innovations at Israel Expo', whose snippet says Haier Biomedical's partner Ex-Lab presented its lineup of laboratory equipment at a university expo hosted by the Weizmann Institute and the Technion, so Ex-Lab is recorded as the Israeli partner on the manufacturer's own word. Two follow-up searches (unrestricted and .co.il-wide) could not locate Ex-Lab's website or any Israeli page selling Haier Biomedical ULT freezers (results were Eppendorf, Nordiclab/BDL, Kalstein and household Haier retail), and the distributor-domain search returned nothing. The date of the expo is not visible in the snippet, so the partnership's current status is unconfirmed. Haier Biomedical's own news page names Ex-Lab (Petah Tikva) as its Israeli partner; a directory profile says EX-LAB also carries Daihan, DLab, Heal Force, Frimed and Marathon.",
@@ -6084,10 +6094,11 @@
           "scope": "Stuart-brand general lab equipment (shakers, heated magnetic stirrers e.g. SB302, water stills) - Stuart is an Antylia/Cole-Parmer brand",
           "website": "https://www.medent.co.il",
           "source": "https://www.medent.co.il/scientific.equipment/product-category/%D7%A9%D7%99%D7%99%D7%A7%D7%A8%D7%99%D7%9D-%D7%95%D7%9E%D7%98%D7%9C%D7%98%D7%9C%D7%99%D7%9D-%D7%9E%D7%A2%D7%91%D7%93%D7%AA%D7%99%D7%99%D7%9D/",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         }
       ],
       "israel_note": "General search ('Cole-Parmer' OR 'Antylia' Israel distributor/נציג/יבואן) returned no Israeli entity and no Israel listing on Antylia/IDEX distributor pages (only Australia/NZ: John Morris; Italy). A search restricted to Israeli distributor domains found Medent (medent.co.il) listing Stuart-brand shakers, heated stirrers and water stills. No Israeli partner found for the Cole-Parmer brand itself, Jenway, Techne or Environmental Express; Masterflex is now Avantor and was not searched. Antylia's own 'find a distributor' page was not fetched (fetching blocked). Corporate note seen in snippet: Brookfield and CDPQ completed the acquisition of Antylia Scientific for approximately USD 1.3 billion (CDPQ news release).",
@@ -6326,11 +6337,11 @@
           "scope": "Azenta's FluidX tube capping/decapping systems (IntelliXcap, Aperio) and 4titude (Azenta Life Sciences UK) plates, tubes and seals - listed on Tamar's represented-companies and tube-capping pages",
           "website": "https://www.tamar.co.il",
           "source": "https://www.tamar.co.il/represented-companies/",
-          "phone": "",
+          "phone": "+972 2-533-6070 (also 02-579-9777)",
           "email": "",
-          "address": "Jerusalem",
+          "address": "HaAla St., Mevaseret Zion 90805",
           "contact_url": "",
-          "contact_source": "https://ensun.io/search/laboratory-equipment/israel"
+          "contact_source": "https://www.d.co.il/3694880/30660/"
         }
       ],
       "israel_note": "General search ('Azenta' OR 'GENEWIZ' Israel distributor/נציג/יבואן) returned only Azenta/GENEWIZ's own pages with no Israel mention. Domain-restricted search found Tamar's 'Represented companies' page listing both 'Azenta Life Sciences (United Kingdom)' and '4titude (Azenta Life Sciences)', plus a 4titude automatic roll heat sealer product page. No Israeli channel found for GENEWIZ genomics services (likely ordered directly online) or for automated -80 C / cryogenic sample stores; Azenta's own where-to-buy page not fetched.",
@@ -6555,11 +6566,11 @@
           "scope": "OHAUS balances (listed among Labotal's represented firms)",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/sitemap/?lang=en",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "Labotal's own site lists the brand among the firms it represents and sells its products in Israel (some Labotal pages are several years old; the manufacturer's distributor page was not opened).",
@@ -6628,10 +6639,11 @@
           "scope": "KERN precision balances (EW-N / EG-N series, e.g. EW 220-3NM, EG 620-3NM) and Kern & Sohn GmbH printers for KERN balances (YKN-01) listed on BDL's online catalogue with EUR prices; company's full name and authorised status not seen",
           "website": "https://www.bdl.co.il",
           "source": "https://www.bdl.co.il/Item.aspx?Name=Precision+balances+type+EW-N+and+EG-N&SID=19921",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 9-761-1800",
+          "email": "info@bdl.co.il",
+          "address": "Ra'anana (warehouse: Netanya)",
+          "contact_url": "https://www.bdl.co.il/Contact.aspx",
+          "contact_source": "https://www.bdl.co.il/Contact.aspx"
         }
       ],
       "israel_note": "A .co.il-wide search for 'KERN & SOHN balances scales' found BDL (bdl.co.il) listing KERN EW-N/EG-N precision balances and Kern & Sohn GmbH matrix printers for KERN balances, and a follow-up search restricted to bdl.co.il confirmed those listings; BDL is recorded as an Israeli reseller/distributor, although its catalogue-style site (EUR prices, many European lab brands) suggests an import catalogue rather than an exclusive agency. Searches restricted to kern-sohn.com returned only corporate pages with no Israel dealer entry, and the two distributor-domain searches returned nothing (the first was polluted by 'kernel balancing' papers). KERN's own dealer locator could not be read, so other Israeli channels may exist.",
@@ -6848,10 +6860,11 @@
           "scope": "INTEGRA liquid-handling products (VIAFLO, ASSIST PLUS, VACUSAFE etc.) - listed as INTEGRA's distributor for Israel, Beer Sheva 84206",
           "website": "https://www.medent.co.il",
           "source": "https://www.integra-biosciences.com/global/en/where-buy",
-          "phone": "",
-          "email": "",
-          "address": "",
-          "contact_url": ""
+          "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+          "email": "info@medent.co.il",
+          "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+          "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+          "contact_source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/"
         }
       ],
       "israel_note": "Searched '\"INTEGRA Biosciences\" Israel distributor/נציג/יבואן', the 29 Israeli distributor domains and integra-biosciences.com. INTEGRA's own 'Where to buy' country selector lists Medent - Scientific Equipment Ltd. (Beer Sheva, medent.co.il) as its distributor for Israel; an older indexed copy of the same page shows the same entry. INTEGRA has no Israeli subsidiary (its own offices are in Europe, North America and Asia-Pacific). Caveat: Medent's own site was not checked and the listing was indexed roughly five months before today.",
@@ -6916,10 +6929,11 @@
           "scope": "BMG LABTECH microplate readers (CLARIOstar, PHERAstar etc.) - listed as BMG's Israel sales & support contact, 4 Habarzel St., Tel Aviv 69710, sales@zotal.co.il",
           "website": "https://www.zotal.co.il",
           "source": "https://www.bmglabtech.com/en/sales-and-support-offices/",
-          "phone": "",
+          "phone": "+972 3-649-2444",
           "email": "",
-          "address": "",
-          "contact_url": ""
+          "address": "4 Habarzel St., Tel Aviv 6971008",
+          "contact_url": "",
+          "contact_source": "https://www.dunsguide.co.il/en/C0adbc6e5365ecf0878126e9b113fe98d_zotal/"
         }
       ],
       "israel_note": "Searched '\"BMG LABTECH\" Israel distributor/נציג/יבואן', the 29 Israeli distributor domains and bmglabtech.com. BMG LABTECH's 'Sales & Support Offices' page lists Zotal Ltd. (Tel Aviv) as the Israel contact, and Zotal's own site has a BMG LABTECH brand page plus microplate-reader product pages (luminescence, fluorescence polarization, TR-FRET, AlphaScreen, LVF monochromator). BMG has no Israeli subsidiary; its own offices are in Germany, USA, UK, Australia, Japan and France. No caveats beyond BMG's page not labelling Zotal explicitly as 'distributor' versus office.",
@@ -7240,7 +7254,7 @@
           "scope": "SciLabware ('a DWK Life Sciences company', UK): Pyrex borosilicate and Quickfit jointed glassware, MBL volumetric ware, Azlon plasticware and Wheaton packaging/dropper bottles - per Danyel's SciLabware brand page; DURAN and KIMBLE lines not shown",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/scilabware/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -7316,7 +7330,7 @@
           "scope": "Greiner Bio-One plates, tubes and consumables (Danyel brand page)",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/greiner-bio-one/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -7389,11 +7403,11 @@
           "scope": "Sarstedt consumables (tubes, cuvettes, pipette tips) – Sarstedt is on Tamar's represented-companies page",
           "website": "https://www.tamar.co.il",
           "source": "https://www.tamar.co.il/represented-companies/",
-          "phone": "",
+          "phone": "+972 2-533-6070 (also 02-579-9777)",
           "email": "",
-          "address": "Jerusalem",
+          "address": "HaAla St., Mevaseret Zion 90805",
           "contact_url": "",
-          "contact_source": "https://ensun.io/search/laboratory-equipment/israel"
+          "contact_source": "https://www.d.co.il/3694880/30660/"
         }
       ],
       "israel_note": "Tamar Laboratory Supplies' 'Represented companies' page lists Sarstedt, and Tamar sells Sarstedt tubes and cuvettes in Israel.",
@@ -7464,11 +7478,11 @@
           "scope": "BRAND liquid handling (Transferpette S / electronic / alpha pipettes; carried since 2018) and VACUUBRAND diaphragm and ATEX vacuum pumps - Labotal states it is an authorised VACUUBRAND distributor for the laboratory segment",
           "website": "https://labotal.co.il",
           "source": "https://labotal.co.il/company-news/?lang=en",
-          "phone": "",
-          "email": "",
-          "address": "Abu Gosh",
-          "contact_url": "",
-          "contact_source": "https://jobify360.co.il/jobs/4254307910-in"
+          "phone": "+972 2-579-9222",
+          "email": "Sales@labotal.co.il",
+          "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+          "contact_url": "https://labotal.co.il/contact/",
+          "contact_source": "https://labotal.co.il/contact/"
         }
       ],
       "israel_note": "The 40-domain sweep returned Labotal's own product and news pages: a 'Brand Pipettors, New Series: Transferpette α' page, single-channel pipettor category pages, VACUUBRAND ME 2 NT, ME 4 NT and MV-10C-EX pump pages, and a company-news page stating that Labotal is an authorised VACUUBRAND distributor for the laboratory segment and began carrying BRAND liquid-handling products in 2018. No other Israeli distributor site mentioned BRAND or VACUUBRAND. The manufacturers' own distributor pages (brand.de, vacuubrand.com) were not searched within the budget, so exclusivity and other channels (e.g. BRAND consumables via general lab-supply houses) are unknown.",
@@ -7544,7 +7558,7 @@
           "scope": "Berthold Technologies bioanalytical instruments - Mithras LB 940 multimode reader, TriStar² LB 942, Lumat³ LB 9508 / MiniLumat luminometers, NightOWL in-vivo imager (Danyel brand page)",
           "website": "https://www.danyel.co.il",
           "source": "https://www.danyel.co.il/berthold-technologies/",
-          "phone": "",
+          "phone": "1-800-711-911 (also +972 8-936-6066)",
           "email": "",
           "address": "8 Hamada St., Science Park, Rehovot 7670308",
           "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -7618,11 +7632,11 @@
           "scope": "INFORS HT incubator shakers, bioreactors and bioprocess software - listed as the Israel distributor (Modi'in) on INFORS HT's locations page",
           "website": "https://www.rhenium.co.il",
           "source": "https://infors-ht.com/en/infors-locations",
-          "phone": "+972-8-9558888",
+          "phone": "+972 8-955-8888",
           "email": "",
           "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
           "contact_url": "",
-          "contact_source": "https://innovationisrael.org.il/importWinner/511642449; https://www.datanyze.com/people/Sivan-Raz/3332444628"
+          "contact_source": "https://www.beckman.com/contact-us/israel"
         }
       ],
       "israel_note": "Verified on the manufacturer's side: INFORS HT's 'Locations' page (infors-ht.com/en/infors-locations), which covers its 8 subsidiaries, 2 partners and 53+ distributors, names Rhenium Research Laboratory Equipment Ltd., Modi'in, as its Israeli distributor. The 40-domain sweep (only MRC generic shaker pages) and the Hebrew query ('Infors HT שייקר אינקובטור ביוריאקטור יבואן') found nothing, and Rhenium's own site did not surface in the snippets, so the distributor-side listing was not seen. INFORS HT has no Israeli subsidiary.",
@@ -7771,7 +7785,7 @@
           "source": "https://www.elgalabwater.com/about-us/approved-partners",
           "phone": "+972 52-525-6287",
           "email": "",
-          "address": "",
+          "address": "17 Hamiflasim St., Petah Tikva",
           "contact_url": "",
           "contact_source": "https://www.elgalabwater.com/about-us/approved-partners"
         }
@@ -7909,7 +7923,7 @@
           "source": "https://www.lumitron.co.il/our-brands/radwag/?lang=en",
           "phone": "+972 52-525-6287",
           "email": "",
-          "address": "",
+          "address": "17 Hamiflasim St., Petah Tikva",
           "contact_url": "",
           "contact_source": "https://www.elgalabwater.com/about-us/approved-partners"
         }
@@ -7948,7 +7962,7 @@
       "name_he": "דניאל ביוטק",
       "type": "distributor",
       "website": "https://www.danyel.co.il",
-      "phone": "",
+      "phone": "1-800-711-911 (also +972 8-936-6066)",
       "email": "",
       "address": "8 Hamada St., Science Park, Rehovot 7670308",
       "contact_url": "https://www.danyel.co.il/contact-us/",
@@ -8006,10 +8020,10 @@
       "name_he": "לבוטל",
       "type": "distributor",
       "website": "https://labotal.co.il",
-      "phone": "",
-      "email": "",
-      "address": "Abu Gosh",
-      "contact_url": "",
+      "phone": "+972 2-579-9222",
+      "email": "Sales@labotal.co.il",
+      "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+      "contact_url": "https://labotal.co.il/contact/",
       "brands": [
         {
           "id": 8,
@@ -8064,10 +8078,10 @@
       "name_he": "מדנט מכשור מדעי",
       "type": "distributor",
       "website": "https://www.medent.co.il",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "contact_url": "",
+      "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+      "email": "info@medent.co.il",
+      "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+      "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
       "brands": [
         {
           "id": 50,
@@ -8238,7 +8252,7 @@
       "website": "https://www.lumitron.co.il",
       "phone": "+972 52-525-6287",
       "email": "",
-      "address": "",
+      "address": "17 Hamiflasim St., Petah Tikva",
       "contact_url": "",
       "brands": [
         {
@@ -8274,7 +8288,7 @@
       "name_he": "רניום",
       "type": "distributor",
       "website": "https://www.rhenium.co.il",
-      "phone": "+972-8-9558888",
+      "phone": "+972 8-955-8888",
       "email": "",
       "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
       "contact_url": "",
@@ -8378,9 +8392,9 @@
       "name_he": "קבוצת גטר",
       "type": "distributor",
       "website": "https://www.getter.co.il",
-      "phone": "+972-3-576-6704",
+      "phone": "+972 3-576-1555 (Getter Group switchboard)",
       "email": "",
-      "address": "7 Shimshon St, Petah Tikva 4912502",
+      "address": "7 Shimshon St., Petah Tikva 4912502",
       "contact_url": "",
       "brands": [
         {
@@ -8495,9 +8509,9 @@
       "name_he": "תמר ציוד מעבדתי",
       "type": "distributor",
       "website": "http://www.tamar.co.il",
-      "phone": "",
+      "phone": "+972 2-533-6070 (also 02-579-9777)",
       "email": "",
-      "address": "Jerusalem",
+      "address": "HaAla St., Mevaseret Zion 90805",
       "contact_url": "",
       "brands": [
         {
@@ -8523,10 +8537,10 @@
       "name_he": "תרמו פישר ישראל (רעננה)",
       "type": "subsidiary",
       "website": "https://www.thermofisher.com",
-      "phone": "",
+      "phone": "+972 8-940-8618",
       "email": "",
-      "address": "Ra'anana",
-      "contact_url": "",
+      "address": "5 Golda Meir St., Ness Ziona (also Airport City 1, Lod)",
+      "contact_url": "https://www.thermofisher.com/il/en/home.html",
       "brands": [
         {
           "id": 1,
@@ -8643,7 +8657,7 @@
       "name_he": "",
       "type": "distributor",
       "website": "https://eisenbros.co.il",
-      "phone": "",
+      "phone": "+972 3-977-7000",
       "email": "",
       "address": "Airport City",
       "contact_url": "",
@@ -8689,9 +8703,9 @@
       "name_he": "זוטל",
       "type": "distributor",
       "website": "https://www.zotal.co.il",
-      "phone": "",
+      "phone": "+972 3-649-2444",
       "email": "",
-      "address": "",
+      "address": "4 Habarzel St., Tel Aviv 6971008",
       "contact_url": "",
       "brands": [
         {
@@ -8820,10 +8834,10 @@
       "name_he": "",
       "type": "distributor",
       "website": "https://www.bdl.co.il",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "contact_url": "",
+      "phone": "+972 9-761-1800",
+      "email": "info@bdl.co.il",
+      "address": "Ra'anana (warehouse: Netanya)",
+      "contact_url": "https://www.bdl.co.il/Contact.aspx",
       "brands": [
         {
           "id": 82,
@@ -8984,7 +8998,7 @@
       "website": "",
       "phone": "",
       "email": "",
-      "address": "Petah Tikva",
+      "address": "4 Nevatim St., Petah Tikva",
       "contact_url": "",
       "brands": [
         {
@@ -9050,19 +9064,19 @@
     },
     {
       "key": "im",
-      "name": "IM Beit Haemek",
-      "name_he": "",
+      "name": "IM Beit HaEmek",
+      "name_he": "תעשיות בית העמק",
       "type": "distributor",
-      "website": "https://bemek.co.il",
-      "phone": "",
-      "email": "",
-      "address": "",
-      "contact_url": "",
+      "website": "https://www.bemek.co.il",
+      "phone": "+972 4-868-9015",
+      "email": "info@bemek.co.il",
+      "address": "Kibbutz Beit HaEmek",
+      "contact_url": "https://www.bemek.co.il/about-us/",
       "brands": [
         {
           "id": 23,
           "manufacturer": "Promega Corporation",
-          "scope": "Promega products - marketing area Israel (Promega 'Contact Promega' distributor listing; e-mail info@bemek.co.il)"
+          "scope": "official Israeli distributor of Promega (also ATCC, PromoCell, ChemoMetec, Biowest and others) per its own site and Promega's contact page"
         }
       ]
     },
@@ -9233,11 +9247,11 @@
       "name": "New-Road Agencies Ltd.",
       "name_he": "",
       "type": "distributor",
-      "website": "",
+      "website": "https://newroad.sgo.co.il",
       "phone": "",
       "email": "",
-      "address": "",
-      "contact_url": "",
+      "address": "Park Afek, Rosh Ha'ayin",
+      "contact_url": "https://newroad.sgo.co.il/?p=58",
       "brands": [
         {
           "id": 40,
@@ -9272,7 +9286,7 @@
       "website": "https://ormir.co.il",
       "phone": "",
       "email": "",
-      "address": "",
+      "address": "Kfar Yona",
       "contact_url": "",
       "brands": [
         {
@@ -9486,9 +9500,9 @@
       "name_he": "",
       "type": "distributor",
       "website": "https://www.yarden-biotec.co.il",
-      "phone": "",
+      "phone": "+972 2-651-1102",
       "email": "",
-      "address": "",
+      "address": "Moshav Yad HaShmona 9089500",
       "contact_url": "",
       "brands": [
         {

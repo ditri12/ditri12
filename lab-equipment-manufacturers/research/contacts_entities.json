@@ -89,14 +89,14 @@
  },
  {
   "key": "bdl",
-  "name": "BDL",
-  "phone": "",
-  "email": "",
-  "address": "",
+  "name": "BDL (Beith Dekel) Ltd.",
+  "phone": "+972 9-761-1800",
+  "email": "info@bdl.co.il",
+  "address": "Ra'anana (warehouse: Netanya)",
   "website": "https://www.bdl.co.il",
-  "contact_url": "",
-  "source": "",
-  "note": "Nothing found: the one search returned only unrelated university labs; no retry budget left."
+  "contact_url": "https://www.bdl.co.il/Contact.aspx",
+  "source": "https://www.bdl.co.il/Contact.aspx",
+  "note": "distributor; official contact page"
  },
  {
   "key": "bepex",
@@ -167,7 +167,7 @@
  {
   "key": "danyel",
   "name": "Danyel Biotech Ltd.",
-  "phone": "",
+  "phone": "1-800-711-911 (also +972 8-936-6066)",
   "email": "",
   "address": "8 Hamada St., Science Park, Rehovot 7670308",
   "website": "https://www.danyel.co.il",
@@ -189,13 +189,13 @@
  {
   "key": "eisenberg",
   "name": "Eisenberg Bros. Ltd.",
-  "phone": "",
+  "phone": "+972 3-977-7000",
   "email": "",
   "address": "Airport City",
-  "website": "",
+  "website": "https://eisenbros.co.il",
   "contact_url": "",
-  "source": "https://www.genomeweb.com/pcrsample-prep/fluidigm-taps-eisenberg-brothers-israeli-distributor",
-  "note": "Distributor (scientific, optical, electro-optical and medical equipment; Fluidigm distributor per GenomeWeb); located in Airport City; two searches found no phone/email/street address"
+  "source": "https://www.ismicroscopy.org.il/sponsors-2014/",
+  "note": "distributor; 2014 sponsor listing (verify)"
  },
  {
   "key": "eldan",
@@ -235,11 +235,11 @@
   "name": "EX-LAB Ltd.",
   "phone": "",
   "email": "",
-  "address": "Petah Tikva",
+  "address": "4 Nevatim St., Petah Tikva",
   "website": "",
   "contact_url": "",
-  "source": "https://ensun.io/search/laboratory-equipment/israel",
-  "note": "Distributor (est. 2002; supplies Haier Biomedical, Daihan Scientific, DLab, etc.); directory lists Petah Tikva only; two searches found no phone/email/street address"
+  "source": "https://www.b144.co.il/b144_sip/401C04134676625D4E130311/",
+  "note": "distributor; B144 listing (phone not shown in snippet)"
  },
  {
   "key": "gamidor",
@@ -254,14 +254,14 @@
  },
  {
   "key": "getter",
-  "name": "Getter Group",
-  "phone": "+972-3-576-6704",
+  "name": "Getter Bio-Med (Getter Group)",
+  "phone": "+972 3-576-1555 (Getter Group switchboard)",
   "email": "",
-  "address": "7 Shimshon St, Petah Tikva 4912502",
-  "website": "",
+  "address": "7 Shimshon St., Petah Tikva 4912502",
+  "website": "https://www.getter-biomed.co.il",
   "contact_url": "",
-  "source": "https://prospeo.io/c/getter-group-email-format",
-  "note": "Distributor (Getter Group HQ; Getter Bio-Med arm has no separate contact in results); phone and address from Prospeo third-party listing; Axxonsoft lists Getter tech arm at Shimshon 7 with +972-54-569-1620"
+  "source": "https://www.d.co.il/831130/41880/",
+  "note": "distributor; group switchboard from Dapei Zahav (verify)"
  },
  {
   "key": "globus",
@@ -320,14 +320,14 @@
  },
  {
   "key": "im",
-  "name": "IM Beit Haemek",
-  "phone": "",
-  "email": "",
-  "address": "",
-  "website": "https://bemek.co.il",
-  "contact_url": "",
-  "source": "",
-  "note": "Nothing found: the one search returned only HaEmek Medical Center (Afula), unrelated; no retry budget left."
+  "name": "IM Beit HaEmek (Beit HaEmek Industries)",
+  "phone": "+972 4-868-9015",
+  "email": "info@bemek.co.il",
+  "address": "Kibbutz Beit HaEmek",
+  "website": "https://www.bemek.co.il",
+  "contact_url": "https://www.bemek.co.il/about-us/",
+  "source": "https://www.bemek.co.il/about-us/",
+  "note": "distributor; official site"
  },
  {
   "key": "isi",
@@ -353,14 +353,14 @@
  },
  {
   "key": "labotal",
-  "name": "Labotal Scientific Equipment",
-  "phone": "",
-  "email": "",
-  "address": "Abu Gosh",
-  "website": "",
-  "contact_url": "",
-  "source": "https://jobify360.co.il/jobs/4254307910-in",
-  "note": "Israeli distributor (Labotal Scientific Equipment (1997) Ltd., est. 1975 by Yitzhak Tuttnauer; exclusive representative of manufacturers in Israel). Only the city (Abu Gosh, from a job posting) appeared; no phone/email/street address in two searches (English + Hebrew 'לבוטל')."
+  "name": "Labotal Scientific Equipment (1997) Ltd.",
+  "phone": "+972 2-579-9222",
+  "email": "Sales@labotal.co.il",
+  "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+  "website": "https://labotal.co.il",
+  "contact_url": "https://labotal.co.il/contact/",
+  "source": "https://labotal.co.il/contact/",
+  "note": "distributor; official contact page"
  },
  {
   "key": "lapidot",
@@ -389,7 +389,7 @@
   "name": "Lumitron Ltd.",
   "phone": "+972 52-525-6287",
   "email": "",
-  "address": "",
+  "address": "17 Hamiflasim St., Petah Tikva",
   "website": "https://www.lumitron.co.il",
   "contact_url": "",
   "source": "https://www.elgalabwater.com/about-us/approved-partners",
@@ -405,6 +405,17 @@
   "contact_url": "",
   "source": "",
   "note": "Nothing found: the one search returned only unrelated results; no retry budget left."
+ },
+ {
+  "key": "medent",
+  "name": "Medent Scientific Instruments (Medent Group)",
+  "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+  "email": "info@medent.co.il",
+  "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+  "website": "https://www.medent.co.il",
+  "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+  "source": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+  "note": "distributor; official contact page"
  },
  {
   "key": "mercury",
@@ -462,6 +473,17 @@
   "note": "Israeli manufacturer/importer; phone & address from a supplier directory"
  },
  {
+  "key": "new-road",
+  "name": "New-Road Agencies Ltd.",
+  "phone": "",
+  "email": "",
+  "address": "Park Afek, Rosh Ha'ayin",
+  "website": "https://newroad.sgo.co.il",
+  "contact_url": "https://newroad.sgo.co.il/?p=58",
+  "source": "https://biofindly.co.il/distributor/newroad/",
+  "note": "distributor since 2005; phone hidden on BioFindly"
+ },
+ {
   "key": "ophir",
   "name": "Ophir Analytical Ltd.",
   "phone": "+972 3-902-2277",
@@ -485,14 +507,14 @@
  },
  {
   "key": "ormir",
-  "name": "Ormir Lab Equipment",
+  "name": "Ormir Scientific Instruments",
   "phone": "",
   "email": "",
-  "address": "",
+  "address": "Kfar Yona",
   "website": "https://ormir.co.il",
   "contact_url": "",
-  "source": "",
-  "note": "Nothing found: the one search returned only similarly named companies (Oramir, Ormic, Rhenium); the planned Hebrew retry was refused by the search budget."
+  "source": "https://biofindly.co.il/distributor/ormir/",
+  "note": "distributor; BioFindly profile (phone hidden)"
  },
  {
   "key": "ornat",
@@ -541,13 +563,13 @@
  {
   "key": "rhenium",
   "name": "Rhenium Ltd.",
-  "phone": "+972-8-9558888",
+  "phone": "+972 8-955-8888",
   "email": "",
   "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
-  "website": "",
+  "website": "https://www.rhenium.co.il",
   "contact_url": "",
-  "source": "https://innovationisrael.org.il/importWinner/511642449; https://www.datanyze.com/people/Sivan-Raz/3332444628",
-  "note": "HQ of Israeli distributor (Rhenium Ltd., Modi'in). Address from Israel Innovation Authority registry (also Datanyze/Prospeo); phone from Datanyze/Prospeo directory listings; no general email seen."
+  "source": "https://www.beckman.com/contact-us/israel",
+  "note": "distributor; Beckman Coulter's Israel contact page"
  },
  {
   "key": "rigaku",
@@ -618,35 +640,35 @@
  {
   "key": "tamar",
   "name": "Tamar Laboratory Supplies Ltd.",
-  "phone": "",
+  "phone": "+972 2-533-6070 (also 02-579-9777)",
   "email": "",
-  "address": "Jerusalem",
-  "website": "",
+  "address": "HaAla St., Mevaseret Zion 90805",
+  "website": "https://www.tamar.co.il",
   "contact_url": "",
-  "source": "https://ensun.io/search/laboratory-equipment/israel",
-  "note": "Israeli distributor (Jerusalem; founded 1972, 11-50 employees; Polyplus-transfection partner since 2008). Only the city appeared (ensun.io directory); no phone/email/street address seen."
+  "source": "https://www.d.co.il/3694880/30660/",
+  "note": "distributor; numbers from Dapei Zahav / Dun's Guide (verify)"
  },
  {
   "key": "thermo",
-  "name": "Thermo Fisher Scientific Israel Ltd.",
-  "phone": "",
+  "name": "Thermo Fisher Israel Ltd.",
+  "phone": "+972 8-940-8618",
   "email": "",
-  "address": "Ra'anana",
-  "website": "",
-  "contact_url": "",
-  "source": "https://www.drushim.co.il/job/38446579/fe4d833d/",
-  "note": "Israeli subsidiary (Thermo Fisher Scientific Israel / Thermo Fisher Integrated Solutions Israel), located in Ra'anana per job postings only; no street address, phone or email appeared."
+  "address": "5 Golda Meir St., Ness Ziona (also Airport City 1, Lod)",
+  "website": "https://www.thermofisher.com",
+  "contact_url": "https://www.thermofisher.com/il/en/home.html",
+  "source": "https://www.dunsguide.co.il/en/Cca1d211edb8c60a49443657aecbde850_high_tech_computing_services/thermo_fisher_israel/",
+  "note": "subsidiary; Dun's Guide listing (Ra'anana office number not found)"
  },
  {
   "key": "yarden",
-  "name": "Yarden Biotec",
-  "phone": "",
+  "name": "Yarden Biotec Ltd.",
+  "phone": "+972 2-651-1102",
   "email": "",
-  "address": "",
+  "address": "Moshav Yad HaShmona 9089500",
   "website": "https://www.yarden-biotec.co.il",
   "contact_url": "",
-  "source": "",
-  "note": "Nothing found: the one search returned only unrelated people named Yarden; the planned Hebrew retry was refused by the search budget."
+  "source": "https://www.dunsguide.co.il/en/C5d1ac4a1db5552042ab4a8a44eca83bc_professional_equipment_engineering_scientific_equipment/yarden_biotec/",
+  "note": "distributor; Dun's Guide / Dapei Zahav (consistent)"
  },
  {
   "key": "zeiss",
@@ -658,5 +680,16 @@
   "contact_url": "",
   "source": "https://finder.startupnationcentral.org/mnc_page/zeiss",
   "note": "Israeli subsidiary (Carl Zeiss SMS/SMT Ltd., Karmiel; est. 2008 after acquisition of Pixer Technologies). Only the city appeared (Start-Up Nation Finder, ROR record 'Carl Zeiss (Israel)'); a Zeiss industrial-lens distribution-partner page showed '29 Ha'Metsuda St., +972-3-5168844' with misaligned country labels, so it was not recorded."
+ },
+ {
+  "key": "zotal",
+  "name": "Zotal Ltd.",
+  "phone": "+972 3-649-2444",
+  "email": "",
+  "address": "4 Habarzel St., Tel Aviv 6971008",
+  "website": "https://www.zotal.co.il",
+  "contact_url": "",
+  "source": "https://www.dunsguide.co.il/en/C0adbc6e5365ecf0878126e9b113fe98d_zotal/",
+  "note": "distributor; Dun's Guide listing (verify)"
  }
 ]

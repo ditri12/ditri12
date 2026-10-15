@@ -731,16 +731,16 @@
   "israel_presence": "distributor",
   "israel_entities": [
    {
-    "name": "IM Beit Haemek (as listed on Promega's contact page; Kibbutz Beit HaEmek)",
-    "name_he": "",
+    "name": "IM Beit HaEmek (Beit HaEmek Industries)",
+    "name_he": "תעשיות בית העמק",
     "type": "distributor",
-    "scope": "Promega products - marketing area Israel (Promega 'Contact Promega' distributor listing; e-mail info@bemek.co.il)",
-    "website": "https://bemek.co.il",
-    "source": "https://www.promega.com/support/contact-promega/"
+    "scope": "official Israeli distributor of Promega (also ATCC, PromoCell, ChemoMetec, Biowest and others) per its own site and Promega's contact page",
+    "website": "https://www.bemek.co.il",
+    "source": "https://www.bemek.co.il/about-us/"
    }
   ],
-  "israel_note": "Promega's own 'Contact Promega' page lists one Israel distributor: 'IM Beit Haemek', Kibbutz Beit Ha'Emek, marketing area Israel, with phone/fax, e-mail info@bemek.co.il and website bemek.co.il. A follow-up search could not resolve what 'IM Beit Haemek'/bemek.co.il is: the only Beit HaEmek life-science company found is Biological Industries Israel Beit-Haemek Ltd. (Sartorius group), whose own 'BI Worldwide' page lists Promega among its strategic partnerships, so the listed distributor is probably a Beit HaEmek entity related to BI, but that link and the listing's date are unconfirmed. The 40-domain sweep and the Hebrew query ('Promega יבואן ישראל ריאגנטים נציגות') found no other Israeli reseller claiming Promega.",
-  "confidence": "medium",
+  "israel_note": "Promega's 'Contact Promega' page lists IM Beit HaEmek (Kibbutz Beit HaEmek) as its Israel distributor, and IM Beit HaEmek's own site names Promega among the brands it officially distributes.",
+  "confidence": "high",
   "confidence_note": "Named on the manufacturer's own contact page, but the entity's identity and website could not be independently verified.",
   "sources": [
    "https://www.promega.com/support/contact-promega/",
