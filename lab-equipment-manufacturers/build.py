@@ -110,6 +110,11 @@ def load_rows():
     }
     for r in rows:
         r.setdefault("employees_scope", "company")
+        r.setdefault("israel_evidence_year", None)
+        r.setdefault("israel_current", "")
+        for e in r.get("israel_entities") or []:
+            e.setdefault("evidence_year", None)
+            e.setdefault("status", "")
         if "israel_check" not in r:
             p = r.get("israel_presence")
             r["israel_check"] = "pending" if p == "pending" else ("partial" if p in ("none_found", "unclear") else "verified")
@@ -230,6 +235,7 @@ CSV_COLUMNS = [
     ("contact_address", "כתובת יצרן / Manufacturer address"), ("contact_url", "דף צור-קשר / Contact page"), ("contact_note", "הערת קשר / Contact note"),
     ("israel_presence", "ייצוג בישראל / Israel presence"), ("israel_presence_he", "ייצוג בישראל (עברית)"),
     ("israel_check", "סטטוס אימות / Verification"), ("israel_check_he", "סטטוס אימות (עברית)"),
+    ("israel_evidence_year", "שנת הראיה לייצוג / Evidence year"), ("israel_current", "עדכניות הייצוג / Currency"),
     ("israel_entities", "נציגים / מפיצים בישראל / Israeli entities"), ("israel_note", "הערת ישראל / Israel note"),
     ("confidence", "רמת ודאות / Confidence"), ("confidence_note", "הערת ודאות / Confidence note"),
     ("sources", "מקורות / Sources"),
@@ -279,7 +285,7 @@ def write_xlsx(rows, generated):
     widths = {
         "id": 5, "name": 28, "aka": 30, "hq_city": 18, "hq_country": 12, "parent": 18, "ownership": 24,
         "founded": 9, "website": 28, "category": 30, "employees": 11, "employees_year": 9,
-        "employees_note": 32, "employees_scope": 10, "israel_check": 11, "israel_check_he": 24, "revenue_original": 20,
+        "employees_note": 32, "employees_scope": 10, "israel_check": 11, "israel_check_he": 24, "israel_evidence_year": 10, "israel_current": 16, "revenue_original": 20,
         "contact_phone": 18, "contact_email": 26, "contact_address": 36, "contact_url": 34, "contact_note": 16, "revenue_usd_m": 12, "revenue_year": 12,
         "revenue_scope": 11, "revenue_note": 32, "size_basis": 10, "product_1": 36, "product_2": 36,
         "product_3": 36, "israel_presence": 16, "israel_presence_he": 26, "israel_entities": 48,
@@ -309,16 +315,16 @@ def write_xlsx(rows, generated):
     ws2.sheet_view.rightToLeft = True
     h2 = ["# יצרן", "יצרן / Manufacturer", "ייצוג בישראל / Presence", "גוף ישראלי / Israeli entity",
           "שם בעברית / Hebrew name", "סוג / Type", "תחום / Scope", "אתר / Website", "טלפון / Phone", "דוא״ל / Email",
-          "כתובת / Address", "דף צור-קשר / Contact page", "מקור / Source"]
+          "כתובת / Address", "דף צור-קשר / Contact page", "שנת ראיה / Evidence year", "סטטוס / Status", "מקור / Source"]
     for c, h in enumerate(h2, 1):
         cell = ws2.cell(row=1, column=c, value=h)
         cell.font, cell.fill = head_font, head_fill
-    for w, c in zip([7, 28, 18, 34, 20, 12, 40, 30, 18, 26, 34, 30, 60], range(1, 14)):
+    for w, c in zip([7, 28, 18, 34, 20, 12, 40, 30, 18, 26, 34, 30, 10, 14, 60], range(1, 16)):
         ws2.column_dimensions[get_column_letter(c)].width = w
     row_i = 2
     for r in rows:
         if not r["israel_entities"]:
-            vals = [r["id"], r["name"], r["israel_presence"], "—", "", "", "", "", "", "", "", "", ""]
+            vals = [r["id"], r["name"], r["israel_presence"], "—", "", "", "", "", "", "", "", "", "", "", ""]
             for c, v in enumerate(vals, 1):
                 cell = ws2.cell(row=row_i, column=c, value=v)
                 cell.font, cell.alignment = base, wrap
@@ -328,13 +334,13 @@ def write_xlsx(rows, generated):
             vals = [r["id"], r["name"], r["israel_presence"], e["name"], e.get("name_he", ""),
                     ENTITY_TYPE_HE.get(e["type"], e["type"]), e.get("scope", ""), e.get("website", ""),
                     e.get("phone", ""), e.get("email", ""), e.get("address", ""), e.get("contact_url", ""),
-                    e.get("source", "")]
+                    e.get("evidence_year", ""), e.get("status", ""), e.get("source", "")]
             for c, v in enumerate(vals, 1):
                 cell = ws2.cell(row=row_i, column=c, value=v)
                 cell.font, cell.alignment = base, wrap
             row_i += 1
     ws2.freeze_panes = "C2"
-    ws2.auto_filter.ref = f"A1:M{row_i - 1}"
+    ws2.auto_filter.ref = f"A1:O{row_i - 1}"
 
     # --- Sheet 3: Products (one row per flagship product) ---
     ws3 = wb.create_sheet("Products")
@@ -469,6 +475,8 @@ CREATE TABLE manufacturers (
   size_basis TEXT,             -- reported | estimate | mixed
   israel_presence TEXT,        -- subsidiary | distributor | parent_subsidiary | none_found | unclear
   israel_check TEXT,           -- verified | partial | unverified | pending
+  israel_evidence_year INTEGER,
+  israel_current TEXT,         -- confirmed_current | older_evidence_only | changed | not_found
   contact_phone TEXT,
   contact_email TEXT,
   contact_address TEXT,
@@ -497,6 +505,8 @@ CREATE TABLE israel_entities (
   email TEXT,
   address TEXT,
   contact_url TEXT,
+  evidence_year INTEGER,
+  status TEXT,
   source TEXT
 );
 CREATE TABLE sources (
@@ -508,7 +518,7 @@ CREATE TABLE sources (
 
 def write_sql_and_sqlite(rows, generated):
     stmts = [f"-- Top 100 laboratory-equipment manufacturers; generated {generated}", "BEGIN;", SCHEMA.rstrip()]
-    cols = [k for k in REQUIRED_KEYS if k not in ("top_products", "israel_entities", "sources")] + ["employees_scope", "israel_check"]
+    cols = [k for k in REQUIRED_KEYS if k not in ("top_products", "israel_entities", "sources")] + ["employees_scope", "israel_check", "israel_evidence_year", "israel_current"]
     ccols = ["contact_phone", "contact_email", "contact_address", "contact_url", "contact_note"]
     ent_id = 0
     for r in rows:
@@ -525,10 +535,10 @@ def write_sql_and_sqlite(rows, generated):
         for e in r["israel_entities"]:
             ent_id += 1
             stmts.append(
-                "INSERT INTO israel_entities (id, manufacturer_id, name, name_he, type, scope, website, phone, email, address, contact_url, source) VALUES "
+                "INSERT INTO israel_entities (id, manufacturer_id, name, name_he, type, scope, website, phone, email, address, contact_url, evidence_year, status, source) VALUES "
                 f"({ent_id}, {r['id']}, {sql_quote(e['name'])}, {sql_quote(e.get('name_he'))}, {sql_quote(e['type'])}, "
                 f"{sql_quote(e.get('scope'))}, {sql_quote(e.get('website'))}, {sql_quote(e.get('phone'))}, {sql_quote(e.get('email'))}, "
-                f"{sql_quote(e.get('address'))}, {sql_quote(e.get('contact_url'))}, {sql_quote(e.get('source'))});"
+                f"{sql_quote(e.get('address'))}, {sql_quote(e.get('contact_url'))}, {sql_quote(e.get('evidence_year'))}, {sql_quote(e.get('status'))}, {sql_quote(e.get('source'))});"
             )
         for u in r["sources"]:
             stmts.append(f"INSERT INTO sources (manufacturer_id, url) VALUES ({r['id']}, {sql_quote(u)});")

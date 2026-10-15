@@ -76,7 +76,7 @@ details.dist summary::marker{color:var(--accent)}
 .dist-grid button .t{min-width:0;overflow-wrap:anywhere}
 .table-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
 table{border-collapse:collapse;width:100%;min-width:880px;table-layout:fixed}
-th.c-id{width:40px} th.c-name{width:21%} th.c-country{width:8%} th.c-cat{width:16%} th.c-emp{width:10%} th.c-rev{width:12%} th.c-pres{width:14%}
+th.c-id{width:40px} th.c-name{width:20%} th.c-country{width:7%} th.c-cat{width:14%} th.c-emp{width:10%} th.c-rev{width:14%} th.c-pres{width:15%}
 tbody td{overflow-wrap:anywhere}
 thead th{position:sticky;top:0;background:var(--surface-2);color:var(--muted);font-weight:500;font-size:12px;text-align:start;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap;z-index:1}
 thead th[data-sort]{cursor:pointer;user-select:none}
@@ -86,10 +86,15 @@ tbody td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top
 tbody tr.row{cursor:pointer}
 tbody tr.row:hover td{background:color-mix(in srgb,var(--accent-soft) 45%,transparent)}
 tbody tr.row[aria-expanded="true"] td{background:var(--accent-soft)}
-td.num,th.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+th.num{white-space:nowrap}
+td.num{font-variant-numeric:tabular-nums;white-space:normal}
+td.num .amt{white-space:nowrap;font-weight:500}
+td.num .yr{display:block;margin:0;white-space:normal;overflow-wrap:anywhere}
+td.num .tag{margin:2px 0 0;display:inline-block}
 td .name{font-weight:700;font-size:14px}
-td .sub{display:block;color:var(--muted);font-size:12px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-td .yr{color:var(--muted);font-size:11px;margin-inline-start:4px}
+td .sub{display:block;color:var(--muted);font-size:12px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;direction:ltr;unicode-bidi:isolate;text-align:right}
+td .sub.he{direction:rtl}
+td .yr{color:var(--muted);font-size:11px;margin-inline-start:4px;direction:ltr;unicode-bidi:isolate}
 .tag{display:inline-block;font-size:11px;border-radius:4px;padding:1px 6px;background:var(--surface-2);color:var(--muted);margin-inline-start:4px;vertical-align:middle}
 .badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:500;white-space:nowrap}
 .badge .dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:currentColor}
@@ -191,6 +196,7 @@ footer.meth p{margin:0}
   <footer class="meth">
     <p><strong>שיטה.</strong> הנתונים נאספו ב-__GENERATED__ מדוחות שנתיים, אתרי היצרנים, אתרי המפיצים הישראליים ועיתונות מקצועית. הכנסות הומרו לדולר לפי שערי 2025 מקורבים (אירו 1.10, ליש״ט 1.30, פר״ש 1.17, ין 0.0067, יואן 0.139). ליד נתון מופיע תיוג: <span class="tag">הערכה</span> = חברה פרטית ללא נתון רשמי; <span class="tag">חברת-אם</span> / <span class="tag">סגמנט</span> = הנתון של קבוצת-האם או של חטיבה, לא של המותג לבדו.</p>
     <p><strong>סטטוס אימות.</strong> ״אומת ממקור״ = הערוץ הישראלי נראה במקור (אתר היצרן, אתר המפיץ, הודעה רשמית); ״חיפוש חלקי״ = רק חיפושי רשת, בלי פתיחת דפי ״מפיצים״ של היצרן; ״ידע קודם״ = ידוע ממקור קודם ולא אומת מקוון בסבב זה; ״טרם נבדק״ = ממתין לסבב המחקר הבא.</p>
+    <p><strong>עדכניות הייצוג.</strong> ״ראיה מ-2026״ = הקשר נראה בדף חי של היצרן או המפיץ בבדיקה האחרונה; שנה ישנה יותר = המקור האחרון שנמצא הוא מסמך מאותה שנה והקשר לא אומת מחדש. נציג המסומן ״כבר לא״ הוחלף לפי מקור עדכני יותר ונשמר לתיעוד.</p>
     <p><strong>יצירת קשר.</strong> טלפונים, כתובות ודוא״ל נאספו מדפי ״צור קשר״ רשמיים ומאינדקסים כפי שהופיעו בתוצאות חיפוש; רק כתובות דוא״ל כלליות (info@ / sales@), לא של אנשים פרטיים. פרטים חסרים = לא נמצאו בחיפוש.</p>
     <p><strong>ייצוג בישראל.</strong> ״לא נמצא ייצוג״ פירושו שלא נמצאה עדות פומבית לערוץ מכירה ישראלי, לא הוכחה שאין כזה. נציגויות מתחלפות לעיתים קרובות; לפני החלטה מסחרית יש לאמת מול היצרן.</p>
   </footer>
@@ -238,6 +244,8 @@ footer.meth p{margin:0}
     pending:{he:"טרם נבדק",cls:"p-pend",order:5}
   };
   var CHECK_HE = {verified:"אומת ממקור",partial:"חיפוש חלקי",unverified:"ידע קודם, לא אומת",pending:"טרם נבדק"};
+  var CUR_HE = {confirmed_current:"אומת 2025–26",older_evidence_only:"ראיה ישנה בלבד",changed:"השתנה",not_found:"לא נמצא"};
+  var ESTAT_HE = {current:"עדכני",older_evidence:"ראיה ישנה",no_longer:"כבר לא",new:"חדש"};
   var ESCOPE_HE = {parent:"חברת-אם",estimate:"הערכה"};
   var ETYPE_HE = {subsidiary:"חברה-בת",distributor:"מפיץ",service:"שירות"};
   var CONF_HE = {high:"גבוהה",medium:"בינונית",low:"נמוכה"};
@@ -331,6 +339,8 @@ footer.meth p{margin:0}
     return rows;
   }
 
+  function shortParent(p){ return String(p).split(/[;(]/)[0].trim(); }
+  function shortYear(y){ var s=String(y); s=s.replace(/\s*\((?:ended|ending)\s+/i,' (').replace(/\s*\(estimate\)/i,'').replace(/undated.*$/i,'לא מתוארך').replace(/^n\/a.*$/i,'לא מתוארך'); return s.length>22?s.slice(0,22)+'…':s; }
   function sizeTags(r){
     var t="";
     if(r.size_basis==="estimate"||r.revenue_scope==="estimate") t+='<span class="tag">הערכה</span>';
@@ -342,7 +352,7 @@ footer.meth p{margin:0}
     if(!r.israel_entities.length) return '<span class="sub">—</span>';
     var shown=r.israel_entities.slice(0,3).map(function(e){
       var label=e.name_he||e.name;
-      return '<span class="e">'+esc(label)+' <small>· '+esc(ETYPE_HE[e.type]||e.type)+'</small></span>';
+      return '<span class="e"'+(e.status==="no_longer"?' style="text-decoration:line-through;color:var(--muted)"':'')+'>'+esc(label)+' <small>· '+esc(ETYPE_HE[e.type]||e.type)+(e.status==="no_longer"?' · כבר לא':'')+'</small></span>';
     }).join("");
     if(r.israel_entities.length>3) shown+='<span class="e"><small>+'+(r.israel_entities.length-3)+' נוספים (לחצו לפרטים)</small></span>';
     return shown;
@@ -352,19 +362,19 @@ footer.meth p{margin:0}
     var open=!!state.open[r.id];
     return '<tr class="row" data-id="'+r.id+'" aria-expanded="'+open+'" tabindex="0">'+
       '<td class="num">'+r.id+'</td>'+
-      '<td><span class="name">'+esc(r.name)+'</span>'+(r.aka?'<span class="sub" title="'+esc(r.aka)+'">'+esc(r.aka)+'</span>':'')+(r.parent?'<span class="sub">חלק מ-'+esc(r.parent)+'</span>':'')+'</td>'+
+      '<td><span class="name">'+esc(r.name)+'</span>'+(r.aka?'<span class="sub" title="'+esc(r.aka)+'">'+esc(r.aka)+'</span>':'')+(r.parent?'<span class="sub he" title="'+esc(r.parent)+'">חלק מ-'+esc(shortParent(r.parent))+'</span>':'')+'</td>'+
       '<td>'+esc(countryHe(r.hq_country))+'</td>'+
       '<td class="col-cat">'+esc(catHe(r.category))+'</td>'+
-      '<td class="num">'+fmtInt(r.employees)+(r.employees_year?'<span class="yr">'+r.employees_year+'</span>':'')+(ESCOPE_HE[r.employees_scope]?'<span class="tag">'+ESCOPE_HE[r.employees_scope]+'</span>':'')+'</td>'+
-      '<td class="num">'+fmtRev(r.revenue_usd_m)+(r.revenue_year?'<span class="yr">'+esc(r.revenue_year)+'</span>':'')+sizeTags(r)+'</td>'+
-      '<td><span class="badge '+p.cls+'"><span class="dot"></span>'+esc(p.he)+'</span>'+(r.israel_check!=="verified"?'<span class="vtag'+(r.israel_check==="pending"?" warn":"")+'">'+esc(CHECK_HE[r.israel_check]||r.israel_check)+'</span>':'')+'</td>'+
+      '<td class="num"><span class="amt">'+fmtInt(r.employees)+'</span>'+(r.employees_year?'<span class="yr">'+r.employees_year+'</span>':'')+(ESCOPE_HE[r.employees_scope]?'<span class="tag">'+ESCOPE_HE[r.employees_scope]+'</span>':'')+'</td>'+
+      '<td class="num"><span class="amt">'+fmtRev(r.revenue_usd_m)+'</span>'+(r.revenue_year?'<span class="yr">'+esc(shortYear(r.revenue_year))+'</span>':'')+sizeTags(r)+'</td>'+
+      '<td><span class="badge '+p.cls+'"><span class="dot"></span>'+esc(p.he)+'</span>'+(r.israel_check!=="verified"?'<span class="vtag'+(r.israel_check==="pending"?" warn":"")+'">'+esc(CHECK_HE[r.israel_check]||r.israel_check)+'</span>':'')+(r.israel_evidence_year?'<span class="vtag'+(r.israel_evidence_year<2024?" warn":"")+'">ראיה מ-'+r.israel_evidence_year+(CUR_HE[r.israel_current]?' · '+CUR_HE[r.israel_current]:'')+'</span>':'')+'</td>'+
       '<td class="ents col-ent">'+entCell(r)+'</td>'+
     '</tr>'+(open?detailHtml(r):"");
   }
   function detailHtml(r){
     var prods='<ol>'+r.top_products.map(function(p){return '<li><strong>'+esc(p.name)+'</strong> — '+esc(p.desc)+'</li>';}).join("")+'</ol>';
     var ents=r.israel_entities.length?r.israel_entities.map(function(e){
-      return '<div class="ent-card"><div class="t">'+esc(e.name)+(e.name_he?' <span class="k">('+esc(e.name_he)+')</span>':'')+' <span class="tag">'+esc(ETYPE_HE[e.type]||e.type)+'</span></div>'+
+      return '<div class="ent-card"><div class="t">'+esc(e.name)+(e.name_he?' <span class="k">('+esc(e.name_he)+')</span>':'')+' <span class="tag">'+esc(ETYPE_HE[e.type]||e.type)+'</span>'+(e.evidence_year?' <span class="tag">'+(ESTAT_HE[e.status]?esc(ESTAT_HE[e.status])+' · ':'')+'ראיה '+e.evidence_year+'</span>':(e.status&&ESTAT_HE[e.status]?' <span class="tag">'+esc(ESTAT_HE[e.status])+'</span>':''))+'</div>'+
         (e.scope?'<div><span class="k">תחום:</span> '+esc(e.scope)+'</div>':'')+
         (e.website?'<div><span class="k">אתר:</span> <a href="'+esc(e.website)+'" target="_blank" rel="noopener">'+esc(e.website.replace(/^https?:\/\//,""))+'</a></div>':'')+
         (e.phone?'<div><span class="k">טלפון:</span> <span class="ltr">'+esc(e.phone)+'</span></div>':'')+
