@@ -149,8 +149,19 @@
   "name": "Bruker Corporation",
   "israel_presence": "subsidiary",
   "israel_check": "verified",
-  "israel_note": "One scope-clarification search (Bruker + Israel + NMR/MS/AXS/Lapidot). Bruker's own Israel support page (English, Japanese and Spanish versions, 2025-2026) names Lapidot Medical Import and Marketing Ltd., Caesarea Industrial Park, as the Israel contact and says mass-spectrometry questions go to Bruker's office in Gedera, Israel. No division-specific (NMR/AXS/Nano/microCT) partner listings appeared, so Lapidot appears to be the general Israeli partner while MS is handled by Bruker's own local office; the Gedera entity's legal name and the exact split of duties were not visible and Lapidot's own site was not checked.",
+  "israel_note": "One scope-clarification search (Bruker + Israel + NMR/MS/AXS/Lapidot). Bruker's own Israel support page (English, Japanese and Spanish versions, 2025-2026) names Lapidot Medical Import and Marketing Ltd., Caesarea Industrial Park, as the Israel contact and says mass-spectrometry questions go to Bruker's office in Gedera, Israel. No division-specific (NMR/AXS/Nano/microCT) partner listings appeared, so Lapidot appears to be the general Israeli partner while MS is handled by Bruker's own local office; the Gedera entity's legal name and the exact split of duties were not visible and Lapidot's own site was not checked. Bruker's own office page also lists Bruker Scientific Israel Ltd. (Rehovot) with sales/support numbers and names New Technology (Ramat Gan) and Lapidot (Caesarea) as distributors.",
   "israel_entities": [
+   {
+    "name": "Bruker Scientific Israel Ltd.",
+    "name_he": "ברוקר ישראל",
+    "type": "subsidiary",
+    "scope": "Bruker's own Israeli sales & support office (Science Park, Rehovot; AXS/Nano/BioSpin lines per bruker.com office page)",
+    "website": "https://www.bruker.com",
+    "source": "https://www.bruker.com/en/services/support/india-middleeast-africa/israel-rehovot.html",
+    "phone": "+972 8 947 7705",
+    "email": "bsis@bruker.com",
+    "address": "5 Golda Me'ir St., Science Park, Rehovot 76123"
+   },
    {
     "name": "Lapidot Medical Import and Marketing Ltd.",
     "name_he": "",
@@ -166,6 +177,14 @@
     "scope": "mass-spectrometry (Bruker Daltonics) enquiries are directed to Bruker's own office in Gedera, Israel; legal entity name not shown on the page",
     "website": "https://www.bruker.com",
     "source": "https://www.bruker.com/en/services/support/office.india-middle-east-africa.israel-caesarea.html"
+   },
+   {
+    "name": "New Technology (NT) Ltd.",
+    "name_he": "ניו טכנולוגי",
+    "type": "distributor",
+    "scope": "Bruker distributor (Ramat Gan) named on Bruker's Israel office page; product scope not stated",
+    "website": "",
+    "source": "https://www.bruker.com/en/services/support/india-middleeast-africa/israel-rehovot.html"
    }
   ],
   "confidence": "high",
@@ -662,7 +681,7 @@
     "source": "https://www.lapidot.com/en/partners/"
    }
   ],
-  "israel_note": "Searched BD Biosciences/BD Israel/Becton Dickinson Israel distributor/נציג/יבואן, Israeli distributor domains (BD, FACSymphony, FACSLyric, BD MAX, BACTEC), bd.com/waters.com, and the Waters-BD combination. bd.com's Israel pages show BD's own office and technical-service line in Caesarea, and Waters' BD-transaction legal page (dated 9 Feb 2026) lists Augusta Life Sciences Israel Ltd., Caesarea, among the acquired SpinCo entities now wholly owned by Waters - i.e. the ex-BD Biosciences & Diagnostic Solutions business has its own Israeli entity under Waters. Waters states there are 'no changes for customers at this time' and that BD remains legal manufacturer of certain regulated products until registrations transfer, so sales/service of FACS, BD MAX and BACTEC in Israel presumably continue from the Caesarea operation, but no page spelled out the post-combination commercial arrangement; no independent Israeli distributor for BD flow cytometers or BD diagnostics was found (Almog Diagnostic distributes competing Cytek/Miltenyi/Slingshot lines; Lapidot lists BD without product scope). Lapidot's history page says it became BD's local representative in 1992; whether this covers the former BD Biosciences / Diagnostic Solutions lines after the Feb-2026 Waters combination is not stated.",
+  "israel_note": "Searched BD Biosciences/BD Israel/Becton Dickinson Israel distributor/נציג/יבואן, Israeli distributor domains (BD, FACSymphony, FACSLyric, BD MAX, BACTEC), bd.com/waters.com, and the Waters-BD combination. bd.com's Israel pages show BD's own office and technical-service line in Caesarea, and Waters' BD-transaction legal page (dated 9 Feb 2026) lists Augusta Life Sciences Israel Ltd., Caesarea, among the acquired SpinCo entities now wholly owned by Waters - i.e. the ex-BD Biosciences & Diagnostic Solutions business has its own Israeli entity under Waters. Waters states there are 'no changes for customers at this time' and that BD remains legal manufacturer of certain regulated products until registrations transfer, so sales/service of FACS, BD MAX and BACTEC in Israel presumably continue from the Caesarea operation, but no page spelled out the post-combination commercial arrangement; no independent Israeli distributor for BD flow cytometers or BD diagnostics was found (Almog Diagnostic distributes competing Cytek/Miltenyi/Slingshot lines; Lapidot lists BD without product scope). Lapidot's history page says it became BD's local representative in 1992; whether this covers the former BD Biosciences / Diagnostic Solutions lines after the Feb-2026 Waters combination is not stated. A 2026 directory lists BD Israel (Harduf HaNehalim St. 2, Caesarea, BDBIsrael@bd.com) and names Elad Health (+972 3 769 3000) as a BD distributor; both unverified.",
   "confidence": "medium",
   "confidence_note": "Entities verified on bd.com and waters.com; the operating split between BD Israel and the Waters-owned Augusta entity after Feb 2026 is inferred, not documented.",
   "sources": [
