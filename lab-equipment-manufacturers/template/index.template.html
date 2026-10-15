@@ -116,6 +116,8 @@ tr.detail td{background:var(--surface-2);padding:14px 16px 18px}
 .ent-card{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:8px 10px;margin-bottom:8px;font-size:13px}
 .ent-card .t{font-weight:700}
 .ent-card .k{color:var(--muted)}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block;user-select:all}
+.dgrid dd .k{color:var(--muted)}
 .note{font-size:13px;color:var(--fg);margin:6px 0 0;overflow-wrap:anywhere}
 .srcs{font-size:12px;overflow-wrap:anywhere}
 .srcs a{color:var(--accent)}
@@ -189,6 +191,7 @@ footer.meth p{margin:0}
   <footer class="meth">
     <p><strong>שיטה.</strong> הנתונים נאספו ב-__GENERATED__ מדוחות שנתיים, אתרי היצרנים, אתרי המפיצים הישראליים ועיתונות מקצועית. הכנסות הומרו לדולר לפי שערי 2025 מקורבים (אירו 1.10, ליש״ט 1.30, פר״ש 1.17, ין 0.0067, יואן 0.139). ליד נתון מופיע תיוג: <span class="tag">הערכה</span> = חברה פרטית ללא נתון רשמי; <span class="tag">חברת-אם</span> / <span class="tag">סגמנט</span> = הנתון של קבוצת-האם או של חטיבה, לא של המותג לבדו.</p>
     <p><strong>סטטוס אימות.</strong> ״אומת ממקור״ = הערוץ הישראלי נראה במקור (אתר היצרן, אתר המפיץ, הודעה רשמית); ״חיפוש חלקי״ = רק חיפושי רשת, בלי פתיחת דפי ״מפיצים״ של היצרן; ״ידע קודם״ = ידוע ממקור קודם ולא אומת מקוון בסבב זה; ״טרם נבדק״ = ממתין לסבב המחקר הבא.</p>
+    <p><strong>יצירת קשר.</strong> טלפונים, כתובות ודוא״ל נאספו מדפי ״צור קשר״ רשמיים ומאינדקסים כפי שהופיעו בתוצאות חיפוש; רק כתובות דוא״ל כלליות (info@ / sales@), לא של אנשים פרטיים. פרטים חסרים = לא נמצאו בחיפוש.</p>
     <p><strong>ייצוג בישראל.</strong> ״לא נמצא ייצוג״ פירושו שלא נמצאה עדות פומבית לערוץ מכירה ישראלי, לא הוכחה שאין כזה. נציגויות מתחלפות לעיתים קרובות; לפני החלטה מסחרית יש לאמת מול היצרן.</p>
   </footer>
 </main>
@@ -256,7 +259,8 @@ footer.meth p{margin:0}
   function hay(r){
     var parts=[r.name,r.aka,r.hq_city,r.hq_country,countryHe(r.hq_country),r.category,catHe(r.category),r.parent,r.ownership,r.israel_note,r.israel_presence,PRES[r.israel_presence].he,CHECK_HE[r.israel_check]||""];
     r.top_products.forEach(function(p){parts.push(p.name,p.desc);});
-    r.israel_entities.forEach(function(e){parts.push(e.name,e.name_he,e.scope);});
+    r.israel_entities.forEach(function(e){parts.push(e.name,e.name_he,e.scope,e.phone,e.email,e.address);});
+    if(r.contact){parts.push(r.contact.phone,r.contact.email,r.contact.address);}
     return parts.join(" ").toLowerCase();
   }
   DATA.forEach(function(r){ r._hay=hay(r); r._size=sizeBucket(r); });
@@ -363,6 +367,10 @@ footer.meth p{margin:0}
       return '<div class="ent-card"><div class="t">'+esc(e.name)+(e.name_he?' <span class="k">('+esc(e.name_he)+')</span>':'')+' <span class="tag">'+esc(ETYPE_HE[e.type]||e.type)+'</span></div>'+
         (e.scope?'<div><span class="k">תחום:</span> '+esc(e.scope)+'</div>':'')+
         (e.website?'<div><span class="k">אתר:</span> <a href="'+esc(e.website)+'" target="_blank" rel="noopener">'+esc(e.website.replace(/^https?:\/\//,""))+'</a></div>':'')+
+        (e.phone?'<div><span class="k">טלפון:</span> <span class="ltr">'+esc(e.phone)+'</span></div>':'')+
+        (e.email?'<div><span class="k">דוא״ל:</span> <span class="ltr">'+esc(e.email)+'</span></div>':'')+
+        (e.address?'<div><span class="k">כתובת:</span> '+esc(e.address)+'</div>':'')+
+        (e.contact_url?'<div><span class="k">צור קשר:</span> <a href="'+esc(e.contact_url)+'" target="_blank" rel="noopener">'+esc(e.contact_url.replace(/^https?:\/\//,"").slice(0,60))+'</a></div>':'')+
         (e.source?'<div><span class="k">מקור:</span> <a href="'+esc(e.source)+'" target="_blank" rel="noopener">'+esc(e.source.replace(/^https?:\/\//,"").slice(0,70))+'</a></div>':'')+
       '</div>';
     }).join(""):'<p class="note">לא נמצא גוף ישראלי שמייצג את היצרן.</p>';
@@ -373,6 +381,7 @@ footer.meth p{margin:0}
       '<dt>בעלות</dt><dd>'+esc(r.ownership||"—")+'</dd>'+
       '<dt>מטה</dt><dd>'+esc(r.hq_city)+', '+esc(countryHe(r.hq_country))+(r.founded?' · נוסדה '+r.founded:'')+'</dd>'+
       (r.website?'<dt>אתר</dt><dd><a href="'+esc(r.website)+'" target="_blank" rel="noopener">'+esc(r.website.replace(/^https?:\/\//,"").replace(/\/$/,""))+'</a></dd>':'')+
+      contactDl(r)+
       '<dt>ודאות</dt><dd>'+esc(CONF_HE[r.confidence]||r.confidence)+(r.confidence_note?' <span class="k">— '+esc(r.confidence_note)+'</span>':'')+'</dd>'+
     '</dl>';
     var srcs=r.sources.length?'<ul class="srcs">'+r.sources.map(function(u){return '<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u.replace(/^https?:\/\//,"").slice(0,90))+'</a></li>';}).join("")+'</ul>':'';
@@ -383,6 +392,15 @@ footer.meth p{margin:0}
     '</div></td></tr>';
   }
 
+  function contactDl(r){
+    var c=r.contact||{}; if(!(c.phone||c.email||c.address||c.contact_url)) return '';
+    return '<dt>יצירת קשר'+(c.note?' <span class="tag">'+esc(c.note)+'</span>':'')+'</dt><dd>'+
+      (c.phone?'<div><span class="k">טלפון:</span> <span class="ltr">'+esc(c.phone)+'</span></div>':'')+
+      (c.email?'<div><span class="k">דוא״ל:</span> <span class="ltr">'+esc(c.email)+'</span></div>':'')+
+      (c.address?'<div><span class="k">כתובת:</span> '+esc(c.address)+'</div>':'')+
+      (c.contact_url?'<div><span class="k">דף צור-קשר:</span> <a href="'+esc(c.contact_url)+'" target="_blank" rel="noopener">'+esc(c.contact_url.replace(/^https?:\/\//,"").slice(0,60))+'</a></div>':'')+
+    '</dd>';
+  }
   var lastRows=[];
   function render(){
     var rows=sortRows(filtered());
@@ -407,10 +425,11 @@ footer.meth p{margin:0}
 
   function toast(msg){ var t=$("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(function(){t.hidden=true;},2200); }
   $("copy").addEventListener("click",function(){
-    var head=["#","יצרן","מותגים","מדינה","קטגוריה","עובדים","שנת עובדים","הכנסות (מקור)","הכנסות מיליוני $","שנת כספים","מוצר 1","מוצר 2","מוצר 3","ייצוג בישראל","סטטוס אימות","נציגים בישראל","ודאות"];
+    var head=["#","יצרן","מותגים","מדינה","קטגוריה","עובדים","שנת עובדים","הכנסות (מקור)","הכנסות מיליוני $","שנת כספים","מוצר 1","מוצר 2","מוצר 3","ייצוג בישראל","סטטוס אימות","נציגים בישראל","טלפון יצרן","דוא״ל יצרן","כתובת יצרן","ודאות"];
     var lines=[head.join("\t")].concat(lastRows.map(function(r){
-      var ents=r.israel_entities.map(function(e){return e.name+(e.name_he?" ("+e.name_he+")":"")+" ["+(ETYPE_HE[e.type]||e.type)+(e.scope?"; "+e.scope:"")+"]";}).join(" | ");
-      var cells=[r.id,r.name,r.aka,countryHe(r.hq_country),catHe(r.category),r.employees==null?"":r.employees,r.employees_year||"",r.revenue_original||"",r.revenue_usd_m==null?"":r.revenue_usd_m,r.revenue_year||"",r.top_products[0].name+" — "+r.top_products[0].desc,r.top_products[1].name+" — "+r.top_products[1].desc,r.top_products[2].name+" — "+r.top_products[2].desc,PRES[r.israel_presence].he,CHECK_HE[r.israel_check]||r.israel_check,ents,CONF_HE[r.confidence]||r.confidence];
+      var ents=r.israel_entities.map(function(e){return e.name+(e.name_he?" ("+e.name_he+")":"")+" ["+(ETYPE_HE[e.type]||e.type)+(e.scope?"; "+e.scope:"")+([e.phone,e.email,e.address].filter(Boolean).length?"; "+[e.phone,e.email,e.address].filter(Boolean).join(", "):"")+"]";}).join(" | ");
+      var c=r.contact||{};
+      var cells=[r.id,r.name,r.aka,countryHe(r.hq_country),catHe(r.category),r.employees==null?"":r.employees,r.employees_year||"",r.revenue_original||"",r.revenue_usd_m==null?"":r.revenue_usd_m,r.revenue_year||"",r.top_products[0].name+" — "+r.top_products[0].desc,r.top_products[1].name+" — "+r.top_products[1].desc,r.top_products[2].name+" — "+r.top_products[2].desc,PRES[r.israel_presence].he,CHECK_HE[r.israel_check]||r.israel_check,ents,c.phone||"",c.email||"",c.address||"",CONF_HE[r.confidence]||r.confidence];
       return cells.map(function(c){return String(c==null?"":c).replace(/[\t\n\r]+/g," ");}).join("\t");
     }));
     var text=lines.join("\n");

@@ -118,9 +118,9 @@
   "name": "Waters Corporation",
   "aka": "TA Instruments, Wyatt Technology, Waters Biosciences (ex-BD Biosciences), Waters Advanced Diagnostics (ex-BD Diagnostic Solutions)",
   "revenue_note": "FY2024 stand-alone figure. On 9 Feb 2026 Waters completed the Reverse Morris Trust combination with BD's Biosciences & Diagnostic Solutions businesses; the combined company has pro-forma revenue of roughly USD 6.5 billion and ~16,000 employees (deal announcement, not re-verified).",
-  "israel_presence": "subsidiary",
-  "israel_check": "partial",
-  "confidence": "low",
+  "israel_presence": "distributor",
+  "israel_check": "verified",
+  "confidence": "medium",
   "israel_entities": [
    {
     "name": "Waters (TC) Israel Ltd.",
@@ -129,9 +129,21 @@
     "scope": "Israeli legal entity listed in Waters' 10-K subsidiaries exhibit; sales/service scope not established",
     "website": "",
     "source": "https://www.sec.gov/Archives/edgar/data/1000697/000119312524047491/d691142dex211.htm"
+   },
+   {
+    "name": "Bargal Analytical Instruments Ltd.",
+    "name_he": "ברגל",
+    "type": "distributor",
+    "scope": "TA Instruments (a Waters division) thermal analysis, rheology and microcalorimetry – listed in TA Instruments' Middle East directory",
+    "website": "https://www.bargal.co.il",
+    "source": "https://www.tainstruments.com/events/middleeast-directory.html"
    }
   ],
-  "israel_note": "Waters' 10-K Exhibit 21.1 lists an Israeli subsidiary, Waters (TC) Israel Ltd. (seen in a search excerpt; the page itself could not be opened). Whether LC/MS instruments are sold direct or through an Israeli distributor was not established – to verify in the next round."
+  "israel_note": "Waters' 10-K Exhibit 21.1 lists an Israeli subsidiary, Waters (TC) Israel Ltd. (seen in a search excerpt; the page itself could not be opened). Whether LC/MS instruments are sold direct or through an Israeli distributor was not established – to verify in the next round. TA Instruments' Middle East directory lists Bargal (Shoham / Airport City) for thermal analysis, rheology, microcalorimetry, dilatometry and thermal conductivity.",
+  "confidence_note": "",
+  "sources": [
+   "https://www.tainstruments.com/events/middleeast-directory.html"
+  ]
  },
  "5": {
   "name": "Bruker Corporation",
@@ -271,7 +283,7 @@
   "name": "Revvity",
   "israel_presence": "distributor",
   "israel_check": "verified",
-  "israel_note": "Searched Revvity Israel distributor/נציג/יבואן, Israeli distributor domains (Revvity OR PerkinElmer), revvity.com and a 'Revvity Israel' entity search. No Revvity Israeli subsidiary or office was found: revvity.com's office/distributor listing and the 2023 SEC Exhibit 21 subsidiary list show no Israel entity, and the 2013 'PerkinElmer establishes direct operations in Israel' release (now on ir.revvity.com) refers to the Ra'anana office that today is listed by PerkinElmer (the analytical company), not Revvity. Gamidor's own site says it represents Revvity for prenatal screening and Enco's catalogue sells Revvity plates/reagents; no Israeli partner was found for Revvity life-science instruments (EnVision, Opera Phenix) or for newborn-screening instruments, which may be sold directly from abroad or via an unidentified channel.",
+  "israel_note": "Searched Revvity Israel distributor/נציג/יבואן, Israeli distributor domains (Revvity OR PerkinElmer), revvity.com and a 'Revvity Israel' entity search. No Revvity Israeli subsidiary or office was found: revvity.com's office/distributor listing and the 2023 SEC Exhibit 21 subsidiary list show no Israel entity, and the 2013 'PerkinElmer establishes direct operations in Israel' release (now on ir.revvity.com) refers to the Ra'anana office that today is listed by PerkinElmer (the analytical company), not Revvity. Gamidor's own site says it represents Revvity for prenatal screening and Enco's catalogue sells Revvity plates/reagents; no Israeli partner was found for Revvity life-science instruments (EnVision, Opera Phenix) or for newborn-screening instruments, which may be sold directly from abroad or via an unidentified channel. Enco's suppliers page lists Revvity and its catalogue carries Revvity screening reagents.",
   "israel_entities": [
    {
     "name": "Gamidor Diagnostics",
@@ -283,7 +295,7 @@
    },
    {
     "name": "Enco",
-    "name_he": "",
+    "name_he": "אנקו",
     "type": "distributor",
     "scope": "Revvity screening reagents and consumables (OptiPlate/SpectraPlate microplates, AlphaLISA SureFire Ultra kits) listed in Enco's online catalogue",
     "website": "https://www.enco.co.il",
@@ -299,7 +311,8 @@
    "https://www.revvity.com/contact-us/contact-distributor",
    "https://ir.revvity.com/news/investor-news/news-details/2013/PerkinElmer-Establishes-Direct-Operations-in-Israel-08-01-2013/default.aspx",
    "https://www.sec.gov/Archives/edgar/data/31791/000003179124000004/a2023exhibit21.htm",
-   "https://s202.q4cdn.com/908952201/files/doc_downloads/2025/2025-Corporate-Fact-Sheet_March-2025.pdf"
+   "https://s202.q4cdn.com/908952201/files/doc_downloads/2025/2025-Corporate-Fact-Sheet_March-2025.pdf",
+   "https://www.enco.co.il/suppliers.php"
   ],
   "employees": 11000,
   "employees_year": 2025,
@@ -366,7 +379,18 @@
  },
  "12": {
   "name": "Avantor (incl. VWR)",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_presence": "none_found",
+  "israel_entities": [],
+  "israel_note": "Round 3 ran four searches: the brand restricted to the 40 Israeli distributor domains (only SEC filings surfaced; no Israeli lab-supply site mentions VWR or Avantor), a Hebrew-only query 'VWR Avantor יבואן נציגות בישראל ציוד מעבדה' (only acquisition news and a VWR International GmbH exhibitor listing that cites a Dubai hub), an 'Israel' query restricted to vwr.com/avantorsciences.com (no Israel page) and an extended English query (no Israeli partner named). VWR describes itself as Avantor's direct selling channel serving customers in ~180 countries, so Israel is probably served directly from Avantor/VWR Europe or through unnamed local resellers, but no Israeli entity could be identified.",
+  "confidence": "low",
+  "confidence_note": "Absence of evidence only; no source names an Israeli VWR/Avantor subsidiary or distributor.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1722482/000130817926000162/avtr015027-arsa.pdf",
+   "https://corporate.avantorsciences.com/in/en/about/who-we-are",
+   "https://arablab.german-pavilion.com/en/sites/exhibitors/98661",
+   "https://en.wikipedia.org/wiki/Avantor"
+  ]
  },
  "13": {
   "name": "Eppendorf SE",
@@ -402,9 +426,17 @@
     "scope": "listed QIAGEN among the manufacturers it represents in Israel (life-science research) on a 2014 page and showed QIAGEN products at ISM/IIS meetings in 2015-2016; current status unconfirmed",
     "website": "https://eldan.biz",
     "source": "https://eldan.biz/?p=1052"
+   },
+   {
+    "name": "Lifegene Ltd.",
+    "name_he": "לייפג'ין",
+    "type": "distributor",
+    "scope": "https://www.lifegene.co.il",
+    "website": "QIAGEN enzymes / OEM reagents sold through the Lifegene catalogue (not the QIAGEN instrument line)",
+    "source": "https://www.lifegene.co.il/page_30153"
    }
   ],
-  "israel_note": "Searched QIAGEN Israel distributor/נציג/יבואן, Israeli distributor domains and qiagen.com. Ilex Medical's own catalogue lists QIAGEN instruments and kits (QIAcuity, Rotor-Gene Q, QIAxcel, extraction, oncology), while Eldan's site named QIAGEN as a represented manufacturer in 2014 and exhibited QIAGEN products in 2015-2016 - stale, so Eldan may no longer carry the line or may cover research-only products. QIAGEN's own pages route Israel to 'a commercial partner in your country' without naming one (a 2000 handbook named Westburg (Israel) Ltd., obsolete), and no QIAGEN Israeli subsidiary was found; QIAGEN's acquisition of Israeli start-up Genoox is an R&D deal, not a sales channel. No source was seen for QIAsymphony/QIAstat-Dx specifically.",
+  "israel_note": "Searched QIAGEN Israel distributor/נציג/יבואן, Israeli distributor domains and qiagen.com. Ilex Medical's own catalogue lists QIAGEN instruments and kits (QIAcuity, Rotor-Gene Q, QIAxcel, extraction, oncology), while Eldan's site named QIAGEN as a represented manufacturer in 2014 and exhibited QIAGEN products in 2015-2016 - stale, so Eldan may no longer carry the line or may cover research-only products. QIAGEN's own pages route Israel to 'a commercial partner in your country' without naming one (a 2000 handbook named Westburg (Israel) Ltd., obsolete), and no QIAGEN Israeli subsidiary was found; QIAGEN's acquisition of Israeli start-up Genoox is an R&D deal, not a sales channel. No source was seen for QIAsymphony/QIAstat-Dx specifically. Lifegene's catalogue lists QIAGEN as supplier and brand for enzymes; Ilex Medical (per round 2) covers the QIAGEN instrument/kit line.",
   "confidence": "medium",
   "confidence_note": "Distributor-site evidence (Ilex current, Eldan stale); no confirmation on QIAGEN's site and the research-vs-clinical split between distributors is unverified.",
   "sources": [
@@ -414,7 +446,8 @@
    "https://eldan.biz/the-annual-meeting-of-the-israel-society-for-microbiology-ism/",
    "https://www.qiagen.com/us/contact-us/global-contacts",
    "https://www.qiagen.com/us/about-us/our-global-presence",
-   "https://www.ice.co.il/digital-140/news/article/1064369"
+   "https://www.ice.co.il/digital-140/news/article/1064369",
+   "https://www.lifegene.co.il/page_30153"
   ]
  },
  "15": {
@@ -479,9 +512,17 @@
     "scope": "Cytiva chromatography (ÄKTA pure) and Biacore; other Cytiva lines (Whatman, Amersham, Pall) not confirmed",
     "website": "https://www.danyel.co.il",
     "source": "https://www.danyel.co.il/cytiva/"
+   },
+   {
+    "name": "Lifegene Ltd.",
+    "name_he": "לייפג'ין",
+    "type": "distributor",
+    "scope": "Whatman filtration products (a Cytiva brand) sold through the Lifegene catalogue",
+    "website": "https://www.lifegene.co.il",
+    "source": "https://lifegene.co.il/product/puradisc-13-syringe-filter-045µm-polypropylene-100-pk/"
    }
   ],
-  "israel_note": "Searched generic queries (incl. ÄKTA/Whatman/Amersham), 27 Israeli distributor domains, cytivalifesciences.com and a Whatman-specific query. Danyel Biotech's own site has a Cytiva brand page (ÄKTA pure chromatography; Biacore listed as a Cytiva supplier), so Danyel is a current Israeli channel. Cytiva's 'find a distributor' page lists Israel as a selectable country but the partner name was not visible in snippets, and Cytiva's terms document lists Israel under its international contracting entity Pall Austria Filter Ges.m.b.H., i.e. direct contracts are also written from abroad. The 2009 Rhenium-for-Whatman listing could not be re-confirmed and no current Israeli Whatman/Amersham channel was found.",
+  "israel_note": "Searched generic queries (incl. ÄKTA/Whatman/Amersham), 27 Israeli distributor domains, cytivalifesciences.com and a Whatman-specific query. Danyel Biotech's own site has a Cytiva brand page (ÄKTA pure chromatography; Biacore listed as a Cytiva supplier), so Danyel is a current Israeli channel. Cytiva's 'find a distributor' page lists Israel as a selectable country but the partner name was not visible in snippets, and Cytiva's terms document lists Israel under its international contracting entity Pall Austria Filter Ges.m.b.H., i.e. direct contracts are also written from abroad. The 2009 Rhenium-for-Whatman listing could not be re-confirmed and no current Israeli Whatman/Amersham channel was found. Lifegene's catalogue carries Whatman (Cytiva) filtration products; Danyel Biotech has Cytiva brand pages for ÄKTA and Biacore.",
   "confidence": "medium",
   "confidence_note": "Distributor evidence is the distributor's own brand page; manufacturer-side naming of the Israeli partner was not visible and the scope across Cytiva's many brands is unclear.",
   "sources": [
@@ -489,7 +530,8 @@
    "https://www.danyel.co.il/",
    "https://www.cytivalifesciences.com/en/us/support/find-a-distributor",
    "https://cdn.cytivalifesciences.com/api/public/content/-MImMANCxU2x6jtGoYWcjA-pdf?v=9a570e4d",
-   "https://www.analytics-shop.com/us/filters-filtration/filters-by-manufacturer/whatman-filters"
+   "https://www.analytics-shop.com/us/filters-filtration/filters-by-manufacturer/whatman-filters",
+   "https://lifegene.co.il/product/puradisc-13-syringe-filter-045µm-polypropylene-100-pk/"
   ]
  },
  "18": {
@@ -557,7 +599,26 @@
   "employees_scope": "estimate",
   "employees_note": "Approximate Molecular Devices headcount (~1,000); parent Danaher ~60,000. Figures recalled from company statements / filings and not re-verified online in this session.",
   "revenue_note": "Danaher Life Sciences segment ~USD 7.3B FY2025; Molecular Devices alone not disclosed.",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_presence": "unclear",
+  "israel_entities": [
+   {
+    "name": "Eisenberg Bros. Ltd. (Eisenberg Brothers) - candidate",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Hosts a Molecular Devices FLIPR Penta high-throughput cellular screening system brochure on its own site (uploaded March 2026) - probable reseller of Molecular Devices screening/plate-reader instruments; no explicit distributor statement seen",
+    "website": "https://eisenbros.co.il",
+    "source": "https://eisenbros.co.il/wp-content/uploads/2026/03/flipr-penta-high-throughput-cellular-screening-system.pdf"
+   }
+  ],
+  "israel_note": "The 40-domain sweep surfaced a Molecular Devices FLIPR Penta product brochure hosted on Eisenberg Brothers' own site (eisenbros.co.il/wp-content/uploads/2026/03/...), which indicates Eisenberg Bros. markets at least the FLIPR line in Israel. A follow-up search for 'Eisenberg Brothers' + 'Molecular Devices' found no explicit distributor statement (its older supplier lists name PerkinElmer, Thermo Fisher, Lonza, Affymetrix and Fluidigm), a second domain-restricted SpectraMax/FLIPR query returned only patents, and no other Israeli distributor site mentions SpectraMax. Marked 'unclear' because the only evidence is the hosted brochure rather than a statement by Eisenberg Bros. or by Molecular Devices.",
+  "confidence": "low",
+  "confidence_note": "Indirect evidence only (brochure on the distributor's site, March 2026); neither party states the relationship.",
+  "sources": [
+   "https://eisenbros.co.il/wp-content/uploads/2026/03/flipr-penta-high-throughput-cellular-screening-system.pdf",
+   "https://archive.israelphysicalsociety.org/fairs/eisenberg-bros-ltd.html",
+   "https://www.biospace.com/fluidigm-corporation-and-b-eisenberg-brothers-ltd-b-join-forces-in-israel-distribution-deal"
+  ]
  },
  "21": {
   "name": "BD Biosciences & BD Diagnostic Solutions (part of Waters since Feb 2026)",
@@ -588,14 +649,14 @@
    },
    {
     "name": "Lapidot Group (Lapidot Medical)",
-    "name_he": "",
+    "name_he": "לפידות",
     "type": "distributor",
     "scope": "lists BD as a business partner ('global medical technology company'); product scope not stated - likely BD Medical lines, not confirmed for Biosciences/Diagnostics",
     "website": "https://www.lapidot.com",
     "source": "https://www.lapidot.com/en/partners/"
    }
   ],
-  "israel_note": "Searched BD Biosciences/BD Israel/Becton Dickinson Israel distributor/נציג/יבואן, Israeli distributor domains (BD, FACSymphony, FACSLyric, BD MAX, BACTEC), bd.com/waters.com, and the Waters-BD combination. bd.com's Israel pages show BD's own office and technical-service line in Caesarea, and Waters' BD-transaction legal page (dated 9 Feb 2026) lists Augusta Life Sciences Israel Ltd., Caesarea, among the acquired SpinCo entities now wholly owned by Waters - i.e. the ex-BD Biosciences & Diagnostic Solutions business has its own Israeli entity under Waters. Waters states there are 'no changes for customers at this time' and that BD remains legal manufacturer of certain regulated products until registrations transfer, so sales/service of FACS, BD MAX and BACTEC in Israel presumably continue from the Caesarea operation, but no page spelled out the post-combination commercial arrangement; no independent Israeli distributor for BD flow cytometers or BD diagnostics was found (Almog Diagnostic distributes competing Cytek/Miltenyi/Slingshot lines; Lapidot lists BD without product scope).",
+  "israel_note": "Searched BD Biosciences/BD Israel/Becton Dickinson Israel distributor/נציג/יבואן, Israeli distributor domains (BD, FACSymphony, FACSLyric, BD MAX, BACTEC), bd.com/waters.com, and the Waters-BD combination. bd.com's Israel pages show BD's own office and technical-service line in Caesarea, and Waters' BD-transaction legal page (dated 9 Feb 2026) lists Augusta Life Sciences Israel Ltd., Caesarea, among the acquired SpinCo entities now wholly owned by Waters - i.e. the ex-BD Biosciences & Diagnostic Solutions business has its own Israeli entity under Waters. Waters states there are 'no changes for customers at this time' and that BD remains legal manufacturer of certain regulated products until registrations transfer, so sales/service of FACS, BD MAX and BACTEC in Israel presumably continue from the Caesarea operation, but no page spelled out the post-combination commercial arrangement; no independent Israeli distributor for BD flow cytometers or BD diagnostics was found (Almog Diagnostic distributes competing Cytek/Miltenyi/Slingshot lines; Lapidot lists BD without product scope). Lapidot's history page says it became BD's local representative in 1992; whether this covers the former BD Biosciences / Diagnostic Solutions lines after the Feb-2026 Waters combination is not stated.",
   "confidence": "medium",
   "confidence_note": "Entities verified on bd.com and waters.com; the operating split between BD Israel and the Waters-owned Augusta entity after Feb 2026 is inferred, not documented.",
   "sources": [
@@ -605,7 +666,8 @@
    "https://ir.waters.com/News--Events/newsroom/news-details/2026/Waters-Completes-Combination-with-BDs-Biosciences--Diagnostic-Solutions-Businesses/default.aspx",
    "https://www.sec.gov/Archives/edgar/data/0001000697/000119312526344691/d170082d10q.htm",
    "https://www.lapidot.com/en/partners/",
-   "https://www.businesswire.com/news/home/20220626005007/en/Slingshot-Biosciences-Inc.-Partners-With-Almog-Diagnostic-to-Distribute-Synthetic-Cells-Throughout-Israel"
+   "https://www.businesswire.com/news/home/20220626005007/en/Slingshot-Biosciences-Inc.-Partners-With-Almog-Diagnostic-to-Distribute-Synthetic-Cells-Throughout-Israel",
+   "https://www.lapidot.com/en/about/"
   ]
  },
  "22": {
@@ -624,11 +686,12 @@
     "source": "https://www.getter.co.il/about-en/"
    }
   ],
-  "israel_note": "Getter Group's about page says it exclusively represents Corning, Olympus and Zeiss in Israel (seen in a search excerpt; ~2 years old).",
+  "israel_note": "Getter Group's about page says it exclusively represents Corning, Olympus and Zeiss in Israel (seen in a search excerpt; ~2 years old). Getter Group's brand page and about page name Corning among the brands it exclusively represents.",
   "confidence": "medium",
   "confidence_note": "",
   "sources": [
-   "https://www.getter.co.il/about-en/"
+   "https://www.getter.co.il/about-en/",
+   "https://www.getter.co.il/brands/"
   ]
  },
  "23": {
@@ -639,7 +702,27 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Promega does not publish revenue; it has described itself as a >USD 500M company and trade estimates put 2024 revenue around USD 600-700M. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "IM Beit Haemek (as listed on Promega's contact page; Kibbutz Beit HaEmek)",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Promega products - marketing area Israel (Promega 'Contact Promega' distributor listing; e-mail info@bemek.co.il)",
+    "website": "https://bemek.co.il",
+    "source": "https://www.promega.com/support/contact-promega/"
+   }
+  ],
+  "israel_note": "Promega's own 'Contact Promega' page lists one Israel distributor: 'IM Beit Haemek', Kibbutz Beit Ha'Emek, marketing area Israel, with phone/fax, e-mail info@bemek.co.il and website bemek.co.il. A follow-up search could not resolve what 'IM Beit Haemek'/bemek.co.il is: the only Beit HaEmek life-science company found is Biological Industries Israel Beit-Haemek Ltd. (Sartorius group), whose own 'BI Worldwide' page lists Promega among its strategic partnerships, so the listed distributor is probably a Beit HaEmek entity related to BI, but that link and the listing's date are unconfirmed. The 40-domain sweep and the Hebrew query ('Promega יבואן ישראל ריאגנטים נציגות') found no other Israeli reseller claiming Promega.",
+  "confidence": "medium",
+  "confidence_note": "Named on the manufacturer's own contact page, but the entity's identity and website could not be independently verified.",
+  "sources": [
+   "https://www.promega.com/support/contact-promega/",
+   "https://worldwide.promega.com/country.aspx",
+   "https://bioind.com/worldwide/about/bi-worldwide",
+   "https://www.developmentaid.org/organizations/view/443494/biological-industries-israel-beit-haemek"
+  ]
  },
  "24": {
   "name": "New England Biolabs",
@@ -667,7 +750,37 @@
  },
  "25": {
   "name": "Bio-Techne",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Israeli distributor listed on Novus Biologicals' distributor page (name not visible in the search excerpt) - 6 Hasadna St., P.O. Box 8006, Kfar Saba 4442405",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Novus Biologicals antibodies (Bio-Techne brand); coverage of R&D Systems / Tocris / ProteinSimple not shown",
+    "website": "",
+    "source": "https://www.novusbio.com/distributors/www.novusbio.com"
+   },
+   {
+    "name": "Getter Bio-Med (Getter Group)",
+    "name_he": "גטר ביו-מד",
+    "type": "distributor",
+    "scope": "Lunaphore (a Bio-Techne brand) spatial-biology platforms – Getter describes itself as the official Israeli representative (LinkedIn)",
+    "website": "https://www.getter.co.il",
+    "source": "https://www.getter.co.il/about-en/"
+   }
+  ],
+  "israel_note": "Bio-Techne's Novus Biologicals distributor page lists an Israeli distributor at 6 Hasadna St., P.O. Box 8006, Kfar Saba 4442405 with phone and e-mail, but the company name was not in the excerpt and a follow-up search for that address did not identify it; the R&D Systems distributor locator exists but showed no Israel entry in the snippets. The 40-domain sweep surfaced ENCO (self-described official Israeli distributor of 250+ antibody/protein suppliers) and Danyel, Gamidor and HyLabs pages, none of which mention R&D Systems, Novus, Tocris or ProteinSimple in any snippet. Bio-Techne's FY2025 10-K states it 'has not historically had significant business in Russia, Ukraine or Israel'. Getter Bio-Med's posts describe it as the official Israeli representative of Lunaphore, a Bio-Techne brand; no channel found for R&D Systems / ProteinSimple products.",
+  "confidence": "low",
+  "confidence_note": "The manufacturer's own page shows an Israeli distributor exists (Kfar Saba address) but its name was not captured; ENCO is a plausible but unconfirmed candidate.",
+  "sources": [
+   "https://www.novusbio.com/distributors/www.novusbio.com",
+   "https://www.rndsystems.com/distributors",
+   "https://investors.bio-techne.com/all-sec-filings/content/0001558370-25-011716/0001558370-25-011716.pdf",
+   "https://www.enco.co.il/suppliers.php",
+   "https://www.enco.co.il/about.php",
+   "https://www.getter.co.il/about-en/"
+  ]
  },
  "26": {
   "name": "Miltenyi Biotec",
@@ -677,7 +790,35 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Miltenyi Biotec is family-owned and publishes no revenue; trade estimates range roughly EUR 500-800M. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Y.A. Almog Diagnostic & Medical Equipment Ltd.",
+    "name_he": "אלמוג דיאגנוסטיקה",
+    "type": "distributor",
+    "scope": "Miltenyi Biotec products in Israel (MACS reagents and instruments incl. MACSQuant flow cytometers) - listed as the Israel distributor on Miltenyi's global distributor page; Shoham, tel. +972 3 977 33 90, info@almog.co.il",
+    "website": "https://www.almog.co.il",
+    "source": "https://www.miltenyibiotec.com/IE-en/about-us/locations/distribution.html"
+   },
+   {
+    "name": "Almog Diagnostic and Medical Equipment Ltd.",
+    "name_he": "אלמוג דיאגנוסטיקה",
+    "type": "distributor",
+    "scope": "Miltenyi Biotec MACSQuant flow cytometers and related products (2022 Business Wire release describing Almog's Miltenyi and Cytek lines)",
+    "website": "https://www.almog.co.il",
+    "source": "https://www.businesswire.com/news/home/20220626005007/en/Slingshot-Biosciences-Inc.-Partners-With-Almog-Diagnostic-to-Distribute-Synthetic-Cells-Throughout-Israel"
+   }
+  ],
+  "israel_note": "Verified on the manufacturer's side: Miltenyi Biotec's 'Contact information for our global distributor network' page (regional variants IE-en, FI-en, KR-en) lists Y.A. Almog Diagnostic & Medical Equipment Ltd., Shoham, Israel, tel. +972 3 977 33 90, info@almog.co.il, as the Israel distributor. This confirms the round-2 lead from the June-2022 Slingshot Biosciences press release describing Almog as a long-standing Israeli flow-cytometry player selling the Miltenyi MACSQuant. The Hebrew query and the Almog-domain query added nothing; Miltenyi has no Israeli subsidiary (its own entities are in Germany, USA, UK, France, Italy, Spain, Netherlands, Nordics, China, Japan, Korea, Singapore and Australia). A June 2022 Business Wire release describes Almog as a major Israeli flow-cytometry player working with Miltenyi's MACSQuant and Cytek's Aurora; not re-confirmed on Miltenyi's site.",
+  "confidence": "high",
+  "confidence_note": "Manufacturer's own distributor page names the Israeli entity; corroborated by a 2022 press release.",
+  "sources": [
+   "https://www.miltenyibiotec.com/IE-en/about-us/locations/distribution.html",
+   "https://www.miltenyibiotec.com/FI-en/about-us/locations/distribution.html",
+   "https://www.miltenyibiotec.com/DE-en/about-us/locations.html",
+   "https://www.businesswire.com/news/home/20220626005007/en/Slingshot-Biosciences-Inc.-Partners-With-Almog-Diagnostic-to-Distribute-Synthetic-Cells-Throughout-Israel"
+  ]
  },
  "27": {
   "name": "10x Genomics",
@@ -690,17 +831,26 @@
     "scope": "10x Genomics instruments, reagents and software (Chromium single-cell; Visium/Xenium not seen explicitly)",
     "website": "https://www.danyel.co.il",
     "source": "https://www.danyel.co.il/10x-genomics/"
+   },
+   {
+    "name": "Lifegene Ltd.",
+    "name_he": "לייפג'ין",
+    "type": "distributor",
+    "scope": "https://www.lifegene.co.il",
+    "website": "Scale Biosciences (10x Genomics) products – Lifegene is listed as the Israeli distributor on 10x's Scale Bio distributors page",
+    "source": "https://scale.10xgenomics.com/distributors/"
    }
   ],
   "israel_presence": "distributor",
-  "israel_note": "Searched generic queries, 27 Israeli distributor domains and 10xgenomics.com. Danyel Biotech's own site carries a 10x Genomics brand page (Chromium Next GEM single-cell gene expression, immune profiling, ATAC) and co-hosted a 2019 Tel Aviv University seminar on the 10x portfolio, so Danyel is the Israeli distributor. 10x's distributor locator did not expose the Israel entry in search snippets, so manufacturer-side confirmation is missing; Visium/Xenium were not seen on Danyel's page.",
+  "israel_note": "Searched generic queries, 27 Israeli distributor domains and 10xgenomics.com. Danyel Biotech's own site carries a 10x Genomics brand page (Chromium Next GEM single-cell gene expression, immune profiling, ATAC) and co-hosted a 2019 Tel Aviv University seminar on the 10x portfolio, so Danyel is the Israeli distributor. 10x's distributor locator did not expose the Israel entry in search snippets, so manufacturer-side confirmation is missing; Visium/Xenium were not seen on Danyel's page. 10x Genomics' Scale Bio distributors page lists Lifegene (Mevo Horon) for Israel; Danyel Biotech has the 10x brand page for Chromium/Visium/Xenium.",
   "confidence": "medium",
   "confidence_note": "Distributor's own brand page plus a 2019 university event; no manufacturer-side listing seen.",
   "sources": [
    "https://www.danyel.co.il/10x-genomics/",
    "https://en-med.tau.ac.il/10xgenomics_seminar_2019?gid=106",
    "https://www.10xgenomics.com/distributors",
-   "https://www.10xgenomics.com/distributors/application"
+   "https://www.10xgenomics.com/distributors/application",
+   "https://scale.10xgenomics.com/distributors/"
   ]
  },
  "28": {
@@ -724,7 +874,17 @@
   "employees_year": 2024,
   "employees_scope": "estimate",
   "employees_note": "Approximate headcount after the 2024-25 restructurings (10-K FY2024 figure recalled). Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_presence": "none_found",
+  "israel_entities": [],
+  "israel_note": "PacBio's own 'Global distributors' page (pacb.com/global-distributors) was examined through two searches: one excerpt appeared to associate Israel with 'East Diagnostics', but the follow-up search showed East Diagnostics covers Serbia, Montenegro, Bosnia and Herzegovina, North Macedonia, Croatia, Kosovo, Romania, Bulgaria, Slovenia and Albania, with Israel not in that group; the Middle East/North Africa list seen in round 1 also omits Israel. The 40-domain sweep and the Hebrew query ('PacBio Revio ריצוף יבואן נציגות בישראל') returned only scientific papers and Revio launch news, and no Israeli distributor site mentions PacBio. PacBio sells direct in several territories, so Israel may be covered by its European direct organisation, but no Israeli entity or named partner was found.",
+  "confidence": "low",
+  "confidence_note": "Manufacturer's distributor list shows no Israel entry; absence of evidence only.",
+  "sources": [
+   "https://www.pacb.com/global-distributors/",
+   "https://www.pacb.com/purchase/",
+   "https://www.pacb.com/contact-us/"
+  ]
  },
  "30": {
   "name": "Tecan Group",
@@ -760,11 +920,12 @@
     "source": "https://www.danyel.co.il/"
    }
   ],
-  "israel_note": "Danyel Biotech's home page lists Hamilton among the brands it works with (seen in a search excerpt); which Hamilton business (robotics / storage / syringes) is not stated.",
+  "israel_note": "Danyel Biotech's home page lists Hamilton among the brands it works with (seen in a search excerpt); which Hamilton business (robotics / storage / syringes) is not stated. Danyel Biotech's site has Hamilton and Hamilton Storage brand pages.",
   "confidence": "medium",
   "confidence_note": "",
   "sources": [
-   "https://www.danyel.co.il/"
+   "https://www.danyel.co.il/",
+   "https://www.danyel.co.il/hamilton/"
   ]
  },
  "32": {
@@ -787,8 +948,8 @@
  },
  "33": {
   "name": "Carl Zeiss AG – Research Microscopy Solutions",
-  "israel_presence": "unclear",
-  "israel_check": "partial",
+  "israel_presence": "distributor",
+  "israel_check": "verified",
   "israel_entities": [
    {
     "name": "ZEISS Israel / Carl Zeiss SMS Ltd.",
@@ -797,22 +958,6 @@
     "scope": "Legal entity (publisher) behind the official ZEISS Israel website zeiss.co.il; HaDolev 3, Bar Lev Industrial Park, D.N. Misgav 2015600. The site's contact form lists 'Research Microscopy Solutions' among the product areas it takes inquiries for, but the entity itself is ZEISS's semiconductor (SMS/SMT) unit; a local ZEISS microscopy sales/service team was NOT confirmed.",
     "website": "https://www.zeiss.co.il",
     "source": "https://www.zeiss.co.il/corporate/legal-information/publisher.html"
-   },
-   {
-    "name": "OpteamX Ltd.",
-    "name_he": "",
-    "type": "distributor",
-    "scope": "ZEISS industrial camera lenses only (listed on ZEISS's industrial-lens distribution-partners page; 29 Ha'Metsuda St, Azor, info@opteamx.com) - NOT microscopes",
-    "website": "",
-    "source": "https://www.zeiss.com/photonics-and-optics/en/industrial-lenses/distribution-partners.html"
-   },
-   {
-    "name": "Lapidot Group",
-    "name_he": "",
-    "type": "distributor",
-    "scope": "'ZEISS lenses' product page on Lapidot's site (medical/ophthalmic context) - NOT research microscopy",
-    "website": "https://www.lapidot.com",
-    "source": "https://www.lapidot.com/en/product/zeiss-lenses/"
    },
    {
     "name": "Getter Group (Getter Bio-Med)",
@@ -824,9 +969,9 @@
    }
   ],
   "employees_scope": "parent",
-  "israel_note": "ZEISS has an Israeli site (zeiss.co.il; legal entity Carl Zeiss SMS Ltd., Bar Lev) whose contact form lists Research Microscopy Solutions, and Getter Group says it represents Zeiss, but no confirmed microscopy sales channel was found. Searched 'Zeiss microscope Israel distributor/נציג/יבואן', Hebrew 'זייס/קרל זייס מיקרוסקופ נציג', the brand across the Israeli distributor domains, zeiss.com and zeiss.co.il, and LinkedIn. No Israeli distributor of ZEISS research/electron microscopes surfaced anywhere (none of the listed Israeli distributor sites shows ZEISS microscopes); the only ZEISS Israel presence found is the official zeiss.co.il site, published by Carl Zeiss SMS Ltd. (Bar Lev Industrial Park, Misgav), whose contact form accepts Research Microscopy Solutions inquiries, plus the semiconductor R&D unit Carl Zeiss SMT Ltd. in Karmiel (not relevant). Lens-only partners (OpteamX for industrial lenses, Lapidot for ZEISS lenses) are not microscopy channels. Most likely ZEISS microscopes are sold/serviced in Israel directly by the ZEISS organization (regional EMEA team via the ZEISS Israel site), but this was not confirmed by a source naming a microscopy sales/service team. Getter Group's about page lists Zeiss among the brands it exclusively represents in Israel (~2 years old); whether this covers ZEISS research microscopes is not stated.",
-  "confidence": "medium",
-  "confidence_note": "ZEISS's own Israeli legal entity and Israeli website are verified from zeiss.co.il, but the specific microscopy sales/service channel is unconfirmed; no distributor found after exhaustive searches.",
+  "israel_note": "Getter BioMed (גטר ביומד, Getter Group) states on its own site that it imports, markets and professionally supports ZEISS laboratory microscopes in Israel under the 'צייס ישראל' banner, listing LSM 900 and LSM 980 Airyscan confocals, Axioscope 7, Axiovert 5 digital and ZEISS dental/surgical microscopes. zeiss.com was not checked (search budget) and some Getter pages are about three years old, so current exclusivity should be confirmed with ZEISS. Other ZEISS lines have separate Israeli importers (eyeglass lenses via Lapidot/LuxVision, camera lenses and binoculars via A.B.S.), which are not microscopy channels. Getter Group's brand page lists Zeiss (described there as an optics company) among the brands it represents; scope for research microscopy unconfirmed.",
+  "confidence": "high",
+  "confidence_note": "Distributor's own site with explicit ZEISS-Israel microscopy positioning and current LSM 900/980 listings; manufacturer page not checked.",
   "sources": [
    "https://www.zeiss.co.il/corporate/legal-information/publisher.html",
    "https://www.zeiss.co.il/corporate/contact.html",
@@ -835,7 +980,15 @@
    "https://www.lapidot.com/en/product/zeiss-lenses/",
    "https://startupim.com/company/zeiss",
    "https://zeiss.com/microscopy/int/about-us/locations-subsidiaries.html",
-   "https://www.getter.co.il/about-en/"
+   "https://www.getter.co.il/about-en/",
+   "https://getter-biomed.co.il/product-category/microscopes-and-imaging-systems-for-laboratories-microscopes-and-imaging-systems-for-laboratories/",
+   "https://getter-biomed.co.il/product-category/microscopes-and-imaging-systems-for-laboratories-microscopes-and-imaging-systems-for-laboratories/confocal-microscopy-and-superresolution/",
+   "https://www.getter-biomed.co.il/product/מיקרוסקופ-axioscop-7-של-חברת-carl-zeiss/",
+   "https://getter-biomed.co.il/%D7%9E%D7%99%D7%A7%D7%A8%D7%95%D7%A1%D7%A7%D7%95%D7%A4-%D7%9E%D7%91%D7%95%D7%A1%D7%A1-%D7%9E%D7%A1%D7%9A-zeiss-%D7%9B%D7%A2%D7%AA-%D7%91%D7%9E%D7%97%D7%99%D7%A8-%D7%94%D7%A9%D7%A7%D7%94/",
+   "https://getter-biomed.co.il/product/dentistry-equipment/",
+   "https://www.lapidot-vision.co.il/",
+   "https://www.absonline.co.il/zeiss",
+   "https://www.getter.co.il/brands/"
   ]
  },
  "34": {
@@ -938,26 +1091,30 @@
   "size_basis": "estimate",
   "revenue_note": "Hitachi High-Tech has been wholly owned by Hitachi, Ltd. since 2020 and no longer publishes stand-alone results; order of magnitude from its last public filings and Hitachi segment data. Figures recalled from company statements / filings and not re-verified online in this session.",
   "israel_presence": "unclear",
-  "israel_check": "partial",
-  "israel_note": "Hitachi High-Tech Israel Ltd. (Kiryat Gat) exists but services semiconductor equipment only; no Israeli channel for SEM/TEM or analytical instruments was found. Searched 'Hitachi High-Tech Israel distributor/נציג/יבואן', 'Hitachi SEM/TM4000 Israel distributor', the brand across the Israeli distributor domains, hitachi-hightech.com, hha.hitachi-hightech.com (analytical) and Eisenberg's site. The only Israeli entity found is the subsidiary Hitachi High-Tech Israel, Ltd. in Kiryat Gat, which the company's own filings describe as a semiconductor-equipment service business. No Israeli distributor or representative for Hitachi electron microscopes or analytical instruments was found; Hitachi's analytical site only says it has 150+ distributors without naming Israel. A Quantum Design page mentioning an 'Italy and Israel' branch concerns Hitachi tabletop SEM distribution in Southern Germany only and is not evidence for Israel.",
+  "israel_check": "verified",
+  "israel_note": "Hitachi High-Tech's global-network page lists Hitachi High-Tech Israel, Ltd. (Kiryat Gat office, P.O. Box 1000, MS: Hitachi LC2-3S, Kiryat Gat 82109), renamed in 2020 from H.H.T.A. Semiconductor Equipment Israel Ltd.; the Dunsguide entry (היטאצ'י היי-טק ישראל) classifies it under semiconductors/electronic components in Tel Aviv. This subsidiary supports semiconductor process equipment and no source shows it selling SEM/TEM or analytical (XRF, spectrophotometer) products; Hitachi High-Tech Analytical Science's contact page says inquiries are routed to a regional distributor, and the Israeli distributor was not identified (Bargal, which sells SEM/TEM in Israel, represents JEOL). The lab-instrument channel therefore stays unclear although the Israeli entity is verified.",
   "israel_entities": [
    {
     "name": "Hitachi High-Tech Israel, Ltd.",
-    "name_he": "",
+    "name_he": "היטאצ'י היי-טק ישראל בע\"מ",
     "type": "subsidiary",
     "scope": "Maintenance/service of semiconductor manufacturing and inspection equipment (Kiryat Gat office, P.O. Box 1000, MS: Hitachi LC2-3S, +972-8-666-6342); formerly H.H.T.A. Semiconductor Equipment Israel Ltd., renamed April 2020; 100% owned by Hitachi High-Tech. NOT confirmed as a sales channel for SEM/TEM/analytical instruments.",
-    "website": "",
+    "website": "https://hitachi-hightech.com/global/network/israel.html",
     "source": "https://www.hitachi-hightech.com/global/network/israel.html"
    }
   ],
   "confidence": "low",
-  "confidence_note": "Subsidiary verified from Hitachi High-Tech's own network page, but the channel for lab instruments (SEM/TEM/analytical) remains unknown.",
+  "confidence_note": "Subsidiary verified on hitachi-hightech.com but it is semiconductor-focused; SEM/TEM/analytical distributor not found.",
   "sources": [
    "https://www.hitachi-hightech.com/global/network/israel.html",
    "https://www.hitachi-hightech.com/global/en/company/group/",
    "https://www.hitachi-hightech.com/file/global/pdf/about/ir/ir_library/ar2011_all.pdf",
    "https://hha.hitachi-hightech.com/en/contact-us",
-   "https://qd-europe.com/il/en/news/latest-updates/newsdetails/quantum-design-and-hitachi-strong-partners-for-electron-microscopy--1403/"
+   "https://qd-europe.com/il/en/news/latest-updates/newsdetails/quantum-design-and-hitachi-strong-partners-for-electron-microscopy--1403/",
+   "https://hitachi-hightech.com/global/network/israel.html",
+   "https://www.hitachi-hightech.com/global/en/company/history.html",
+   "https://www.dunsguide.co.il/Cbb1f8bb487930de25836c244c98d6697_%D7%97%D7%91%D7%A8%D7%95%D7%AA_%D7%94%D7%99%D7%99%D7%98%D7%A7_%D7%95%D7%9E%D7%99%D7%97%D7%A9%D7%95%D7%91/%D7%94%D7%99%D7%98%D7%90%D7%A6%D7%99_%D7%94%D7%99%D7%99_%D7%98%D7%A7_%D7%99%D7%A9%D7%A8%D7%90%D7%9C/",
+   "https://bargal.co.il/product/jsm-it200-scanning-electron-microscope-sem/"
   ]
  },
  "38": {
@@ -1010,18 +1167,10 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Rigaku Holdings (TSE Prime 268A, listed Oct 2023) reported revenue of roughly JPY 95-100 billion for FY2024 (recalled, unverified).",
-  "israel_presence": "unclear",
-  "israel_check": "partial",
-  "israel_note": "Searched 'Rigaku Israel distributor/נציג/יבואן', the brand across the Israeli distributor domains (including rhenium.co.il), rigaku.com and extended searches for 'Rigaku Rhenium'. The only distributor evidence is the 2009 IPS listing naming Rigaku among Rhenium's lines; nothing current confirms or contradicts it (Rhenium's site is not indexed in the results). Rigaku does have its own Israeli group company, Rigaku Semiconductor Instruments Ltd. (ex-XwinSys, Migdal HaEmek), but it is a semiconductor-metrology R&D/manufacturing unit, not a channel for XRD/XRF instruments. Presence therefore marked unclear: stale distributor hint plus an unrelated subsidiary.",
+  "israel_presence": "distributor",
+  "israel_check": "verified",
+  "israel_note": "Yarden Biotec (yarden-biotec.co.il) markets Rigaku ED-XRF analysers (e.g. NEX DE VS) in Israel on its own site, which is the only sales channel found for Rigaku lab instruments; no Israeli distributor for Rigaku XRD (MiniFlex, SmartLab, XtaLAB) was identified. Rigaku also owns Rigaku Semiconductor Instruments Ltd. in Migdal HaEmek (the former XwinSys, acquired 2019), listed on rigaku.com as a division for semiconductor metrology rather than an XRD/XRF sales office. Rigaku's EMEA service page lists Israel as served through partners/distributors (Service.Europe@rigaku.com).",
   "israel_entities": [
-   {
-    "name": "Rhenium Ltd.",
-    "name_he": "",
-    "type": "distributor",
-    "scope": "Rigaku (XRD/XRF) listed among represented lines in Rhenium's 2009 Israel Physical Society trade-fair profile (Beit Nekofa); current status NOT confirmed - rhenium.co.il did not appear in any search result and Rigaku's distributor finder did not surface an Israel entry.",
-    "website": "https://www.rhenium.co.il",
-    "source": "https://archive.israelphysicalsociety.org/ips-conference-2009/fairs/rhenium-ltd.html"
-   },
    {
     "name": "Rigaku Semiconductor Instruments Ltd. (formerly XwinSys Technology Development Ltd.)",
     "name_he": "",
@@ -1029,16 +1178,27 @@
     "scope": "Rigaku Group company doing R&D and manufacturing of X-ray semiconductor metrology tools (Ramat Gabriel Industrial Zone, 6 HaMehkar St, Migdal HaEmek; rsi@rigaku.com, +972-4-9951051); joined Rigaku 2019, renamed Dec 2024. Not a sales channel for analytical XRD/XRF.",
     "website": "https://rigaku.com/about/rigaku-divisions/rigaku-semiconductor-instruments-ltd",
     "source": "https://rigaku.com/about/rigaku-divisions/rigaku-semiconductor-instruments-ltd"
+   },
+   {
+    "name": "Yarden Biotec",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Rigaku ED-XRF analysers (e.g. NEX DE VS); XRD channel not confirmed",
+    "website": "https://www.yarden-biotec.co.il",
+    "source": "https://www.yarden-biotec.co.il/lab-products/xrf-analyzers"
    }
   ],
-  "confidence": "low",
-  "confidence_note": "Rhenium link rests on a 2009 trade-fair page only; the Israeli Rigaku subsidiary is verified but out of scope.",
+  "confidence": "medium",
+  "confidence_note": "XRF channel verified on distributor site; XRD channel unknown; subsidiary verified on rigaku.com but out of scope for lab sales.",
   "sources": [
    "https://archive.israelphysicalsociety.org/ips-conference-2009/fairs/rhenium-ltd.html",
    "https://rigaku.com/about/rigaku-divisions/rigaku-semiconductor-instruments-ltd",
    "https://rigaku.com/about/rigaku-divisions",
    "https://businesswire.com/news/home/20241216662726/en/5762344/The-Rigaku-Group%e2%80%99s-XwinSys-Changes-its-Name-to-Rigaku-Semiconductor-Instruments",
-   "https://rigaku.com/about/contact-us"
+   "https://rigaku.com/about/contact-us",
+   "https://www.yarden-biotec.co.il/lab-products/xrf-analyzers",
+   "https://service.rigaku.com/emea/contact",
+   "https://www.cbinsights.com/company/xwinsys/"
   ]
  },
  "40": {
@@ -1104,11 +1264,43 @@
  },
  "42": {
   "name": "Oxford Instruments",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_presence": "none_found",
+  "israel_entities": [],
+  "israel_note": "Nothing credible found after four angles: the brand restricted to 43 Israeli distributor domains, a Hebrew importer/representative query, a search restricted to oxinst.com / andor.oxinst.com / nano.oxinst.com (Israel appears only as a country option in the Andor, Imaris and WITec contact forms; the WITec page says to contact HQ where no official representative exists), and an Israeli sole-supplier (ספק יחיד) tender query. No source seen names an Israeli distributor for Andor cameras, NanoAnalysis EDS/EBSD or WITec Raman; the Israeli channel may be direct from the UK/EU or via a company outside the domain list. Status remains none_found.",
+  "confidence": "low",
+  "confidence_note": "Four different search angles found no Israeli entity; absence of evidence only.",
+  "sources": [
+   "https://andor.oxinst.com/contact/",
+   "https://imaris.oxinst.com/contact/",
+   "https://raman.oxinst.com/contact",
+   "https://www.oxinst.com/contact-us",
+   "https://nano.oxinst.com/"
+  ]
  },
  "43": {
   "name": "Anton Paar",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Prime Lab Scientific Instruments Ltd.",
+    "name_he": "פריים לאב",
+    "type": "distributor",
+    "scope": "Anton Paar instruments (density meters, rheometers, viscometers, SAXS); import, installation, IQ/OQ/PQ, calibration and after-sales service per distributor site",
+    "website": "https://primelab.co.il",
+    "source": "https://primelab.co.il/about-us/"
+   }
+  ],
+  "israel_note": "Prime Lab Scientific Instruments Ltd. (Kfar Saba) lists Anton Paar GmbH among its partner manufacturers on its own site, hosts an Anton Paar SAXS product page, and describes itself as the local partner/distributor offering import, installation, IQ/OQ/PQ, calibration and after-sales service. The BioFindly directory independently names Prime Lab as the single Israeli representative handling sales, service and quotes for Anton Paar. Not cross-checked on anton-paar.com (search budget), so exclusivity and the full product scope are stated by the distributor and a directory rather than by the manufacturer.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own site plus an Israeli directory; manufacturer's distributor page not seen.",
+  "sources": [
+   "https://primelab.co.il/about-us/",
+   "https://primelab.co.il/",
+   "https://primelab.co.il/products/nanostructure-solutions-saxs/",
+   "https://biofindly.co.il/manufacturer/anton-paar/"
+  ]
  },
  "44": {
   "name": "Metrohm",
@@ -1177,7 +1369,28 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "JASCO (Hachioji, Tokyo) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Ophir Analytical Ltd.",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "JASCO spectroscopy and chromatography products (listed as JASCO's distributor for Israel; Rosh Ha'ayin, +972 3-9022277, ophir-ana@bezeqint.net)",
+    "website": "http://www.ophiranalytical.com",
+    "source": "https://www.jascoeurope.com/where-to-buy/"
+   }
+  ],
+  "israel_note": "JASCO's own 'Where to buy' and 'Worldwide Locations' pages (jascoeurope.com, jasco.de, jasco-global.com, jascoinc.com) list Ophir Analytical Ltd., Rosh Ha'ayin, as the distributor for Israel; JASCO Europe is responsible for sales, service and support across Europe, the Middle East and Africa. The listing is at most about nine months old per the search index. Ophir Analytical's own site was not opened, and the earlier distributor-domain and Hebrew searches missed it because it is not in the known-distributor list.",
+  "confidence": "high",
+  "confidence_note": "Named on the manufacturer's own where-to-buy / locations pages.",
+  "sources": [
+   "https://www.jascoeurope.com/where-to-buy/",
+   "https://www.jasco.de/where-to-buy/",
+   "https://www.jasco-global.com/about-us/jasco-global-locations/",
+   "https://jascoinc.com/about-us/jasco-global-locations/",
+   "https://www.jascoeurope.com/contact-us/"
+  ]
  },
  "47": {
   "name": "SPECTRO Analytical Instruments (AMETEK)",
@@ -1188,16 +1401,19 @@
   "revenue_note": "AMETEK group revenue (parent); SPECTRO alone is not disclosed (order of EUR 100-150M, trade estimate).",
   "israel_check": "partial",
   "israel_entities": [],
-  "israel_presence": "none_found",
-  "israel_note": "Searched generic English/Hebrew queries, 27 Israeli distributor domains, spectro.com/ametek.com and agentek.co.il with SPECTRO product names (ARCOS, SPECTROBLUE, SPECTROGREEN, XEPOS, SPECTROMAXx). Nothing names an Israeli SPECTRO representative: Agentek's catalog lists ICP/ICP-MS/XRF and metal-analysis spectrometer categories but its vendor pages (Shimadzu, Konica Minolta, etc.) never mention SPECTRO or AMETEK, so the Agentek hint is unconfirmed; SPECTRO's 'worldwide' locator and AMETEK's global locations (Middle East office in Dubai) did not surface Israel in snippets. Result: no Israeli channel identified.",
+  "israel_presence": "unclear",
+  "israel_note": "No source seen names an Israeli distributor or office for SPECTRO Analytical Instruments: spectro.com's 'SPECTRO Worldwide' locator and AMETEK's global-locations page surfaced only a Middle East office in Dubai, and the distributor-domain, Hebrew and tender-angle queries returned nothing. One lead needs verification: Spectro (Israel) Ltd., Rishon LeZion (spectro.co.il, est. 1994), an independent analytical-instrument distributor that claims about 50% of the Israeli ICP-OES market and is Elementar's listed Israeli distributor; its name and ICP-OES focus suggest a possible link to SPECTRO, but the pages seen (its own site and LinkedIn) confirm only SYKAM, so it is NOT recorded here as a SPECTRO representative. A newroad.co.il 'XRF & GDS elemental analysers in Israel' page also surfaced without naming SPECTRO.",
   "confidence": "low",
-  "confidence_note": "Four searches found neither a distributor nor manufacturer-side Israel contact; the Agentek lead is neither confirmed nor excluded.",
+  "confidence_note": "No confirming source; the Spectro (Israel) Ltd. lead is unverified and may be a coincidence of names.",
   "sources": [
    "https://agentek.co.il/catalog/",
    "https://agentek.co.il/vendors/?___from_store=he&___store=en",
    "https://agentek.co.il/representative/shimadzu/",
    "https://www.spectro.com/about-us/spectro-worldwide",
-   "https://www.ametek.com/contact-us/global-locations"
+   "https://www.ametek.com/contact-us/global-locations",
+   "http://www.spectro.co.il/index.php?language=eng",
+   "https://www.linkedin.com/in/spectro-israel-ltd-b753901aa/",
+   "https://newroad.co.il/technologies/elemental-analyzer/"
   ]
  },
  "48": {
@@ -1212,7 +1428,47 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Part of the privately held Endress+Hauser Group (~EUR 3.9B group revenue); Analytik Jena alone is not disclosed. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Lifegene",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Biometra thermal cyclers (TOne, TAdvanced) and PCR instrumentation",
+    "website": "https://www.lifegene.co.il",
+    "source": "https://www.lifegene.co.il/biometra_tone_pcr"
+   },
+   {
+    "name": "Tamar Laboratory Supplies",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "qTOWER³ real-time PCR thermal cycler",
+    "website": "http://www.tamar.co.il",
+    "source": "http://www.tamar.co.il/qtower%C2%B3/"
+   },
+   {
+    "name": "Lumitron",
+    "name_he": "לומיטרון",
+    "type": "distributor",
+    "scope": "UVP bio-imaging systems (UVP, a part of Analytik Jena)",
+    "website": "https://www.lumitron.co.il",
+    "source": "https://www.lumitron.co.il/about-us/"
+   }
+  ],
+  "israel_note": "Three Israeli distributors carry Analytik Jena life-science lines on their own sites: Lifegene (Biometra TOne and TAdvanced thermal cyclers), Tamar Laboratory Supplies (qTOWER³ real-time PCR) and Lumitron (UVP bio-imaging, described as 'a part of Analytik Jena'). The BioFindly directory also lists one Israeli representative for Analytik Jena tied to qPCR/spectrophotometers (text garbled in the snippet). The chemical-analysis portfolio (AAS, ICP-OES/MS, TOC, mercury) has no confirmed Israeli channel: analytik-jena.com's partner finder did not expose an Israel entry in search snippets.",
+  "confidence": "medium",
+  "confidence_note": "Life-science lines verified on distributor sites; analytical-chemistry channel unknown; manufacturer partner page not visible.",
+  "sources": [
+   "https://www.lifegene.co.il/biometra_tone_pcr",
+   "https://www.lifegene.co.il/biometra_tadvanced_pcr",
+   "https://www.lifegene.co.il/pcr_instrumentation",
+   "http://www.tamar.co.il/qtower%C2%B3/",
+   "https://www.lumitron.co.il/about-us/",
+   "https://biofindly.co.il/manufacturer/analytik-jena/",
+   "https://www.analytik-jena.com/company/partners/",
+   "https://www.analytik-jena.com/contact/"
+  ]
  },
  "49": {
   "name": "Elementar Analysensysteme",
@@ -1226,7 +1482,27 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Family-owned (Langenselbold); order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Spectro (Israel) Ltd.",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Elementar's listed distributor for Israel (10 Sacharov St., Rishon LeZion, +972 3 9693014, spectro@spectro.co.il)",
+    "website": "http://www.spectro.co.il",
+    "source": "https://www.elementar.com/en/contact/contact-worldwide"
+   }
+  ],
+  "israel_note": "Elementar's own 'Contact worldwide / contact local' pages list Spectro Israel Ltd., 10 Sacharov St., Rishon LeZion (+972 3 9693014, spectro@spectro.co.il, spectro.co.il) as its Israeli distributor. Spectro (Israel) Ltd. is an independent Israeli analytical-instrument distributor founded in 1994 (ICP-OES focus, also SYKAM HPLC/IC/amino-acid analysers), with no shown relation to SPECTRO Analytical/AMETEK. The product scope in Israel (CHNS/O, TOC, nitrogen/protein, IRMS) is implied by the manufacturer listing rather than itemised.",
+  "confidence": "high",
+  "confidence_note": "Named on the manufacturer's own worldwide-contacts page; distributor's site confirms the company exists at that address.",
+  "sources": [
+   "https://www.elementar.com/en/contact/contact-worldwide",
+   "https://www.elementar.com/en-us/contact/contact-local",
+   "http://www.spectro.co.il/index.php?language=eng",
+   "https://www.linkedin.com/in/spectro-israel-ltd-b753901aa/"
+  ]
  },
  "50": {
   "name": "NETZSCH Analyzing & Testing",
@@ -1240,7 +1516,29 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "NETZSCH Group (Selb) is family-owned with ~EUR 800M group revenue; the Analyzing & Testing unit alone is an estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Medent Scientific Instruments",
+    "name_he": "מדנט מכשור מדעי",
+    "type": "distributor",
+    "scope": "NETZSCH thermal analysis (DSC 204 F1 Phoenix, DSC 404 F1 Pegasus, DSC 3500 Sirius, STA 449 F5 Jupiter, STA 409 CD / QMS 403 coupling)",
+    "website": "https://www.medent.co.il",
+    "source": "https://www.medent.co.il/scientific.equipment/store/product/netzsch/"
+   }
+  ],
+  "israel_note": "Medent Scientific Instruments (מדנט מכשור מדעי) lists NETZSCH thermal-analysis instruments on its own site with a dedicated 'NETZSCH - Germany' supplier page and DSC/STA categories (DSC 204 F1 Phoenix, DSC 404 F1 Pegasus, DSC 3500 Sirius, STA 449 F5 Jupiter, STA 409 CD with QMS 403 skimmer coupling). Some listings are old (one about 11 years), but models such as the DSC 3500 Sirius and STA 449 F5 date the catalogue to at least the mid/late 2010s. Not cross-checked on analyzing-testing.netzsch.com (search budget), so whether Medent is the current exclusive representative is unconfirmed.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own site only; some pages stale; manufacturer page not checked.",
+  "sources": [
+   "https://www.medent.co.il/scientific.equipment/store/product/netzsch/",
+   "https://medent.co.il/scientific.equipment/product-tag/netzsch-thermal-analysis/",
+   "https://medent.co.il/scientific.equipment/product-category/אנליזה-תרמית/dsc-differential-scanning-calorimetry/",
+   "https://www.medent.co.il/scientific.equipment/product-category/%D7%90%D7%A0%D7%9C%D7%99%D7%96%D7%94-%D7%AA%D7%A8%D7%9E%D7%99%D7%AA/sta-simultaneous-tg-dsc/",
+   "https://medent.co.il/scientific.equipment/product/dsc-sirius-3500-differential-scanning-calorimeter-netzsch-germany/",
+   "https://medent.co.il/scientific.equipment/product/qms-4035-skimmer-coupling-system-netzsch-germany/"
+  ]
  },
  "51": {
   "name": "Biotage",
@@ -1258,7 +1556,28 @@
  },
  "52": {
   "name": "Hach (Veralto)",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Modotec Ltd.",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Hach Flow (flow-measurement) products only, per Hach Flow distributor page (Akko; modotec@modotec.co.il); page ~5 years old",
+    "website": "http://www.modotec.co.il",
+    "source": "https://nz.hach.com/flow"
+   }
+  ],
+  "israel_note": "Hach's own 'Hach Flow' distributor page (nz.hach.com/flow, about five years old) lists Modotec Ltd., Akko (modotec@modotec.co.il) under Israel for Hach Flow products. No Israeli distributor was found for Hach's core lab/water-analysis lines (DR spectrophotometers, HQ meters, 2100Q turbidimeters): searches across 43 Israeli distributor domains, Hebrew queries, hach.com's global-distributor pages and model-number queries surfaced nothing, and Hach's regional contact is Hach Middle East & Africa in Dubai (+971 4 303 1700). Treat the Modotec listing as stale and partial in scope, and verify.",
+  "confidence": "low",
+  "confidence_note": "Only a ~5-year-old manufacturer page for the Flow line; core lab line channel unknown.",
+  "sources": [
+   "https://nz.hach.com/flow",
+   "https://au.hach.com/flow",
+   "https://my.hach.com/global-distributor-support",
+   "https://www.hach.com/resources/faq",
+   "https://mena.hach.com/contact"
+  ]
  },
  "53": {
   "name": "Hanna Instruments",
@@ -1272,7 +1591,46 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Hanna (Woonsocket RI / Italy) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Medent Scientific Instruments",
+    "name_he": "מדנט מכשור מדעי",
+    "type": "distributor",
+    "scope": "Hanna pH/EC/TDS meters, electrodes, photometers (extensive catalogue on own site, prices in ILS)",
+    "website": "https://www.medent.co.il",
+    "source": "https://www.medent.co.il/scientific.equipment/store/product-tag/hanna-instruments/"
+   },
+   {
+    "name": "BioAnalytics",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Hanna pool/spa and food (bread/dough) pH testers",
+    "website": "https://www.bioanalytics.co.il",
+    "source": "https://www.bioanalytics.co.il/products/hannah-pool-line-ph-tester-according-to-6223-israeli-standard/"
+   },
+   {
+    "name": "Cannadepot",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "online retailer; Hanna portable pH/EC/TDS testers",
+    "website": "https://cannadepot.co.il",
+    "source": "https://cannadepot.co.il/product-category/%D7%9E%D7%93%D7%99%D7%93%D7%94-%D7%95%D7%91%D7%A7%D7%A8%D7%94/hanna-instruments-%D7%9E%D7%9B%D7%A9%D7%99%D7%A8%D7%99%D7%9D-%D7%94%D7%90%D7%A0%D7%94/"
+   }
+  ],
+  "israel_note": "Hanna products are sold in Israel by Medent Scientific Instruments (מדנט מכשור מדעי; an extensive Hanna catalogue of pH/EC/TDS meters, electrodes and photometers on its own site), BioAnalytics (bioanalytics.co.il; Hanna pool/spa and food pH testers) and the online retailer Cannadepot (Hanna portable testers). Hanna's own 'Find My Hanna' page lists Israel, but the local contact was not visible in search snippets, so the official importer or exclusive distributor is not established; the companies above may be resellers of that importer.",
+  "confidence": "medium",
+  "confidence_note": "Resale verified on three Israeli sites; official importer not identified.",
+  "sources": [
+   "https://www.medent.co.il/scientific.equipment/store/product-tag/hanna-instruments/",
+   "https://www.medent.co.il/scientific.equipment/wp-content/uploads/2019/09/Hanna-Instruments-HI99161-1.pdf",
+   "https://www.bioanalytics.co.il/products/hannah-pool-line-ph-tester-according-to-6223-israeli-standard/",
+   "https://www.bioanalytics.co.il/products/hi-9810382-bread-and-dough-ph-tester/",
+   "https://cannadepot.co.il/product-category/%D7%9E%D7%93%D7%99%D7%93%D7%94-%D7%95%D7%91%D7%A7%D7%A8%D7%94/hanna-instruments-%D7%9E%D7%9B%D7%A9%D7%99%D7%A8%D7%99%D7%9D-%D7%94%D7%90%D7%A0%D7%94/",
+   "https://pages.hannainst.com/find-my-hanna",
+   "https://hannainst.com/contact-us-international-inquiry/"
+  ]
  },
  "54": {
   "name": "VELP Scientifica",
@@ -1286,7 +1644,27 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "VELP (Usmate Velate, Italy) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Labotal",
+    "name_he": "לבוטל",
+    "type": "distributor",
+    "scope": "exclusive representative for VELP's analytical product line in Israel since 2024 (UDK Kjeldahl distillers, DKL digesters, NDA 702 Dumas N/protein analyser, fibre/fat extractors, oxidation testers)",
+    "website": "https://labotal.co.il",
+    "source": "https://labotal.co.il/firms/velp/?lang=en"
+   }
+  ],
+  "israel_note": "Labotal (לבוטל) states on its own VELP supplier page that during 2024 it became the exclusive representative for VELP's analytical product line in Israel (UDK Kjeldahl distillers, DKL digesters, NDA 702 Dumas nitrogen/protein analyser, fibre/fat extractors), and the BioFindly directory lists Labotal under VELP. The statement covers the analytical line only; VELP's general lab equipment (stirrers, shakers, hotplates) may have a different Israeli channel, which was not found. velp.com was not checked (search budget).",
+  "confidence": "high",
+  "confidence_note": "Explicit, dated statement on the distributor's own site plus directory corroboration; manufacturer page not checked.",
+  "sources": [
+   "https://labotal.co.il/firms/velp/?lang=en",
+   "https://labotal.co.il/product/velp-scientifica-nda-702-nitrogen-and-protein-analyzer/",
+   "https://labotal.co.il/product-category/analytical-instruments/kjeldahl-analyzers/",
+   "https://biofindly.co.il/distributor/labotal/"
+  ]
  },
  "55": {
   "name": "Roche Diagnostics",
@@ -1336,7 +1714,7 @@
   "name": "Abbott Diagnostics",
   "israel_presence": "parent_subsidiary",
   "israel_check": "verified",
-  "israel_note": "Searched '\"Abbott\" Israel Alinity/Architect distributor/יבואן', Hebrew 'אבוט מעבדות רפואיות', the 29 Israeli distributor domains, mr.gov.il and Abbott's own domains. Abbott's global-locations page lists Abbott Medical Laboratories Ltd. in Tel Aviv under 'Nutrition, Pharmaceuticals and Diagnostics', and the Hebrew 'Abbott in Israel' page (il.abbott) says the affiliate has ~160 employees and that its diagnostics work in Israel covers molecular and laboratory tests; Globes reported the representative office opened in 2004 and Abbott's later expansion in Israel. No Israeli distributor for Alinity/Architect appeared on any distributor site. Caveat: no source states explicitly that the analyzers are sold and serviced by the affiliate itself, and the only tender hits concern Abbott Informatics (STARLIMS), not analyzers.",
+  "israel_note": "Searched '\"Abbott\" Israel Alinity/Architect distributor/יבואן', Hebrew 'אבוט מעבדות רפואיות', the 29 Israeli distributor domains, mr.gov.il and Abbott's own domains. Abbott's global-locations page lists Abbott Medical Laboratories Ltd. in Tel Aviv under 'Nutrition, Pharmaceuticals and Diagnostics', and the Hebrew 'Abbott in Israel' page (il.abbott) says the affiliate has ~160 employees and that its diagnostics work in Israel covers molecular and laboratory tests; Globes reported the representative office opened in 2004 and Abbott's later expansion in Israel. No Israeli distributor for Alinity/Architect appeared on any distributor site. Caveat: no source states explicitly that the analyzers are sold and serviced by the affiliate itself, and the only tender hits concern Abbott Informatics (STARLIMS), not analyzers. Ilex Medical's profiles (SID Israel directory, Globes) list Abbott among the diagnostics companies it represents, alongside Abbott's own Israeli affiliate.",
   "israel_entities": [
    {
     "name": "Abbott Medical Laboratories Ltd.",
@@ -1345,6 +1723,14 @@
     "scope": "Abbott's Israeli affiliate for nutrition, pharmaceuticals and diagnostics (core laboratory, molecular and point-of-care), Atidim Science Park Bldg. 4, Tel Aviv; about 160 employees incl. the Haifa (STARLIMS/Abbott Informatics) development center",
     "website": "https://www.il.abbott",
     "source": "https://www.abbott.com/en-us/global-locations-contacts/israel"
+   },
+   {
+    "name": "Ilex Medical Ltd.",
+    "name_he": "אילקס מדיקל",
+    "type": "distributor",
+    "scope": "Abbott diagnostics products (Ilex company profiles list Abbott among its partners; Abbott also has its own Israeli affiliate)",
+    "website": "https://www.ilexmedical.com",
+    "source": "https://www.sid-israel.org/en/index/ilex-medical-ltd"
    }
   ],
   "confidence": "high",
@@ -1354,7 +1740,8 @@
    "https://www.il.abbott/about-us/abbott-in-israel.html",
    "https://en.globes.co.il/en/article-1000722459",
    "https://en.globes.co.il/en/article-1000531243",
-   "https://mr.gov.il/ilgstorefront/he/p/attachment/005056BF19AF1EDC94819F5224C14143/%D7%A4%D7%A8%D7%95%D7%98%D7%95%D7%A7%D7%95%D7%9C%20%D7%95%D7%A2%D7%93%D7%94"
+   "https://mr.gov.il/ilgstorefront/he/p/attachment/005056BF19AF1EDC94819F5224C14143/%D7%A4%D7%A8%D7%95%D7%98%D7%95%D7%A7%D7%95%D7%9C%20%D7%95%D7%A2%D7%93%D7%94",
+   "https://www.sid-israel.org/en/index/ilex-medical-ltd"
   ]
  },
  "57": {
@@ -1363,8 +1750,8 @@
  },
  "58": {
   "name": "bioMérieux",
-  "israel_check": "partial",
-  "israel_presence": "unclear",
+  "israel_check": "verified",
+  "israel_presence": "distributor",
   "israel_entities": [
    {
     "name": "Accellix (bioMérieux company), Jerusalem",
@@ -1373,18 +1760,30 @@
     "scope": "R&D/manufacturing site of Accellix (automated flow-cytometry QC for pharma), acquired by bioMérieux in 2025 - not a sales office for VITEK/BACT/ALERT/BIOFIRE",
     "website": "",
     "source": "https://www.biomerieux.com/us/en/journalists/press-releases/acquisition-accellix-pharma-quality-control.html"
+   },
+   {
+    "name": "Ilex Medical Ltd.",
+    "name_he": "אילקס מדיקל",
+    "type": "distributor",
+    "scope": "BIOFIRE (FilmArray) nested multiplex PCR panels - respiratory, meningitis/CSF, gastrointestinal, positive blood culture ID, joint infection - offered to Israeli clinical labs (Ilex catalogue page, c. early 2024); VITEK / BACT/ALERT channel not shown",
+    "website": "https://www.ilexmedical.com",
+    "source": "https://www.ilexmedical.com/catalog_products/biofire/"
    }
   ],
-  "israel_note": "Searched '\"bioMérieux\" Israel distributor/Gamidor/יבואן', Hebrew 'ביומרייה/VITEK/FilmArray יבואן', the 29 Israeli distributor domains, a Gamidor/Hylabs/Ilex/Rhenium-only search and biomerieux.com. No source names an Israeli distributor or sales subsidiary for the clinical lines: Gamidor's pages (microbiology, central laboratory) do not mention bioMérieux in any snippet, so the earlier Gamidor lead remains unconfirmed, and bioMérieux's site only says it serves 160+ countries through its distributor network and to 'consult your local bioMérieux representative'. The only bioMérieux-owned Israeli entity found is Accellix in Jerusalem (acquired 2025), which is an R&D/manufacturing site. Marked 'unclear' because distributors clearly exist (earlier FDA records, bioMérieux's own wording) but none could be identified.",
-  "confidence": "low",
-  "confidence_note": "No Israeli sales entity identified for VITEK/BACT/ALERT/BIOFIRE; Gamidor hint neither confirmed nor refuted.",
+  "israel_note": "An extended Hebrew/English query surfaced Ilex Medical's own catalogue page 'BIOFIRE - Ilex Medical', which states that Ilex offers bioMérieux's BioFire nested multiplex PCR panels (respiratory, CSF, gastro, positive blood culture, joint infection) to Israeli customers; the page is roughly 2.5 years old, so current status should be confirmed. No source names the Israeli channel for VITEK or BACT/ALERT: the 40-domain sweep, a Hebrew tender query ('מכרז VITEK 2 ביומרייה') and an 'Israel' query restricted to biomerieux.com returned only clinical papers, foreign contract news and unrelated pages. bioMérieux's only Israeli entity remains Accellix (Jerusalem R&D/manufacturing, acquired 2025); upgraded from 'unclear' to 'distributor' on the strength of the Ilex page. Ilex Medical's company profile (SID Israel directory) lists bioMérieux with Abbott, Hologic, Grifols, IL and Sebia among the companies it represents; not re-confirmed on biomerieux.com.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own site confirms the BIOFIRE line; the VITEK/BACT/ALERT distributor is still unidentified and the Ilex page dates from ~2024.",
   "sources": [
    "https://www.biomerieux.com/corp/en/who-we-are/biomerieux-worldwide.html",
    "https://biomerieux.com/en/supply-and-distribution",
    "https://www.biomerieux.com/corp/en/our-offer/clinical-products/bact-alert-virtuo.html",
    "https://www.biomerieux.com/us/en/journalists/press-releases/acquisition-accellix-pharma-quality-control.html",
    "https://gamidor.co.il/en",
-   "https://gamidor.co.il/en/central-laboratory/"
+   "https://gamidor.co.il/en/central-laboratory/",
+   "https://www.ilexmedical.com/catalog_products/biofire/",
+   "https://www.rapidmicrobiology.com/supplier/biomerieux",
+   "https://en.wikipedia.org/wiki/BioM%C3%A9rieux",
+   "https://www.sid-israel.org/en/index/ilex-medical-ltd"
   ]
  },
  "59": {
@@ -1469,11 +1868,63 @@
  },
  "62": {
   "name": "Memmert",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Medent Scientific Instruments",
+    "name_he": "מדנט מכשור מדעי",
+    "type": "distributor",
+    "scope": "Memmert CO2 incubators (e.g. INC108ivf), cooled incubators (IPP/IPS), vacuum ovens (VO), drying ovens (UF/UN) and incubators (IF/IN) listed with Hebrew product pages",
+    "website": "https://www.medent.co.il",
+    "source": "https://medent.co.il/scientific.equipment/product/איקובטור-co2-בנפח-108-ליטר-תוצרת-memmert-גרמניה-דג-2/"
+   }
+  ],
+  "israel_note": "A search for 'Memmert' restricted to Israeli lab-distributor domains returned a series of Medent (מדנט מכשור מדעי) product pages that explicitly describe the items as 'made by MEMMERT Germany' (CO2 incubator INC108ivf, IPP/IPS cooled incubators, VO vacuum ovens, UF/UN drying ovens), so Medent is recorded as an Israeli distributor on the strength of its own site. A .co.il-wide search also found a Memmert UF260 datasheet (2017) hosted on kimron.co.il, which is a possible second reseller but is not recorded as an entity because no product or brand page was seen. Memmert's own distributor locator (memmert.com) was not searched within the budget, so this is distributor-side evidence only; a Labotal 2026 incubator buyer's guide mentions Memmert's IPPeco Peltier models but Labotal is a Binder partner and was not seen offering Memmert.",
+  "confidence": "medium",
+  "confidence_note": "Israeli distributor established from the distributor's own product pages (several, current); no confirmation from Memmert's side.",
+  "sources": [
+   "https://medent.co.il/scientific.equipment/product/איקובטור-co2-בנפח-108-ליטר-תוצרת-memmert-גרמניה-דג-2/",
+   "https://medent.co.il/scientific.equipment/product-category/תנורים-מעבדתיים/תנורי-וואקום/",
+   "https://www.medent.co.il/scientific.equipment/product-category/אינקובטורים/אינקובטור-co2/",
+   "https://www.medent.co.il/scientific.equipment/product-category/אינקובטורים/אינקובטור-מקורר/",
+   "https://kimron.co.il/en/wp-content/uploads/2017/04/UF260.pdf",
+   "https://labotal.co.il/אינקובטורים-מומלצים-לשנת-2026-סקירת-דגמי/"
+  ]
  },
  "63": {
   "name": "IKA",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Medent Scientific Instruments",
+    "name_he": "מדנט מכשור מדעי",
+    "type": "distributor",
+    "scope": "IKA brand page ('IKA - Germany'): mixing, heating, distilling, crushing; Medent states it imports IKA viscometers; product categories for magnetic stirrers with heating, vortex mixers, chillers (RC 2/RC 5) and drying ovens (Oven 125)",
+    "website": "https://www.medent.co.il",
+    "source": "https://www.medent.co.il/en/project/ika-germany/"
+   },
+   {
+    "name": "Labotal Scientific Equipment Ltd.",
+    "name_he": "לבוטל ציוד למעבדות",
+    "type": "distributor",
+    "scope": "overhead and magnetic stirrers - Labotal's overhead-stirrer category page names IKA among the brands it stocks (scope beyond stirrers not seen)",
+    "website": "https://labotal.co.il",
+    "source": "https://labotal.co.il/product-category/hot-plate-and-stirrers/overhead-stirrers/?lang=en"
+   }
+  ],
+  "israel_note": "Medent's own site has a dedicated 'IKA - Germany' manufacturer page and Hebrew product categories listing IKA RCT hot-plate stirrers, vortex mixers, RC 2/RC 5 chillers and the Oven 125, and it says it imports IKA viscometers; Labotal's overhead-stirrer page names IKA among the brands it stocks, so both are recorded as Israeli distributors. A .co.il-wide search additionally surfaced a 2012 IKA magnetic-stirrer catalogue hosted on master-cold.co.il, which is too old and indirect to record as an entity. IKA's own dealer locator (ika.com) was not searched within the budget, so the exclusivity or split between Medent and Labotal is unknown.",
+  "confidence": "medium",
+  "confidence_note": "Two distributors established from their own sites (Medent brand page; Labotal category page); no confirmation from IKA's side.",
+  "sources": [
+   "https://www.medent.co.il/en/project/ika-germany/",
+   "https://www.medent.co.il/scientific.equipment/product-category/בוחשים-מגנטיים/בוחשים-מגנטיים-עם-חימום/",
+   "https://www.medent.co.il/scientific.equipment/product-category/וורטקס/",
+   "https://labotal.co.il/product-category/hot-plate-and-stirrers/overhead-stirrers/?lang=en",
+   "https://labotal.co.il/product-category/hot-plate-and-stirrers/magnetic-stirrers/?lang=en",
+   "http://master-cold.co.il/wp-content/uploads/2012/01/Magnetic%20stirrers%20hotplates.pdf"
+  ]
  },
  "64": {
   "name": "Heidolph Instruments (ATS Corporation)",
@@ -1519,21 +1970,110 @@
  },
  "66": {
   "name": "LAUDA",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Medent Scientific Instruments",
+    "name_he": "מדנט מכשור מדעי",
+    "type": "distributor",
+    "scope": "LAUDA brand page ('Lauda - Germany') and a Hebrew product category 'LAUDA baths, circulators and chillers'; GFL-brand (LAUDA) water stills and lab refrigerators also listed",
+    "website": "https://www.medent.co.il",
+    "source": "https://www.medent.co.il/en/project/lauda-germany/"
+   },
+   {
+    "name": "Citrine Solutions",
+    "name_he": "סיטרין",
+    "type": "distributor",
+    "scope": "reseller listing LAUDA Variocool VC 1200 and Ultracool UC2 circulation chillers and an MGW MS heating circulator (new and used lab equipment dealer; authorisation not stated)",
+    "website": "https://www.citrinesolutions.co.il",
+    "source": "https://citrinesolutions.co.il/?c_id=30&item_id=5&module=product&p_id=444"
+   },
+   {
+    "name": "Avni & Son",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "LAUDA Ultracool process circulation chillers - Avni & Son's site hosts the 2026 LAUDA Ultracool brochure (uploaded April 2026); the nature of the relationship was not stated in the snippet",
+    "website": "https://avni-son.co.il",
+    "source": "https://avni-son.co.il/wp-content/uploads/2026/04/LAUDA-Ultracool-2026-EN-4-web.pdf"
+   }
+  ],
+  "israel_note": "Medent's own site has a 'Lauda - Germany' manufacturer page describing LAUDA as the global leader in constant-temperature equipment plus a Hebrew product category for LAUDA baths, circulators and chillers, so Medent is the clearest Israeli distributor for the laboratory range. A .co.il-wide search also found Citrine Solutions selling LAUDA Variocool VC 1200, Ultracool UC2 and MGW MS units, and Avni & Son hosting the 2026 LAUDA Ultracool (process chiller) brochure, which suggests an industrial-side partner; both are recorded with caveats because neither page states an authorised-distributor relationship. LAUDA's own locator (lauda.de) was not searched within the budget.",
+  "confidence": "medium",
+  "confidence_note": "Medent established from its own brand page; Citrine and Avni & Son are reseller/brochure-host evidence only; no manufacturer-side confirmation.",
+  "sources": [
+   "https://www.medent.co.il/en/project/lauda-germany/",
+   "https://www.medent.co.il/scientific.equipment/product-category/lauda-אמבטים-סירקולטורים-וצילרים/צילרים/",
+   "https://citrinesolutions.co.il/?c_id=30&item_id=5&module=product&p_id=444",
+   "https://citrinesolutions.co.il/?c_id=1&item_id=5&module=product&p_id=349",
+   "https://www.citrinesolutions.co.il/userfiles/documents/Lauda%20E100%20bath_Staredition_2010-06-18_Internet.pdf",
+   "https://avni-son.co.il/wp-content/uploads/2026/04/LAUDA-Ultracool-2026-EN-4-web.pdf"
+  ]
  },
  "67": {
   "name": "Peter Huber Kältemaschinenbau",
-  "israel_check": "partial",
+  "israel_check": "verified",
   "revenue_original": "EUR ~75 million (trade estimate; private)",
   "revenue_usd_m": 83,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
   "size_basis": "estimate",
-  "revenue_note": "Huber (Offenburg) is family-owned and publishes no revenue; order-of-magnitude estimate from headcount (~420) and trade press. Figures recalled from company statements / filings and not re-verified online in this session."
+  "revenue_note": "Huber (Offenburg) is family-owned and publishes no revenue; order-of-magnitude estimate from headcount (~420) and trade press. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "S.L. Moran Ltd.",
+    "name_he": "ש.ל מורן",
+    "type": "distributor",
+    "scope": "Huber circulation baths, thermostats and chillers (Unistat, Ministat etc.) - S.L. Moran's heating/cooling-bath category lists Huber units and the site hosts the Huber general catalogue 2025/2026 and the CS-Chiller brochure",
+    "website": "https://slmoran.co.il",
+    "source": "https://slmoran.co.il/products_cat/אמבטי-חימום-קירור-סירקולטור/"
+   },
+   {
+    "name": "Master-Cold",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "lists Huber Ministat 230-cc-NR and a Unistat CC (the Unistat appears to be a used unit); authorised status unverified",
+    "website": "http://master-cold.co.il",
+    "source": "http://master-cold.co.il/1579/products/ministat-230-cc-nr"
+   }
+  ],
+  "israel_note": "A .co.il-wide search for 'Huber Unistat Ministat' found S.L. Moran (ש.ל מורן, Jerusalem) hosting the Huber 'Inspired by temperature' general catalogue 2025/2026 (uploaded September 2025) and listing Huber circulation baths and chillers in its heating/cooling-bath category, and a follow-up search restricted to slmoran.co.il confirmed those pages plus a Huber CS-Chiller brochure, so S.L. Moran is recorded as the Israeli distributor. Master-Cold (master-cold.co.il) lists a Ministat 230 and a used Unistat CC and is recorded as a secondary reseller with low confidence. Huber's own site (huber-online.com) returned only its generic locations/contact pages with no Israel entry visible, and the earlier distributor-domain search found only a Labotal reactor article mentioning Huber in passing.",
+  "confidence": "medium",
+  "confidence_note": "S.L. Moran established from its own site (current catalogue + product category); no confirmation from Huber's locator; Master-Cold is weak evidence.",
+  "sources": [
+   "https://slmoran.co.il/wp-content/uploads/2025/09/Huber_Katalog_2025-2026_EN.pdf",
+   "https://slmoran.co.il/products_cat/אמבטי-חימום-קירור-סירקולטור/",
+   "https://slmoran.co.il/ספקים/",
+   "https://slmoran.co.il/wp-content/uploads/2022/04/Broschure_CS_EN_low.pdf",
+   "http://master-cold.co.il/1579/products/ministat-230-cc-nr",
+   "http://master-cold.co.il/1634/products/unistat-cc",
+   "https://www.huber-online.com/en/company/locations"
+  ]
  },
  "68": {
   "name": "BÜCHI Labortechnik",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Dr. Golik Scientific Solutions",
+    "name_he": "ד\"ר גוליק",
+    "type": "distributor",
+    "scope": "BUCHI laboratory evaporation (Rotavapor R-80, R-300, R-220 Pro, R-220/R-250 EX) - dedicated BUCHI manufacturer page and 'Dr. Golik - BUCHI - Laboratory Evaporation' page; other BUCHI lines not seen in snippets",
+    "website": "https://www.golik.co.il",
+    "source": "https://www.golik.co.il/manufacturers/buchi"
+   }
+  ],
+  "israel_note": "A search for 'Buchi Rotavapor' restricted to Israeli distributor domains returned Dr. Golik's own BUCHI manufacturer page, its 'Dr. Golik - BUCHI - Laboratory Evaporation' page and a Hebrew Rotavapor product page (noting the R-100 discontinuation and pointing to R-80/R-300), so Dr. Golik (ד\"ר גוליק) is recorded as the Israeli distributor. MRC pages in the same results concern MRC's own-brand rotary evaporators, not BUCHI. BUCHI's own distributor locator (buchi.com) was not searched within the budget, so whether Dr. Golik also carries BUCHI's extraction, Kjeldahl, NIR or spray-drying lines is unconfirmed.",
+  "confidence": "medium",
+  "confidence_note": "Distributor established from its own dedicated BUCHI pages; manufacturer-side confirmation not obtained.",
+  "sources": [
+   "https://www.golik.co.il/manufacturers/buchi",
+   "https://www.golik.co.il/laboratory-evaporation",
+   "https://golik.co.il/products/rotavapor-מערכות-נידוף/",
+   "https://golik.co.il/?lang=en"
+  ]
  },
  "69": {
   "name": "Andreas Hettich",
@@ -1551,7 +2091,24 @@
  },
  "70": {
   "name": "Esco Lifesciences",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Danyel Biotech",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Esco Life Sciences division: biological safety cabinets (Airstream Class I/III, Labculture Class II A2/B1/B2), fume hoods, incubators and ULT freezers - dedicated Esco page on Danyel's site",
+    "website": "https://www.danyel.co.il",
+    "source": "https://www.danyel.co.il/esco/"
+   }
+  ],
+  "israel_note": "A search for 'Esco biosafety cabinet' restricted to Israeli distributor domains returned Danyel Biotech's dedicated Esco page (danyel.co.il/esco), which describes Esco's Life Sciences division range (biological safety cabinets, fume hoods, incubators, ULT freezers) with model families such as Airstream and Labculture; the same page surfaced again in two later .co.il-wide searches. Danyel Biotech is therefore recorded as the Israeli distributor. Esco's own distributor locator (escolifesciences.com) was not searched within the budget, so Esco's Medical/pharma-isolator lines may have a different Israeli channel.",
+  "confidence": "medium",
+  "confidence_note": "Distributor established from its own dedicated Esco page; no manufacturer-side confirmation.",
+  "sources": [
+   "https://www.danyel.co.il/esco/"
+  ]
  },
  "71": {
   "name": "Labconco",
@@ -1578,7 +2135,37 @@
   "name": "NuAire",
   "parent": "Kewaunee Scientific (since Nov 2024)",
   "ownership": "Subsidiary of Kewaunee Scientific (public, NASDAQ: KEQU)",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Ormir Lab Equipment",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "NuAire biosafety cabinets, laminar-flow hoods, CO2 incubators (NU-5731), ULT freezers and PharmaGard compounding isolators (NU-NTE800) - NuAire listed on Ormir's manufacturers page with product pages",
+    "website": "https://ormir.co.il",
+    "source": "https://ormir.co.il/card-with-image/"
+   },
+   {
+    "name": "Citrine Solutions",
+    "name_he": "סיטרין",
+    "type": "distributor",
+    "scope": "NuAire AutoFlow CO2 incubators (NU-4750/4850/4950/5510) - catalogue PDF hosted on Citrine's site and addressed 'to Citrine customers'; authorised status not stated",
+    "website": "https://www.citrinesolutions.co.il",
+    "source": "https://www.citrinesolutions.co.il/userfiles/documents/AutoFlow_CO2_Incubators%20ללקוחות%20סיטרין.pdf"
+   }
+  ],
+  "israel_note": "A .co.il-wide search for 'NuAire biosafety cabinet CO2 incubator' found Ormir (ormir.co.il) with a NU-5731 CO2 incubator product page and a manufacturers page describing NuAire as a leading provider of biosafety cabinets, laminar flow hoods, CO2 incubators and ULT freezers; a follow-up search restricted to ormir.co.il confirmed further NuAire pages (PharmaGard ES NU-NTE800 isolator, biological safety cabinets), so Ormir is recorded as the Israeli distributor. Citrine Solutions hosts a NuAire AutoFlow CO2-incubator catalogue labelled for its customers and is recorded as a secondary reseller. NuAire's own site (nuaire.com) only offers a sales-partner locator whose entries are not indexed, so no manufacturer-side confirmation was obtained; the earlier Hebrew and distributor-domain searches had found nothing.",
+  "confidence": "medium",
+  "confidence_note": "Ormir established from several of its own NuAire product pages; Citrine from a hosted catalogue only; NuAire's locator could not be read.",
+  "sources": [
+   "https://ormir.co.il/product/co2-incubator-nu-5731/",
+   "https://ormir.co.il/card-with-image/",
+   "https://ormir.co.il/product/pharmagard-es-nu-nte800-total-exhaust-compounding-aseptic-containment-isolator/",
+   "https://ormir.co.il/product/biological-safety-cabinets-enclosures/",
+   "https://www.citrinesolutions.co.il/userfiles/documents/AutoFlow_CO2_Incubators%20ללקוחות%20סיטרין.pdf",
+   "https://www.nuaire.com/sales-and-support/sales-locator"
+  ]
  },
  "73": {
   "name": "PHC Holdings (PHCbi)",
@@ -1620,7 +2207,25 @@
   "employees_year": 2024,
   "employees_scope": "estimate",
   "employees_note": "Roughly 2,500-3,000 employees (annual report, recalled).",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Ex-Lab",
+    "name_he": "אקס-לאב",
+    "type": "distributor",
+    "scope": "named by Haier Biomedical as its partner exhibiting Haier Biomedical laboratory equipment at a university expo hosted by the Weizmann Institute and the Technion; product scope, legal name and website not found",
+    "website": "",
+    "source": "https://www.haiermedical.com/News/HB-Showcases-Cutting-Edge-Innovations-at-Israel-Expo"
+   }
+  ],
+  "israel_note": "A search restricted to haiermedical.com surfaced the news item 'HB Showcases Cutting-Edge Innovations at Israel Expo', whose snippet says Haier Biomedical's partner Ex-Lab presented its lineup of laboratory equipment at a university expo hosted by the Weizmann Institute and the Technion, so Ex-Lab is recorded as the Israeli partner on the manufacturer's own word. Two follow-up searches (unrestricted and .co.il-wide) could not locate Ex-Lab's website or any Israeli page selling Haier Biomedical ULT freezers (results were Eppendorf, Nordiclab/BDL, Kalstein and household Haier retail), and the distributor-domain search returned nothing. The date of the expo is not visible in the snippet, so the partnership's current status is unconfirmed. Haier Biomedical's own news page names Ex-Lab (Petah Tikva) as its Israeli partner; a directory profile says EX-LAB also carries Daihan, DLab, Heal Force, Frimed and Marathon.",
+  "confidence": "medium",
+  "confidence_note": "Entity named only in a manufacturer news snippet; could not identify the company, its website or the date.",
+  "sources": [
+   "https://www.haiermedical.com/News/HB-Showcases-Cutting-Edge-Innovations-at-Israel-Expo",
+   "https://www.haiermedical.com/news/Haier-Biomedical-Distributor-Conference-Concluded.html"
+  ]
  },
  "75": {
   "name": "Antylia Scientific (ex-Cole-Parmer)",
@@ -1652,7 +2257,27 @@
   "revenue_scope": "estimate",
   "size_basis": "estimate",
   "revenue_note": "Yamato Scientific (Tokyo, founded 1889) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "S.L. Moran Ltd.",
+    "name_he": "ש.ל מורן",
+    "type": "distributor",
+    "scope": "listed as Yamato Scientific's sales representative for Israel on Yamato's global partners page (Shatner Center bldg 7, Givat Shaul, Jerusalem, +972-74-7029898); no Yamato products seen on S.L. Moran's own site",
+    "website": "https://slmoran.co.il",
+    "source": "https://www.yamato-scientific.com/global/"
+   }
+  ],
+  "israel_note": "A search restricted to Yamato's own domains returned its global partners page (yamato-scientific.com/global/), whose snippet lists S.L. Moran Ltd, Shatner Center building 7, Givat Shaul, Jerusalem, with a +972 phone number as the Israel representative; the search tool flagged the page as roughly 3,000 days old, so the listing may be stale. A follow-up search restricted to slmoran.co.il returned no Yamato content (only a Van der Heijden catalogue and the about page), and a .co.il-wide search found only a BioFindly directory entry describing Yamato without naming an Israeli agent. S.L. Moran is an active Israeli lab-equipment importer (it hosts 2025 Huber material), so the listing is plausible but unconfirmed from the distributor side.",
+  "confidence": "low",
+  "confidence_note": "Manufacturer's own partner page names the entity, but the page appears old and the distributor's site shows no Yamato products.",
+  "sources": [
+   "https://www.yamato-scientific.com/global/",
+   "https://www.yamato-scientific.com/company/location/",
+   "https://slmoran.co.il/about/",
+   "https://biofindly.co.il/distributor-category/analytical-chemistry/"
+  ]
  },
  "78": {
   "name": "Azenta Life Sciences",
@@ -1660,11 +2285,60 @@
   "employees_year": 2025,
   "employees_scope": "estimate",
   "employees_note": "Roughly 2,700 employees in continuing operations after the B Medical Systems divestiture (recalled, unverified).",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "HyLabs (Hy Laboratories Ltd.)",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "Azenta Life Sciences (GENEWIZ) genomics services - gene synthesis, gBlock-type DNA fragments, CRISPR gRNA constructs, oligo pools, plasmid preparation - resold to Israeli research and clinical customers (HyLabs 'AZENTA - GENOMICS SERVICES' pages)",
+    "website": "https://www.hylabs.co.il",
+    "source": "https://www.hylabs.co.il/services/genewiz-genomics-services/"
+   },
+   {
+    "name": "Tamar Laboratory Supplies Ltd.",
+    "name_he": "תמר ציוד מעבדתי",
+    "type": "distributor",
+    "scope": "Azenta's FluidX tube capping/decapping systems (IntelliXcap, Aperio) and 4titude (Azenta Life Sciences UK) plates, tubes and seals - listed on Tamar's represented-companies and tube-capping pages",
+    "website": "https://www.tamar.co.il",
+    "source": "https://www.tamar.co.il/represented-companies/"
+   }
+  ],
+  "israel_note": "The 40-domain sweep returned HyLabs' own 'AZENTA - GENOMICS SERVICES' service page and 'AZENTA (GENEWIZ)' product-category pages (research and clinical), showing that HyLabs resells Azenta/GENEWIZ genomics services (gene synthesis, CRISPR gRNA, oligo pools, plasmid prep) in Israel; a HyLabs blog post also describes a BIRD-Foundation microbiome project run with Genewiz. Tamar Laboratory Supplies' 'Represented companies' and 'Tube Capping & Decapping' pages list Azenta's FluidX cappers/decappers and 4titude consumables. The HyLabs page is about 1.5 years old; Azenta's automated sample-store instruments (BioStore/Brooks lines) were not seen on any Israeli site and Azenta's own distributor page was not searched within the budget.",
+  "confidence": "medium",
+  "confidence_note": "Two distributors' own pages; manufacturer confirmation not seen; scope differs by distributor (services vs. consumables/cappers).",
+  "sources": [
+   "https://www.hylabs.co.il/services/genewiz-genomics-services/",
+   "https://www.hylabs.co.il/product-cat/research/custom-made-products/azenta-genomics-services/",
+   "https://www.hylabs.co.il/product-cat/clinical-veterinary-diagnostic/custom-made-products-clinical/azenta-genomics-services-clinical/",
+   "https://www.hylabs.co.il/products/fragment-gene-gblock/",
+   "https://www.hylabs.co.il/blog/microbiome-and-next-generation-sequencing/",
+   "https://www.tamar.co.il/represented-companies/",
+   "https://www.tamar.co.il/tube-cappping-decapping/"
+  ]
  },
  "79": {
   "name": "Opentrons Labworks",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Lifegene Ltd.",
+    "name_he": "לייפג'ין",
+    "type": "distributor",
+    "scope": "Opentrons OT-2 and Opentrons Flex liquid-handling robots - 'Opentrons solutions are available at Lifegene with full professional support and scientific assistance' (Lifegene automated liquid handler page)",
+    "website": "https://www.lifegene.co.il",
+    "source": "https://www.lifegene.co.il/automated_liquid_handler"
+   }
+  ],
+  "israel_note": "The 40-domain sweep returned Lifegene's own Hebrew page 'מערכות אוטומטיות לטיפול בנוזלים' (lifegene.co.il/automated_liquid_handler), which lists both the Opentrons OT-2 and the Opentrons Flex (positioned for NGS library prep, magnetic-bead clean-up and tagmentation) and states that Opentrons solutions are available at Lifegene with full professional support - this is the distributor the user flagged as missing. No other Israeli distributor site mentioned Opentrons (the Eldan, Lumitron and Tamar hits concern Agilent, Eppendorf epMotion and Myra), and Opentrons' own distributor page was not searched within the budget, so exclusivity is unknown. Lifegene's own site has an Opentrons brand page.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own product page; manufacturer confirmation not seen.",
+  "sources": [
+   "https://www.lifegene.co.il/automated_liquid_handler",
+   "https://lifegene.co.il/b-r-a-n-d/opentrons/"
+  ]
  },
  "80": {
   "name": "SPT Labtech",
@@ -1714,19 +2388,48 @@
  },
  "82": {
   "name": "KERN & SOHN",
-  "israel_presence": "none_found",
-  "israel_check": "partial"
+  "israel_presence": "distributor",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "BDL (bdl.co.il)",
+    "name_he": "",
+    "type": "distributor",
+    "scope": "KERN precision balances (EW-N / EG-N series, e.g. EW 220-3NM, EG 620-3NM) and Kern & Sohn GmbH printers for KERN balances (YKN-01) listed on BDL's online catalogue with EUR prices; company's full name and authorised status not seen",
+    "website": "https://www.bdl.co.il",
+    "source": "https://www.bdl.co.il/Item.aspx?Name=Precision+balances+type+EW-N+and+EG-N&SID=19921"
+   }
+  ],
+  "israel_note": "A .co.il-wide search for 'KERN & SOHN balances scales' found BDL (bdl.co.il) listing KERN EW-N/EG-N precision balances and Kern & Sohn GmbH matrix printers for KERN balances, and a follow-up search restricted to bdl.co.il confirmed those listings; BDL is recorded as an Israeli reseller/distributor, although its catalogue-style site (EUR prices, many European lab brands) suggests an import catalogue rather than an exclusive agency. Searches restricted to kern-sohn.com returned only corporate pages with no Israel dealer entry, and the two distributor-domain searches returned nothing (the first was polluted by 'kernel balancing' papers). KERN's own dealer locator could not be read, so other Israeli channels may exist.",
+  "confidence": "medium",
+  "confidence_note": "Reseller established from its own product listings; identity of BDL and manufacturer-side confirmation not obtained.",
+  "sources": [
+   "https://www.bdl.co.il/Item.aspx?Name=Precision+balances+type+EW-N+and+EG-N&SID=19921",
+   "https://www.bdl.co.il/Item.aspx?Name=Printers+for+KERN+balances&SID=250492",
+   "https://www.bdl.co.il/Item.aspx?Name=Matrix+needle+printer+YKN-01,+for+KERN+balances&SID=230233",
+   "https://www.kern-sohn.com/shop/en/kern-intern/kontakt/"
+  ]
  },
  "83": {
   "name": "A&D Company (A&D HOLON Holdings)",
   "israel_presence": "none_found",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_entities": [],
+  "israel_note": "Four approaches found no Israeli entity: 'A&D balance' and 'A&D Company Japan balances GX GF' restricted to the Israeli distributor domain list (only generic MRC balance guides), 'A&D Israel distributor' restricted to aandd.jp (corporate pages only; the global network page's Israel entry, if any, is not indexed), and two .co.il-wide searches ('A&D analytical balance Japan GX-A HR-A', 'A&D Weighing') that returned Labotal/MRC/Ohaus/Precisa balance pages and unrelated hits. The brand name is hard to search (ampersand) and A&D may be sold in Israel through a weighing/industrial-scale importer rather than a lab distributor, or supplied from abroad; no credible lead was seen. Result: none_found after English, Hebrew-domain and manufacturer-site searches.",
+  "confidence": "low",
+  "confidence_note": "No Israeli entity found; the negative result may reflect search limitations rather than true absence.",
+  "sources": [
+   "https://global.aandd.jp/",
+   "https://www.aandd.jp/company/company_profile.html",
+   "https://labotal.co.il/product-category/balances/0-01mg-balances/",
+   "https://www.mrclab.co.il/Media/Doc/Balances_Catalog2017.pdf"
+  ]
  },
  "84": {
   "name": "Gilson",
   "israel_presence": "distributor",
   "israel_check": "verified",
-  "israel_note": "Searched '\"Gilson\" PIPETMAN Israel distributor/נציג/יבואן', Hebrew 'גילסון פיפטות יבואן', the 29 Israeli distributor domains and gilson.com. Gilson's site says it sells through distribution partners in many countries via a country lookup on its 'Worldwide Distributors' page, but no snippet names an Israeli partner, and no Israeli distributor site returned a Gilson brand page (Ornat's pipettes category and Tamar's 'Pipetman-compatible tips' page appeared, neither evidencing representation). Result: no Israeli entity identified; the manufacturer's country selector probably lists one but could not be read through search snippets. Agentek's own vendors page (agentek.co.il/vendors) lists the brand among the manufacturers it represents in Israel (seen in a search excerpt; the manufacturer's own distributor page was not opened).",
+  "israel_note": "Searched '\"Gilson\" PIPETMAN Israel distributor/נציג/יבואן', Hebrew 'גילסון פיפטות יבואן', the 29 Israeli distributor domains and gilson.com. Gilson's site says it sells through distribution partners in many countries via a country lookup on its 'Worldwide Distributors' page, but no snippet names an Israeli partner, and no Israeli distributor site returned a Gilson brand page (Ornat's pipettes category and Tamar's 'Pipetman-compatible tips' page appeared, neither evidencing representation). Result: no Israeli entity identified; the manufacturer's country selector probably lists one but could not be read through search snippets. Agentek's own vendors page (agentek.co.il/vendors) lists the brand among the manufacturers it represents in Israel (seen in a search excerpt; the manufacturer's own distributor page was not opened). Lifegene's own site has Gilson brand and category pages (PIPETMAN Classic/Neo, PLATEMASTER); Agentek's vendors list also names Gilson, so there appear to be two Israeli channels.",
   "employees": 800,
   "employees_year": 2024,
   "employees_scope": "estimate",
@@ -1745,6 +2448,14 @@
     "scope": "Gilson liquid handling (per Agentek vendors list)",
     "website": "https://agentek.co.il",
     "source": "https://agentek.co.il/vendors/"
+   },
+   {
+    "name": "Lifegene Ltd.",
+    "name_he": "לייפג'ין",
+    "type": "distributor",
+    "scope": "https://www.lifegene.co.il",
+    "website": "Gilson PIPETMAN pipettes and accessories (Lifegene Gilson brand/category pages)",
+    "source": "https://lifegene.co.il/product-category/instrumentation/pipettes/gilson/"
    }
   ],
   "confidence": "medium",
@@ -1755,7 +2466,8 @@
    "https://ornat.co.il/category/instruments/pipettes/",
    "http://www.tamar.co.il/plasticware-gloves/tubes-tips/gel-loading-tips/",
    "https://www.thomassci.com/scientific-supplies/Pipetman",
-   "https://agentek.co.il/vendors/"
+   "https://agentek.co.il/vendors/",
+   "https://lifegene.co.il/product-category/instrumentation/pipettes/gilson/"
   ]
  },
  "85": {
@@ -1829,18 +2541,22 @@
   "name": "Repligen",
   "israel_presence": "none_found",
   "israel_check": "partial",
-  "israel_note": "Searched '\"Repligen\" Israel distributor/נציג/יבואן', the 29 Israeli distributor domains, repligen.com and an extended 'Repligen Israel distributor XCell ATF/OPUS/TangenX' query. Repligen states it sells through a direct commercial organization in the US, Europe and Asia plus strategic partners and distributors in select markets, and its distributor page gives no readable country list; no Israeli distributor site mentions Repligen or its product lines, and its FY2023 annual report mentions distribution agreements only for the ligands business (Cytiva, MilliporeSigma, Purolite). Result: no Israeli entity identified; Israel is most likely served directly from Repligen Europe B.V. or an unnamed partner, which could not be confirmed.",
+  "israel_note": "Round 3 ran the brand restricted to the 40 Israeli distributor domains (only SEC filings surfaced; no Israeli site mentions Repligen, XCell ATF, OPUS, TangenX, KrosFlo or SoloVPE), a Hebrew-only query ('Repligen יבואן נציגות בישראל ביופרוסס') and an 'Israel distributor' query restricted to repligen.com; none named an Israeli distributor or office. Repligen's distributors page repeats that products are marketed through a direct commercial organisation in the US, Europe and Asia plus strategic partners and distributors in select markets, and its locations page lists only US sites and Bengaluru. Result unchanged from round 2: no Israeli entity identified; Israel is most likely served directly from Repligen Europe or by an unnamed partner.",
   "size_basis": "reported",
   "revenue_scope": "company",
   "revenue_note": "FY2024 10-K figure (recalled; FY2025 revenue was guided at roughly USD 700M). Figures recalled from company statements / filings and not re-verified online in this session.",
   "israel_entities": [],
   "confidence": "low",
-  "confidence_note": "No Israeli entity found; absence of evidence only.",
+  "confidence_note": "Absence of evidence only.",
   "sources": [
    "https://repligen.com/company/distributors",
    "https://www.repligen.com/support/contact-overview",
    "https://store.repligen.com/",
-   "https://www.sec.gov/Archives/edgar/data/730272/000119312524083464/d803642dars.pdf"
+   "https://www.sec.gov/Archives/edgar/data/730272/000119312524083464/d803642dars.pdf",
+   "https://www.repligen.com/company/distributors",
+   "https://www.repligen.com/company/locations",
+   "https://www.repligen.com/company",
+   "https://www.sec.gov/Archives/edgar/data/730272/000095017025105166/rgen-20250630.htm"
   ]
  },
  "88": {
@@ -1928,7 +2644,25 @@
  },
  "91": {
   "name": "DWK Life Sciences",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Danyel Biotech Ltd. (Gamida for Life group)",
+    "name_he": "דניאל ביוטק",
+    "type": "distributor",
+    "scope": "SciLabware ('a DWK Life Sciences company', UK): Pyrex borosilicate and Quickfit jointed glassware, MBL volumetric ware, Azlon plasticware and Wheaton packaging/dropper bottles - per Danyel's SciLabware brand page; DURAN and KIMBLE lines not shown",
+    "website": "https://www.danyel.co.il",
+    "source": "https://www.danyel.co.il/scilabware/"
+   }
+  ],
+  "israel_note": "Danyel Biotech's own brand page 'SciLabware - Danyel Biotech' presents SciLabware as 'a DWK Life Sciences company' and lists its 6,000+ products (Pyrex borosilicate and Quickfit jointed glassware, MBL volumetric ware, Azlon plasticware, Wheaton packaging and dropper bottles), so Danyel represents at least DWK's UK SciLabware/Wheaton range in Israel. Searches for DURAN, Wheaton and Kimble across the 40 Israeli distributor domains and a Hebrew query ('DURAN בקבוקי זכוכית מעבדה יבואן ישראל') found no Israeli site naming DURAN or KIMBLE, so the channel for those lines (possibly general lab-supply houses or VWR/Thermo catalogues) remains unidentified. DWK's own site was not searched within the budget.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own brand page; scope limited to the SciLabware/Wheaton range; manufacturer's page not seen.",
+  "sources": [
+   "https://www.danyel.co.il/scilabware/",
+   "https://en.wikipedia.org/wiki/Duran_(glass)"
+  ]
  },
  "92": {
   "name": "Greiner Bio-One",
@@ -1974,31 +2708,110 @@
  },
  "94": {
   "name": "BRAND (incl. VACUUBRAND)",
-  "israel_check": "partial",
+  "israel_check": "verified",
   "revenue_original": "EUR ~150 million (group, trade estimate; private)",
   "revenue_usd_m": 165,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
   "size_basis": "estimate",
-  "revenue_note": "BRAND group (BRAND + VACUUBRAND, Wertheim) is family-owned and publishes no revenue; order-of-magnitude estimate from ~1,000 employees. Figures recalled from company statements / filings and not re-verified online in this session."
+  "revenue_note": "BRAND group (BRAND + VACUUBRAND, Wertheim) is family-owned and publishes no revenue; order-of-magnitude estimate from ~1,000 employees. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Labotal Scientific Equipment Ltd.",
+    "name_he": "לבוטל",
+    "type": "distributor",
+    "scope": "BRAND liquid handling (Transferpette S / electronic / alpha pipettes; carried since 2018) and VACUUBRAND diaphragm and ATEX vacuum pumps - Labotal states it is an authorised VACUUBRAND distributor for the laboratory segment",
+    "website": "https://labotal.co.il",
+    "source": "https://labotal.co.il/company-news/?lang=en"
+   }
+  ],
+  "israel_note": "The 40-domain sweep returned Labotal's own product and news pages: a 'Brand Pipettors, New Series: Transferpette α' page, single-channel pipettor category pages, VACUUBRAND ME 2 NT, ME 4 NT and MV-10C-EX pump pages, and a company-news page stating that Labotal is an authorised VACUUBRAND distributor for the laboratory segment and began carrying BRAND liquid-handling products in 2018. No other Israeli distributor site mentioned BRAND or VACUUBRAND. The manufacturers' own distributor pages (brand.de, vacuubrand.com) were not searched within the budget, so exclusivity and other channels (e.g. BRAND consumables via general lab-supply houses) are unknown.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own site is explicit about both brands; manufacturer confirmation not seen.",
+  "sources": [
+   "https://labotal.co.il/company-news/?lang=en",
+   "https://labotal.co.il/product/brand-pipettors-new-series-transferpette-%CE%B1/",
+   "https://labotal.co.il/product/vacuubrand-me2-nt-new-diaphragm-vacuum-pump/",
+   "https://labotal.co.il/product/vacuubrand-me-4-nt-diaphragm-vacuum-pump/",
+   "https://labotal.co.il/product/vacuubrand-mv-10c-ex-atex-approved-vacuum-pump/",
+   "https://labotal.co.il/product-category/liquid-handling/single-channel-pipettors/?lang=en"
+  ]
  },
  "95": {
   "name": "Berthold Technologies",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Danyel Biotech Ltd. (Gamida for Life group)",
+    "name_he": "דניאל ביוטק",
+    "type": "distributor",
+    "scope": "Berthold Technologies bioanalytical instruments - Mithras LB 940 multimode reader, TriStar² LB 942, Lumat³ LB 9508 / MiniLumat luminometers, NightOWL in-vivo imager (Danyel brand page)",
+    "website": "https://www.danyel.co.il",
+    "source": "https://www.danyel.co.il/berthold-technologies/"
+   }
+  ],
+  "israel_note": "The 40-domain sweep returned Danyel Biotech's own 'Berthold Technologies - Danyel Biotech' brand page listing Berthold's Mithras LB 940 (luminescence/BRET/FRET/AlphaScreen/HTRF reader), NightOWL imaging system, TriStar² and Lumat³ luminometers, i.e. Danyel represents Berthold's bioanalytical line in Israel (Danyel also carries the competing Hidex readers). No other Israeli distributor site mentioned Berthold, and Berthold's own distributor page was not searched within the budget. Berthold's radiation-protection and process-control divisions may have a different Israeli channel, which was not investigated.",
+  "confidence": "medium",
+  "confidence_note": "Distributor's own brand page; manufacturer confirmation not seen.",
+  "sources": [
+   "https://www.danyel.co.il/berthold-technologies/",
+   "https://www.danyel.co.il/hidex/"
+  ]
  },
  "96": {
   "name": "INFORS HT",
-  "israel_check": "partial",
+  "israel_check": "verified",
   "revenue_original": "CHF ~60 million (trade estimate; private)",
   "revenue_usd_m": 70,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
   "size_basis": "estimate",
-  "revenue_note": "INFORS HT (Bottmingen) is family-owned; a database figure of USD 17.5M looks too low for ~200 staff, so an order-of-magnitude estimate from headcount is used. Figures recalled from company statements / filings and not re-verified online in this session."
+  "revenue_note": "INFORS HT (Bottmingen) is family-owned; a database figure of USD 17.5M looks too low for ~200 staff, so an order-of-magnitude estimate from headcount is used. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Rhenium Research Laboratory Equipment Ltd. (Rhenium Group)",
+    "name_he": "רניום",
+    "type": "distributor",
+    "scope": "INFORS HT incubator shakers, bioreactors and bioprocess software - listed as the Israel distributor (Modi'in) on INFORS HT's locations page",
+    "website": "https://www.rhenium.co.il",
+    "source": "https://infors-ht.com/en/infors-locations"
+   }
+  ],
+  "israel_note": "Verified on the manufacturer's side: INFORS HT's 'Locations' page (infors-ht.com/en/infors-locations), which covers its 8 subsidiaries, 2 partners and 53+ distributors, names Rhenium Research Laboratory Equipment Ltd., Modi'in, as its Israeli distributor. The 40-domain sweep (only MRC generic shaker pages) and the Hebrew query ('Infors HT שייקר אינקובטור ביוריאקטור יבואן') found nothing, and Rhenium's own site did not surface in the snippets, so the distributor-side listing was not seen. INFORS HT has no Israeli subsidiary.",
+  "confidence": "high",
+  "confidence_note": "Manufacturer's own locations page names the Israeli distributor; Rhenium's own page not seen.",
+  "sources": [
+   "https://infors-ht.com/en/infors-locations",
+   "https://infors-ht.com/en/about-us"
+  ]
  },
  "97": {
   "name": "Nabertherm",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Electrotherm Marketing 1978 Ltd.",
+    "name_he": "אלקטרוטרם",
+    "type": "distributor",
+    "scope": "Nabertherm agent for Israel per Nabertherm's World-Wide Sales page (I.Z. Ramat Gabriel, P.O. Box 232, Migdal Haemek; sales@electrotherm.co.il; +972-77-8660777 / +972-4-8590900); Electrotherm's own site sells Nabertherm laboratory, high-temperature, melting, tube and drying furnaces and controllers",
+    "website": "https://www.electrotherm.co.il",
+    "source": "https://nabertherm.com/en/contact/world-wide-sales"
+   }
+  ],
+  "israel_note": "A search restricted to nabertherm.com returned the official World-Wide Sales page whose snippet names Electrotherm Marketing 1978 Ltd, Migdal Haemek (sales@electrotherm.co.il), as the agent for Israel. A follow-up search restricted to electrotherm.co.il confirmed the distributor's own Hebrew site (אלקטרוטרם) with Nabertherm product pages for melting furnaces (K 180/12), high-temperature furnaces, chamber/drying ovens (NA 1000/45 LS, 4500 WK), ceramic kilns, tube furnaces and the B400/C440/P470 controller documentation. Both the manufacturer's locator and the distributor's site therefore agree; the earlier round-1 locator snippet simply had not shown the Israel entry.",
+  "confidence": "high",
+  "confidence_note": "Named on Nabertherm's official sales locator and confirmed by the distributor's own Nabertherm product pages.",
+  "sources": [
+   "https://nabertherm.com/en/contact/world-wide-sales",
+   "https://www.electrotherm.co.il/תנורים-לטמפרטורה-גבוהה-cat87",
+   "https://www.electrotherm.co.il/תנור-התכה-Nabertherm-K-18012-item2899",
+   "https://www.electrotherm.co.il/userfiles/files/7275.pdf",
+   "https://www.electrotherm.co.il/תנורי-התכה-מעבדתיים-cat137"
+  ]
  },
  "98": {
   "name": "ELGA LabWater (Veolia)",
@@ -2024,6 +2837,26 @@
  },
  "100": {
   "name": "RADWAG",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Lumitron Ltd.",
+    "name_he": "לומיטרון",
+    "type": "distributor",
+    "scope": "RADWAG analytical and micro balances, precision balances, moisture analysers and checkweighers - dedicated Radwag brand page under 'Our brands' and hosted RADWAG datasheets (e.g. WTC 2000)",
+    "website": "https://www.lumitron.co.il",
+    "source": "https://www.lumitron.co.il/our-brands/radwag/?lang=en"
+   }
+  ],
+  "israel_note": "A search for 'Radwag' restricted to Israeli distributor domains returned Lumitron's dedicated Radwag brand page (lumitron.co.il/our-brands/radwag) and its 'Our brands' list, plus a Hebrew moisture-analyser page and a hosted RADWAG WTC 2000 datasheet, so Lumitron (לומיטרון) is recorded as the Israeli distributor. MRC pages in the same results are MRC own-brand balances, not RADWAG. RADWAG's own dealer zone requires registration and was not searched within the budget, so exclusivity is unconfirmed.",
+  "confidence": "medium",
+  "confidence_note": "Distributor established from its own brand page and hosted RADWAG documents; no manufacturer-side confirmation.",
+  "sources": [
+   "https://www.lumitron.co.il/our-brands/radwag/?lang=en",
+   "https://www.lumitron.co.il/our-brands-heb/?lang=en",
+   "https://www.lumitron.co.il/products/מאזני-לחות/",
+   "https://www.lumitron.co.il/wp-content/uploads/2020/12/RADWAG_Data_Sheet_WTC-2000-Precision-Balance.pdf"
+  ]
  }
 }

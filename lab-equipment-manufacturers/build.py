@@ -79,6 +79,30 @@ def load_rows():
                     target["sources"] = list(dict.fromkeys((target.get("sources") or []) + list(v)))
                 else:
                     target[k] = v
+    # --- contact details (research/contacts_manufacturers.json, research/contacts_entities.json) ---
+    CONTACT_KEYS = ["phone", "email", "address", "contact_url"]
+    man_contacts = {}
+    if (RESEARCH / "contacts_manufacturers.json").exists():
+        with open(RESEARCH / "contacts_manufacturers.json", encoding="utf-8") as fh:
+            man_contacts = {int(c["id"]): c for c in json.load(fh)}
+    ent_contacts = {}
+    if (RESEARCH / "contacts_entities.json").exists():
+        with open(RESEARCH / "contacts_entities.json", encoding="utf-8") as fh:
+            ent_contacts = {c["key"]: c for c in json.load(fh)}
+    for r in rows:
+        c = man_contacts.get(r["id"], {})
+        r["contact"] = {k: (c.get(k) or "") for k in CONTACT_KEYS}
+        r["contact"]["note"] = c.get("note") or ""
+        r["contact"]["source"] = c.get("source") or ""
+        for e in r["israel_entities"]:
+            ec = ent_contacts.get(entity_key(e["name"]), {})
+            for k in CONTACT_KEYS:
+                if not e.get(k):
+                    e[k] = ec.get(k) or ""
+            if not e.get("website") and ec.get("website"):
+                e["website"] = ec["website"]
+            if ec.get("source") and not e.get("contact_source"):
+                e["contact_source"] = ec["source"]
     prefixes = {
         "pending": "טרם נבדק — ממתין לסבב המחקר הבא.",
         "partial": "חיפוש רשת בלבד; דפי ״מפיצים״ של היצרן ואתרי המפיצים לא נפתחו (חסימת רשת).",
@@ -134,6 +158,9 @@ def fmt_entities(r):
         label += f" [{ENTITY_TYPE_HE.get(e['type'], e['type'])}"
         if e.get("scope"):
             label += f"; {e['scope']}"
+        contact = ", ".join(x for x in (e.get("phone"), e.get("email"), e.get("address")) if x)
+        if contact:
+            label += f"; {contact}"
         label += "]"
         out.append(label)
     return " | ".join(out)
@@ -155,7 +182,11 @@ def distributor_index(rows):
         for e in r["israel_entities"]:
             key = entity_key(e["name"])
             short = re.sub(r"\s*\(.*?\)", "", e["name"]).strip()
-            d = idx.setdefault(key, {"key": key, "name": short, "name_he": e.get("name_he") or "", "type": e["type"], "website": e.get("website") or "", "brands": []})
+            d = idx.setdefault(key, {"key": key, "name": short, "name_he": e.get("name_he") or "", "type": e["type"], "website": e.get("website") or "",
+                                     "phone": e.get("phone") or "", "email": e.get("email") or "", "address": e.get("address") or "", "contact_url": e.get("contact_url") or "", "brands": []})
+            for ck in ("phone", "email", "address", "contact_url"):
+                if not d[ck] and e.get(ck):
+                    d[ck] = e[ck]
             if len(short) < len(d["name"]):
                 d["name"] = short
             if not d["name_he"] and e.get("name_he"):
@@ -195,6 +226,8 @@ CSV_COLUMNS = [
     ("revenue_scope", "היקף ההכנסות / Revenue scope"), ("revenue_note", "הערת הכנסות / Revenue note"),
     ("size_basis", "בסיס הנתונים / Size basis"), ("product_1", "מוצר מוביל 1 / Top product 1"),
     ("product_2", "מוצר מוביל 2 / Top product 2"), ("product_3", "מוצר מוביל 3 / Top product 3"),
+    ("contact_phone", "טלפון יצרן / Manufacturer phone"), ("contact_email", "דוא״ל יצרן / Manufacturer email"),
+    ("contact_address", "כתובת יצרן / Manufacturer address"), ("contact_url", "דף צור-קשר / Contact page"), ("contact_note", "הערת קשר / Contact note"),
     ("israel_presence", "ייצוג בישראל / Israel presence"), ("israel_presence_he", "ייצוג בישראל (עברית)"),
     ("israel_check", "סטטוס אימות / Verification"), ("israel_check_he", "סטטוס אימות (עברית)"),
     ("israel_entities", "נציגים / מפיצים בישראל / Israeli entities"), ("israel_note", "הערת ישראל / Israel note"),
@@ -208,6 +241,8 @@ def flat_row(r):
     for i, p in enumerate(r["top_products"], 1):
         d[f"product_{i}"] = f"{p['name']} — {p['desc']}"
     d["israel_presence_he"] = PRESENCE_HE[r["israel_presence"]]
+    for k in ("phone", "email", "address", "contact_url", "note"):
+        d["contact_" + k if k != "contact_url" else "contact_url"] = (r.get("contact") or {}).get(k, "")
     d["israel_check"] = r["israel_check"]
     d["israel_check_he"] = CHECK_HE[r["israel_check"]]
     d["employees_scope"] = r["employees_scope"]
@@ -244,7 +279,8 @@ def write_xlsx(rows, generated):
     widths = {
         "id": 5, "name": 28, "aka": 30, "hq_city": 18, "hq_country": 12, "parent": 18, "ownership": 24,
         "founded": 9, "website": 28, "category": 30, "employees": 11, "employees_year": 9,
-        "employees_note": 32, "employees_scope": 10, "israel_check": 11, "israel_check_he": 24, "revenue_original": 20, "revenue_usd_m": 12, "revenue_year": 12,
+        "employees_note": 32, "employees_scope": 10, "israel_check": 11, "israel_check_he": 24, "revenue_original": 20,
+        "contact_phone": 18, "contact_email": 26, "contact_address": 36, "contact_url": 34, "contact_note": 16, "revenue_usd_m": 12, "revenue_year": 12,
         "revenue_scope": 11, "revenue_note": 32, "size_basis": 10, "product_1": 36, "product_2": 36,
         "product_3": 36, "israel_presence": 16, "israel_presence_he": 26, "israel_entities": 48,
         "israel_note": 50, "confidence": 10, "confidence_note": 32, "sources": 60,
@@ -272,16 +308,17 @@ def write_xlsx(rows, generated):
     ws2 = wb.create_sheet("Israel entities")
     ws2.sheet_view.rightToLeft = True
     h2 = ["# יצרן", "יצרן / Manufacturer", "ייצוג בישראל / Presence", "גוף ישראלי / Israeli entity",
-          "שם בעברית / Hebrew name", "סוג / Type", "תחום / Scope", "אתר / Website", "מקור / Source"]
+          "שם בעברית / Hebrew name", "סוג / Type", "תחום / Scope", "אתר / Website", "טלפון / Phone", "דוא״ל / Email",
+          "כתובת / Address", "דף צור-קשר / Contact page", "מקור / Source"]
     for c, h in enumerate(h2, 1):
         cell = ws2.cell(row=1, column=c, value=h)
         cell.font, cell.fill = head_font, head_fill
-    for w, c in zip([7, 28, 18, 34, 20, 12, 40, 30, 60], range(1, 10)):
+    for w, c in zip([7, 28, 18, 34, 20, 12, 40, 30, 18, 26, 34, 30, 60], range(1, 14)):
         ws2.column_dimensions[get_column_letter(c)].width = w
     row_i = 2
     for r in rows:
         if not r["israel_entities"]:
-            vals = [r["id"], r["name"], r["israel_presence"], "—", "", "", "", "", ""]
+            vals = [r["id"], r["name"], r["israel_presence"], "—", "", "", "", "", "", "", "", "", ""]
             for c, v in enumerate(vals, 1):
                 cell = ws2.cell(row=row_i, column=c, value=v)
                 cell.font, cell.alignment = base, wrap
@@ -290,13 +327,14 @@ def write_xlsx(rows, generated):
         for e in r["israel_entities"]:
             vals = [r["id"], r["name"], r["israel_presence"], e["name"], e.get("name_he", ""),
                     ENTITY_TYPE_HE.get(e["type"], e["type"]), e.get("scope", ""), e.get("website", ""),
+                    e.get("phone", ""), e.get("email", ""), e.get("address", ""), e.get("contact_url", ""),
                     e.get("source", "")]
             for c, v in enumerate(vals, 1):
                 cell = ws2.cell(row=row_i, column=c, value=v)
                 cell.font, cell.alignment = base, wrap
             row_i += 1
     ws2.freeze_panes = "C2"
-    ws2.auto_filter.ref = f"A1:I{row_i - 1}"
+    ws2.auto_filter.ref = f"A1:M{row_i - 1}"
 
     # --- Sheet 3: Products (one row per flagship product) ---
     ws3 = wb.create_sheet("Products")
@@ -320,22 +358,24 @@ def write_xlsx(rows, generated):
     # --- Sheet 3b: By Israeli entity (distributor -> manufacturers it carries) ---
     ws5 = wb.create_sheet("By Israeli entity")
     ws5.sheet_view.rightToLeft = True
-    h5 = ["גוף ישראלי / Israeli entity", "שם בעברית", "סוג / Type", "אתר / Website", "מס׳ יצרנים / # makers", "# יצרן", "יצרן / Manufacturer", "תחום / Scope"]
+    h5 = ["גוף ישראלי / Israeli entity", "שם בעברית", "סוג / Type", "אתר / Website", "טלפון / Phone", "דוא״ל / Email", "כתובת / Address",
+          "מס׳ יצרנים / # makers", "# יצרן", "יצרן / Manufacturer", "תחום / Scope"]
     for c, h in enumerate(h5, 1):
         cell = ws5.cell(row=1, column=c, value=h)
         cell.font, cell.fill = head_font, head_fill
-    for w, c in zip([34, 18, 12, 28, 10, 7, 30, 60], range(1, 9)):
+    for w, c in zip([34, 18, 12, 28, 18, 26, 34, 10, 7, 30, 60], range(1, 12)):
         ws5.column_dimensions[get_column_letter(c)].width = w
     row_i = 2
     for d in distributor_index(rows):
         for b in d["brands"]:
-            vals = [d["name"], d["name_he"], ENTITY_TYPE_HE.get(d["type"], d["type"]), d["website"], len(d["brands"]), b["id"], b["manufacturer"], b["scope"]]
+            vals = [d["name"], d["name_he"], ENTITY_TYPE_HE.get(d["type"], d["type"]), d["website"], d.get("phone", ""), d.get("email", ""), d.get("address", ""),
+                    len(d["brands"]), b["id"], b["manufacturer"], b["scope"]]
             for c, v in enumerate(vals, 1):
                 cell = ws5.cell(row=row_i, column=c, value=v)
                 cell.font, cell.alignment = base, wrap
             row_i += 1
     ws5.freeze_panes = "B2"
-    ws5.auto_filter.ref = f"A1:H{row_i - 1}"
+    ws5.auto_filter.ref = f"A1:K{row_i - 1}"
 
     # --- Sheet 4: Summary (live formulas over the Manufacturers sheet) ---
     ws4 = wb.create_sheet("Summary")
@@ -429,6 +469,11 @@ CREATE TABLE manufacturers (
   size_basis TEXT,             -- reported | estimate | mixed
   israel_presence TEXT,        -- subsidiary | distributor | parent_subsidiary | none_found | unclear
   israel_check TEXT,           -- verified | partial | unverified | pending
+  contact_phone TEXT,
+  contact_email TEXT,
+  contact_address TEXT,
+  contact_url TEXT,
+  contact_note TEXT,
   israel_note TEXT,
   confidence TEXT,             -- high | medium | low
   confidence_note TEXT
@@ -448,6 +493,10 @@ CREATE TABLE israel_entities (
   type TEXT,                   -- subsidiary | distributor | service
   scope TEXT,
   website TEXT,
+  phone TEXT,
+  email TEXT,
+  address TEXT,
+  contact_url TEXT,
   source TEXT
 );
 CREATE TABLE sources (
@@ -460,10 +509,13 @@ CREATE TABLE sources (
 def write_sql_and_sqlite(rows, generated):
     stmts = [f"-- Top 100 laboratory-equipment manufacturers; generated {generated}", "BEGIN;", SCHEMA.rstrip()]
     cols = [k for k in REQUIRED_KEYS if k not in ("top_products", "israel_entities", "sources")] + ["employees_scope", "israel_check"]
+    ccols = ["contact_phone", "contact_email", "contact_address", "contact_url", "contact_note"]
     ent_id = 0
     for r in rows:
+        c = r.get("contact") or {}
+        cvals = [c.get("phone"), c.get("email"), c.get("address"), c.get("contact_url"), c.get("note")]
         stmts.append(
-            f"INSERT INTO manufacturers ({', '.join(cols)}) VALUES ({', '.join(sql_quote(r.get(c)) for c in cols)});"
+            f"INSERT INTO manufacturers ({', '.join(cols + ccols)}) VALUES ({', '.join(sql_quote(r.get(x)) for x in cols)}, {', '.join(sql_quote(v) for v in cvals)});"
         )
         for n, p in enumerate(r["top_products"], 1):
             stmts.append(
@@ -473,9 +525,10 @@ def write_sql_and_sqlite(rows, generated):
         for e in r["israel_entities"]:
             ent_id += 1
             stmts.append(
-                "INSERT INTO israel_entities (id, manufacturer_id, name, name_he, type, scope, website, source) VALUES "
+                "INSERT INTO israel_entities (id, manufacturer_id, name, name_he, type, scope, website, phone, email, address, contact_url, source) VALUES "
                 f"({ent_id}, {r['id']}, {sql_quote(e['name'])}, {sql_quote(e.get('name_he'))}, {sql_quote(e['type'])}, "
-                f"{sql_quote(e.get('scope'))}, {sql_quote(e.get('website'))}, {sql_quote(e.get('source'))});"
+                f"{sql_quote(e.get('scope'))}, {sql_quote(e.get('website'))}, {sql_quote(e.get('phone'))}, {sql_quote(e.get('email'))}, "
+                f"{sql_quote(e.get('address'))}, {sql_quote(e.get('contact_url'))}, {sql_quote(e.get('source'))});"
             )
         for u in r["sources"]:
             stmts.append(f"INSERT INTO sources (manufacturer_id, url) VALUES ({r['id']}, {sql_quote(u)});")
