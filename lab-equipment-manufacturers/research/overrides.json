@@ -349,11 +349,17 @@
    "https://www.perkinelmer.com/node/10826",
    "https://ir.perkinelmer.com/news-releases/news-release-details/perkinelmer-establishes-direct-operations-israel",
    "https://news.revvity.com/press-announcements/press-releases/press-release-details/2015/PerkinElmer-to-Display-Laboratory-Instruments-Informatics-and-Services-at-Isranalytica-2015-01-05-2015/default.aspx",
-   "https://www.chromatographyonline.com/a-conversation-with-the-ceo-and-cco-of-perkinelmer"
+   "https://www.chromatographyonline.com/a-conversation-with-the-ceo-and-cco-of-perkinelmer",
+   "https://www.genomeweb.com/business-news/perkinelmer-focusing-life-sciences-diagnostics-it-divests-other-businesses",
+   "https://s202.q4cdn.com/908952201/files/doc_news/2022/08/01/PerkinElmer-Accelerates-Transformation-into-High-Growth-High-Margin-Life-Sciences-Diagnostics-Company.pdf",
+   "https://peprofessional.com/2022/08/new-mountain-carves-out-unit-of-perkinelmer/"
   ],
   "employees": 6000,
-  "employees_year": 2024,
-  "employees_note": "'more than 6,000 employees' per March 2024 Chromatography Online interview with PerkinElmer's CEO and CCO (company statement, not an annual report)"
+  "employees_year": 2022,
+  "employees_note": "STALE: ~6,000 employees was the headcount of the Applied, Food & Enterprise Services business at the time of the Aug-2022 carve-out to New Mountain Capital (PerkinElmer press release, reported by GenomeWeb/360Dx). No 2024/2025 headcount or revenue found from an official or reputable source in this round; sale consideration was USD 2.45 billion (USD 2.30 billion at closing, Mar-2023). Headcount is the ~6,000 cited at the Aug-2022 carve-out from PerkinElmer (stale); no newer official figure.",
+  "employees_scope": "company",
+  "revenue_note": "No 2024/2025 revenue figure found from an official or reputable source; aggregator figures ignored.",
+  "size_basis": "mixed"
  },
  "11": {
   "name": "Bio-Rad Laboratories",
@@ -780,8 +786,8 @@
   "revenue_usd_m": 660,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
-  "size_basis": "estimate",
-  "revenue_note": "Miltenyi Biotec is family-owned and publishes no revenue; trade estimates range roughly EUR 500-800M. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "size_basis": "mixed",
+  "revenue_note": "No official 2024/2025 revenue figure found; Bundesanzeiger filing not seen in snippets.",
   "israel_check": "verified",
   "israel_presence": "distributor",
   "israel_entities": [
@@ -809,8 +815,15 @@
    "https://www.miltenyibiotec.com/IE-en/about-us/locations/distribution.html",
    "https://www.miltenyibiotec.com/FI-en/about-us/locations/distribution.html",
    "https://www.miltenyibiotec.com/DE-en/about-us/locations.html",
-   "https://www.businesswire.com/news/home/20220626005007/en/Slingshot-Biosciences-Inc.-Partners-With-Almog-Diagnostic-to-Distribute-Synthetic-Cells-Throughout-Israel"
-  ]
+   "https://www.businesswire.com/news/home/20220626005007/en/Slingshot-Biosciences-Inc.-Partners-With-Almog-Diagnostic-to-Distribute-Synthetic-Cells-Throughout-Israel",
+   "https://www.nordkurier.de/regional/mecklenburgische-schweiz/teterower-unternehmen-hat-minsiterin-zu-gast-3855089",
+   "https://www.nordkurier.de/regional/mecklenburg-vorpommern/biotechnologie-scholz-und-schwesig-auf-nordost-visite-1576779",
+   "https://www.randstad.de/bewerber/unternehmensprofile/miltenyi-biotec/"
+  ],
+  "employees": 4700,
+  "employees_year": 2025,
+  "employees_note": "Company boilerplate: 'more than 4,700 employees in 23 countries' (also Randstad employer profile ~4,700). Nordkurier (regional press, Aug 2025) reports almost 4,900 employees worldwide incl. ~570 at Teterow. No 2024/2025 revenue figure found (Nordkurier only says the company aimed to pass the EUR 1 billion mark).",
+  "employees_scope": "company"
  },
  "27": {
   "name": "10x Genomics",
@@ -1296,16 +1309,16 @@
  },
  "44": {
   "name": "Metrohm",
-  "employees": 3000,
+  "employees": 3200,
   "employees_year": 2024,
-  "employees_scope": "estimate",
-  "employees_note": "Metrohm states around 3,000 employees worldwide (recalled, unverified).",
+  "employees_scope": "company",
+  "employees_note": "Group-wide figure: Wikipedia infobox '3,200 (2024)', corroborated by PitchBook '3,200 as of 2024'. Primary company-site citation not visible in the snippet, so treat as secondary-sourced. Revelio puts Metrohm AG (Swiss parent entity only) at ~1,739 in 2025.",
   "revenue_original": "CHF ~550 million (trade estimate; foundation-owned)",
   "revenue_usd_m": 640,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
-  "size_basis": "estimate",
-  "revenue_note": "Metrohm is owned by the Metrohm Foundation and publishes no revenue; trade estimates range CHF 500-600M. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "size_basis": "mixed",
+  "revenue_note": "No 2024/2025 revenue found; Wikipedia cites '> CHF 400 million (2021)' only. Owned by the Metrohm Foundation; Herisau campus expanded by 20,000 m2 in summer 2024.",
   "israel_check": "verified",
   "israel_entities": [
    {
@@ -1316,6 +1329,10 @@
     "website": "",
     "source": "https://www.metrohm.com/en/company/news.html"
    }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Metrohm",
+   "https://pitchbook.com/profiles/company/64426-42"
   ]
  },
  "45": {
@@ -1498,16 +1515,16 @@
  },
  "50": {
   "name": "NETZSCH Analyzing & Testing",
-  "employees": 700,
-  "employees_year": 2024,
-  "employees_scope": "estimate",
-  "employees_note": "Analyzing & Testing business unit only (~700); NETZSCH Group ~4,000 employees (recalled, unverified).",
+  "employees": 4000,
+  "employees_year": 2025,
+  "employees_scope": "parent",
+  "employees_note": "PARENT scope: NETZSCH Group 'more than 4,000 employees in 36 countries' per NETZSCH's own exhibitor profiles (German Pavilion, Arablab/Chinaplas) and 2026 job postings. No separate headcount for the Analyzing & Testing business unit found.",
   "revenue_original": "EUR ~150 million (A&T business unit; trade estimate)",
   "revenue_usd_m": 165,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
-  "size_basis": "estimate",
-  "revenue_note": "NETZSCH Group (Selb) is family-owned with ~EUR 800M group revenue; the Analyzing & Testing unit alone is an estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "size_basis": "mixed",
+  "revenue_note": "Not recorded: only aggregator figure seen (Craft: NETZSCH Group EUR 877.1 million FY2024) - not from an official/reputable source; no A&T segment revenue found.",
   "israel_check": "verified",
   "israel_presence": "distributor",
   "israel_entities": [
@@ -1529,7 +1546,10 @@
    "https://medent.co.il/scientific.equipment/product-category/אנליזה-תרמית/dsc-differential-scanning-calorimetry/",
    "https://www.medent.co.il/scientific.equipment/product-category/%D7%90%D7%A0%D7%9C%D7%99%D7%96%D7%94-%D7%AA%D7%A8%D7%9E%D7%99%D7%AA/sta-simultaneous-tg-dsc/",
    "https://medent.co.il/scientific.equipment/product/dsc-sirius-3500-differential-scanning-calorimeter-netzsch-germany/",
-   "https://medent.co.il/scientific.equipment/product/qms-4035-skimmer-coupling-system-netzsch-germany/"
+   "https://medent.co.il/scientific.equipment/product/qms-4035-skimmer-coupling-system-netzsch-germany/",
+   "https://arablab.german-pavilion.com/en/sites/exhibitors/123458",
+   "https://chinaplas.german-pavilion.com/en/sites/exhibitors/116482",
+   "https://craft.co/netzsch-group"
   ]
  },
  "51": {
@@ -2064,8 +2084,15 @@
    "https://www.golik.co.il/manufacturers/buchi",
    "https://www.golik.co.il/laboratory-evaporation",
    "https://golik.co.il/products/rotavapor-מערכות-נידוף/",
-   "https://golik.co.il/?lang=en"
-  ]
+   "https://golik.co.il/?lang=en",
+   "https://www.s-ge.com/export/en/articles/success-stories/buchi-labortechnik-consistent-go-market-strategy"
+  ],
+  "employees": 800,
+  "employees_year": 2025,
+  "employees_note": "Switzerland Global Enterprise (S-GE) success story, Nov 2025: around 800 employees worldwide, about two thirds outside Switzerland; 97% of turnover generated abroad (no absolute revenue given).",
+  "employees_scope": "company",
+  "revenue_note": "No official 2024/2025 revenue figure found; aggregator estimates (ZoomInfo, Bitscale) conflict and were ignored.",
+  "size_basis": "mixed"
  },
  "69": {
   "name": "Andreas Hettich",
@@ -2198,7 +2225,7 @@
   "employees": 2800,
   "employees_year": 2024,
   "employees_scope": "estimate",
-  "employees_note": "Roughly 2,500-3,000 employees (annual report, recalled).",
+  "employees_note": "Headcount NOT found in snippets (2025 annual report employee section not surfaced); only an implausible aggregator range (51-100) which was ignored.",
   "israel_check": "verified",
   "israel_presence": "distributor",
   "israel_entities": [
@@ -2216,8 +2243,17 @@
   "confidence_note": "Entity named only in a manufacturer news snippet; could not identify the company, its website or the date.",
   "sources": [
    "https://www.haiermedical.com/News/HB-Showcases-Cutting-Edge-Innovations-at-Israel-Expo",
-   "https://www.haiermedical.com/news/Haier-Biomedical-Distributor-Conference-Concluded.html"
-  ]
+   "https://www.haiermedical.com/news/Haier-Biomedical-Distributor-Conference-Concluded.html",
+   "https://www.cls.cn/detail/2327752",
+   "https://www.aap.com.au/aapreleases/cision20260430ae47721/",
+   "https://kyodonewsprwire.jp/release/202605018460"
+  ],
+  "revenue_original": "CNY 2.329 billion",
+  "revenue_usd_m": 323.7,
+  "revenue_year": "FY2025",
+  "revenue_scope": "company",
+  "revenue_note": "2025 annual report (published 30-Apr-2026): revenue RMB 2.329 billion (+1.96% YoY), net profit attributable RMB 251 million; overseas revenue a record 36% of total (Cision release; 科创板日报 via cls.cn). FY2025 H1 net profit had fallen 39%.",
+  "size_basis": "mixed"
  },
  "75": {
   "name": "Antylia Scientific (ex-Cole-Parmer)",
@@ -2227,15 +2263,65 @@
   "employees_year": 2024,
   "employees_scope": "estimate",
   "employees_note": "Roughly 2,000 employees (recalled, unverified).",
-  "israel_check": "partial"
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "Medent Scientific Instruments",
+    "name_he": "מדנט מכשור מדעי",
+    "type": "distributor",
+    "scope": "Stuart-brand general lab equipment (shakers, heated magnetic stirrers e.g. SB302, water stills) - Stuart is an Antylia/Cole-Parmer brand",
+    "website": "https://www.medent.co.il",
+    "source": "https://www.medent.co.il/scientific.equipment/product-category/%D7%A9%D7%99%D7%99%D7%A7%D7%A8%D7%99%D7%9D-%D7%95%D7%9E%D7%98%D7%9C%D7%98%D7%9C%D7%99%D7%9D-%D7%9E%D7%A2%D7%91%D7%93%D7%AA%D7%99%D7%99%D7%9D/"
+   }
+  ],
+  "israel_note": "General search ('Cole-Parmer' OR 'Antylia' Israel distributor/נציג/יבואן) returned no Israeli entity and no Israel listing on Antylia/IDEX distributor pages (only Australia/NZ: John Morris; Italy). A search restricted to Israeli distributor domains found Medent (medent.co.il) listing Stuart-brand shakers, heated stirrers and water stills. No Israeli partner found for the Cole-Parmer brand itself, Jenway, Techne or Environmental Express; Masterflex is now Avantor and was not searched. Antylia's own 'find a distributor' page was not fetched (fetching blocked). Corporate note seen in snippet: Brookfield and CDPQ completed the acquisition of Antylia Scientific for approximately USD 1.3 billion (CDPQ news release).",
+  "confidence": "medium",
+  "confidence_note": "Israeli reseller verified for one brand (Stuart) from the distributor's own product pages; coverage of other Antylia brands unverified. No official size figures found (only aggregator estimates, ignored).",
+  "sources": [
+   "https://www.medent.co.il/scientific.equipment/product-category/%D7%A9%D7%99%D7%99%D7%A7%D7%A8%D7%99%D7%9D-%D7%95%D7%9E%D7%98%D7%9C%D7%98%D7%9C%D7%99%D7%9D-%D7%9E%D7%A2%D7%91%D7%93%D7%AA%D7%99%D7%99%D7%9D/",
+   "https://www.medent.co.il/scientific.equipment/product-category/%D7%91%D7%95%D7%97%D7%A9%D7%99%D7%9D-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D/%D7%91%D7%95%D7%97%D7%A9%D7%99%D7%9D-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D-%D7%A2%D7%9D-%D7%97%D7%99%D7%9E%D7%95%D7%9D/",
+   "https://www.medent.co.il/scientific.equipment/product-category/%D7%9E%D7%96%D7%A7%D7%A7%D7%99-%D7%9E%D7%99%D7%9D/",
+   "https://www.idex-hs.com/contact/fluidics-distributors/cole-parmer",
+   "https://www.johnmorrisgroup.co.nz/cole-parmer",
+   "https://www.lacaisse.com/en/node/12351"
+  ]
  },
  "76": {
   "name": "Verder Scientific (Retsch, Carbolite Gero, Eltra, Microtrac MRB, QATM)",
-  "employees": 1000,
-  "employees_year": 2024,
-  "employees_scope": "estimate",
-  "employees_note": "Verder Scientific division ~1,000 (ZoomInfo 501-1,000); Verder Group ~2,000+ (recalled, unverified).",
-  "israel_check": "partial"
+  "employees": 1300,
+  "employees_year": 2025,
+  "employees_scope": "company",
+  "employees_note": "Verder Scientific division page: 'more than 1,300 employees' (another passage on the same page says 'over 1,000'); undated company-website figure. Revelio puts the wider Verder International group at ~1,491 (2025).",
+  "israel_check": "verified",
+  "israel_presence": "distributor",
+  "israel_entities": [
+   {
+    "name": "MRC Laboratory Equipment & Instruments",
+    "name_he": "MRC",
+    "type": "distributor",
+    "scope": "Carbolite Gero ovens and furnaces (forced-air ovens to 300/600 C, high-temperature atmosphere ovens, solvent-drying ovens, tube furnaces)",
+    "website": "https://www.mrclab.com",
+    "source": "https://www.mrclab.com/carbolite_air_forced_ovens"
+   }
+  ],
+  "israel_note": "General search ('Retsch' OR 'Carbolite Gero' OR 'Verder Scientific' Israel distributor/נציג/יבואן) found no Israeli entity (only Verder Scientific South Africa and US pages). Domain-restricted search found multiple mrclab.com pages selling Carbolite Gero ovens/furnaces; nothing surfaced for Retsch, Eltra, Microtrac or QATM on the Israeli distributor domains. Whether MRC is the official Carbolite Gero distributor or a reseller is not stated in the snippet; Verder's regional contact pages were not fetched.",
+  "confidence": "medium",
+  "confidence_note": "Size from the company's own website but undated; Israeli presence verified for Carbolite Gero via MRC product pages only; Retsch (the flagship brand) remains unverified in Israel.",
+  "sources": [
+   "https://www.verder-scientific.com/company/",
+   "https://www.verder-scientific.com/company/manufacturers/",
+   "https://www.mrclab.com/carbolite_air_forced_ovens",
+   "https://www.mrclab.com/forced_air_ovens_600c_carbolite",
+   "https://www.mrclab.com/carbolite_drying_ovens_for_solvent",
+   "https://www.mrclab.com/furnaces_tube"
+  ],
+  "revenue_original": "EUR 300+ million",
+  "revenue_usd_m": 330,
+  "revenue_year": "undated (company website, accessed 2026)",
+  "revenue_scope": "company",
+  "revenue_note": "Division website states 'more than EUR 300 million in sales' (undated). An older job-board profile cites ~750 employees / EUR 150 million, clearly outdated.",
+  "size_basis": "reported"
  },
  "77": {
   "name": "Yamato Scientific",
@@ -2276,7 +2362,7 @@
   "employees": 2700,
   "employees_year": 2025,
   "employees_scope": "estimate",
-  "employees_note": "Roughly 2,700 employees in continuing operations after the B Medical Systems divestiture (recalled, unverified).",
+  "employees_note": "Headcount NOT found in snippets: the FY2025 10-K surfaced but the Human Capital section was not shown; aggregator figures (Revelio ~2,594 Dec-2025; Tracenable ~3,000) ignored.",
   "israel_check": "verified",
   "israel_presence": "distributor",
   "israel_entities": [
@@ -2297,9 +2383,9 @@
     "source": "https://www.tamar.co.il/represented-companies/"
    }
   ],
-  "israel_note": "The 40-domain sweep returned HyLabs' own 'AZENTA - GENOMICS SERVICES' service page and 'AZENTA (GENEWIZ)' product-category pages (research and clinical), showing that HyLabs resells Azenta/GENEWIZ genomics services (gene synthesis, CRISPR gRNA, oligo pools, plasmid prep) in Israel; a HyLabs blog post also describes a BIRD-Foundation microbiome project run with Genewiz. Tamar Laboratory Supplies' 'Represented companies' and 'Tube Capping & Decapping' pages list Azenta's FluidX cappers/decappers and 4titude consumables. The HyLabs page is about 1.5 years old; Azenta's automated sample-store instruments (BioStore/Brooks lines) were not seen on any Israeli site and Azenta's own distributor page was not searched within the budget.",
+  "israel_note": "General search ('Azenta' OR 'GENEWIZ' Israel distributor/נציג/יבואן) returned only Azenta/GENEWIZ's own pages with no Israel mention. Domain-restricted search found Tamar's 'Represented companies' page listing both 'Azenta Life Sciences (United Kingdom)' and '4titude (Azenta Life Sciences)', plus a 4titude automatic roll heat sealer product page. No Israeli channel found for GENEWIZ genomics services (likely ordered directly online) or for automated -80 C / cryogenic sample stores; Azenta's own where-to-buy page not fetched.",
   "confidence": "medium",
-  "confidence_note": "Two distributors' own pages; manufacturer confirmation not seen; scope differs by distributor (services vs. consumables/cappers).",
+  "confidence_note": "FY2025 revenue official (10-K/press release); headcount missing. Israeli distributor verified from the distributor's own represented-companies page for consumables/benchtop instruments; services and large automated stores unverified.",
   "sources": [
    "https://www.hylabs.co.il/services/genewiz-genomics-services/",
    "https://www.hylabs.co.il/product-cat/research/custom-made-products/azenta-genomics-services/",
@@ -2307,8 +2393,17 @@
    "https://www.hylabs.co.il/products/fragment-gene-gblock/",
    "https://www.hylabs.co.il/blog/microbiome-and-next-generation-sequencing/",
    "https://www.tamar.co.il/represented-companies/",
-   "https://www.tamar.co.il/tube-cappping-decapping/"
-  ]
+   "https://www.tamar.co.il/tube-cappping-decapping/",
+   "https://investors.azenta.com/2025-11-21-Azenta-Reports-Fourth-Quarter-and-Full-Year-Fiscal-2025-Results,-Ended-September-30,-2025",
+   "https://www.sec.gov/Archives/edgar/data/933974/000143774925036931/azta20250930_10k.htm",
+   "http://www.tamar.co.il/automatic-roll-heat-sealer/"
+  ],
+  "revenue_original": "USD 594 million",
+  "revenue_usd_m": 594,
+  "revenue_year": "FY2025 (ended 30-Sep-2025)",
+  "revenue_scope": "company",
+  "revenue_note": "Azenta press release 21-Nov-2025 and FY2025 10-K: revenue USD 594 million, +4% YoY (+3% organic); Sample Management Solutions USD 325 million (+2%), Multiomics USD 269 million (+6%); net income from continuing ops USD 24.5 million; adjusted EBITDA USD 66 million (11.2% margin).",
+  "size_basis": "mixed"
  },
  "79": {
   "name": "Opentrons Labworks",
@@ -2556,16 +2651,16 @@
   "israel_presence": "distributor",
   "israel_check": "verified",
   "israel_note": "Searched the brand generically (English/Hebrew), across 27 Israeli lab-distributor domains, on zwickroell.com and for the partner's own name. ZwickRoell's own 'Locations around the world' page names GLOBUS Technical Equipment Ltd. in the Kadima Industrial Zone as its Israeli partner (phone number and contact form). No website for Globus was found and it does not appear on any of the usual Israeli lab-distributor sites, so it is an industrial/technical-equipment agent rather than a lab-supply house.",
-  "employees": 1900,
-  "employees_year": 2024,
-  "employees_scope": "estimate",
-  "employees_note": "ZwickRoell group cites ~1,900-2,000 employees (recalled, unverified).",
-  "revenue_original": "EUR ~300 million (group, trade estimate; private)",
-  "revenue_usd_m": 330,
-  "revenue_year": "2024 (estimate)",
-  "revenue_scope": "estimate",
-  "size_basis": "estimate",
-  "revenue_note": "ZwickRoell (Ulm) is family-owned; group revenue around EUR 300M per its own press material. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "employees": 1800,
+  "employees_year": 2025,
+  "employees_scope": "company",
+  "employees_note": "ZwickRoell Ausbildungsbroschüre 2025 (company PDF): 'more than 1,800 employees worldwide, more than 1,200 at the Ulm-Einsingen headquarters'.",
+  "revenue_original": "EUR 304 million",
+  "revenue_usd_m": 334.4,
+  "revenue_year": "FY2023",
+  "revenue_scope": "company",
+  "size_basis": "reported",
+  "revenue_note": "Same company brochure gives revenue of EUR 304 million for 2023; the figure is split across a line break in the PDF text ('30 / 4'), so the exact reading carries some uncertainty. No 2024/2025 figure found. IHK Ulm (2026) reports a EUR 11.2 million training-centre investment at the HQ.",
   "israel_entities": [
    {
     "name": "GLOBUS Technical Equipment Ltd.",
@@ -2581,57 +2676,71 @@
   "sources": [
    "https://www.zwickroell.com/company/locations-around-the-world/",
    "https://www.zwickroell.com/contact/",
-   "https://www.zwickroell.com/fr-fr/about-us"
+   "https://www.zwickroell.com/fr-fr/about-us",
+   "https://www.zwickroell.com/fileadmin/user_upload/Ausbildungsbroschuere_2025.pdf",
+   "https://www.ihk.de/ulm/online-magazin/jetzt-zu-zweit-am-ruder-6653524"
   ]
  },
  "89": {
   "name": "Kewaunee Scientific",
   "israel_presence": "none_found",
   "israel_check": "partial",
-  "israel_note": "Searched generic English/Hebrew queries, 27 Israeli distributor domains, kewaunee.com and nuaire.com, a NuAire-Israel query and Israeli lab-furniture tender documents. Nothing names an Israeli dealer: Kewaunee lists sales offices only in the USA, India, Saudi Arabia and Singapore; its FY2026 annual report says 28% of revenue comes from outside the USA and that Nu Aire added distribution partners in new regions without naming them; a D&B profile says the Singapore/India subsidiaries cover Asia and the Middle East. NuAire's site shows only an 'Israel outlet (Type H)' plug option. Israel is therefore most likely served, if at all, from the Singapore/India/Saudi offices; no Israeli dealer could be identified.",
+  "israel_note": "Searched: 'Kewaunee' laboratory furniture Israel distributor/נציג/יבואן; Hebrew query ריהוט מעבדה / מנדפים with 'Kewaunee' (extended); and 'Kewaunee' restricted to 18 Israeli distributor domains (no hits). Kewaunee's own site lists sales offices/subsidiaries in the US, India, Saudi Arabia and Singapore, with Middle East sales handled via its Singapore/India subsidiaries and regional dealers (a 2010 shareholder letter mentions Middle East dealer representation). Its 'Find a Kewaunee Dealer' page snippet (US dealers plus a Hong Kong dealer) was truncated, so an Israeli dealer listing cannot be ruled out; the page could not be fetched. No Israeli entity found.",
   "employees": 2800,
   "employees_year": 2025,
   "employees_scope": "estimate",
-  "employees_note": "Roughly 2,800 employees incl. India operations and Nu Aire (acquired Nov 2024); recalled, unverified.",
-  "revenue_original": "USD ~246 million",
-  "revenue_usd_m": 246,
-  "revenue_year": "FY2025 (ended Apr-2025)",
+  "employees_note": "Headcount NOT found in snippets: FY2026 10-K (filed mid-2026) surfaced but its Human Capital section was not shown; Motley Fool's 1,231 is AI-generated and pre-dates the filing, so ignored.",
+  "revenue_original": "USD 282.0 million",
+  "revenue_usd_m": 282,
+  "revenue_year": "FY2026 (ended 30-Apr-2026)",
   "revenue_scope": "company",
   "size_basis": "mixed",
   "israel_entities": [],
   "confidence": "medium",
-  "confidence_note": "Five searches including the manufacturer's own site and the Nu Aire subsidiary found no Israeli entity; absence is well supported but a small dealer could still exist offline.",
+  "confidence_note": "Revenue official (SEC filing); headcount not captured. Israel: nothing found after three searches, but the manufacturer's dealer map was not fully readable - treat none_found as provisional.",
   "sources": [
    "https://kewaunee.com/about/",
    "https://kewaunee.com/wp-content/uploads/2026/07/FY26-Annual-Report-R062026-Web-FINAL.pdf",
    "https://www.dnb.com/business-directory/company-profiles.kewaunee_scientific_corporation.a3375a4cdcfa0bc54d035b8604567ee1.html",
    "https://www.nuaire.com/",
-   "https://nuaire.com/products/biosafety-cabinets/labgard-nu-560-class-ii-type-b2-biosafety-cabinet"
-  ]
+   "https://nuaire.com/products/biosafety-cabinets/labgard-nu-560-class-ii-type-b2-biosafety-cabinet",
+   "https://www.sec.gov/Archives/edgar/data/0000055529/000005552926000017/prfy26q4earningsrelease.htm",
+   "https://kewaunee.com/wp-content/uploads/2026/06/Nasdaq-FY26-Q4-Earnings-Release-410PM.pdf",
+   "https://www.sec.gov/Archives/edgar/data/0000055529/000005552926000020/kequ-20260430.htm",
+   "https://kewaunee.com/contact/kewaunee-dealers/"
+  ],
+  "revenue_note": "8-K / earnings release 23-Jun-2026: FY2026 sales USD 281,999,000, +17.3% vs USD 240,472,000 in FY2025; Lab Products Group (ex-Domestic) USD 214.9 million (+19.8%); net earnings USD 9.6 million (USD 3.22 diluted EPS); backlog USD 165.9 million at 30-Apr-2026; Nu Aire seller notes repaid."
  },
  "90": {
   "name": "WALDNER Laboreinrichtungen",
   "israel_presence": "none_found",
   "israel_check": "partial",
-  "israel_note": "Searched generic English/Hebrew queries, 27 Israeli distributor domains, waldner.de (worldwide/company pages), a Hebrew lab-furniture query and Israeli tender documents (HUJI 2026 lab-furniture framework tender, TAU). Waldner's 'Worldwide' page describes 13 subsidiaries and more than 100 branches and partners (Singapore and USA offices appear in snippets) but no Israeli partner surfaced, and no Israeli distributor site lists the brand (Labotal and Lumitron sell Labconco/Faster hoods instead). Caveat: only search snippets of the Waldner worldwide page were visible, so an Israel entry on the full partner list cannot be excluded.",
-  "employees": 1300,
-  "employees_year": 2024,
-  "employees_scope": "estimate",
-  "employees_note": "WALDNER group ~1,300 employees (recalled, unverified).",
+  "israel_note": "Searched: 'Waldner' laboratory furniture fume hoods Israel distributor/נציג/יבואן; Hebrew query ריהוט מעבדה / מנדפים with 'Waldner' (extended); and 'Waldner' restricted to 18 Israeli distributor domains (no hits - only unrelated MRC pages). Results named partners elsewhere only (Labokraft, exclusive Hungarian distributor since 2006; Analysis doo, Balkans; GD Waldner / Waldner Inc. for India / North America). The only Israeli fume-hood company surfaced was Mintz Lab Systems (Ness Ziona), a local manufacturer not described as a Waldner partner. Waldner's distributor/contact page was not fetched.",
+  "employees": 1600,
+  "employees_year": 2025,
+  "employees_scope": "company",
+  "employees_note": "WALDNER's own job listing: over 1,600 employees group-wide, over 1,000 of them at the Wangen im Allgäu production site; Schwäbische Zeitung reports 114 apprentices at the HQ (~10% of staff there), consistent with that. Undated job-ad figure.",
   "revenue_original": "EUR ~200 million (group, trade estimate; private)",
   "revenue_usd_m": 220,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
-  "size_basis": "estimate",
-  "revenue_note": "WALDNER (Wangen im Allgäu) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "size_basis": "mixed",
+  "revenue_note": "No usable 2024/2025 revenue figure: Indeed gives only a range (EUR 85-425 million), an Implisense entry says 2023 revenue increased without a number; chemie.de (Jun-2024) reports > EUR 11 million investment in new production machinery at Wangen.",
   "israel_entities": [],
   "confidence": "medium",
-  "confidence_note": "No Israeli entity in five searches including the manufacturer's worldwide page; the full partner list itself was not readable.",
+  "confidence_note": "Headcount from a company job advertisement (undated), no revenue; no Israeli representation found after three searches, manufacturer's partner list unchecked.",
   "sources": [
    "https://www.waldner.de/en/about-us/company/worldwide/",
    "https://www.waldner.de/en/about-us/company/",
    "https://2024.minexasia.com/exhibitors/waldner/",
-   "https://tenders.huji.ac.il/wp-content/uploads/2026/07/מכרז-מסגרת-ריהוט-מעבדתי-מסמכי-מכרז.pdf"
+   "https://tenders.huji.ac.il/wp-content/uploads/2026/07/מכרז-מסגרת-ריהוט-מעבדתי-מסמכי-מכרז.pdf",
+   "https://studyflix.de/jobs/stellenangebote/waldner-6133-c",
+   "https://www.schwaebische.de/regional/allgaeu/wangen/waldner-wirtschaftet-auch-in-schwierigen-zeiten-erfolgreich-2927870",
+   "https://www.chemie.de/news/1183649/waldner-investiert-in-neue-fertigungstechnologien.html",
+   "https://de.indeed.com/cmp/Waldner-Group-1",
+   "https://www.waldner.de/en/products/",
+   "https://labokraft.hu/shop/brands?brand=34",
+   "https://coresignal.com/discover/furniture/israel/"
   ]
  },
  "91": {
@@ -2705,8 +2814,8 @@
   "revenue_usd_m": 165,
   "revenue_year": "2024 (estimate)",
   "revenue_scope": "estimate",
-  "size_basis": "estimate",
-  "revenue_note": "BRAND group (BRAND + VACUUBRAND, Wertheim) is family-owned and publishes no revenue; order-of-magnitude estimate from ~1,000 employees. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "size_basis": "mixed",
+  "revenue_note": "No revenue figure found (GmbH & Co KG; Bundesanzeiger not surfaced).",
   "israel_presence": "distributor",
   "israel_entities": [
    {
@@ -2727,8 +2836,14 @@
    "https://labotal.co.il/product/vacuubrand-me2-nt-new-diaphragm-vacuum-pump/",
    "https://labotal.co.il/product/vacuubrand-me-4-nt-diaphragm-vacuum-pump/",
    "https://labotal.co.il/product/vacuubrand-mv-10c-ex-atex-approved-vacuum-pump/",
-   "https://labotal.co.il/product-category/liquid-handling/single-channel-pipettors/?lang=en"
-  ]
+   "https://labotal.co.il/product-category/liquid-handling/single-channel-pipettors/?lang=en",
+   "https://www.stepstone.de/cmp/de/brand-gmbh-%2b-co-kg-40514/jobs",
+   "https://www.stepstone.de/results/manufacturing-manager/in-wertheim"
+  ],
+  "employees": 500,
+  "employees_year": 2025,
+  "employees_note": "Company recruitment text (Stepstone, BRAND GMBH + CO KG): about 500 people develop and manufacture at the Wertheim site; BRAND, VACUUBRAND and VITLAB together form a group of about 1,000 employees worldwide. Undated job-ad figures.",
+  "employees_scope": "company"
  },
  "95": {
   "name": "Berthold Technologies",
@@ -2810,7 +2925,7 @@
   "employees": 350,
   "employees_year": 2024,
   "employees_scope": "estimate",
-  "employees_note": "ELGA LabWater itself employs roughly 300-400; parent Veolia >200,000 (recalled, unverified).",
+  "employees_note": "ELGA LabWater itself employs roughly 300-400 (recalled, unverified); its parent division Veolia Water Technologies reports >10,300 employees.",
   "israel_check": "verified",
   "israel_entities": [
    {
@@ -2821,11 +2936,33 @@
     "website": "https://www.lumitron.co.il",
     "source": "https://www.elgalabwater.com/about-us/approved-partners"
    }
+  ],
+  "revenue_original": "EUR 2.1 billion",
+  "revenue_usd_m": 2310,
+  "revenue_year": "undated (ELGA US site, accessed 2026)",
+  "revenue_scope": "parent",
+  "revenue_note": "Parent division (Veolia Water Technologies) revenue per ELGA's US site; ELGA LabWater alone is not disclosed.",
+  "size_basis": "reported",
+  "sources": [
+   "https://elgaus.shop.veoliawatertechnologies.com/about-us",
+   "https://zenopa.com/client/veolia-water-technologies/",
+   "https://elgalabwater.com/node/67"
   ]
  },
  "99": {
   "name": "ATS Scientific Products (ex-SP Industries)",
-  "israel_check": "partial"
+  "israel_check": "partial",
+  "israel_presence": "none_found",
+  "israel_entities": [],
+  "israel_note": "Searched: 'Genevac' OR 'VirTis' OR 'Bel-Art' OR 'SP Scientific' Israel distributor/נציג/יבואן; 'SP Scientific'/'VirTis'/'Genevac'/'ATS Scientific Products' freeze dryer Israel representative ישראל (extended); and the brand names restricted to 18 Israeli distributor domains (no hits). Results only confirmed the brand family (Genevac, VirTis, Hull, Bel-Art under SP / scientificproducts.com, part of ATS since Dec-2021) and distributors elsewhere (LMS Consult Germany, BioPharma Process Systems UK). A used-equipment reseller's shipping-country list that includes Israel is not evidence of a representative. No Israeli entity found; the manufacturer's distributor page was not fetched.",
+  "confidence": "low",
+  "confidence_note": "No Israeli representative surfaced in three searches; no size research requested or done this round.",
+  "sources": [
+   "https://scientificproducts.com/",
+   "https://www.belart.com/corporate/wp-json/wp/v2/pages/2",
+   "https://www.technologynetworks.com/drug-discovery/news/genevac-ltd-acquired-by-riverlake-partners-195879",
+   "https://newlifescientific.com/products/sp-scientific-virtis-25xl-genesis-xl-70-stoppering-lyophilizer-freeze-dryer"
+  ]
  },
  "100": {
   "name": "RADWAG",
@@ -2841,14 +2978,15 @@
     "source": "https://www.lumitron.co.il/our-brands/radwag/?lang=en"
    }
   ],
-  "israel_note": "A search for 'Radwag' restricted to Israeli distributor domains returned Lumitron's dedicated Radwag brand page (lumitron.co.il/our-brands/radwag) and its 'Our brands' list, plus a Hebrew moisture-analyser page and a hosted RADWAG WTC 2000 datasheet, so Lumitron (לומיטרון) is recorded as the Israeli distributor. MRC pages in the same results are MRC own-brand balances, not RADWAG. RADWAG's own dealer zone requires registration and was not searched within the budget, so exclusivity is unconfirmed.",
+  "israel_note": "General search ('Radwag' balances Israel distributor/נציג/יבואן) returned only Radwag's own dealer-zone pages (200+ distributors worldwide, no Israel listing visible). Domain-restricted search found Lumitron's dedicated Radwag brand page, its 'Our brands' page and a hosted RADWAG WTC 2000 data sheet. MRC (mrclab.com) balance pages also surfaced in that search but the snippet did not show Radwag branding, so MRC is not recorded.",
   "confidence": "medium",
-  "confidence_note": "Distributor established from its own brand page and hosted RADWAG documents; no manufacturer-side confirmation.",
+  "confidence_note": "Israeli distributor verified from the distributor's own brand page; manufacturer-side confirmation (Radwag dealer list) not seen. No size research requested this round.",
   "sources": [
    "https://www.lumitron.co.il/our-brands/radwag/?lang=en",
    "https://www.lumitron.co.il/our-brands-heb/?lang=en",
    "https://www.lumitron.co.il/products/מאזני-לחות/",
-   "https://www.lumitron.co.il/wp-content/uploads/2020/12/RADWAG_Data_Sheet_WTC-2000-Precision-Balance.pdf"
+   "https://www.lumitron.co.il/wp-content/uploads/2020/12/RADWAG_Data_Sheet_WTC-2000-Precision-Balance.pdf",
+   "https://radwag.com/en/dealer-zone,2,6"
   ]
  }
 }
