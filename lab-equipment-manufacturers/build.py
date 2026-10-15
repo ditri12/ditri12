@@ -73,7 +73,11 @@ def load_rows():
             target = by_id.get(int(key))
             if target is None:
                 sys.exit(f"override for unknown id {key}")
-            target.update(patch)
+            for k, v in patch.items():
+                if k == "sources":
+                    target["sources"] = list(dict.fromkeys((target.get("sources") or []) + list(v)))
+                else:
+                    target[k] = v
     prefixes = {
         "pending": "טרם נבדק — ממתין לסבב המחקר הבא.",
         "partial": "חיפוש רשת בלבד; דפי ״מפיצים״ של היצרן ואתרי המפיצים לא נפתחו (חסימת רשת).",
