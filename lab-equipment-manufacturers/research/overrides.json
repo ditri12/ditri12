@@ -1,0 +1,1079 @@
+{
+ "_comment": "Knowledge-based enrichments and status flags applied on top of research/batch_*.json by build.py. Values marked estimate/unverified come from model knowledge of company statements and have NOT been verified online in this session.",
+ "1": {
+  "name": "Thermo Fisher Scientific",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Thermo Fisher Integrated Solutions Israel Ltd.",
+    "name_he": "תרמו פישר ישראל (רעננה)",
+    "type": "subsidiary",
+    "scope": "direct life-science sales & field service organisation being built out 2025-26",
+    "website": "https://www.thermofisher.com",
+    "source": "https://www.thermofisher.com/il/en/home.html"
+   },
+   {
+    "name": "Thermo Fisher Scientific Israel Ltd. (Kiryat Shmona)",
+    "name_he": "תרמו פישר קריית שמונה",
+    "type": "subsidiary",
+    "scope": "manufacturing / engineering site (ISO 9001/13485); not a sales channel",
+    "website": "",
+    "source": ""
+   },
+   {
+    "name": "Rhenium Ltd.",
+    "name_he": "רניום",
+    "type": "distributor",
+    "scope": "Invitrogen / Applied Biosystems / Gibco (Life Technologies brands; evidence from 2011 – verify current scope)",
+    "website": "https://www.rhenium.co.il",
+    "source": ""
+   },
+   {
+    "name": "Gamidor Diagnostics (1984) Ltd.",
+    "name_he": "גמידור דיאגנוסטיקה",
+    "type": "distributor",
+    "scope": "Thermo Scientific microbiology / diagnostics (non-exclusive distributor letter, Mar 2025–Mar 2026)",
+    "website": "https://www.gamidor.co.il",
+    "source": ""
+   },
+   {
+    "name": "Bargal Analytical Instruments Ltd.",
+    "name_he": "ברגל",
+    "type": "distributor",
+    "scope": "chromatography & mass spectrometry (2018-19 evidence – verify current scope)",
+    "website": "https://www.bargal.co.il",
+    "source": ""
+   },
+   {
+    "name": "Danyel Biotech Ltd.",
+    "name_he": "דניאל ביוטק",
+    "type": "distributor",
+    "scope": "Olink proteomics (a Thermo Fisher business)",
+    "website": "https://www.danyel.co.il",
+    "source": ""
+   },
+   {
+    "name": "Thermo Fisher Scientific – EM service location, Airport City",
+    "name_he": "",
+    "type": "service",
+    "scope": "electron-microscopy service & support",
+    "website": "",
+    "source": ""
+   }
+  ]
+ },
+ "2": {
+  "name": "Agilent Technologies",
+  "israel_check": "verified",
+  "confidence": "medium",
+  "israel_entities": [
+   {
+    "name": "Eldan Electronic Instruments Ltd. (Neopharm group)",
+    "name_he": "אלדן",
+    "type": "distributor",
+    "scope": "Agilent authorised distributor for Israel (chromatography, spectroscopy, mass spectrometry, lab products)",
+    "website": "https://www.eldan.biz",
+    "source": "https://www.agilent.com/en/contact-us/israel"
+   }
+  ],
+  "israel_note": "Agilent's own Israel contact page lists Eldan Electronic Instruments (Kiryat Gat / Petah Tikva, Neopharm group) as its authorised distributor; Eldan's site says it has represented Agilent for over four decades. Whether Agilent also has a direct office for genomics/cell analysis (BioTek) remains to be checked."
+ },
+ "3": {
+  "name": "Merck KGaA – Life Science (MilliporeSigma / Sigma-Aldrich / Merck Millipore)",
+  "employees_scope": "parent",
+  "employees_note": "Merck KGaA group headcount (~62,000); the Life Science business sector employs roughly 28,000 (recalled, unverified).",
+  "israel_presence": "subsidiary",
+  "israel_check": "unverified",
+  "confidence": "medium",
+  "israel_entities": [
+   {
+    "name": "Sigma-Aldrich Israel Ltd. (Merck Life Science Israel)",
+    "name_he": "סיגמא-אולדריץ' ישראל (מרק)",
+    "type": "subsidiary",
+    "scope": "direct sales of Sigma-Aldrich / Merck Millipore / Milli-Q life-science products from Rehovot (Park Rabin)",
+    "website": "https://www.sigmaaldrich.com/IL/en",
+    "source": ""
+   }
+  ],
+  "israel_note": "Known from prior knowledge: Merck's Life Science business sells in Israel through its own subsidiary Sigma-Aldrich Israel Ltd. (Rehovot), the former Sigma Israel Chemicals. Not re-verified online in this session (search budget exhausted)."
+ },
+ "4": {
+  "name": "Waters Corporation",
+  "aka": "TA Instruments, Wyatt Technology, Waters Biosciences (ex-BD Biosciences), Waters Advanced Diagnostics (ex-BD Diagnostic Solutions)",
+  "revenue_note": "FY2024 stand-alone figure. On 9 Feb 2026 Waters completed the Reverse Morris Trust combination with BD's Biosciences & Diagnostic Solutions businesses; the combined company has pro-forma revenue of roughly USD 6.5 billion and ~16,000 employees (deal announcement, not re-verified).",
+  "israel_presence": "subsidiary",
+  "israel_check": "partial",
+  "confidence": "low",
+  "israel_entities": [
+   {
+    "name": "Waters (TC) Israel Ltd.",
+    "name_he": "",
+    "type": "subsidiary",
+    "scope": "Israeli legal entity listed in Waters' 10-K subsidiaries exhibit; sales/service scope not established",
+    "website": "",
+    "source": "https://www.sec.gov/Archives/edgar/data/1000697/000119312524047491/d691142dex211.htm"
+   }
+  ],
+  "israel_note": "Waters' 10-K Exhibit 21.1 lists an Israeli subsidiary, Waters (TC) Israel Ltd. (seen in a search excerpt; the page itself could not be opened). Whether LC/MS instruments are sold direct or through an Israeli distributor was not established – to verify in the next round."
+ },
+ "5": {
+  "name": "Bruker Corporation",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "6": {
+  "name": "Shimadzu Corporation",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "7": {
+  "name": "Mettler-Toledo International",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "8": {
+  "name": "Sartorius AG",
+  "israel_presence": "subsidiary",
+  "israel_check": "unverified",
+  "confidence": "medium",
+  "israel_entities": [
+   {
+    "name": "Sartorius Israel Ltd. (formerly Biological Industries, Beit HaEmek)",
+    "name_he": "סרטוריוס ישראל (ביולוגיקל אינדסטריס)",
+    "type": "subsidiary",
+    "scope": "cell-culture media manufacturing site and local sales; lab-products (balances, pipettes, filtration) channel to verify",
+    "website": "https://www.sartorius.com",
+    "source": ""
+   }
+  ],
+  "israel_note": "Known from prior knowledge: Sartorius acquired a majority stake in Biological Industries (Kibbutz Beit HaEmek) in 2021 and operates it as Sartorius Israel Ltd. Not re-verified online in this session."
+ },
+ "9": {
+  "name": "Revvity",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "10": {
+  "name": "PerkinElmer (New Mountain Capital)",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "11": {
+  "name": "Bio-Rad Laboratories",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Bio-Rad Israel Ltd. (Bio-Rad Laboratories (Rishon))",
+    "name_he": "ביו-ראד ישראל",
+    "type": "subsidiary",
+    "scope": "direct sales & service of life-science and clinical-diagnostics products (Rishon LeZion; branch since 1991)",
+    "website": "https://www.bio-rad.com",
+    "source": "https://www.bio-rad.com/en-il/corporate/careers"
+   },
+   {
+    "name": "Bio-Rad Haifa Ltd.",
+    "name_he": "ביו-ראד חיפה",
+    "type": "subsidiary",
+    "scope": "R&D site (ex-ProteOptics, 2006); not a sales channel",
+    "website": "",
+    "source": ""
+   }
+  ]
+ },
+ "12": {
+  "name": "Avantor (incl. VWR)",
+  "israel_check": "partial"
+ },
+ "13": {
+  "name": "Eppendorf SE",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Lumitron Ltd. (Comtel Technologies & Engineering group)",
+    "name_he": "לומיטרון",
+    "type": "distributor",
+    "scope": "Eppendorf importer / distributor (centrifuges, pipettes, consumables)",
+    "website": "https://www.lumitron.co.il",
+    "source": ""
+   }
+  ]
+ },
+ "14": {
+  "name": "QIAGEN",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_entities": [],
+  "israel_note": "No Israeli sales channel identified yet (two searches). QIAGEN's only Israeli entity found is Genoox (Tel Aviv bioinformatics company acquired 2025, USD 80M) – an R&D/software site, not a sales channel. To research in the next round."
+ },
+ "15": {
+  "name": "Illumina",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Danyel Biotech Ltd. (Gamida for Life group)",
+    "name_he": "דניאל ביוטק",
+    "type": "distributor",
+    "scope": "Illumina sequencers, arrays and reagents (long-standing distributor; 2020 evidence – verify current status)",
+    "website": "https://www.danyel.co.il",
+    "source": ""
+   },
+   {
+    "name": "Illumina Israel (ex-Emedgene, Tel Aviv)",
+    "name_he": "אילומינה ישראל",
+    "type": "subsidiary",
+    "scope": "R&D / AI centre of excellence (~30 staff); not a sales channel",
+    "website": "",
+    "source": ""
+   }
+  ]
+ },
+ "16": {
+  "name": "Beckman Coulter (Danaher)",
+  "employees": 12000,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Approximate combined headcount of Beckman Coulter Diagnostics (~11,000 per company statements) and Beckman Coulter Life Sciences; Danaher does not disclose operating-company headcount (parent ~60,000). Figures recalled from company statements / filings and not re-verified online in this session.",
+  "revenue_original": "USD ~9.9 billion (Danaher Diagnostics segment, FY2025)",
+  "revenue_usd_m": 9900,
+  "revenue_year": "FY2025",
+  "revenue_scope": "segment",
+  "revenue_note": "Danaher's Diagnostics segment (Beckman Coulter Dx, Cepheid, Leica Biosystems, Radiometer); Beckman Coulter Life Sciences sits in the Life Sciences segment (~USD 7.3B). Beckman alone is not disclosed.",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Rhenium Ltd.",
+    "name_he": "רניום",
+    "type": "distributor",
+    "scope": "Beckman Coulter Life Sciences (official Israel contact page: Rhenium, 20 Hasatat St, Modi'in); the Diagnostics channel may be a different partner – to verify",
+    "website": "https://www.rhenium.co.il",
+    "source": "https://www.beckman.com/contact-us/israel"
+   }
+  ]
+ },
+ "17": {
+  "name": "Cytiva (Danaher)",
+  "employees": 16000,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Cytiva states 16,000+ associates after absorbing Pall's life-science business (2023). Figures recalled from company statements / filings and not re-verified online in this session.",
+  "revenue_note": "Danaher Biotechnology segment (Cytiva incl. Pall life sciences) ~USD 7.3B FY2025; Cytiva alone not disclosed.",
+  "israel_check": "partial"
+ },
+ "18": {
+  "name": "Leica Microsystems (Danaher)",
+  "employees": 3500,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Approximate Leica Microsystems headcount (company statements cite several thousand employees); parent Danaher ~60,000. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "revenue_note": "Danaher Life Sciences segment ~USD 7.3B FY2025 (Leica Microsystems, SCIEX, Molecular Devices, Beckman LS, Abcam, IDT, Aldevron…); Leica alone not disclosed.",
+  "israel_check": "partial"
+ },
+ "19": {
+  "name": "SCIEX (Danaher)",
+  "employees": 2000,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Approximate SCIEX headcount (~2,000); parent Danaher ~60,000. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "revenue_note": "Danaher Life Sciences segment ~USD 7.3B FY2025; SCIEX alone not disclosed.",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Rhenium Group",
+    "name_he": "רניום",
+    "type": "distributor",
+    "scope": "SCIEX mass spectrometry – Israeli distributor since 1 April 2025 (took over from Agentek)",
+    "website": "https://www.rhenium.co.il",
+    "source": ""
+   }
+  ],
+  "israel_note": "Rhenium announced it became SCIEX's Israeli distributor effective 1 April 2025 (Rhenium site + LinkedIn posts); Agentek (1987) Ltd. was the previous distributor. Not confirmed on sciex.com (page could not be opened)."
+ },
+ "20": {
+  "name": "Molecular Devices (Danaher)",
+  "employees": 1000,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Approximate Molecular Devices headcount (~1,000); parent Danaher ~60,000. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "revenue_note": "Danaher Life Sciences segment ~USD 7.3B FY2025; Molecular Devices alone not disclosed.",
+  "israel_check": "partial"
+ },
+ "21": {
+  "name": "BD Biosciences & BD Diagnostic Solutions (part of Waters since Feb 2026)",
+  "parent": "Waters Corporation (since 9 Feb 2026; previously Becton Dickinson)",
+  "ownership": "Divisions of Waters Corporation (public, NYSE: WAT) after the Reverse Morris Trust with BD",
+  "employees": 8000,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Rough share of the ~16,000 combined Waters/ex-BD headcount cited at the deal announcement; the ex-BD businesses alone were not disclosed. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_entities": [],
+  "israel_note": "Corporate status (high confidence): on 9 Feb 2026 Waters completed the combination with BD's Biosciences & Diagnostic Solutions businesses (now Waters Biosciences and Waters Advanced Diagnostics). Who sells BD flow cytometers (FACSymphony, FACSDiscover) and BD MAX / BACTEC in Israel was not established – BD Caesarea (ex-Caesarea Medical Electronics) is an infusion-pump plant that stayed with BD and is irrelevant here; Waters (TC) Israel Ltd. is listed in Waters' subsidiaries. To research in the next round."
+ },
+ "22": {
+  "name": "Corning Life Sciences (Corning Inc.)",
+  "employees_scope": "parent",
+  "employees_note": "Corning Incorporated group headcount; the Life Sciences segment is not broken out.",
+  "israel_check": "partial"
+ },
+ "23": {
+  "name": "Promega Corporation",
+  "revenue_original": "USD ~650 million (trade estimate; private)",
+  "revenue_usd_m": 650,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Promega does not publish revenue; it has described itself as a >USD 500M company and trade estimates put 2024 revenue around USD 600-700M. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "24": {
+  "name": "New England Biolabs",
+  "employees": 1000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Approximately 1,000 employees worldwide (company statements). Figures recalled from company statements / filings and not re-verified online in this session.",
+  "revenue_original": "USD ~500 million (trade estimate; private)",
+  "revenue_usd_m": 500,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "NEB is privately held and does not publish revenue; trade estimates are in the USD 400-600M range.",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+    "name_he": "אורנת",
+    "type": "distributor",
+    "scope": "New England Biolabs reagents (per Ornat's brand list quoted on the FISEB vendors page)",
+    "website": "https://www.ornat.co.il",
+    "source": ""
+   }
+  ]
+ },
+ "25": {
+  "name": "Bio-Techne",
+  "israel_check": "partial"
+ },
+ "26": {
+  "name": "Miltenyi Biotec",
+  "revenue_original": "EUR ~600 million (trade estimate; private)",
+  "revenue_usd_m": 660,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Miltenyi Biotec is family-owned and publishes no revenue; trade estimates range roughly EUR 500-800M. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "27": {
+  "name": "10x Genomics",
+  "israel_check": "partial",
+  "israel_entities": [
+   {
+    "name": "Danyel Biotech Ltd.",
+    "name_he": "דניאל ביוטק",
+    "type": "distributor",
+    "scope": "10x Genomics (Chromium, Visium, Xenium) – evidence is a 2019 TAU seminar co-hosted with 10x's EMEA distributor manager; verify current status",
+    "website": "https://www.danyel.co.il",
+    "source": "https://en-med.tau.ac.il/node/7046"
+   }
+  ]
+ },
+ "28": {
+  "name": "Oxford Nanopore Technologies",
+  "israel_check": "verified",
+  "confidence": "medium",
+  "israel_entities": [
+   {
+    "name": "Zotal Ltd.",
+    "name_he": "זוטל",
+    "type": "distributor",
+    "scope": "officially licensed channel partner for Nanopore products in Israel (nanoporetech.com channel-partner page)",
+    "website": "https://www.zotal.co.il",
+    "source": "https://nanoporetech.com/about/channel-partners"
+   }
+  ]
+ },
+ "29": {
+  "name": "Pacific Biosciences",
+  "employees": 530,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Approximate headcount after the 2024-25 restructurings (10-K FY2024 figure recalled). Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "30": {
+  "name": "Tecan Group",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Gamidor Diagnostics (1984) Ltd.",
+    "name_he": "גמידור דיאגנוסטיקה",
+    "type": "distributor",
+    "scope": "Tecan diagnostics / LC-MS sample-prep kits (2025 LinkedIn evidence); the life-science liquid-handling channel is not established",
+    "website": "https://www.gamidor.co.il",
+    "source": ""
+   }
+  ]
+ },
+ "31": {
+  "name": "Hamilton Company",
+  "israel_presence": "none_found",
+  "israel_check": "partial",
+  "revenue_original": "USD ~600 million (trade estimate; private)",
+  "revenue_usd_m": 600,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Hamilton (Reno NV / Bonaduz CH) is family-owned and publishes no revenue; trade estimates range USD 500-800M for the robotics, storage and syringe businesses combined. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "32": {
+  "name": "Cytek Biosciences",
+  "employees": 680,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "~680 employees per 10-K FY2024 (recalled, unverified).",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Almog Diagnostic and Medical Equipment Ltd.",
+    "name_he": "אלמוג דיאגנוסטיקה",
+    "type": "distributor",
+    "scope": "Cytek Aurora / Aurora CS spectral flow cytometers (2022 press release; installs at TAU, Technion)",
+    "website": "https://www.almog.co.il",
+    "source": "https://www.businesswire.com/news/home/20220614005394/en/"
+   }
+  ]
+ },
+ "33": {
+  "name": "Carl Zeiss AG – Research Microscopy Solutions",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_entities": [],
+  "employees_scope": "parent",
+  "israel_note": "Who sells and services ZEISS research microscopes in Israel was not established (one search; it returned only Carl Zeiss SMT Ltd. in Karmiel – a semiconductor R&D centre, not a microscopy channel). To research in the next round."
+ },
+ "34": {
+  "name": "Evident (ex-Olympus Scientific Solutions)",
+  "israel_check": "partial",
+  "israel_entities": [
+   {
+    "name": "Eisenberg Bros. Ltd.",
+    "name_he": "האחים איזנברג",
+    "type": "distributor",
+    "scope": "Olympus microscopes & imaging software – per a 2009 trade-fair listing; current Evident channel to verify",
+    "website": "https://www.eisenberg.co.il",
+    "source": "https://archive.israelphysicalsociety.org/ips-conference-2009/fairs/eisenberg-bros.html"
+   }
+  ]
+ },
+ "35": {
+  "name": "Nikon – Healthcare Business (Nikon Instruments)",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees_scope": "parent",
+  "revenue_note": "Nikon group revenue; the Healthcare Business segment (microscopes, cell-culture observation, retinal imaging) is roughly JPY 110-120 billion (recalled, unverified)."
+ },
+ "36": {
+  "name": "JEOL",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "37": {
+  "name": "Hitachi High-Tech",
+  "employees": 12400,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Consolidated headcount ~12,000-12,500 (recalled, unverified).",
+  "revenue_original": "JPY ~750 billion (estimate)",
+  "revenue_usd_m": 5000,
+  "revenue_year": "FY ending Mar-2025 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Hitachi High-Tech has been wholly owned by Hitachi, Ltd. since 2020 and no longer publishes stand-alone results; order of magnitude from its last public filings and Hitachi segment data. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "38": {
+  "name": "TESCAN",
+  "employees": 800,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Approximately 700-800 employees worldwide (company statements, recalled).",
+  "revenue_original": "EUR ~130 million (trade estimate; private)",
+  "revenue_usd_m": 143,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "TESCAN Group (Brno) is privately held; revenue estimate from trade press / Czech register figures. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "39": {
+  "name": "Rigaku Holdings",
+  "employees": 2000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Approximately 2,000 employees (IPO prospectus, recalled).",
+  "revenue_original": "JPY ~100 billion (estimate)",
+  "revenue_usd_m": 670,
+  "revenue_year": "FY2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Rigaku Holdings (TSE Prime 268A, listed Oct 2023) reported revenue of roughly JPY 95-100 billion for FY2024 (recalled, unverified).",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "40": {
+  "name": "HORIBA",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": ""
+ },
+ "41": {
+  "name": "Malvern Panalytical (Spectris)",
+  "israel_check": "partial",
+  "employees_scope": "parent",
+  "revenue_note": "Spectris Scientific segment (Malvern Panalytical + Servomex etc.) FY2024; Spectris was taken private by KKR in Dec 2025 and no longer reports."
+ },
+ "42": {
+  "name": "Oxford Instruments",
+  "israel_check": "partial"
+ },
+ "43": {
+  "name": "Anton Paar",
+  "israel_check": "partial"
+ },
+ "44": {
+  "name": "Metrohm",
+  "employees": 3000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Metrohm states around 3,000 employees worldwide (recalled, unverified).",
+  "revenue_original": "CHF ~550 million (trade estimate; foundation-owned)",
+  "revenue_usd_m": 640,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Metrohm is owned by the Metrohm Foundation and publishes no revenue; trade estimates range CHF 500-600M. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Israel Scientific Instruments Ltd. (ISI)",
+    "name_he": "ISI – ישראל מכשור מדעי",
+    "type": "distributor",
+    "scope": "official distributor of all Metrohm products and services in Israel from 17 July 2025 (Metrohm news page)",
+    "website": "",
+    "source": "https://www.metrohm.com/en/company/news.html"
+   }
+  ]
+ },
+ "45": {
+  "name": "LECO Corporation",
+  "employees": 1000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 1,000 employees worldwide (recalled, unverified).",
+  "revenue_original": "USD ~250 million (trade estimate; private)",
+  "revenue_usd_m": 250,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "LECO (St. Joseph, MI) is family-owned; trade estimates USD 200-300M. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "46": {
+  "name": "JASCO Corporation",
+  "employees": 400,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 400 employees in Japan plus overseas subsidiaries (recalled, unverified).",
+  "revenue_original": "JPY ~12 billion (trade estimate; private)",
+  "revenue_usd_m": 80,
+  "revenue_year": "FY2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "JASCO (Hachioji, Tokyo) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "47": {
+  "name": "SPECTRO Analytical Instruments (AMETEK)",
+  "employees": 500,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "SPECTRO (Kleve) employs roughly 400-500; parent AMETEK ~21,500 (recalled, unverified).",
+  "revenue_note": "AMETEK group revenue (parent); SPECTRO alone is not disclosed (order of EUR 100-150M, trade estimate).",
+  "israel_check": "partial",
+  "israel_entities": [
+   {
+    "name": "Agentek (1987) Ltd.",
+    "name_he": "אגנטק",
+    "type": "distributor",
+    "scope": "CANDIDATE – an agentek.co.il page was returned for a SPECTRO Israel search but its content was not seen; verify",
+    "website": "https://agentek.co.il",
+    "source": "https://agentek.co.il/?p=2540"
+   }
+  ]
+ },
+ "48": {
+  "name": "Analytik Jena (Endress+Hauser)",
+  "employees": 1000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 1,000 employees (recalled, unverified).",
+  "revenue_original": "EUR ~180 million (trade estimate)",
+  "revenue_usd_m": 200,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Part of the privately held Endress+Hauser Group (~EUR 3.9B group revenue); Analytik Jena alone is not disclosed. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "49": {
+  "name": "Elementar Analysensysteme",
+  "employees": 400,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 400 employees (recalled, unverified).",
+  "revenue_original": "EUR ~70 million (trade estimate; private)",
+  "revenue_usd_m": 77,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Family-owned (Langenselbold); order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "50": {
+  "name": "NETZSCH Analyzing & Testing",
+  "employees": 700,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Analyzing & Testing business unit only (~700); NETZSCH Group ~4,000 employees (recalled, unverified).",
+  "revenue_original": "EUR ~150 million (A&T business unit; trade estimate)",
+  "revenue_usd_m": 165,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "NETZSCH Group (Selb) is family-owned with ~EUR 800M group revenue; the Analyzing & Testing unit alone is an estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "51": {
+  "name": "Biotage",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Bargal Analytical Instruments Ltd.",
+    "name_he": "ברגל",
+    "type": "distributor",
+    "scope": "Biotage distributor for Israel (listed on Biotage's contact page)",
+    "website": "https://www.bargal.co.il",
+    "source": "https://www.biotage.com/contact"
+   }
+  ]
+ },
+ "52": {
+  "name": "Hach (Veralto)",
+  "israel_check": "partial"
+ },
+ "53": {
+  "name": "Hanna Instruments",
+  "employees": 1500,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 1,500 employees worldwide (recalled, unverified).",
+  "revenue_original": "USD ~150 million (trade estimate; private)",
+  "revenue_usd_m": 150,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Hanna (Woonsocket RI / Italy) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "54": {
+  "name": "VELP Scientifica",
+  "employees": 200,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 200 employees (recalled, unverified).",
+  "revenue_original": "EUR ~40 million (trade estimate; private)",
+  "revenue_usd_m": 44,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "VELP (Usmate Velate, Italy) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "55": {
+  "name": "Roche Diagnostics",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "Lead to verify: Roche Pharmaceuticals (Israel) Ltd. has a diagnostics division that sells cobas / LightCycler systems directly (would be parent_subsidiary). Not established from a source in this session."
+ },
+ "56": {
+  "name": "Abbott Diagnostics",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "Lead to verify: Abbott Medical Laboratories Ltd. (Abbott Israel) as the direct diagnostics channel. Not established from a source in this session."
+ },
+ "57": {
+  "name": "Siemens Healthineers – Diagnostics",
+  "israel_check": "verified"
+ },
+ "58": {
+  "name": "bioMérieux",
+  "israel_check": "partial"
+ },
+ "59": {
+  "name": "Sysmex",
+  "israel_check": "partial"
+ },
+ "60": {
+  "name": "Mindray",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "Lead to verify: Mindray Medical Israel Ltd. (own subsidiary) and/or an Israeli IVD distributor. Not established from a source in this session."
+ },
+ "61": {
+  "name": "BINDER",
+  "israel_check": "partial"
+ },
+ "62": {
+  "name": "Memmert",
+  "israel_check": "partial"
+ },
+ "63": {
+  "name": "IKA",
+  "israel_check": "partial"
+ },
+ "64": {
+  "name": "Heidolph Instruments (ATS Corporation)",
+  "israel_check": "partial"
+ },
+ "65": {
+  "name": "JULABO",
+  "israel_check": "partial"
+ },
+ "66": {
+  "name": "LAUDA",
+  "israel_check": "partial"
+ },
+ "67": {
+  "name": "Peter Huber Kältemaschinenbau",
+  "israel_check": "partial",
+  "revenue_original": "EUR ~75 million (trade estimate; private)",
+  "revenue_usd_m": 83,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Huber (Offenburg) is family-owned and publishes no revenue; order-of-magnitude estimate from headcount (~420) and trade press. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "68": {
+  "name": "BÜCHI Labortechnik",
+  "israel_check": "partial"
+ },
+ "69": {
+  "name": "Andreas Hettich",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Eldan Electronic Instruments Ltd. (Neopharm group)",
+    "name_he": "אלדן",
+    "type": "distributor",
+    "scope": "Hettich centrifuges – Eldan states it offers the whole Hettich range in Israel (eldan.biz page; verify currency)",
+    "website": "https://www.eldan.biz",
+    "source": "https://eldan.biz/?p=9327"
+   }
+  ]
+ },
+ "70": {
+  "name": "Esco Lifesciences",
+  "israel_check": "partial"
+ },
+ "71": {
+  "name": "Labconco",
+  "israel_check": "partial"
+ },
+ "72": {
+  "name": "NuAire",
+  "parent": "Kewaunee Scientific (since Nov 2024)",
+  "ownership": "Subsidiary of Kewaunee Scientific (public, NASDAQ: KEQU)",
+  "israel_check": "partial"
+ },
+ "73": {
+  "name": "PHC Holdings (PHCbi)",
+  "israel_check": "partial",
+  "employees_scope": "parent",
+  "israel_note": "Searched '\"PHCbi\" Israel distributor' and a Hebrew query; PHCbi's FAQ points to its 'Where to Buy' page, which could not be opened. One unverified lead: Israeli distributor Enco (enco.co.il) surfaced in the search results – to verify in the next round."
+ },
+ "74": {
+  "name": "Haier Biomedical",
+  "employees": 2800,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 2,500-3,000 employees (annual report, recalled).",
+  "israel_check": "partial"
+ },
+ "75": {
+  "name": "Antylia Scientific (ex-Cole-Parmer)",
+  "parent": "Brookfield Business Partners & CDPQ (since May 2025)",
+  "ownership": "Private equity (Brookfield Business Partners / CDPQ; previously GTCR)",
+  "employees": 2000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 2,000 employees (recalled, unverified).",
+  "israel_check": "partial"
+ },
+ "76": {
+  "name": "Verder Scientific (Retsch, Carbolite Gero, Eltra, Microtrac MRB, QATM)",
+  "employees": 1000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Verder Scientific division ~1,000 (ZoomInfo 501-1,000); Verder Group ~2,000+ (recalled, unverified).",
+  "israel_check": "partial"
+ },
+ "77": {
+  "name": "Yamato Scientific",
+  "employees": 600,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 600 employees (recalled, unverified).",
+  "revenue_original": "JPY ~25 billion (trade estimate; private)",
+  "revenue_usd_m": 170,
+  "revenue_year": "FY2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Yamato Scientific (Tokyo, founded 1889) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session.",
+  "israel_check": "partial"
+ },
+ "78": {
+  "name": "Azenta Life Sciences",
+  "employees": 2700,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 2,700 employees in continuing operations after the B Medical Systems divestiture (recalled, unverified).",
+  "israel_check": "partial"
+ },
+ "79": {
+  "name": "Opentrons Labworks",
+  "israel_check": "partial"
+ },
+ "80": {
+  "name": "SPT Labtech",
+  "employees": 500,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 500 employees (recalled, unverified).",
+  "parent": "EQT Private Equity (EQT IX, since 2022)",
+  "ownership": "Private equity (EQT)",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Agentek (1987) Ltd.",
+    "name_he": "אגנטק",
+    "type": "distributor",
+    "scope": "SPT Labtech distributor for Israel (listed on sptlabtech.com/distributors; Agentek has an SPT Labtech brand page)",
+    "website": "https://agentek.co.il",
+    "source": "https://www.sptlabtech.com/distributors"
+   }
+  ]
+ },
+ "81": {
+  "name": "OHAUS (Mettler-Toledo)",
+  "israel_presence": "none_found",
+  "israel_check": "partial",
+  "employees": 1000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 1,000 employees (aggregator range 189-1,000; recalled, unverified); parent Mettler-Toledo ~17,000.",
+  "revenue_note": "Mettler-Toledo group revenue (parent); OHAUS alone is not disclosed (trade estimate order of USD 100-200M)."
+ },
+ "82": {
+  "name": "KERN & SOHN",
+  "israel_presence": "none_found",
+  "israel_check": "partial"
+ },
+ "83": {
+  "name": "A&D Company (A&D HOLON Holdings)",
+  "israel_presence": "none_found",
+  "israel_check": "partial"
+ },
+ "84": {
+  "name": "Gilson",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees": 800,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 800 employees worldwide (recalled, unverified).",
+  "revenue_original": "USD ~200 million (trade estimate; private)",
+  "revenue_usd_m": 200,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "Gilson (Middleton WI / Villiers-le-Bel) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "85": {
+  "name": "INTEGRA Biosciences",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees": 1000,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "INTEGRA states roughly 1,000 employees (recalled, unverified).",
+  "revenue_original": "CHF ~250 million (trade estimate; private)",
+  "revenue_usd_m": 290,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "INTEGRA (Zizers) is privately held; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "86": {
+  "name": "BMG LABTECH",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees": 300,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 300 employees worldwide (recalled, unverified).",
+  "revenue_original": "EUR ~70 million (trade estimate; private)",
+  "revenue_usd_m": 77,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "BMG LABTECH (Ortenberg) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "87": {
+  "name": "Repligen",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "size_basis": "reported",
+  "revenue_scope": "company",
+  "revenue_note": "FY2024 10-K figure (recalled; FY2025 revenue was guided at roughly USD 700M). Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "88": {
+  "name": "ZwickRoell",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees": 1900,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "ZwickRoell group cites ~1,900-2,000 employees (recalled, unverified).",
+  "revenue_original": "EUR ~300 million (group, trade estimate; private)",
+  "revenue_usd_m": 330,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "ZwickRoell (Ulm) is family-owned; group revenue around EUR 300M per its own press material. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "89": {
+  "name": "Kewaunee Scientific",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees": 2800,
+  "employees_year": 2025,
+  "employees_scope": "estimate",
+  "employees_note": "Roughly 2,800 employees incl. India operations and Nu Aire (acquired Nov 2024); recalled, unverified.",
+  "revenue_original": "USD ~246 million",
+  "revenue_usd_m": 246,
+  "revenue_year": "FY2025 (ended Apr-2025)",
+  "revenue_scope": "company",
+  "size_basis": "mixed"
+ },
+ "90": {
+  "name": "WALDNER Laboreinrichtungen",
+  "israel_presence": "pending",
+  "israel_check": "pending",
+  "israel_note": "",
+  "employees": 1300,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "WALDNER group ~1,300 employees (recalled, unverified).",
+  "revenue_original": "EUR ~200 million (group, trade estimate; private)",
+  "revenue_usd_m": 220,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "WALDNER (Wangen im Allgäu) is family-owned; order-of-magnitude estimate. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "91": {
+  "name": "DWK Life Sciences",
+  "israel_check": "partial"
+ },
+ "92": {
+  "name": "Greiner Bio-One",
+  "israel_check": "partial"
+ },
+ "93": {
+  "name": "SARSTEDT",
+  "israel_check": "partial"
+ },
+ "94": {
+  "name": "BRAND (incl. VACUUBRAND)",
+  "israel_check": "partial",
+  "revenue_original": "EUR ~150 million (group, trade estimate; private)",
+  "revenue_usd_m": 165,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "BRAND group (BRAND + VACUUBRAND, Wertheim) is family-owned and publishes no revenue; order-of-magnitude estimate from ~1,000 employees. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "95": {
+  "name": "Berthold Technologies",
+  "israel_check": "partial"
+ },
+ "96": {
+  "name": "INFORS HT",
+  "israel_check": "partial",
+  "revenue_original": "CHF ~60 million (trade estimate; private)",
+  "revenue_usd_m": 70,
+  "revenue_year": "2024 (estimate)",
+  "revenue_scope": "estimate",
+  "size_basis": "estimate",
+  "revenue_note": "INFORS HT (Bottmingen) is family-owned; a database figure of USD 17.5M looks too low for ~200 staff, so an order-of-magnitude estimate from headcount is used. Figures recalled from company statements / filings and not re-verified online in this session."
+ },
+ "97": {
+  "name": "Nabertherm",
+  "israel_check": "partial"
+ },
+ "98": {
+  "name": "ELGA LabWater (Veolia)",
+  "employees": 350,
+  "employees_year": 2024,
+  "employees_scope": "estimate",
+  "employees_note": "ELGA LabWater itself employs roughly 300-400; parent Veolia >200,000 (recalled, unverified).",
+  "israel_check": "verified",
+  "israel_entities": [
+   {
+    "name": "Lumitron Ltd.",
+    "name_he": "לומיטרון",
+    "type": "distributor",
+    "scope": "ELGA approved partner for Israel (ELGA 'Approved Partners' directory, tel. 972-52-525-6287)",
+    "website": "https://www.lumitron.co.il",
+    "source": "https://www.elgalabwater.com/about-us/approved-partners"
+   }
+  ]
+ },
+ "99": {
+  "name": "ATS Scientific Products (ex-SP Industries)",
+  "israel_check": "partial"
+ },
+ "100": {
+  "name": "RADWAG",
+  "israel_check": "partial"
+ }
+}

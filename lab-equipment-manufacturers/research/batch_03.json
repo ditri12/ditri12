@@ -1,0 +1,522 @@
+[
+  {
+    "id": 21,
+    "name": "BD Biosciences & BD Diagnostic Solutions (now Waters Biosciences / Waters Advanced Diagnostics)",
+    "aka": "BD Biosciences, BD Diagnostic Solutions, Becton Dickinson Life Sciences, FACS, FACSymphony, FACSDiscover, BACTEC, BD MAX, Phoenix, Kiestra; since Feb 2026: Waters Biosciences, Waters Advanced Diagnostics",
+    "hq_city": "Milford, Massachusetts (Waters Corp.); former BD Biosciences HQ San Jose, California; BD corporate HQ Franklin Lakes, New Jersey",
+    "hq_country": "USA",
+    "parent": "Waters Corporation (since 9 Feb 2026); previously Becton, Dickinson and Company",
+    "ownership": "Divisions of Waters Corporation (public, NYSE: WAT); the remaining 'New BD' is public (NYSE: BDX)",
+    "founded": 1897,
+    "website": "https://www.bdbiosciences.com",
+    "category": "Cell analysis (flow cytometry / cell sorting)",
+    "employees": null,
+    "employees_year": null,
+    "employees_note": "Headcount of the carved-out BD Biosciences & Diagnostic Solutions business was not disclosed in any source seen. For context (recalled, not re-verified): Waters had ~7,800 employees pre-combination (FY2024 10-K) and BD ~70,000+ (FY2024/25) before the separation.",
+    "revenue_original": "USD 3.4 billion",
+    "revenue_usd_m": 3400,
+    "revenue_year": "CY2025E (basis used in the Jul-2025 deal announcement)",
+    "revenue_scope": "segment",
+    "revenue_note": "Approx. USD 3.4 billion annual revenue for the combined BD Biosciences & Diagnostic Solutions business, as disclosed by Waters/BD at the 14 Jul 2025 announcement (recalled; not re-verified this session). Parent Waters Corporation stand-alone FY2025 revenue was roughly USD 3.1-3.2 billion (recalled). Post-combination Waters pro-forma revenue ~USD 6.5 billion (announcement figure, recalled).",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "BD FACSDiscover S8",
+        "desc": "spectral cell sorter with real-time cell imaging"
+      },
+      {
+        "name": "BD FACSymphony A5 SE / A1",
+        "desc": "high-parameter spectral flow cytometry analyzers"
+      },
+      {
+        "name": "BD BACTEC FX, BD MAX, BD Phoenix",
+        "desc": "blood-culture, molecular IVD and ID/AST systems"
+      }
+    ],
+    "israel_presence": "unclear",
+    "israel_entities": [
+      {
+        "name": "BD Caesarea (Becton Dickinson's Israeli site; formerly Caesarea Medical Electronics Ltd.)",
+        "name_he": "",
+        "type": "subsidiary",
+        "scope": "BD's own Israeli operation per jobs.bd.com Israel location page - described as a specialty infusion-pump manufacturing site (BD Medical, stays with 'New BD'); no source seen shows it selling Biosciences/Diagnostics products",
+        "website": "https://jobs.bd.com/location-israel",
+        "source": "https://jobs.bd.com/location-israel"
+      },
+      {
+        "name": "Waters (TC) Israel Ltd.",
+        "name_he": "",
+        "type": "subsidiary",
+        "scope": "Israeli subsidiary of Waters Corporation (parent of the ex-BD businesses since Feb 2026) listed in Waters' 10-K Exhibit 21.1 (FY2011-FY2023 filings); role (sales/service) not stated in the filing",
+        "website": "https://www.waters.com",
+        "source": "https://www.sec.gov/Archives/edgar/data/1000697/000119312524047491/d691142dex211.htm"
+      }
+    ],
+    "israel_note": "CORPORATE STATUS (high confidence): on 9 Feb 2026 Waters Corporation completed the Reverse Morris Trust combination with BD's Biosciences & Diagnostic Solutions businesses (Waters shareholders ~60.8%, BD shareholders ~39.2%; Claire M. Fraser joined the Waters board, now 11 members). Waters reorganised into four divisions: Waters Analytical Sciences, Waters Biosciences (formerly BD Biosciences - flow cytometers such as FACSymphony/FACSDiscover and reagents), Waters Advanced Diagnostics (formerly BD Diagnostic Solutions - BACTEC, BD MAX, Phoenix, Kiestra, women's health) and Waters Materials Sciences. No reporting of delays or problems with the closing was found. BD (NYSE: BDX) continues as a medical-technology company (BD Medical, BD Interventional, specimen management). ISRAEL: (1) BD has its own Israeli footprint - jobs.bd.com carries an Israel location page and search results describe 'BD Caesarea' (ex-Caesarea Medical Electronics) as a BD infusion-pump manufacturing site; BD also ran a Global Enterprise R&D collaboration call with the Israel Innovation Authority (flow cytometry for resource-poor settings, 2017-2018). None of these sources state who sells BD Biosciences/Diagnostics products in Israel. (2) Waters' SEC subsidiary lists (Exhibit 21.1, 2011-2023) include 'Waters (TC) Israel Ltd.', an Israeli Waters subsidiary - the likely future channel for Waters Biosciences/Advanced Diagnostics, but the filing gives no description and no Waters Israel contact page could be opened. (3) Searches for an independent Israeli distributor ('BD Biosciences Israel distributor'; Hebrew 'בקטון דיקינסון ישראל BD פלואו ציטומטריה') found none; the Israeli distributor brand lists that surfaced (Rhenium, Enco, Agentek) do not include BD. (4) bdbiosciences.com / bd.com / waters.com country pages could not be fetched. Most plausible reading: direct sales through the manufacturer's own Israeli entity (historically BD Israel; going forward Waters (TC) Israel Ltd.), but this was not confirmed by a source, hence 'unclear'. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://www.biospace.com/press-releases/waters-completes-combination-with-bds-biosciences-diagnostic-solutions-businesses",
+      "https://tools.prnewswire.com/en-us/live/20823/release/20260209EN83221",
+      "https://pulse2.com/waters-completes-combination-with-bd-biosciences-and-diagnostic-solutions-and-forms-four-new-divisions",
+      "https://www.analytica-world.com/en/news/1188060/waters-completes-combination-with-bd-s-biosciences-diagnostic-solutions-businesses.html",
+      "https://jobs.bd.com/location-israel",
+      "https://www.sec.gov/Archives/edgar/data/1000697/000119312524047491/d691142dex211.htm",
+      "https://www.sec.gov/Archives/edgar/data/1000697/000119312523050827/d412746dex211.htm",
+      "https://innovationisrael.org.il/en/calls_for_proposal/call-for-proposals-no-5-bd/",
+      "https://www.bdbiosciences.com/en-in/products/instruments/flow-cytometers",
+      "https://www.enco.co.il/about.php",
+      "https://v1.israelphysicalsociety.org/ips-conference-2009/fairs/rhenium-ltd"
+    ],
+    "confidence": "low",
+    "confidence_note": "The Waters-BD combination facts are high confidence (multiple press-release sources dated 9 Feb 2026). Israel channel is unresolved (evidence only of BD's and Waters' Israeli legal entities, not of who sells flow cytometry/diagnostics), and the USD 3.4 bn segment figure is recalled from the deal announcement rather than re-verified."
+  },
+  {
+    "id": 22,
+    "name": "Corning Life Sciences (Corning Incorporated)",
+    "aka": "Corning, Falcon, Axygen, PYREX, Costar, Corning Matrigel, Mediatech/Cellgro, Gosselin",
+    "hq_city": "Corning, New York",
+    "hq_country": "USA",
+    "parent": "Corning Incorporated",
+    "ownership": "Division/segment of Corning Incorporated (public, NYSE: GLW)",
+    "founded": 1851,
+    "website": "https://www.corning.com/worldwide/en/products/life-sciences.html",
+    "category": "Labware & consumables (plastic & glass)",
+    "employees": 55500,
+    "employees_year": 2024,
+    "employees_note": "Parent Corning Inc. total headcount (~55,500 full-time employees at end-2024 per Corning's 10-K; recalled, not re-verified). Life Sciences segment headcount is not disclosed.",
+    "revenue_original": "USD 979 million",
+    "revenue_usd_m": 979,
+    "revenue_year": "FY2024",
+    "revenue_scope": "segment",
+    "revenue_note": "Corning Life Sciences segment net sales FY2024 ~USD 979 million (Corning 10-K/segment reporting; recalled, not re-verified). Parent Corning Inc. FY2024 GAAP net sales ~USD 13.1 billion (core sales ~USD 14.5 billion). FY2025 results (published Jan 2026, Life Sciences roughly USD 1.0 billion) could not be verified in this session.",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "Falcon",
+        "desc": "conical tubes, cell-culture plasticware, serological pipets"
+      },
+      {
+        "name": "Corning Matrigel Matrix",
+        "desc": "basement-membrane extract for 3D cell culture"
+      },
+      {
+        "name": "Axygen",
+        "desc": "pipette tips, PCR tubes/plates, genomics consumables"
+      }
+    ],
+    "israel_presence": "none_found",
+    "israel_entities": [],
+    "israel_note": "Searched: '\"Corning\" life sciences Israel distributor Falcon Axygen', 'Corning Life Sciences EMEA distributors Israel', Hebrew 'קורנינג Corning Falcon מעבדה יבואן ישראל'. No Israeli importer/distributor of Corning, Falcon, Axygen or PYREX surfaced. Corning's own 'Life Sciences Authorized Distributors' locator pages (corning.com/.../config/Distributors.html, regional APAC/NA/EMEA variants) returned as near-empty JavaScript templates in search snippets and could not be fetched, so an Israel entry could not be checked. The APAC and North-America lists show Corning sells its consumables through per-country general lab distributors (e.g. Fisher Scientific in the US), so Israel is probably served by one or more Israeli lab-supply houses and/or Corning's EMEA organisation, but no source seen names one. The only Israel-related hit (Rhenium, 2011) concerns Life Technologies, not Corning. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://www.corning.com/au/en/products/life-sciences/config/Distributors/CLS-APAC-Distributors.html",
+      "https://www.corning.com/emea/en/products/life-sciences/config/Distributors/CLS-NA-Distributors.html",
+      "https://www.corning.com/au/en/products/life-sciences/config/Distributors.html",
+      "https://www.corning.com/worldwide/en/products/life-sciences/resources/brands.html",
+      "https://www.corning.com/asean/en/products/life-sciences/resources/brands/axygen-brand-products.html",
+      "https://www.corning.com/worldwide/en/products/life-sciences/resources/digital-campaign/life-sciences.html"
+    ],
+    "confidence": "low",
+    "confidence_note": "Israel result is 'not found' rather than a confirmed absence - Corning's distributor locator could not be rendered. Size figures recalled from Corning filings, not re-verified."
+  },
+  {
+    "id": 23,
+    "name": "Promega Corporation",
+    "aka": "Promega; brands Maxwell, GloMax, CellTiter-Glo, GoTaq, PowerPlex, NanoLuc, HaloTag",
+    "hq_city": "Madison (Fitchburg), Wisconsin",
+    "hq_country": "USA",
+    "parent": "",
+    "ownership": "Private (founder-controlled; William A. Linton)",
+    "founded": 1978,
+    "website": "https://www.promega.com",
+    "category": "Life-science instruments & reagents",
+    "employees": 2000,
+    "employees_year": 2024,
+    "employees_note": "Approximately 2,000 employees worldwide, with direct branches in 16 countries and 50+ distributors (branch/distributor counts seen on Promega regional sites; headcount recalled from Promega corporate communications, not re-verified).",
+    "revenue_original": "",
+    "revenue_usd_m": null,
+    "revenue_year": "",
+    "revenue_scope": "estimate",
+    "revenue_note": "Privately held; Promega does not publish revenue and no sourced estimate was obtained in this session. Trade-press/business-database estimates commonly place annual revenue in the several-hundred-million USD range (unverified; treat as rough).",
+    "size_basis": "mixed",
+    "top_products": [
+      {
+        "name": "Maxwell RSC",
+        "desc": "automated nucleic acid purification instrument"
+      },
+      {
+        "name": "GloMax",
+        "desc": "multimode microplate readers and luminometers"
+      },
+      {
+        "name": "CellTiter-Glo / Dual-Luciferase",
+        "desc": "bioluminescent cell-viability and reporter assays"
+      }
+    ],
+    "israel_presence": "none_found",
+    "israel_entities": [],
+    "israel_note": "Searched: '\"Promega\" Israel distributor', 'Promega worldwide distributors Israel', Hebrew 'פרומגה Promega ישראל נציג'. No Israeli distributor or Promega Israel office appeared in any result; results only described Promega's model (direct branches in 16 countries, 50+ distributors, ordering via promega.com or regional authorized distributors) and distributors for other countries (e.g. MyBio for Ireland, Promega GmbH for DACH/Eastern Europe). Promega's worldwide distributor locator (worldwide.promega.com) could not be opened (fetch blocked). Israel's channel therefore not established. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://at.promega.com/products/",
+      "https://ch.promega.com/products/",
+      "https://worldwide.promega.com/promega-ai-information-page/",
+      "https://en.wikipedia.org/wiki/Promega",
+      "https://www.biorn.org/member/promega-gmbh",
+      "https://www.biospace.com/promega-corporation-and-b-mybio-b-sign-exclusive-distribution-agreement-for-b-republic-of-ireland-b-and-northern-ireland"
+    ],
+    "confidence": "low",
+    "confidence_note": "Private company with no published revenue; Israel channel not found with the searches possible in this session."
+  },
+  {
+    "id": 24,
+    "name": "New England Biolabs, Inc.",
+    "aka": "NEB; brands Q5, NEBNext, Monarch, Luna, NEBuilder, NEBExpress",
+    "hq_city": "Ipswich, Massachusetts",
+    "hq_country": "USA",
+    "parent": "",
+    "ownership": "Private",
+    "founded": 1974,
+    "website": "https://www.neb.com",
+    "category": "Life-science instruments & reagents",
+    "employees": null,
+    "employees_year": null,
+    "employees_note": "Privately held; no headcount figure was obtained from a source in this session. Publicly cited figures (NEB 'about' page / press, recalled) are in the ~800-1,200 range worldwide including subsidiaries.",
+    "revenue_original": "",
+    "revenue_usd_m": null,
+    "revenue_year": "",
+    "revenue_scope": "estimate",
+    "revenue_note": "Privately held; NEB does not publish revenue. No sourced estimate obtained in this session (business-database estimates are typically several hundred million USD; unverified).",
+    "size_basis": "estimate",
+    "top_products": [
+      {
+        "name": "Q5 High-Fidelity DNA Polymerase",
+        "desc": "high-fidelity PCR enzyme and master mixes"
+      },
+      {
+        "name": "NEBNext",
+        "desc": "NGS library-preparation kits"
+      },
+      {
+        "name": "Monarch",
+        "desc": "nucleic acid purification kits"
+      }
+    ],
+    "israel_presence": "distributor",
+    "israel_entities": [
+      {
+        "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+        "name_he": "",
+        "type": "distributor",
+        "scope": "New England Biolabs reagents (enzymes, NGS kits) - Ornat's vendor profile names NEB among the international brands it represents",
+        "website": "https://www.ornat.co.il",
+        "source": "https://www.fiseb.org/vendors/"
+      }
+    ],
+    "israel_note": "Search '\"New England Biolabs\" Israel distributor' returned the FISEB (Federation of Israeli Societies of Experimental Biology) vendors page, where Ornat BioChemicals & Lab Equipment describes itself as a privately owned Israeli life-science sales company (25+ years) representing 'top international brands such as New England Biolabs (NEB)'. NEB's own international ordering-support page states NEB sells abroad through exclusive distributors, agents and subsidiaries with a per-country list; the Israel entry was not visible in search snippets and the page could not be fetched, so the Ornat-NEB link rests on the Ornat/FISEB source (consistent with the brief's hint list, where Ornat appears). Hebrew search could not be run (budget exhausted). Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://www.fiseb.org/vendors/",
+      "https://www.neb.com/en-us/support/international-ordering-support",
+      "https://www.neb.com/en/about-neb/news-and-press-releases/collaborations-with-bioke-and-imperial-life-sciences",
+      "https://www.genomeweb.com/archive/new-england-biolabs-inks-distribution-deals"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Israel distributor (Ornat) is supported by one credible third-party listing quoting the distributor itself, not by NEB's own country list; size figures unavailable (private)."
+  },
+  {
+    "id": 25,
+    "name": "Bio-Techne Corporation",
+    "aka": "R&D Systems, Novus Biologicals, Tocris Bioscience, ProteinSimple, Advanced Cell Diagnostics (ACD / RNAscope), Asuragen, Lunaphore, ExosomeDx",
+    "hq_city": "Minneapolis, Minnesota",
+    "hq_country": "USA",
+    "parent": "",
+    "ownership": "Public (NASDAQ: TECH)",
+    "founded": 1976,
+    "website": "https://www.bio-techne.com",
+    "category": "Life-science instruments & reagents",
+    "employees": 3100,
+    "employees_year": 2025,
+    "employees_note": "Approximately 3,100 employees (Bio-Techne 10-K for FY ended 30 Jun 2025; recalled, not re-verified).",
+    "revenue_original": "USD 1.2 billion",
+    "revenue_usd_m": 1200,
+    "revenue_year": "FY2025 (ended 30 Jun 2025)",
+    "revenue_scope": "company",
+    "revenue_note": "FY2025 net sales approx. USD 1.2 billion (about USD 1.21-1.22 bn; recalled from company results, not re-verified). FY2026 (ended Jun 2026) results released Aug 2026 were not accessible in this session.",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "ProteinSimple Jess / Simple Western",
+        "desc": "automated capillary western-blot immunoassay systems"
+      },
+      {
+        "name": "R&D Systems proteins, antibodies & Quantikine ELISAs",
+        "desc": "recombinant proteins, antibodies, immunoassay kits"
+      },
+      {
+        "name": "RNAscope (ACD)",
+        "desc": "in situ hybridization assays for RNA detection"
+      }
+    ],
+    "israel_presence": "none_found",
+    "israel_entities": [],
+    "israel_note": "Searched: '\"Bio-Techne\" OR \"R&D Systems\" Israel distributor' (the Hebrew query 'R&D Systems / ProteinSimple / Bio-Techne ישראל נציג יבואן' was blocked by the exhausted search budget). Results showed Bio-Techne's distributor directory pages (rndsystems.com/distributors, bio-techne.com/distributors) with entries for other countries only; the directory could not be fetched to check an Israel entry. Bio-Techne Ltd (Abingdon, UK) states it supplies Europe, Africa and the Middle East, so Israel may be served directly from the UK and/or by an unidentified local distributor. The Dec-2024 MedSanTek agreement covers Turkey only. No Israeli entity established. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://www.rndsystems.com/distributors",
+      "https://bio-techne.com/distributors",
+      "https://bio-techne.com/about/about-bio-techne",
+      "https://investors.bio-techne.com/press-releases/detail/459/bio-techne-announces-new-distribution-agreement-with",
+      "https://www.rndsystems.com/contact-us-cms"
+    ],
+    "confidence": "low",
+    "confidence_note": "Israel channel could not be determined (locator not accessible, Hebrew search not run); size figures recalled from filings."
+  },
+  {
+    "id": 26,
+    "name": "Miltenyi Biotec B.V. & Co. KG",
+    "aka": "Miltenyi Biotec; MACS, CliniMACS, CliniMACS Prodigy, MACSQuant, autoMACS, gentleMACS, MACSima",
+    "hq_city": "Bergisch Gladbach",
+    "hq_country": "Germany",
+    "parent": "",
+    "ownership": "Private (founder-owned, Stefan Miltenyi)",
+    "founded": 1989,
+    "website": "https://www.miltenyibiotec.com",
+    "category": "Cell analysis (flow cytometry / cell sorting)",
+    "employees": 4700,
+    "employees_year": null,
+    "employees_note": "'More than 4,700 employees in 23 countries' per an undated chemie.de company profile seen in search results; the company's current website states more than 5,000 employees in ~28 countries (recalled, not re-verified).",
+    "revenue_original": "",
+    "revenue_usd_m": null,
+    "revenue_year": "",
+    "revenue_scope": "estimate",
+    "revenue_note": "Privately held; consolidated revenue is not published and no sourced estimate was obtained in this session.",
+    "size_basis": "mixed",
+    "top_products": [
+      {
+        "name": "MACS MicroBeads / autoMACS / MultiMACS",
+        "desc": "magnetic cell separation reagents and instruments"
+      },
+      {
+        "name": "CliniMACS Prodigy",
+        "desc": "automated closed-system cell-therapy manufacturing platform"
+      },
+      {
+        "name": "MACSQuant Analyzer / MACSQuant Tyto",
+        "desc": "flow cytometers and cartridge-based cell sorter"
+      }
+    ],
+    "israel_presence": "none_found",
+    "israel_entities": [],
+    "israel_note": "Only one search could be run ('\"Miltenyi Biotec\" Israel distributor'); it returned no Israel-related result. A German company profile listed Miltenyi subsidiaries in the USA, UK, France, Italy, Spain, China, Australia, Japan, Netherlands and Singapore (no Israel), and the company has used third-party distributors in some regions (e.g. Fisher Scientific in the Nordics before 2012). The planned follow-ups - 'Miltenyi Biotec Israel office / MACS Israel', Hebrew 'מילטני Miltenyi ישראל נציג יבואן MACS', and the manufacturer's contact/distributor page - were blocked by the exhausted search budget and fetch failures, so this 'none_found' is weak. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://www.chemie.de/firmen/350/miltenyi-biotec-b-v-co-kg.html",
+      "https://www.chemie.de/lexikon/Miltenyi_Biotec.html",
+      "https://www.mynewsdesk.com/se/miltenyibiotec/pressreleases/miltenyi-biotec-opens-its-new-nordic-subsidiary-776649"
+    ],
+    "confidence": "low",
+    "confidence_note": "Israel research incomplete (single search, no Hebrew search, no manufacturer page); private company without published revenue."
+  },
+  {
+    "id": 27,
+    "name": "10x Genomics, Inc.",
+    "aka": "10x; Chromium, Visium, Xenium",
+    "hq_city": "Pleasanton, California",
+    "hq_country": "USA",
+    "parent": "",
+    "ownership": "Public (NASDAQ: TXG)",
+    "founded": 2012,
+    "website": "https://www.10xgenomics.com",
+    "category": "Genomics / sequencing",
+    "employees": 1100,
+    "employees_year": 2024,
+    "employees_note": "Approximately 1,100 employees at 31 Dec 2024 (10-K; recalled, not re-verified).",
+    "revenue_original": "USD 610.8 million",
+    "revenue_usd_m": 611,
+    "revenue_year": "FY2024",
+    "revenue_scope": "company",
+    "revenue_note": "FY2024 revenue USD 610.8 million (10-K; recalled). FY2025 revenue (reported Feb 2026, roughly flat at ~USD 0.6 billion) could not be verified in this session.",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "Chromium (X / Flex / GEM-X)",
+        "desc": "single-cell gene-expression and multiomic platform"
+      },
+      {
+        "name": "Visium HD",
+        "desc": "high-resolution spatial transcriptomics"
+      },
+      {
+        "name": "Xenium",
+        "desc": "in situ single-cell spatial imaging platform"
+      }
+    ],
+    "israel_presence": "unclear",
+    "israel_entities": [
+      {
+        "name": "Danyel Biotech Ltd. (spelled 'Daniel Biotech' on the TAU page)",
+        "name_he": "",
+        "type": "distributor",
+        "scope": "10x Genomics product portfolio (Chromium single-cell etc.) - evidence is a 2019 Tel Aviv University seminar on the 10x portfolio co-hosted by Danyel Biotech and the TAU single-cell core with 10x's EMEA distributor business manager as speaker; current (2026) status unverified",
+        "website": "https://www.danyel.co.il",
+        "source": "https://en-med.tau.ac.il/node/7046"
+      }
+    ],
+    "israel_note": "Search '\"10x Genomics\" Israel distributor' surfaced a 2019 TAU Faculty of Medicine seminar 'Biology at True Resolution with the 10X Genomics product portfolio' invited by 'Daniel Biotech and the Single Cell Analysis Core', with a 10x Genomics EMEA distributor business manager presenting - strong indication that Danyel Biotech was 10x's Israeli distributor in 2019. 10x's official distributor locator (10xgenomics.com/distributors, 'select from all of our global distributors locations') could not be fetched and its Israel entry was not visible in snippets; the Hebrew/Danyel follow-up search was blocked by the exhausted budget. Because the only evidence is from 2019, the presence is marked 'unclear' with Danyel Biotech as the candidate distributor. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://en-med.tau.ac.il/node/7046",
+      "https://en-med.tau.ac.il/10xgenomics_seminar_2019?gid=106",
+      "https://www.10xgenomics.com/distributors",
+      "https://www.technologynetworks.com/genomics/news/10x-genomics-signs-asiapacific-distribution-deals-184381"
+    ],
+    "confidence": "low",
+    "confidence_note": "Israel channel rests on a single 2019 event page; manufacturer locator not accessible. Size figures recalled from 10-K."
+  },
+  {
+    "id": 28,
+    "name": "Oxford Nanopore Technologies plc",
+    "aka": "ONT; MinION, GridION, PromethION, Flongle, Dorado, EPI2ME",
+    "hq_city": "Oxford",
+    "hq_country": "UK",
+    "parent": "",
+    "ownership": "Public (LSE: ONT)",
+    "founded": 2005,
+    "website": "https://nanoporetech.com",
+    "category": "Genomics / sequencing",
+    "employees": 1100,
+    "employees_year": 2024,
+    "employees_note": "Approximately 1,100 employees (FY2024 annual report; recalled, not re-verified).",
+    "revenue_original": "GBP 183.2 million",
+    "revenue_usd_m": 238,
+    "revenue_year": "FY2024",
+    "revenue_scope": "company",
+    "revenue_note": "FY2024 revenue GBP 183.2 million (annual report; recalled). FY2025 results (published Mar 2026; company had guided ~20%+ growth) could not be verified in this session. Converted at GBP 1.30.",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "PromethION (2 Solo / P24 / P48)",
+        "desc": "high-throughput nanopore sequencers"
+      },
+      {
+        "name": "MinION",
+        "desc": "portable USB nanopore sequencer"
+      },
+      {
+        "name": "GridION",
+        "desc": "benchtop five-flow-cell nanopore sequencer"
+      }
+    ],
+    "israel_presence": "distributor",
+    "israel_entities": [
+      {
+        "name": "Zotal Ltd.",
+        "name_he": "",
+        "type": "distributor",
+        "scope": "Oxford Nanopore sequencing products (all) - 'officially licensed to sell Nanopore products in the following countries: Israel'",
+        "website": "https://www.zotal.co.il",
+        "source": "https://nanoporetech.com/about/channel-partners/zotal-ltd"
+      }
+    ],
+    "israel_note": "Confirmed on the manufacturer's own channel-partner directory: nanoporetech.com/about/channel-partners/zotal-ltd lists Zotal Ltd (Tel Aviv, Israel 6971008) as officially licensed to sell Nanopore products in Israel, with expertise areas including biopharma, infectious disease/SARS-CoV-2, environmental, microbiome and human genomics; the page exists in several language versions of the ONT site. ONT's Gulf deal with G42 Healthcare covers GCC, Jordan, Pakistan, Egypt and Iraq - not Israel. Zotal's own website could not be fetched to cross-check its brand list, and the Hebrew search could not be run, but the official ONT listing is sufficient. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://nanoporetech.com/about/channel-partners/zotal-ltd",
+      "https://nanoporetech.com/es/about/channel-partners/zotal-ltd",
+      "https://nanoporetech.com/news/news-g42-healthcare-signs-distribution-agreement-oxford-nanopore-technologies-sequencing"
+    ],
+    "confidence": "medium",
+    "confidence_note": "Israel distributor confirmed by the manufacturer's official channel-partner page (high); size figures recalled rather than re-verified (hence medium overall)."
+  },
+  {
+    "id": 29,
+    "name": "Pacific Biosciences of California, Inc.",
+    "aka": "PacBio; Revio, Vega, Sequel II/IIe, HiFi, Kinnex, Onso, SMRT",
+    "hq_city": "Menlo Park, California",
+    "hq_country": "USA",
+    "parent": "",
+    "ownership": "Public (NASDAQ: PACB)",
+    "founded": 2004,
+    "website": "https://www.pacb.com",
+    "category": "Genomics / sequencing",
+    "employees": null,
+    "employees_year": null,
+    "employees_note": "No headcount figure obtained from a source this session; after the 2024-2025 restructurings PacBio reported roughly 500-600 employees (10-K, recalled, unverified).",
+    "revenue_original": "USD 154.0 million",
+    "revenue_usd_m": 154,
+    "revenue_year": "FY2024",
+    "revenue_scope": "company",
+    "revenue_note": "FY2024 revenue USD 154.0 million (10-K; recalled). FY2025 revenue (reported Feb 2026; guided ~USD 150-170 million) not verified in this session.",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "Revio",
+        "desc": "high-throughput long-read HiFi sequencing system"
+      },
+      {
+        "name": "Vega",
+        "desc": "benchtop long-read HiFi sequencer"
+      },
+      {
+        "name": "Kinnex kits",
+        "desc": "full-length RNA/16S HiFi library kits"
+      }
+    ],
+    "israel_presence": "none_found",
+    "israel_entities": [],
+    "israel_note": "Search '\"PacBio\" OR \"Pacific Biosciences\" Israel distributor' returned PacBio's official 'Global distributors' page (pacb.com/global-distributors); in the excerpt visible, its Middle East & North Africa list covers Algeria, Bahrain, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Morocco, Oman, Qatar, Saudi Arabia, Tunisia, UAE and Uzbekistan - Israel is not listed. PacBio sells through a direct sales force in North America and Europe and via distributors elsewhere (corporate backgrounder), so Israel is most likely handled directly by PacBio's European organisation, but no source confirms this. The full distributor page could not be fetched and the Hebrew search could not be run. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://www.pacb.com/global-distributors",
+      "https://www.pacb.com/wp-content/uploads/CorporateBackgrounder.pdf",
+      "https://www.tipranks.com/news/the-fly/pacbio-appoints-haorui-gene-as-official-distributor-in-china"
+    ],
+    "confidence": "low",
+    "confidence_note": "Official distributor list excerpt omits Israel (suggesting no distributor / direct coverage) but the page could not be read in full; size figures recalled."
+  },
+  {
+    "id": 30,
+    "name": "Tecan Group Ltd.",
+    "aka": "Tecan; Fluent, Freedom EVO, Veya, Spark, Infinite, Cavro, Paramit, IBL International",
+    "hq_city": "Maennedorf (Zurich)",
+    "hq_country": "Switzerland",
+    "parent": "",
+    "ownership": "Public (SIX: TECN)",
+    "founded": 1980,
+    "website": "https://www.tecan.com",
+    "category": "Liquid handling & lab automation",
+    "employees": 3300,
+    "employees_year": 2024,
+    "employees_note": "Approximately 3,300 employees (Tecan Annual Report 2024; recalled, not re-verified).",
+    "revenue_original": "CHF 934.2 million",
+    "revenue_usd_m": 1093,
+    "revenue_year": "FY2024",
+    "revenue_scope": "company",
+    "revenue_note": "FY2024 sales CHF 934.2 million (annual report; recalled). FY2025 results (published Mar 2026; Tecan had guided a sales decline) not verified in this session. Converted at CHF 1.17.",
+    "size_basis": "reported",
+    "top_products": [
+      {
+        "name": "Fluent",
+        "desc": "automated liquid-handling workstation"
+      },
+      {
+        "name": "Freedom EVO",
+        "desc": "modular liquid-handling and robotics platform"
+      },
+      {
+        "name": "Spark",
+        "desc": "multimode microplate reader"
+      }
+    ],
+    "israel_presence": "distributor",
+    "israel_entities": [
+      {
+        "name": "Gamidor Diagnostics",
+        "name_he": "",
+        "type": "distributor",
+        "scope": "Tecan clinical/diagnostics products - LC-MS kits and calibrators (Tecan/IBL) promoted at a 2025 conference; coverage of Tecan liquid-handling/plate-reader lines not confirmed",
+        "website": "",
+        "source": "https://il.linkedin.com/in/moshe-cohen-84656279"
+      }
+    ],
+    "israel_note": "Search '\"Tecan\" Israel distributor' found a LinkedIn item by an Israeli professional describing Gamidor Diagnostics as Tecan's partner in Israel, promoting Tecan LC-MS kits and calibrators at a 2025 conference. This is a single third-party social-media source; it could not be confirmed on tecan.com (fetch blocked) and the Hebrew query 'טקאן Tecan ישראל נציג יבואן' and the 'Tecan Israel partner Gamidor/Eldan/Rhenium' query were blocked by the exhausted budget. Gamidor Diagnostics appears in the brief's list of known Israeli diagnostics distributors. The channel for Tecan's life-science automation (Fluent/Freedom EVO/Spark) in Israel remains unestablished. Tool limits in this session: the shared web-search budget was exhausted after the first round of searches and all page fetches (WebFetch/curl) were blocked, so manufacturer distributor/contact pages could not be opened and some Hebrew searches could not be run. Size figures marked 'recalled' come from company filings/pages as known to the researcher (knowledge to mid-2026) and were not re-verified against a fetched source.",
+    "sources": [
+      "https://il.linkedin.com/in/moshe-cohen-84656279",
+      "https://www.labmanager.com/tecan-expands-presence-in-the-united-states-with-new-distribution-agreement-for-detection-instruments-and-consumables-23766"
+    ],
+    "confidence": "low",
+    "confidence_note": "Israel partner based on one LinkedIn source covering only the diagnostics line; size figures recalled."
+  }
+]
