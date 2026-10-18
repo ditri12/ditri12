@@ -691,5 +691,60 @@
   "contact_url": "",
   "source": "https://www.dunsguide.co.il/en/C0adbc6e5365ecf0878126e9b113fe98d_zotal/",
   "note": "distributor; Dun's Guide listing (verify)"
+ },
+ {
+  "key": "doronscientific",
+  "name": "Doron Scientific",
+  "phone": "+972-54-554-4004",
+  "email": "info@doronscientific.com",
+  "address": "8 Yehoshua Baum St., Kiryat Ono",
+  "website": "https://www.doronscientific.com",
+  "contact_url": "",
+  "source": "https://biotium.com/authorized-distributors/middle-east",
+  "note": "distributor of research reagents (antibodies, proteins, kits)"
+ },
+ {
+  "key": "yairtech",
+  "name": "Yair Technologies (Yair Tech)",
+  "phone": "+972-8-854-4856",
+  "email": "contact@yairtech.co.il",
+  "address": "",
+  "website": "https://www.yairtech.co.il",
+  "contact_url": "",
+  "source": "https://www.yairtech.co.il/partners/",
+  "note": "distributor of lab consumables and reagents"
+ },
+ {
+  "key": "nbtltd",
+  "name": "New Biotechnology Ltd. (NBT)",
+  "phone": "+972-2-673-2001",
+  "email": "nbtsales@nbtltd.com",
+  "address": "3 Mekor Haim St., P.O. Box 8662, Jerusalem 91086",
+  "website": "https://www.nbtltd.com",
+  "contact_url": "",
+  "source": "https://nbtltd.com/suppliers",
+  "note": "distributor of scientific and medical products (physiology, neuroscience)"
+ },
+ {
+  "key": "tivanbiotech",
+  "name": "Tivan Biotech",
+  "phone": "+972-77-470-1591",
+  "email": "customerservice@tivanbiotech.com",
+  "address": "",
+  "website": "https://www.tivanbiotech.com",
+  "contact_url": "",
+  "source": "https://www.tivanbiotech.com/",
+  "note": "distributor of reagents, kits and consumables"
+ },
+ {
+  "key": "syntezza",
+  "name": "Syntezza Bioscience Ltd.",
+  "phone": "",
+  "email": "",
+  "address": "17 Hartom St., Har Hotzvim, Jerusalem",
+  "website": "https://www.syntezza.com",
+  "contact_url": "",
+  "source": "https://www.syntezza.com/about/",
+  "note": "distributor / service provider (genes, peptides, sequencing)"
  }
 ]
