@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+
+# fleet-management
+fleet-management/*.db
+fleet-management/*.db-*
+fleet-management/dist/
+fleet-management/build/pyi/
+fleet-management/*.spec
