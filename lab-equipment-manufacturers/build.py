@@ -74,6 +74,35 @@ FX_TO_USD = {"USD": 1.0, "EUR": 1.08, "GBP": 1.27, "CHF": 1.12, "JPY": 0.0067, "
              "MXN": 0.055, "TRY": 0.03, "ZAR": 0.055, "HUF": 0.0027}
 
 
+CATEGORY_RULES = [
+    ("ריאגנטים וביולוגיה מולקולרית", r"antibod|elisa|assay|reagent|enzyme|primer|dna|rna|pcr|protein|peptide|cell line|serum|medium|media\b|transfection|kit\b|lysate|plasmid|oligo|recombinant|inhibitor|agonist|cytokine"),
+    ("מיקרוביולוגיה", r"agar|broth|culture media|petri|microbiolog|swab|inoculat|loop\b|dehydrated"),
+    ("כימיקלים ותקנים", r"chemical|acid\b|solvent|standard solution|reference material|buffer solution|ethanol|methanol|reagent grade|acs grade|hplc grade|salt\b|sodium|potassium|certified reference"),
+    ("בטיחות וציוד מגן", r"glove|safety|eyewear|goggle|respirator|face shield|apron|lab coat|coverall|first aid|spill|eyewash|shower|hearing|hard hat|mask\b|disinfect|sanitiz"),
+    ("מכשור אנליטי ומדידה", r"balance|scale\b|meter\b|ph meter|spectro|chromatograph|hplc|gc\b|mass spec|microscope|refractometer|viscometer|titrat|conductivity|thermometer|data logger|sensor|analy[sz]er|colorimeter|densit|calibrat|weight set"),
+    ("ציוד מעבדה", r"centrifug|incubator|oven|freezer|refrigerator|shaker|stirrer|hot ?plate|water bath|pump|autoclave|steriliz|homogeniz|mixer|vortex|rotator|evaporator|heating|chiller|circulator|cabinet|hood|biosafety|fume|furnace|thermocycler|thermal cycler|dispenser|washer|dryer|ultrasonic|lyophiliz|bioreactor|fermentor|imaging system|reader\b"),
+    ("פיפטות ומתכלים", r"pipet|tip\b|tips\b|tube\b|tubes\b|flask|beaker|bottle|vial|plate\b|plates\b|rack\b|cuvette|syringe|filter\b|membrane|cryo|microplate|reservoir|dish\b|slide|cover ?slip|container|jar\b|cap\b|caps\b|closure|labware|plasticware|glassware|funnel|cylinder|dropper|bag\b|bags\b|wipe|towel|tubing|hose|stopper|septa"),
+    ("ריהוט ותשתיות מעבדה", r"furniture|cart\b|bench|chair|stool|desk|shelf|shelving|workstation|table\b|cabinetry|casework|storage system|lockers?|sink|faucet"),
+    ("סימון, משרד ואריזה", r"label|tape\b|marker|pen\b|printer|ribbon|paper\b|notebook|binder|office|packaging|box\b|boxes|envelope|shipping|stationery|clip"),
+    ("כלי עבודה ותחזוקה", r"tool\b|tools\b|wrench|plier|cutter|knife|blade|drill|clamp|stand\b|support|hardware|fitting|valve|gauge|regulator|connector|adapter|cable|battery|lamp|bulb|light\b"),
+]
+
+
+def guess_category(r):
+    """Coarse Hebrew category from catalog facet (Dutscher) or from product names / description (keyword heuristic)."""
+    if r.get("categories"):
+        return r["categories"][0]["name_he"], "catalog_facet"
+    text = " ".join([p.get("name") or "" for p in (r.get("products") or [])] + [r.get("description") or "", r.get("industry") or ""]).lower()
+    if not text.strip():
+        return None, None
+    best, best_n = None, 0
+    for name, rx in CATEGORY_RULES:
+        n = len(re.findall(rx, text))
+        if n > best_n:
+            best, best_n = name, n
+    return (best, "keyword_guess") if best else (None, None)
+
+
 def load_json(path, default):
     if Path(path).exists():
         with open(path, encoding="utf-8") as f:
@@ -278,6 +307,11 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov, search
         srcs.append(sc["source"])
     srcs += [h.get("source") for h in sweep_hits if h.get("source")]
     r["sources"] = list(dict.fromkeys(s for s in srcs if s))
+    cat, cat_src = guess_category(r)
+    r["category"] = first(ov.get("category"), cat)
+    r["category_source"] = "manual" if ov.get("category") else cat_src
+    if not r.get("industry") and r["category"]:
+        r["industry"] = r["category"]
     r["prior_verified"] = bool(prior)
     r["prior_verified_at"] = prior.get("verified_at")
     return r
@@ -348,7 +382,7 @@ def write_json(rows, generated):
 
 
 CSV_COLUMNS = ["id", "name", "catalogs", "dutscher_url", "thomassci_url", "quartzy", "quartzy_new", "own_brand_of", "website", "website_source",
-               "country", "country_he", "hq", "parent", "inception", "industry", "description",
+               "country", "country_he", "hq", "parent", "inception", "industry", "category", "category_source", "description",
                "employees", "employees_year", "employees_scope", "employees_source", "revenue_usd_m", "revenue_original", "revenue_year", "revenue_scope", "revenue_source",
                "size_basis", "product_1", "product_2", "product_3", "products_source",
                "israel_presence", "israel_presence_he", "israel_check", "israel_check_he", "israel_evidence_year", "israel_entities", "israel_entities_contacts", "israel_note",
@@ -367,7 +401,7 @@ def flat_row(r):
         "quartzy": "yes" if "quartzy" in r["catalogs"] else "", "quartzy_new": "yes" if "quartzy_new" in r["catalogs"] else "",
         "own_brand_of": r.get("own_brand_of"), "website": r.get("website"), "website_source": r.get("website_source"),
         "country": r.get("country"), "country_he": r.get("country_he"), "hq": r.get("hq"), "parent": r.get("parent"), "inception": r.get("inception"),
-        "industry": r.get("industry"), "description": r.get("description"),
+        "industry": r.get("industry"), "category": r.get("category"), "category_source": r.get("category_source"), "description": r.get("description"),
         "employees": e.get("value"), "employees_year": e.get("year"), "employees_scope": e.get("scope"), "employees_source": e.get("source"),
         "revenue_usd_m": v.get("usd_m"), "revenue_original": v.get("original"), "revenue_year": v.get("year"), "revenue_scope": v.get("scope"), "revenue_source": v.get("source"),
         "size_basis": r.get("size_basis"),
@@ -415,16 +449,16 @@ def write_xlsx(rows, generated):
 
     ws = wb.active
     ws.title = "Suppliers"
-    headers = ["#", "ספק/יצרן", "קטלוגים", "Dutscher", "Thomas Sci.", "Quartzy", "מותג-בית של", "אתר", "מקור האתר", "מדינה", "מטה", "חברת-אם", "שנת ייסוד", "תחום",
+    headers = ["#", "ספק/יצרן", "קטלוגים", "Dutscher", "Thomas Sci.", "Quartzy", "מותג-בית של", "אתר", "מקור האתר", "מדינה", "מטה", "חברת-אם", "שנת ייסוד", "תחום", "קטגוריה", "מקור הקטגוריה",
                "תיאור", "עובדים", "שנת נתון", "היקף", "מקור", "הכנסות (מיליוני $)", "הכנסות (מקור)", "שנה", "היקף", "מקור", "בסיס הגודל",
                "מוצר 1", "מוצר 2", "מוצר 3", "מקור המוצרים", "ייצוג בישראל", "סטטוס בדיקה", "שנת ראיה", "נציגים בישראל", "אנשי קשר – נציגים", "הערה (ישראל)",
                "טלפון", "דוא\"ל", "כתובת", "דף יצירת קשר", "מקור אנשי קשר", "Wikidata", "מקורות"]
-    widths = [5, 30, 8, 12, 12, 8, 12, 30, 9, 12, 18, 20, 8, 20, 50, 10, 8, 9, 9, 14, 7, 7, 9, 9, 10, 28, 28, 28, 10, 20, 14, 8, 40, 50, 40, 16, 24, 36, 30, 20, 10, 60]
+    widths = [5, 30, 8, 12, 12, 8, 12, 30, 9, 12, 18, 20, 8, 20, 18, 10, 50, 10, 8, 9, 9, 14, 7, 7, 9, 9, 10, 28, 28, 28, 10, 20, 14, 8, 40, 50, 40, 16, 24, 36, 30, 20, 10, 60]
     sheet(ws, headers, widths)
     for r in rows:
         fr = flat_row(r)
         ws.append([fr["id"], fr["name"], fr["catalogs"], fr["dutscher_url"], fr["thomassci_url"], fr["quartzy"] + (" +new" if fr["quartzy_new"] else ""), fr["own_brand_of"],
-                   fr["website"], fr["website_source"], fr["country_he"], fr["hq"], fr["parent"], fr["inception"], fr["industry"], fr["description"],
+                   fr["website"], fr["website_source"], fr["country_he"], fr["hq"], fr["parent"], fr["inception"], fr["industry"], fr["category"], fr["category_source"], fr["description"],
                    fr["employees"], fr["employees_year"], fr["employees_scope"], fr["employees_source"], fr["revenue_usd_m"], fr["revenue_original"], fr["revenue_year"], fr["revenue_scope"], fr["revenue_source"], fr["size_basis"],
                    fr["product_1"], fr["product_2"], fr["product_3"], fr["products_source"], fr["israel_presence_he"], fr["israel_check_he"], fr["israel_evidence_year"],
                    fr["israel_entities"], fr["israel_entities_contacts"], fr["israel_note"], fr["contact_phone"], fr["contact_email"], fr["contact_address"], fr["contact_url"], fr["contact_source"], fr["wikidata"], fr["sources"]])
@@ -461,13 +495,13 @@ def write_xlsx(rows, generated):
     for c in CATALOGS:
         ws5.append([f"מופיעים ב-{CATALOGS[c]['name']}", f'=COUNTIF(Suppliers!{"D" if c == "dutscher" else "E" if c == "thomassci" else "F"}2:{"D" if c == "dutscher" else "E" if c == "thomassci" else "F"}{n + 1},"{"*new*" if c == "quartzy_new" else "?*"}")'])
     for p in PRESENCE:
-        ws5.append([PRESENCE_HE[p], f'=COUNTIF(Suppliers!AD2:AD{n + 1},"{PRESENCE_HE[p]}")'])
+        ws5.append([PRESENCE_HE[p], f'=COUNTIF(Suppliers!AF2:AF{n + 1},"{PRESENCE_HE[p]}")'])
     ws5.append(["עם אתר מזוהה", f'=COUNTIF(Suppliers!H2:H{n + 1},"http*")'])
-    ws5.append(["עם נתון עובדים", f"=COUNT(Suppliers!P2:P{n + 1})"])
-    ws5.append(["עם נתון הכנסות", f"=COUNT(Suppliers!T2:T{n + 1})"])
-    ws5.append(["עם 3 מוצרים", f'=COUNTIF(Suppliers!AB2:AB{n + 1},"?*")'])
-    ws5.append(["עם טלפון", f'=COUNTIF(Suppliers!AJ2:AJ{n + 1},"?*")'])
-    ws5.append(["חציון עובדים", f"=MEDIAN(Suppliers!P2:P{n + 1})"])
+    ws5.append(["עם נתון עובדים", f"=COUNT(Suppliers!R2:R{n + 1})"])
+    ws5.append(["עם נתון הכנסות", f"=COUNT(Suppliers!V2:V{n + 1})"])
+    ws5.append(["עם 3 מוצרים", f'=COUNTIF(Suppliers!AD2:AD{n + 1},"?*")'])
+    ws5.append(["עם טלפון", f'=COUNTIF(Suppliers!AL2:AL{n + 1},"?*")'])
+    ws5.append(["חציון עובדים", f"=MEDIAN(Suppliers!R2:R{n + 1})"])
     for row in ws5.iter_rows(min_row=2):
         row[0].font = Font(bold=True)
     wb.save(DATA / "suppliers.xlsx")
@@ -486,7 +520,7 @@ def sql_quote(v):
 SCHEMA = """\
 CREATE TABLE suppliers (
   id INTEGER PRIMARY KEY, key TEXT, name TEXT, catalogs TEXT, dutscher_url TEXT, thomassci_url TEXT, quartzy TEXT, quartzy_new TEXT, own_brand_of TEXT,
-  website TEXT, website_source TEXT, country TEXT, country_he TEXT, hq TEXT, parent TEXT, inception TEXT, industry TEXT, description TEXT,
+  website TEXT, website_source TEXT, country TEXT, country_he TEXT, hq TEXT, parent TEXT, inception TEXT, industry TEXT, category TEXT, category_source TEXT, description TEXT,
   employees INTEGER, employees_year TEXT, employees_scope TEXT, employees_source TEXT,
   revenue_usd_m REAL, revenue_original TEXT, revenue_year TEXT, revenue_scope TEXT, revenue_source TEXT, size_basis TEXT,
   israel_presence TEXT, israel_presence_he TEXT, israel_check TEXT, israel_check_he TEXT, israel_evidence_year INTEGER, israel_note TEXT,
@@ -505,7 +539,7 @@ def write_sql_and_sqlite(rows, generated):
     stmts = []
     for r in rows:
         fr = flat_row(r)
-        cols = ["id", "key", "name", "catalogs", "dutscher_url", "thomassci_url", "quartzy", "quartzy_new", "own_brand_of", "website", "website_source", "country", "country_he", "hq", "parent", "inception", "industry", "description",
+        cols = ["id", "key", "name", "catalogs", "dutscher_url", "thomassci_url", "quartzy", "quartzy_new", "own_brand_of", "website", "website_source", "country", "country_he", "hq", "parent", "inception", "industry", "category", "category_source", "description",
                 "employees", "employees_year", "employees_scope", "employees_source", "revenue_usd_m", "revenue_original", "revenue_year", "revenue_scope", "revenue_source", "size_basis",
                 "israel_presence", "israel_presence_he", "israel_check", "israel_check_he", "israel_evidence_year", "israel_note",
                 "contact_phone", "contact_email", "contact_address", "contact_url", "contact_source", "wikidata"]
