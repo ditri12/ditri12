@@ -102,7 +102,7 @@ const DATA = JSON.parse(document.getElementById('data').textContent);
 const ROWS = DATA.suppliers;
 const PRES = DATA.israel_presence_values, CHECK = DATA.israel_check_values;
 const CATS = DATA.catalogs;
-const PRES_CLS = {subsidiary:'ok',distributor:'ok',parent_subsidiary:'info',none_found:'bad',unclear:'warn',not_found_in_sweep:'',pending:''};
+const PRES_CLS = {subsidiary:'ok',distributor:'ok',parent_subsidiary:'info',none_found:'bad',unclear:'warn',not_found_in_search:'',not_found_in_sweep:'',pending:''};
 const ETYPE = {subsidiary:'חברה-בת',distributor:'מפיץ',service:'שירות',office:'משרד'};
 const ESTAT = {current:'עדכני',older_evidence:'ראיה ישנה',no_longer:'לא עוד',new:'חדש'};
 const SRC_HE = {prior:'מחקר קודם מאומת',wikidata:'Wikidata',clearbit:'זיהוי דומיין אוטומטי – לאימות',clearbit_verified:'זיהוי דומיין, אומת מול האתר',manual:'ידני',site:'אתר החברה',catalog:'קטלוג',thomassci:'Thomas Scientific',dutscher:'Dutscher'};
@@ -173,7 +173,7 @@ function matches(r){
   if(state.q){const q=state.q.toLowerCase();const hay=[r.name,...(r.names||[]),r.aka,r.country,r.country_he,r.parent,r.industry,r.description,...(r.israel_entities||[]).map(e=>e.name+' '+(e.name_he||'')),...(r.products||[]).map(p=>p.name)].join(' ').toLowerCase();if(!hay.includes(q))return false}
   return true;
 }
-function sortVal(r,k){switch(k){case 'emp':return empOf(r)??-1;case 'rev':return revOf(r)??-1;case 'ents':return (r.israel_entities||[]).length;case 'israel_presence':return ['subsidiary','distributor','parent_subsidiary','unclear','not_found_in_sweep','none_found','pending'].indexOf(r.israel_presence);default:return r[k]??''}}
+function sortVal(r,k){switch(k){case 'emp':return empOf(r)??-1;case 'rev':return revOf(r)??-1;case 'ents':return (r.israel_entities||[]).length;case 'israel_presence':return ['subsidiary','distributor','parent_subsidiary','unclear','not_found_in_search','not_found_in_sweep','none_found','pending'].indexOf(r.israel_presence);default:return r[k]??''}}
 let filtered=[];
 function render(){
   filtered=ROWS.filter(matches);
@@ -208,7 +208,7 @@ $('#more').addEventListener('click',()=>{state.shown+=300;render()});
 $('#copy').addEventListener('click',()=>{const h=['#','ספק','קטלוגים','אתר','מדינה','חברת-אם','עובדים','שנה','הכנסות $M','שנה','ייצוג בישראל','בדיקה','נציגים','מוצרים','טלפון','דוא"ל'];const lines=[h.join('\t')].concat(filtered.map(r=>[r.id,r.name,Object.keys(CATS).filter(c=>r.catalogs[c]).map(c=>CATS[c].short).join('+'),r.website||'',r.country_he||'',r.parent||'',empOf(r)??'',r.employees?r.employees.year||'':'',revOf(r)??'',r.revenue?r.revenue.year||'':'',PRES[r.israel_presence],CHECK[r.israel_check],(r.israel_entities||[]).map(e=>e.name).join('; '),(r.products||[]).map(p=>p.name).join('; '),(r.contact||{}).phone||'',(r.contact||{}).email||''].map(v=>String(v).replace(/\t|\n/g,' ')).join('\t')));const txt=lines.join('\n');const done=()=>{$('#copy').textContent='הועתק ✓';setTimeout(()=>$('#copy').textContent='העתק TSV',1500)};const fallback=()=>{const ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}document.body.removeChild(ta)};try{navigator.clipboard.writeText(txt).then(done).catch(fallback)}catch(e){fallback()}});
 $('#foot').innerHTML=`<h3>מתודולוגיה</h3>
 <p><b>אוכלוסייה.</b> כל הספקים/המותגים המופיעים בדפי הספקים של Dutscher (brands), Thomas Scientific (browse-by/suppliers) ו-Quartzy (suppliers, new-suppliers) נכון ל-${DATA.generated}. שמות זהים בקטלוגים שונים אוחדו לרשומה אחת (נרמול שמות: סיומות תאגידיות, סימני רישום).</p>
-<p><b>ייצוג בישראל.</b> "מפיץ/נציג" מסומן כאשר שם הספק מופיע בדפי המותגים/הספקים של מפיץ ישראלי שנסרקו (${(DATA.israeli_entities_index||[]).length} גופים ישראליים במאגר), או כאשר אומת במחקר הקודם מול אתר היצרן. "לא נמצא בסריקת המפיצים" פירושו שהשם לא נמצא באתרי המפיצים שנסרקו – לא הוכחה להיעדר ייצוג. "ראיה מ-שנה" מציין את שנת העדות העדכנית ביותר.</p>
+<p><b>ייצוג בישראל.</b> "מפיץ/נציג" מסומן כאשר שם הספק מופיע בדפי המותגים/הספקים של מפיץ ישראלי שנסרקו (${(DATA.israeli_entities_index||[]).length} גופים ישראליים במאגר), או כאשר אומת במחקר הקודם מול אתר היצרן. "לא נמצא בסריקת המפיצים" פירושו שהשם לא נמצא באתרי המפיצים שנסרקו, ו"לא נמצא בחיפוש ראשוני" – שגם חיפוש אינטרנט יחיד לא העלה ערוץ ישראלי; שניהם אינם הוכחה להיעדר ייצוג. "ראיה מ-שנה" מציין את שנת העדות העדכנית ביותר.</p>
 <p><b>גודל.</b> עובדים והכנסות מדיווחים רשמיים (מחקר קודם) או מ-Wikidata עם שנת הנתון; המרה לדולר לפי שערי 2026 מקורבים. "לא פורסם" – לא נמצא נתון פומבי (רוב החברות הפרטיות הקטנות).</p>
 <p><b>מוצרים.</b> שלושה מוצרים מובילים מהמחקר הקודם (יצרנים גדולים) או מוצרים מייצגים כפי שמופיעים בקטלוגים.</p>
 <p><b>פרטי קשר.</b> כתובות דוא"ל כלליות בלבד (info@/sales@), ללא כתובות אישיות. טלפונים שמקורם במדריכים עסקיים מסומנים לאימות.</p>`;

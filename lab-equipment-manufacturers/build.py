@@ -36,13 +36,14 @@ CATALOGS = {
     "quartzy": {"name": "Quartzy", "name_he": "Quartzy (ארה\"ב)", "url": "https://www.quartzy.com/suppliers", "short": "Q"},
     "quartzy_new": {"name": "Quartzy – new suppliers", "name_he": "Quartzy – ספקים חדשים", "url": "https://info.quartzy.com/new-suppliers", "short": "Q+"},
 }
-PRESENCE = ["subsidiary", "distributor", "parent_subsidiary", "none_found", "unclear", "not_found_in_sweep", "pending"]
+PRESENCE = ["subsidiary", "distributor", "parent_subsidiary", "none_found", "unclear", "not_found_in_search", "not_found_in_sweep", "pending"]
 PRESENCE_HE = {
     "subsidiary": "חברה-בת בישראל",
     "distributor": "מפיץ/נציג בישראל",
     "parent_subsidiary": "דרך חברת-האם בישראל",
     "none_found": "לא נמצא ערוץ ישראלי",
     "unclear": "לא ברור",
+    "not_found_in_search": "לא נמצא בחיפוש ראשוני",
     "not_found_in_sweep": "לא נמצא בסריקת המפיצים",
     "pending": "טרם נבדק",
 }
@@ -233,7 +234,7 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov, search
         presence = "distributor" if all((h.get("type") or "distributor") == "distributor" for h in sweep_hits) else "subsidiary"
         check = "partial" if any(h.get("match_basis") == "manufacturer_or_press" for h in sweep_hits) else "sweep"
     elif searched:
-        presence = "none_found" if searched.get("status") == "none_found" else "unclear"
+        presence = "unclear" if searched.get("presence") == "unclear" else "not_found_in_search"
         check = "partial"
     else:
         presence = "not_found_in_sweep"
