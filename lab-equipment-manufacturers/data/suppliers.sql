@@ -148,7 +148,24 @@ INSERT INTO sources VALUES (16, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (16, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (16, 'https://www.bemek.co.il/');
 INSERT INTO sources VALUES (16, 'https://doronscientific.com/products/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (17, 'abgene', 'Abgene', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Abgene', NULL, NULL, NULL, NULL, 'https://abgenex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+91-9437550560', NULL, NULL, 'https://abgenex.com/contact', 'https://abgenex.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (17, 'abgene', 'Abgene', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Abgene', NULL, NULL, NULL, NULL, 'https://abgenex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://abgenex.com/contact) but no distributor name could be extracted automatically: «erritories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-bissau
+Guyana
+Haiti
+Heard and Mc Donald»', '+91-9437550560', NULL, NULL, 'https://abgenex.com/contact', 'https://abgenex.com/contact', NULL);
 INSERT INTO products VALUES (17, 1, 'Strip of 8 natural* microtubes + domed cap ABgene', NULL, 'dutscher', 'https://www.dutscher.com/article/016000');
 INSERT INTO products VALUES (17, 2, 'PCR plate Thermo-Fast 96 wells natural colour ABgene', NULL, 'dutscher', 'https://www.dutscher.com/article/016015');
 INSERT INTO products VALUES (17, 3, 'BEARING PLATES, 96 WELL, 0.8 ML PU = 50', NULL, 'dutscher', 'https://www.dutscher.com/article/017236');
@@ -305,7 +322,37 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO sources VALUES (44, 'https://www.quartzy.com/suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (45, 'advanced tech', 'Advanced Tech Group', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (45, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (46, 'advansta', 'Advansta', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/advansta', 'yes', NULL, NULL, 'https://advansta.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'No result mentions Advansta; the only similar-name hit was ADVANSYS Technologies for Life (Israeli distributor of Genovis, 2010), an unrelated company.', '1-855-238-2678', NULL, NULL, 'https://advansta.com/contact-sales-support/', 'https://advansta.com/contact-sales-support/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (46, 'advansta', 'Advansta', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/advansta', 'yes', NULL, NULL, 'https://advansta.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'No result mentions Advansta; the only similar-name hit was ADVANSYS Technologies for Life (Israeli distributor of Genovis, 2010), an unrelated company. | "Israel" appears on the manufacturer''s distributor/contact page (https://advansta.com/) but no distributor name could be extracted automatically: «ana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guernsey
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard and McDonald Islands
+
+Honduras
+
+H»', '1-855-238-2678', NULL, NULL, 'https://advansta.com/contact-sales-support/', 'https://advansta.com/contact-sales-support/', NULL);
 INSERT INTO products VALUES (46, 1, 'Blot Development Folders', NULL, 'thomassci', 'https://www.thomassci.com/p/blot-development-folders');
 INSERT INTO products VALUES (46, 2, 'WesternBright™ ECL HRP Substrate', NULL, 'thomassci', 'https://www.thomassci.com/p/westernbright-ecl-hrp-substrate');
 INSERT INTO products VALUES (46, 3, 'Afyon™ SDS-PAGE Sample Preparation Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/afyon-sds-page-sample-preparation-kit');
@@ -314,6 +361,7 @@ INSERT INTO products VALUES (46, 5, 'Blotting Papers', NULL, 'thomassci', 'https
 INSERT INTO sources VALUES (46, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (46, 'https://www.thomassci.com/browse-by/suppliers/advansta');
 INSERT INTO sources VALUES (46, 'https://advansta.com/contact-sales-support/');
+INSERT INTO sources VALUES (46, 'https://advansta.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (47, 'advantage lab', 'Advantage Lab', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Advantage+Lab', NULL, NULL, NULL, NULL, 'https://advantage-lab.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'Water bath and circulator', 'Water bath and circulator', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+3256531133', 'info@mls.be', NULL, 'https://www.mls.be/en/contact', 'https://www.mls.be/en/contact', NULL);
 INSERT INTO products VALUES (47, 1, 'HEATING ELEMENT AL03-07-230', NULL, 'dutscher', 'https://www.dutscher.com/article/140446');
 INSERT INTO products VALUES (47, 2, 'Stainless steel "roof shaped" cover for 45 L water bath', NULL, 'dutscher', 'https://www.dutscher.com/article/032839');
@@ -394,7 +442,35 @@ INSERT INTO sources VALUES (56, 'http://eldan.biz/fisebilanit-2014/');
 INSERT INTO sources VALUES (56, 'https://www.sec.gov/Archives/edgar/data/1090872/000109087225000087/a-20251031.htm');
 INSERT INTO sources VALUES (56, 'https://www.businesswire.com/news/home/20251124941358/en/Agilent-Reports-Fourth-Quarter-Fiscal-Year-2025-Financial-Results');
 INSERT INTO sources VALUES (56, 'https://www.wikidata.org/wiki/Q393762');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (57, 'ahlstrom', 'Ahlstrom', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Ahlstrom', NULL, NULL, NULL, NULL, 'https://ahlstrom.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, 'https://www.ahlstrom.com/Media/Media-contacts/', 'https://www.ahlstrom.com/Media/Media-contacts/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (57, 'ahlstrom', 'Ahlstrom', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Ahlstrom', NULL, NULL, NULL, NULL, 'https://ahlstrom.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.ahlstrom.com/Contact-us/) but no distributor name could be extracted automatically: «Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard Island &amp; Mcdonald Islands
+
+H»', NULL, NULL, NULL, 'https://www.ahlstrom.com/Media/Media-contacts/', 'https://www.ahlstrom.com/Media/Media-contacts/', NULL);
 INSERT INTO products VALUES (57, 1, 'Antibiotics disc 6 mm', NULL, 'dutscher', 'https://www.dutscher.com/article/074074');
 INSERT INTO products VALUES (57, 2, 'Pack of non-folded white filter paper, 42 x 52 cm, 64 g/m²', NULL, 'dutscher', 'https://www.dutscher.com/article/074021');
 INSERT INTO products VALUES (57, 3, 'Sterile membrane, grid pattern, ø 47 mm - porosity 0.45 µm - black grid pattern on white background - ClearLine®', NULL, 'dutscher', 'https://www.dutscher.com/article/010362C');
@@ -402,9 +478,39 @@ INSERT INTO products VALUES (57, 4, 'Glass microfiber filter sheets, grade 261, 
 INSERT INTO products VALUES (57, 5, 'Glass microfiber filter sheets, grade 261, ø 47 mm', NULL, 'dutscher', 'https://www.dutscher.com/article/036315B');
 INSERT INTO sources VALUES (57, 'https://www.dutscher.com/search?initialFilters=brand:Ahlstrom');
 INSERT INTO sources VALUES (57, 'https://www.ahlstrom.com/Media/Media-contacts/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (58, 'ahlstrom munksjo', 'Ahlstrom-Munksjo', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ahlstrom-munksjo', NULL, NULL, NULL, 'https://www.ahlstrom.com/', 'wikidata', 'Finland', 'פינלנד', 'Helsinki', NULL, '1851', 'industrial manufacturing', NULL, NULL, 'Finnish fiber company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Helsinki', NULL, NULL, 'Q400563');
+INSERT INTO sources VALUES (57, 'https://www.ahlstrom.com/Contact-us/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (58, 'ahlstrom munksjo', 'Ahlstrom-Munksjo', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ahlstrom-munksjo', NULL, NULL, NULL, 'https://www.ahlstrom.com/', 'wikidata', 'Finland', 'פינלנד', 'Helsinki', NULL, '1851', 'industrial manufacturing', NULL, NULL, 'Finnish fiber company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.ahlstrom.com/Contact-us/) but no distributor name could be extracted automatically: «Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard Island &amp; Mcdonald Islands
+
+H»', NULL, NULL, 'Helsinki', NULL, NULL, 'Q400563');
 INSERT INTO sources VALUES (58, 'https://www.thomassci.com/browse-by/suppliers/ahlstrom-munksjo');
 INSERT INTO sources VALUES (58, 'https://www.wikidata.org/wiki/Q400563');
+INSERT INTO sources VALUES (58, 'https://www.ahlstrom.com/Contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (59, 'aifchem', 'AiFChem', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (59, 'https://www.quartzy.com/suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (60, 'air science', 'Air Science USA, LLC', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/air-science-usa-llc', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -467,13 +573,50 @@ INSERT INTO sources VALUES (68, 'https://www.thomassci.com/browse-by/suppliers/a
 INSERT INTO sources VALUES (68, 'https://alconox.com/contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (69, 'aldon', 'Aldon', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (69, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (70, 'alere', 'Alere', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alere', NULL, NULL, NULL, 'https://www.abbott.com', 'manual', 'United States', 'ארה"ב', 'Waltham', NULL, '2001', NULL, NULL, NULL, 'subsidiary of Abbott', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Waltham', 'https://www.abbott.com/en-us/about-abbott/contact', 'https://www.abbott.com/en-us/about-abbott/contact', 'Q2640999');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (70, 'alere', 'Alere', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alere', NULL, NULL, NULL, 'https://www.abbott.com', 'manual', 'United States', 'ארה"ב', 'Waltham', NULL, '2001', NULL, NULL, NULL, 'subsidiary of Abbott', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.abbott.com/en-us/global-locations-contacts) but no distributor name could be extracted automatically: «Y
+
+GREECE
+
+HUNGARY
+
+IRELAND
+
+ITALY
+
+KAZAKHSTAN
+
+LATVIA
+
+LITHUANIA
+
+MOLDOVA
+
+NETHERLANDS
+
+NORWAY
+
+POLAND
+
+PORTUGAL
+
+ROMANIA
+
+RUSSIA
+
+SERBIA
+
+SLOVAKIA
+
+SPAIN
+
+SWE»', NULL, NULL, 'Waltham', 'https://www.abbott.com/en-us/about-abbott/contact', 'https://www.abbott.com/en-us/about-abbott/contact', 'Q2640999');
 INSERT INTO products VALUES (70, 1, 'Alere POC Acceava® hCG Testing', NULL, 'thomassci', 'https://www.thomassci.com/p/alere-poc-acceava-hcg-testing');
 INSERT INTO products VALUES (70, 2, 'Alere POC Clearview® hCG Kits', NULL, 'thomassci', 'https://www.thomassci.com/p/alere-poc-clearview-hcg-kits');
 INSERT INTO products VALUES (70, 3, 'Abbott BinaxNOW™ COVID-19 Antigen Self-Test', NULL, 'thomassci', 'https://www.thomassci.com/p/abbott-binaxnow-covid-19-antigen-self-test');
 INSERT INTO sources VALUES (70, 'https://www.thomassci.com/browse-by/suppliers/alere');
 INSERT INTO sources VALUES (70, 'https://www.wikidata.org/wiki/Q2640999');
 INSERT INTO sources VALUES (70, 'https://www.abbott.com/en-us/about-abbott/contact');
+INSERT INTO sources VALUES (70, 'https://www.abbott.com/en-us/global-locations-contacts');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (71, 'alit lifetech', 'ALIT Lifetech Inc.', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alit-lifetech-inc-', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (71, 'https://www.thomassci.com/browse-by/suppliers/alit-lifetech-inc-');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (72, 'alk abell', 'ALK-Abelló', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alk-abello', NULL, NULL, NULL, 'https://alk.net/', 'wikidata', 'Denmark', 'דנמרק', 'Hørsholm', NULL, '1923', 'pharmaceutical industry', 'פיפטות ומתכלים', 'keyword_guess', 'Danish pharmaceutical company', 2812, '2024', 'company', 'wikidata', 802.9, 'DKK 5,537.0 m', '2024', 'company', 'wikidata', 'reported', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Hørsholm', NULL, NULL, 'Q4652383');
@@ -498,7 +641,24 @@ INSERT INTO products VALUES (75, 3, 'Freezer-Fridge Digital "French Cooking" The
 INSERT INTO sources VALUES (75, 'https://www.thomassci.com/browse-by/suppliers/alla-france');
 INSERT INTO sources VALUES (75, 'https://www.wikidata.org/wiki/Q131635752');
 INSERT INTO sources VALUES (75, 'https://allafrance.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (76, 'allegro industries', 'Allegro Industries', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/allegro-industries', NULL, NULL, NULL, 'https://allegrosafety.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '8006223530', 'contact@billitonglory.mn', NULL, 'https://www.allegrosafety.com/contact/', 'https://www.allegrosafety.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (76, 'allegro industries', 'Allegro Industries', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/allegro-industries', NULL, NULL, NULL, 'https://allegrosafety.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.allegrosafety.com/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '8006223530', 'contact@billitonglory.mn', NULL, 'https://www.allegrosafety.com/contact/', 'https://www.allegrosafety.com/contact/', NULL);
 INSERT INTO products VALUES (76, 1, 'Allegro® FlexKnee', NULL, 'thomassci', 'https://www.thomassci.com/p/allegro-rubber-knee-cap-flexknee-pad');
 INSERT INTO products VALUES (76, 2, 'Allegro® Respirator Storage Bag', NULL, 'thomassci', 'https://www.thomassci.com/p/respirator-storage-bag-zipper-14-x-16-transparent-cleaning-instructions-written-on-bag-1/ea-400/cs');
 INSERT INTO products VALUES (76, 3, 'Allegro® Respirator Cleaning Pad', NULL, 'thomassci', 'https://www.thomassci.com/p/respirator-cleaning-wipes-allegro-safety-100/box');
@@ -506,6 +666,7 @@ INSERT INTO products VALUES (76, 4, 'Sweet (Saccharin) Test Kit', NULL, 'thomass
 INSERT INTO products VALUES (76, 5, 'Allegro® Bitter (Denatonium Benzoate) Replacement Sensitivity & Test Solution', NULL, 'thomassci', 'https://www.thomassci.com/p/bitrex-sensitivity-solution6/box');
 INSERT INTO sources VALUES (76, 'https://www.thomassci.com/browse-by/suppliers/allegro-industries');
 INSERT INTO sources VALUES (76, 'https://www.allegrosafety.com/contact/');
+INSERT INTO sources VALUES (76, 'https://www.allegrosafety.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (77, 'allentown', 'Allentown', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/allentown', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (77, 1, 'Safety Cabinet SC Plus', NULL, 'thomassci', 'https://www.thomassci.com/p/safety-cabinet-sc-plus');
 INSERT INTO products VALUES (77, 2, 'Phantom2 Mini Animal Transfer Station', NULL, 'thomassci', 'https://www.thomassci.com/p/phantom2-mini-animal-transfer-station');
@@ -526,14 +687,16 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO sources VALUES (80, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (80, 'https://www.wikidata.org/wiki/Q61932580');
 INSERT INTO sources VALUES (80, 'https://www.alomone.com/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (81, 'alpaqua engineering', 'Alpaqua Engineering', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alpaqua-engineering', NULL, NULL, NULL, 'https://alpaqua.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1 (978) 878-9489', 'info@alpaqua.com', NULL, 'https://www.alpaqua.com/contact/', 'https://www.alpaqua.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (81, 'alpaqua engineering', 'Alpaqua Engineering', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alpaqua-engineering', NULL, NULL, NULL, 'https://alpaqua.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+1 (978) 878-9489', 'info@alpaqua.com', NULL, 'https://www.alpaqua.com/contact/', 'https://www.alpaqua.com/contact/', NULL);
 INSERT INTO products VALUES (81, 1, 'Magnum™ EX Universal Magnet Plate', NULL, 'thomassci', 'https://www.thomassci.com/p/magnum-ex-universal-magnet-plate');
 INSERT INTO products VALUES (81, 2, 'POGO® Chiller Block', NULL, 'thomassci', 'https://www.thomassci.com/p/pogo-chiller-block');
 INSERT INTO products VALUES (81, 3, '384-Well Post Magnet Plate', NULL, 'thomassci', 'https://www.thomassci.com/p/384-post-magnet-plate');
 INSERT INTO products VALUES (81, 4, '16mm Tube Rack', NULL, 'thomassci', 'https://www.thomassci.com/p/16mm-tube-rack');
 INSERT INTO products VALUES (81, 5, '96S Super Magnet Plate', NULL, 'thomassci', 'https://www.thomassci.com/p/96s-super-magnet-plate');
+INSERT INTO israel_entities VALUES (81, 'Rhenium Ltd.', 'רניום', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.rhenium.co.il', '+972-8-9558888', NULL, '20 Hasatat St., P.O. Box 180, Modi''in 7171101', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.alpaqua.com/distributors/');
 INSERT INTO sources VALUES (81, 'https://www.thomassci.com/browse-by/suppliers/alpaqua-engineering');
 INSERT INTO sources VALUES (81, 'https://www.alpaqua.com/contact/');
+INSERT INTO sources VALUES (81, 'https://www.alpaqua.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (82, 'alpha laboratories', 'Alpha Laboratories', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/alpha-laboratories', NULL, NULL, NULL, 'https://alphalabs.co.uk', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+44 2380 487209', NULL, NULL, 'https://www.alphalabs.co.uk/international-contact', 'https://www.alphalabs.co.uk/international-contact', NULL);
 INSERT INTO sources VALUES (82, 'https://www.thomassci.com/browse-by/suppliers/alpha-laboratories');
 INSERT INTO sources VALUES (82, 'https://www.alphalabs.co.uk/international-contact');
@@ -626,21 +789,26 @@ INSERT INTO products VALUES (95, 5, '900 Series SealPAK Pouches', NULL, 'thomass
 INSERT INTO sources VALUES (95, 'https://www.thomassci.com/browse-by/suppliers/ampac-flexibles');
 INSERT INTO sources VALUES (95, 'https://www.wikidata.org/wiki/Q134630671');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (96, 'amsbio', 'AMSBIO', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://amsbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+4401235828200', NULL, NULL, 'https://www.amsbio.com/contact-us/', 'https://www.amsbio.com/contact-us/', NULL);
+INSERT INTO israel_entities VALUES (96, 'Origolab Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-52-5522748', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.amsbio.com/distributors/');
 INSERT INTO israel_entities VALUES (96, 'Tivan Biotech', 'טיבן ביוטק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.tivanbiotech.com/', '077-4701591', 'customerservice@tivanbiotech.com', NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://tivanbiotech.com/manufacturers');
 INSERT INTO sources VALUES (96, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (96, 'https://tivanbiotech.com/manufacturers');
 INSERT INTO sources VALUES (96, 'https://www.amsbio.com/contact-us/');
+INSERT INTO sources VALUES (96, 'https://www.amsbio.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (97, 'amsino', 'Amsino International', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/amsino-international', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (97, 'https://www.thomassci.com/browse-by/suppliers/amsino-international');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (98, 'analytichem', 'Analytichem', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/scp-science', NULL, NULL, NULL, 'https://analytichem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'info@analytichem.com', NULL, 'https://www.analytichem.com/contact-us', 'https://www.analytichem.com/contact-us', 'Q134630749');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (98, 'analytichem', 'Analytichem', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/scp-science', NULL, NULL, NULL, 'https://analytichem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'subsidiary', 'חברה-בת בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, 'info@analytichem.com', NULL, 'https://www.analytichem.com/contact-us', 'https://www.analytichem.com/contact-us', 'Q134630749');
 INSERT INTO products VALUES (98, 1, 'DigiTUBEs', NULL, 'thomassci', 'https://www.thomassci.com/p/digitubes');
 INSERT INTO products VALUES (98, 2, 'Atomic Absorption Single Element Standards', NULL, 'thomassci', 'https://www.thomassci.com/p/atomic-absorption-single-element-standards');
 INSERT INTO products VALUES (98, 3, 'DigiFILTER 0.45 micron for 50ml Tubes', NULL, 'thomassci', 'https://www.thomassci.com/p/digifilter-045-micron-for-50ml-tubes');
 INSERT INTO products VALUES (98, 4, '3-Stop Standard Santoprene® ICP Peristaltic Pump Tubing', NULL, 'thomassci', 'https://www.thomassci.com/p/3-stop-standard-santoprene-icp-peristaltic-pump-tubing');
 INSERT INTO products VALUES (98, 5, 'DigiTUBE Screw Caps', NULL, 'thomassci', 'https://www.thomassci.com/p/digitube-screw-caps');
+INSERT INTO israel_entities VALUES (98, 'BDL', 'BDL', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.bdl.co.il', '+972 9 761 1817', 'info@bdl.co.il', 'Ra''anana (warehouse: Netanya)', 'https://www.bdl.co.il/Contact.aspx', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.analytichem.com/distributor-network');
+INSERT INTO israel_entities VALUES (98, 'Spectro (Israel) Ltd.', 'ספקטרו ישראל', 'subsidiary', 'listed for Israel on the manufacturer''s own distributor / contact page', 'http://www.spectro.co.il', '+972 3 969 3014', 'support@spectro.co.il', '10 Sacharov St., Rishon LeZion', 'http://www.spectro.co.il/index.php?language=eng', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.analytichem.com/distributor-network');
 INSERT INTO sources VALUES (98, 'https://www.thomassci.com/browse-by/suppliers/scp-science');
 INSERT INTO sources VALUES (98, 'https://www.wikidata.org/wiki/Q134630749');
 INSERT INTO sources VALUES (98, 'https://www.analytichem.com/contact-us');
+INSERT INTO sources VALUES (98, 'https://www.analytichem.com/distributor-network');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (99, 'analytik jena', 'Analytik Jena', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/analytik-jena', NULL, NULL, NULL, 'https://www.analytik-jena.com', 'prior', 'Germany', 'גרמניה', 'Jena', 'Endress+Hauser Group', 1990, 'Analytical instruments (chromatography / mass spectrometry / spectroscopy)', 'מכשור אנליטי ומדידה', 'keyword_guess', 'company', 1000, 2024, 'estimate', 'prior', 200, 'EUR ~180 million (trade estimate)', '2024 (estimate)', 'estimate', 'prior', 'estimate', 'distributor', 'מפיץ/נציג בישראל', 'verified', 'אומת', 2026, '[אימות עדכניות 10/2026] All three distributor pages are live: Lifegene''s Biometra TAdvanced, TOne and TRobot II pages describe them as premium PCR instruments from Analytik Jena; Tamar Laboratory Supplies'' qTOWER³ page and its ''PCR instruments from Biometra'' project page are current; Lumitron''s About page describes UVP as a part of Analytik Jena. analytik-jena.com''s partners page lists global distribution and service partners by location but the Israel entry was not exposed in snippets, so the chemical-analysis portfolio (AAS, ICP, TOC) still has no confirmed Israeli channel. Three Israeli distributors carry Analytik Jena life-science lines on their own sites: Lifegene (Biometra TOne and TAdvanced thermal cyclers), Tamar Laboratory Supplies (qTOWER³ real-time PCR) and Lumitron (UVP bio-imaging, described as ''a part of Analytik Jena''). The BioFindly directory also lists one Israeli representative for Analytik Jena tied to qPCR/spectrophotometers (text garbled in the snippet). The chemical-analysis portfolio (AAS, ICP-OES/MS, TOC, mercury) has no confirmed Israeli channel: analytik-jena.com''s partner finder did not expose an Israel entry in search snippets.', '+49 3641 77-70', 'info@analytik-jena.com', 'Konrad-Zuse-Str. 1, 07745 Jena, Germany', 'https://analytik-jena.com/contact', 'https://www.analytik-jena.fr/en/print/company/career/contact.html', 'Q136196');
 INSERT INTO products VALUES (99, 1, 'PlasmaQuant 9100 / PlasmaQuant MS', 'ICP-OES and ICP-MS spectrometers', 'prior', NULL);
 INSERT INTO products VALUES (99, 2, 'contrAA 800', 'high-resolution continuum-source AAS', 'prior', NULL);
@@ -664,9 +832,34 @@ INSERT INTO sources VALUES (99, 'https://tamar.co.il/qtower%C2%B3');
 INSERT INTO sources VALUES (99, 'https://www.tamar.co.il/project/sales-2/');
 INSERT INTO sources VALUES (99, 'https://www.wikidata.org/wiki/Q136196');
 INSERT INTO sources VALUES (99, 'https://www.analytik-jena.com/service-support/service-contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (100, 'anaspec', 'Anaspec', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://anaspec.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18004525530', 'service@anaspec.com', NULL, 'https://www.anaspec.com/en/contact', 'https://www.anaspec.com/en/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (100, 'anaspec', 'Anaspec', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://anaspec.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.anaspec.com/en/) but no distributor name could be extracted automatically: «altar
+
+Greenland
+
+Gambia
+
+Guinea
+
+Guadeloupe
+
+Equatorial Guinea
+
+Greece
+
+South Georgia And The South Sandwich Islands
+
+Guatemala
+
+Guam
+
+Guinea-bissau
+
+Guyana
+
+H»', '+18004525530', 'service@anaspec.com', NULL, 'https://www.anaspec.com/en/contact', 'https://www.anaspec.com/en/contact', NULL);
 INSERT INTO sources VALUES (100, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (100, 'https://www.anaspec.com/en/contact');
+INSERT INTO sources VALUES (100, 'https://www.anaspec.com/en/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (101, 'anatrace', 'Anatrace', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.anatrace.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'customerservice@anatrace.com', NULL, NULL, 'https://anatrace.com/en', 'Q30253546');
 INSERT INTO sources VALUES (101, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (101, 'https://www.wikidata.org/wiki/Q30253546');
@@ -696,10 +889,10 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO sources VALUES (106, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (106, 'https://info.quartzy.com/new-suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (107, 'antibodies com', 'Antibodies.com', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://antibodies.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '92-0384576', 'info@antibodies.com', NULL, 'https://www.antibodies.com/support/contact-us', 'https://www.antibodies.com/support/contact-us', NULL);
-INSERT INTO israel_entities VALUES (107, 'Zotal Ltd.', 'זוטל', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.zotal.co.il', '+972 3-649-2444', 'sales@zotal.co.il', '4 Habarzel St., Tel Aviv 6971008', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.zotal.co.il/brands/');
+INSERT INTO israel_entities VALUES (107, 'Zotal Ltd.', 'זוטל', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.zotal.co.il', '+972 3-649-2444', 'info@zotal.co.il', '4 Habarzel St., Tel Aviv 6971008', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.antibodies.com/support/distributors');
 INSERT INTO sources VALUES (107, 'https://www.quartzy.com/suppliers');
-INSERT INTO sources VALUES (107, 'https://www.zotal.co.il/brands/');
 INSERT INTO sources VALUES (107, 'https://www.antibodies.com/support/contact-us');
+INSERT INTO sources VALUES (107, 'https://www.antibodies.com/support/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (108, 'anton paar', 'Anton Paar', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Anton+Paar', 'https://www.thomassci.com/browse-by/suppliers/anton-paar', NULL, NULL, NULL, 'https://www.anton-paar.com', 'prior', 'Austria', 'אוסטריה', 'Graz', 'Anton Paar Group AG (owned by the charitable Santner Foundation)', 1922, 'Diversified analytical & life-science instruments', 'כימיה', 'catalog_facet', 'Austrian company', 4500, 2025, 'company', 'prior', 692, 'EUR 629 million', 'FY2025', 'company', 'prior', 'reported', 'distributor', 'מפיץ/נציג בישראל', 'verified', 'אומת', 2026, '[אימות עדכניות 10/2026] Prime Lab''s live home page still lists Anton Paar rheometers, density meters and SAXS systems among its products (the page is about 2.6 years old per the search index), keeping it as the distributor-side evidence. anton-paar.com exposes no Israel subsidiary or distributor in snippets (35 subsidiaries, 30+ distribution partners, contact via web form), so exclusivity and full product scope remain stated by the distributor only. Prime Lab Scientific Instruments Ltd. (Kfar Saba) lists Anton Paar GmbH among its partner manufacturers on its own site, hosts an Anton Paar SAXS product page, and describes itself as the local partner/distributor offering import, installation, IQ/OQ/PQ, calibration and after-sales service. The BioFindly directory independently names Prime Lab as the single Israeli representative handling sales, service and quotes for Anton Paar. Not cross-checked on anton-paar.com (search budget), so exclusivity and the full product scope are stated by the distributor and a directory rather than by the manufacturer.', '+43 316 257-0', NULL, 'Anton-Paar-Straße 20, 8054 Graz, Austria', NULL, 'https://fluidhandlingpro.com/manufacturers/anton-paar-gmbh/', 'Q592327');
 INSERT INTO products VALUES (108, 1, 'DMA density meters (e.g. DMA 5000 M)', 'laboratory density & concentration measurement', 'prior', NULL);
 INSERT INTO products VALUES (108, 2, 'MCR rheometer series (e.g. MCR 702e)', 'rotational & oscillatory rheometers', 'prior', NULL);
@@ -731,22 +924,26 @@ INSERT INTO products VALUES (110, 5, 'Comb for electrophoresis tank Minigel 2 an
 INSERT INTO sources VALUES (110, 'https://www.dutscher.com/search?initialFilters=brand:Apelex');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (111, 'apexbio', 'ApexBio', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (111, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (112, 'apiezon', 'Apiezon', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/apiezon', NULL, NULL, NULL, 'https://apiezon.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '161 864 5419', NULL, NULL, 'https://apiezon.com/contact-us/', 'https://apiezon.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (112, 'apiezon', 'Apiezon', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/apiezon', NULL, NULL, NULL, 'https://apiezon.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'subsidiary', 'חברה-בת בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '161 864 5419', NULL, NULL, 'https://apiezon.com/contact-us/', 'https://apiezon.com/contact-us/', NULL);
 INSERT INTO products VALUES (112, 1, 'Vapour Booster Pump Fluid, Apiezon AP201 Oil', NULL, 'thomassci', 'https://www.thomassci.com/p/vapour-booster-pump-fluid-apiezon-ap201-oil');
 INSERT INTO products VALUES (112, 2, 'Silicone-Free, Ultra High Vacuum Grease', NULL, 'thomassci', 'https://www.thomassci.com/p/silicone-free-ultra-high-vacuum-grease');
 INSERT INTO products VALUES (112, 3, 'Vacuum Sealing Compound And Mounting Wax', NULL, 'thomassci', 'https://www.thomassci.com/p/vacuum-sealing-compound-and-mounting-wax');
 INSERT INTO products VALUES (112, 4, 'Silicone-Free Vacuum Greases', NULL, 'thomassci', 'https://www.thomassci.com/p/silicone-free-vacuum-greases');
 INSERT INTO products VALUES (112, 5, 'PFPE Vacuum Grease', NULL, 'thomassci', 'https://www.thomassci.com/p/pfpe-vacuum-grease');
+INSERT INTO israel_entities VALUES (112, 'Israel Scientific Instruments Ltd. (ISI)', 'ISI מכשור מדעי', 'subsidiary', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.isil.co.il', '+972 3-923-2202', 'info@isil.co.il', '32 Shacham St., P.O. Box 7790, Petah Tikva 49170', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://apiezon.com/sales-support/global-distributors/middle-east/');
 INSERT INTO sources VALUES (112, 'https://www.thomassci.com/browse-by/suppliers/apiezon');
 INSERT INTO sources VALUES (112, 'https://apiezon.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (113, 'apis assay technologies', 'APIS Assay Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/apis-assay-technologies', NULL, NULL, NULL, 'https://apisassay.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '161 938 8179', 'info@apisassay.com', NULL, 'https://www.apisassay.com/contact', 'https://www.apisassay.com/contact', NULL);
+INSERT INTO sources VALUES (112, 'https://apiezon.com/sales-support/global-distributors/middle-east/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (113, 'apis assay technologies', 'APIS Assay Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/apis-assay-technologies', NULL, NULL, NULL, 'https://apisassay.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '161 938 8179', 'info@apisassay.com', NULL, 'https://www.apisassay.com/contact', 'https://www.apisassay.com/contact', NULL);
 INSERT INTO products VALUES (113, 1, 'APIS ESR1 Mutations Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/apis-esr1-mutations-kit');
 INSERT INTO products VALUES (113, 2, 'APIS MET Alterations Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/apis-met-alterations-kit');
 INSERT INTO products VALUES (113, 3, 'APIS Breast Cancer Subtyping Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/apis-breast-cancer-subtyping-kit');
 INSERT INTO products VALUES (113, 4, 'APIS DPYD qPCR Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/apis-dpyd-qpcr-kit');
 INSERT INTO products VALUES (113, 5, 'APIS ESR1 qPCR Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/apis-esr1-qpcr-kit');
+INSERT INTO israel_entities VALUES (113, 'Gamidor Diagnostics', 'גמידור דיאגנוסטיקה', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.gamidor.co.il/', '+972 03-9277277', 'diag@gamidor.co.il', 'Shaham 32, Petach Tikva', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.apisassay.com/distributors');
 INSERT INTO sources VALUES (113, 'https://www.thomassci.com/browse-by/suppliers/apis-assay-technologies');
 INSERT INTO sources VALUES (113, 'https://www.apisassay.com/contact');
+INSERT INTO sources VALUES (113, 'https://www.apisassay.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (114, 'applied biological materials', 'Applied Biological Materials (ABM)', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (114, 'https://www.quartzy.com/suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (115, 'applied separations', 'Applied Separations', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/applied-separations', NULL, NULL, NULL, 'https://appliedseparations.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '610-770-0900', NULL, NULL, 'https://appliedseparations.com/contact/', 'https://appliedseparations.com/contact/', NULL);
@@ -769,10 +966,12 @@ INSERT INTO products VALUES (118, 4, 'Phenols - CHEMets Refill R-8010', NULL, 't
 INSERT INTO products VALUES (118, 5, 'Hydrochloric Acid, 0.5N 1L, 0.5 +/-0.005N NIST Traceable', NULL, 'thomassci', 'https://www.thomassci.com/p/hydrochloric-acid-0-5n-1l0-5-/-0-005n-nist-traceable');
 INSERT INTO sources VALUES (118, 'https://www.thomassci.com/browse-by/suppliers/aquaphoenix-scientific');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (119, 'arbor assays', 'Arbor Assays', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://arborassays.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+1 (734) 677-1774', 'info@arborassays.com', NULL, 'https://www.arborassays.com/contact-us/', 'https://www.arborassays.com/contact-us/', NULL);
+INSERT INTO israel_entities VALUES (119, 'Enco Scientific Services Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-3-9349922', 'orders@enco.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.arborassays.com/ordering/local-distributors/');
 INSERT INTO israel_entities VALUES (119, 'Enco', 'אנקו', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.enco.co.il/', '+972-3-934-9922', 'orders@enco.co.il', '17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (119, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (119, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (119, 'https://www.arborassays.com/contact-us/');
+INSERT INTO sources VALUES (119, 'https://www.arborassays.com/ordering/local-distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (120, 'arcus manufacturing', 'Arcus Manufacturing', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/arcus-manufacturing', NULL, NULL, NULL, 'https://arcusmanufacturing.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+4352613976', 'info@arcuspure.com', NULL, 'https://arcuspure.com/contact-us/', 'https://arcuspure.com/contact-us/', NULL);
 INSERT INTO products VALUES (120, 1, 'NebulaOne™ Dry-Mist HOCL Disinfectant Fogger 110V', NULL, 'thomassci', 'https://www.thomassci.com/p/dry-mist-hocl-disinfectant-fogger-110v');
 INSERT INTO products VALUES (120, 2, 'Annihilyte® Hypochlorous Disinfectant', NULL, 'thomassci', 'https://www.thomassci.com/p/annihilyte-hypochlorous-disinfectant');
@@ -835,7 +1034,35 @@ INSERT INTO sources VALUES (129, 'https://www.ascensia.com/contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (130, 'asco', 'Asco', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/asco', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q12721055');
 INSERT INTO sources VALUES (130, 'https://www.thomassci.com/browse-by/suppliers/asco');
 INSERT INTO sources VALUES (130, 'https://www.wikidata.org/wiki/Q12721055');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (131, 'asecos', 'Asecos', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Asecos', NULL, NULL, NULL, NULL, 'https://www.asecos.com', 'wikidata', 'Germany', 'גרמניה', 'Gründau', NULL, '1994', 'בטיחות', 'בטיחות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+49605192200', 'info@asecos.com', 'Gründau', 'https://www.asecos.com/Kontakt/DE_index_1460.html', 'https://www.asecos.com/Kontakt/DE_index_1460.html', 'Q134711368');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (131, 'asecos', 'Asecos', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Asecos', NULL, NULL, NULL, NULL, 'https://www.asecos.com', 'wikidata', 'Germany', 'גרמניה', 'Gründau', NULL, '1994', 'בטיחות', 'בטיחות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.asecos.com/) but no distributor name could be extracted automatically: «a
+
+Französisch Polynesien
+
+Färöer Inseln
+
+Gabun
+
+Gambia
+
+Georgien
+
+Ghana
+
+Gibraltar
+
+Griechenland
+
+Grönland
+
+Guadeloupe
+
+Guatemala
+
+Guinea
+
+Guinea-Bissau
+
+Guyan»', '+49605192200', 'info@asecos.com', 'Gründau', 'https://www.asecos.com/Kontakt/DE_index_1460.html', 'https://www.asecos.com/Kontakt/DE_index_1460.html', 'Q134711368');
 INSERT INTO products VALUES (131, 1, 'Ventilation chamber for corrosive products', NULL, 'dutscher', 'https://www.dutscher.com/article/571004');
 INSERT INTO products VALUES (131, 2, 'Ventilation chamber for solvents', NULL, 'dutscher', 'https://www.dutscher.com/article/571051');
 INSERT INTO products VALUES (131, 3, 'Plastic drip tray 32 l - Dimensions W x L x H (mm): 400 x 800 x 120 - without gratings', NULL, 'dutscher', 'https://www.dutscher.com/article/571403');
@@ -844,6 +1071,7 @@ INSERT INTO products VALUES (131, 5, 'Tall cabinet S90.196.606.WDAS, fire resist
 INSERT INTO sources VALUES (131, 'https://www.dutscher.com/search?initialFilters=brand:Asecos');
 INSERT INTO sources VALUES (131, 'https://www.wikidata.org/wiki/Q134711368');
 INSERT INTO sources VALUES (131, 'https://www.asecos.com/Kontakt/DE_index_1460.html');
+INSERT INTO sources VALUES (131, 'https://www.asecos.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (132, 'aspen surgical products', 'Aspen Surgical Products', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/aspen-surgical-products', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (132, 1, 'Bard-Parker® Carbon Steel Blades with Rib-Back® Design', NULL, 'thomassci', 'https://www.thomassci.com/p/carbon-steel-sterile-scapel-blades');
 INSERT INTO products VALUES (132, 2, 'Procedure Mask, FluidGard® 120, Blue, ASTM Level 2, Non-Sterile BFE>99.0', NULL, 'thomassci', 'https://www.thomassci.com/p/procedure-mask-fluidgard-120-blue-astm-level-2-non-sterile-bfe99-0');
@@ -966,10 +1194,10 @@ INSERT INTO sources VALUES (147, 'https://www.dutscher.com/search?initialFilters
 INSERT INTO sources VALUES (147, 'https://www.thomassci.com/browse-by/suppliers/avidity-science');
 INSERT INTO sources VALUES (147, 'https://www.avidityscience.com/contact-avidity-science-us');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (148, 'aviva systems biology', 'Aviva Systems Biology', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://avivasysbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '858-552-6979', 'info@avivasysbio.com', NULL, 'https://www.avivasysbio.com/contact', 'https://www.avivasysbio.com/contact', NULL);
-INSERT INTO israel_entities VALUES (148, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
+INSERT INTO israel_entities VALUES (148, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.avivasysbio.com/distributors');
 INSERT INTO sources VALUES (148, 'https://www.quartzy.com/suppliers');
-INSERT INTO sources VALUES (148, 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (148, 'https://www.avivasysbio.com/contact');
+INSERT INTO sources VALUES (148, 'https://www.avivasysbio.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (149, 'azenta', 'Azenta', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Azenta', NULL, NULL, NULL, NULL, 'https://www.azenta.com', 'prior', 'USA', 'ארה"ב', 'Burlington, Massachusetts', NULL, 1978, 'Lab refrigeration & cold storage', 'מתכלים וציוד קטן', 'catalog_facet', NULL, 2700, 2025, 'estimate', 'prior', 594, 'USD 594 million', 'FY2025 (ended 30-Sep-2025)', 'company', 'prior', 'mixed', 'distributor', 'מפיץ/נציג בישראל', 'verified', 'אומת', 2026, '[אימות עדכניות 10/2026] Re-checked on 2026-10-15: azenta.com has only a form-based distributor finder and its pages do not name an Israeli partner. HyLabs'' live ''AZENTA - GENOMICS SERVICES'' / ''AZENTA (GENEWIZ)'' pages (research and clinical categories) still offer Azenta/GENEWIZ gene synthesis, cloning, oligo pools, mutagenesis and plasmid prep, and Tamar''s live ''Represented companies'' page lists 4titude as an Azenta Life Sciences (UK) brand; the FluidX part of Tamar''s scope did not surface in this round''s snippets. Both distributor pages are live, so the relationships count as current. General search (''Azenta'' OR ''GENEWIZ'' Israel distributor/נציג/יבואן) returned only Azenta/GENEWIZ''s own pages with no Israel mention. Domain-restricted search found Tamar''s ''Represented companies'' page listing both ''Azenta Life Sciences (United Kingdom)'' and ''4titude (Azenta Life Sciences)'', plus a 4titude automatic roll heat sealer product page. No Israeli channel found for GENEWIZ genomics services (likely ordered directly online) or for automated -80 C / cryogenic sample stores; Azenta''s own where-to-buy page not fetched.', '+1 888-229-3682', NULL, '200 Summit Drive, Burlington, MA 01803, USA', NULL, 'https://www.azenta.com/global-locations', NULL);
 INSERT INTO products VALUES (149, 1, 'BioStore III Cryo', 'automated LN2 cryogenic sample storage system', 'prior', NULL);
 INSERT INTO products VALUES (149, 2, 'FluidX / Ziath tubes and readers', '2D-barcoded sample tubes and rack scanners', 'prior', NULL);
@@ -1069,10 +1297,56 @@ INSERT INTO sources VALUES (157, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (157, 'https://www.wikidata.org/wiki/Q4838851');
 INSERT INTO sources VALUES (157, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (157, 'https://www.bachem.com/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (158, 'bactrack', 'BACtrack', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bactrack', NULL, NULL, NULL, 'http://www.bactrack.com', 'wikidata', NULL, NULL, 'San Francisco', NULL, '2001', 'consumer electronics industry', 'ריהוט ותשתיות מעבדה', 'keyword_guess', 'brand of portable breathalyzers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18773346876', 'info@bactrack.com', 'San Francisco', 'https://www.bactrack.com/pages/contact-us', 'https://www.bactrack.com/pages/contact-us', 'Q16246027');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (158, 'bactrack', 'BACtrack', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bactrack', NULL, NULL, NULL, 'http://www.bactrack.com', 'wikidata', NULL, NULL, 'San Francisco', NULL, '2001', 'consumer electronics industry', 'ריהוט ותשתיות מעבדה', 'keyword_guess', 'brand of portable breathalyzers', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.bactrack.com/) but no distributor name could be extracted automatically: «Guatemala
+
+GTQ
+Q
+
+Guernsey
+
+GBP
+£
+
+Guinea
+
+GNF
+Fr
+
+Guinea-Bissau
+
+XOF
+Fr
+
+Guyana
+
+GYD
+$
+
+Haiti
+
+USD
+$
+
+Honduras
+
+HNL
+L
+
+Hong Kong SAR
+
+HKD
+$
+
+Hungary
+
+HUF
+Ft
+
+I»', '18773346876', 'info@bactrack.com', 'San Francisco', 'https://www.bactrack.com/pages/contact-us', 'https://www.bactrack.com/pages/contact-us', 'Q16246027');
 INSERT INTO sources VALUES (158, 'https://www.thomassci.com/browse-by/suppliers/bactrack');
 INSERT INTO sources VALUES (158, 'https://www.wikidata.org/wiki/Q16246027');
 INSERT INTO sources VALUES (158, 'https://www.bactrack.com/pages/contact-us');
+INSERT INTO sources VALUES (158, 'https://www.bactrack.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (159, 'bal supply', 'Bal Supply', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/bal-supply', 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'No result mentions Bal Supply at all; hits are generic Israeli distributor listings (Rhenium, Tamar Laboratory Supplies, Agentek, Enco, Ornat, Lumitron).', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (159, 1, 'Plastic Joint Clips', NULL, 'thomassci', 'https://www.thomassci.com/p/plastic-joint-clips');
 INSERT INTO products VALUES (159, 2, 'Small Dropper Bulbs', NULL, 'thomassci', 'https://www.thomassci.com/p/small-dropper-bulbs');
@@ -1202,15 +1476,17 @@ INSERT INTO sources VALUES (172, 'https://www.dutscher.com/search?initialFilters
 INSERT INTO sources VALUES (172, 'https://www.wikidata.org/wiki/Q11337097');
 INSERT INTO sources VALUES (172, 'https://www.danyel.co.il/');
 INSERT INTO sources VALUES (172, 'https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-equipment-manufacturing-used-equipment');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (173, 'bellco glass', 'Bellco Glass', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/bellco-glass', 'yes', NULL, NULL, 'https://bellcoglass.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Bellco''s company profile (pharmaceutical-tech.com/suppliers/bellco-glass-inc) lists Israel among the countries in its worldwide distributor network, but no result names the Israeli distributor.', '1-856-691-1075', NULL, NULL, 'https://bellcoglass.com/contact-us/', 'https://bellcoglass.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (173, 'bellco glass', 'Bellco Glass', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/bellco-glass', 'yes', NULL, NULL, 'https://bellcoglass.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Bellco''s company profile (pharmaceutical-tech.com/suppliers/bellco-glass-inc) lists Israel among the countries in its worldwide distributor network, but no result names the Israeli distributor.', '1-856-691-1075', NULL, NULL, 'https://bellcoglass.com/contact-us/', 'https://bellcoglass.com/contact-us/', NULL);
 INSERT INTO products VALUES (173, 1, 'Metric Bioreactor Stand, 7L', NULL, 'thomassci', 'https://www.thomassci.com/p/metric-bioreactor-stand-7l');
 INSERT INTO products VALUES (173, 2, 'Photoetch Coverslip,23x23mm', NULL, 'thomassci', 'https://www.thomassci.com/p/photoetch-coverslip23x23mm');
 INSERT INTO products VALUES (173, 3, 'Heating circulator +20…+100 °C; 1 kW heater; 27L plastic tank', NULL, 'thomassci', 'https://www.thomassci.com/p/heating-circulator-20100-c-1-kw-heater-27l-plastic-tank');
 INSERT INTO products VALUES (173, 4, 'Thermowell Pipe Assembly 7L For 10mm Port', NULL, 'thomassci', 'https://www.thomassci.com/p/thermowell-pipe-assy-7l-for-10mm-port');
 INSERT INTO products VALUES (173, 5, 'SST Tube Rack, 18mm-72P 6x12 Spacing', NULL, 'thomassci', 'https://www.thomassci.com/p/sst-tube-rack-18mm-72p-6x12-spacing');
+INSERT INTO israel_entities VALUES (173, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '972-8-9366066', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://bellcoglass.com/global-distribution/');
 INSERT INTO sources VALUES (173, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (173, 'https://www.thomassci.com/browse-by/suppliers/bellco-glass');
 INSERT INTO sources VALUES (173, 'https://bellcoglass.com/contact-us/');
+INSERT INTO sources VALUES (173, 'https://bellcoglass.com/global-distribution/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (174, 'bellingham and stanley', 'Bellingham & Stanley', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bellingham-and-stanley', NULL, NULL, NULL, 'https://bellinghamandstanley.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+49 881 183-0', NULL, NULL, 'https://www.xylemanalytics.com/en/contact/general-contact', 'https://www.xylemanalytics.com/en/contact/general-contact', NULL);
 INSERT INTO products VALUES (174, 1, 'OPTi® Digital Handheld Refractometer', NULL, 'thomassci', 'https://www.thomassci.com/p/opti-digital-handheld-refractometer');
 INSERT INTO products VALUES (174, 2, 'RFM300-M Refractometers', NULL, 'thomassci', 'https://www.thomassci.com/p/rfm300-m-refractometers');
@@ -1387,29 +1663,33 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO israel_entities VALUES (193, 'Enco', 'אנקו', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.enco.co.il/', '+972-3-934-9922', 'orders@enco.co.il', '17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (193, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (193, 'https://www.enco.co.il/suppliers.php');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (194, 'bioassay systems', 'BioAssay Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bioassay-systems', NULL, NULL, NULL, 'https://bioassaysys.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+15107829988', NULL, NULL, 'https://bioassaysys.com/contact-us/', 'https://bioassaysys.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (194, 'bioassay systems', 'BioAssay Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bioassay-systems', NULL, NULL, NULL, 'https://bioassaysys.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+15107829988', NULL, NULL, 'https://bioassaysys.com/contact-us/', 'https://bioassaysys.com/contact-us/', NULL);
 INSERT INTO products VALUES (194, 1, 'QuantiChrom™ Glutamate Dehydrogenase Assay Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/quantichrom-glutamate-dehydrogenase-assay-kit');
 INSERT INTO products VALUES (194, 2, 'QuantiChrom™ Magnesium Assay Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/quantichrom-magnesium-assay-kit');
 INSERT INTO products VALUES (194, 3, 'EnzyChrom™ Succinate Assay Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/enzychrom-succinate-assay-kit');
 INSERT INTO products VALUES (194, 4, 'EnzyChrom™ Creatine Kinase Assay Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/enzychrom-creatine-kinase-assay-kit');
 INSERT INTO products VALUES (194, 5, 'EnzyFluo™ Collagen Assay Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/enzyfluo-collagen-assay-kit');
+INSERT INTO israel_entities VALUES (194, 'Doron Scientific', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-50-6703339', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://bioassaysys.com/distributors/');
 INSERT INTO sources VALUES (194, 'https://www.thomassci.com/browse-by/suppliers/bioassay-systems');
 INSERT INTO sources VALUES (194, 'https://bioassaysys.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (195, 'biocare medical', 'Biocare Medical', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://biocare.net', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '8007999499', 'info@biocare.net', NULL, 'https://biocare.net/contact/', 'https://biocare.net/contact/', NULL);
+INSERT INTO sources VALUES (194, 'https://bioassaysys.com/distributors/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (195, 'biocare medical', 'Biocare Medical', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://biocare.net', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '8007999499', 'info@biocare.net', NULL, 'https://biocare.net/contact/', 'https://biocare.net/contact/', NULL);
+INSERT INTO israel_entities VALUES (195, 'Pronto Diagnostics LTD', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972.73.2126155', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://biocare.net/contact/international-distributors/');
 INSERT INTO sources VALUES (195, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (195, 'https://biocare.net/contact/');
+INSERT INTO sources VALUES (195, 'https://biocare.net/contact/international-distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (196, 'biochrom', 'Biochrom', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Biochrom', 'https://www.thomassci.com/browse-by/suppliers/biochrom', 'yes', NULL, NULL, 'https://biochrom.co.uk', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשירי מדידה', 'מכשירי מדידה', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Harvard Bioscience (owner of Biochrom) has a ''Where to Buy'' distributor directory (harvardbioscience.com/contact-us/where-to-buy) but no Israel entry was visible in the results; no Israeli distributor named.', NULL, NULL, NULL, 'https://www.harvardbioscience.com/contact-us/brands', 'https://www.harvardbioscience.com/contact-us/brands', NULL);
 INSERT INTO products VALUES (196, 1, 'Test Tube Adapter Set', NULL, 'thomassci', 'https://www.thomassci.com/p/test-tube-adapter-set');
 INSERT INTO products VALUES (196, 2, 'Spare Printer Paper', NULL, 'thomassci', 'https://www.thomassci.com/p/printer-paper-for-biodrop-20/pk');
 INSERT INTO products VALUES (196, 3, 'Thermal Printer Paper', NULL, 'thomassci', 'https://www.thomassci.com/p/spare-printer-paper-for-nanovue-and-genequant');
 INSERT INTO products VALUES (196, 4, '80-2140-60 · ULTROSPEC 7500 UV-VISIBLE BIOCHROM SPECTROPHOTOMETER', NULL, 'dutscher', 'https://www.dutscher.com/article/80-2140-60');
 INSERT INTO products VALUES (196, 5, '28-9244-05 · PATHLENGTH CALIBRATION FLUID KIT', NULL, 'dutscher', 'https://www.dutscher.com/article/28-9244-05');
-INSERT INTO israel_entities VALUES (196, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.danyel.co.il', '1-800-711-911 (also +972 8-936-6066)', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'distributor_site_sweep', 'contained', 'https://www.danyel.co.il/');
+INSERT INTO israel_entities VALUES (196, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '+972 8 9366066', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.harvardbioscience.com/contact-us/where-to-buy');
 INSERT INTO sources VALUES (196, 'https://www.dutscher.com/search?initialFilters=brand:Biochrom');
 INSERT INTO sources VALUES (196, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (196, 'https://www.thomassci.com/browse-by/suppliers/biochrom');
-INSERT INTO sources VALUES (196, 'https://www.danyel.co.il/');
 INSERT INTO sources VALUES (196, 'https://www.harvardbioscience.com/contact-us/brands');
+INSERT INTO sources VALUES (196, 'https://www.harvardbioscience.com/contact-us/where-to-buy');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (197, 'biocision', 'BioCision', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/biocision', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (197, 1, 'CoolRack® and CoolSink™ modules', NULL, 'thomassci', 'https://www.thomassci.com/p/coolrack-and-coolsink-modules-1');
 INSERT INTO products VALUES (197, 2, 'TruCool® Cryogenic Vials', NULL, 'thomassci', 'https://www.thomassci.com/p/trucool-cryogenic-vials');
@@ -1455,9 +1735,11 @@ INSERT INTO sources VALUES (203, 'https://www.dutscher.com/search?initialFilters
 INSERT INTO sources VALUES (203, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (203, 'https://www.thomassci.com/browse-by/suppliers/biologix');
 INSERT INTO sources VALUES (203, 'https://www.biologixgroup.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (204, 'biomatik', 'Biomatik', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://biomatik.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(519) 489-7195', NULL, NULL, 'https://biomatik.com/pages/contact', 'https://biomatik.com/pages/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (204, 'biomatik', 'Biomatik', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://biomatik.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '(519) 489-7195', NULL, NULL, 'https://biomatik.com/pages/contact', 'https://biomatik.com/pages/contact', NULL);
+INSERT INTO israel_entities VALUES (204, 'BioTAG Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-52-5522748', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://biomatik.com/pages/distributors');
 INSERT INTO sources VALUES (204, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (204, 'https://biomatik.com/pages/contact');
+INSERT INTO sources VALUES (204, 'https://biomatik.com/pages/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (205, 'biomedical polymers', 'Biomedical Polymers', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/biomedical-polymers', 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only the company''s SelectScience profile (Gardner, MA) and unrelated Israeli distributors (Enco, Agentek, Tivan for OZ Biosciences, Ornat); no connection found.', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (205, 1, 'Centrifuge Bottles', NULL, 'thomassci', 'https://www.thomassci.com/p/centrifuge-bottles1');
 INSERT INTO products VALUES (205, 2, 'Ultra Series Tissue Grinders', NULL, 'thomassci', 'https://www.thomassci.com/p/ultra-series-tissue-grinders');
@@ -1506,15 +1788,17 @@ INSERT INTO products VALUES (211, 2, 'FCS Micro-Perfusion Pumps', NULL, 'thomass
 INSERT INTO products VALUES (211, 3, 'Culture Cylinders', NULL, 'thomassci', 'https://www.thomassci.com/p/culture-cylinders');
 INSERT INTO products VALUES (211, 4, 'Delta T™ Micro-Perfusion Pumps', NULL, 'thomassci', 'https://www.thomassci.com/p/delta-t-micro-perfusion-pumps');
 INSERT INTO products VALUES (211, 5, 'Thermal Slide System', NULL, 'thomassci', 'https://www.thomassci.com/p/thermal-slide-system');
-INSERT INTO israel_entities VALUES (211, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
+INSERT INTO israel_entities VALUES (211, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '972-3-9773390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://bioptechs.com/locate-a-distributor/');
 INSERT INTO sources VALUES (211, 'https://www.thomassci.com/browse-by/suppliers/bioptechs');
-INSERT INTO sources VALUES (211, 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (211, 'https://bioptechs.com/contact-us/');
+INSERT INTO sources VALUES (211, 'https://bioptechs.com/locate-a-distributor/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (212, 'biorbyt', 'Biorbyt', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://biorbyt.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+1 (415) 906-5211', 'info@biorbyt.com', NULL, 'https://www.biorbyt.com/contact-us', 'https://www.biorbyt.com/contact-us', NULL);
+INSERT INTO israel_entities VALUES (212, 'Doron Scientific', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.biorbyt.com/distributor');
 INSERT INTO israel_entities VALUES (212, 'distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit', 'דורון סיינטיפיק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.doronscientific.com/', '054-5544004', 'info@doronscientific.com', NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://doronscientific.com/products/');
 INSERT INTO sources VALUES (212, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (212, 'https://doronscientific.com/products/');
 INSERT INTO sources VALUES (212, 'https://www.biorbyt.com/contact-us');
+INSERT INTO sources VALUES (212, 'https://www.biorbyt.com/distributor');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (213, 'bioscience', 'Bioscience International', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bioscience-international', NULL, NULL, NULL, 'https://bioscienceinternational.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '8779589030', 'info@bioscienceinternational.com', NULL, 'https://www.bioscienceinternational.com/contact-us/', 'https://www.bioscienceinternational.com/contact-us/', NULL);
 INSERT INTO products VALUES (213, 1, 'Mipaw Sampler', NULL, 'thomassci', 'https://www.thomassci.com/p/mipaw-sample-probe');
 INSERT INTO products VALUES (213, 2, 'Carrying Case', NULL, 'thomassci', 'https://www.thomassci.com/p/soft-case-18143');
@@ -1562,14 +1846,16 @@ INSERT INTO sources VALUES (217, 'https://bargal.co.il/%D7%A7%D7%98%D7%92%D7%95%
 INSERT INTO sources VALUES (217, 'https://bargal.co.il/about-bargal/');
 INSERT INTO sources VALUES (217, 'https://www.wikidata.org/wiki/Q126879133');
 INSERT INTO sources VALUES (217, 'https://www.biotage.com/support/contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (218, 'biotech rabbit', 'Biotech Rabbit', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Biotech+Rabbit', NULL, NULL, NULL, NULL, 'https://biotechrabbit.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Amplification reagent for molecular biology', 'Amplification reagent for molecular biology', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+493055578210', 'info@biotechrabbit.com', NULL, 'https://www.biotechrabbit.com/contact-us.html', 'https://www.biotechrabbit.com/contact-us.html', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (218, 'biotech rabbit', 'Biotech Rabbit', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Biotech+Rabbit', NULL, NULL, NULL, NULL, 'https://biotechrabbit.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Amplification reagent for molecular biology', 'Amplification reagent for molecular biology', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+493055578210', 'info@biotechrabbit.com', NULL, 'https://www.biotechrabbit.com/contact-us.html', 'https://www.biotechrabbit.com/contact-us.html', NULL);
 INSERT INTO products VALUES (218, 1, 'DNTP-MIX 1000 µl, 10 mM each', NULL, 'dutscher', 'https://www.dutscher.com/article/033786B');
 INSERT INTO products VALUES (218, 2, 'LONG AND HIGH FIDELITY PCR ENZYME MIX 2,5U/µ For amplification of complex or GC-rich sample fragments up to 30 kb contains high-fidelity amp', NULL, 'dutscher', 'https://www.dutscher.com/article/035562');
 INSERT INTO products VALUES (218, 3, 'GENUP plant DNA kit, 50 preps', NULL, 'dutscher', 'https://www.dutscher.com/article/820141');
 INSERT INTO products VALUES (218, 4, 'Deoxynucleotide Set 4 x 250 µl, concentration 100 mM', NULL, 'dutscher', 'https://www.dutscher.com/article/033785B');
 INSERT INTO products VALUES (218, 5, 'PFU PCR MASTER MIX 2X for fragment up to 3kb, clean end insert cloning - per 1000 RXNS 25 µl', NULL, 'dutscher', 'https://www.dutscher.com/article/035561');
+INSERT INTO israel_entities VALUES (218, 'Dyn Diagnostics', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972 4 6175397', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.biotechrabbit.com/contact-us/distribution-partners.html');
 INSERT INTO sources VALUES (218, 'https://www.dutscher.com/search?initialFilters=brand:Biotech+Rabbit');
 INSERT INTO sources VALUES (218, 'https://www.biotechrabbit.com/contact-us.html');
+INSERT INTO sources VALUES (218, 'https://www.biotechrabbit.com/contact-us/distribution-partners.html');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (219, 'biotium', 'Biotium', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Biotium', 'https://www.thomassci.com/browse-by/suppliers/biotium', 'yes', NULL, NULL, 'https://biotium.com', 'wikidata', 'United States', 'ארה"ב', NULL, NULL, '2001', 'ריאגנטים ביולוגיים', 'ריאגנטים ביולוגיים', 'catalog_facet', 'biotechnology company, designer and manufacturer of fluorescent dyes and probes', 36, '2023', 'company', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'reported', 'distributor', 'מפיץ/נציג בישראל', 'partial', 'חיפוש חלקי', 2026, 'Manufacturer-side evidence: Biotium''s own authorized-distributors page (Middle East) lists four Israeli distributors; Biotium sells direct only to US customers. Contact details are on that page but were not shown in the search snippet. Enco''s own site (enco.co.il) appeared but does not name Biotium.', NULL, NULL, NULL, NULL, NULL, 'Q117459899');
 INSERT INTO products VALUES (219, 1, 'TrueBlack® Plus Lipofuscin Autofluorescence Quencher, 40X in DMSO', NULL, 'thomassci', 'https://www.thomassci.com/p/trueblack-plus-lipofuscin-autofluorescence-quencher-40x-in-dmso');
 INSERT INTO products VALUES (219, 2, 'LipidSpot™ 610 Lipid Droplet Stain', NULL, 'thomassci', 'https://www.thomassci.com/p/lipidspot-610-lipid-droplet-stain');
@@ -1694,12 +1980,12 @@ INSERT INTO products VALUES (235, 4, 'Boss® Xtreme AR Top Grain Goatskin Leathe
 INSERT INTO products VALUES (235, 5, 'Boss® Xtreme Leather Drivers Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/hand-protection');
 INSERT INTO sources VALUES (235, 'https://www.thomassci.com/browse-by/suppliers/boss-by-pip-global-safety');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (236, 'boster bio', 'Boster Bio', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://bosterbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '888-466-3604', 'sales@bosterbio.com', NULL, 'https://www.bosterbio.com/contact-us', 'https://www.bosterbio.com/contact-us', NULL);
+INSERT INTO israel_entities VALUES (236, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.bosterbio.com/distributors');
 INSERT INTO israel_entities VALUES (236, 'distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit', 'דורון סיינטיפיק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.doronscientific.com/', '054-5544004', 'info@doronscientific.com', NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://doronscientific.com/products/');
-INSERT INTO israel_entities VALUES (236, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (236, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (236, 'https://doronscientific.com/products/');
-INSERT INTO sources VALUES (236, 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (236, 'https://www.bosterbio.com/contact-us');
+INSERT INTO sources VALUES (236, 'https://www.bosterbio.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (237, 'boston biochem', 'Boston Biochem', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (237, 'https://www.quartzy.com/suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (238, 'boston bioproducts', 'Boston Bioproducts', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/boston-bioproducts', 'yes', NULL, NULL, 'https://www.bostonbioproducts.com', 'wikidata', 'United States', 'ארה"ב', NULL, NULL, '1995', 'biotechnology', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'commercial producer and seller of life science solutions and reagents', 30, '2023', 'company', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'reported', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only Israel hit was Boston Scientific / Amos Gazit (2014), a different company; Boston BioProducts profiles mention no Israeli partner.', '(508) 231-4777', NULL, NULL, 'https://www.bostonbioproducts.com/contact-us', 'https://www.bostonbioproducts.com/contact-us', 'Q117187801');
@@ -1838,9 +2124,11 @@ INSERT INTO products VALUES (252, 4, 'HM Lower Hemispherical Heating Mantles', N
 INSERT INTO products VALUES (252, 5, 'SRL-ADJ Silicone Rubber Heating Blankets with Control (with PSA)', NULL, 'thomassci', 'https://www.thomassci.com/p/srl-adj-silicone-rubber-heating-blankets-with-control-with-psa');
 INSERT INTO sources VALUES (252, 'https://www.thomassci.com/browse-by/suppliers/briskheat');
 INSERT INTO sources VALUES (252, 'https://www.briskheat.com/pages/contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (253, 'broadpharm', 'BroadPharm', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://broadpharm.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '858-677-6760', 'sales@broadpharm.com', NULL, 'https://broadpharm.com/contact', 'https://broadpharm.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (253, 'broadpharm', 'BroadPharm', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://broadpharm.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '858-677-6760', 'sales@broadpharm.com', NULL, 'https://broadpharm.com/contact', 'https://broadpharm.com/contact', NULL);
+INSERT INTO israel_entities VALUES (253, 'Tzamal D-Chem Laboratories Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-73-715-1137', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://broadpharm.com/distributors');
 INSERT INTO sources VALUES (253, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (253, 'https://broadpharm.com/contact');
+INSERT INTO sources VALUES (253, 'https://broadpharm.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (254, 'brother', 'Brother', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/brother', NULL, NULL, NULL, 'https://global.brother/', 'wikidata', 'Japan', 'יפן', 'Nagoya', NULL, '1908', NULL, NULL, NULL, 'Japanese multinational electronics and electrical equipment company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Nagoya', NULL, NULL, 'Q990804');
 INSERT INTO products VALUES (254, 1, 'TC Style Replacement Tapes', NULL, 'thomassci', 'https://www.thomassci.com/p/tc-style-replacement-tapes');
 INSERT INTO products VALUES (254, 2, 'TZe Replacement Tapes, 12mm (0.47")', NULL, 'thomassci', 'https://www.thomassci.com/p/tze-replacement-tapes-12mm-047');
@@ -1887,7 +2175,24 @@ INSERT INTO products VALUES (258, 4, 'OSRAM Bulb, Halogen', NULL, 'thomassci', '
 INSERT INTO products VALUES (258, 5, 'Philips TUV 36T5/SP Germicidal Fluorescent Light Bulb', NULL, 'thomassci', 'https://www.thomassci.com/p/philips-tuv-36t5/sp-germicidal-fluorescent-light-bulb');
 INSERT INTO sources VALUES (258, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (258, 'https://www.thomassci.com/browse-by/suppliers/bulbtronics');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (259, 'bullard', 'Bullard', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bullard', NULL, NULL, NULL, 'https://bullard.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18592346616', NULL, NULL, 'https://www.bullard.com/contact-us/', 'https://www.bullard.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (259, 'bullard', 'Bullard', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/bullard', NULL, NULL, NULL, 'https://bullard.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.bullard.com/contact-us/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '18592346616', NULL, NULL, 'https://www.bullard.com/contact-us/', 'https://www.bullard.com/contact-us/', NULL);
 INSERT INTO products VALUES (259, 1, 'Loose-fitting Facepiece', NULL, 'thomassci', 'https://www.thomassci.com/p/lf-facepiece-tychem');
 INSERT INTO products VALUES (259, 2, 'inflatable neck cuff, free floating, 1000 APF, Dupont Tychem QC', NULL, 'thomassci', 'https://www.thomassci.com/p/inflatable-neck-cuff-free-floating-1000-apf-dupont-tychem-qc');
 INSERT INTO products VALUES (259, 3, 'Batteries for EVA and EVAHL', NULL, 'thomassci', 'https://www.thomassci.com/p/battery');
@@ -1971,18 +2276,22 @@ INSERT INTO products VALUES (272, 1, 'Camco Quik Stain® II (Wright - Giemsa)', 
 INSERT INTO products VALUES (272, 2, 'Camco Quik Stain® (Wright)', NULL, 'thomassci', 'https://www.thomassci.com/p/wrights-hematology-stain-set3');
 INSERT INTO products VALUES (272, 3, 'Erada-Stain® & Erado-Sol® Stain Removers', NULL, 'thomassci', 'https://www.thomassci.com/p/erada-stain-and-erado-sol');
 INSERT INTO sources VALUES (272, 'https://www.thomassci.com/browse-by/suppliers/cambridge-diagnostic');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (273, 'cannon instrument', 'Cannon Instrument', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cannon-instrument', NULL, NULL, NULL, 'https://cannoninstrument.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '800-676-6232', NULL, NULL, 'https://cannoninstrument.com/contact', 'https://cannoninstrument.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (273, 'cannon instrument', 'Cannon Instrument', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cannon-instrument', NULL, NULL, NULL, 'https://cannoninstrument.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '800-676-6232', NULL, NULL, 'https://cannoninstrument.com/contact', 'https://cannoninstrument.com/contact', NULL);
 INSERT INTO products VALUES (273, 1, 'Viscometer Holder', NULL, 'thomassci', 'https://www.thomassci.com/p/viscometer-holder-neoprene-rubber-for-cufsc');
 INSERT INTO products VALUES (273, 2, 'Silicone Viscosity Standards', NULL, 'thomassci', 'https://www.thomassci.com/p/silicone-viscosity-standards');
 INSERT INTO products VALUES (273, 3, 'CT-500 And CT-518 Constant Temperature Baths', NULL, 'thomassci', 'https://www.thomassci.com/p/ct-500-and-ct-518-constant-temperature-baths');
 INSERT INTO products VALUES (273, 4, 'TE-3000 Constant (Low) Temperature Bath', NULL, 'thomassci', 'https://www.thomassci.com/p/te-3000-constant-low-temperature-bath');
 INSERT INTO products VALUES (273, 5, 'BS/U/M Miniature U-Tube', NULL, 'thomassci', 'https://www.thomassci.com/p/bsum-miniature-u-tube');
+INSERT INTO israel_entities VALUES (273, 'Levenson Agencies Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '972 (04) 998 9971', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://cannoninstrument.com/sales-team');
 INSERT INTO sources VALUES (273, 'https://www.thomassci.com/browse-by/suppliers/cannon-instrument');
 INSERT INTO sources VALUES (273, 'https://cannoninstrument.com/contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (274, 'caplugs', 'Caplugs', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.caplugs.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18882275847', 'sales@caplugs.com', NULL, 'https://www.caplugs.com/contact-us', 'https://www.caplugs.com/contact-us', 'Q117168307');
+INSERT INTO sources VALUES (273, 'https://cannoninstrument.com/sales-team');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (274, 'caplugs', 'Caplugs', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.caplugs.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '18882275847', 'sales@caplugs.com', NULL, 'https://www.caplugs.com/contact-us', 'https://www.caplugs.com/contact-us', 'Q117168307');
+INSERT INTO israel_entities VALUES (274, 'ALA Yail Aerotec  Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '972-3-550-9148', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.caplugs.com/sales-reps');
 INSERT INTO sources VALUES (274, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (274, 'https://www.wikidata.org/wiki/Q117168307');
 INSERT INTO sources VALUES (274, 'https://www.caplugs.com/contact-us');
+INSERT INTO sources VALUES (274, 'https://www.caplugs.com/sales-reps');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (275, 'caplugs evergreen', 'Caplugs Evergreen®', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/caplugs-evergreen', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (275, 1, 'Test Tubes', NULL, 'thomassci', 'https://www.thomassci.com/p/polystyrene-general-purpose-test-tubes');
 INSERT INTO products VALUES (275, 2, 'Test Tube Stopper Caps', NULL, 'thomassci', 'https://www.thomassci.com/p/polyethylene-caps');
@@ -2088,9 +2397,44 @@ INSERT INTO products VALUES (290, 5, 'Anti-Human HLA-ABC', NULL, 'thomassci', 'h
 INSERT INTO sources VALUES (290, 'https://www.thomassci.com/browse-by/suppliers/cedarlane');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (291, 'cedarlane cytomark', 'Cedarlane / Cytomark', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cedarlane-/-cytomark', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (291, 'https://www.thomassci.com/browse-by/suppliers/cedarlane-/-cytomark');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (292, 'cell biolabs', 'Cell Biolabs', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://cellbiolabs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-858-271-6500', 'info@cellbiolabs.com', NULL, 'https://www.cellbiolabs.com/contact-technical-service', 'https://www.cellbiolabs.com/contact-technical-service', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (292, 'cell biolabs', 'Cell Biolabs', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://cellbiolabs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.cellbiolabs.com/international-distributors) but no distributor name could be extracted automatically: «a
+
+Bahrain
+
+Belarus
+
+Belgium
+
+Brazil
+
+Bulgaria
+
+Canada
+
+Chile
+
+China
+
+Colombia
+
+Costa Rica
+
+Croatia
+
+Czech Republic
+
+Denmark
+
+Egypt
+
+El Salvador
+
+Estonia
+
+Finla»', '1-858-271-6500', 'info@cellbiolabs.com', NULL, 'https://www.cellbiolabs.com/contact-technical-service', 'https://www.cellbiolabs.com/contact-technical-service', NULL);
 INSERT INTO sources VALUES (292, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (292, 'https://www.cellbiolabs.com/contact-technical-service');
+INSERT INTO sources VALUES (292, 'https://www.cellbiolabs.com/international-distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (293, 'cell point scientific', 'Cell Point Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cell-point-scientific', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (293, 'https://www.thomassci.com/browse-by/suppliers/cell-point-scientific');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (294, 'cell signaling technology', 'Cell Signaling Technology', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.cellsignal.com/', 'wikidata', 'United States', 'ארה"ב', 'Danvers', NULL, '1999', 'industrial manufacturing', NULL, NULL, 'medical diagnostic company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'partial', 'חיפוש חלקי', NULL, NULL, '877-678-8324', NULL, 'Danvers', 'https://www.cellsignal.com:443/learn-and-support/support-information', 'https://www.cellsignal.com:443/learn-and-support/support-information', 'Q3392342');
@@ -2100,10 +2444,12 @@ INSERT INTO sources VALUES (294, 'https://www.wikidata.org/wiki/Q3392342');
 INSERT INTO sources VALUES (294, 'https://www.cellsignal.com:443/learn-and-support/support-information');
 INSERT INTO sources VALUES (294, 'https://www.fiseb.org/vendors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (295, 'cell systems', 'Cell Systems', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://cell-systems.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '425-823-1010', 'customerservice@cell-systems.com', NULL, 'https://cell-systems.com/pages/contact', 'https://cell-systems.com/pages/contact', NULL);
+INSERT INTO israel_entities VALUES (295, 'Doron Scientific', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://cell-systems.com/pages/strategic-partners');
 INSERT INTO israel_entities VALUES (295, 'distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit', 'דורון סיינטיפיק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.doronscientific.com/', '054-5544004', 'info@doronscientific.com', NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://doronscientific.com/products/');
 INSERT INTO sources VALUES (295, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (295, 'https://doronscientific.com/products/');
 INSERT INTO sources VALUES (295, 'https://cell-systems.com/pages/contact');
+INSERT INTO sources VALUES (295, 'https://cell-systems.com/pages/strategic-partners');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (296, 'cellaven', 'Cellaven', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Cellaven', NULL, NULL, NULL, NULL, 'https://cellaven.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'contact@cellaven.com', NULL, 'https://cellaven.com/contact-cellaven-cell-culture-automation/', 'https://cellaven.com/contact-cellaven-cell-culture-automation/', 'Q131664383');
 INSERT INTO products VALUES (296, 1, 'Nestor automatic medium changer for cell culture', NULL, 'dutscher', 'https://www.dutscher.com/article/211000');
 INSERT INTO products VALUES (296, 2, 'Consumables kit for plates', NULL, 'dutscher', 'https://www.dutscher.com/article/211001');
@@ -2112,10 +2458,10 @@ INSERT INTO sources VALUES (296, 'https://www.dutscher.com/search?initialFilters
 INSERT INTO sources VALUES (296, 'https://www.wikidata.org/wiki/Q131664383');
 INSERT INTO sources VALUES (296, 'https://cellaven.com/contact-cellaven-cell-culture-automation/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (297, 'cellecta', 'Cellecta', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://cellecta.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '16509383910', 'info@cellecta.com', NULL, 'https://cellecta.com/pages/company-contact-us', 'https://cellecta.com/pages/company-contact-us', NULL);
-INSERT INTO israel_entities VALUES (297, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
+INSERT INTO israel_entities VALUES (297, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://cellecta.com/pages/distributors');
 INSERT INTO sources VALUES (297, 'https://www.quartzy.com/suppliers');
-INSERT INTO sources VALUES (297, 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (297, 'https://cellecta.com/pages/company-contact-us');
+INSERT INTO sources VALUES (297, 'https://cellecta.com/pages/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (298, 'cellomics', 'Cellomics', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (298, 'https://www.quartzy.com/suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (299, 'cellomics technology', 'Cellomics Technology', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cellomics-technology', NULL, NULL, NULL, 'https://cellomicstech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-800-586-6038', 'info@cellomicstech.com', NULL, 'https://www.cellomicstech.com/contactus', 'https://www.cellomicstech.com/contactus', NULL);
@@ -2151,9 +2497,11 @@ INSERT INTO sources VALUES (303, 'https://www.thomassci.com/browse-by/suppliers/
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (304, 'cellular engineering technologies', 'Cellular Engineering Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cellular-engineering-technologies', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q30286775');
 INSERT INTO sources VALUES (304, 'https://www.thomassci.com/browse-by/suppliers/cellular-engineering-technologies');
 INSERT INTO sources VALUES (304, 'https://www.wikidata.org/wiki/Q30286775');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (305, 'cellvis', 'Cellvis', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.cellvis.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q117168396');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (305, 'cellvis', 'Cellvis', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.cellvis.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, NULL, NULL, NULL, NULL, 'Q117168396');
+INSERT INTO israel_entities VALUES (305, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '+972-8-9366066', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.cellvis.com/distributors.php');
 INSERT INTO sources VALUES (305, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (305, 'https://www.wikidata.org/wiki/Q117168396');
+INSERT INTO sources VALUES (305, 'https://www.cellvis.com/distributors.php');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (306, 'cem', 'CEM', 'D', 'https://www.dutscher.com/search?initialFilters=brand:CEM', NULL, NULL, NULL, NULL, 'https://www.cem-macau.com', 'wikidata', 'People''s Republic of China', 'סין', 'Macau', NULL, '1972', 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', 'electric utility company of Macau', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Macau', NULL, NULL, 'Q5010269');
 INSERT INTO products VALUES (306, 1, 'MICROWAVE AND IR MOISTURE ANALYSER CEM SMART 6', NULL, 'dutscher', 'https://www.dutscher.com/article/191802');
 INSERT INTO products VALUES (306, 2, 'PADS SQUARE FOR SMART 6 CM x400', NULL, 'dutscher', 'https://www.dutscher.com/article/191825');
@@ -2165,7 +2513,12 @@ INSERT INTO sources VALUES (306, 'https://www.wikidata.org/wiki/Q5010269');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (307, 'cenmed', 'Cenmed', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q134971041');
 INSERT INTO sources VALUES (307, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (307, 'https://www.wikidata.org/wiki/Q134971041');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (308, 'certoclav', 'Certoclav', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Certoclav', NULL, NULL, NULL, NULL, 'https://certoclav.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Accessory for autoclave', 'Accessory for autoclave', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+43732674278', 'support@certoclav.com', NULL, 'https://www.certoclav.com/contact/', 'https://www.certoclav.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (308, 'certoclav', 'Certoclav', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Certoclav', NULL, NULL, NULL, NULL, 'https://certoclav.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Accessory for autoclave', 'Accessory for autoclave', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.certoclav.com/dealers-finder/) but no distributor name could be extracted automatically: «Wartha Vince utca 1/2, HU-8200 Veszprém, Hungary
++3688568710
+info[at]aquaterra.hu
+Website
+Naseem Baghdad Company
+Block No. 609, Street No. 1, Building No. 21, B»', '+43732674278', 'support@certoclav.com', NULL, 'https://www.certoclav.com/contact/', 'https://www.certoclav.com/contact/', NULL);
 INSERT INTO products VALUES (308, 1, '12-Litre EL Certoclav with aluminium chamber (max. temperature: 125/140 °C)', NULL, 'dutscher', 'https://www.dutscher.com/article/432002');
 INSERT INTO products VALUES (308, 2, '18-Litre Connect Certoclav with stainless steel chamber (max. temperature: 140 °C)', NULL, 'dutscher', 'https://www.dutscher.com/article/432018');
 INSERT INTO products VALUES (308, 3, '12-Litre EL Certoclav with aluminium chamber (max. temperature: 115/121 °C) + wire basket', NULL, 'dutscher', 'https://www.dutscher.com/article/432005');
@@ -2173,6 +2526,7 @@ INSERT INTO products VALUES (308, 4, 'Autoclave CertoClav Vacuum Pro - volume 22
 INSERT INTO products VALUES (308, 5, 'Autoclave CertoClav Vacuum Pro - volume 12 L', NULL, 'dutscher', 'https://www.dutscher.com/article/432039');
 INSERT INTO sources VALUES (308, 'https://www.dutscher.com/search?initialFilters=brand:Certoclav');
 INSERT INTO sources VALUES (308, 'https://www.certoclav.com/contact/');
+INSERT INTO sources VALUES (308, 'https://www.certoclav.com/dealers-finder/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (309, 'charles river laboratories', 'Charles River Laboratories', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.criver.com', 'wikidata', 'United States', 'ארה"ב', 'Wilmington', NULL, '1947', NULL, NULL, NULL, 'major US biomedical company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Wilmington', NULL, NULL, 'Q5082076');
 INSERT INTO sources VALUES (309, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (309, 'https://www.wikidata.org/wiki/Q5082076');
@@ -2222,11 +2576,11 @@ INSERT INTO products VALUES (317, 2, 'Kalrez® 4079 O-Rings', NULL, 'thomassci',
 INSERT INTO products VALUES (317, 3, 'Adapters, Distillation, 105°', NULL, 'thomassci', 'https://www.thomassci.com/p/adapters-distillation-1052');
 INSERT INTO products VALUES (317, 4, 'Round Cover Slips', NULL, 'thomassci', 'https://www.thomassci.com/p/round-cover-slips-1');
 INSERT INTO products VALUES (317, 5, 'Plate Glass, Square, Borosilicate', NULL, 'thomassci', 'https://www.thomassci.com/p/plate-glass-square-borosilicate');
-INSERT INTO israel_entities VALUES (317, 'S.L. Moran Ltd.', 'ש.ל. מורן', 'distributor', 'listed as a brand on the distributor''s site', 'https://slmoran.co.il', '+972 74-702-9898', 'office@slmoran.co.il', 'Shatner Center 7, Givat Shaul, Jerusalem', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/');
+INSERT INTO israel_entities VALUES (317, 'S.L. Moran Ltd.', 'ש.ל. מורן', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://slmoran.co.il', '+972 74-702-9898', 'office@slmoran.co.il', 'Shatner Center 7, Givat Shaul, Jerusalem', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://chemglass.com/pages/supp_interns');
 INSERT INTO sources VALUES (317, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (317, 'https://www.thomassci.com/browse-by/suppliers/chemglass');
-INSERT INTO sources VALUES (317, 'https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/');
 INSERT INTO sources VALUES (317, 'https://chemglass.com/ContactUs');
+INSERT INTO sources VALUES (317, 'https://chemglass.com/pages/supp_interns');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (318, 'chemicals reagents w', 'Chemicals Reagents W', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/chemicals-reagents-w', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (318, 'https://www.thomassci.com/browse-by/suppliers/chemicals-reagents-w');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (319, 'chemscene', 'ChemScene', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://chemscene.com', 'clearbit', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -2287,12 +2641,39 @@ INSERT INTO products VALUES (330, 3, 'Clarity Diagnostics Hemoglobin', NULL, 'th
 INSERT INTO products VALUES (330, 4, 'Clarity Diagnostics Pregnancy', NULL, 'thomassci', 'https://www.thomassci.com/p/clarity-diagnostics-pregnancy');
 INSERT INTO products VALUES (330, 5, 'Clarity Diagnostics Drugs of Abuse Tests', NULL, 'thomassci', 'https://www.thomassci.com/p/clarity-diagnostics-drugs-of-abuse-tests');
 INSERT INTO sources VALUES (330, 'https://www.thomassci.com/browse-by/suppliers/clarity-diagnostics-llc');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (331, 'clean edge', 'Clean Edge', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/clean-edge', NULL, NULL, NULL, 'http://www.cleanedge.com/', 'wikidata', 'United States', 'ארה"ב', 'Portland', NULL, '2000', 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', 'publisher of thematic stock indexes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Portland', 'https://cleanedge.com/contact/', 'https://cleanedge.com/contact/', 'Q5130473');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (331, 'clean edge', 'Clean Edge', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/clean-edge', NULL, NULL, NULL, 'http://www.cleanedge.com/', 'wikidata', 'United States', 'ארה"ב', 'Portland', NULL, '2000', 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', 'publisher of thematic stock indexes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://cleanedge.com/index/qgrd/) but no distributor name could be extracted automatically: «ric SE
+
+EMD&N + ES
+
+France
+
+1503
+
+Shihlin Electric & Engineering Corp.
+
+GI
+
+Taiwan
+
+SIE
+
+Siemens AG
+
+GI + EMD&N
+
+Germany
+
+6656
+
+Sigenergy Technology Co., Ltd.
+
+»', NULL, NULL, 'Portland', 'https://cleanedge.com/contact/', 'https://cleanedge.com/contact/', 'Q5130473');
 INSERT INTO products VALUES (331, 1, 'STD Flo Orange Saf-t Cap PAA (P-5072)', NULL, 'thomassci', 'https://www.thomassci.com/p/std-flo-orange-saf-t-cap-paa-p-5072');
 INSERT INTO products VALUES (331, 2, 'Safe-T-Feed® STD-Flo Drum System', NULL, 'thomassci', 'https://www.thomassci.com/p/safe-t-feed-std-flo-drum-system');
 INSERT INTO sources VALUES (331, 'https://www.thomassci.com/browse-by/suppliers/clean-edge');
 INSERT INTO sources VALUES (331, 'https://www.wikidata.org/wiki/Q5130473');
 INSERT INTO sources VALUES (331, 'https://cleanedge.com/contact/');
+INSERT INTO sources VALUES (331, 'https://cleanedge.com/index/qgrd/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (332, 'clean packaging solutions', 'Clean Packaging Solutions LLC', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/clean-packaging-solutions-llc', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (332, 1, 'Cleanroom Visqueen / Film', NULL, 'thomassci', 'https://www.thomassci.com/p/cleanroom-visqueen-/-film-120-inchx100-6-mil-centerfold-60-inchx2');
 INSERT INTO products VALUES (332, 2, 'HDPE Can Liner - Natural', NULL, 'thomassci', 'https://www.thomassci.com/p/hdpe-can-liner-natural');
@@ -2476,7 +2857,25 @@ INSERT INTO products VALUES (357, 4, 'Ceramic Crucible Cover', NULL, 'thomassci'
 INSERT INTO products VALUES (357, 5, 'Dish 75X26mm 100ml 65594', NULL, 'thomassci', 'https://www.thomassci.com/p/dish-75x26mm-100ml-65594');
 INSERT INTO sources VALUES (357, 'https://www.thomassci.com/browse-by/suppliers/coorstek');
 INSERT INTO sources VALUES (357, 'https://www.wikidata.org/wiki/Q5168054');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (358, 'copan', 'Copan', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Copan', 'https://www.thomassci.com/browse-by/suppliers/copan', NULL, NULL, NULL, 'https://copanusa.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Results cover Copan''s global deals (bioMerieux exclusive worldwide for certain swabs, 2007; Beckman Coulter amendment for 21 markets; Thermo Fisher US-only for WASP) and US/AU resellers; no Israeli distributor named.', '(800) 216 - 4016', NULL, NULL, 'https://www.copanusa.com/about/contact/', 'https://www.copanusa.com/about/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (358, 'copan', 'Copan', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Copan', 'https://www.thomassci.com/browse-by/suppliers/copan', NULL, NULL, NULL, 'https://copanusa.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Results cover Copan''s global deals (bioMerieux exclusive worldwide for certain swabs, 2007; Beckman Coulter amendment for 21 markets; Thermo Fisher US-only for WASP) and US/AU resellers; no Israeli distributor named. | "Israel" appears on the manufacturer''s distributor/contact page (https://www.copanusa.com/about/contact/) but no distributor name could be extracted automatically: «ies
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard and McDonal»', '(800) 216 - 4016', NULL, NULL, 'https://www.copanusa.com/about/contact/', 'https://www.copanusa.com/about/contact/', NULL);
 INSERT INTO products VALUES (358, 1, 'CLASSIQSwabs™ Dry Swabs', NULL, 'thomassci', 'https://www.thomassci.com/p/sterile-dry-standard-fiber-wrapped-swabs');
 INSERT INTO products VALUES (358, 2, 'FLOQSwabs®', NULL, 'thomassci', 'https://www.thomassci.com/p/floqswabs');
 INSERT INTO products VALUES (358, 3, 'Disposable Transfer Pipets', NULL, 'thomassci', 'https://www.thomassci.com/p/disposable-transfer-pipets-1');
@@ -2549,9 +2948,11 @@ INSERT INTO products VALUES (364, 5, 'StirBar cylindrical stirring magnet with p
 INSERT INTO sources VALUES (364, 'https://www.dutscher.com/search?initialFilters=brand:Cowie');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (365, 'cowin biosciences', 'CoWin Biosciences', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (365, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (366, 'cp lab safety', 'CP Lab Safety', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://calpaclab.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(888) 322-5722', NULL, NULL, 'https://www.cplabsafety.com/contact-us/', 'https://www.cplabsafety.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (366, 'cp lab safety', 'CP Lab Safety', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://calpaclab.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '(888) 322-5722', NULL, NULL, 'https://www.cplabsafety.com/contact-us/', 'https://www.cplabsafety.com/contact-us/', NULL);
+INSERT INTO israel_entities VALUES (366, 'Yair Technologies', 'יאיר טכנולוגיות', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.yairtech.co.il/', '+97288544856', 'contact@yairtech.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.cplabsafety.com/distributors/');
 INSERT INTO sources VALUES (366, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (366, 'https://www.cplabsafety.com/contact-us/');
+INSERT INTO sources VALUES (366, 'https://www.cplabsafety.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (367, 'cps serum', 'CPS Serum', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://cpsserum.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1-518-500-4709', 'info@cpsserum.com', NULL, 'https://www.cpsserum.com/contact', 'https://www.cpsserum.com/contact', NULL);
 INSERT INTO sources VALUES (367, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (367, 'https://www.cpsserum.com/contact');
@@ -2609,9 +3010,36 @@ INSERT INTO sources VALUES (374, 'https://www.wikidata.org/wiki/Q131251753');
 INSERT INTO sources VALUES (374, 'https://cryopal.com/fr/accueil');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (375, 'cryoveritas', 'Cryoveritas', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/cryoveritas', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (375, 'https://www.thomassci.com/browse-by/suppliers/cryoveritas');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (376, 'crystal chem', 'Crystal Chem', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://crystalchem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'sales@crystalchem.com', NULL, 'https://www.crystalchem.com/inquiries.html', 'https://www.crystalchem.com/inquiries.html', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (376, 'crystal chem', 'Crystal Chem', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://crystalchem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.crystalchem.com/) but no distributor name could be extracted automatically: «Assays for Research & Discovery | Crystal Chem
+
+Australia
+
+Austria
+
+Bangladesh
+
+Belgium
+
+Brazil
+
+Canada
+
+China
+
+Denmark
+
+Finland
+
+France
+
+Germany
+
+Greece
+
+Hong »', NULL, 'sales@crystalchem.com', NULL, 'https://www.crystalchem.com/inquiries.html', 'https://www.crystalchem.com/inquiries.html', NULL);
 INSERT INTO sources VALUES (376, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (376, 'https://www.crystalchem.com/inquiries.html');
+INSERT INTO sources VALUES (376, 'https://www.crystalchem.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (377, 'crystal technologies', 'Crystal Technologies', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/crystal-technologies', 'yes', NULL, NULL, 'https://www.crystaltech.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'No result connected Crystal Technologies (lab supplier) to an Israeli channel; only generic Israeli lab distributors (Rhenium, Agentek, Enco, S.L. Moran, Ornat) and an unrelated press release about A-Crystal Electronic Technology/Paradox Israel.', NULL, NULL, NULL, NULL, 'https://www.crystaltech.com/', NULL);
 INSERT INTO products VALUES (377, 1, 'Cardboard Cell Dividers', NULL, 'thomassci', 'https://www.thomassci.com/p/cardboard-cell-dividers');
 INSERT INTO products VALUES (377, 2, 'Cardboard Freezer Boxes', NULL, 'thomassci', 'https://www.thomassci.com/p/freezer-boxes2');
@@ -2655,10 +3083,10 @@ INSERT INTO products VALUES (382, 1, 'UNIVERSAL pH 1-14 Paper - 1 roll', NULL, '
 INSERT INTO products VALUES (382, 2, 'Fluoride test paper - box of 200 strips', NULL, 'thomassci', 'https://www.thomassci.com/p/fluoride-test-paper-box-of-200-strips');
 INSERT INTO sources VALUES (382, 'https://www.thomassci.com/browse-by/suppliers/ctl-scientific');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (383, 'cube biotech', 'Cube Biotech', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://cube-biotech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '06108-3666', 'info@cube-biotech.com', NULL, 'https://cube-biotech.com/contact/', 'https://cube-biotech.com/contact/', NULL);
-INSERT INTO israel_entities VALUES (383, 'Tivan Biotech', 'טיבן ביוטק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.tivanbiotech.com/', '077-4701591', 'customerservice@tivanbiotech.com', NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://tivanbiotech.com/manufacturers');
+INSERT INTO israel_entities VALUES (383, 'Tivan Biotech', 'טיבן ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.tivanbiotech.com/', '+972-054-222-6019', 'customerservice@tivanbiotech.com', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://cube-biotech.com/information/international-distributors/');
 INSERT INTO sources VALUES (383, 'https://www.quartzy.com/suppliers');
-INSERT INTO sources VALUES (383, 'https://tivanbiotech.com/manufacturers');
 INSERT INTO sources VALUES (383, 'https://cube-biotech.com/contact/');
+INSERT INTO sources VALUES (383, 'https://cube-biotech.com/information/international-distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (384, 'curiosis', 'Curiosis Inc.', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/curiosis-inc-', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (384, 1, 'Celloger® Mini Plus', NULL, 'thomassci', 'https://www.thomassci.com/p/celloger-mini-plus');
 INSERT INTO products VALUES (384, 2, 'Celloger® Stack', NULL, 'thomassci', 'https://www.thomassci.com/p/celloger-stack');
@@ -2679,11 +3107,13 @@ INSERT INTO products VALUES (386, 4, 'HDPE wide mouth keg - 15 Litres - without 
 INSERT INTO products VALUES (386, 5, 'HDPE wide mouth keg - 68 Litres - with handles', NULL, 'dutscher', 'https://www.dutscher.com/article/773008');
 INSERT INTO sources VALUES (386, 'https://www.dutscher.com/search?initialFilters=brand:Curtec');
 INSERT INTO sources VALUES (386, 'https://www.curtec.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (387, 'custom biogenic systems', 'Custom Biogenic Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/custom-biogenic-systems', NULL, NULL, NULL, 'https://custombiogenics.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'סימון, משרד ואריזה', 'סימון, משרד ואריזה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1.586.331.2600', NULL, NULL, 'https://custombiogenics.com/contact/', 'https://custombiogenics.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (387, 'custom biogenic systems', 'Custom Biogenic Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/custom-biogenic-systems', NULL, NULL, NULL, 'https://custombiogenics.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'סימון, משרד ואריזה', 'סימון, משרד ואריזה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+1.586.331.2600', NULL, NULL, 'https://custombiogenics.com/contact/', 'https://custombiogenics.com/contact/', NULL);
 INSERT INTO products VALUES (387, 1, 'Stainless Steel Boxes', NULL, 'thomassci', 'https://www.thomassci.com/p/stainless-steel-boxes');
 INSERT INTO products VALUES (387, 2, 'Cardboard Cryogenic Storage Boxes', NULL, 'thomassci', 'https://www.thomassci.com/p/cardboard-cryogenic-storage-boxes');
+INSERT INTO israel_entities VALUES (387, 'Alex Red Ltd', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://custombiogenics.com/distributors/');
 INSERT INTO sources VALUES (387, 'https://www.thomassci.com/browse-by/suppliers/custom-biogenic-systems');
 INSERT INTO sources VALUES (387, 'https://custombiogenics.com/contact/');
+INSERT INTO sources VALUES (387, 'https://custombiogenics.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (388, 'cytiva', 'Cytiva', 'D+Q', 'https://www.dutscher.com/search?initialFilters=brand:Cytiva', NULL, 'yes', NULL, NULL, 'https://www.cytivalifesciences.com', 'manual', 'USA', 'ארה"ב', 'Marlborough, Massachusetts', 'Danaher Corporation', 2020, 'Bioprocess & filtration', 'ריאגנטים ביולוגיים', 'catalog_facet', 'biotech company', 16000, 2025, 'estimate', 'prior', 7300, 'USD 7.3 billion (Danaher Biotechnology segment)', 'FY2025', 'segment', 'prior', 'mixed', 'distributor', 'מפיץ/נציג בישראל', 'verified', 'אומת', 2026, '[אימות עדכניות 10/2026] Danyel Biotech''s live site carries a ''Biacore (Cytiva)'' brand page (alongside its Cytiva page from the prior round), confirming Danyel as a current Cytiva channel. Cytiva''s own find-a-distributor page lists Israel as a country option but the partner name is not in snippets, and Cytiva''s contracting-entity table assigns Israel to Pall Austria Filter Ges.m.b.H. Lifegene (Whatman) was not re-searched. Searched generic queries (incl. ÄKTA/Whatman/Amersham), 27 Israeli distributor domains, cytivalifesciences.com and a Whatman-specific query. Danyel Biotech''s own site has a Cytiva brand page (ÄKTA pure chromatography; Biacore listed as a Cytiva supplier), so Danyel is a current Israeli channel. Cytiva''s ''find a distributor'' page lists Israel as a selectable country but the partner name was not visible in snippets, and Cytiva''s terms document lists Israel under its international contracting entity Pall Austria Filter Ges.m.b.H., i.e. direct contracts are also written from abroad. The 2009 Rhenium-for-Whatman listing could not be re-confirmed and no current Israeli Whatman/Amersham channel was found. Lifegene''s catalogue carries Whatman (Cytiva) filtration products; Danyel Biotech has Cytiva brand pages for ÄKTA and Biacore.', '+1 800-526-3593', NULL, '100 Results Way, Marlborough, MA, USA', NULL, 'https://www.gulfcoastconference.com/exhibitorDetails.php?eid=3143', 'Q98654256');
 INSERT INTO products VALUES (388, 1, 'AKTA', 'protein purification chromatography systems', 'prior', NULL);
 INSERT INTO products VALUES (388, 2, 'MabSelect / Capto resins', 'chromatography resins for biologics manufacturing', 'prior', NULL);
@@ -2736,14 +3166,16 @@ INSERT INTO sources VALUES (392, 'https://deconlabs.com/contact/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (393, 'decongel', 'DeconGel', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/decongel', NULL, NULL, NULL, 'https://www.decongel.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, 'https://decongel.com/', NULL);
 INSERT INTO sources VALUES (393, 'https://www.thomassci.com/browse-by/suppliers/decongel');
 INSERT INTO sources VALUES (393, 'https://decongel.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (394, 'defelsko', 'Defelsko', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/defelsko', NULL, NULL, NULL, 'https://defelsko.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18004483835', NULL, NULL, NULL, 'https://www.defelsko.com/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (394, 'defelsko', 'Defelsko', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/defelsko', NULL, NULL, NULL, 'https://defelsko.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+18004483835', NULL, NULL, NULL, 'https://www.defelsko.com/', NULL);
 INSERT INTO products VALUES (394, 1, 'PosiTector® Inspection Kits', NULL, 'thomassci', 'https://www.thomassci.com/p/positector-inspection-kits');
 INSERT INTO products VALUES (394, 2, 'PosiTector® Surface Profile Gages', NULL, 'thomassci', 'https://www.thomassci.com/p/positector-surface-profile-gages');
 INSERT INTO products VALUES (394, 3, 'PosiTest® DFT Coating Thickness Gage', NULL, 'thomassci', 'https://www.thomassci.com/p/positest-dft-coating-thickness-gage');
 INSERT INTO products VALUES (394, 4, 'PosiTest® Pull-Off Adhesion Testers', NULL, 'thomassci', 'https://www.thomassci.com/p/positest-pull-off-adhesion-testers');
 INSERT INTO products VALUES (394, 5, 'PosiTector® 200', NULL, 'thomassci', 'https://www.thomassci.com/p/positector-2001');
+INSERT INTO israel_entities VALUES (394, 'Arad Engineering', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.defelsko.com/sales#dealer');
 INSERT INTO sources VALUES (394, 'https://www.thomassci.com/browse-by/suppliers/defelsko');
 INSERT INTO sources VALUES (394, 'https://www.defelsko.com/');
+INSERT INTO sources VALUES (394, 'https://www.defelsko.com/sales#dealer');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (395, 'defined bioscience', 'Defined Bioscience', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://definedbioscience.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-929-333-4633', 'info@definedbioscience.com', NULL, 'https://definedbioscience.com/pages/contact', 'https://definedbioscience.com/pages/contact', NULL);
 INSERT INTO sources VALUES (395, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (395, 'https://definedbioscience.com/pages/contact');
@@ -2853,7 +3285,29 @@ INSERT INTO products VALUES (411, 5, 'SERO 12 Blood Banking Centrifuge', NULL, '
 INSERT INTO israel_entities VALUES (411, 'Lapidot Group', 'לפידות', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.lapidot.com/', '+972-4-6309630 / +972-74-7797836', 'customerservice@lapidot.com', '8 Hashita St., P.O. Box 3552, Caesarea Industrial Park 3088900', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.lapidot.com/business-partners/');
 INSERT INTO sources VALUES (411, 'https://www.thomassci.com/browse-by/suppliers/drucker-diagnostics');
 INSERT INTO sources VALUES (411, 'https://www.lapidot.com/business-partners/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (412, 'drummond', 'Drummond', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Drummond', 'https://www.thomassci.com/browse-by/suppliers/drummond', NULL, NULL, NULL, 'https://www.drummondsci.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'פיפטות', 'פיפטות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Drummond Scientific''s find-a-distributor page (drummondsci.com/find-a-distributor/) lists international partners by country but the snippet cut off at Hungary, before Israel; nothing confirmed. Target website (drummondgolf.com.au) is wrong; the lab supplier is Drummond Scientific, Broomall PA.', '+18005237480', 'info@drummondsci.com', NULL, 'https://drummondsci.com/contact/', 'https://drummondsci.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (412, 'drummond', 'Drummond', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Drummond', 'https://www.thomassci.com/browse-by/suppliers/drummond', NULL, NULL, NULL, 'https://www.drummondsci.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'פיפטות', 'פיפטות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Drummond Scientific''s find-a-distributor page (drummondsci.com/find-a-distributor/) lists international partners by country but the snippet cut off at Hungary, before Israel; nothing confirmed. Target website (drummondgolf.com.au) is wrong; the lab supplier is Drummond Scientific, Broomall PA. | "Israel" appears on the manufacturer''s distributor/contact page (https://drummondsci.com/find-a-distributor/) but no distributor name could be extracted automatically: «6 Szeged, Hungary
+
+Tel:
+
+36-62-599750
+
+Fax:
+36-62-599751
+
+Visit Website
+
+Labex Corporation (SR Technologies)
+
+India
+
+Tel:
+
+91-11-26124727
+
+Fax:
+91-11-26124735
+
+»', '+18005237480', 'info@drummondsci.com', NULL, 'https://drummondsci.com/contact/', 'https://drummondsci.com/contact/', NULL);
 INSERT INTO products VALUES (412, 1, 'Nanoject II Auto-Nanoliter Injector', NULL, 'thomassci', 'https://www.thomassci.com/p/nanoject-ii-auto-nanoliter-injector');
 INSERT INTO products VALUES (412, 2, 'Microcaps®', NULL, 'thomassci', 'https://www.thomassci.com/p/microliter-pipets');
 INSERT INTO products VALUES (412, 3, 'Calibrated Pipets', NULL, 'thomassci', 'https://www.thomassci.com/p/calibrated-pipets');
@@ -2862,9 +3316,33 @@ INSERT INTO products VALUES (412, 5, 'Portable Pipet-Aid XL', NULL, 'thomassci',
 INSERT INTO sources VALUES (412, 'https://www.dutscher.com/search?initialFilters=brand:Drummond');
 INSERT INTO sources VALUES (412, 'https://www.thomassci.com/browse-by/suppliers/drummond');
 INSERT INTO sources VALUES (412, 'https://drummondsci.com/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (413, 'drummond scientific', 'Drummond Scientific', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://drummondsci.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18005237480', 'info@drummondsci.com', NULL, 'https://drummondsci.com/contact/', 'https://drummondsci.com/contact/', NULL);
+INSERT INTO sources VALUES (412, 'https://drummondsci.com/find-a-distributor/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (413, 'drummond scientific', 'Drummond Scientific', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://drummondsci.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://drummondsci.com/find-a-distributor/) but no distributor name could be extracted automatically: «6 Szeged, Hungary
+
+Tel:
+
+36-62-599750
+
+Fax:
+36-62-599751
+
+Visit Website
+
+Labex Corporation (SR Technologies)
+
+India
+
+Tel:
+
+91-11-26124727
+
+Fax:
+91-11-26124735
+
+»', '+18005237480', 'info@drummondsci.com', NULL, 'https://drummondsci.com/contact/', 'https://drummondsci.com/contact/', NULL);
 INSERT INTO sources VALUES (413, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (413, 'https://drummondsci.com/contact/');
+INSERT INTO sources VALUES (413, 'https://drummondsci.com/find-a-distributor/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (414, 'dual manufacturing', 'Dual Manufacturing', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/dual-manufacturing', NULL, NULL, NULL, 'https://dualmfg.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '847.260.5370', 'info@dualmfg.com', NULL, 'https://dualmfg.com/contactus-2', 'https://dualmfg.com/contactus-2', NULL);
 INSERT INTO products VALUES (414, 1, 'Aluminum Dishes with Covers', NULL, 'thomassci', 'https://www.thomassci.com/p/aluminum-dishes-with-covers');
 INSERT INTO products VALUES (414, 2, 'Copper Beakers', NULL, 'thomassci', 'https://www.thomassci.com/p/copper-beakers');
@@ -3102,7 +3580,21 @@ INSERT INTO products VALUES (447, 5, 'Simple Distillation Apparatus', NULL, 'tho
 INSERT INTO sources VALUES (447, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (447, 'https://www.thomassci.com/browse-by/suppliers/eisco');
 INSERT INTO sources VALUES (447, 'https://www.eiscolabs.com/pages/sales');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (448, 'eldon james', 'Eldon James', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/eldon-james', NULL, NULL, NULL, 'https://eldonjames.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '970-667-2728', 'sales@eldonjames.com', NULL, 'https://eldonjames.com/contact-us/', 'https://eldonjames.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (448, 'eldon james', 'Eldon James', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/eldon-james', NULL, NULL, NULL, 'https://eldonjames.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://eldonjames.com/distributors/) but no distributor name could be extracted automatically: «ow Solutions
+
+US Plastic Corporation
+
+International Distributors
+
+BIOPROCESSING
+
+Aseptconn AG
+SWITZERLAND
+
+Aseptic Group
+FRANCE
+
+BMT Fluid Control Solutions Gmb»', '970-667-2728', 'sales@eldonjames.com', NULL, 'https://eldonjames.com/contact-us/', 'https://eldonjames.com/contact-us/', NULL);
 INSERT INTO products VALUES (448, 1, 'Reduction Elbows', NULL, 'thomassci', 'https://www.thomassci.com/p/reduction-elbows');
 INSERT INTO products VALUES (448, 2, 'Flexelene™ SFX Tubing', NULL, 'thomassci', 'https://www.thomassci.com/p/flexelene-sfx-tubing');
 INSERT INTO products VALUES (448, 3, 'Flexelene™ Tubing - 135C', NULL, 'thomassci', 'https://www.thomassci.com/p/flexelene-tubing-135c');
@@ -3110,6 +3602,7 @@ INSERT INTO products VALUES (448, 4, 'Bulkhead Adapter Fittings', NULL, 'thomass
 INSERT INTO products VALUES (448, 5, 'Stationary Male Luer Lock', NULL, 'thomassci', 'https://www.thomassci.com/p/stationary-male-luer-lock');
 INSERT INTO sources VALUES (448, 'https://www.thomassci.com/browse-by/suppliers/eldon-james');
 INSERT INTO sources VALUES (448, 'https://eldonjames.com/contact-us/');
+INSERT INTO sources VALUES (448, 'https://eldonjames.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (449, 'electron microscopy', 'Electron Microscopy (EMS)', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO israel_entities VALUES (449, 'Bargal Analytical Instruments Ltd.', 'ברגל מכשור אנליטי', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.bargal.co.il/', '+972-3-979-6533', 'sales@bargal.co.il', '10 Shaked Street, Modi''in Industrial Park, Shoham 6085102', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://bargal.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/');
 INSERT INTO israel_entities VALUES (449, 'Rhenium Ltd.', 'רניום', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.rhenium.co.il', '+972 8-955-8888', NULL, '20 Hasatat St., P.O. Box 180, Modi''in 7171101', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://rheniumbio.co.il/');
@@ -3185,7 +3678,23 @@ INSERT INTO products VALUES (457, 4, 'LIBERO CS dataLogger with internal NTC pro
 INSERT INTO products VALUES (457, 5, 'LN2 Cryo Shipper Datalogger Kit, -200 °C to +200 °C', NULL, 'thomassci', 'https://www.thomassci.com/p/ln2-cryo-shipper-datalogger-kit-200-c-to-200-c');
 INSERT INTO sources VALUES (457, 'https://www.thomassci.com/browse-by/suppliers/elpro');
 INSERT INTO sources VALUES (457, 'https://www.wikidata.org/wiki/Q137919957');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (458, 'embitec', 'Embitec', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Embitec', NULL, NULL, NULL, NULL, 'https://embitec.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '858-684-3190', 'info@embitec.com', NULL, 'https://embitec.com/contact/', 'https://embitec.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (458, 'embitec', 'Embitec', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Embitec', NULL, NULL, NULL, NULL, 'https://embitec.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://embitec.com/international-distributors/) but no distributor name could be extracted automatically: «dapest
+
+Hungary
+
+Tel: 36-1-463-5072
+
+INDIA
+
+BIOGENUIX MEDSYSTEMS PVT. LTD,
+
+412-B, Jyoti Shikhar, District Centre
+
+Janakpuri, New Delhi 110058
+
+India
+
+Tel: 91-1»', '858-684-3190', 'info@embitec.com', NULL, 'https://embitec.com/contact/', 'https://embitec.com/contact/', NULL);
 INSERT INTO products VALUES (458, 1, 'Complete electrophoresis system RunOne for nucleic acids', NULL, 'dutscher', 'https://www.dutscher.com/article/038401');
 INSERT INTO products VALUES (458, 2, 'Kit: RunOne + Multicaster 8 rows 116 x 118 mm turquoise colour', NULL, 'dutscher', 'https://www.dutscher.com/article/035459');
 INSERT INTO products VALUES (458, 3, 'Complete unit Multicaster HLA Multicasting 116 x 89 mm Yellow (supplied with 2 combs)', NULL, 'dutscher', 'https://www.dutscher.com/article/039080');
@@ -3193,6 +3702,7 @@ INSERT INTO products VALUES (458, 4, 'Green gel 10 000 x in 0.5 ml water', NULL,
 INSERT INTO products VALUES (458, 5, 'PREPONE SAPPHIRE BLUE LED Imager for smartphone', NULL, 'dutscher', 'https://www.dutscher.com/article/081405');
 INSERT INTO sources VALUES (458, 'https://www.dutscher.com/search?initialFilters=brand:Embitec');
 INSERT INTO sources VALUES (458, 'https://embitec.com/contact/');
+INSERT INTO sources VALUES (458, 'https://embitec.com/international-distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (459, 'emp biotech', 'emp Biotech', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/emp-biotech', NULL, NULL, NULL, 'https://empbiotech.com', 'clearbit', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (459, 'https://www.thomassci.com/browse-by/suppliers/emp-biotech');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (460, 'emp rotomoulage', 'EMP Rotomoulage', 'D', 'https://www.dutscher.com/search?initialFilters=brand:EMP+Rotomoulage', NULL, NULL, NULL, NULL, 'https://emp-rotomoulage.fr', 'clearbit', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q126880006');
@@ -3233,11 +3743,11 @@ INSERT INTO products VALUES (465, 5, 'Wide-Mouth HDPE Oblong Bottle with HNO3 Pr
 INSERT INTO sources VALUES (465, 'https://www.thomassci.com/browse-by/suppliers/environmental-sampling-supply');
 INSERT INTO sources VALUES (465, 'https://essvial.com/contact/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (466, 'enzo life sciences', 'Enzo Life Sciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://enzolifesciences.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, NULL, NULL, NULL, 'https://www.enzo.com/', 'Q132101018');
-INSERT INTO israel_entities VALUES (466, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
+INSERT INTO israel_entities VALUES (466, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.enzo.com/help/distributors/');
 INSERT INTO sources VALUES (466, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (466, 'https://www.wikidata.org/wiki/Q132101018');
-INSERT INTO sources VALUES (466, 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (466, 'https://www.enzo.com/');
+INSERT INTO sources VALUES (466, 'https://www.enzo.com/help/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (467, 'ep scientific products', 'EP Scientific Products', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ep-scientific-products', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (467, 1, 'Tall Closed-Top Wide-Mouth Jars', NULL, 'thomassci', 'https://www.thomassci.com/p/tall-closed-top-wide-mouth-jars');
 INSERT INTO products VALUES (467, 2, 'Screw-Top Sterile Coliform Water Sample Bottles', NULL, 'thomassci', 'https://www.thomassci.com/p/screw-top-sterile-coliform-water-sample-bottles');
@@ -3254,10 +3764,12 @@ INSERT INTO products VALUES (468, 5, 'Disposable White SMS Polypropylene Coveral
 INSERT INTO sources VALUES (468, 'https://www.thomassci.com/browse-by/suppliers/epic-medical');
 INSERT INTO sources VALUES (468, 'https://www.epic-med.com/contact-us');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (469, 'epicypher', 'EpiCypher', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://epicypher.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+18553742461', 'sales@epicypher.com', NULL, 'https://www.epicypher.com/contact-us/', 'https://www.epicypher.com/contact-us/', NULL);
+INSERT INTO israel_entities VALUES (469, 'Enco Scientific Services Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '972-3-934-9922', 'orders@enco.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.epicypher.com/contact-us/international-orders/');
 INSERT INTO israel_entities VALUES (469, 'Enco', 'אנקו', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.enco.co.il/', '+972-3-934-9922', 'orders@enco.co.il', '17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.enco.co.il/');
 INSERT INTO sources VALUES (469, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (469, 'https://www.enco.co.il/');
 INSERT INTO sources VALUES (469, 'https://www.epicypher.com/contact-us/');
+INSERT INTO sources VALUES (469, 'https://www.epicypher.com/contact-us/international-orders/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (470, 'eppendorf', 'Eppendorf', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Eppendorf', 'https://www.thomassci.com/browse-by/suppliers/eppendorf', NULL, NULL, NULL, 'https://www.eppendorf.com', 'prior', 'Germany', 'גרמניה', 'Hamburg', NULL, 1945, 'Liquid handling & lab automation', 'ציוד', 'catalog_facet', 'company', 4125, 2025, 'company', 'prior', 1016, 'EUR 924 million', 'FY2025', 'company', 'prior', 'reported', 'distributor', 'מפיץ/נציג בישראל', 'verified', 'אומת', 2026, '[אימות עדכניות 10/2026] Lumitron''s live site carries a broad Eppendorf range (centrifuges, pipettes, BioFlo/BioBLU bioreactors, CellXpert incubator shakers, Eporator, micromanipulators) with hosted Eppendorf brochures, which replaces the earlier LinkedIn-only evidence. Eppendorf''s own site lists Israel in its country selector and says the Dubai regional company (Eppendorf Middle East and Africa FZ-LLC) works through local partners, but its distributor overview''s Israel entry was not visible in snippets, so manufacturer-side naming is still missing. Evidence is indirect: a Hebrew LinkedIn post (Nili Krool, Israel) announcing the Israeli launch (6 March) of the Eppendorf SpinPro 6 R centrifuge directs enquiries to Lumitron (לומיטרון), described as part of the Comtel Technologies & Engineering group (קומטל) and an importer of laboratory equipment and consumables - implying Lumitron markets Eppendorf in Israel, although the post does not state the distributorship explicitly. Eppendorf''s corporate site says it has subsidiaries in 33 countries and is represented elsewhere by distribution partners; no ''Eppendorf Israel'' subsidiary surfaced. Searched ''Eppendorf Israel distributor'' and ''אפנדורף Eppendorf נציג בישראל''. The eppendorf.com distributor/contact page and Lumitron''s own site could not be opened (fetch failure; search budget exhausted), so this needs confirmation.', '+49 40 53801-0', 'eppendorf@eppendorf.de', 'Barkhausenweg 1, 22339 Hamburg, Germany', 'https://www.eppendorf.com/us-en/company-careers/news-media/press-contact/', 'https://www.eppendorf.com/be-en/company-careers/legal/imprint/', 'Q443211');
 INSERT INTO products VALUES (470, 1, 'Eppendorf Research plus', 'manual mechanical pipettes', 'prior', NULL);
 INSERT INTO products VALUES (470, 2, 'Centrifuge 5430 / 5910 Ri', 'benchtop refrigerated centrifuges', 'prior', NULL);
@@ -3293,10 +3805,57 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO sources VALUES (473, 'https://www.thomassci.com/browse-by/suppliers/eraser-company');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (474, 'erdco engineering', 'Erdco Engineering', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/erdco-engineering', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (474, 'https://www.thomassci.com/browse-by/suppliers/erdco-engineering');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (475, 'ergodyne', 'Ergodyne', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ergodyne', NULL, NULL, NULL, 'https://ergodyne.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '800-225-8238', 'support@ergodyne.com', NULL, 'https://www.ergodyne.com/contact-us', 'https://www.ergodyne.com/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (475, 'ergodyne', 'Ergodyne', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ergodyne', NULL, NULL, NULL, 'https://ergodyne.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.ergodyne.com/form/distributor-registration) but no distributor name could be extracted automatically: «Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guernsey
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard & McDonald Islands
+
+Ho»', '800-225-8238', 'support@ergodyne.com', NULL, 'https://www.ergodyne.com/contact-us', 'https://www.ergodyne.com/contact-us', NULL);
 INSERT INTO sources VALUES (475, 'https://www.thomassci.com/browse-by/suppliers/ergodyne');
 INSERT INTO sources VALUES (475, 'https://www.ergodyne.com/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (476, 'erlab', 'Erlab', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Erlab', 'https://www.thomassci.com/browse-by/suppliers/erlab', NULL, NULL, NULL, 'https://erlab.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Erlab reports a dealer network in 40+ countries, none named for Israel; the Nanomix ''eLab''/Biotron Ltd (2022) hit is an unrelated company; Eldan/Rhenium appeared with no link.', '(800) 964-4434', NULL, NULL, 'https://www.erlab.com/en/company/contact-quote-request/', 'https://www.erlab.com/en/company/contact-quote-request/', NULL);
+INSERT INTO sources VALUES (475, 'https://www.ergodyne.com/form/distributor-registration');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (476, 'erlab', 'Erlab', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Erlab', 'https://www.thomassci.com/browse-by/suppliers/erlab', NULL, NULL, NULL, 'https://erlab.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Erlab reports a dealer network in 40+ countries, none named for Israel; the Nanomix ''eLab''/Biotron Ltd (2022) hit is an unrelated company; Eldan/Rhenium appeared with no link. | "Israel" appears on the manufacturer''s distributor/contact page (https://www.erlab.com/en/company/contact-quote-request/) but no distributor name could be extracted automatically: «Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Ho»', '(800) 964-4434', NULL, NULL, 'https://www.erlab.com/en/company/contact-quote-request/', 'https://www.erlab.com/en/company/contact-quote-request/', NULL);
 INSERT INTO products VALUES (476, 1, 'Replacement Filters for Erlab ChemTrap V201', NULL, 'thomassci', 'https://www.thomassci.com/p/replacement-filters-for-erlab-chemtrap-v201');
 INSERT INTO products VALUES (476, 2, 'HALO 32 1P Commercial Grade Air Purification Stations, 80-240V/ 50-60 Hz', NULL, 'thomassci', 'https://www.thomassci.com/p/halo-32-1p-commercial-grade-air-purification-stations-80-240v/-50-60-hz');
 INSERT INTO products VALUES (476, 3, 'Captair 321 - New Bundled Solutions', NULL, 'thomassci', 'https://www.thomassci.com/p/captair-321-new-bundled-solutions');
@@ -3343,10 +3902,35 @@ INSERT INTO sources VALUES (479, 'https://www.thomassci.com/browse-by/suppliers/
 INSERT INTO sources VALUES (479, 'https://www.ethosbiosciences.com/contact');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (480, 'eurofins discoverx', 'Eurofins DiscoverX', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (480, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (481, 'eurogentec', 'Eurogentec', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.eurogentec.com', 'wikidata', 'Belgium', 'בלגיה', 'Liège', NULL, '1985', 'biotechnology', NULL, NULL, 'biotech company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '003243727400', 'info@eurogentec.com', 'Liège', 'https://www.eurogentec.com/en/gmp-manufacturing-contact-form', 'https://www.eurogentec.com/en/gmp-manufacturing-contact-form', 'Q3060626');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (481, 'eurogentec', 'Eurogentec', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.eurogentec.com', 'wikidata', 'Belgium', 'בלגיה', 'Liège', NULL, '1985', 'biotechnology', NULL, NULL, 'biotech company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.eurogentec.com/en/) but no distributor name could be extracted automatically: «altar
+
+Greenland
+
+Gambia
+
+Guinea
+
+Guadeloupe
+
+Equatorial Guinea
+
+Greece
+
+South Georgia And The South Sandwich Islands
+
+Guatemala
+
+Guam
+
+Guinea-bissau
+
+Guyana
+
+H»', '003243727400', 'info@eurogentec.com', 'Liège', 'https://www.eurogentec.com/en/gmp-manufacturing-contact-form', 'https://www.eurogentec.com/en/gmp-manufacturing-contact-form', 'Q3060626');
 INSERT INTO sources VALUES (481, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (481, 'https://www.wikidata.org/wiki/Q3060626');
 INSERT INTO sources VALUES (481, 'https://www.eurogentec.com/en/gmp-manufacturing-contact-form');
+INSERT INTO sources VALUES (481, 'https://www.eurogentec.com/en/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (482, 'eurx', 'EurX', 'D', 'https://www.dutscher.com/search?initialFilters=brand:EurX', NULL, NULL, NULL, NULL, 'https://eurx.com.pl', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים ביולוגיים', 'ריאגנטים ביולוגיים', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'sales@eurx.com.pl', NULL, 'https://eurx.com.pl/contact/', 'https://eurx.com.pl/contact/', NULL);
 INSERT INTO products VALUES (482, 1, 'DNase I (RNase-free), 1000 U', NULL, 'dutscher', 'https://www.dutscher.com/article/220229');
 INSERT INTO products VALUES (482, 2, 'Blue loading buffer for agarose or polyacrylamide gel 1 ml', NULL, 'dutscher', 'https://www.dutscher.com/article/220179');
@@ -3355,7 +3939,36 @@ INSERT INTO products VALUES (482, 4, 'Extraction reagent RNA Extracol - Bottle 1
 INSERT INTO products VALUES (482, 5, 'OnTaq DNA Polymerase Hot Start Kit (2.5 U/μl) with dNTPs', NULL, 'dutscher', 'https://www.dutscher.com/article/220440');
 INSERT INTO sources VALUES (482, 'https://www.dutscher.com/search?initialFilters=brand:EurX');
 INSERT INTO sources VALUES (482, 'https://eurx.com.pl/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (483, 'evoqua water technologies', 'Evoqua Water Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/evoqua-water-technologies', NULL, NULL, NULL, 'https://evoqua.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '800-466-7873', 'customerservice@evoqua.com', NULL, 'https://www.xylem.com/en-us/contact-us/', 'https://www.xylem.com/en-us/contact-us/', 'Q134648193');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (483, 'evoqua water technologies', 'Evoqua Water Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/evoqua-water-technologies', NULL, NULL, NULL, 'https://evoqua.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.xylem.com/en-us/brand/evoqua/) but no distributor name could be extracted automatically: «s
+
+Caribbean (English)
+
+Chile
+
+China
+
+Colombia
+
+Costa Rica
+
+Croatia
+
+Czech Republic
+
+Denmark
+
+Dominican Republic
+
+Ecuador
+
+El Salvador
+
+Europe
+
+Finland
+
+France
+»', '800-466-7873', 'customerservice@evoqua.com', NULL, 'https://www.xylem.com/en-us/contact-us/', 'https://www.xylem.com/en-us/contact-us/', 'Q134648193');
 INSERT INTO products VALUES (483, 1, 'Evoqua Universal II Ion-X-Changer™ Cartridge Filter 3C0600003 (6 PK)', NULL, 'thomassci', 'https://www.thomassci.com/p/iwt-ion-exchanger-universal-ii-pk6');
 INSERT INTO products VALUES (483, 2, 'IWT Ion Exchanger Universal II', NULL, 'thomassci', 'https://www.thomassci.com/p/iwt-ion-exchanger-universal-ii');
 INSERT INTO products VALUES (483, 3, 'Milli Q Purification Pack RO Feed', NULL, 'thomassci', 'https://www.thomassci.com/p/milli-q-purification-pack-ro-feed');
@@ -3364,6 +3977,7 @@ INSERT INTO products VALUES (483, 5, 'IWT Ionxchangers, Wall Brackets', NULL, 't
 INSERT INTO sources VALUES (483, 'https://www.thomassci.com/browse-by/suppliers/evoqua-water-technologies');
 INSERT INTO sources VALUES (483, 'https://www.wikidata.org/wiki/Q134648193');
 INSERT INTO sources VALUES (483, 'https://www.xylem.com/en-us/contact-us/');
+INSERT INTO sources VALUES (483, 'https://www.xylem.com/en-us/brand/evoqua/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (484, 'exaxol', 'Exaxol', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/exaxol', NULL, NULL, NULL, 'https://exaxol.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כימיקלים ותקנים', 'כימיקלים ותקנים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '727-524-7732', 'info@exaxol.com', NULL, 'https://exaxol.com/pages/contact-us', 'https://exaxol.com/pages/contact-us', NULL);
 INSERT INTO products VALUES (484, 1, 'Hydrochloric Acid 1.00N', NULL, 'thomassci', 'https://www.thomassci.com/p/hydrochloric-acid-100n-volumetric-solution');
 INSERT INTO products VALUES (484, 2, 'Buffer Standard, pH 7.00', NULL, 'thomassci', 'https://www.thomassci.com/p/buffer-standard-ph-700');
@@ -3478,10 +4092,12 @@ INSERT INTO sources VALUES (501, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (501, 'https://info.quartzy.com/new-suppliers');
 INSERT INTO sources VALUES (501, 'https://www.thomassci.com/browse-by/suppliers/filtrous-corp-');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (502, 'fine science tools', 'Fine Science Tools', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://finescience.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+1800-521-2109', NULL, NULL, NULL, 'https://finescience.com/', NULL);
+INSERT INTO israel_entities VALUES (502, 'New Biotechnology Ltd. (NBT)', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://finescience.com/about-us/authorized-dealers/');
 INSERT INTO israel_entities VALUES (502, 'NBT', 'ניו ביוטכנולוגי (NBT)', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.nbtltd.com/', NULL, NULL, NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://nbtltd.com/products-page');
 INSERT INTO sources VALUES (502, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (502, 'https://nbtltd.com/products-page');
 INSERT INTO sources VALUES (502, 'https://finescience.com/');
+INSERT INTO sources VALUES (502, 'https://finescience.com/about-us/authorized-dealers/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (503, 'finnpipette', 'Finnpipette', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/finnpipette', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (503, 1, 'Finntip Flex Filter Tips', NULL, 'thomassci', 'https://www.thomassci.com/p/finntip-flex-filter-tips-1');
 INSERT INTO products VALUES (503, 2, 'Finnpipette F2 Variable Volume Multi-Channel Pipette', NULL, 'thomassci', 'https://www.thomassci.com/p/finnpipette-f2-variable-volume-multichannel-pipette');
@@ -3580,7 +4196,25 @@ INSERT INTO sources VALUES (517, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (517, 'https://www.thomassci.com/browse-by/suppliers/froggabio');
 INSERT INTO sources VALUES (517, 'https://www.lifegene.co.il/');
 INSERT INTO sources VALUES (517, 'https://www.froggabio.com/globalstoreview/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (518, 'froilabo', 'Froilabo', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Froilabo', NULL, NULL, NULL, NULL, 'https://froilabo.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+33(0)478047575', NULL, NULL, 'https://www.froilabo.com/contact/', 'https://www.froilabo.com/contact/', 'Q131636117');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (518, 'froilabo', 'Froilabo', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Froilabo', NULL, NULL, NULL, NULL, 'https://froilabo.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.froilabo.com/) but no distributor name could be extracted automatically: «Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard and»', '+33(0)478047575', NULL, NULL, 'https://www.froilabo.com/contact/', 'https://www.froilabo.com/contact/', 'Q131636117');
 INSERT INTO products VALUES (518, 1, 'Aluminium racking system 5 drawers (h = 63 mm), for 50 boxes of 51 x 133 x 133 mm for upright freezers BM340/BM515/BM690/BM100', NULL, 'dutscher', 'https://www.dutscher.com/article/069579');
 INSERT INTO products VALUES (518, 2, 'FROILABO Evolution BM EVO Vertical freezer -86 °C, 690 L - green gas', NULL, 'dutscher', 'https://www.dutscher.com/article/069616');
 INSERT INTO products VALUES (518, 3, 'Aluminium racking system 2 drawers (h = 164 mm), for 60 boxes of 51 x 133 x 133 mm for upright freezers BM340 / BM515 / BM690 / BM100', NULL, 'dutscher', 'https://www.dutscher.com/article/069576');
@@ -3589,6 +4223,7 @@ INSERT INTO products VALUES (518, 5, 'TRUST 690 freezer -86 °C FROILABO', NULL,
 INSERT INTO sources VALUES (518, 'https://www.dutscher.com/search?initialFilters=brand:Froilabo');
 INSERT INTO sources VALUES (518, 'https://www.wikidata.org/wiki/Q131636117');
 INSERT INTO sources VALUES (518, 'https://www.froilabo.com/contact/');
+INSERT INTO sources VALUES (518, 'https://www.froilabo.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (519, 'frontier scientific', 'Frontier Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/frontier-scientific', NULL, NULL, NULL, 'http://www.frontiersci.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q64141724');
 INSERT INTO sources VALUES (519, 'https://www.thomassci.com/browse-by/suppliers/frontier-scientific');
 INSERT INTO sources VALUES (519, 'https://www.wikidata.org/wiki/Q64141724');
@@ -3743,16 +4378,18 @@ INSERT INTO israel_entities VALUES (545, 'Yair Technologies', 'יאיר טכנו
 INSERT INTO sources VALUES (545, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (545, 'https://www.yairtech.co.il/partners/');
 INSERT INTO sources VALUES (545, 'https://www.genovis.com/support/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (546, 'genscript', 'Genscript', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Genscript', 'https://www.thomassci.com/browse-by/suppliers/genscript', 'yes', NULL, NULL, 'https://genscript.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Antibodies, conjugate and marker', 'Antibodies, conjugate and marker', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'No distributor named. A third-party job listing (Mar 2026) for ''Sales Account Manager, Israel'' at ''GenScript Israel'' suggests direct sales coverage, and a company-data profile lists Israel as a new market, but nothing was confirmed on a GenScript page.', '+86-025-58897288', 'order@genscript.com', NULL, 'https://www.genscript.com/contact.html', 'https://www.genscript.com/contact.html', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (546, 'genscript', 'Genscript', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Genscript', 'https://www.thomassci.com/browse-by/suppliers/genscript', 'yes', NULL, NULL, 'https://genscript.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Antibodies, conjugate and marker', 'Antibodies, conjugate and marker', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'No distributor named. A third-party job listing (Mar 2026) for ''Sales Account Manager, Israel'' at ''GenScript Israel'' suggests direct sales coverage, and a company-data profile lists Israel as a new market, but nothing was confirmed on a GenScript page.', '+86-025-58897288', 'order@genscript.com', NULL, 'https://www.genscript.com/contact.html', 'https://www.genscript.com/contact.html', NULL);
 INSERT INTO products VALUES (546, 1, 'HRG1-ß1, Human', NULL, 'thomassci', 'https://www.thomassci.com/p/hrg1-b1-human');
 INSERT INTO products VALUES (546, 2, 'SARS-CoV-2 Spike (E484) Neutralizing Antibody (COV2109),100ug', NULL, 'thomassci', 'https://www.thomassci.com/p/sars-cov-2-spike-e484-neutralizing-antibody-cov2109100ug');
 INSERT INTO products VALUES (546, 3, 'CHO-K1/NPY2/Gqi5 Stable Cell Line,2vials', NULL, 'thomassci', 'https://www.thomassci.com/p/cho-k1/npy2/gqi5-stable-cell-line2vials');
 INSERT INTO products VALUES (546, 4, 'CHO-K1/H2/Ga15 Stable Cell Line,2vials', NULL, 'thomassci', 'https://www.thomassci.com/p/cho-k1/h2/ga15-stable-cell-line2vials');
 INSERT INTO products VALUES (546, 5, 'RANTES/CCL5, Human', NULL, 'thomassci', 'https://www.thomassci.com/p/rantes/ccl5-human');
+INSERT INTO israel_entities VALUES (546, 'A2S technologies Ltd', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '(972) 77 5567681', 'a2s@a2s.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.genscript.com/distributor.html?src=pullmenu');
 INSERT INTO sources VALUES (546, 'https://www.dutscher.com/search?initialFilters=brand:Genscript');
 INSERT INTO sources VALUES (546, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (546, 'https://www.thomassci.com/browse-by/suppliers/genscript');
 INSERT INTO sources VALUES (546, 'https://www.genscript.com/contact.html');
+INSERT INTO sources VALUES (546, 'https://www.genscript.com/distributor.html?src=pullmenu');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (547, 'georgia pacific', 'Georgia-Pacific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/georgia-pacific', NULL, NULL, NULL, 'https://www.gp.com/', 'wikidata', 'United States', 'ארה"ב', 'Atlanta', 'Koch, Inc.', '1927', 'pulp and paper industry', 'סימון, משרד ואריזה', 'keyword_guess', 'USA based wood pulp and paper company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Atlanta', NULL, 'https://www.gp.com/', 'Q1509282');
 INSERT INTO sources VALUES (547, 'https://www.thomassci.com/browse-by/suppliers/georgia-pacific');
 INSERT INTO sources VALUES (547, 'https://www.wikidata.org/wiki/Q1509282');
@@ -3825,7 +4462,30 @@ INSERT INTO products VALUES (554, 3, 'Clear Screw Thread Vials with PTFE Lined P
 INSERT INTO products VALUES (554, 4, 'Amber Screw Thread Vials with PTFE Lined Polypropylene Caps', NULL, 'thomassci', 'https://www.thomassci.com/p/amber-screw-thread-vials-with-ptfe-lined-polypropylene-caps');
 INSERT INTO products VALUES (554, 5, 'Clear Screw Thread Vials with F-217 (Foam) Lined Polypropylene Caps', NULL, 'thomassci', 'https://www.thomassci.com/p/clear-screw-thread-vials-with-f-217-foam-lined-polypropylene-caps');
 INSERT INTO sources VALUES (554, 'https://www.thomassci.com/browse-by/suppliers/glass-vials');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (555, 'glastron', 'Glastron', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/glastron', NULL, NULL, NULL, 'http://www.glastron.com', 'wikidata', 'United States', 'ארה"ב', 'Little Falls', 'Beneteau Group', '1956', NULL, NULL, NULL, 'American manufacturer of watercraft', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Little Falls', NULL, 'https://www.glastron.com/', 'Q3771896');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (555, 'glastron', 'Glastron', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/glastron', NULL, NULL, NULL, 'http://www.glastron.com', 'wikidata', 'United States', 'ארה"ב', 'Little Falls', 'Beneteau Group', '1956', NULL, NULL, NULL, 'American manufacturer of watercraft', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.glastron.com/) but no distributor name could be extracted automatically: «Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard Island and Mcdonald Islands
+
+Holy See (Vatican City State)
+»', NULL, NULL, 'Little Falls', NULL, 'https://www.glastron.com/', 'Q3771896');
 INSERT INTO sources VALUES (555, 'https://www.thomassci.com/browse-by/suppliers/glastron');
 INSERT INTO sources VALUES (555, 'https://www.wikidata.org/wiki/Q3771896');
 INSERT INTO sources VALUES (555, 'https://www.glastron.com/');
@@ -3850,7 +4510,29 @@ INSERT INTO israel_entities VALUES (559, 'Enco', 'אנקו', 'distributor', 'lis
 INSERT INTO sources VALUES (559, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (559, 'https://www.wikidata.org/wiki/Q30256754');
 INSERT INTO sources VALUES (559, 'https://www.enco.co.il/suppliers.php');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (560, 'gordon brush', 'Gordon Brush', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/gordon-brush', NULL, NULL, NULL, 'https://gordonbrush.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18009507950', NULL, NULL, 'https://www.gordonbrush.com/contact', 'https://www.gordonbrush.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (560, 'gordon brush', 'Gordon Brush', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/gordon-brush', NULL, NULL, NULL, 'https://gordonbrush.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.gordonbrush.com/contact) but no distributor name could be extracted automatically: «)
+
+Greece (GR)
+
+Greenland (GL)
+
+Grenada (GD)
+
+Guadeloupe (GP)
+
+Guam (GU)
+
+Guatemala (GT)
+
+Guinea (GN)
+
+Guinea-bissau (GW)
+
+Guyana (GY)
+
+Haiti (HT)
+
+Honduras (HN»', '18009507950', NULL, NULL, 'https://www.gordonbrush.com/contact', 'https://www.gordonbrush.com/contact', NULL);
 INSERT INTO sources VALUES (560, 'https://www.thomassci.com/browse-by/suppliers/gordon-brush');
 INSERT INTO sources VALUES (560, 'https://www.gordonbrush.com/contact');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (561, 'gosselin', 'Gosselin', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Gosselin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -4161,12 +4843,14 @@ INSERT INTO products VALUES (593, 2, 'Coverslip: #1.5 Thickness (0.17 mm or 0.00
 INSERT INTO products VALUES (593, 3, 'Needle Array', NULL, 'thomassci', 'https://www.thomassci.com/p/6-needle-array');
 INSERT INTO products VALUES (593, 4, '1MM GAP, 70ul STERILE PK50', NULL, 'thomassci', 'https://www.thomassci.com/p/1mm-gap-70ul-sterile-pk50');
 INSERT INTO products VALUES (593, 5, 'ECM 630', NULL, 'thomassci', 'https://www.thomassci.com/p/ecm-630');
+INSERT INTO israel_entities VALUES (593, 'New Biotechnology Ltd. (NBT)', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '(972) 2-673-2001', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.harvardapparatus.com/distributors');
 INSERT INTO israel_entities VALUES (593, 'NBT', 'ניו ביוטכנולוגי (NBT)', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.nbtltd.com/', NULL, NULL, NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://nbtltd.com/products-page');
 INSERT INTO sources VALUES (593, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (593, 'https://www.thomassci.com/browse-by/suppliers/harvard-apparatus');
 INSERT INTO sources VALUES (593, 'https://www.wikidata.org/wiki/Q5204695');
 INSERT INTO sources VALUES (593, 'https://nbtltd.com/products-page');
 INSERT INTO sources VALUES (593, 'https://www.harvardapparatus.com/contact');
+INSERT INTO sources VALUES (593, 'https://www.harvardapparatus.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (594, 'hausser scientific', 'Hausser Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/hausser-scientific', NULL, NULL, NULL, 'https://hausserscientific.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '215.675.7769', 'sales@hausserscientific.com', NULL, 'https://www.hausserscientific.com/Contact-Us.html', 'https://www.hausserscientific.com/Contact-Us.html', NULL);
 INSERT INTO products VALUES (594, 1, 'Rectangular Cover Glass', NULL, 'thomassci', 'https://www.thomassci.com/p/rectangular-cover-glass');
 INSERT INTO products VALUES (594, 2, 'Hausser Hy-Lite Hemacytometers', NULL, 'thomassci', 'https://www.thomassci.com/p/hausser-hy-lite-hemacytometers1');
@@ -4221,9 +4905,42 @@ INSERT INTO israel_entities VALUES (598, 'Lumitron Ltd.', 'לומיטרון', 'd
 INSERT INTO sources VALUES (598, 'https://www.dutscher.com/search?initialFilters=brand:Hellma');
 INSERT INTO sources VALUES (598, 'https://www.wikidata.org/wiki/Q1602883');
 INSERT INTO sources VALUES (598, 'https://www.lumitron.co.il/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (599, 'hellobio', 'HelloBio', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://hellobio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '609-683-7500', 'hello@hellobio.com', NULL, 'https://hellobio.com/contact-us', 'https://hellobio.com/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (599, 'hellobio', 'HelloBio', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://hellobio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://hellobio.com/) but no distributor name could be extracted automatically: «Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard Island a»', '609-683-7500', 'hello@hellobio.com', NULL, 'https://hellobio.com/contact-us', 'https://hellobio.com/contact-us', NULL);
 INSERT INTO sources VALUES (599, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (599, 'https://hellobio.com/contact-us');
+INSERT INTO sources VALUES (599, 'https://hellobio.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (600, 'hemco', 'Hemco', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/hemco', NULL, NULL, NULL, 'https://hemcocorp.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(816) 796-2900', 'info@hemcocorp.com', NULL, 'https://hemcocorp.com/contactus.html', 'https://hemcocorp.com/contactus.html', 'Q23068126');
 INSERT INTO sources VALUES (600, 'https://www.thomassci.com/browse-by/suppliers/hemco');
 INSERT INTO sources VALUES (600, 'https://www.wikidata.org/wiki/Q23068126');
@@ -4292,9 +5009,40 @@ INSERT INTO products VALUES (606, 4, 'COBALT® Nitrile Exam Gloves', NULL, 'thom
 INSERT INTO products VALUES (606, 5, 'Nitrile Exam Gloves (4 mil)', NULL, 'thomassci', 'https://www.thomassci.com/p/nitrile-exam-gloves-4-mil');
 INSERT INTO sources VALUES (606, 'https://www.thomassci.com/browse-by/suppliers/high-five');
 INSERT INTO sources VALUES (606, 'https://www.highfive.org/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (607, 'high purity standards', 'High-Purity Standards', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://highpuritystandards.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1.716.882.0920', NULL, NULL, 'https://www.zeptometrix.com/us/en/contact', 'https://www.zeptometrix.com/us/en/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (607, 'high purity standards', 'High-Purity Standards', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://highpuritystandards.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.zeptometrix.com) but no distributor name could be extracted automatically: «rench Guiana
+
+French Polynesia
+
+Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissa»', '+1.716.882.0920', NULL, NULL, 'https://www.zeptometrix.com/us/en/contact', 'https://www.zeptometrix.com/us/en/contact', NULL);
 INSERT INTO sources VALUES (607, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (607, 'https://www.zeptometrix.com/us/en/contact');
+INSERT INTO sources VALUES (607, 'https://www.zeptometrix.com');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (608, 'high tech conversions', 'High Tech Conversions', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/high-tech-conversions', NULL, NULL, NULL, 'https://high-techconversions.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '860-265-2633', 'info@high-techconversions.com', NULL, 'https://high-techconversions.com/contact/', 'https://high-techconversions.com/contact/', NULL);
 INSERT INTO products VALUES (608, 1, 'ULTIMATE 60™ Polyester Sealed Edge Cleanroom Wipers', NULL, 'thomassci', 'https://www.thomassci.com/p/ultimate-60-polyester-sealed-edge-cleanroom-wipers');
 INSERT INTO products VALUES (608, 2, 'Tacky Traxx™ Mats', NULL, 'thomassci', 'https://www.thomassci.com/p/tacky-traxx-mats');
@@ -4324,7 +5072,47 @@ INSERT INTO products VALUES (611, 5, 'Duran class A volumetric flask, 100 ml', N
 INSERT INTO sources VALUES (611, 'https://www.dutscher.com/search?initialFilters=brand:Hirschmann');
 INSERT INTO sources VALUES (611, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (611, 'https://www.thomassci.com/browse-by/suppliers/hirschmann');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (612, 'hoefer', 'Hoefer', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/hoefer', 'yes', NULL, NULL, 'https://hoeferinc.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only product/brand pages (Sigma-Aldrich, DKSH, Fisher, ThomasSci); no Israeli partner.', '+1 (508) 807-4665', 'sales@hoeferinc.com', NULL, 'https://hoeferinc.com/pages/contact', 'https://hoeferinc.com/pages/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (612, 'hoefer', 'Hoefer', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/hoefer', 'yes', NULL, NULL, 'https://hoeferinc.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Only product/brand pages (Sigma-Aldrich, DKSH, Fisher, ThomasSci); no Israeli partner. | "Israel" appears on the manufacturer''s distributor/contact page (https://hoeferinc.com/) but no distributor name could be extracted automatically: «GNF
+Fr |
+
+Guinea
+
+XOF
+Fr |
+
+Guinea-Bissau
+
+GYD
+$ |
+
+Guyana
+
+USD
+$ |
+
+Haiti
+
+HNL
+L |
+
+Honduras
+
+HKD
+$ |
+
+Hong Kong SAR
+
+HUF
+Ft |
+
+Hungary
+
+ISK
+kr |
+
+Iceland
+
+INR»', '+1 (508) 807-4665', 'sales@hoeferinc.com', NULL, 'https://hoeferinc.com/pages/contact', 'https://hoeferinc.com/pages/contact', NULL);
 INSERT INTO products VALUES (612, 1, 'SE400 Vertical Electrophoresis Systems', NULL, 'thomassci', 'https://www.thomassci.com/p/se400-vertical-electrophoresis-systems');
 INSERT INTO products VALUES (612, 2, 'Small Glass and Alumina Plates for Mini Vertical Units', NULL, 'thomassci', 'https://www.thomassci.com/p/small-glass-and-alumina-plates-for-mini-vertical-units');
 INSERT INTO products VALUES (612, 3, 'EvoPower300 and EvoPower500 Electrophoresis Power Supplies', NULL, 'thomassci', 'https://www.thomassci.com/p/evopower300-and-evopower500-electrophoresis-power-supplies');
@@ -4333,6 +5121,7 @@ INSERT INTO products VALUES (612, 5, 'SUBHT Combs', NULL, 'thomassci', 'https://
 INSERT INTO sources VALUES (612, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (612, 'https://www.thomassci.com/browse-by/suppliers/hoefer');
 INSERT INTO sources VALUES (612, 'https://hoeferinc.com/pages/contact');
+INSERT INTO sources VALUES (612, 'https://hoeferinc.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (613, 'honeywell', 'Honeywell', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Honeywell', 'https://www.thomassci.com/browse-by/suppliers/honeywell', NULL, NULL, NULL, 'https://www.honeywell.com/', 'wikidata', 'United States', 'ארה"ב', 'Charlotte', NULL, '1885', 'Hand protection', 'Hand protection', 'catalog_facet', 'American multinational conglomerate', 99000, '2021', 'company', 'wikidata', 35466.0, 'USD 35,466.0 m', '2022', 'company', 'wikidata', 'reported', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Searched for Honeywell Research Chemicals (Fluka/Riedel-de Haen): only acquisition news (2015) and a German dealer (Altmann Analytik, 2016); no Israeli channel surfaced. Honeywell''s wider corporate presence in Israel was not covered by this search.', NULL, NULL, 'Charlotte', 'https://www.honeywell.com/us/en/contact', 'https://www.honeywell.com/us/en/contact', 'Q898208');
 INSERT INTO products VALUES (613, 1, 'Fluka Phosphoric acid ACS reagent, =85 wt. % in H2O', NULL, 'thomassci', 'https://www.thomassci.com/p/fluka-phosphoric-acid-acs-reagent-85-wt-in-h2o-1');
 INSERT INTO products VALUES (613, 2, 'Capping Reagent BioSyn™, for DNA/RNA synthesis, 80/10/10 THF/Pyridine/Acetic Anhydride (v/v) UN2924', NULL, 'thomassci', 'https://www.thomassci.com/p/capping-reagent-biosyn-for-dna/rna-synthesis-80/10/10-thf/pyridine/acetic-anhydride-v/v-un2924');
@@ -4476,13 +5265,17 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO sources VALUES (636, 'https://www.thomassci.com/browse-by/suppliers/i-solutions');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (637, 'i w tremont', 'I.W. Tremont', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (637, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (638, 'iba life sciences', 'IBA Life Sciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://iba-lifesciences.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+49551506720', 'info@iba-lifesciences.com', NULL, 'https://www.iba-lifesciences.com/contact/', 'https://www.iba-lifesciences.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (638, 'iba life sciences', 'IBA Life Sciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://iba-lifesciences.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+49551506720', 'info@iba-lifesciences.com', NULL, 'https://www.iba-lifesciences.com/contact/', 'https://www.iba-lifesciences.com/contact/', NULL);
+INSERT INTO israel_entities VALUES (638, 'Origolab Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-2-5669285', 'origolab@netmedia.net.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.iba-lifesciences.com/support/local-support/');
 INSERT INTO sources VALUES (638, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (638, 'https://www.iba-lifesciences.com/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (639, 'iba lifesciences', 'IBA Lifesciences', 'Q+', NULL, NULL, NULL, 'yes', NULL, 'https://www.iba-lifesciences.com/', 'wikidata', 'Germany', 'גרמניה', 'Göttingen', NULL, '1996', 'biotechnology', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'IBA Lifesciences GmbH is a biotechnology company providing products for life science research in academia and industry. We develop high performance research tools for cell and protein isolation based on our proprietary Strep-tag® technology. Situated in Göttingen, Germany, we have built a network of worldwide distributors making our products available in over 40 countries across 5 continents.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+49551506720', 'info@iba-lifesciences.com', 'Göttingen', 'https://www.iba-lifesciences.com/contact/', 'https://www.iba-lifesciences.com/contact/', 'Q48988307');
+INSERT INTO sources VALUES (638, 'https://www.iba-lifesciences.com/support/local-support/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (639, 'iba lifesciences', 'IBA Lifesciences', 'Q+', NULL, NULL, NULL, 'yes', NULL, 'https://www.iba-lifesciences.com/', 'wikidata', 'Germany', 'גרמניה', 'Göttingen', NULL, '1996', 'biotechnology', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'IBA Lifesciences GmbH is a biotechnology company providing products for life science research in academia and industry. We develop high performance research tools for cell and protein isolation based on our proprietary Strep-tag® technology. Situated in Göttingen, Germany, we have built a network of worldwide distributors making our products available in over 40 countries across 5 continents.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+49551506720', 'info@iba-lifesciences.com', 'Göttingen', 'https://www.iba-lifesciences.com/contact/', 'https://www.iba-lifesciences.com/contact/', 'Q48988307');
+INSERT INTO israel_entities VALUES (639, 'Origolab Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-2-5669285', 'origolab@netmedia.net.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.iba-lifesciences.com/support/local-support/');
 INSERT INTO sources VALUES (639, 'https://info.quartzy.com/new-suppliers');
 INSERT INTO sources VALUES (639, 'https://www.wikidata.org/wiki/Q48988307');
 INSERT INTO sources VALUES (639, 'https://www.iba-lifesciences.com/contact/');
+INSERT INTO sources VALUES (639, 'https://www.iba-lifesciences.com/support/local-support/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (640, 'ibi scientific', 'IBI Scientific', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/ibi-scientific', 'yes', NULL, NULL, 'https://ibisci.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Company profiles and US resellers only; Agentek/Enco appeared with no link to IBI.', '800-253-4942', 'info@ibisci.com', NULL, 'https://www.ibisci.com/pages/contact-us', 'https://www.ibisci.com/pages/contact-us', NULL);
 INSERT INTO products VALUES (640, 1, 'SUCROSE', NULL, 'thomassci', 'https://www.thomassci.com/p/sucrose12');
 INSERT INTO products VALUES (640, 2, 'Glycerol', NULL, 'thomassci', 'https://www.thomassci.com/p/glycerol6');
@@ -4517,15 +5310,19 @@ INSERT INTO products VALUES (644, 3, 'Ergo-tek Slim Carbide Cutters', NULL, 'tho
 INSERT INTO products VALUES (644, 4, 'Full Plastic Tweezers', NULL, 'thomassci', 'https://www.thomassci.com/p/full-plastic-tweezers-5');
 INSERT INTO products VALUES (644, 5, 'Cutting Tweezers', NULL, 'thomassci', 'https://www.thomassci.com/p/cutting-tweezers-2');
 INSERT INTO sources VALUES (644, 'https://www.thomassci.com/browse-by/suppliers/ideal-tek');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (645, 'idex health and science', 'IDEX Health & Science', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/idex-health-and-science', NULL, NULL, NULL, 'https://idex-hs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '8004260191', 'info@avr-optics.com', NULL, 'https://www.idex-hs.com/contact/contact-us', 'https://www.idex-hs.com/contact/contact-us', 'Q138860154');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (645, 'idex health and science', 'IDEX Health & Science', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/idex-health-and-science', NULL, NULL, NULL, 'https://idex-hs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '8004260191', 'info@avr-optics.com', NULL, 'https://www.idex-hs.com/contact/contact-us', 'https://www.idex-hs.com/contact/contact-us', 'Q138860154');
 INSERT INTO products VALUES (645, 1, 'Shut-Off Valves with Fittings', NULL, 'thomassci', 'https://www.thomassci.com/p/shut-off-valves-with-fittings');
 INSERT INTO products VALUES (645, 2, 'Low-Pressure Tee Assemblies', NULL, 'thomassci', 'https://www.thomassci.com/p/low-pressure-tee-assemblies');
 INSERT INTO products VALUES (645, 3, 'Quick Connect Threaded Male Luer Adapters', NULL, 'thomassci', 'https://www.thomassci.com/p/quick-connect-threaded-male-luer-adapters');
 INSERT INTO products VALUES (645, 4, 'P-652 PEEK, Standard, English Threaded Adapter', NULL, 'thomassci', 'https://www.thomassci.com/p/p-652-peek-standard-english-threaded-adapter');
 INSERT INTO products VALUES (645, 5, 'MicroFilter Solvent Filtration Frits', NULL, 'thomassci', 'https://www.thomassci.com/p/microfilter-solvent-filtration-frits');
+INSERT INTO israel_entities VALUES (645, 'Biotech Fluidics AB*', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.idex-hs.com/contact/fluidics-distributors');
+INSERT INTO israel_entities VALUES (645, 'Lahat Technologies, Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.idex-hs.com/contact/optical-filters-distributors');
 INSERT INTO sources VALUES (645, 'https://www.thomassci.com/browse-by/suppliers/idex-health-and-science');
 INSERT INTO sources VALUES (645, 'https://www.wikidata.org/wiki/Q138860154');
 INSERT INTO sources VALUES (645, 'https://www.idex-hs.com/contact/contact-us');
+INSERT INTO sources VALUES (645, 'https://www.idex-hs.com/contact/fluidics-distributors');
+INSERT INTO sources VALUES (645, 'https://www.idex-hs.com/contact/optical-filters-distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (646, 'ignyte bio', 'Ignyte Bio', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://ignytebio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '877-929-7766', 'info@ignytebio.com', NULL, 'https://www.ignytebio.com/contact/', 'https://www.ignytebio.com/contact/', NULL);
 INSERT INTO sources VALUES (646, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (646, 'https://www.ignytebio.com/contact/');
@@ -4592,16 +5389,18 @@ INSERT INTO products VALUES (650, 3, 'IMPACTO® Anti-Fatigue Memory Foam insoles
 INSERT INTO products VALUES (650, 4, 'IMPACTO® TOES2GO Steel Toe Cap Overshoes', NULL, 'thomassci', 'https://www.thomassci.com/p/impacto-toes2go-steel-toe-cap-overshoes');
 INSERT INTO products VALUES (650, 5, 'IMPACTO® Hard Shell Kneepads', NULL, 'thomassci', 'https://www.thomassci.com/p/impacto-hard-shell-kneepads');
 INSERT INTO sources VALUES (650, 'https://www.thomassci.com/browse-by/suppliers/impacto-protective-products');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (651, 'implen', 'Implen', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Implen', 'https://www.thomassci.com/browse-by/suppliers/implen', NULL, NULL, NULL, 'https://www.implen.de', 'manual', NULL, NULL, NULL, NULL, NULL, 'מכשירי מדידה', 'מכשירי מדידה', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Implen distributors found for Australia (LabGear Australia, exclusive) and India (Inkarp Instruments), plus Fisher Scientific EU brand pages; no Israel mention. Note: website in targets (implen.cn) is not the manufacturer''s main site (implen.de).', '+498972637180', 'info@implen.com', NULL, 'https://www.implen.de/support/', 'https://www.implen.de/support/', 'Q685685');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (651, 'implen', 'Implen', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Implen', 'https://www.thomassci.com/browse-by/suppliers/implen', NULL, NULL, NULL, 'https://www.implen.de', 'manual', NULL, NULL, NULL, NULL, NULL, 'מכשירי מדידה', 'מכשירי מדידה', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Implen distributors found for Australia (LabGear Australia, exclusive) and India (Inkarp Instruments), plus Fisher Scientific EU brand pages; no Israel mention. Note: website in targets (implen.cn) is not the manufacturer''s main site (implen.de).', '+498972637180', 'info@implen.com', NULL, 'https://www.implen.de/support/', 'https://www.implen.de/support/', 'Q685685');
 INSERT INTO products VALUES (651, 1, 'OD600 DiluPhotometer™', NULL, 'thomassci', 'https://www.thomassci.com/p/od600-diluphotometer');
 INSERT INTO products VALUES (651, 2, 'Standard Solution for the NanoPhotometer®', NULL, 'thomassci', 'https://www.thomassci.com/p/standard-solution-for-the-nanophotometer');
 INSERT INTO products VALUES (651, 3, 'N50 NanoPhotometer®', NULL, 'thomassci', 'https://www.thomassci.com/p/n50-nanophotometer');
 INSERT INTO products VALUES (651, 4, 'OD600-Eu Photometer with USB-C cable, charger, and quick start guide', NULL, 'dutscher', 'https://www.dutscher.com/article/499257');
 INSERT INTO products VALUES (651, 5, 'Implen Nano spectrophotometer - N60 - touch screen', NULL, 'dutscher', 'https://www.dutscher.com/article/499203');
+INSERT INTO israel_entities VALUES (651, 'Rhenium Ltd.', 'רניום', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.rhenium.co.il', '+972-8-9558888', NULL, '20 Hasatat St., P.O. Box 180, Modi''in 7171101', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.implen.de/where-to-buy/');
 INSERT INTO sources VALUES (651, 'https://www.dutscher.com/search?initialFilters=brand:Implen');
 INSERT INTO sources VALUES (651, 'https://www.thomassci.com/browse-by/suppliers/implen');
 INSERT INTO sources VALUES (651, 'https://www.wikidata.org/wiki/Q685685');
 INSERT INTO sources VALUES (651, 'https://www.implen.de/support/');
+INSERT INTO sources VALUES (651, 'https://www.implen.de/where-to-buy/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (652, 'improve medical', 'Improve Medical', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/improve-medical', 'yes', NULL, NULL, 'https://www.improve-medical.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Guangzhou Improve Medical Instruments profiles and US trade records only; Guangzhou-Israel biotech news does not name the company. Target website improvemed.com.ua is wrong.', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (652, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (652, 'https://www.thomassci.com/browse-by/suppliers/improve-medical');
@@ -4657,25 +5456,30 @@ INSERT INTO sources VALUES (661, 'https://www.thomassci.com/browse-by/suppliers/
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (662, 'innovative bioscience', 'Innovative Bioscience', 'Q+Q+', NULL, NULL, 'yes', 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'Built for the science, not the catalog. Innovative Bioscience exists to bring consistency, documentation clarity, and transparent pricing to fetal bovine serum and essential lab consumables. As active ISIA members, we advocate for stronger serum standards. As operators, we build a purchasing experience that keeps researchers focused on the science. Our goal isn’t to be the largest supplier, it’s to put each customer’s research first.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'No result mentioned Innovative Bioscience; only unrelated Israeli distributors (Tivan Biotech for OZ Biosciences, Enco, Syntezza, Rhenium for Tosoh/Life Technologies).', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (662, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (662, 'https://info.quartzy.com/new-suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (663, 'innovative research', 'Innovative Research', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://innov-research.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '248-896-0145', 'sales@innov-research.com', NULL, 'https://www.innov-research.com/pages/contact-us', 'https://www.innov-research.com/pages/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (663, 'innovative research', 'Innovative Research', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://innov-research.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.innov-research.com/pages/distributors) but no distributor name could be extracted automatically: «n researchers commonly source our ELISA kits, recombinant proteins, biomarkers, and primary antibodies for drug discovery, diagnostic development, and academic »', '248-896-0145', 'sales@innov-research.com', NULL, 'https://www.innov-research.com/pages/contact-us', 'https://www.innov-research.com/pages/contact-us', NULL);
 INSERT INTO sources VALUES (663, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (663, 'https://www.innov-research.com/pages/contact-us');
+INSERT INTO sources VALUES (663, 'https://www.innov-research.com/pages/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (664, 'innovex biosciences', 'Innovex Biosciences', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (664, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (665, 'inorganic ventures', 'Inorganic Ventures', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/inorganic-ventures', 'yes', NULL, NULL, 'https://inorganicventures.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'IV''s international-operations page says it uses one exclusive distributor per territory outside US/Canada; only Spain (Inycom) named; Israel not shown.', '1.800.669.6799', 'orders@inorganicventures.com', NULL, 'https://www.inorganicventures.com/contact-us/', 'https://www.inorganicventures.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (665, 'inorganic ventures', 'Inorganic Ventures', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/inorganic-ventures', 'yes', NULL, NULL, 'https://inorganicventures.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'subsidiary', 'חברה-בת בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'IV''s international-operations page says it uses one exclusive distributor per territory outside US/Canada; only Spain (Inycom) named; Israel not shown.', '1.800.669.6799', 'orders@inorganicventures.com', NULL, 'https://www.inorganicventures.com/contact-us/', 'https://www.inorganicventures.com/contact-us/', NULL);
 INSERT INTO products VALUES (665, 1, '1000 ppm Nitrate-Nitrogen for IC', NULL, 'thomassci', 'https://www.thomassci.com/p/nitrate-as-n-1000g/ml');
 INSERT INTO products VALUES (665, 2, '1000 ppm Bromide for IC', NULL, 'thomassci', 'https://www.thomassci.com/p/bromide-1000g/ml');
 INSERT INTO products VALUES (665, 3, '1000 ppm Phosphate-Phosphorus for IC', NULL, 'thomassci', 'https://www.thomassci.com/p/1000-ppm-phosphate-phosphorus-for-ic');
 INSERT INTO products VALUES (665, 4, '1000 ppm Fluoride for IC', NULL, 'thomassci', 'https://www.thomassci.com/p/fluoride-1000g/ml');
 INSERT INTO products VALUES (665, 5, '1000 ppm Nitrite-Nitrogen for IC', NULL, 'thomassci', 'https://www.thomassci.com/p/nitrite-as-n-1000g/ml');
+INSERT INTO israel_entities VALUES (665, 'Spectro (Israel) Ltd.', 'ספקטרו ישראל', 'subsidiary', 'listed for Israel on the manufacturer''s own distributor / contact page', 'http://www.spectro.co.il', '+972 3-969-3014', 'spectro@spectro.co.il', '10 Sacharov St., Rishon LeZion', 'http://www.spectro.co.il/index.php?language=eng', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.inorganicventures.com/distributors/');
 INSERT INTO sources VALUES (665, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (665, 'https://www.thomassci.com/browse-by/suppliers/inorganic-ventures');
 INSERT INTO sources VALUES (665, 'https://www.inorganicventures.com/contact-us/');
+INSERT INTO sources VALUES (665, 'https://www.inorganicventures.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (666, 'instech', 'Instech', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/instech', NULL, NULL, NULL, 'https://instechlabs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '18004434227', 'orders@instechlabs.com', NULL, 'https://www.instechlabs.com/contact', 'https://www.instechlabs.com/contact', NULL);
+INSERT INTO israel_entities VALUES (666, 'New Biotechnology Ltd. (NBT)', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.instechlabs.com/distributors');
 INSERT INTO israel_entities VALUES (666, 'NBT', 'ניו ביוטכנולוגי (NBT)', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.nbtltd.com/', NULL, NULL, NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://nbtltd.com/products-page');
 INSERT INTO sources VALUES (666, 'https://www.thomassci.com/browse-by/suppliers/instech');
 INSERT INTO sources VALUES (666, 'https://nbtltd.com/products-page');
 INSERT INTO sources VALUES (666, 'https://www.instechlabs.com/contact');
+INSERT INTO sources VALUES (666, 'https://www.instechlabs.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (667, 'instock labs', 'INSTOCK Labs', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/instock-labs', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (667, 1, 'Standing Height Base Cabinets with 2 doors and 2 Drawers', NULL, 'thomassci', 'https://www.thomassci.com/p/standing-height-base-cabinets-with-2-doors-and-2-drawers');
 INSERT INTO products VALUES (667, 2, 'Standing Height Base Cabinets with 4 Drawers', NULL, 'thomassci', 'https://www.thomassci.com/p/standing-height-base-cabinets-with-4-drawers');
@@ -4727,7 +5531,24 @@ INSERT INTO sources VALUES (671, 'https://www.intelagard.com');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (672, 'intelixbio', 'IntelixBio', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/intelixbio', NULL, NULL, NULL, 'https://intelixbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '301-605-7762', 'info@intelixbio.com', NULL, 'https://www.intelixbio.com/#CONTACT', 'https://www.intelixbio.com/#CONTACT', NULL);
 INSERT INTO sources VALUES (672, 'https://www.thomassci.com/browse-by/suppliers/intelixbio');
 INSERT INTO sources VALUES (672, 'https://www.intelixbio.com/#CONTACT');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (673, 'inter dyne systems', 'Inter Dyne Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/inter-dyne-systems', NULL, NULL, NULL, 'https://interdynesystems.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+12317998760', 'sales@interdynesystems.com', NULL, 'https://interdynesystems.com/contact/', 'https://interdynesystems.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (673, 'inter dyne systems', 'Inter Dyne Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/inter-dyne-systems', NULL, NULL, NULL, 'https://interdynesystems.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://interdynesystems.com/contact/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '+12317998760', 'sales@interdynesystems.com', NULL, 'https://interdynesystems.com/contact/', 'https://interdynesystems.com/contact/', NULL);
 INSERT INTO products VALUES (673, 1, 'Barron "B" Stainless Steel Pegboard Drying Racks', NULL, 'thomassci', 'https://www.thomassci.com/p/barron-b-stainless-steel-pegboard-drying-racks');
 INSERT INTO products VALUES (673, 2, 'Accessories for Pegboard Drying Racks', NULL, 'thomassci', 'https://www.thomassci.com/p/accessories-for-pegboard-drying-racks');
 INSERT INTO products VALUES (673, 3, 'V'' Victoria Stainless Steel Lab Pegboard Drying Racks', NULL, 'thomassci', 'https://www.thomassci.com/p/v-victoria-stainless-steel-pegboard-drying-racks');
@@ -4816,17 +5637,19 @@ INSERT INTO products VALUES (688, 3, 'Precision Stainless Steel Dispensing Tip, 
 INSERT INTO products VALUES (688, 4, 'Precision Stainless Steel Dispensing Tip, 27 Gauge, Clear, 12.7mm (0.50")', NULL, 'thomassci', 'https://www.thomassci.com/p/precision-stainless-steel-dispensing-tip-27-gauge-clear-127mm-050');
 INSERT INTO products VALUES (688, 5, 'Precision Dispense Tip', NULL, 'thomassci', 'https://www.thomassci.com/p/tips-efd-blunt-tip-stainless-steel-30-gauge-x-025in-length-lavender-hub-50ea/box');
 INSERT INTO sources VALUES (688, 'https://www.thomassci.com/browse-by/suppliers/ja-crawford');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (689, 'jackson immunoresearch', 'Jackson ImmunoResearch', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/jackson-immunoresearch', 'yes', NULL, NULL, 'https://jacksonimmuno.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'partial', 'חיפוש חלקי', 2026, NULL, '+441638782616', 'info@jacksonimmuno.com', NULL, 'https://www.jacksonimmuno.com/company/contact-us/technical-help', 'https://www.jacksonimmuno.com/company/contact-us/technical-help', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (689, 'jackson immunoresearch', 'Jackson ImmunoResearch', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/jackson-immunoresearch', 'yes', NULL, NULL, 'https://jacksonimmuno.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+441638782616', 'info@jacksonimmuno.com', NULL, 'https://www.jacksonimmuno.com/company/contact-us/technical-help', 'https://www.jacksonimmuno.com/company/contact-us/technical-help', NULL);
 INSERT INTO products VALUES (689, 1, 'Normal Donkey Serum', NULL, 'thomassci', 'https://www.thomassci.com/p/normal-donkey-serum');
 INSERT INTO products VALUES (689, 2, 'AffiniPure F(ab'')2 Fragment Goat Anti-Mouse IgM, µ Chain Specific', NULL, 'thomassci', 'https://www.thomassci.com/p/affinipure-fab2-fragment-goat-anti-mouse-igm-chain-specific1');
 INSERT INTO products VALUES (689, 3, 'Rhodamine (TRITC) AffiniPure Donkey Anti-Mouse IgG (H+L)', NULL, 'thomassci', 'https://www.thomassci.com/p/rhodamine-tritc-affinipure-donkey-anti-mouse-igg-hl1');
 INSERT INTO products VALUES (689, 4, 'Cy™2 AffiniPure Goat Anti-Mouse IgG, Fcy Subclass 1 Specific', NULL, 'thomassci', 'https://www.thomassci.com/p/cy2-affinipure-goat-anti-mouse-igg-fcy-subclass-1-specific');
 INSERT INTO products VALUES (689, 5, 'Peroxidase AffiniPure Donkey Anti-Goat IgG (H+L)', NULL, 'thomassci', 'https://www.thomassci.com/p/peroxidase-affinipure-donkey-anti-goat-igg-hl');
-INSERT INTO israel_entities VALUES (689, 'Enco Scientific Services Ltd. (Enco Diagnostics)', 'אנקו', 'distributor', 'Enco''s About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)', 'https://www.enco.co.il', NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_or_press', NULL, 'https://www.enco.co.il/about.php');
+INSERT INTO israel_entities VALUES (689, 'Enco Scientific Services Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '972-3-9349922', 'enco@netvision.net.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.jacksonimmuno.com/company/order-info/distributors');
+INSERT INTO israel_entities VALUES (689, 'Enco', 'אנקו', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.enco.co.il/', '+972-3-934-9922', 'orders@enco.co.il', '17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (689, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (689, 'https://www.thomassci.com/browse-by/suppliers/jackson-immunoresearch');
+INSERT INTO sources VALUES (689, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (689, 'https://www.jacksonimmuno.com/company/contact-us/technical-help');
-INSERT INTO sources VALUES (689, 'https://www.enco.co.il/about.php');
+INSERT INTO sources VALUES (689, 'https://www.jacksonimmuno.com/company/order-info/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (690, 'jaece', 'Jaece', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/jaece', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (690, 1, 'Identi Markers', NULL, 'thomassci', 'https://www.thomassci.com/p/identi-markers');
 INSERT INTO products VALUES (690, 2, 'Foam Bench, Shelf, and Drawer Liners', NULL, 'thomassci', 'https://www.thomassci.com/p/foam-bench-shelf-and-drawer-liners');
@@ -5003,7 +5826,24 @@ INSERT INTO products VALUES (709, 5, 'SYNTHWARE Distillation Receivers', NULL, '
 INSERT INTO sources VALUES (709, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (709, 'https://www.thomassci.com/browse-by/suppliers/kemtech-america');
 INSERT INTO sources VALUES (709, 'https://twdtradewinds.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (710, 'kent elastomer products', 'Kent Elastomer Products', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/kent-elastomer-products', NULL, NULL, NULL, 'https://kentelastomer.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18003314762', 'sales@kentelastomer.com', NULL, 'https://www.kentelastomer.com/whats-your-challenge/', 'https://www.kentelastomer.com/whats-your-challenge/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (710, 'kent elastomer products', 'Kent Elastomer Products', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/kent-elastomer-products', NULL, NULL, NULL, 'https://kentelastomer.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.kentelastomer.com/whats-your-challenge/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '18003314762', 'sales@kentelastomer.com', NULL, 'https://www.kentelastomer.com/whats-your-challenge/', 'https://www.kentelastomer.com/whats-your-challenge/', NULL);
 INSERT INTO products VALUES (710, 1, 'Pure Latex Amber Autoclavable Rubber Tubing', NULL, 'thomassci', 'https://www.thomassci.com/p/pure-latex-amber-autoclavable-rubber-tubing');
 INSERT INTO products VALUES (710, 2, 'Laboratory Grade Seamless Latex Rubber Tubing', NULL, 'thomassci', 'https://www.thomassci.com/p/laboratory-grade-seamless-black-latex-rubber-tubing');
 INSERT INTO sources VALUES (710, 'https://www.thomassci.com/browse-by/suppliers/kent-elastomer-products');
@@ -5052,10 +5892,33 @@ INSERT INTO products VALUES (716, 3, 'Bubblewrap, AntiStat, 24x750, Small', NULL
 INSERT INTO products VALUES (716, 4, 'Tape, Masking, Natural, 2 inch x 60 yards', NULL, 'thomassci', 'https://www.thomassci.com/p/tape-masking-natural-2-inch-x-60-yards-1-roll-each-24-rolls-per-case');
 INSERT INTO products VALUES (716, 5, 'Kraft Paper,24inx36in', NULL, 'thomassci', 'https://www.thomassci.com/p/kraft-paper24inx36in');
 INSERT INTO sources VALUES (716, 'https://www.thomassci.com/browse-by/suppliers/kilmer-wagner-and-wise');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (717, 'kimberly clark', 'Kimberly-Clark', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.kimberly-clark.com', 'wikidata', 'United States', 'ארה"ב', 'Irving', NULL, '1872', NULL, NULL, NULL, 'American multinational company', NULL, NULL, NULL, NULL, 20175.0, 'USD 20,175.0 m', '2022', 'company', 'wikidata', 'reported', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '75261-9100', NULL, 'Irving', 'https://www.kimberly-clark.com/en-us/investors/corporate-governance/contact-the-board', 'https://www.kimberly-clark.com/en-us/investors/corporate-governance/contact-the-board', 'Q1741634');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (717, 'kimberly clark', 'Kimberly-Clark', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.kimberly-clark.com', 'wikidata', 'United States', 'ארה"ב', 'Irving', NULL, '1872', NULL, NULL, NULL, 'American multinational company', NULL, NULL, NULL, NULL, 20175.0, 'USD 20,175.0 m', '2022', 'company', 'wikidata', 'reported', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.kimberly-clark.com/en-us/locations) but no distributor name could be extracted automatically: «ns
+
+Search By Region
+
+ALL REGIONS
+
+AFRICA
+
+ASIA PACIFIC
+
+EUROPE
+
+MIDDLE EAST
+
+NORTH AMERICA
+
+SOUTH AMERICA
+
+Kimberly-Clark Regional Websites
+
+Argentina
+
+Austral»', '75261-9100', NULL, 'Irving', 'https://www.kimberly-clark.com/en-us/investors/corporate-governance/contact-the-board', 'https://www.kimberly-clark.com/en-us/investors/corporate-governance/contact-the-board', 'Q1741634');
 INSERT INTO sources VALUES (717, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (717, 'https://www.wikidata.org/wiki/Q1741634');
 INSERT INTO sources VALUES (717, 'https://www.kimberly-clark.com/en-us/investors/corporate-governance/contact-the-board');
+INSERT INTO sources VALUES (717, 'https://www.kimberly-clark.com/en-us/locations');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (718, 'kimberly clark arbex', 'Kimberly clark - Arbex', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Kimberly+clark+-+Arbex', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'בטיחות', 'בטיחות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (718, 1, 'L40 white wipes roll (31.5 x 34 cm) - 750 sheets/roll', NULL, 'dutscher', 'https://www.dutscher.com/article/002938');
 INSERT INTO products VALUES (718, 2, 'Dispensing box L20 Extra range blue size 33 x 42 cm - box with 280', NULL, 'dutscher', 'https://www.dutscher.com/article/002965B');
@@ -5091,7 +5954,39 @@ INSERT INTO sources VALUES (720, 'https://www.dwk.com/na/distributors');
 INSERT INTO sources VALUES (720, 'https://www.wikidata.org/wiki/Q11297953');
 INSERT INTO sources VALUES (720, 'https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1');
 INSERT INTO sources VALUES (720, 'https://www.dwk.com/na/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (721, 'kimtech', 'Kimtech', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Kimtech', NULL, NULL, NULL, NULL, 'https://www.kcprofessional.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'בטיחות', 'בטיחות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18002413146', NULL, NULL, 'https://www.kcprofessional.com/en-us/contact-us', 'https://www.kcprofessional.com/en-us/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (721, 'kimtech', 'Kimtech', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Kimtech', NULL, NULL, NULL, NULL, 'https://www.kcprofessional.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'בטיחות', 'בטיחות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.kcprofessional.com/en-us/contact-us) but no distributor name could be extracted automatically: «lynesia
+
+French Southern Territories
+
+Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guyana
+
+Haiti
+
+Ho»', '18002413146', NULL, NULL, 'https://www.kcprofessional.com/en-us/contact-us', 'https://www.kcprofessional.com/en-us/contact-us', NULL);
 INSERT INTO products VALUES (721, 1, 'KIMTECH™ Opal Nitrile glove - size XL', NULL, 'dutscher', 'https://www.dutscher.com/article/002345');
 INSERT INTO products VALUES (721, 2, 'Kimtech™ Polaris™ Xtra glove size XS', NULL, 'dutscher', 'https://www.dutscher.com/article/002382');
 INSERT INTO products VALUES (721, 3, 'Kimtech™ Polaris™ Xtra glove size S', NULL, 'dutscher', 'https://www.dutscher.com/article/002383');
@@ -5109,7 +6004,24 @@ INSERT INTO israel_entities VALUES (722, 'Labotal Scientific Equipment (1997) Lt
 INSERT INTO sources VALUES (722, 'https://www.thomassci.com/browse-by/suppliers/kinematica');
 INSERT INTO sources VALUES (722, 'https://labotal.co.il/represented-firms/');
 INSERT INTO sources VALUES (722, 'https://kinematica.ch/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (723, 'kinesis', 'Kinesis', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/kinesis', NULL, NULL, NULL, 'https://kinesis-ergo.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', 'ergonomic computer keyboards brand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'sales@kinesis.com', NULL, 'https://kinesis-ergo.com/support/contact-a-technician/', 'https://kinesis-ergo.com/support/contact-a-technician/', 'Q6410720');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (723, 'kinesis', 'Kinesis', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/kinesis', NULL, NULL, NULL, 'https://kinesis-ergo.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', 'ergonomic computer keyboards brand', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://kinesis-ergo.com/becoming-a-reseller/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', NULL, 'sales@kinesis.com', NULL, 'https://kinesis-ergo.com/support/contact-a-technician/', 'https://kinesis-ergo.com/support/contact-a-technician/', 'Q6410720');
 INSERT INTO products VALUES (723, 1, 'TELOS® Bulk SPE Media', NULL, 'thomassci', 'https://www.thomassci.com/p/telos-bulk-spe-media');
 INSERT INTO products VALUES (723, 2, 'TELOS® NH2 Flash Chromatography Columns', NULL, 'thomassci', 'https://www.thomassci.com/p/telos-nh2-flash-chromatography-columns1');
 INSERT INTO products VALUES (723, 3, 'TELOS® neo™ PAX SPE Columns', NULL, 'thomassci', 'https://www.thomassci.com/p/telos-neo-pax-spe-columns');
@@ -5118,6 +6030,7 @@ INSERT INTO products VALUES (723, 5, 'Kinesis Deuterium Lamps', NULL, 'thomassci
 INSERT INTO sources VALUES (723, 'https://www.thomassci.com/browse-by/suppliers/kinesis');
 INSERT INTO sources VALUES (723, 'https://www.wikidata.org/wiki/Q6410720');
 INSERT INTO sources VALUES (723, 'https://kinesis-ergo.com/support/contact-a-technician/');
+INSERT INTO sources VALUES (723, 'https://kinesis-ergo.com/becoming-a-reseller/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (724, 'kingfisher biotech', 'Kingfisher Biotech', 'Q+Q+', NULL, NULL, 'yes', 'yes', NULL, 'https://www.kingfisherbiotech.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'Kingfisher Biotech, founded in 2007 and headquartered in Saint Paul, Minnesota, is a woman-owned biotechnology company specializing in research reagents for animal health and animal model research. They are known for developing tools—such as recombinant proteins, antibodies, and ELISA kits—for over 20 underserved species (e.g., bovine, canine, equine, swine, and dolphins)', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Kingfisher Biotech (veterinary/species-specific reagents) results show NZ (Mediray) and EU (Clinisciences) resellers; Israeli distributor pages (Enco, Rhenium, Agentek, Syntezza) do not list Kingfisher.', NULL, NULL, NULL, NULL, 'https://www.kingfisherbiotech.com/', NULL);
 INSERT INTO sources VALUES (724, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (724, 'https://info.quartzy.com/new-suppliers');
@@ -5286,7 +6199,25 @@ INSERT INTO sources VALUES (747, 'https://www.wikidata.org/wiki/Q16999030');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (748, 'lamda biotech', 'Lamda Biotech', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.lamdabio.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-800-631-5009', NULL, NULL, 'https://research.moleculardesigns.com/contact-us/', 'https://research.moleculardesigns.com/contact-us/', NULL);
 INSERT INTO sources VALUES (748, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (748, 'https://research.moleculardesigns.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (749, 'lamotte', 'LaMotte', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lamotte', NULL, NULL, NULL, 'https://lamotte.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18003443100', NULL, NULL, 'https://lamotte.com/contact-us/', 'https://lamotte.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (749, 'lamotte', 'LaMotte', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lamotte', NULL, NULL, NULL, 'https://lamotte.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://lamotte.com/where-to-buy/) but no distributor name could be extracted automatically: «sting
+
+Laboratory Supplies
+
+Pools, Spas & Aquatics
+
+Water & Wastewater
+
+Shipping Location
+(*)
+
+Region
+(*)
+
+Select a Region
+
+Africa & Middle East
+
+Asia & Pacific»', '+18003443100', NULL, NULL, 'https://lamotte.com/contact-us/', 'https://lamotte.com/contact-us/', NULL);
 INSERT INTO products VALUES (749, 1, 'LaMotte Total, Calcium & Magnesium Hardness Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/4824lt01-hardness-kit');
 INSERT INTO products VALUES (749, 2, 'LaMotte Sulfide Test Solution #6', NULL, 'thomassci', 'https://www.thomassci.com/p/638s-35ml-sulfide-rgt-6-lamotte-4');
 INSERT INTO products VALUES (749, 3, 'Test Strips, Free & Total Chlorine', NULL, 'thomassci', 'https://www.thomassci.com/p/test-strips-free-and-total-chlorine');
@@ -5294,6 +6225,7 @@ INSERT INTO products VALUES (749, 4, 'Phosphonate Test Kit', NULL, 'thomassci', 
 INSERT INTO products VALUES (749, 5, 'LaMotte COD/UDS Adapter', NULL, 'thomassci', 'https://www.thomassci.com/p/cod/uds-adapter');
 INSERT INTO sources VALUES (749, 'https://www.thomassci.com/browse-by/suppliers/lamotte');
 INSERT INTO sources VALUES (749, 'https://lamotte.com/contact-us/');
+INSERT INTO sources VALUES (749, 'https://lamotte.com/where-to-buy/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (750, 'lancer', 'Lancer', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Lancer', NULL, NULL, NULL, NULL, 'https://lancers.jp', 'clearbit', 'United Kingdom', 'בריטניה', NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', 'historical motorcycle manufacturer in Coventry, United Kingdom', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q2534559');
 INSERT INTO products VALUES (750, 1, 'Liquid detergent LLL 10 Litres', NULL, 'dutscher', 'https://www.dutscher.com/article/331700B');
 INSERT INTO products VALUES (750, 2, 'Option for Getinge 815, 1300, 1400, or 1600 washer: low pressure solenoid valve and pump', NULL, 'dutscher', 'https://www.dutscher.com/article/332249');
@@ -5378,17 +6310,55 @@ INSERT INTO sources VALUES (757, 'https://www.leica-microsystems.com/company/abo
 INSERT INTO sources VALUES (757, 'https://leica-microsystems.com/company/about-us');
 INSERT INTO sources VALUES (757, 'https://www.wikidata.org/wiki/Q64711880');
 INSERT INTO sources VALUES (757, 'https://www.leica-microsystems.com/contact/ideation/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (758, 'lena biosciences', 'Lena Biosciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://lenabio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '30328-4014 404', NULL, NULL, 'https://www.lenabio.com/contact-us.html', 'https://www.lenabio.com/contact-us.html', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (758, 'lena biosciences', 'Lena Biosciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://lenabio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.lenabio.com/distributors.html) but no distributor name could be extracted automatically: «Z 3D cell culture scaffold
+
+GradientEZ 3D cell invasion assay
+
+Distributors
+
+Support
+
+Instructions
+
+Cell Types
+
+3D cell-based assays
+
+Applications
+
+FAQs
+
+Contac»', '30328-4014 404', NULL, NULL, 'https://www.lenabio.com/contact-us.html', 'https://www.lenabio.com/contact-us.html', NULL);
 INSERT INTO sources VALUES (758, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (758, 'https://www.lenabio.com/contact-us.html');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (759, 'leneta', 'Leneta', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/leneta', NULL, NULL, NULL, 'https://leneta.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '800.663.6324', 'sales@leneta.com', NULL, 'https://leneta.com/contact/', 'https://leneta.com/contact/', NULL);
+INSERT INTO sources VALUES (758, 'https://www.lenabio.com/distributors.html');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (759, 'leneta', 'Leneta', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/leneta', NULL, NULL, NULL, 'https://leneta.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '800.663.6324', 'sales@leneta.com', NULL, 'https://leneta.com/contact/', 'https://leneta.com/contact/', NULL);
 INSERT INTO products VALUES (759, 1, 'ASTM Scrub Media', NULL, 'thomassci', 'https://www.thomassci.com/p/astm-scrub-media');
 INSERT INTO products VALUES (759, 2, 'Paint Test Charts', NULL, 'thomassci', 'https://www.thomassci.com/p/paint-test-charts1');
 INSERT INTO products VALUES (759, 3, 'Paint Test Card, Plain White', NULL, 'thomassci', 'https://www.thomassci.com/p/paint-test-card-plain-white');
 INSERT INTO products VALUES (759, 4, 'Paint Test Chart, Plain White, Form WM', NULL, 'thomassci', 'https://www.thomassci.com/p/paint-test-chart-plain-white-form-wm');
+INSERT INTO israel_entities VALUES (759, 'ColorTek Kasola LTD', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-88690470', 'info@colortek.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://leneta.com/distributor/');
 INSERT INTO sources VALUES (759, 'https://www.thomassci.com/browse-by/suppliers/leneta');
 INSERT INTO sources VALUES (759, 'https://leneta.com/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (760, 'lepure biotech', 'LePure-Biotech', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lepure-biotech', NULL, NULL, NULL, 'https://lepurebiotech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, 'https://www.lepurebiotech.com/contact-us-2/', 'https://www.lepurebiotech.com/contact-us-2/', NULL);
+INSERT INTO sources VALUES (759, 'https://leneta.com/distributor/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (760, 'lepure biotech', 'LePure-Biotech', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lepure-biotech', NULL, NULL, NULL, 'https://lepurebiotech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.lepurebiotech.com/cell-cryopreservation/) but no distributor name could be extracted automatically: «thern Territories
+Gabon
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Isla»', NULL, NULL, NULL, 'https://www.lepurebiotech.com/contact-us-2/', 'https://www.lepurebiotech.com/contact-us-2/', NULL);
 INSERT INTO products VALUES (760, 1, 'Non-TC Treated Vented Cap Flasks', NULL, 'thomassci', 'https://www.thomassci.com/p/non-tc-treated-vented-cap-flasks');
 INSERT INTO products VALUES (760, 2, 'LeThenea® Single-Use Freezing Bags', NULL, 'thomassci', 'https://www.thomassci.com/p/lethenea-single-use-freezing-bags');
 INSERT INTO products VALUES (760, 3, 'LeKrius® 3D Single-Use Storage Bag Assembly', NULL, 'thomassci', 'https://www.thomassci.com/p/3d-drum-bags');
@@ -5396,6 +6366,7 @@ INSERT INTO products VALUES (760, 4, 'LeSiever® PES Hydrophobic AH Sterilizing-
 INSERT INTO products VALUES (760, 5, 'TC Treated Vented Cap Flasks', NULL, 'thomassci', 'https://www.thomassci.com/p/tc-treated-vented-cap-flasks');
 INSERT INTO sources VALUES (760, 'https://www.thomassci.com/browse-by/suppliers/lepure-biotech');
 INSERT INTO sources VALUES (760, 'https://www.lepurebiotech.com/contact-us-2/');
+INSERT INTO sources VALUES (760, 'https://www.lepurebiotech.com/cell-cryopreservation/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (761, 'levgo', 'Levgo', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/levgo', 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only LevGo company profiles (Berkeley, CA; smartSpatula) and unrelated Israeli distributors (Rhenium, Agentek, Enco, Ornat).', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (761, 1, 'LevGo® smartSpatula® PP Disposable Lab Spatulas', NULL, 'thomassci', 'https://www.thomassci.com/p/levgo-smartspatula-pp-disposable-lab-spatulas');
 INSERT INTO products VALUES (761, 2, 'LevGo® smartPick® Wood Inoculation Pick', NULL, 'thomassci', 'https://www.thomassci.com/p/levgo-smartpick-wood-inoculation-pick');
@@ -5406,14 +6377,17 @@ INSERT INTO sources VALUES (761, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (761, 'https://www.thomassci.com/browse-by/suppliers/levgo');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (762, 'lewis bins', 'Lewis Bins', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lewis-bins', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (762, 'https://www.thomassci.com/browse-by/suppliers/lewis-bins');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (763, 'lgc biosearch technologies', 'LGC, Biosearch Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lgc-biosearch-technologies', NULL, NULL, NULL, 'https://biosearchtech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+441992470757', NULL, NULL, 'https://www.biosearchtech.com/support/contact-us', 'https://www.biosearchtech.com/support/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (763, 'lgc biosearch technologies', 'LGC, Biosearch Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lgc-biosearch-technologies', NULL, NULL, NULL, 'https://biosearchtech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+441992470757', NULL, NULL, 'https://www.biosearchtech.com/support/contact-us', 'https://www.biosearchtech.com/support/contact-us', NULL);
 INSERT INTO products VALUES (763, 1, 'QuickExtract DNA Extraction Solution', NULL, 'thomassci', 'https://www.thomassci.com/p/quickextract-dna-extraction-solution');
 INSERT INTO products VALUES (763, 2, 'Ampliscribe T7-Flash Transcription Kits', NULL, 'thomassci', 'https://www.thomassci.com/p/ampliscribe-t7-flash-transcription-kits');
 INSERT INTO products VALUES (763, 3, 'Transformax Ec100D', NULL, 'thomassci', 'https://www.thomassci.com/p/transformax-ec100d');
 INSERT INTO products VALUES (763, 4, 'MasterPure Gram Positive DNA Purification Kit 100 Purif.', NULL, 'thomassci', 'https://www.thomassci.com/p/masterpure-gram-positive-dna-purification-kit-100-purif-');
 INSERT INTO products VALUES (763, 5, 'SS320 (MC1061 F) Electrocompetent Cells', NULL, 'thomassci', 'https://www.thomassci.com/p/ss320-mc1061-f-electrocompetent-cells');
+INSERT INTO israel_entities VALUES (763, 'Agentek (1987) Ltd.', 'אגנטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://agentek.co.il', '+972 3 6493111', 'info@agentek.co.il', 'Greenwork Yakum Business Park, Yakum 6097200', 'https://agentek.co.il/contact/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.biosearchtech.com/about-us/distributors');
+INSERT INTO israel_entities VALUES (763, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '+972 89366066', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.biosearchtech.com/about-us/distributors');
 INSERT INTO sources VALUES (763, 'https://www.thomassci.com/browse-by/suppliers/lgc-biosearch-technologies');
 INSERT INTO sources VALUES (763, 'https://www.biosearchtech.com/support/contact-us');
+INSERT INTO sources VALUES (763, 'https://www.biosearchtech.com/about-us/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (764, 'lgp', 'LGP', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lgp', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q33121450');
 INSERT INTO sources VALUES (764, 'https://www.thomassci.com/browse-by/suppliers/lgp');
 INSERT INTO sources VALUES (764, 'https://www.wikidata.org/wiki/Q33121450');
@@ -5477,7 +6451,37 @@ INSERT INTO products VALUES (774, 3, '1200°C LGO Box/Ashing Furnaces', NULL, 't
 INSERT INTO products VALUES (774, 4, 'Lindberg/Blue M™ Tube Furnace', NULL, 'thomassci', 'https://www.thomassci.com/p/furnace-1100c-tube-stf55666c');
 INSERT INTO products VALUES (774, 5, 'Lindberg/Blue M™ 1200°C Split-Hinge Tube Furnaces', NULL, 'thomassci', 'https://www.thomassci.com/p/lindberg/blue-m-1200c-split-hinge-tube-furnaces');
 INSERT INTO sources VALUES (774, 'https://www.thomassci.com/browse-by/suppliers/lindberg/blue-m');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (775, 'liofilchem', 'Liofilchem', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Liofilchem', NULL, NULL, NULL, NULL, 'https://liofilchem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים ביולוגיים', 'ריאגנטים ביולוגיים', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+39 0858930745', NULL, NULL, 'https://liofilchem.com/contact-us.html', 'https://liofilchem.com/contact-us.html', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (775, 'liofilchem', 'Liofilchem', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Liofilchem', NULL, NULL, NULL, NULL, 'https://liofilchem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים ביולוגיים', 'ריאגנטים ביולוגיים', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://liofilchem.com/contact-us.html) but no distributor name could be extracted automatically: «a
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-bissau
+
+Guyana
+
+Haiti
+
+Heard Island and McDonald Islands
+
+»', '+39 0858930745', NULL, NULL, 'https://liofilchem.com/contact-us.html', 'https://liofilchem.com/contact-us.html', NULL);
 INSERT INTO products VALUES (775, 1, 'Presumptive presence of Listeria Contam Swab Listeria', NULL, 'dutscher', 'https://www.dutscher.com/article/339002');
 INSERT INTO products VALUES (775, 2, 'PAE Swab with 4 ml peptone water + 10 % neutralizer', NULL, 'dutscher', 'https://www.dutscher.com/article/339050');
 INSERT INTO products VALUES (775, 3, 'Quanti-Culticontrol Strain, Escherichia Coli ATCC 8739', NULL, 'dutscher', 'https://www.dutscher.com/article/339026');
@@ -5498,9 +6502,40 @@ INSERT INTO sources VALUES (778, 'https://www.lkpkg.com/s/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (779, 'lmi', 'LMI', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lmi', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q262903');
 INSERT INTO sources VALUES (779, 'https://www.thomassci.com/browse-by/suppliers/lmi');
 INSERT INTO sources VALUES (779, 'https://www.wikidata.org/wiki/Q262903');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (780, 'loctite', 'Loctite', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/loctite', NULL, NULL, NULL, 'https://www.loctite.com/', 'wikidata', 'Germany', 'גרמניה', 'Düsseldorf', 'Henkel KGaA', '1956', NULL, NULL, NULL, 'brand of adhesives', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Düsseldorf', NULL, NULL, 'Q567411');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (780, 'loctite', 'Loctite', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/loctite', NULL, NULL, NULL, 'https://www.loctite.com/', 'wikidata', 'Germany', 'גרמניה', 'Düsseldorf', 'Henkel KGaA', '1956', NULL, NULL, NULL, 'brand of adhesives', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://next.henkel-adhesives.com/int/en/loctite-location-selector.html) but no distributor name could be extracted automatically: «dustrial
+
+English
+
+Industrial
+
+Honduras
+
+Spanish
+
+Industrial
+
+English
+
+Industrial
+
+Hungary
+
+Hungarian
+
+Industrial
+
+Consumer
+
+English
+
+Industrial
+
+India
+
+English»', NULL, NULL, 'Düsseldorf', NULL, NULL, 'Q567411');
 INSERT INTO sources VALUES (780, 'https://www.thomassci.com/browse-by/suppliers/loctite');
 INSERT INTO sources VALUES (780, 'https://www.wikidata.org/wiki/Q567411');
+INSERT INTO sources VALUES (780, 'https://next.henkel-adhesives.com/int/en/loctite-location-selector.html');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (781, 'logistics supply', 'Logistics Supply', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/logistics-supply', NULL, NULL, NULL, 'https://logisticssupply.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '866-577-4477', 'support@simprosys.com', NULL, 'https://www.logisticssupply.com/pages/contact', 'https://www.logisticssupply.com/pages/contact', NULL);
 INSERT INTO products VALUES (781, 1, 'Deb InstantFOAM FREE (alcohol free) Foaming Hand Sanitizer, 1 Liter Touch-FREE Cartridges', NULL, 'thomassci', 'https://www.thomassci.com/p/deb-instantfoam-free-alcohol-free-foaming-hand-sanitizer-1-liter-touch-free-cartridges');
 INSERT INTO products VALUES (781, 2, 'SC Johnson Professional® Sanitizer Dispenser', NULL, 'thomassci', 'https://www.thomassci.com/p/sc-johnson-professional-sanitizer-dispenser');
@@ -5544,7 +6579,27 @@ INSERT INTO israel_entities VALUES (787, 'Lumitron Ltd.', 'לומיטרון', 'd
 INSERT INTO sources VALUES (787, 'https://www.thomassci.com/browse-by/suppliers/lovibond');
 INSERT INTO sources VALUES (787, 'https://www.lumitron.co.il/');
 INSERT INTO sources VALUES (787, 'https://www.lovibond.com/usa-en/top-meta-navigation/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (788, 'lpd trade', 'LPD Trade', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lpd-trade', NULL, NULL, NULL, 'https://lpdtrade.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '404-255-9767', NULL, NULL, 'https://www.lpdtrade.com/', 'https://www.lpdtrade.com/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (788, 'lpd trade', 'LPD Trade', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lpd-trade', NULL, NULL, NULL, 'https://lpdtrade.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.lpdtrade.com/our-distributors) but no distributor name could be extracted automatically: «AFETY AS
+
+Romania
+
+Higiene Lacroix
+
+Phone: +40268.442.020
+South Africa
+
+​
+
+Blix Environmental Solutions
+
+​
+Turkey
+
+​
+
+IZGE MUHENDISLIK DANISMANLIK ELEKTRONIK
+
+​»', '404-255-9767', NULL, NULL, 'https://www.lpdtrade.com/', 'https://www.lpdtrade.com/', NULL);
 INSERT INTO products VALUES (788, 1, 'ESD Brushes: Special Sizes', NULL, 'thomassci', 'https://www.thomassci.com/p/esd-brushes-special-sizes');
 INSERT INTO products VALUES (788, 2, 'ESD Maintenance & Cleaning Products', NULL, 'thomassci', 'https://www.thomassci.com/p/esd-maintenance-and-cleaning-products');
 INSERT INTO products VALUES (788, 3, 'ESD Brass Brushes', NULL, 'thomassci', 'https://www.thomassci.com/p/esd-brass-brushes');
@@ -5552,6 +6607,7 @@ INSERT INTO products VALUES (788, 4, 'ESD & Anti-Static Wipes', NULL, 'thomassci
 INSERT INTO products VALUES (788, 5, 'ESD Tools for Hazardous Environments', NULL, 'thomassci', 'https://www.thomassci.com/p/esd-tools-for-hazardous-environments');
 INSERT INTO sources VALUES (788, 'https://www.thomassci.com/browse-by/suppliers/lpd-trade');
 INSERT INTO sources VALUES (788, 'https://www.lpdtrade.com/');
+INSERT INTO sources VALUES (788, 'https://www.lpdtrade.com/our-distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (789, 'lucid scientific', 'Lucid Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/lucid-scientific', NULL, NULL, NULL, 'https://lucidsci.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+16172370665', 'info@lucidsci.com', NULL, NULL, 'https://lucidsci.com/', NULL);
 INSERT INTO sources VALUES (789, 'https://www.thomassci.com/browse-by/suppliers/lucid-scientific');
 INSERT INTO sources VALUES (789, 'https://lucidsci.com/');
@@ -5559,9 +6615,11 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO israel_entities VALUES (790, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.danyel.co.il', '1-800-711-911 (also +972 8-936-6066)', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.danyel.co.il/');
 INSERT INTO sources VALUES (790, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (790, 'https://www.danyel.co.il/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (791, 'lumiprobe', 'Lumiprobe', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://lumiprobe.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18889736353', 'order@lumiprobe.com', NULL, 'https://www.lumiprobe.com/contact', 'https://www.lumiprobe.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (791, 'lumiprobe', 'Lumiprobe', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://lumiprobe.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+18889736353', 'order@lumiprobe.com', NULL, 'https://www.lumiprobe.com/contact', 'https://www.lumiprobe.com/contact', NULL);
+INSERT INTO israel_entities VALUES (791, 'BioTAG Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-52-5522748', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.lumiprobe.com/distributors');
 INSERT INTO sources VALUES (791, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (791, 'https://www.lumiprobe.com/contact');
+INSERT INTO sources VALUES (791, 'https://www.lumiprobe.com/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (792, 'luna nanotech', 'Luna Nanotech Inc.', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/luna-nanotech-inc-', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (792, 1, '96-Well Filter Plates', NULL, 'thomassci', 'https://www.thomassci.com/p/96-well-filter-plates-1');
 INSERT INTO products VALUES (792, 2, 'PuroSPIN MINI Filter Spin Columns', NULL, 'thomassci', 'https://www.thomassci.com/p/purospin-mini-filter-spin-columns');
@@ -5751,11 +6809,13 @@ INSERT INTO products VALUES (819, 5, 'Grid Marked Cellulose Nitrate Membrane Dis
 INSERT INTO sources VALUES (819, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (819, 'https://www.thomassci.com/browse-by/suppliers/mdi-membrane-technologies');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (820, 'medchemexpress', 'MedChemExpress', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.medchemexpress.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '609-228-6898', 'sales@medchemexpress.com', NULL, 'https://www.medchemexpress.com/contact-us.html', 'https://www.medchemexpress.com/contact-us.html', 'Q135739178');
+INSERT INTO israel_entities VALUES (820, 'Enco Scientific Services Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-52-5522748', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.medchemexpress.com/distributors.html');
 INSERT INTO israel_entities VALUES (820, 'Enco', 'אנקו', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.enco.co.il/', '+972-3-934-9922', 'orders@enco.co.il', '17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (820, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (820, 'https://www.wikidata.org/wiki/Q135739178');
 INSERT INTO sources VALUES (820, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (820, 'https://www.medchemexpress.com/contact-us.html');
+INSERT INTO sources VALUES (820, 'https://www.medchemexpress.com/distributors.html');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (821, 'medegen medical products', 'Medegen Medical Products', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medegen-medical-products', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (821, 1, 'Beaker, Tri-Pour, 250ml', NULL, 'thomassci', 'https://www.thomassci.com/p/beaker-tri-pour-250ml');
 INSERT INTO products VALUES (821, 2, 'Sterile Specimen Containers - ClikSeal™ Style With Lids', NULL, 'thomassci', 'https://www.thomassci.com/p/sterile-specimen-containers-clikseal-style-with-lids');
@@ -5783,7 +6843,26 @@ INSERT INTO products VALUES (824, 3, 'Flat Sterilization Pouches with Adhesive T
 INSERT INTO products VALUES (824, 4, 'White polypropylene labcoat with snap fastener, size 4 / XL', NULL, 'dutscher', 'https://www.dutscher.com/article/475128B');
 INSERT INTO products VALUES (824, 5, 'IIR surgical mask with elastic Kolmi Vitals - Box of 50', NULL, 'dutscher', 'https://www.dutscher.com/article/931674A');
 INSERT INTO sources VALUES (824, 'https://www.dutscher.com/search?initialFilters=brand:Medicom+Kolmi+Hopen');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (825, 'medipurpose', 'MediPurpose', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medipurpose', NULL, NULL, NULL, 'https://medipurpose.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1-404-855-3655', 'orders@medipurpose.com', NULL, 'https://medipurpose.com/contact/', 'https://medipurpose.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (825, 'medipurpose', 'MediPurpose', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medipurpose', NULL, NULL, NULL, 'https://medipurpose.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://medipurpose.com/contact/) but no distributor name could be extracted automatically: «r
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia, The
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guine»', '+1-404-855-3655', 'orders@medipurpose.com', NULL, 'https://medipurpose.com/contact/', 'https://medipurpose.com/contact/', NULL);
 INSERT INTO sources VALUES (825, 'https://www.thomassci.com/browse-by/suppliers/medipurpose');
 INSERT INTO sources VALUES (825, 'https://medipurpose.com/contact/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (826, 'medisca', 'Medisca', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medisca', NULL, NULL, NULL, 'https://www.medisca.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'sales@medisca.com', NULL, NULL, 'https://www.medisca.com/regions', NULL);
@@ -5803,13 +6882,16 @@ INSERT INTO products VALUES (828, 4, 'Sensicare® Surgical Gloves', NULL, 'thoma
 INSERT INTO products VALUES (828, 5, 'Noninsulated Plastic Pitchers with Handles', NULL, 'thomassci', 'https://www.thomassci.com/p/noninsulated-plastic-pitchers-with-handles');
 INSERT INTO sources VALUES (828, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (828, 'https://www.thomassci.com/browse-by/suppliers/medline');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (829, 'medone surgical', 'MedOne Surgical', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medone-surgical', NULL, NULL, NULL, 'https://medone.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '9413593129', NULL, NULL, 'https://medone.com/contact/#contact', 'https://medone.com/contact/#contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (829, 'medone surgical', 'MedOne Surgical', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medone-surgical', NULL, NULL, NULL, 'https://medone.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '9413593129', NULL, NULL, 'https://medone.com/contact/#contact', 'https://medone.com/contact/#contact', NULL);
 INSERT INTO products VALUES (829, 1, 'INCYTO C-Chip Hemocytometers (Neubauer Improved)', NULL, 'thomassci', 'https://www.thomassci.com/p/incyto-c-chip-hemocytometers-neubauer-improved');
 INSERT INTO products VALUES (829, 2, 'INCYTO C-Chip Hemocytometers (Semen Test)', NULL, 'thomassci', 'https://www.thomassci.com/p/incyto-c-chip-hemocytometers-semen-test');
 INSERT INTO products VALUES (829, 3, 'INCYTO C-Chip Hemocytometers (Fuchs-Rosenthal)', NULL, 'thomassci', 'https://www.thomassci.com/p/incyto-c-chip-hemocytometers-fuchs-rosenthal');
 INSERT INTO products VALUES (829, 4, 'INCYTO C-Chip Hemocytometers (Burker Turk)', NULL, 'thomassci', 'https://www.thomassci.com/p/incyto-c-chip-hemocytometers-burker-turk');
+INSERT INTO israel_entities VALUES (829, 'Tradis Gat Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972 39260400', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://medone.com/distributor-list/');
+INSERT INTO israel_entities VALUES (829, 'Newtech Ayalon Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972 39260400', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://medone.com/distributor-list/');
 INSERT INTO sources VALUES (829, 'https://www.thomassci.com/browse-by/suppliers/medone-surgical');
 INSERT INTO sources VALUES (829, 'https://medone.com/contact/#contact');
+INSERT INTO sources VALUES (829, 'https://medone.com/distributor-list/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (830, 'medplus', 'MedPlus', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/medplus', NULL, NULL, NULL, 'http://www.medplusindia.com', 'wikidata', 'India', 'הודו', 'Hyderabad', NULL, '2006', NULL, NULL, NULL, 'Indian pharmaceutical company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Hyderabad', NULL, NULL, 'Q25344640');
 INSERT INTO sources VALUES (830, 'https://www.thomassci.com/browse-by/suppliers/medplus');
 INSERT INTO sources VALUES (830, 'https://www.wikidata.org/wiki/Q25344640');
@@ -5883,9 +6965,27 @@ INSERT INTO sources VALUES (835, 'https://reports.emdgroup.com/en/annualreport/2
 INSERT INTO sources VALUES (835, 'https://www.reports.emdgroup.com/en/annualreport/2025/_assets/downloads/cmr-combined-management-report-emd-ar25.pdf');
 INSERT INTO sources VALUES (835, 'https://www.wikidata.org/wiki/Q96472579');
 INSERT INTO sources VALUES (835, 'https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (836, 'mercodia', 'Mercodia', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://mercodia.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(+46) 72 292 15 14', 'support@mercodia.com', NULL, 'https://www.mercodia.com/contact-us/', 'https://www.mercodia.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (836, 'mercodia', 'Mercodia', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://mercodia.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.mercodia.com/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '(+46) 72 292 15 14', 'support@mercodia.com', NULL, 'https://www.mercodia.com/contact-us/', 'https://www.mercodia.com/contact-us/', NULL);
 INSERT INTO sources VALUES (836, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (836, 'https://www.mercodia.com/contact-us/');
+INSERT INTO sources VALUES (836, 'https://www.mercodia.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (837, 'meridian', 'Meridian (Bioline)', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/meridian-bioline', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (837, 1, 'BIOTAQ™ DNA Polymerase', NULL, 'thomassci', 'https://www.thomassci.com/p/biotaq-dna-polymerase');
 INSERT INTO products VALUES (837, 2, 'MyTaq™ DNA Polymerase', NULL, 'thomassci', 'https://www.thomassci.com/p/mytaq-dna-polymerase');
@@ -6040,13 +7140,45 @@ INSERT INTO sources VALUES (857, 'https://www.micronova-mfg.com/contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (858, 'microscope com', 'Microscope.com', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://microscope.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18774093556', 'info@microscope.com', NULL, 'https://www.microscope.com/contact-us', 'https://www.microscope.com/contact-us', NULL);
 INSERT INTO sources VALUES (858, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (858, 'https://www.microscope.com/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (859, 'microsolv technology', 'MicroSolv Technology', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://mtc-usa.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '17323808900', NULL, NULL, 'https://www.mtc-usa.com/contact', 'https://www.mtc-usa.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (859, 'microsolv technology', 'MicroSolv Technology', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://mtc-usa.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.mtc-usa.com/resellers-and-channel-partners) but no distributor name could be extracted automatically: «d Scientific, Strathaven
+
+🔗
+www.crawfordscientific.com
+| ✉️
+customercare.uk@crawfordscientific.com
+
+Middle East
+
+Egypt
+–
+Spectra, Cairo
+
+✉️
+spectra@spectraegypt»', '17323808900', NULL, NULL, 'https://www.mtc-usa.com/contact', 'https://www.mtc-usa.com/contact', NULL);
 INSERT INTO sources VALUES (859, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (859, 'https://www.mtc-usa.com/contact');
+INSERT INTO sources VALUES (859, 'https://www.mtc-usa.com/resellers-and-channel-partners');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (860, 'midsci', 'MIDSCI', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://midsci.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '6362259997', NULL, NULL, 'https://midsci.com/contact/request-a-quote/', 'https://midsci.com/contact/request-a-quote/', NULL);
 INSERT INTO sources VALUES (860, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (860, 'https://midsci.com/contact/request-a-quote/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (861, 'miele', 'Miele', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Miele', 'https://www.thomassci.com/browse-by/suppliers/miele', NULL, NULL, NULL, 'https://www.miele.com', 'manual', 'Germany', 'גרמניה', 'Gütersloh', NULL, '1899', 'ציוד', 'ציוד', 'catalog_facet', 'German manufacturer of high-end domestic appliances and commercial equipment', 20944, '2020', 'company', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'reported', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Miele Professional lab distributors named only for Hungary (Labokraft, 2025) and the US (ARES Scientific); no Israel mention.', NULL, 'sales@miele.com.au', 'Gütersloh', 'https://www.miele.com/en/com/contact-us-2073.htm', 'https://www.miele.com/en/com/contact-us-2073.htm', 'Q695230');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (861, 'miele', 'Miele', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Miele', 'https://www.thomassci.com/browse-by/suppliers/miele', NULL, NULL, NULL, 'https://www.miele.com', 'manual', 'Germany', 'גרמניה', 'Gütersloh', NULL, '1899', 'ציוד', 'ציוד', 'catalog_facet', 'German manufacturer of high-end domestic appliances and commercial equipment', 20944, '2020', 'company', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'reported', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Miele Professional lab distributors named only for Hungary (Labokraft, 2025) and the US (ARES Scientific); no Israel mention. | "Israel" appears on the manufacturer''s distributor/contact page (https://www.miele.com/en/com/index.htm) but no distributor name could be extracted automatically: «porter Saint-Martin/Sint Maarten
+
+Importer Saint Lucia
+
+​
+Importer Uruguay
+
+USA
+
+Importer Venezuela
+
+Asia
+
+Importer Armenia
+
+Importer Azerbaijan
+
+China Mainland»', NULL, 'sales@miele.com.au', 'Gütersloh', 'https://www.miele.com/en/com/contact-us-2073.htm', 'https://www.miele.com/en/com/contact-us-2073.htm', 'Q695230');
 INSERT INTO products VALUES (861, 1, 'ProCare Lab Detergents', NULL, 'thomassci', 'https://www.thomassci.com/p/procare-lab-glassware-washers');
 INSERT INTO products VALUES (861, 2, 'Lab Glassware Washers, ProCare Universal 61 Softener Salt', NULL, 'thomassci', 'https://www.thomassci.com/p/lab-glassware-washers-procare-universal-61-softener-salt');
 INSERT INTO products VALUES (861, 3, 'Neodisher Mediclean Forte, 5 liter', NULL, 'thomassci', 'https://www.thomassci.com/p/neodisher-mediclean-forte-5-liter');
@@ -6056,6 +7188,7 @@ INSERT INTO sources VALUES (861, 'https://www.dutscher.com/search?initialFilters
 INSERT INTO sources VALUES (861, 'https://www.thomassci.com/browse-by/suppliers/miele');
 INSERT INTO sources VALUES (861, 'https://www.wikidata.org/wiki/Q695230');
 INSERT INTO sources VALUES (861, 'https://www.miele.com/en/com/contact-us-2073.htm');
+INSERT INTO sources VALUES (861, 'https://www.miele.com/en/com/index.htm');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (862, 'miles scientific', 'Miles Scientific (Analtech)', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/miles-scientific-analtech', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (862, 1, 'Disposable Micropipettes', NULL, 'thomassci', 'https://www.thomassci.com/p/disposable-micropipettes');
 INSERT INTO products VALUES (862, 2, 'Silica Gel HLF UNIPLATES', NULL, 'thomassci', 'https://www.thomassci.com/p/silica-gel-hlf-uniplates');
@@ -6107,14 +7240,16 @@ INSERT INTO products VALUES (867, 4, 'Standard Portable TDS Meter (Range: 0 to 1
 INSERT INTO products VALUES (867, 5, 'Digital Refractometers for Wine/Grape Measurements (% Brix & Potential Alcohol)', NULL, 'thomassci', 'https://www.thomassci.com/p/digital-refractometers-for-wine/grape-measurements-brix-and-potential-alcohol');
 INSERT INTO sources VALUES (867, 'https://www.thomassci.com/browse-by/suppliers/milwaukee-instruments');
 INSERT INTO sources VALUES (867, 'https://milwaukeeinstruments.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (868, 'minerva biolabs', 'Minerva Biolabs', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/minerva-biolabs', NULL, NULL, NULL, 'https://minerva-biolabs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+49 30 2000 4370', 'order@minerva-biolabs.com', NULL, 'https://minerva-biolabs.com/en/general-inquiry?to=jh', 'https://minerva-biolabs.com/en/general-inquiry?to=jh', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (868, 'minerva biolabs', 'Minerva Biolabs', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/minerva-biolabs', NULL, NULL, NULL, 'https://minerva-biolabs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+49 30 2000 4370', 'order@minerva-biolabs.com', NULL, 'https://minerva-biolabs.com/en/general-inquiry?to=jh', 'https://minerva-biolabs.com/en/general-inquiry?to=jh', NULL);
 INSERT INTO products VALUES (868, 1, 'PCR Clean™ Wipes', NULL, 'thomassci', 'https://www.thomassci.com/p/pcr-clean-wipes');
 INSERT INTO products VALUES (868, 2, 'PCR Cycler Check™', NULL, 'thomassci', 'https://www.thomassci.com/p/pcr-cycler-check');
 INSERT INTO products VALUES (868, 3, 'Venor®GeM qOneStep Mycoplasma Detection Kits', NULL, 'thomassci', 'https://www.thomassci.com/p/venorgem-qonestep-mycoplasma-detection-kits');
 INSERT INTO products VALUES (868, 4, 'Venor®GeM qEP Mycoplasma Detection Kits', NULL, 'thomassci', 'https://www.thomassci.com/p/venorgem-qep-mycoplasma-detection-kits');
 INSERT INTO products VALUES (868, 5, 'ZellShield®', NULL, 'thomassci', 'https://www.thomassci.com/p/zellshield');
+INSERT INTO israel_entities VALUES (868, 'BioTag Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, 'info@biotag.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://minerva-biolabs.com/en/distributors');
 INSERT INTO sources VALUES (868, 'https://www.thomassci.com/browse-by/suppliers/minerva-biolabs');
 INSERT INTO sources VALUES (868, 'https://minerva-biolabs.com/en/general-inquiry?to=jh');
+INSERT INTO sources VALUES (868, 'https://minerva-biolabs.com/en/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (869, 'minigrip', 'Minigrip®', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Minigrip', 'https://www.thomassci.com/browse-by/suppliers/minigrip', NULL, NULL, NULL, 'https://minigrip.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Sample bag', 'Sample bag', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'No result mentions Minigrip; ''Mini Line Ltd'' (Petach Tikva electronics importer) is an unrelated name match; other hits are unrelated Israeli dealer announcements.', '800-511-6298', NULL, NULL, 'https://medegenmed.com/contact-us/', 'https://medegenmed.com/contact-us/', NULL);
 INSERT INTO products VALUES (869, 1, '2 MIL Plain ZIPPIT® Reclosable Zipper Bags', NULL, 'thomassci', 'https://www.thomassci.com/p/2-mil-plain-zippit-reclosable-zipper-bags');
 INSERT INTO products VALUES (869, 2, 'Lab Guard® Recloseable Specimen Bags, STAT', NULL, 'thomassci', 'https://www.thomassci.com/p/lab-guard-recloseable-specimen-bags-stat');
@@ -6129,9 +7264,11 @@ INSERT INTO israel_entities VALUES (870, 'Zotal Ltd.', 'זוטל', 'distributor'
 INSERT INTO sources VALUES (870, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (870, 'https://www.wikidata.org/wiki/Q6874755');
 INSERT INTO sources VALUES (870, 'https://www.zotal.co.il/brands/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (871, 'mitegen', 'MiTeGen', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://mitegen.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, 'info@mitegen.com', NULL, 'https://www.mitegen.com/learn/about-mitegen/', 'https://www.mitegen.com/learn/about-mitegen/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (871, 'mitegen', 'MiTeGen', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://mitegen.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, 'info@mitegen.com', NULL, 'https://www.mitegen.com/learn/about-mitegen/', 'https://www.mitegen.com/learn/about-mitegen/', NULL);
+INSERT INTO israel_entities VALUES (871, 'Tamar Laboratory Supplies Ltd.', 'תמר ציוד מעבדה', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.tamar.co.il', '+972 2-533-6070 (also 02-579-9777)', 'mail@tamar.co.il', 'HaAla St., Mevaseret Zion 90805', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.mitegen.com/learn/about-mitegen/international-distributors/');
 INSERT INTO sources VALUES (871, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (871, 'https://www.mitegen.com/learn/about-mitegen/');
+INSERT INTO sources VALUES (871, 'https://www.mitegen.com/learn/about-mitegen/international-distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (872, 'modulus data systems', 'Modulus Data Systems', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/modulus-data-systems', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (872, 1, 'DIFFCOUNT Manual Differential Cell Counter', NULL, 'thomassci', 'https://www.thomassci.com/p/diffcount-manual-differential-cell-counter');
 INSERT INTO products VALUES (872, 2, 'Compu-U-Diff Keypad', NULL, 'thomassci', 'https://www.thomassci.com/p/10212compu-u-diff-keypad');
@@ -6271,7 +7408,23 @@ INSERT INTO sources VALUES (894, 'https://www.thomassci.com/browse-by/suppliers/
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (895, 'mycofold', 'MycoFold', 'Q+Q+', NULL, NULL, 'yes', 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'Founded in 2025, MycoFold TM is a protein engineering company developing best-in-class proteins that address the technical and budget challenges faced by life science professionals. We design highly functional recombinant proteins using artificial intelligence (AI), machine-learning (ML) and high-throughput screening tools, which provide maximum reactivity and value to end users.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only a UW CoMotion startup profile (pre-seed, AI-designed proteins); no distributors listed anywhere.', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (895, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (895, 'https://info.quartzy.com/new-suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (896, 'myron l', 'Myron L', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/myron-l', NULL, NULL, NULL, 'https://myronl.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '17604382021', 'info@myronl.com', NULL, 'https://www.myronl.com/contact-us/', 'https://www.myronl.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (896, 'myron l', 'Myron L', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/myron-l', NULL, NULL, NULL, 'https://myronl.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.myronl.com/international-distributors/) but no distributor name could be extracted automatically: «tware Compatibility
+
+Store
+
+Contact
+
+Call Now
+
+International Distributors
+
+Find your nearest Myron L
+®
+Distributor around the world.
+
+Select A Country
+
+Argentin»', '17604382021', 'info@myronl.com', NULL, 'https://www.myronl.com/contact-us/', 'https://www.myronl.com/contact-us/', NULL);
 INSERT INTO products VALUES (896, 1, 'Myron L NaCl-14.0 Conductivity/TDS Standard Solution, Quart Bottle (32 Oz)', NULL, 'thomassci', 'https://www.thomassci.com/p/myron-l-nacl-14-0-conductivity/tds-standard-solution-quart-bottle-32-oz');
 INSERT INTO products VALUES (896, 2, 'Myron L KCl-7000 Conductivity/TDS Standard Solution, Quart Bottle (32 Oz)', NULL, 'thomassci', 'https://www.thomassci.com/p/myron-l-kcl-7000-conductivity/tds-standard-solution-quart-bottle-32-oz');
 INSERT INTO products VALUES (896, 3, 'Multiparameter Meter Accessories', NULL, 'thomassci', 'https://www.thomassci.com/p/techpro-multiparameter-meters');
@@ -6279,6 +7432,7 @@ INSERT INTO products VALUES (896, 4, 'Conductivity/pH Ultrameter', NULL, 'thomas
 INSERT INTO products VALUES (896, 5, 'Ultrameter Conductivity Meter', NULL, 'thomassci', 'https://www.thomassci.com/p/ultrameter-conductivity-meter');
 INSERT INTO sources VALUES (896, 'https://www.thomassci.com/browse-by/suppliers/myron-l');
 INSERT INTO sources VALUES (896, 'https://www.myronl.com/contact-us/');
+INSERT INTO sources VALUES (896, 'https://www.myronl.com/international-distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (897, 'mystaire', 'Mystaire®', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/mystaire', 'yes', NULL, NULL, 'https://mystaire.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריהוט ותשתיות מעבדה', 'ריהוט ותשתיות מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Results entirely unrelated (Mystere jet book, film distributors); nothing about Mystaire.', '19192298511', NULL, NULL, 'https://mystaire.com/contact', 'https://mystaire.com/contact', NULL);
 INSERT INTO products VALUES (897, 1, 'CleanPrep™ Workstations', NULL, 'thomassci', 'https://www.thomassci.com/p/cleanprep-workstations');
 INSERT INTO products VALUES (897, 2, 'MY-2400 Basic Ductless Workstation', NULL, 'thomassci', 'https://www.thomassci.com/p/my-2400-basic-ductless-workstation');
@@ -6428,10 +7582,29 @@ INSERT INTO sources VALUES (910, 'https://www.thomassci.com/browse-by/suppliers/
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (911, 'neta scientific', 'Neta Scientific', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.netascientific.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q117162405');
 INSERT INTO sources VALUES (911, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (911, 'https://www.wikidata.org/wiki/Q117162405');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (912, 'neuromics', 'Neuromics', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://neuromics.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1792304059349', NULL, NULL, 'https://www.neuromics.com/contact-us', 'https://www.neuromics.com/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (912, 'neuromics', 'Neuromics', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://neuromics.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '1792304059349', NULL, NULL, 'https://www.neuromics.com/contact-us', 'https://www.neuromics.com/contact-us', NULL);
+INSERT INTO israel_entities VALUES (912, 'BioTag Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '972 52 5522748', 'info@biotag.co.il', NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.neuromics.com/distributors');
 INSERT INTO sources VALUES (912, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (912, 'https://www.neuromics.com/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (913, 'nev s ink', 'Nev''s Ink', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/nevs-ink', 'yes', NULL, NULL, 'https://nevsink.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'סימון, משרד ואריזה', 'סימון, משרד ואריזה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(800) 638-7465', 'customerservice@nevsink.com', NULL, 'https://nevsink.com/contact-us/', 'https://nevsink.com/contact-us/', NULL);
+INSERT INTO sources VALUES (912, 'https://www.neuromics.com/distributors');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (913, 'nev s ink', 'Nev''s Ink', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/nevs-ink', 'yes', NULL, NULL, 'https://nevsink.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'סימון, משרד ואריזה', 'סימון, משרד ואריזה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://nevsink.com/become-a-distributor/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '(800) 638-7465', 'customerservice@nevsink.com', NULL, 'https://nevsink.com/contact-us/', 'https://nevsink.com/contact-us/', NULL);
 INSERT INTO products VALUES (913, 1, 'Label Tape - 3/4" x 500"', NULL, 'thomassci', 'https://www.thomassci.com/p/label-tape-3/4-x-500');
 INSERT INTO products VALUES (913, 2, 'Label Tape - 3/4" x 2160"', NULL, 'thomassci', 'https://www.thomassci.com/p/label-tape-3/4-x-2160');
 INSERT INTO products VALUES (913, 3, 'Cryogenic Labels', NULL, 'thomassci', 'https://www.thomassci.com/p/cryogenic-labels');
@@ -6440,6 +7613,7 @@ INSERT INTO products VALUES (913, 5, 'Label Tape - 1/2" x 2160"', NULL, 'thomass
 INSERT INTO sources VALUES (913, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (913, 'https://www.thomassci.com/browse-by/suppliers/nevs-ink');
 INSERT INTO sources VALUES (913, 'https://nevsink.com/contact-us/');
+INSERT INTO sources VALUES (913, 'https://nevsink.com/become-a-distributor/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (914, 'new brunswick scientific', 'New Brunswick Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/new-brunswick-scientific', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (914, 1, 'Extra Shelves for New Brunswick Freezers', NULL, 'thomassci', 'https://www.thomassci.com/p/extra-shelves-for-new-brunswick-freezers');
 INSERT INTO products VALUES (914, 2, 'Accessories: Clamps & Test Tube Racks', NULL, 'thomassci', 'https://www.thomassci.com/p/accessories-clamps-and-test-tube-racks2');
@@ -6529,7 +7703,21 @@ INSERT INTO sources VALUES (924, 'https://www.nikon.com/company/ir/ir_library/re
 INSERT INTO sources VALUES (924, 'https://nikon.com/company/corporate/data/');
 INSERT INTO sources VALUES (924, 'https://www.wikidata.org/wiki/Q1218180');
 INSERT INTO sources VALUES (924, 'https://www.microscope.healthcare.nikon.com/contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (925, 'nilfisk advance', 'Nilfisk-Advance', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/nilfisk-advance', NULL, NULL, NULL, 'http://www.nilfisk.com/', 'wikidata', 'Denmark', 'דנמרק', 'Copenhagen', 'Nilfisk Holding', '1906', 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'company', 380, '2024', 'company', 'wikidata', 554.2, 'DKK 3,822.0 m', '2024', 'company', 'wikidata', 'reported', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Copenhagen', NULL, NULL, 'Q969760');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (925, 'nilfisk advance', 'Nilfisk-Advance', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/nilfisk-advance', NULL, NULL, NULL, 'http://www.nilfisk.com/', 'wikidata', 'Denmark', 'דנמרק', 'Copenhagen', 'Nilfisk Holding', '1906', 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', 'company', 380, '2024', 'company', 'wikidata', 554.2, 'DKK 3,822.0 m', '2024', 'company', 'wikidata', 'reported', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.nilfisk.com/global/professional/about-nilfisk/nilfisk-websites-and-locations/) but no distributor name could be extracted automatically: «o to website
+Guatamala
+Go to website
+Honduras
+Go to website
+Mexico
+Go to website
+Nicaragua
+Go to website
+Panama
+Go to website
+Peru
+Go to website
+United States
+G»', NULL, NULL, 'Copenhagen', NULL, NULL, 'Q969760');
 INSERT INTO products VALUES (925, 1, 'Vacuum Cleaners', NULL, 'thomassci', 'https://www.thomassci.com/p/vacuum-cleaners');
 INSERT INTO products VALUES (925, 2, 'HEPA Exhaust Filter Kit - 1 Set - for GM80-CR Vacuums', NULL, 'thomassci', 'https://www.thomassci.com/p/hepa-exhaust-filter-kit-1-set-for-gm80-cr-vacuums');
 INSERT INTO products VALUES (925, 3, 'Nilfisk Mini Industrial Vacuums', NULL, 'thomassci', 'https://www.thomassci.com/p/nilfisk-mini-industrial-vacuums');
@@ -6537,6 +7725,7 @@ INSERT INTO products VALUES (925, 4, 'GM80 12 inch Conductive Floor tool', NULL,
 INSERT INTO products VALUES (925, 5, 'The portable GM 80CR', NULL, 'thomassci', 'https://www.thomassci.com/p/the-portable-gm-80cr');
 INSERT INTO sources VALUES (925, 'https://www.thomassci.com/browse-by/suppliers/nilfisk-advance');
 INSERT INTO sources VALUES (925, 'https://www.wikidata.org/wiki/Q969760');
+INSERT INTO sources VALUES (925, 'https://www.nilfisk.com/global/professional/about-nilfisk/nilfisk-websites-and-locations/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (926, 'nippon genetics', 'Nippon genetics', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Nippon+genetics', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ריאגנטים ביולוגיים', 'ריאגנטים ביולוגיים', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (926, 1, 'MUPID-ONE tank and generator 230 V (supplied complete with lid, trays, combs and gel casting set)', NULL, 'dutscher', 'https://www.dutscher.com/article/088900');
 INSERT INTO products VALUES (926, 2, 'bluetar PLUS Blue/red/Green marker - 500 µl', NULL, 'dutscher', 'https://www.dutscher.com/article/523272');
@@ -6544,7 +7733,25 @@ INSERT INTO products VALUES (926, 3, 'Multi-support cooling rack', NULL, 'dutsch
 INSERT INTO products VALUES (926, 4, 'FastGene Restriction Enzyme Age I 300 U (10 U/µl)', NULL, 'dutscher', 'https://www.dutscher.com/article/523421');
 INSERT INTO products VALUES (926, 5, 'Bambanker Standard freezing medium, 20 ml', NULL, 'dutscher', 'https://www.dutscher.com/article/523303');
 INSERT INTO sources VALUES (926, 'https://www.dutscher.com/search?initialFilters=brand:Nippon+genetics');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (927, 'norgen biotek', 'Norgen Biotek', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/norgen-biotek', NULL, NULL, NULL, 'https://norgenbiotek.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '9052278848', 'info@norgenbiotek.com', NULL, 'https://norgenbiotek.com/contact', 'https://norgenbiotek.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (927, 'norgen biotek', 'Norgen Biotek', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/norgen-biotek', NULL, NULL, NULL, 'https://norgenbiotek.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://norgenbiotek.com/distributor-application-form) but no distributor name could be extracted automatically: «ries
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard & McDonald»', '9052278848', 'info@norgenbiotek.com', NULL, 'https://norgenbiotek.com/contact', 'https://norgenbiotek.com/contact', NULL);
 INSERT INTO products VALUES (927, 1, 'Total RNA Purification Maxi Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/total-rna-purification-maxi-kit');
 INSERT INTO products VALUES (927, 2, 'Endotoxin Removal Kits- For DNA', NULL, 'thomassci', 'https://www.thomassci.com/p/endotoxin-removal-kits-for-dna');
 INSERT INTO products VALUES (927, 3, 'HBV TaqMan PCR Detection Kits', NULL, 'thomassci', 'https://www.thomassci.com/p/hbv-taqman-pcr-detection-kits');
@@ -6552,6 +7759,7 @@ INSERT INTO products VALUES (927, 4, 'Stool Nucleic Acid Collection and Preserva
 INSERT INTO products VALUES (927, 5, 'DNA Gel Extraction Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/dna-gel-extraction-kit');
 INSERT INTO sources VALUES (927, 'https://www.thomassci.com/browse-by/suppliers/norgen-biotek');
 INSERT INTO sources VALUES (927, 'https://norgenbiotek.com/contact');
+INSERT INTO sources VALUES (927, 'https://norgenbiotek.com/distributor-application-form');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (928, 'nortech labs', 'Nortech Labs', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/nortech-labs', NULL, NULL, NULL, 'https://nortechlabs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '888-265-3725', 'sales@nortechlabs.com', NULL, 'https://nortechlabs.com/company-info/contact/', 'https://nortechlabs.com/company-info/contact/', NULL);
 INSERT INTO sources VALUES (928, 'https://www.thomassci.com/browse-by/suppliers/nortech-labs');
 INSERT INTO sources VALUES (928, 'https://nortechlabs.com/company-info/contact/');
@@ -6624,7 +7832,17 @@ INSERT INTO products VALUES (936, 2, 'ESD Workstation Kit', NULL, 'thomassci', '
 INSERT INTO products VALUES (936, 3, 'Static Eliminating Brushes', NULL, 'thomassci', 'https://www.thomassci.com/p/static-eliminating-brushes');
 INSERT INTO sources VALUES (936, 'https://www.thomassci.com/browse-by/suppliers/nrd');
 INSERT INTO sources VALUES (936, 'https://www.wikidata.org/wiki/Q7354404');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (937, 'nsi lab solutions', 'NSI Lab Solutions', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/nsi-lab-solutions', NULL, NULL, NULL, 'https://nsilabsolutions.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מיקרוביולוגיה', 'מיקרוביולוגיה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1.800.274.5487', NULL, NULL, 'https://nsilabsolutions.com/contact/', 'https://nsilabsolutions.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (937, 'nsi lab solutions', 'NSI Lab Solutions', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/nsi-lab-solutions', NULL, NULL, NULL, 'https://nsilabsolutions.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מיקרוביולוגיה', 'מיקרוביולוגיה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://nsilabsolutions.com/resources/distributors/) but no distributor name could be extracted automatically: «bioland.gr/
+
+INDIA:
+
+Molecules
+
+Flat No 705, VSS Nanda Deep Apartments
+
+Beside Medchal RTO, Quthubullapur, NH 7 Highway
+
+Kompally, Hyderabad – 500055, Telangana»', '+1.800.274.5487', NULL, NULL, 'https://nsilabsolutions.com/contact/', 'https://nsilabsolutions.com/contact/', NULL);
 INSERT INTO products VALUES (937, 1, 'Quantitative Legionella PT', NULL, 'thomassci', 'https://www.thomassci.com/p/quantitative-legionella-pt');
 INSERT INTO products VALUES (937, 2, 'E.aerogenes Snap Stick', NULL, 'thomassci', 'https://www.thomassci.com/p/eaerogenes-snap-stick');
 INSERT INTO products VALUES (937, 3, 'Microbiological CRMs for Petrifilm® Staph Express Count Plates', NULL, 'thomassci', 'https://www.thomassci.com/p/microbiological-crms-for-petrifilm-staph-express-count-plates');
@@ -6632,6 +7850,7 @@ INSERT INTO products VALUES (937, 4, 'NPW - Total Residual Chlorine, NELAC range
 INSERT INTO products VALUES (937, 5, 'Quantitative Coliforms/E.coli/Fecal Coliform', NULL, 'thomassci', 'https://www.thomassci.com/p/quantitative-coliforms/e-coli/fecal-coliform');
 INSERT INTO sources VALUES (937, 'https://www.thomassci.com/browse-by/suppliers/nsi-lab-solutions');
 INSERT INTO sources VALUES (937, 'https://nsilabsolutions.com/contact/');
+INSERT INTO sources VALUES (937, 'https://nsilabsolutions.com/resources/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (938, 'nsj bioreagents', 'NSJ Bioreagents', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://nsjbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '858.663.9055', 'info@nsjbio.com', NULL, 'https://www.nsjbio.com/contact-us.html', 'https://www.nsjbio.com/contact-us.html', NULL);
 INSERT INTO israel_entities VALUES (938, 'distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit', 'דורון סיינטיפיק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.doronscientific.com/', '054-5544004', 'info@doronscientific.com', NULL, NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://doronscientific.com/products/');
 INSERT INTO sources VALUES (938, 'https://www.quartzy.com/suppliers');
@@ -6731,12 +7950,12 @@ INSERT INTO products VALUES (949, 2, 'HiBind® DNA Columns', NULL, 'thomassci', 
 INSERT INTO products VALUES (949, 3, 'E-Z 96® Tissue DNA Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/e-z-96-tissue-dna-kit');
 INSERT INTO products VALUES (949, 4, 'E.Z.N.A.® HP Plant DNA Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/e-z-n-a-hp-plant-dna-kit');
 INSERT INTO products VALUES (949, 5, 'E-Z 96® Total RNA Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/e-z-96-total-rna-kit');
-INSERT INTO israel_entities VALUES (949, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.danyel.co.il', '1-800-711-911 (also +972 8-936-6066)', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.danyel.co.il/');
+INSERT INTO israel_entities VALUES (949, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '972 8 9366066', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://omegabiotek.com/distributors/');
 INSERT INTO sources VALUES (949, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (949, 'https://www.thomassci.com/browse-by/suppliers/omega-bio-tek');
 INSERT INTO sources VALUES (949, 'https://www.wikidata.org/wiki/Q117187906');
-INSERT INTO sources VALUES (949, 'https://www.danyel.co.il/');
 INSERT INTO sources VALUES (949, 'https://omegabiotek.com/company/contact-us/');
+INSERT INTO sources VALUES (949, 'https://omegabiotek.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (950, 'omni', 'Omni International', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Omni', 'https://www.thomassci.com/browse-by/suppliers/omni', NULL, NULL, NULL, 'https://www.omnitronicsworld.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Only company info and Fisher/Sigma/VWR storefront listings; no Israel mention.', NULL, NULL, NULL, NULL, NULL, 'Q135236400');
 INSERT INTO products VALUES (950, 1, 'Bead Ruptor 24 2mL Tube Carriage Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/bead-ruptor-24-2ml-tube-carriage-kit');
 INSERT INTO products VALUES (950, 2, 'Bead Ruptor Pre-Filled Bead Tubes', NULL, 'thomassci', 'https://www.thomassci.com/p/bead-ruptor-pre-filled-bead-tubes');
@@ -6767,9 +7986,11 @@ INSERT INTO israel_entities VALUES (955, 'Labotal Scientific Equipment (1997) Lt
 INSERT INTO sources VALUES (955, 'https://www.dutscher.com/search?initialFilters=brand:Optika');
 INSERT INTO sources VALUES (955, 'https://labotal.co.il/represented-firms/');
 INSERT INTO sources VALUES (955, 'https://www.optikamicroscopes.com/optikamicroscopes/contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (956, 'optimize technologies', 'Optimize Technologies', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://optimizetech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1 (800) 669-9015', 'info@optimizetech.com', NULL, 'https://www.optimizetech.com/contact/', 'https://www.optimizetech.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (956, 'optimize technologies', 'Optimize Technologies', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://optimizetech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '1 (800) 669-9015', 'info@optimizetech.com', NULL, 'https://www.optimizetech.com/contact/', 'https://www.optimizetech.com/contact/', NULL);
+INSERT INTO israel_entities VALUES (956, 'Ophir Analytical Ltd.', 'אופיר אנליטיקל', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'http://www.ophiranalytical.com', '972 39022277', NULL, 'Rosh Ha''ayin', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.optimizetech.com/find-a-dealer/');
 INSERT INTO sources VALUES (956, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (956, 'https://www.optimizetech.com/contact/');
+INSERT INTO sources VALUES (956, 'https://www.optimizetech.com/find-a-dealer/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (957, 'organomation', 'Organomation', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/organomation', NULL, NULL, NULL, 'https://organomation.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+19788387300', 'sales@organomation.com', NULL, 'https://www.organomation.com/support/contact-help-support', 'https://www.organomation.com/support/contact-help-support', NULL);
 INSERT INTO products VALUES (957, 1, 'MICROVAP® Microplate Evaporators', NULL, 'thomassci', 'https://www.thomassci.com/p/microvap-microplate-evaporators');
 INSERT INTO products VALUES (957, 2, '6 Position N-EVAP® Nitrogen Evaporators', NULL, 'thomassci', 'https://www.thomassci.com/p/6-position-n-evap-nitrogen-evaporators');
@@ -6778,10 +7999,39 @@ INSERT INTO products VALUES (957, 4, 'Accessories & Parts for Evaporators', NULL
 INSERT INTO products VALUES (957, 5, '24 Position MICROVAP® Small Batch Evaporators', NULL, 'thomassci', 'https://www.thomassci.com/p/24-position-microvap-small-batch-evaporators');
 INSERT INTO sources VALUES (957, 'https://www.thomassci.com/browse-by/suppliers/organomation');
 INSERT INTO sources VALUES (957, 'https://www.organomation.com/support/contact-help-support');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (958, 'origene', 'OriGene', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.origene.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-301-340-3188', 'sales@origene.com', NULL, 'https://www.origene.com/about-us/contact-us', 'https://www.origene.com/about-us/contact-us', 'Q30284112');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (958, 'origene', 'OriGene', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.origene.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.origene.com/support/customer-support/international-distributors) but no distributor name could be extracted automatically: «nce, local language support, and etc.
+
+Australia
+
+Austria
+
+Bahrain
+
+Belgium
+
+Bosnia
+
+Brazil
+
+Bulgaria
+
+Canada
+
+Chile
+
+China
+
+Croatia
+
+Czech Republic
+
+Denmark
+
+E»', '1-301-340-3188', 'sales@origene.com', NULL, 'https://www.origene.com/about-us/contact-us', 'https://www.origene.com/about-us/contact-us', 'Q30284112');
 INSERT INTO sources VALUES (958, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (958, 'https://www.wikidata.org/wiki/Q30284112');
 INSERT INTO sources VALUES (958, 'https://www.origene.com/about-us/contact-us');
+INSERT INTO sources VALUES (958, 'https://www.origene.com/support/customer-support/international-distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (959, 'ors nasco', 'ORS Nasco', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/ors-nasco', 'yes', NULL, NULL, 'https://www.orsnasco.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, 'https://www.orsnasco.com/', NULL);
 INSERT INTO products VALUES (959, 1, 'General Purpose Cable Tie, 50 lb Tensile Strenght, 7.6 in L, Natural, 1000 ea/bg', NULL, 'thomassci', 'https://www.thomassci.com/p/general-purpose-cable-tie-50-lb-tensile-strenght-7-6-in-l-natural-1000-ea/bg');
 INSERT INTO products VALUES (959, 2, 'CHEMZOIL NL-339 HEAVY DUTY NEOPRENE GLV, SIZE 10, 6PR/CS', NULL, 'thomassci', 'https://www.thomassci.com/p/chemzoil-nl-339-heavy-duty-neoprene-glv-size-10-6pr/cs');
@@ -6874,7 +8124,37 @@ INSERT INTO products VALUES (969, 5, 'Acrodisc PVDF syringe filter - threshold: 
 INSERT INTO sources VALUES (969, 'https://www.dutscher.com/search?initialFilters=brand:Pall');
 INSERT INTO sources VALUES (969, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (969, 'https://www.wikidata.org/wiki/Q1532489');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (970, 'palmero health care', 'Palmero Health Care', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/palmero-health-care', NULL, NULL, NULL, 'https://palmerohealth.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '800-344-6424', 'customerservice@palmerohealth.com', NULL, 'https://www.palmerohealth.com/pages/contact-us', 'https://www.palmerohealth.com/pages/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (970, 'palmero health care', 'Palmero Health Care', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/palmero-health-care', NULL, NULL, NULL, 'https://palmerohealth.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.palmerohealth.com/pages/contact-us) but no distributor name could be extracted automatically: «outhern Territories
+
+Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guatemala
+
+Guernsey
+
+Guinea
+
+Guinea-Bissau
+
+Guya»', '800-344-6424', 'customerservice@palmerohealth.com', NULL, 'https://www.palmerohealth.com/pages/contact-us', 'https://www.palmerohealth.com/pages/contact-us', NULL);
 INSERT INTO products VALUES (970, 1, 'Discide Ultra Disinfecting Towelettes And Spray', NULL, 'thomassci', 'https://www.thomassci.com/p/discide-ultra-disinfecting-towelettes-and-spray');
 INSERT INTO products VALUES (970, 2, 'Discide Ultra Disinfecting Towelettes And Spray Holders And Dispensers', NULL, 'thomassci', 'https://www.thomassci.com/p/discide-ultra-disinfecting-towelettes-and-spray-holders-and-dispensers');
 INSERT INTO products VALUES (970, 3, 'Versi-Wipe Dry Towel', NULL, 'thomassci', 'https://www.thomassci.com/p/versi-wipe-dry-towel');
@@ -6917,11 +8197,89 @@ INSERT INTO israel_entities VALUES (975, 'Tamar Laboratory Supplies Ltd.', 'תמ
 INSERT INTO sources VALUES (975, 'https://www.thomassci.com/browse-by/suppliers/pcr-biosystems');
 INSERT INTO sources VALUES (975, 'https://www.tamar.co.il/represented-companies/');
 INSERT INTO sources VALUES (975, 'https://pcrbio.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (976, 'pct', 'PCT', 'Q+', NULL, NULL, NULL, 'yes', NULL, 'https://www.plantcelltechnology.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', 'PCT’s dedication to excellence is evident in products and educational efforts. We introduced the market’s most cost-effective and user-friendly Bioreactor, the BioCoupler™, alongside pioneering Tissue Culture Master Classes, digital webinars, consulting services, lab buildouts, and R&D. Our goal is clear: to make cutting-edge advancements accessible to both professionals and enthusiasts. Through these initiatives, PCT fosters a knowledgeable, collaborative scientific community, continually pushing the boundaries of plant tissue culture.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1-202-506-5608', 'info@plantcelltechnology.com', NULL, 'https://plantcelltechnology.com/pages/contact-us', 'https://plantcelltechnology.com/pages/contact-us', 'Q7181518');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (976, 'pct', 'PCT', 'Q+', NULL, NULL, NULL, 'yes', NULL, 'https://www.plantcelltechnology.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', 'PCT’s dedication to excellence is evident in products and educational efforts. We introduced the market’s most cost-effective and user-friendly Bioreactor, the BioCoupler™, alongside pioneering Tissue Culture Master Classes, digital webinars, consulting services, lab buildouts, and R&D. Our goal is clear: to make cutting-edge advancements accessible to both professionals and enthusiasts. Through these initiatives, PCT fosters a knowledgeable, collaborative scientific community, continually pushing the boundaries of plant tissue culture.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://plantcelltechnology.com/) but no distributor name could be extracted automatically: «Guadeloupe
+
+USD
+$
+
+Guatemala
+
+USD
+$
+
+Guernsey
+
+USD
+$
+
+Guinea
+
+USD
+$
+
+Guinea-Bissau
+
+USD
+$
+
+Guyana
+
+USD
+$
+
+Haiti
+
+USD
+$
+
+Honduras
+
+USD
+$
+
+Hong Kong SAR
+
+USD
+$
+
+H»', '+1-202-506-5608', 'info@plantcelltechnology.com', NULL, 'https://plantcelltechnology.com/pages/contact-us', 'https://plantcelltechnology.com/pages/contact-us', 'Q7181518');
 INSERT INTO sources VALUES (976, 'https://info.quartzy.com/new-suppliers');
 INSERT INTO sources VALUES (976, 'https://www.wikidata.org/wiki/Q7181518');
 INSERT INTO sources VALUES (976, 'https://plantcelltechnology.com/pages/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (977, 'pdi healthcare', 'PDI Healthcare', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/pdi-healthcare', NULL, NULL, NULL, 'https://pdihc.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, 'https://pdihc.com/contact-us/', 'https://pdihc.com/contact-us/', NULL);
+INSERT INTO sources VALUES (976, 'https://plantcelltechnology.com/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (977, 'pdi healthcare', 'PDI Healthcare', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/pdi-healthcare', NULL, NULL, NULL, 'https://pdihc.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://pdihc.com/select-country/) but no distributor name could be extracted automatically: «sia
+
+San Marino
+
+Serbia
+
+Slovokia
+
+Slovenia
+
+Spain
+
+Sweden
+
+Switzerland
+
+Ukraine
+
+Asia & Middle East
+
+China
+
+Afghanistan
+
+Bahrain
+
+Bangladesh
+
+Bhutan
+
+Brunei
+
+B»', NULL, NULL, NULL, 'https://pdihc.com/contact-us/', 'https://pdihc.com/contact-us/', NULL);
 INSERT INTO products VALUES (977, 1, 'Sani-Cloth® Plus Germicidal Disposable Cloth', NULL, 'thomassci', 'https://www.thomassci.com/p/sani-cloth-plus-germicidal-disposable-cloth');
 INSERT INTO products VALUES (977, 2, 'Sani Cloth® Bleach Wipes, Germicidal Disposable', NULL, 'thomassci', 'https://www.thomassci.com/p/sani-cloth-bleach-germicidal-disposable-wipes');
 INSERT INTO products VALUES (977, 3, 'Super Sani-Cloth® PDI Sani Wipes, Disposable', NULL, 'thomassci', 'https://www.thomassci.com/p/super-sani-cloth-germicidal-disposable-wipes');
@@ -6929,6 +8287,7 @@ INSERT INTO products VALUES (977, 4, 'Sani-Hands® Instant Hand Sanitizing Wipes
 INSERT INTO products VALUES (977, 5, 'AF3 Germicidal Disposable Wipes', NULL, 'thomassci', 'https://www.thomassci.com/p/af3-germicidal-disposable-wipes');
 INSERT INTO sources VALUES (977, 'https://www.thomassci.com/browse-by/suppliers/pdi-healthcare');
 INSERT INTO sources VALUES (977, 'https://pdihc.com/contact-us/');
+INSERT INTO sources VALUES (977, 'https://pdihc.com/select-country/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (978, 'peak scientific', 'Peak Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/peak-scientific', NULL, NULL, NULL, 'https://www.peakscientific.com/', 'wikidata', 'United Kingdom', 'בריטניה', 'Inchinnan', NULL, NULL, NULL, NULL, NULL, 'Scottish manufacturer of gas generators for analytical laboratories', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '8007676532', NULL, 'Inchinnan', 'https://www.peakscientific.com/contact/?enquiryType=Technical_support', 'https://www.peakscientific.com/contact/?enquiryType=Technical_support', 'Q79866178');
 INSERT INTO products VALUES (978, 1, 'Infinity XE6040, Nitrogen Gas Generator', NULL, 'thomassci', 'https://www.thomassci.com/p/infinity-xe6040-nitrogen-gas-generator');
 INSERT INTO products VALUES (978, 2, 'Precision Zero Air 30L, Generator', NULL, 'thomassci', 'https://www.thomassci.com/p/precision-zero-air-30l-generator');
@@ -7073,15 +8432,141 @@ INSERT INTO products VALUES (993, 5, 'ANSI Z308.1-2021, Class A, 25 Person Kit, 
 INSERT INTO sources VALUES (993, 'https://www.thomassci.com/browse-by/suppliers/pip-safety');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (994, 'pipette com', 'Pipette.com', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (994, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (995, 'plant cell technology', 'Plant Cell Technology', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/plant-cell-technology', NULL, NULL, NULL, 'https://plantcelltechnology.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מיקרוביולוגיה', 'מיקרוביולוגיה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1-202-506-5608', 'info@plantcelltechnology.com', NULL, 'https://plantcelltechnology.com/pages/contact-us', 'https://plantcelltechnology.com/pages/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (995, 'plant cell technology', 'Plant Cell Technology', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/plant-cell-technology', NULL, NULL, NULL, 'https://plantcelltechnology.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מיקרוביולוגיה', 'מיקרוביולוגיה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://plantcelltechnology.com/) but no distributor name could be extracted automatically: «Guadeloupe
+
+USD
+$
+
+Guatemala
+
+USD
+$
+
+Guernsey
+
+USD
+$
+
+Guinea
+
+USD
+$
+
+Guinea-Bissau
+
+USD
+$
+
+Guyana
+
+USD
+$
+
+Haiti
+
+USD
+$
+
+Honduras
+
+USD
+$
+
+Hong Kong SAR
+
+USD
+$
+
+H»', '+1-202-506-5608', 'info@plantcelltechnology.com', NULL, 'https://plantcelltechnology.com/pages/contact-us', 'https://plantcelltechnology.com/pages/contact-us', NULL);
 INSERT INTO products VALUES (995, 1, 'Biocoupler™ Glass Sets', NULL, 'thomassci', 'https://www.thomassci.com/p/biocoupler-glass-sets');
 INSERT INTO products VALUES (995, 2, 'Supreme TC Grade Agar', NULL, 'thomassci', 'https://www.thomassci.com/p/supreme-tc-grade-agar');
 INSERT INTO sources VALUES (995, 'https://www.thomassci.com/browse-by/suppliers/plant-cell-technology');
 INSERT INTO sources VALUES (995, 'https://plantcelltechnology.com/pages/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (996, 'plantcell technology', 'PlantCell Technology', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://plantcelltechnology.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1-202-506-5608', 'info@plantcelltechnology.com', NULL, 'https://plantcelltechnology.com/pages/contact-us', 'https://plantcelltechnology.com/pages/contact-us', NULL);
+INSERT INTO sources VALUES (995, 'https://plantcelltechnology.com/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (996, 'plantcell technology', 'PlantCell Technology', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://plantcelltechnology.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://plantcelltechnology.com/) but no distributor name could be extracted automatically: «Guadeloupe
+
+USD
+$
+
+Guatemala
+
+USD
+$
+
+Guernsey
+
+USD
+$
+
+Guinea
+
+USD
+$
+
+Guinea-Bissau
+
+USD
+$
+
+Guyana
+
+USD
+$
+
+Haiti
+
+USD
+$
+
+Honduras
+
+USD
+$
+
+Hong Kong SAR
+
+USD
+$
+
+H»', '+1-202-506-5608', 'info@plantcelltechnology.com', NULL, 'https://plantcelltechnology.com/pages/contact-us', 'https://plantcelltechnology.com/pages/contact-us', NULL);
 INSERT INTO sources VALUES (996, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (996, 'https://plantcelltechnology.com/pages/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (997, 'plas labs', 'Plas-Labs', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/plas-labs', NULL, NULL, NULL, 'https://plas-labs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '8008667527', NULL, NULL, 'https://plas-labs.com/contact', 'https://plas-labs.com/contact', NULL);
+INSERT INTO sources VALUES (996, 'https://plantcelltechnology.com/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (997, 'plas labs', 'Plas-Labs', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/plas-labs', NULL, NULL, NULL, 'https://plas-labs.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://plas-labs.com/international-sales) but no distributor name could be extracted automatically: «Equatorial Guinea
+
+Eritrea
+
+Estonia
+
+Ethiopia
+
+Fiji
+
+Finland
+
+France
+
+Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Greece
+
+Grenada
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-B»', '8008667527', NULL, NULL, 'https://plas-labs.com/contact', 'https://plas-labs.com/contact', NULL);
 INSERT INTO products VALUES (997, 1, 'Compact Glove Boxes', NULL, 'thomassci', 'https://www.thomassci.com/p/compact-glove-boxes');
 INSERT INTO products VALUES (997, 2, 'One Touch / Go Anaerobic automatic anaerobic chamber', NULL, 'thomassci', 'https://www.thomassci.com/p/one-touch-/-go-anaerobic-automatic-anaerobic-chamber');
 INSERT INTO products VALUES (997, 3, 'Broome Style Rodent Restrainer', NULL, 'thomassci', 'https://www.thomassci.com/p/broome-style-rodent-restrainer');
@@ -7089,6 +8574,7 @@ INSERT INTO products VALUES (997, 4, 'Econo-Cage Animal Restrainers', NULL, 'tho
 INSERT INTO products VALUES (997, 5, '810-SG30 University Glove Box', NULL, 'thomassci', 'https://www.thomassci.com/p/810-sg30-university-glove-box');
 INSERT INTO sources VALUES (997, 'https://www.thomassci.com/browse-by/suppliers/plas-labs');
 INSERT INTO sources VALUES (997, 'https://plas-labs.com/contact');
+INSERT INTO sources VALUES (997, 'https://plas-labs.com/international-sales');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (998, 'plastic process equipment', 'Plastic Process Equipment', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/plastic-process-equipment', NULL, NULL, NULL, 'https://ppe.com', 'clearbit', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (998, 1, 'TRIMMING KNIVES W/ BREAK AWAY BLADES, Multi-color, 5", 1/ea', NULL, 'thomassci', 'https://www.thomassci.com/p/trimming-knives-w/-break-away-blades-multi-color-5-1/ea');
 INSERT INTO products VALUES (998, 2, 'PREMIUM 4-1/2" GATE CUTTERS, Stainless, 1/each', NULL, 'thomassci', 'https://www.thomassci.com/p/premium-4-1/2-gate-cutters-stainless-1/each');
@@ -7117,7 +8603,26 @@ INSERT INTO products VALUES (1002, 4, 'Hazardous Liquid Can Shippers', NULL, 'th
 INSERT INTO products VALUES (1002, 5, 'Safeway™ Series UN & DOT Compliance Bottle Shippers', NULL, 'thomassci', 'https://www.thomassci.com/p/safeway-series-un-and-dot-compliance-bottle-shippers');
 INSERT INTO sources VALUES (1002, 'https://www.thomassci.com/browse-by/suppliers/polar-tech');
 INSERT INTO sources VALUES (1002, 'https://polar-tech.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1003, 'polarseal', 'PolarSeal', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/polarseal', NULL, NULL, NULL, 'https://polarseal.net', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+441252726000', 'enquiries@polarseal.net', NULL, 'https://www.polarseal.net/contact-us/', 'https://www.polarseal.net/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1003, 'polarseal', 'PolarSeal', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/polarseal', NULL, NULL, NULL, 'https://polarseal.net', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.polarseal.net/contact-us/) but no distributor name could be extracted automatically: «Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guine»', '+441252726000', 'enquiries@polarseal.net', NULL, 'https://www.polarseal.net/contact-us/', 'https://www.polarseal.net/contact-us/', NULL);
 INSERT INTO sources VALUES (1003, 'https://www.thomassci.com/browse-by/suppliers/polarseal');
 INSERT INTO sources VALUES (1003, 'https://www.polarseal.net/contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1004, 'polarware', 'Polarware Company', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/polarware-company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -7145,19 +8650,70 @@ INSERT INTO sources VALUES (1008, 'https://www.thomassci.com/browse-by/suppliers
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1009, 'polymer shapes', 'Polymer Shapes', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/polymer-shapes', NULL, NULL, NULL, 'https://polymershapes.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '8664377427', NULL, NULL, NULL, 'https://polymershapes.com/', NULL);
 INSERT INTO sources VALUES (1009, 'https://www.thomassci.com/browse-by/suppliers/polymer-shapes');
 INSERT INTO sources VALUES (1009, 'https://polymershapes.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1010, 'polyscience', 'Polyscience', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Polyscience', 'https://www.thomassci.com/browse-by/suppliers/polyscience', 'yes', NULL, NULL, 'https://polyscience.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Results covered Polysciences Inc. (Warrington PA; offices in Germany/Taiwan/India/Brazil, none in Israel) and unrelated Israeli distributors; nothing linking PolyScience (chillers/circulators) to an Israeli channel.', '+1 (847) 647-0611', NULL, NULL, 'https://www.polyscience.com/contact-us', 'https://www.polyscience.com/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1010, 'polyscience', 'Polyscience', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Polyscience', 'https://www.thomassci.com/browse-by/suppliers/polyscience', 'yes', NULL, NULL, 'https://polyscience.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Results covered Polysciences Inc. (Warrington PA; offices in Germany/Taiwan/India/Brazil, none in Israel) and unrelated Israeli distributors; nothing linking PolyScience (chillers/circulators) to an Israeli channel.', '+1 (847) 647-0611', NULL, NULL, 'https://www.polyscience.com/contact-us', 'https://www.polyscience.com/contact-us', NULL);
 INSERT INTO products VALUES (1010, 1, 'Premium Digital General Purpose Water Baths', NULL, 'thomassci', 'https://www.thomassci.com/p/premium-digital-general-purpose-water-baths');
 INSERT INTO products VALUES (1010, 2, 'polycool HC -50', NULL, 'thomassci', 'https://www.thomassci.com/p/dynalene-hc-50-low-temperature-bath-fluid');
 INSERT INTO products VALUES (1010, 3, 'Polyscience polycool PG -20, propylene glycol,1 Gallon Bottle, 1/EA', NULL, 'thomassci', 'https://www.thomassci.com/p/polyscience-polycool-pg-20-propylene-glycol1-gallon-bottle-1/ea');
 INSERT INTO products VALUES (1010, 4, 'Refrigerated Circulators with Advanced Digital Temperature Controllers', NULL, 'thomassci', 'https://www.thomassci.com/p/refrigerated-circulators-with-advanced-digital-temperature-controllers');
 INSERT INTO products VALUES (1010, 5, 'PolyClear Mix 30 Plus Bath Fluid', NULL, 'thomassci', 'https://www.thomassci.com/p/polyclear-mix-30-plus-bath-fluid');
+INSERT INTO israel_entities VALUES (1010, 'ALEX RED, LTD.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972 2 5337760', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.polyscience.com/global-partners');
 INSERT INTO sources VALUES (1010, 'https://www.dutscher.com/search?initialFilters=brand:Polyscience');
 INSERT INTO sources VALUES (1010, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1010, 'https://www.thomassci.com/browse-by/suppliers/polyscience');
 INSERT INTO sources VALUES (1010, 'https://www.polyscience.com/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1011, 'polysciences', 'Polysciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://polysciences.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(800) 523-2575', 'info@polysciences.com', NULL, 'https://polysciences.com/pages/contact-us', 'https://polysciences.com/pages/contact-us', NULL);
+INSERT INTO sources VALUES (1010, 'https://www.polyscience.com/global-partners');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1011, 'polysciences', 'Polysciences', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://polysciences.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://polysciences.com/) but no distributor name could be extracted automatically: «SD
+$
+
+Greece
+
+USD
+$
+
+Greenland
+
+USD
+$
+
+Grenada
+
+USD
+$
+
+Guadeloupe
+
+USD
+$
+
+Guatemala
+
+USD
+$
+
+Guyana
+
+USD
+$
+
+Haiti
+
+USD
+$
+
+Honduras
+
+USD
+$
+
+Hong Kong SAR
+
+USD
+$
+
+»', '(800) 523-2575', 'info@polysciences.com', NULL, 'https://polysciences.com/pages/contact-us', 'https://polysciences.com/pages/contact-us', NULL);
 INSERT INTO sources VALUES (1011, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1011, 'https://polysciences.com/pages/contact-us');
+INSERT INTO sources VALUES (1011, 'https://polysciences.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1012, 'pope scientific', 'Pope Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/pope-scientific', NULL, NULL, NULL, 'https://popeinc.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+12622689300', 'info@popeinc.com', NULL, 'https://www.popeinc.com/company/contact-us/', 'https://www.popeinc.com/company/contact-us/', NULL);
 INSERT INTO products VALUES (1012, 1, 'Low Form, Cylindrical Dewar Flasks', NULL, 'thomassci', 'https://www.thomassci.com/p/low-form-cylindrical-dewar-flasks');
 INSERT INTO products VALUES (1012, 2, 'Cylindrical Form Dewar Flasks', NULL, 'thomassci', 'https://www.thomassci.com/p/cylindrical-form-dewar-flasks');
@@ -7197,7 +8753,11 @@ INSERT INTO sources VALUES (1018, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1018, 'https://www.powerblanket.com/learn/contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1019, 'powergrab by pip global safety', 'PowerGrab™ by PIP Global Safety', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/powergrab-by-pip-global-safety', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1019, 'https://www.thomassci.com/browse-by/suppliers/powergrab-by-pip-global-safety');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1020, 'ppc flexible packaging', 'PPC Flexible Packaging', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ppc-flexible-packaging', NULL, NULL, NULL, 'https://ppcflex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, 'https://ppcflex.com/contact/', 'https://ppcflex.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1020, 'ppc flexible packaging', 'PPC Flexible Packaging', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ppc-flexible-packaging', NULL, NULL, NULL, 'https://ppcflex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://ppcflex.com/locations/) but no distributor name could be extracted automatically: «ooking for Payson, Utah packaging? Learn how we can help you get purposeful, powerful packaging.
+
+Read more
+Kansas City, KS
+PPC Flex is the top Kansas City pack»', NULL, NULL, NULL, 'https://ppcflex.com/contact/', 'https://ppcflex.com/contact/', NULL);
 INSERT INTO products VALUES (1020, 1, 'Precision Clean II .002mil Bag', NULL, 'thomassci', 'https://www.thomassci.com/p/precision-clean-ii-002mil-bag');
 INSERT INTO products VALUES (1020, 2, 'Zip Clean Pouch', NULL, 'thomassci', 'https://www.thomassci.com/p/zip-clean-pouch');
 INSERT INTO products VALUES (1020, 3, 'Precision Clean II Tubing Rollstock', NULL, 'thomassci', 'https://www.thomassci.com/p/precision-clean-ii-tubing-rollstock');
@@ -7205,6 +8765,7 @@ INSERT INTO products VALUES (1020, 4, 'Precision Clean II .006mil Bag', NULL, 't
 INSERT INTO products VALUES (1020, 5, 'Precision Clean Breather Bag', NULL, 'thomassci', 'https://www.thomassci.com/p/precision-clean-breather-bag');
 INSERT INTO sources VALUES (1020, 'https://www.thomassci.com/browse-by/suppliers/ppc-flexible-packaging');
 INSERT INTO sources VALUES (1020, 'https://ppcflex.com/contact/');
+INSERT INTO sources VALUES (1020, 'https://ppcflex.com/locations/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1021, 'precision system science', 'Precision System Science', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/precision-system-science', NULL, NULL, NULL, 'https://www.pss.co.jp', 'manual', 'Japan', 'יפן', NULL, NULL, '1985', NULL, NULL, NULL, 'company in Matsudo, Japan', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '047-303-4800', NULL, NULL, NULL, 'https://pss.co.jp/', 'Q11335829');
 INSERT INTO sources VALUES (1021, 'https://www.thomassci.com/browse-by/suppliers/precision-system-science');
 INSERT INTO sources VALUES (1021, 'https://www.wikidata.org/wiki/Q11335829');
@@ -7293,9 +8854,55 @@ INSERT INTO sources VALUES (1032, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1032, 'https://www.thomassci.com/browse-by/suppliers/prosci');
 INSERT INTO sources VALUES (1032, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (1032, 'https://www.prosci.com/about#go-to-form');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1033, 'prospec', 'ProSpec', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.prospecbio.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-800-805-6531', 'info@prospecbio.com', NULL, 'https://prospecbio.com/pages/contact', 'https://prospecbio.com/pages/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1033, 'prospec', 'ProSpec', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://www.prospecbio.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://prospecbio.com/) but no distributor name could be extracted automatically: «D
+$ |
+
+Cyprus
+
+USD
+$ |
+
+Czechia
+
+USD
+$ |
+
+Denmark
+
+USD
+$ |
+
+Estonia
+
+USD
+$ |
+
+Finland
+
+USD
+$ |
+
+France
+
+USD
+$ |
+
+Georgia
+
+USD
+$ |
+
+Germany
+
+USD
+$ |
+
+Greece
+
+USD»', '1-800-805-6531', 'info@prospecbio.com', NULL, 'https://prospecbio.com/pages/contact', 'https://prospecbio.com/pages/contact', NULL);
 INSERT INTO sources VALUES (1033, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1033, 'https://prospecbio.com/pages/contact');
+INSERT INTO sources VALUES (1033, 'https://prospecbio.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1034, 'prospec tany technogene', 'Prospec-tany Technogene', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/prospec-tany-technogene', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1034, 1, 'PEDF Human, HEK', NULL, 'thomassci', 'https://www.thomassci.com/p/pedf-human-hek');
 INSERT INTO products VALUES (1034, 2, 'SERPINE1 Antibody', NULL, 'thomassci', 'https://www.thomassci.com/p/serpine1-antibody');
@@ -7309,7 +8916,9 @@ INSERT INTO products VALUES (1036, 3, 'UBP1 Rabbit Polyclonal Antibody (13856-1-
 INSERT INTO products VALUES (1036, 4, 'Actin-Binding Rho Activating Protein', NULL, 'thomassci', 'https://www.thomassci.com/p/actin-binding-rho-activating-protein');
 INSERT INTO products VALUES (1036, 5, 'Nucleotide Binding Protein-Like', NULL, 'thomassci', 'https://www.thomassci.com/p/nucleotide-binding-protein-like');
 INSERT INTO sources VALUES (1036, 'https://www.thomassci.com/browse-by/suppliers/proteintech');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1037, 'proteogenix', 'Proteogenix', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Proteogenix', NULL, NULL, NULL, NULL, 'https://proteogenix.science', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Antibodies, conjugate and marker', 'Antibodies, conjugate and marker', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+330390205470', 'contact@proteogenix.fr', NULL, 'https://www.proteogenix.science/contact/', 'https://www.proteogenix.science/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1037, 'proteogenix', 'Proteogenix', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Proteogenix', NULL, NULL, NULL, NULL, 'https://proteogenix.science', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Antibodies, conjugate and marker', 'Antibodies, conjugate and marker', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.proteogenix.science/) but no distributor name could be extracted automatically: «o providing excellent customer service made our experience even better, as they were always available to address our questions and concerns.
+
+We highly recommen»', '+330390205470', 'contact@proteogenix.fr', NULL, 'https://www.proteogenix.science/contact/', 'https://www.proteogenix.science/contact/', NULL);
 INSERT INTO products VALUES (1037, 1, 'HA-TAG RABBIT POLYCLONAL ANTIBODY PROTEOGENIX IGG 100µl', NULL, 'dutscher', 'https://www.dutscher.com/article/PTX1021');
 INSERT INTO products VALUES (1037, 2, 'A TUBULIN MOUSE MONOCLONAL ANTIBODY(ZEBRAFISH SPECIFIC) PROTEOGENIX IGG1 100µl', NULL, 'dutscher', 'https://www.dutscher.com/article/PTX1078');
 INSERT INTO products VALUES (1037, 3, 'MBP-TAG RABBIT POLYCLONAL ANTIBODY PROTEOGENIX IGG 100µl', NULL, 'dutscher', 'https://www.dutscher.com/article/PTX1118');
@@ -7317,6 +8926,7 @@ INSERT INTO products VALUES (1037, 4, 'EBFP MOUSE POLYCLONAL ANTIBODY PROTEOGENI
 INSERT INTO products VALUES (1037, 5, 'HUMAN IgG1 ISOTYPE CONTROL ANTICORPS (5Vk2) 100g', NULL, 'dutscher', 'https://www.dutscher.com/article/PTX17956');
 INSERT INTO sources VALUES (1037, 'https://www.dutscher.com/search?initialFilters=brand:Proteogenix');
 INSERT INTO sources VALUES (1037, 'https://www.proteogenix.science/contact/');
+INSERT INTO sources VALUES (1037, 'https://www.proteogenix.science/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1038, 'pulp fixin', 'Pulp Fixin', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/pulp-fixin', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1038, 1, 'PulpFixin AutoSleeve & 2D AutoBox for Microcentrifuge Tube Sample Storage', NULL, 'thomassci', 'https://www.thomassci.com/p/pulpfixin-autosleeve-and-2d-autobox-for-microcentrifuge-tube-sample-storage');
 INSERT INTO products VALUES (1038, 2, 'PulpFixin 2D AutoBox for 4ml Glass Vials with 2D Barcodes Sample Storage', NULL, 'thomassci', 'https://www.thomassci.com/p/pulpfixin-2d-autobox-for-4ml-glass-vials-with-2d-barcodes-sample-storage');
@@ -7411,12 +9021,13 @@ INSERT INTO products VALUES (1050, 5, 'Clear Standard Wide Mouths with PP Cap & 
 INSERT INTO sources VALUES (1050, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1050, 'https://www.thomassci.com/browse-by/suppliers/qorpak');
 INSERT INTO sources VALUES (1050, 'https://shop.qorpak.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1051, 'qosina', 'Qosina', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/qosina', NULL, NULL, NULL, 'https://qosina.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1 631 242-3000', NULL, NULL, 'https://www.qosina.com/contact-us-1', 'https://www.qosina.com/contact-us-1', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1051, 'qosina', 'Qosina', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/qosina', NULL, NULL, NULL, 'https://qosina.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+1 631 242-3000', NULL, NULL, 'https://www.qosina.com/contact-us-1', 'https://www.qosina.com/contact-us-1', NULL);
 INSERT INTO products VALUES (1051, 1, 'Precision Swab with Mini Tapered Tip and Wood Handle', NULL, 'thomassci', 'https://www.thomassci.com/p/precision-swab-with-mini-tapered-tip-and-wood-handle');
 INSERT INTO products VALUES (1051, 2, 'Male Luer Lock to Male Luer Lock Connector with One Rotating Collar', NULL, 'thomassci', 'https://www.thomassci.com/p/male-luer-lock-to-male-luer-lock-connector-with-one-rotating-collar');
 INSERT INTO products VALUES (1051, 3, 'Y Connector, PC', NULL, 'thomassci', 'https://www.thomassci.com/p/y-connector-pc');
 INSERT INTO products VALUES (1051, 4, 'Ratchet Pinch Clamp, White, 19 mm OD Tubing, PBT', NULL, 'thomassci', 'https://www.thomassci.com/p/ratchet-pinch-clamp-white-19-mm-od-tubing-pbt');
 INSERT INTO products VALUES (1051, 5, 'Sponge on a Stick', NULL, 'thomassci', 'https://www.thomassci.com/p/sponge-on-a-stick');
+INSERT INTO israel_entities VALUES (1051, 'Conlog, LTD', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972 73 2000565', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.qosina.com/contact-us-1');
 INSERT INTO sources VALUES (1051, 'https://www.thomassci.com/browse-by/suppliers/qosina');
 INSERT INTO sources VALUES (1051, 'https://www.qosina.com/contact-us-1');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1052, 'qrp by pip global safety', 'QRP® by PIP Global Safety', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/qrp-by-pip-global-safety', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
@@ -7594,9 +9205,42 @@ INSERT INTO products VALUES (1071, 3, 'Isopropanol, ACS Reagent, 99.5%', NULL, '
 INSERT INTO products VALUES (1071, 4, 'Hydrochloric Acid, 1.0N, Standardized', NULL, 'thomassci', 'https://www.thomassci.com/p/hydrochloric-acid-10n-standardized2');
 INSERT INTO products VALUES (1071, 5, 'Sodium Phosphate Monobasic Monohydrate, ACS Reagent', NULL, 'thomassci', 'https://www.thomassci.com/p/sodium-phosphate-monobasic-monohydrate-acs-reagent');
 INSERT INTO sources VALUES (1071, 'https://www.thomassci.com/browse-by/suppliers/reagents');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1072, 'reddot biotech', 'Reddot Biotech', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://reddotbiotech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18558729640', 'info@reddotbiotech.com', NULL, 'https://www.reddotbiotech.com/contact', 'https://www.reddotbiotech.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1072, 'reddot biotech', 'Reddot Biotech', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://reddotbiotech.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.reddotbiotech.com/partnership/distributors) but no distributor name could be extracted automatically: «ase contact us for more assistance.
+
+Argentina
+.
+
+Australia
+.
+
+Austria
+.
+
+Belgium
+.
+
+Bolivia
+.
+
+Brazil
+.
+
+Canada
+.
+
+Chile
+.
+
+China
+.
+
+Colombia
+.
+
+Czech Republic»', '18558729640', 'info@reddotbiotech.com', NULL, 'https://www.reddotbiotech.com/contact', 'https://www.reddotbiotech.com/contact', NULL);
 INSERT INTO sources VALUES (1072, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1072, 'https://www.reddotbiotech.com/contact');
+INSERT INTO sources VALUES (1072, 'https://www.reddotbiotech.com/partnership/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1073, 'reichert technologies', 'Reichert Technologies', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/reichert-technologies', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1073, 1, 'Brix/RI-Chek Refractometer', NULL, 'thomassci', 'https://www.thomassci.com/p/brix/ri-chek-refractometer1');
 INSERT INTO products VALUES (1073, 2, 'Quebec Darkfield Colony Counter', NULL, 'thomassci', 'https://www.thomassci.com/p/quebec-darkfield-colony-counter');
@@ -7706,10 +9350,41 @@ INSERT INTO products VALUES (1084, 3, 'Signature Series™ Hematoxylin 2', NULL,
 INSERT INTO products VALUES (1084, 4, 'Signature Series™ Hematoxylin', NULL, 'thomassci', 'https://www.thomassci.com/p/signature-series-hematoxylin');
 INSERT INTO products VALUES (1084, 5, 'Board, Dissecting', NULL, 'thomassci', 'https://www.thomassci.com/p/board-dissecting');
 INSERT INTO sources VALUES (1084, 'https://www.thomassci.com/browse-by/suppliers/richard-allan-scientific');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1085, 'ridgid', 'RIDGID', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ridgid', NULL, NULL, NULL, 'http://www.RIDGID.com/', 'wikidata', NULL, NULL, 'Elyria', NULL, '1920', 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', 'American tool manufacturer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Elyria', 'https://www.ridgid.com/us/en/accessibility', 'https://www.ridgid.com/us/en/accessibility', 'Q7276772');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1085, 'ridgid', 'RIDGID', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ridgid', NULL, NULL, NULL, 'http://www.RIDGID.com/', 'wikidata', NULL, NULL, 'Elyria', NULL, '1920', 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', 'American tool manufacturer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.ridgid.com/us/en/contact-us) but no distributor name could be extracted automatically: «Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard Island And McDo»', NULL, NULL, 'Elyria', 'https://www.ridgid.com/us/en/accessibility', 'https://www.ridgid.com/us/en/accessibility', 'Q7276772');
 INSERT INTO sources VALUES (1085, 'https://www.thomassci.com/browse-by/suppliers/ridgid');
 INSERT INTO sources VALUES (1085, 'https://www.wikidata.org/wiki/Q7276772');
 INSERT INTO sources VALUES (1085, 'https://www.ridgid.com/us/en/accessibility');
+INSERT INTO sources VALUES (1085, 'https://www.ridgid.com/us/en/contact-us');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1086, 'ritter', 'Ritter', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Ritter', NULL, NULL, NULL, NULL, 'https://ritter-hof.de', 'clearbit', NULL, NULL, NULL, NULL, NULL, 'פיפטות', 'פיפטות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q107150780');
 INSERT INTO products VALUES (1086, 1, '3D tip dispenser, syringe volume 0.5 ml sterile', NULL, 'dutscher', 'https://www.dutscher.com/article/070511');
 INSERT INTO products VALUES (1086, 2, 'Ritips Evolution - Capacity 50 ml - non-sterile', NULL, 'dutscher', 'https://www.dutscher.com/article/070528D');
@@ -7788,9 +9463,27 @@ INSERT INTO israel_entities VALUES (1091, 'Enco', 'אנקו', 'distributor', 'li
 INSERT INTO sources VALUES (1091, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1091, 'https://www.thomassci.com/browse-by/suppliers/rockland-immunochemicals-inc');
 INSERT INTO sources VALUES (1091, 'https://www.enco.co.il/suppliers.php');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1092, 'rocky mountain reagents', 'Rocky Mountain Reagents', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://rmreagents.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '303-762-0800', 'info@rmreagents.com', NULL, 'https://rmreagents.com/contact-us/', 'https://rmreagents.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1092, 'rocky mountain reagents', 'Rocky Mountain Reagents', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://rmreagents.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://rmreagents.com/create-an-account/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '303-762-0800', 'info@rmreagents.com', NULL, 'https://rmreagents.com/contact-us/', 'https://rmreagents.com/contact-us/', NULL);
 INSERT INTO sources VALUES (1092, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1092, 'https://rmreagents.com/contact-us/');
+INSERT INTO sources VALUES (1092, 'https://rmreagents.com/create-an-account/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1093, 'roke biotechnologies', 'Roke Biotechnologies', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://rokebio.com', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, 'https://rokebio.com/contact/', 'https://rokebio.com/contact/', 'Q117450457');
 INSERT INTO sources VALUES (1093, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1093, 'https://www.wikidata.org/wiki/Q117450457');
@@ -7798,11 +9491,13 @@ INSERT INTO sources VALUES (1093, 'https://rokebio.com/contact/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1094, 'rotronics', 'Rotronics', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/rotronics', NULL, NULL, NULL, 'https://www.rotronic.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'סימון, משרד ואריזה', 'סימון, משרד ואריזה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+16314273898', 'sales@rotronic-usa.com', NULL, NULL, 'https://www.rotronic.com/', 'Q131636473');
 INSERT INTO products VALUES (1094, 1, 'HygroPal 23 AW Set', NULL, 'thomassci', 'https://www.thomassci.com/p/hygropalm-aw1-water-activity-set');
 INSERT INTO products VALUES (1094, 2, '2 M Extension Cable, HygroClip to HygroPalm', NULL, 'thomassci', 'https://www.thomassci.com/p/2-m-extension-cable-hygroclip-to-hygropalm');
+INSERT INTO israel_entities VALUES (1094, 'Controtec Control Technologies Ltd', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.rotronic.com/distributor');
 INSERT INTO israel_entities VALUES (1094, 'Agrolan Ltd.', 'אגרולן', 'distributor', 'listed as a brand on the distributor''s site', 'https://agrolan.com', '+972-4-666-9999', 'agrolan@agrolan.co.il', 'P.O. Box 45, Moshav Nov 12921', NULL, 2026, 'current', 'distributor_site_sweep', 'contained', 'http://www.agrolan.com/index.asp');
 INSERT INTO sources VALUES (1094, 'https://www.thomassci.com/browse-by/suppliers/rotronics');
 INSERT INTO sources VALUES (1094, 'https://www.wikidata.org/wiki/Q131636473');
 INSERT INTO sources VALUES (1094, 'http://www.agrolan.com/index.asp');
 INSERT INTO sources VALUES (1094, 'https://www.rotronic.com/');
+INSERT INTO sources VALUES (1094, 'https://www.rotronic.com/distributor');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1095, 'rpi', 'RPI (Research Products International)', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/rpi-research-products-international', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'כימיקלים ותקנים', 'כימיקלים ותקנים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1095, 1, 'Distilled Water', NULL, 'thomassci', 'https://www.thomassci.com/p/distilled-water1');
 INSERT INTO products VALUES (1095, 2, 'RPI Sodium Citrate, Trisodium Salt, Dihydrate, ACS Grade', NULL, 'thomassci', 'https://www.thomassci.com/p/sodium-citrate-trisodium-salt-acs');
@@ -7982,9 +9677,11 @@ INSERT INTO products VALUES (1116, 4, 'Raven Gloves – Powder-Free, Nitrile, Di
 INSERT INTO products VALUES (1116, 5, 'Astro-Grip Powder-Free Exam Grade Nitrile Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/astro-grip-powder-free-exam-grade-nitrile-gloves');
 INSERT INTO sources VALUES (1116, 'https://www.thomassci.com/browse-by/suppliers/sas-safety');
 INSERT INTO sources VALUES (1116, 'https://www.sassafety.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1117, 'savillex', 'Savillex', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/savillex', NULL, NULL, NULL, 'https://savillex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+19529354100', 'info@savillex.com', NULL, 'https://www.savillex.com/en/content/contact', 'https://www.savillex.com/en/content/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1117, 'savillex', 'Savillex', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/savillex', NULL, NULL, NULL, 'https://savillex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+19529354100', 'info@savillex.com', NULL, 'https://www.savillex.com/en/content/contact', 'https://www.savillex.com/en/content/contact', NULL);
+INSERT INTO israel_entities VALUES (1117, 'Eldan Electronic Instruments Ltd.', 'אלדן ציוד אלקטרוני', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.eldan.biz/', '+972 3 9371122', 'info@eldan.biz', '6 Hashiloach Street, P.O. Box 7641, Petach Tikva 49170', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.savillex.com/en/content/find-a-distributor');
 INSERT INTO sources VALUES (1117, 'https://www.thomassci.com/browse-by/suppliers/savillex');
 INSERT INTO sources VALUES (1117, 'https://www.savillex.com/en/content/contact');
+INSERT INTO sources VALUES (1117, 'https://www.savillex.com/en/content/find-a-distributor');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1118, 'scapa tapes', 'Scapa Tapes', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/scapa-tapes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1118, 1, 'Tacky Roller Refill', NULL, 'thomassci', 'https://www.thomassci.com/p/polyurethane-foam-sticky-roller-refills-18-wide');
 INSERT INTO products VALUES (1118, 2, 'Sticky/Adhesive Mat', NULL, 'thomassci', 'https://www.thomassci.com/p/stickymat-tacky-high-tack-36-x-60-blue-30-sheets-per-pad-8-pads-per-case-1-each');
@@ -8008,9 +9705,11 @@ INSERT INTO products VALUES (1120, 5, 'SI Analytics Titronic 300 Dispensing Bure
 INSERT INTO sources VALUES (1120, 'https://www.dutscher.com/search?initialFilters=brand:Schott+instruments');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1121, 'sci science', 'SCI-Science', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sci-science', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1121, 'https://www.thomassci.com/browse-by/suppliers/sci-science');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1122, 'sciencell research laboratories', 'ScienCell Research Laboratories', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://sciencellonline.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+120(877)20602-8549', 'sales@sciencellonline.com', NULL, 'https://sciencellonline.com/en/contact-us/', 'https://sciencellonline.com/en/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1122, 'sciencell research laboratories', 'ScienCell Research Laboratories', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://sciencellonline.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+120(877)20602-8549', 'sales@sciencellonline.com', NULL, 'https://sciencellonline.com/en/contact-us/', 'https://sciencellonline.com/en/contact-us/', NULL);
+INSERT INTO israel_entities VALUES (1122, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3 9773390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://sciencellonline.com/en/distributors-by-country/');
 INSERT INTO sources VALUES (1122, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1122, 'https://sciencellonline.com/en/contact-us/');
+INSERT INTO sources VALUES (1122, 'https://sciencellonline.com/en/distributors-by-country/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1123, 'sciencix', 'Sciencix', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://sciencix.com', 'clearbit', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1123, 'https://www.quartzy.com/suppliers');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1124, 'scientific industries', 'Scientific Industries', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/scientific-industries', 'yes', NULL, NULL, 'https://scientificindustries.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'D&B profile says the company has distributors worldwide (over half of sales outside US); none named for Israel.', '(631) 567-4700', 'info@scientificindustries.com', NULL, 'https://www.scientificindustries.com/pages/contact', 'https://www.scientificindustries.com/pages/contact', NULL);
@@ -8067,7 +9766,37 @@ INSERT INTO products VALUES (1130, 3, 'Labels And Custody Seals', NULL, 'thomass
 INSERT INTO products VALUES (1130, 4, 'Bottle 16oz.Bulk', NULL, 'thomassci', 'https://www.thomassci.com/p/bottle-16ozbulkcs153');
 INSERT INTO products VALUES (1130, 5, 'Cubitainers', NULL, 'thomassci', 'https://www.thomassci.com/p/cubitainers');
 INSERT INTO sources VALUES (1130, 'https://www.thomassci.com/browse-by/suppliers/scispec');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1131, 'scotsman', 'Scotsman', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/scotsman', NULL, NULL, NULL, 'https://scotsman-ice.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(800) 726-8762', 'sales@scotsman-ice.com', NULL, 'https://www.scotsman-ice.com/contact-us/', 'https://www.scotsman-ice.com/contact-us/', 'Q125359480');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1131, 'scotsman', 'Scotsman', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/scotsman', NULL, NULL, NULL, 'https://scotsman-ice.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.scotsman-ice.com/contact-us/) but no distributor name could be extracted automatically: «Georgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-bissau
+
+Guyana
+
+Haiti
+
+Heard and Mc Donald Islands
+
+»', '(800) 726-8762', 'sales@scotsman-ice.com', NULL, 'https://www.scotsman-ice.com/contact-us/', 'https://www.scotsman-ice.com/contact-us/', 'Q125359480');
 INSERT INTO products VALUES (1131, 1, 'Essential Ice™ Undercounter Ice Maker, Model CU0920', NULL, 'thomassci', 'https://www.thomassci.com/p/essential-ice-undercounter-ice-maker-model-cu0920');
 INSERT INTO products VALUES (1131, 2, 'Essential Ice™ Undercounter Ice Maker, Model CU0415', NULL, 'thomassci', 'https://www.thomassci.com/p/essential-ice-undercounter-ice-maker-model-cu0415');
 INSERT INTO products VALUES (1131, 3, 'Refrigerator/Freezer/Ice Maker Accessories', NULL, 'thomassci', 'https://www.thomassci.com/p/ice-bagger');
@@ -8117,7 +9846,22 @@ INSERT INTO products VALUES (1137, 5, 'SEMPERGUARD glove - Nitrile Confort - Siz
 INSERT INTO sources VALUES (1137, 'https://www.dutscher.com/search?initialFilters=brand:Semperit');
 INSERT INTO sources VALUES (1137, 'https://www.wikidata.org/wiki/Q446542');
 INSERT INTO sources VALUES (1137, 'https://www.semperitgroup.com/newsroom/press-contact/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1138, 'sempermed', 'Sempermed', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/sempermed', 'yes', NULL, NULL, 'https://sempermed.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only US (MDS Associates, Sempermed USA) and Swiss (Huberlab) channels and FDA device records; no Israel mention.', '+4319346348', NULL, NULL, 'https://harpsglobal.com/contact/', 'https://harpsglobal.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1138, 'sempermed', 'Sempermed', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/sempermed', 'yes', NULL, NULL, 'https://sempermed.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Only US (MDS Associates, Sempermed USA) and Swiss (Huberlab) channels and FDA device records; no Israel mention. | "Israel" appears on the manufacturer''s distributor/contact page (https://harpsglobal.com/distributor-directory/) but no distributor name could be extracted automatically: «4-07 Keppel Bay Tower Singapore 098632
+
+Phone:
+
+Tel. +65 67976560
+
+Email:
+
+[email protected]
+
+Iraq
+
+HARPS Investment Asia Pte. Ltd.
+
+Address:
+1 Harbourfront Ave»', '+4319346348', NULL, NULL, 'https://harpsglobal.com/contact/', 'https://harpsglobal.com/contact/', NULL);
 INSERT INTO products VALUES (1138, 1, 'force™ black Nitrile Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/semperforce-black-nitrile-gloves');
 INSERT INTO products VALUES (1138, 2, 'velvet 300™ Nitrile Examination Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/starmed-plus-nitrile-gloves');
 INSERT INTO products VALUES (1138, 3, 'rose™ Nitrile Exam Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/gloves-sempermed-starmed-rose-nitrile-large-powder-free-with-aloe-and-vitamin-e-200-per-box-10-boxes-per-case');
@@ -8126,6 +9870,7 @@ INSERT INTO products VALUES (1138, 5, 'sapphireXP® White Nitrile Gloves', NULL,
 INSERT INTO sources VALUES (1138, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1138, 'https://www.thomassci.com/browse-by/suppliers/sempermed');
 INSERT INTO sources VALUES (1138, 'https://harpsglobal.com/contact/');
+INSERT INTO sources VALUES (1138, 'https://harpsglobal.com/distributor-directory/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1139, 'sensoquest', 'Sensoquest', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Sensoquest', NULL, NULL, NULL, NULL, 'https://sensoquest.de', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+39 0731 213243', NULL, NULL, 'https://www.diatechpharmacogenetics.com/contacts/', 'https://www.diatechpharmacogenetics.com/contacts/', NULL);
 INSERT INTO products VALUES (1139, 1, 'SENSOQUEST LABCYCLER GRADIENT THERMOCYCLER WITH ALU100 BLOCK', NULL, 'dutscher', 'https://www.dutscher.com/article/049983D');
 INSERT INTO israel_entities VALUES (1139, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.danyel.co.il', '1-800-711-911 (also +972 8-936-6066)', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.danyel.co.il/');
@@ -8195,14 +9940,16 @@ INSERT INTO sources VALUES (1148, 'https://ormir.co.il/card-with-image/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1149, 'sheldon manufacturing', 'Sheldon Manufacturing', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sheldon-manufacturing', NULL, NULL, NULL, 'https://sheldonmanufacturing.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(503) 640-3000', 'sales@shellab.com', NULL, 'https://www.sheldonmanufacturing.com/contact', 'https://www.sheldonmanufacturing.com/contact', NULL);
 INSERT INTO sources VALUES (1149, 'https://www.thomassci.com/browse-by/suppliers/sheldon-manufacturing');
 INSERT INTO sources VALUES (1149, 'https://www.sheldonmanufacturing.com/contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1150, 'shield scientific', 'SHIELD Scientific', 'D', 'https://www.dutscher.com/search?initialFilters=brand:SHIELD+Scientific', NULL, NULL, NULL, NULL, 'https://shieldscientific.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Single-use glove for cleanrooms', 'Single-use glove for cleanrooms', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+31317700202', 'info@shieldscientific.com', NULL, 'https://www.shieldscientific.com/contact/', 'https://www.shieldscientific.com/contact/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1150, 'shield scientific', 'SHIELD Scientific', 'D', 'https://www.dutscher.com/search?initialFilters=brand:SHIELD+Scientific', NULL, NULL, NULL, NULL, 'https://shieldscientific.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Single-use glove for cleanrooms', 'Single-use glove for cleanrooms', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+31317700202', 'info@shieldscientific.com', NULL, 'https://www.shieldscientific.com/contact/', 'https://www.shieldscientific.com/contact/', NULL);
 INSERT INTO products VALUES (1150, 1, 'EcoSHIELD™ Eco Nitrile PF 250 glove - size M/8', NULL, 'dutscher', 'https://www.dutscher.com/article/065746B');
 INSERT INTO products VALUES (1150, 2, 'SHIELDskinXtreme white Nitrile 300 DI++ glove - size M/8', NULL, 'dutscher', 'https://www.dutscher.com/article/065767');
 INSERT INTO products VALUES (1150, 3, 'SHIELDskinXtreme Bright latex 300 DI+ glove - size XL/10', NULL, 'dutscher', 'https://www.dutscher.com/article/065781');
 INSERT INTO products VALUES (1150, 4, 'SMARTLine™ Blue Nitrile 240 glove, length 240 mm - size 10/XL', NULL, 'dutscher', 'https://www.dutscher.com/article/065931');
 INSERT INTO products VALUES (1150, 5, 'SHIELDskin™ ORANGE NITRILE 260™ - size L/9', NULL, 'dutscher', 'https://www.dutscher.com/article/065703');
+INSERT INTO israel_entities VALUES (1150, 'Danyel Biotech Ltd. (Gamida for Life group)', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '972-3-9299128', 'industry@gamida.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.shieldscientific.com/distributor/');
 INSERT INTO sources VALUES (1150, 'https://www.dutscher.com/search?initialFilters=brand:SHIELD+Scientific');
 INSERT INTO sources VALUES (1150, 'https://www.shieldscientific.com/contact/');
+INSERT INTO sources VALUES (1150, 'https://www.shieldscientific.com/distributor/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1151, 'shirley k s', 'Shirley K''s', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/shirley-ks', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1151, 1, '20-Place Compartment Trays', NULL, 'thomassci', 'https://www.thomassci.com/p/20-place-compartment-trays');
 INSERT INTO products VALUES (1151, 2, 'Stack & Nest 180 Totes', NULL, 'thomassci', 'https://www.thomassci.com/p/stack-and-nest-180-totes');
@@ -8255,7 +10002,27 @@ INSERT INTO sources VALUES (1158, 'https://www.thomassci.com/browse-by/suppliers
 INSERT INTO sources VALUES (1158, 'https://www.wikidata.org/wiki/Q28458690');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1159, 'silver brush', 'Silver Brush LTD', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/silver-brush-ltd', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1159, 'https://www.thomassci.com/browse-by/suppliers/silver-brush-ltd');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1160, 'simple green', 'Simple Green', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/simple-green', NULL, NULL, NULL, 'https://www.simplegreen.com/', 'wikidata', NULL, NULL, NULL, NULL, '1979', 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', 'brand of cleaning products', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, 'https://simplegreen.com/', 'Q1449776');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1160, 'simple green', 'Simple Green', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/simple-green', NULL, NULL, NULL, 'https://www.simplegreen.com/', 'wikidata', NULL, NULL, NULL, NULL, '1979', 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', 'brand of cleaning products', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://simplegreen.com/change-site/) but no distributor name could be extracted automatically: «TO BUY
+WHO WE ARE
+History
+Our Causes
+Seals & Approvals
+Safer Choice
+50th Anniversary
+BLOG
+CONTACT US
+
+Select a Country
+
+ASIA
+
+AFRICA
+
+EUROPE
+
+SOUTH PACIFIC
+
+SOU»', NULL, NULL, NULL, NULL, 'https://simplegreen.com/', 'Q1449776');
 INSERT INTO products VALUES (1160, 1, 'Crystal Simple Green® Industrial Cleaner/Degreaser', NULL, 'thomassci', 'https://www.thomassci.com/p/crystal-simple-green-industrial-cleaner/degreaser');
 INSERT INTO products VALUES (1160, 2, 'Extreme Simple Green® Aircraft & Precision Cleaner', NULL, 'thomassci', 'https://www.thomassci.com/p/extreme-simple-green-aircraft-and-precision-cleaner');
 INSERT INTO products VALUES (1160, 3, 'Simple Green® Concentrated Cleaner', NULL, 'thomassci', 'https://www.thomassci.com/p/simple-green-concentrated-cleaner');
@@ -8264,6 +10031,7 @@ INSERT INTO products VALUES (1160, 5, 'Simple Green® Anti-Spatter', NULL, 'thom
 INSERT INTO sources VALUES (1160, 'https://www.thomassci.com/browse-by/suppliers/simple-green');
 INSERT INTO sources VALUES (1160, 'https://www.wikidata.org/wiki/Q1449776');
 INSERT INTO sources VALUES (1160, 'https://simplegreen.com/');
+INSERT INTO sources VALUES (1160, 'https://simplegreen.com/change-site/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1161, 'simple solvents', 'Simple Solvents', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/simple-solvents', NULL, NULL, NULL, 'https://simplesolvents.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+18772245641', 'hello@simplesolvents.com', NULL, 'https://simplesolvents.com/contact-us/', 'https://simplesolvents.com/contact-us/', NULL);
 INSERT INTO products VALUES (1161, 1, '200 proof Specially Denatured Alcohol formula 40B', NULL, 'thomassci', 'https://www.thomassci.com/p/200-proof-specially-denatured-alcohol-formula-40b');
 INSERT INTO products VALUES (1161, 2, '200 proof Completely Denatured Alcohol formula 12A', NULL, 'thomassci', 'https://www.thomassci.com/p/200-proof-completely-denatured-alcohol-formula-12a');
@@ -8310,9 +10078,11 @@ INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, qua
 INSERT INTO israel_entities VALUES (1167, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (1167, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1167, 'https://www.almog.co.il/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1168, 'slingshotbio', 'SlingshotBio', 'Q+', NULL, NULL, NULL, 'yes', NULL, 'https://slingshotbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Slingshot’s revolutionary technology is a new paradigm for any cell-based application, including drug discovery, clinical trials, medical testing, and cell therapy manufacturing. We created FlowCytes™ using biochemistry and polymer chemistry. These synthetic cells are printed on demand. Slingshot’s technology lowers costs, shortens timelines, and enhances stability and accessibility.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+15107706806', 'sales@slingshotbio.com', NULL, 'https://www.slingshotbio.com/contact', 'https://www.slingshotbio.com/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1168, 'slingshotbio', 'SlingshotBio', 'Q+', NULL, NULL, NULL, 'yes', NULL, 'https://slingshotbio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Slingshot’s revolutionary technology is a new paradigm for any cell-based application, including drug discovery, clinical trials, medical testing, and cell therapy manufacturing. We created FlowCytes™ using biochemistry and polymer chemistry. These synthetic cells are printed on demand. Slingshot’s technology lowers costs, shortens timelines, and enhances stability and accessibility.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+15107706806', 'sales@slingshotbio.com', NULL, 'https://www.slingshotbio.com/contact', 'https://www.slingshotbio.com/contact', NULL);
+INSERT INTO israel_entities VALUES (1168, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.slingshotbio.com/worldwide-distribution');
 INSERT INTO sources VALUES (1168, 'https://info.quartzy.com/new-suppliers');
 INSERT INTO sources VALUES (1168, 'https://www.slingshotbio.com/contact');
+INSERT INTO sources VALUES (1168, 'https://www.slingshotbio.com/worldwide-distribution');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1169, 'sls', 'SLS', 'D', 'https://www.dutscher.com/search?initialFilters=brand:SLS', NULL, NULL, NULL, NULL, 'https://www.scientificlabs.co.uk', 'manual', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '115 982 1111', NULL, NULL, 'https://www.scientificlabs.co.uk/contactus', 'https://www.scientificlabs.co.uk/contactus', 'Q8012895');
 INSERT INTO products VALUES (1169, 1, 'Bostwick Consistometer stainless steel - chamber length 240 mm', NULL, 'dutscher', 'https://www.dutscher.com/article/176123');
 INSERT INTO products VALUES (1169, 2, 'Jerrycan 2.5 L sterile HDPE - white cap', NULL, 'dutscher', 'https://www.dutscher.com/article/176313B');
@@ -8327,7 +10097,39 @@ INSERT INTO sources VALUES (1170, 'https://www.thomassci.com/browse-by/suppliers
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1171, 'smartstack', 'SmartStack™', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/smartstack', NULL, NULL, NULL, 'https://smartstack.com.au', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1300889837', 'orders@smartrecordsgroup.com.au', NULL, 'https://smartstack.com.au/contact-us/', 'https://smartstack.com.au/contact-us/', NULL);
 INSERT INTO sources VALUES (1171, 'https://www.thomassci.com/browse-by/suppliers/smartstack');
 INSERT INTO sources VALUES (1171, 'https://smartstack.com.au/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1172, 'smith and nephew', 'Smith & Nephew', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/smith-and-nephew', NULL, NULL, NULL, 'http://www.smith-nephew.com', 'wikidata', 'United Kingdom', 'בריטניה', 'London', NULL, '1856', NULL, NULL, NULL, 'a company producing medical equipment', 11000, NULL, 'company', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'reported', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1-844-275-6947', NULL, 'London', 'https://www.smith-nephew.com/en-us/contact-us', 'https://www.smith-nephew.com/en-us/contact-us', 'Q502509');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1172, 'smith and nephew', 'Smith & Nephew', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/smith-and-nephew', NULL, NULL, NULL, 'http://www.smith-nephew.com', 'wikidata', 'United Kingdom', 'בריטניה', 'London', NULL, '1856', NULL, NULL, NULL, 'a company producing medical equipment', 11000, NULL, 'company', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'reported', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.smith-nephew.com/en-us/contact-us) but no distributor name could be extracted automatically: «Italy
+
+Kosovo
+
+Latvia
+
+Lithuania
+
+Luxembourg
+
+Malta
+
+Montenegro
+
+Moldova
+
+Netherlands
+
+Norway
+
+Poland
+
+Portugal
+
+Romania
+
+Russian Federation
+
+Spain
+
+Sweden
+
+Swi»', '+1-844-275-6947', NULL, 'London', 'https://www.smith-nephew.com/en-us/contact-us', 'https://www.smith-nephew.com/en-us/contact-us', 'Q502509');
 INSERT INTO products VALUES (1172, 1, 'Dressing, Collagen', NULL, 'thomassci', 'https://www.thomassci.com/p/dressing-collagen');
 INSERT INTO products VALUES (1172, 2, 'Wound Cleanser', NULL, 'thomassci', 'https://www.thomassci.com/p/wound-cleanser');
 INSERT INTO sources VALUES (1172, 'https://www.thomassci.com/browse-by/suppliers/smith-and-nephew');
@@ -8349,7 +10151,39 @@ INSERT INTO products VALUES (1175, 3, 'Chest Style Ultra-Low Freezers', NULL, 't
 INSERT INTO products VALUES (1175, 4, 'Freezer Racks, Stainless Steel, 23" X 5 1/2" x 9 3/4" 100 CELL', NULL, 'thomassci', 'https://www.thomassci.com/p/freezer-racks-stainless-steel-23-x-5-1/2-x-9-3/4-100-cell');
 INSERT INTO products VALUES (1175, 5, 'Laboratory and Pharmacy Refrigerators', NULL, 'thomassci', 'https://www.thomassci.com/p/laboratory-and-pharmacy-refrigerators');
 INSERT INTO sources VALUES (1175, 'https://www.thomassci.com/browse-by/suppliers/so-low');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1176, 'socorex', 'Socorex', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Socorex', 'https://www.thomassci.com/browse-by/suppliers/socorex', NULL, NULL, NULL, 'https://socorex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות', 'פיפטות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'No result mentions Socorex at all; hits are unrelated Israeli distributor announcements (OpteamX, Militram, Rhenium, Agentek).', '+41216516000', NULL, NULL, 'https://socorex.com/en/contact', 'https://socorex.com/en/contact', 'Q112202793');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1176, 'socorex', 'Socorex', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Socorex', 'https://www.thomassci.com/browse-by/suppliers/socorex', NULL, NULL, NULL, 'https://socorex.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות', 'פיפטות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'No result mentions Socorex at all; hits are unrelated Israeli distributor announcements (OpteamX, Militram, Rhenium, Agentek). | "Israel" appears on the manufacturer''s distributor/contact page (https://socorex.com/en/laboratory/distributors) but no distributor name could be extracted automatically: «Moldova
+
+Netherlands
+
+Norway
+
+Poland
+
+Portugal
+
+Romania
+
+Russia
+
+Serbia
+
+Slovakia
+
+Slovenia
+
+Spain
+
+Sweden
+
+Switzerland
+
+Turkey
+
+Ukraine
+
+United Kingdom
+
+Africa»', '+41216516000', NULL, NULL, 'https://socorex.com/en/contact', 'https://socorex.com/en/contact', 'Q112202793');
 INSERT INTO products VALUES (1176, 1, 'Tube feed Drencher ø x l = 0.9 x 25 mm', NULL, 'dutscher', 'https://www.dutscher.com/article/061305');
 INSERT INTO products VALUES (1176, 2, 'Syringe 1 ml metal Luer Lock cone with glass piston', NULL, 'dutscher', 'https://www.dutscher.com/article/320219');
 INSERT INTO products VALUES (1176, 3, 'Reservoir 1 well 70 ml V-shape', NULL, 'dutscher', 'https://www.dutscher.com/article/061001');
@@ -8359,6 +10193,7 @@ INSERT INTO sources VALUES (1176, 'https://www.dutscher.com/search?initialFilter
 INSERT INTO sources VALUES (1176, 'https://www.thomassci.com/browse-by/suppliers/socorex');
 INSERT INTO sources VALUES (1176, 'https://www.wikidata.org/wiki/Q112202793');
 INSERT INTO sources VALUES (1176, 'https://socorex.com/en/contact');
+INSERT INTO sources VALUES (1176, 'https://socorex.com/en/laboratory/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1177, 'softbox systems', 'Softbox Systems Inc.', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/softbox-systems-inc-', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1177, 1, 'SoftBox® VIP Shippers', NULL, 'thomassci', 'https://www.thomassci.com/p/softbox-vip-shippers');
 INSERT INTO products VALUES (1177, 2, 'TracSafe RLT Data Logger', NULL, 'thomassci', 'https://www.thomassci.com/p/tracsafe-rlt-data-logger');
@@ -8384,7 +10219,22 @@ INSERT INTO products VALUES (1181, 3, 'NIST traceable UVC radiometer with remote
 INSERT INTO products VALUES (1181, 4, 'NIST UVA Radiometer, Measures 320-400nm light, Range of 0-1999 µW/cm², Model 4.2 Sensitive UVA Meter', NULL, 'thomassci', 'https://www.thomassci.com/p/nist-uva-radiometer-measures-320-400nm-light-range-of-0-1999-withcm-model-4-2-sensitive-uva-meter');
 INSERT INTO products VALUES (1181, 5, 'NIST UVA Radiometer, Measures 320-400nm Light Range of 0-199.9 mW/cm², Model 4.0 Standard UVA Meter', NULL, 'thomassci', 'https://www.thomassci.com/p/nist-uva-radiometer-measures-320-400nm-light-range-of-0-199-9-mwithcm-model-4-0-standard-uva-meter');
 INSERT INTO sources VALUES (1181, 'https://www.thomassci.com/browse-by/suppliers/solar-light');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1182, 'solis biodyne', 'Solis Biodyne', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Solis+Biodyne', NULL, NULL, NULL, NULL, 'https://solisbiodyne.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Amplification reagent for molecular biology', 'Amplification reagent for molecular biology', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+372 740 9960', 'orders@solisbiodyne.com', NULL, 'https://solisbiodyne.com/EN/contact-us/contact_us/', 'https://solisbiodyne.com/EN/contact-us/contact_us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1182, 'solis biodyne', 'Solis Biodyne', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Solis+Biodyne', NULL, NULL, NULL, NULL, 'https://solisbiodyne.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Amplification reagent for molecular biology', 'Amplification reagent for molecular biology', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://solisbiodyne.com/EN//distributors2/) but no distributor name could be extracted automatically: «Web:
+http://www.tespro.com.ua/
+
+United Kingdom
+
+Cambridge Bioscience
+
+Web:
+http://www.bioscience.co.uk/home
+
+United Kingdom
+
+Thistle Scientific
+
+Web:
+http://www»', '+372 740 9960', 'orders@solisbiodyne.com', NULL, 'https://solisbiodyne.com/EN/contact-us/contact_us/', 'https://solisbiodyne.com/EN/contact-us/contact_us/', NULL);
 INSERT INTO products VALUES (1182, 1, 'PCR grade water - 25 ml', NULL, 'dutscher', 'https://www.dutscher.com/article/755134');
 INSERT INTO products VALUES (1182, 2, '10x gc-rich enhancer, 5 ml', NULL, 'dutscher', 'https://www.dutscher.com/article/755071');
 INSERT INTO products VALUES (1182, 3, '5X Hot FIREpol® Blend Master Mix 10 mM with BSA 1 ml - standard Version', NULL, 'dutscher', 'https://www.dutscher.com/article/755056');
@@ -8392,6 +10242,7 @@ INSERT INTO products VALUES (1182, 4, 'FIREScript Mix for reverse transcriptase 
 INSERT INTO products VALUES (1182, 5, 'Hot FIREpol® (hot start DNA polymerase) 1000 U', NULL, 'dutscher', 'https://www.dutscher.com/article/755010');
 INSERT INTO sources VALUES (1182, 'https://www.dutscher.com/search?initialFilters=brand:Solis+Biodyne');
 INSERT INTO sources VALUES (1182, 'https://solisbiodyne.com/EN/contact-us/contact_us/');
+INSERT INTO sources VALUES (1182, 'https://solisbiodyne.com/EN//distributors2/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1183, 'solstice', 'Solstice', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Solstice', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'כימיה', 'כימיה', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1183, 1, '32201-1L-HON · Acetone min. 99.5% - Puriss - For analysis - ISO - ACS - Compliant with the European Pharmacopoeia - 1 L', NULL, 'dutscher', 'https://www.dutscher.com/article/32201-1L-HON');
 INSERT INTO products VALUES (1183, 2, '33665-500ML-HON · Buffer solution - pH value: 4.0 - Composition: Citric acid / NaOH / NaCl - Red colored - with fungicide - 500 ml - NIST tr', NULL, 'dutscher', 'https://www.dutscher.com/article/33665-500ML-HON');
@@ -8406,7 +10257,24 @@ INSERT INTO products VALUES (1184, 3, 'Labstamp® Tail Gauge', NULL, 'thomassci'
 INSERT INTO products VALUES (1184, 4, 'Labstamp® Restraint', NULL, 'thomassci', 'https://www.thomassci.com/p/labstamp-restraint');
 INSERT INTO products VALUES (1184, 5, 'Labstamp® Tail Oil, Sterile (4oz/bottle)', NULL, 'thomassci', 'https://www.thomassci.com/p/labstamp-tail-oil-sterile-4oz/bottle');
 INSERT INTO sources VALUES (1184, 'https://www.thomassci.com/browse-by/suppliers/somark');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1185, 'sonics and materials', 'Sonics & Materials', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sonics-and-materials', NULL, NULL, NULL, 'https://sonics.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '2032704600', 'info@sonics.com', NULL, 'https://sonics.com/contact-general/', 'https://sonics.com/contact-general/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1185, 'sonics and materials', 'Sonics & Materials', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sonics-and-materials', NULL, NULL, NULL, 'https://sonics.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://sonics.com/contact-general/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '2032704600', 'info@sonics.com', NULL, 'https://sonics.com/contact-general/', 'https://sonics.com/contact-general/', NULL);
 INSERT INTO products VALUES (1185, 1, '25 mm (1") Replacementacement Tip', NULL, 'thomassci', 'https://www.thomassci.com/p/6300408-replaceable-25mm-tip');
 INSERT INTO products VALUES (1185, 2, 'Replacementacement 13 mm (1/2") Tip', NULL, 'thomassci', 'https://www.thomassci.com/p/6300406-repcble-13mm-tip');
 INSERT INTO products VALUES (1185, 3, '25 mm (1") High Gain Probe Solid', NULL, 'thomassci', 'https://www.thomassci.com/p/6300310-25mm-hgain-probe');
@@ -8461,15 +10329,41 @@ INSERT INTO products VALUES (1191, 3, 'Bidwell-Sterling Moisture Traps with Vapo
 INSERT INTO products VALUES (1191, 4, 'Class B Graduated Cylinders, TD', NULL, 'thomassci', 'https://www.thomassci.com/p/laboratory-grade-graduated-cylinders-with-pourout');
 INSERT INTO products VALUES (1191, 5, 'Two-Piece Vacuum Traps with Hose Connection', NULL, 'thomassci', 'https://www.thomassci.com/p/two-piece-vacuum-trap-with-hose-connection');
 INSERT INTO sources VALUES (1191, 'https://www.thomassci.com/browse-by/suppliers/sp-wilmad-labglass');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1192, 'specac', 'Specac', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/specac', NULL, NULL, NULL, 'https://specac.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריהוט ותשתיות מעבדה', 'ריהוט ותשתיות מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+44 (0) 1689 873 134', 'sales@specac.co.uk', NULL, 'https://specac.com/contact-us/', 'https://specac.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1192, 'specac', 'Specac', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/specac', NULL, NULL, NULL, 'https://specac.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריהוט ותשתיות מעבדה', 'ריהוט ותשתיות מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '+44 (0) 1689 873 134', 'sales@specac.co.uk', NULL, 'https://specac.com/contact-us/', 'https://specac.com/contact-us/', NULL);
 INSERT INTO products VALUES (1192, 1, 'Omni-Cell Body With Mount', NULL, 'thomassci', 'https://www.thomassci.com/p/omni-cell-body-with-mount');
 INSERT INTO products VALUES (1192, 2, 'Specac Omni-Cell Spacers', NULL, 'thomassci', 'https://www.thomassci.com/p/omni-cell-spacers');
 INSERT INTO products VALUES (1192, 3, 'SAMPLE PREP', NULL, 'thomassci', 'https://www.thomassci.com/p/sample-prep-3');
 INSERT INTO products VALUES (1192, 4, 'Cell Body & Window Accessories', NULL, 'thomassci', 'https://www.thomassci.com/p/omni-cell');
 INSERT INTO products VALUES (1192, 5, 'Demountable & Permanently Sealed Windows', NULL, 'thomassci', 'https://www.thomassci.com/p/omni-cell-windows');
+INSERT INTO israel_entities VALUES (1192, 'Bargal Analytical Instruments Ltd.', 'ברגל מכשור אנליטי', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.bargal.co.il/', '+972-3-979-6533', 'sales@bargal.co.il', '10 Shaked Street, Modi''in Industrial Park, Shoham 6085102', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://specac.com/our-distributors/');
 INSERT INTO sources VALUES (1192, 'https://www.thomassci.com/browse-by/suppliers/specac');
 INSERT INTO sources VALUES (1192, 'https://specac.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1193, 'spectronics', 'Spectronics', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/spectronics', NULL, NULL, NULL, 'https://www.spectroline.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '18002748888', 'marketing@spectroline.com', NULL, 'https://spectroline.com/contact/', 'https://spectroline.com/contact/', NULL);
+INSERT INTO sources VALUES (1192, 'https://specac.com/our-distributors/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1193, 'spectronics', 'Spectronics', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/spectronics', NULL, NULL, NULL, 'https://www.spectroline.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://spectroline.com/become-a-spectroline-distributor/) but no distributor name could be extracted automatically: «ada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guernsey
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard Island and McDonald Islands
+
+Holy See (Vatican City State)
+
+Honduras
+
+Ho»', '18002748888', 'marketing@spectroline.com', NULL, 'https://spectroline.com/contact/', 'https://spectroline.com/contact/', NULL);
 INSERT INTO products VALUES (1193, 1, 'Ultraviolet Lamps & Accessories', NULL, 'thomassci', 'https://www.thomassci.com/p/replacement-parts-and-accessories-for-e-series-lamps');
 INSERT INTO products VALUES (1193, 2, 'X-Series UV Bench and Display Lamps, Germicidal', NULL, 'thomassci', 'https://www.thomassci.com/p/x-series-uv-bench-and-display-lamps-germicidal');
 INSERT INTO products VALUES (1193, 3, 'Accessories and Replacement Parts for UV Transilluminators', NULL, 'thomassci', 'https://www.thomassci.com/p/accessories-and-replacement-parts-for-uv-transilluminators');
@@ -8477,6 +10371,7 @@ INSERT INTO products VALUES (1193, 4, 'E-Series Corded Hand-Held UV Lamps, Dual 
 INSERT INTO products VALUES (1193, 5, 'Ultraviolet germicidal irradiation UV-C (UVGI)', NULL, 'thomassci', 'https://www.thomassci.com/p/ultraviolet-germicidal-irradiation-uv-c-uvgi');
 INSERT INTO sources VALUES (1193, 'https://www.thomassci.com/browse-by/suppliers/spectronics');
 INSERT INTO sources VALUES (1193, 'https://spectroline.com/contact/');
+INSERT INTO sources VALUES (1193, 'https://spectroline.com/become-a-spectroline-distributor/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1194, 'spectrum', 'Spectrum', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Spectrum', NULL, NULL, NULL, NULL, 'https://www.spectrum.com/', 'wikidata', 'United States', 'ארה"ב', 'Stamford', NULL, '1993', 'Ultrafiltration and protein concentration', 'Ultrafiltration and protein concentration', 'catalog_facet', 'American cable services provider', NULL, NULL, NULL, NULL, 54022.0, 'USD 54,022.0 m', '2022', 'company', 'wikidata', 'reported', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Stamford', NULL, NULL, 'Q2961234');
 INSERT INTO products VALUES (1194, 1, 'Standard clamp width 35 mm for closing dialysis tubes', NULL, 'dutscher', 'https://www.dutscher.com/article/059002');
 INSERT INTO products VALUES (1194, 2, 'Dialysis tube SPECTRA/POR Float-A-Lyzer G2 5 ml cellulose ester membrane', NULL, 'dutscher', 'https://www.dutscher.com/article/059345');
@@ -8500,7 +10395,43 @@ INSERT INTO products VALUES (1196, 3, 'Bessman Tissue Pulverizer', NULL, 'thomas
 INSERT INTO products VALUES (1196, 4, 'Standard RC Ready-to-use Dialysis Sacks: Spectra/Por® 1-4', NULL, 'thomassci', 'https://www.thomassci.com/p/standard-rc-ready-to-use-dialysis-sacksspectra/por-1-4');
 INSERT INTO products VALUES (1196, 5, 'Transfertube', NULL, 'thomassci', 'https://www.thomassci.com/p/transfertube');
 INSERT INTO sources VALUES (1196, 'https://www.thomassci.com/browse-by/suppliers/spectrum-med');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1197, 'sper scientific', 'Sper Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sper-scientific', NULL, NULL, NULL, 'https://sperdirect.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1.480.948.4448', 'support@sperdirect.com', NULL, 'https://sperdirect.com/pages/contact-us', 'https://sperdirect.com/pages/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1197, 'sper scientific', 'Sper Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sper-scientific', NULL, NULL, NULL, 'https://sperdirect.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מכשור אנליטי ומדידה', 'מכשור אנליטי ומדידה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://sperdirect.com/) but no distributor name could be extracted automatically: «a
+(USD
+$)
+
+Guernsey
+(USD
+$)
+
+Guinea
+(USD
+$)
+
+Guinea-Bissau
+(USD
+$)
+
+Guyana
+(USD
+$)
+
+Haiti
+(USD
+$)
+
+Honduras
+(USD
+$)
+
+Hong Kong SAR
+(USD
+$)
+
+Hungary
+(USD
+$)
+
+Ice»', '+1.480.948.4448', 'support@sperdirect.com', NULL, 'https://sperdirect.com/pages/contact-us', 'https://sperdirect.com/pages/contact-us', NULL);
 INSERT INTO products VALUES (1197, 1, 'Infrared Thermometer with Dewpoint', NULL, 'thomassci', 'https://www.thomassci.com/p/infrared-thermometer-with-dewpoint');
 INSERT INTO products VALUES (1197, 2, 'Large Display Indoor/Outdoor Thermometers', NULL, 'thomassci', 'https://www.thomassci.com/p/large-display-indoor/outdoor-thermometers');
 INSERT INTO products VALUES (1197, 3, 'Continuous Alarm Timer', NULL, 'thomassci', 'https://www.thomassci.com/p/continuous-alarm-timer');
@@ -8508,6 +10439,7 @@ INSERT INTO products VALUES (1197, 4, 'Pocket Digital Refractometers', NULL, 'th
 INSERT INTO products VALUES (1197, 5, 'DO/Multi-parameter Meter & Accessories', NULL, 'thomassci', 'https://www.thomassci.com/p/do/multi-parameter-meter-and-accessories');
 INSERT INTO sources VALUES (1197, 'https://www.thomassci.com/browse-by/suppliers/sper-scientific');
 INSERT INTO sources VALUES (1197, 'https://sperdirect.com/pages/contact-us');
+INSERT INTO sources VALUES (1197, 'https://sperdirect.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1198, 'sperian', 'Sperian', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/sperian', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1198, 'https://www.thomassci.com/browse-by/suppliers/sperian');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1199, 'spex certiprep', 'SPEX CertiPrep', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/spex-certiprep', 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'כימיקלים ותקנים', 'כימיקלים ותקנים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'SPEX CertiPrep (Metuchen NJ; UK subsidiary) works through worldwide distributors; none named for Israel in results.', NULL, NULL, NULL, NULL, NULL, NULL);
@@ -8518,7 +10450,37 @@ INSERT INTO products VALUES (1199, 4, 'spex® Chloromethane Single-Component Org
 INSERT INTO products VALUES (1199, 5, 'Assurance® Grade Rhenium Single-Element Standard', NULL, 'thomassci', 'https://www.thomassci.com/p/rhenium-icp/std-1000ppm-100ml');
 INSERT INTO sources VALUES (1199, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1199, 'https://www.thomassci.com/browse-by/suppliers/spex-certiprep');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1200, 'spex sampleprep', 'SPEX SamplePrep', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/spex-sampleprep', 'yes', NULL, NULL, 'https://spexsampleprep.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only Australia/NZ distributor (John Morris Group) and US listings; no Israel mention.', '+1.732.623.0465', NULL, NULL, 'https://www.cpsampleprep.com/contactus', 'https://www.cpsampleprep.com/contactus', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1200, 'spex sampleprep', 'SPEX SamplePrep', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/spex-sampleprep', 'yes', NULL, NULL, 'https://spexsampleprep.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Only Australia/NZ distributor (John Morris Group) and US listings; no Israel mention. | "Israel" appears on the manufacturer''s distributor/contact page (https://www.cpsampleprep.com/contactus) but no distributor name could be extracted automatically: «orgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guernsey
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard and McDonald Is»', '+1.732.623.0465', NULL, NULL, 'https://www.cpsampleprep.com/contactus', 'https://www.cpsampleprep.com/contactus', NULL);
 INSERT INTO products VALUES (1200, 1, '8000D Mixer/Mill® Accessories', NULL, 'thomassci', 'https://www.thomassci.com/p/8000d-mixer/mill-accessories');
 INSERT INTO products VALUES (1200, 2, 'Ceramic Grind Cyld 3/8"x7/8" angle cut', NULL, 'thomassci', 'https://www.thomassci.com/p/ceramic-grind-cyld-3/8x7/8-angle-cut');
 INSERT INTO products VALUES (1200, 3, 'Cryo-Station', NULL, 'thomassci', 'https://www.thomassci.com/p/cryo-station');
@@ -8587,7 +10549,24 @@ INSERT INTO israel_entities VALUES (1210, 'Enco Scientific Services Ltd. (Enco D
 INSERT INTO sources VALUES (1210, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1210, 'https://www.stemcell.com/contact-us');
 INSERT INTO sources VALUES (1210, 'https://www.enco.co.il/about.php');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1211, 'sterilin', 'Sterilin', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Sterilin', NULL, NULL, NULL, NULL, 'https://steriline.it', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+39 031 592064', 'info@steriline.it', NULL, 'https://www.steriline.it/en/contacts/', 'https://www.steriline.it/en/contacts/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1211, 'sterilin', 'Sterilin', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Sterilin', NULL, NULL, NULL, NULL, 'https://steriline.it', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.steriline.it/en/contacts/general-contacts/) but no distributor name could be extracted automatically: «n
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald»', '+39 031 592064', 'info@steriline.it', NULL, 'https://www.steriline.it/en/contacts/', 'https://www.steriline.it/en/contacts/', NULL);
 INSERT INTO products VALUES (1211, 1, 'Cotton plugged pipette 10 ml Pyrex glass sterile Corning®', NULL, 'dutscher', 'https://www.dutscher.com/article/041203');
 INSERT INTO products VALUES (1211, 2, 'Square Petri dish with compartments 100 x 100 mm Sterilin', NULL, 'dutscher', 'https://www.dutscher.com/article/020009');
 INSERT INTO products VALUES (1211, 3, 'Standard Petri dish 94 x 16 mm Sterilin', NULL, 'dutscher', 'https://www.dutscher.com/article/020005');
@@ -8595,6 +10574,7 @@ INSERT INTO products VALUES (1211, 4, 'Bijou vial 7 ml with label Sterilin', NUL
 INSERT INTO products VALUES (1211, 5, 'Microtitration 96-well Plate with round bottom non-sterile Sterilin', NULL, 'dutscher', 'https://www.dutscher.com/article/698900');
 INSERT INTO sources VALUES (1211, 'https://www.dutscher.com/search?initialFilters=brand:Sterilin');
 INSERT INTO sources VALUES (1211, 'https://www.steriline.it/en/contacts/');
+INSERT INTO sources VALUES (1211, 'https://www.steriline.it/en/contacts/general-contacts/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1212, 'steris', 'STERIS', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/steris', NULL, NULL, NULL, 'http://www.steris.com/', 'wikidata', 'United States', 'ארה"ב', 'Ireland', NULL, '1985', 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', 'medical device company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '440.354.2600', NULL, 'Ireland', 'https://www.steris.com/contact/contact-information', 'https://www.steris.com/contact/contact-information', 'Q80947821');
 INSERT INTO products VALUES (1212, 1, 'Spor-Klenz® Ready-To-Use Cold Sterilant', NULL, 'thomassci', 'https://www.thomassci.com/p/spor-klenz-ready-to-use-cold-sterilant1');
 INSERT INTO products VALUES (1212, 2, 'Detergent, Steris CIP 100, 5 Gallon Plastic Pail, Phosphate-free, Alkaline Detergent, 1/EA', NULL, 'thomassci', 'https://www.thomassci.com/p/detergent-steris-cip-100-5-gallon-plastic-pail-phosphate-free-alkaline-detergent-1/ea');
@@ -8663,7 +10643,41 @@ INSERT INTO sources VALUES (1221, 'https://www.thomassci.com/browse-by/suppliers
 INSERT INTO sources VALUES (1221, 'https://www.wikidata.org/wiki/Q30288451');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1222, 'superior manufacturing', 'Superior Manufacturing (NoTrax®)', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/superior-manufacturing-akro', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1222, 'https://www.thomassci.com/browse-by/suppliers/superior-manufacturing-akro');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1223, 'supermax', 'Supermax', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/supermax', 'yes', NULL, NULL, 'https://www.supermax.com.my', 'manual', 'Malaysia', 'מלזיה', NULL, NULL, '1987', 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', 'Malaysian manufacturing company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '603-6145 2328', NULL, NULL, 'https://www.supermax.com.my/our-business-contact-lenses', 'https://www.supermax.com.my/our-business-contact-lenses', 'Q7643958');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1223, 'supermax', 'Supermax', 'T+Q', NULL, 'https://www.thomassci.com/browse-by/suppliers/supermax', 'yes', NULL, NULL, 'https://www.supermax.com.my', 'manual', 'Malaysia', 'מלזיה', NULL, NULL, '1987', 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', 'Malaysian manufacturing company', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.supermax.com.my/contact-us-submit-an-inquiry-form) but no distributor name could be extracted automatically: «n Republic
+
+Ecuador
+
+Egypt
+
+El Salvador
+
+Equatorial Guinea
+
+Eritrea
+
+Estonia
+
+Ethiopia
+
+Fiji
+
+Finland
+
+France
+
+Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Greece
+
+G»', '603-6145 2328', NULL, NULL, 'https://www.supermax.com.my/our-business-contact-lenses', 'https://www.supermax.com.my/our-business-contact-lenses', 'Q7643958');
 INSERT INTO products VALUES (1223, 1, 'Aurelia® Protégé™ Nitrile Powder Free Exam Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/aurelia-protege-nitrile-powder-free-exam-gloves1');
 INSERT INTO products VALUES (1223, 2, 'Aurelia® Perform™ Nitrile Exam Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/aurelia-perform-nitrile-exam-gloves');
 INSERT INTO products VALUES (1223, 3, 'Aurelia® Robust™ Nitrile Powder Free Exam Gloves', NULL, 'thomassci', 'https://www.thomassci.com/p/aurelia-robust-nitrile-powder-free-exam-gloves');
@@ -8673,6 +10687,7 @@ INSERT INTO sources VALUES (1223, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1223, 'https://www.thomassci.com/browse-by/suppliers/supermax');
 INSERT INTO sources VALUES (1223, 'https://www.wikidata.org/wiki/Q7643958');
 INSERT INTO sources VALUES (1223, 'https://www.supermax.com.my/our-business-contact-lenses');
+INSERT INTO sources VALUES (1223, 'https://www.supermax.com.my/contact-us-submit-an-inquiry-form');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1224, 'surewerx', 'SureWerx USA, Inc.', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/surewerx-usa-inc-', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1224, 1, 'Chemical Splash Goggles', NULL, 'thomassci', 'https://www.thomassci.com/p/chemical-splash-goggles-1');
 INSERT INTO products VALUES (1224, 2, 'Face Shield Assembly Splash Shield Kit', NULL, 'thomassci', 'https://www.thomassci.com/p/face-shield-assembly-splash-shield-kit');
@@ -8706,10 +10721,9 @@ INSERT INTO products VALUES (1228, 2, 'Filcons', NULL, 'thomassci', 'https://www
 INSERT INTO sources VALUES (1228, 'https://www.thomassci.com/browse-by/suppliers/syntec');
 INSERT INTO sources VALUES (1228, 'https://www.syntech.co.za/contact/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1229, 'synthego', 'Synthego', 'Q+Q+', NULL, NULL, 'yes', 'yes', NULL, 'https://synthego.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', 'Synthego is a pioneering force in the biotechnology industry, dedicated to advancing the frontiers of CRISPR cell and gene therapies through cutting-edge CRISPR technology and expertise. Our mission is to provide unparalleled access to best-in-class CRISPR solutions at scale, empowering agility in life science research and development from discovery through clinical trials. From streamlined approaches to licensing through full technical and regulatory support from our industry-leading experts, Synthego is enabling greater access to CRISPR technology driving to improved outcomes in patient therapeutic treatments.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Synthego has a worldwide authorized-distributor directory, but the snippet showed no Israel entry; only global deals with Eurofins (44 countries, 2018) and Thermo Fisher (TrueGuide) surfaced. Slingshot/Almog press release is unrelated.', '18444274777', NULL, NULL, 'https://www.synthego.com/contact/worldwide/', 'https://www.synthego.com/contact/worldwide/', NULL);
-INSERT INTO israel_entities VALUES (1229, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'brand mentioned on the distributor''s product pages (not necessarily the brand''s main lines)', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'distributor_site_mention', 'mention', 'https://www.almog.co.il/suppliers');
+INSERT INTO israel_entities VALUES (1229, 'Y.A. Almog Diagnostic & Medical Equipment Ltd.', 'י.א. אלמוג', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.almog.co.il', '+972 3-977-3390', 'info@almog.co.il', 'Shoham', NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.synthego.com/contact/worldwide/');
 INSERT INTO sources VALUES (1229, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1229, 'https://info.quartzy.com/new-suppliers');
-INSERT INTO sources VALUES (1229, 'https://www.almog.co.il/suppliers');
 INSERT INTO sources VALUES (1229, 'https://www.synthego.com/contact/worldwide/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1230, 'systaaq diagnostics', 'Systaaq Diagnostics', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/systaaq-diagnostics', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1230, 'https://www.thomassci.com/browse-by/suppliers/systaaq-diagnostics');
@@ -8794,9 +10808,11 @@ INSERT INTO sources VALUES (1240, 'https://www.thomassci.com/browse-by/suppliers
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1241, 'techniplast', 'Techniplast', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/techniplast', NULL, NULL, NULL, 'https://techniplast.pl', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '33 443 62 00', NULL, NULL, 'https://techniplast.pl/en/7-contact-form', 'https://techniplast.pl/en/7-contact-form', NULL);
 INSERT INTO sources VALUES (1241, 'https://www.thomassci.com/browse-by/suppliers/techniplast');
 INSERT INTO sources VALUES (1241, 'https://techniplast.pl/en/7-contact-form');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1242, 'ted pella', 'Ted Pella', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ted-pella', NULL, NULL, NULL, 'https://tedpella.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '96049-2477', NULL, NULL, 'https://www.tedpella.com/company_html/Contact.aspx', 'https://www.tedpella.com/company_html/Contact.aspx', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1242, 'ted pella', 'Ted Pella', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ted-pella', NULL, NULL, NULL, 'https://tedpella.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '96049-2477', NULL, NULL, 'https://www.tedpella.com/company_html/Contact.aspx', 'https://www.tedpella.com/company_html/Contact.aspx', NULL);
+INSERT INTO israel_entities VALUES (1242, 'Getter Group', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-3-5761520', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.tedpella.com/Company_html/reps-int.aspx');
 INSERT INTO sources VALUES (1242, 'https://www.thomassci.com/browse-by/suppliers/ted-pella');
 INSERT INTO sources VALUES (1242, 'https://www.tedpella.com/company_html/Contact.aspx');
+INSERT INTO sources VALUES (1242, 'https://www.tedpella.com/Company_html/reps-int.aspx');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1243, 'teknipure', 'Teknipure', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/teknipure', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1243, 1, 'Teknipure TekniClean® Presat Polyester Knit Cleanroom Wipers with Sealed Edges', NULL, 'thomassci', 'https://www.thomassci.com/p/teknisat-polyester-knit-presaturated-wipes-in-pails-70-ipa/30-di-water-various-packaging');
 INSERT INTO products VALUES (1243, 2, 'Teknipure TekniZorb® Polyester/ Cellulose Nonwoven Cleanroom Wipers', NULL, 'thomassci', 'https://www.thomassci.com/p/teknizorb-polyester-cellulose-wipers');
@@ -8813,15 +10829,17 @@ INSERT INTO products VALUES (1244, 5, 'LB Agar Plates, Sterile', NULL, 'thomassc
 INSERT INTO sources VALUES (1244, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1244, 'https://www.thomassci.com/browse-by/suppliers/teknova');
 INSERT INTO sources VALUES (1244, 'https://www.teknova.com/en/company/support.html#contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1245, 'tempshield', 'Tempshield', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Tempshield', 'https://www.thomassci.com/browse-by/suppliers/tempshield', NULL, NULL, NULL, 'https://tempshield.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Hand protection', 'Hand protection', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only Singapore distributor (PDS International/safety.com.sg) and Fisher/VWR/Thomas/ProSciTech listings; no Israel mention.', '1-800-680-2796', 'info@tempshield.com', NULL, 'https://www.tempshield.com/pages/contact-us', 'https://www.tempshield.com/pages/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1245, 'tempshield', 'Tempshield', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Tempshield', 'https://www.thomassci.com/browse-by/suppliers/tempshield', NULL, NULL, NULL, 'https://tempshield.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'Hand protection', 'Hand protection', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, 'Only Singapore distributor (PDS International/safety.com.sg) and Fisher/VWR/Thomas/ProSciTech listings; no Israel mention.', '1-800-680-2796', 'info@tempshield.com', NULL, 'https://www.tempshield.com/pages/contact-us', 'https://www.tempshield.com/pages/contact-us', NULL);
 INSERT INTO products VALUES (1245, 1, 'Cryo-Industrial® Aprons', NULL, 'thomassci', 'https://www.thomassci.com/p/cryo-industrial-aprons');
 INSERT INTO products VALUES (1245, 2, 'Pink Waterproof Cryo-Gloves®', NULL, 'thomassci', 'https://www.thomassci.com/p/pink-waterproof-cryo-gloves');
 INSERT INTO products VALUES (1245, 3, 'Pink Cryo-Gloves®', NULL, 'thomassci', 'https://www.thomassci.com/p/pink-cryo-gloves');
 INSERT INTO products VALUES (1245, 4, 'Cryo-Apron®', NULL, 'thomassci', 'https://www.thomassci.com/p/cryo-apron');
 INSERT INTO products VALUES (1245, 5, 'Pink Cryo-Apron®', NULL, 'thomassci', 'https://www.thomassci.com/p/pink-cryo-apron');
+INSERT INTO israel_entities VALUES (1245, 'Alex Red Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972-2-5337760', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.tempshield.com/pages/tempshield-dealer-locator');
 INSERT INTO sources VALUES (1245, 'https://www.dutscher.com/search?initialFilters=brand:Tempshield');
 INSERT INTO sources VALUES (1245, 'https://www.thomassci.com/browse-by/suppliers/tempshield');
 INSERT INTO sources VALUES (1245, 'https://www.tempshield.com/pages/contact-us');
+INSERT INTO sources VALUES (1245, 'https://www.tempshield.com/pages/tempshield-dealer-locator');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1246, 'terra universal', 'Terra Universal', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/terra-universal', NULL, NULL, NULL, 'https://terrauniversal.com', 'clearbit', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1246, 1, 'BioSafe® Folding Cleanroom Step Ladders', NULL, 'thomassci', 'https://www.thomassci.com/p/biosafe-folding-cleanroom-step-ladders-1');
 INSERT INTO products VALUES (1246, 2, 'Grounding Terminal for Stainless Steel Cabinets/Desiccators/Pass-Throughs', NULL, 'thomassci', 'https://www.thomassci.com/p/grounding-terminal-for-stainless-steel-cabinets/desiccators/pass-throughs');
@@ -9135,9 +11153,11 @@ INSERT INTO products VALUES (1272, 4, 'Procedure Towels', NULL, 'thomassci', 'ht
 INSERT INTO products VALUES (1272, 5, 'TIDI Stretcher Sheet', NULL, 'thomassci', 'https://www.thomassci.com/p/tidi-stretcher-sheet');
 INSERT INTO sources VALUES (1272, 'https://www.thomassci.com/browse-by/suppliers/tidi-products');
 INSERT INTO sources VALUES (1272, 'https://www.tidiproducts.com/contact-us');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1273, 'tiger vac', 'Tiger Vac', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/tiger-vac', NULL, NULL, NULL, 'https://tiger-vac.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1 800 668-4437', 'sales@tiger-vac.com', NULL, 'https://tiger-vac.com/contact.aspx', 'https://tiger-vac.com/contact.aspx', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1273, 'tiger vac', 'Tiger Vac', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/tiger-vac', NULL, NULL, NULL, 'https://tiger-vac.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '1 800 668-4437', 'sales@tiger-vac.com', NULL, 'https://tiger-vac.com/contact.aspx', 'https://tiger-vac.com/contact.aspx', NULL);
+INSERT INTO israel_entities VALUES (1273, 'ZED Engineering & Agencies LTD', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, '+972 52 8912001', NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://tiger-vac.com/distributors.aspx');
 INSERT INTO sources VALUES (1273, 'https://www.thomassci.com/browse-by/suppliers/tiger-vac');
 INSERT INTO sources VALUES (1273, 'https://tiger-vac.com/contact.aspx');
+INSERT INTO sources VALUES (1273, 'https://tiger-vac.com/distributors.aspx');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1274, 'tingley rubber', 'Tingley Rubber', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/tingley-rubber', NULL, NULL, NULL, 'https://www.tingleyrubber.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q76186658');
 INSERT INTO products VALUES (1274, 1, 'Boot Saver Disposable Shoe Cover', NULL, 'thomassci', 'https://www.thomassci.com/p/boot-saver-disposable-shoe-cover');
 INSERT INTO products VALUES (1274, 2, 'Safetyflex™ Flame Resistant Sleeves, PVC-on-Polyester, Green, 18"', NULL, 'thomassci', 'https://www.thomassci.com/p/safetyflex-flame-resistant-sleeves-pvc-on-polyester-green-18');
@@ -9187,7 +11207,37 @@ INSERT INTO sources VALUES (1278, 'https://www.dutscher.com/search?initialFilter
 INSERT INTO sources VALUES (1278, 'https://www.wikidata.org/wiki/Q2444134');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1279, 'toronto research chemicals', 'Toronto Research Chemicals', 'Q', NULL, NULL, 'yes', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1279, 'https://www.quartzy.com/suppliers');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1280, 'torrey pines scientific', 'Torrey Pines Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/torrey-pines-scientific', NULL, NULL, NULL, 'https://torreypinesscientific.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+17609309400', 'sales@torreypinesscientific.com', NULL, 'https://torreypinesscientific.com/contact/distributors/', 'https://torreypinesscientific.com/contact/distributors/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1280, 'torrey pines scientific', 'Torrey Pines Scientific', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/torrey-pines-scientific', NULL, NULL, NULL, 'https://torreypinesscientific.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ציוד מעבדה', 'ציוד מעבדה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://torreypinesscientific.com/contact/distributors/) but no distributor name could be extracted automatically: «Argentina
+
+Australia
+
+Bangladesh
+
+Belgium
+
+Brazil
+
+Canada
+
+Chile
+
+China
+
+Columbia
+
+Costa Rica
+
+Czech Republic
+
+Denmark
+
+Dominican Republic
+
+Ecuador
+
+Eygpt
+
+Finl»', '+17609309400', 'sales@torreypinesscientific.com', NULL, 'https://torreypinesscientific.com/contact/distributors/', 'https://torreypinesscientific.com/contact/distributors/', NULL);
 INSERT INTO products VALUES (1280, 1, 'EchoTherm™ Digital Hot Plate Stirrers', NULL, 'thomassci', 'https://www.thomassci.com/p/digital-stirring-hot-plates');
 INSERT INTO products VALUES (1280, 2, 'EchoTherm™ IC22 Digital, 2-Position Electronic Chilling/Heating Dry Baths', NULL, 'thomassci', 'https://www.thomassci.com/p/2-position-electronic-chillingheating-dry-bath');
 INSERT INTO products VALUES (1280, 3, 'EchoTherm™ Chilling/Heating HPLC Column Ovens', NULL, 'thomassci', 'https://www.thomassci.com/p/chillingheating-hplc-column-oven');
@@ -9236,7 +11286,23 @@ INSERT INTO products VALUES (1285, 3, 'Plate 2.2 ml (square wells, round bottom)
 INSERT INTO products VALUES (1285, 4, 'TREFF non-sterile tip, 50 - 1000 μl - Bulk packaging', NULL, 'dutscher', 'https://www.dutscher.com/article/034071B');
 INSERT INTO products VALUES (1285, 5, 'TREFF Easyfit 0.5 ml microtube, Green', NULL, 'dutscher', 'https://www.dutscher.com/article/034004');
 INSERT INTO sources VALUES (1285, 'https://www.dutscher.com/search?initialFilters=brand:Treff+Nolato');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1286, 'treston', 'Treston', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/treston', NULL, NULL, NULL, 'https://treston.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+35810446911', 'export@treston.com', NULL, 'https://www.treston.com/contact-us', 'https://www.treston.com/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1286, 'treston', 'Treston', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/treston', NULL, NULL, NULL, 'https://treston.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.treston.com/contact-us) but no distributor name could be extracted automatically: «ynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guya»', '+35810446911', 'export@treston.com', NULL, 'https://www.treston.com/contact-us', 'https://www.treston.com/contact-us', NULL);
 INSERT INTO products VALUES (1286, 1, 'Oval Horizontal Rail, 48"', NULL, 'thomassci', 'https://www.thomassci.com/p/oval-horizontal-rail-48');
 INSERT INTO products VALUES (1286, 2, 'Black Phenolic Worksurface', NULL, 'thomassci', 'https://www.thomassci.com/p/black-phenolic-worksurface');
 INSERT INTO products VALUES (1286, 3, 'Vertical Upright Tube 47.24"', NULL, 'thomassci', 'https://www.thomassci.com/p/vertical-upright-tube-4724');
@@ -9247,10 +11313,26 @@ INSERT INTO sources VALUES (1286, 'https://www.treston.com/contact-us');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1287, 'trevigen', 'Trevigen', 'Q', NULL, NULL, 'yes', NULL, NULL, 'http://www.trevigen.com/', 'wikidata', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Q30253504');
 INSERT INTO sources VALUES (1287, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1287, 'https://www.wikidata.org/wiki/Q30253504');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1288, 'tribioscience', 'Tribioscience', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://tribioscience.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-833-697-8998', NULL, NULL, 'https://tribioscience.com/contact-us/', 'https://tribioscience.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1288, 'tribioscience', 'Tribioscience', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://tribioscience.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '1-833-697-8998', NULL, NULL, 'https://tribioscience.com/contact-us/', 'https://tribioscience.com/contact-us/', NULL);
+INSERT INTO israel_entities VALUES (1288, 'Danyel Biotech Ltd.', 'דניאל ביוטק', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://www.danyel.co.il', '972.8.9366066', 'danyel@danyel.co.il', '8 Hamada St., Science Park, Rehovot 7670308', 'https://www.danyel.co.il/contact-us/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://tribioscience.com/find-a-distributor/');
 INSERT INTO sources VALUES (1288, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1288, 'https://tribioscience.com/contact-us/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1289, 'triforest', 'Triforest', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Triforest', 'https://www.thomassci.com/browse-by/suppliers/triforest', 'yes', NULL, NULL, 'https://www.triforest.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Only US reseller listings (Genesee Scientific) for TriForest Labware flasks; Israeli distributor pages that surfaced (Rhenium, Enco, Ornat) do not list TriForest. Note: website in targets (triforestflooring.ca) is a flooring company, not the labware maker.', '+120(949)20380-8866', 'info@triforest.com', NULL, 'https://www.triforest.com/contact/', 'https://www.triforest.com/contact/', NULL);
+INSERT INTO sources VALUES (1288, 'https://tribioscience.com/find-a-distributor/');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1289, 'triforest', 'Triforest', 'D+T+Q', 'https://www.dutscher.com/search?initialFilters=brand:Triforest', 'https://www.thomassci.com/browse-by/suppliers/triforest', 'yes', NULL, NULL, 'https://www.triforest.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, 'Only US reseller listings (Genesee Scientific) for TriForest Labware flasks; Israeli distributor pages that surfaced (Rhenium, Enco, Ornat) do not list TriForest. Note: website in targets (triforestflooring.ca) is a flooring company, not the labware maker. | "Israel" appears on the manufacturer''s distributor/contact page (https://www.triforest.com/distributors/) but no distributor name could be extracted automatically: «0-328-8378
+Worldwide Medical
+www.wwmponline.com
+128 Wharton Road
+
+Bristol, PA 19007
+
+USA
+
+sales@wwmponline.com
+1-866-889-9967
+
+International Distributors
+
+Compa»', '+120(949)20380-8866', 'info@triforest.com', NULL, 'https://www.triforest.com/contact/', 'https://www.triforest.com/contact/', NULL);
 INSERT INTO products VALUES (1289, 1, 'Polycarbonate Fernbach Flasks', NULL, 'thomassci', 'https://www.thomassci.com/p/polycarbonate-fernbach-flasks');
 INSERT INTO products VALUES (1289, 2, 'Polycarbonate Serum Vials', NULL, 'thomassci', 'https://www.thomassci.com/p/polycarbonate-serum-vials');
 INSERT INTO products VALUES (1289, 3, 'Polypropylene Shaker Flask Clamps', NULL, 'thomassci', 'https://www.thomassci.com/p/polypropylene-shaker-flask-clamps');
@@ -9260,6 +11342,7 @@ INSERT INTO sources VALUES (1289, 'https://www.dutscher.com/search?initialFilter
 INSERT INTO sources VALUES (1289, 'https://www.quartzy.com/suppliers');
 INSERT INTO sources VALUES (1289, 'https://www.thomassci.com/browse-by/suppliers/triforest');
 INSERT INTO sources VALUES (1289, 'https://www.triforest.com/contact/');
+INSERT INTO sources VALUES (1289, 'https://www.triforest.com/distributors/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1290, 'trionyx', 'Trionyx', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Trionyx', NULL, NULL, NULL, NULL, 'https://trionyx.fr', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות', 'בטיחות', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '71205021000038', NULL, NULL, 'https://trionyx.fr/en/contacts/receive-the-catalog', 'https://trionyx.fr/en/contacts/receive-the-catalog', NULL);
 INSERT INTO products VALUES (1290, 1, 'Wall pharmacy cabinet capacity 19 Litres', NULL, 'dutscher', 'https://www.dutscher.com/article/060095');
 INSERT INTO products VALUES (1290, 2, 'Retention bin 20 l - Dimensions H x W x D (mm): 155 x 600 x 400 - with gratings - load capacity 50 kg', NULL, 'dutscher', 'https://www.dutscher.com/article/060277');
@@ -9382,7 +11465,24 @@ INSERT INTO products VALUES (1311, 3, 'Face Shields', NULL, 'thomassci', 'https:
 INSERT INTO sources VALUES (1311, 'https://www.thomassci.com/browse-by/suppliers/univet-optical-technologies-north-america');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1312, 'us filter', 'US Filter', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/us-filter', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1312, 'https://www.thomassci.com/browse-by/suppliers/us-filter');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1313, 'ushio', 'Ushio America', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ushio-america', NULL, NULL, NULL, 'https://ushio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(714) 229.3100', 'customerservice@ushio.com', NULL, 'https://www.ushio.com/contact-us/', 'https://www.ushio.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1313, 'ushio', 'Ushio America', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/ushio-america', NULL, NULL, NULL, 'https://ushio.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.ushio.com/contact-us/) but no distributor name could be extracted automatically: «on
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonal»', '(714) 229.3100', 'customerservice@ushio.com', NULL, 'https://www.ushio.com/contact-us/', 'https://www.ushio.com/contact-us/', NULL);
 INSERT INTO products VALUES (1313, 1, 'Microscope Bulb, 150 Watt, 120V, MR-16', NULL, 'thomassci', 'https://www.thomassci.com/p/microscope-bulb-150-watt-120v-mr-16');
 INSERT INTO products VALUES (1313, 2, 'JC6V-20W/G4 C-6, G4 Base, T3, 20W, 6V, T3 bulb shape, 3200K, G4 Base Wattage: 20', NULL, 'thomassci', 'https://www.thomassci.com/p/jc6v-20withg4-c-6-g4-base-t3-20w-6v-t3-bulb-shape-3200k-g4-base-wattage-20');
 INSERT INTO sources VALUES (1313, 'https://www.thomassci.com/browse-by/suppliers/ushio-america');
@@ -9425,10 +11525,10 @@ INSERT INTO products VALUES (1318, 2, 'Vacuum pump Vacuubrand ME1C', NULL, 'duts
 INSERT INTO products VALUES (1318, 3, 'Aspiration system Biochem VacuuCenter BVC Basic G model', NULL, 'dutscher', 'https://www.dutscher.com/article/978018');
 INSERT INTO products VALUES (1318, 4, 'Aspiration system Biochem VacuuCenter BVC Control G model', NULL, 'dutscher', 'https://www.dutscher.com/article/978020');
 INSERT INTO products VALUES (1318, 5, 'Vacuubrand RZ2.5 vane pump with exhaust filter and shut-off valve', NULL, 'dutscher', 'https://www.dutscher.com/article/978032B');
-INSERT INTO israel_entities VALUES (1318, 'Labotal Scientific Equipment (1997) Ltd.', 'לבוטל ציוד מדעי', 'distributor', 'listed as a brand on the distributor''s site', 'https://labotal.co.il', '+972 2-579-9222', 'Sales@labotal.co.il', 'Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)', 'https://labotal.co.il/contact/', 2026, 'current', 'distributor_site_sweep', 'exact', 'https://labotal.co.il/represented-firms/');
+INSERT INTO israel_entities VALUES (1318, 'Labotal Scientific Equipment Ltd.', 'לבוטל ציוד מדעי', 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', 'https://labotal.co.il', '+972 2-579-9222', 'Sales@labotal.co.il', 'Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)', 'https://labotal.co.il/contact/', 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.vacuubrand.com/service-advice/contact/contacts-worldwide');
 INSERT INTO sources VALUES (1318, 'https://www.dutscher.com/search?initialFilters=brand:Vacuubrand');
-INSERT INTO sources VALUES (1318, 'https://labotal.co.il/represented-firms/');
 INSERT INTO sources VALUES (1318, 'https://www.vacuubrand.com/service-advice/contact');
+INSERT INTO sources VALUES (1318, 'https://www.vacuubrand.com/service-advice/contact/contacts-worldwide');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1319, 'valeo', 'Valeo', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/valeo', NULL, NULL, NULL, 'https://www.valeo.com', 'wikidata', 'France', 'צרפת', 'Paris', NULL, '1923', 'כלי עבודה ותחזוקה', 'כלי עבודה ותחזוקה', 'keyword_guess', 'French global automotive supplier', NULL, NULL, NULL, NULL, NULL, 'Q4916 22,044.0 m', '2023', 'company', 'wikidata', 'reported', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, 'Paris', 'https://www.valeo.com/en/calendar-and-contacts/', 'https://www.valeo.com/en/calendar-and-contacts/', 'Q1305281');
 INSERT INTO products VALUES (1319, 1, 'Leather Lifting Belts', NULL, 'thomassci', 'https://www.thomassci.com/p/leather-lifting-belts');
 INSERT INTO products VALUES (1319, 2, 'Heavy-Duty Elastic Back Supports', NULL, 'thomassci', 'https://www.thomassci.com/p/heavy-duty-elastic-back-supports');
@@ -9523,7 +11623,26 @@ INSERT INTO sources VALUES (1328, 'https://topaziende.quotidiano.net/?p=150864')
 INSERT INTO sources VALUES (1328, 'https://www.velp.com/en-ww/velps-recognition-in-the-top500-2024-companies-of-monza-province.aspx');
 INSERT INTO sources VALUES (1328, 'https://www.velp.com/en-ww/contact-us.aspx');
 INSERT INTO sources VALUES (1328, 'https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1329, 'veltek associates', 'Veltek Associates', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/veltek-associates', NULL, NULL, NULL, 'https://sterile.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '6106448335', 'customerservice@sterile.com', NULL, 'https://sterile.com/contact-us/', 'https://sterile.com/contact-us/', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1329, 'veltek associates', 'Veltek Associates', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/veltek-associates', NULL, NULL, NULL, 'https://sterile.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'בטיחות וציוד מגן', 'בטיחות וציוד מגן', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://sterile.com/) but no distributor name could be extracted automatically: «Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Gua»', '6106448335', 'customerservice@sterile.com', NULL, 'https://sterile.com/contact-us/', 'https://sterile.com/contact-us/', NULL);
 INSERT INTO products VALUES (1329, 1, 'DECON-CLEAN', NULL, 'thomassci', 'https://www.thomassci.com/p/decon-clean');
 INSERT INTO products VALUES (1329, 2, 'DECON-QUAT 100', NULL, 'thomassci', 'https://www.thomassci.com/p/decon-quat-100');
 INSERT INTO products VALUES (1329, 3, 'Decon-Peroxide Sterile 3%', NULL, 'thomassci', 'https://www.thomassci.com/p/decon-peroxide-sterile-3');
@@ -9531,6 +11650,7 @@ INSERT INTO products VALUES (1329, 4, 'Decon Clean, Non-Sterile', NULL, 'thomass
 INSERT INTO products VALUES (1329, 5, 'Decon-Spore 200 plus Disinfectant', NULL, 'thomassci', 'https://www.thomassci.com/p/decon-spore-200-plus-disinfectant');
 INSERT INTO sources VALUES (1329, 'https://www.thomassci.com/browse-by/suppliers/veltek-associates');
 INSERT INTO sources VALUES (1329, 'https://sterile.com/contact-us/');
+INSERT INTO sources VALUES (1329, 'https://sterile.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1330, 'venair', 'Venair', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Venair', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1330, 1, 'Venabio Flow silicone tubing - ø int. x ø ext. x L: 3.2 mm x 6.4 mm x 15.24 m', NULL, 'dutscher', 'https://www.dutscher.com/article/823506');
 INSERT INTO products VALUES (1330, 2, 'Venabio Flow silicone tubing - ø int. x ø ext. x L: 4.8 mm x 6.4 mm x 15.24 m', NULL, 'dutscher', 'https://www.dutscher.com/article/823511');
@@ -9643,7 +11763,37 @@ INSERT INTO sources VALUES (1346, 'https://www.thomassci.com/browse-by/suppliers
 INSERT INTO sources VALUES (1346, 'https://www.wikidata.org/wiki/Q134687219');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1347, 'wayfast', 'WayFast', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/wayfast', NULL, NULL, NULL, 'https://gowayfast.com', 'clearbit', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1347, 'https://www.thomassci.com/browse-by/suppliers/wayfast');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1348, 'wearwell', 'Wearwell', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/wearwell', NULL, NULL, NULL, 'https://wearwell.com', 'clearbit_verified', 'United Kingdom', 'בריטניה', 'Wolverhampton', NULL, '1889', NULL, NULL, NULL, 'British cycle and motorcycle manufacturer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-800-264-3030', 'info@wearwell.com', 'Wolverhampton', 'https://www.wearwell.com/contacts', 'https://www.wearwell.com/contacts', 'Q2257655');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1348, 'wearwell', 'Wearwell', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/wearwell', NULL, NULL, NULL, 'https://wearwell.com', 'clearbit_verified', 'United Kingdom', 'בריטניה', 'Wolverhampton', NULL, '1889', NULL, NULL, NULL, 'British cycle and motorcycle manufacturer', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.wearwell.com/) but no distributor name could be extracted automatically: «Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guernsey
+
+Guinea
+
+Guinea-Bissau
+
+Guyana
+
+Haiti
+
+Heard & McDonald Islands
+
+Ho»', '1-800-264-3030', 'info@wearwell.com', 'Wolverhampton', 'https://www.wearwell.com/contacts', 'https://www.wearwell.com/contacts', 'Q2257655');
 INSERT INTO products VALUES (1348, 1, 'Electrically Conductive Anti-Fatigue Mats', NULL, 'thomassci', 'https://www.thomassci.com/p/electrically-conductive-anti-fatigue-mats');
 INSERT INTO products VALUES (1348, 2, 'Wearwell Clean Room Mat', NULL, 'thomassci', 'https://www.thomassci.com/p/wearwell-clean-room-mat');
 INSERT INTO products VALUES (1348, 3, 'Vinyl-Tech Spongecote Mats', NULL, 'thomassci', 'https://www.thomassci.com/p/vinyl-tech-spongecote-mats');
@@ -9652,6 +11802,7 @@ INSERT INTO products VALUES (1348, 5, 'Soft Step Mat', NULL, 'thomassci', 'https
 INSERT INTO sources VALUES (1348, 'https://www.thomassci.com/browse-by/suppliers/wearwell');
 INSERT INTO sources VALUES (1348, 'https://www.wikidata.org/wiki/Q2257655');
 INSERT INTO sources VALUES (1348, 'https://www.wearwell.com/contacts');
+INSERT INTO sources VALUES (1348, 'https://www.wearwell.com/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1349, 'welch', 'Welch', 'D+T', 'https://www.dutscher.com/search?initialFilters=brand:Welch', 'https://www.thomassci.com/browse-by/suppliers/welch', NULL, NULL, NULL, 'https://www.welchvacuum.com', 'manual', NULL, NULL, NULL, NULL, NULL, 'ציוד', 'ציוד', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_search', 'לא נמצא בחיפוש ראשוני', 'partial', 'חיפוש חלקי', NULL, 'Welch Vacuum (Gardner Denver, Niles IL) results list US distributors (A-VAC, Ideal Vacuum, Across International) and Fisher EU pages; no Israel mention. Note: website in targets (welchs.com) is the juice brand, not Welch Vacuum.', NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO products VALUES (1349, 1, 'CRVpro Direct Drive Rotary Vane Vacuum Pumps', NULL, 'thomassci', 'https://www.thomassci.com/p/crvpro-direct-drive-rotary-vane-vacuum-pumps');
 INSERT INTO products VALUES (1349, 2, 'Welch Vacuum Hose', NULL, 'thomassci', 'https://www.thomassci.com/p/vacuum-hose-1/4id-5-ft-length');
@@ -9682,12 +11833,19 @@ INSERT INTO sources VALUES (1352, 'https://www.wikidata.org/wiki/Q36875363');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1353, 'west chester protective gear', 'West Chester Protective Gear', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/west-chester-protective-gear', NULL, NULL, NULL, 'https://www.westchestergear.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, 'https://westchestergear.com/', NULL);
 INSERT INTO sources VALUES (1353, 'https://www.thomassci.com/browse-by/suppliers/west-chester-protective-gear');
 INSERT INTO sources VALUES (1353, 'https://westchestergear.com/');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1354, 'west pharmaceutical services', 'West Pharmaceutical Services', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/west-pharmaceutical-services', NULL, NULL, NULL, 'https://westpharma.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '1-800-345-9800', NULL, NULL, 'https://www.westpharma.com/support/contact-us', 'https://www.westpharma.com/support/contact-us', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1354, 'west pharmaceutical services', 'West Pharmaceutical Services', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/west-pharmaceutical-services', NULL, NULL, NULL, 'https://westpharma.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'פיפטות ומתכלים', 'פיפטות ומתכלים', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.westpharma.com/global-locations) but no distributor name could be extracted automatically: «6
+Ireland
+Phone: 353 51 312 481
+ISO 9001 and 15378 certified facility
+
+Operation
+: Manufacturing of rubber sheeting, pharma wash, envision, cleanroom packaging »', '1-800-345-9800', NULL, NULL, 'https://www.westpharma.com/support/contact-us', 'https://www.westpharma.com/support/contact-us', NULL);
 INSERT INTO products VALUES (1354, 1, 'Stopper, Butyl, Gray, 20mm', NULL, 'thomassci', 'https://www.thomassci.com/p/stopper-butyl-gray-20mm');
 INSERT INTO products VALUES (1354, 2, 'adaptiQ® cup nest with TopLine vials', NULL, 'thomassci', 'https://www.thomassci.com/p/adaptiq-cup-nest-with-topline-vials');
 INSERT INTO products VALUES (1354, 3, 'PLASCAP® plastic vial cap', NULL, 'thomassci', 'https://www.thomassci.com/p/plascap-plastic-vial-cap');
 INSERT INTO sources VALUES (1354, 'https://www.thomassci.com/browse-by/suppliers/west-pharmaceutical-services');
 INSERT INTO sources VALUES (1354, 'https://www.westpharma.com/support/contact-us');
+INSERT INTO sources VALUES (1354, 'https://www.westpharma.com/global-locations');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1355, 'wheaton', 'Wheaton', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Wheaton', NULL, NULL, NULL, NULL, 'https://www.dwk.com', 'prior', 'Germany', 'גרמניה', 'Mainz (sources also cite Wertheim; US headquarters Millville, New Jersey)', 'One Equity Partners (portfolio company)', 2017, 'Labware & consumables (plastic & glass)', 'מתכלים וציוד קטן', 'catalog_facet', NULL, 1800, 2025, 'company', 'prior', 106, 'USD 105.7 million', 'FY2023', 'estimate', 'prior', 'mixed', 'distributor', 'מפיץ/נציג בישראל', 'partial', 'חיפוש חלקי', 2026, 'חיפוש רשת בלבד; דפי ״מפיצים״ של היצרן ואתרי המפיצים לא נפתחו (חסימת רשת). [אימות עדכניות 10/2026] Re-checked on 2026-10-15: dwk.com''s ''Global Distributors'' locator is location based and no Israeli distributor appears in any snippet. Danyel Biotech''s live SciLabware brand page still presents SciLabware as ''a DWK Life Sciences company'' and lists the Pyrex, Quickfit, MBL, Azlon, Ramboldi and WHEATON lines, so Danyel''s SciLabware/Wheaton channel is current; no Israeli site naming DURAN or KIMBLE surfaced, so the channel for those lines remains unknown. Danyel Biotech''s own brand page ''SciLabware - Danyel Biotech'' presents SciLabware as ''a DWK Life Sciences company'' and lists its 6,000+ products (Pyrex borosilicate and Quickfit jointed glassware, MBL volumetric ware, Azlon plasticware, Wheaton packaging and dropper bottles), so Danyel represents at least DWK''s UK SciLabware/Wheaton range in Israel. Searches for DURAN, Wheaton and Kimble across the 40 Israeli distributor domains and a Hebrew query (''DURAN בקבוקי זכוכית מעבדה יבואן ישראל'') found no Israeli site naming DURAN or KIMBLE, so the channel for those lines (possibly general lab-supply houses or VWR/Thermo catalogues) remains unidentified. DWK''s own site was not searched within the budget.', '+49 9342 802-0', NULL, 'Otto-Schott-Str. 21, 97877 Wertheim, Germany', 'https://www.dwk.com/request-a-quote', 'https://dwk.com/na/locations/wertheim-germany', NULL);
 INSERT INTO products VALUES (1355, 1, 'DURAN laboratory glass bottles', 'GL 45 borosilicate 3.3 bottles & lab glassware', 'prior', NULL);
 INSERT INTO products VALUES (1355, 2, 'WHEATON vials & serum bottles', 'glass vials, serum bottles, packaging', 'prior', NULL);
@@ -9748,11 +11906,13 @@ INSERT INTO products VALUES (1362, 3, 'Microwave Vial', NULL, 'thomassci', 'http
 INSERT INTO products VALUES (1362, 4, 'Vial Closures', NULL, 'thomassci', 'https://www.thomassci.com/p/vial-closures');
 INSERT INTO products VALUES (1362, 5, 'High Recovery Vials', NULL, 'thomassci', 'https://www.thomassci.com/p/high-recovery-vials');
 INSERT INTO sources VALUES (1362, 'https://www.thomassci.com/browse-by/suppliers/worldwide-glass-resources');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1363, 'worthington biochemical', 'Worthington Biochemical', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://worthington-biochem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'partial', 'חיפוש חלקי', 2026, NULL, '1.800.445.9603', NULL, NULL, NULL, 'https://www.worthington-biochem.com/', NULL);
-INSERT INTO israel_entities VALUES (1363, 'Enco Scientific Services Ltd. (Enco Diagnostics)', 'אנקו', 'distributor', 'Enco''s About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)', 'https://www.enco.co.il', NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_or_press', NULL, 'https://www.enco.co.il/about.php');
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1363, 'worthington biochemical', 'Worthington Biochemical', 'Q', NULL, NULL, 'yes', NULL, NULL, 'https://worthington-biochem.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, '1.800.445.9603', NULL, NULL, NULL, 'https://www.worthington-biochem.com/', NULL);
+INSERT INTO israel_entities VALUES (1363, 'Enco Scientific Services Ltd.', NULL, 'distributor', 'listed for Israel on the manufacturer''s own distributor / contact page', NULL, NULL, NULL, NULL, NULL, 2026, 'current', 'manufacturer_distributor_page', 'mfr_page', 'https://www.worthington-biochem.com/support/distributors');
+INSERT INTO israel_entities VALUES (1363, 'Enco', 'אנקו', 'distributor', 'listed as a brand on the distributor''s site', 'https://www.enco.co.il/', '+972-3-934-9922', 'orders@enco.co.il', '17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001', NULL, 2026, 'current', 'distributor_site_sweep', 'exact', 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (1363, 'https://www.quartzy.com/suppliers');
+INSERT INTO sources VALUES (1363, 'https://www.enco.co.il/suppliers.php');
 INSERT INTO sources VALUES (1363, 'https://www.worthington-biochem.com/');
-INSERT INTO sources VALUES (1363, 'https://www.enco.co.il/about.php');
+INSERT INTO sources VALUES (1363, 'https://www.worthington-biochem.com/support/distributors');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1364, 'wpi', 'WPI', 'D', 'https://www.dutscher.com/search?initialFilters=brand:WPI', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'מתכלים וציוד קטן', 'מתכלים וציוד קטן', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'distributor', 'מפיץ/נציג בישראל', 'sweep', 'סריקת אתרי מפיצים', 2026, NULL, NULL, NULL, NULL, NULL, NULL, 'Q8036798');
 INSERT INTO products VALUES (1364, 1, 'MicroFil needle non-metallic gauge 34G', NULL, 'dutscher', 'https://www.dutscher.com/article/050200');
 INSERT INTO products VALUES (1364, 2, 'Stainless steel clamp', NULL, 'dutscher', 'https://www.dutscher.com/article/500085');
@@ -9879,7 +12039,37 @@ INSERT INTO sources VALUES (1375, 'https://yukonmedical.com/contact-us/');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1376, 'zep', 'Zep', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/zep', NULL, NULL, NULL, 'https://www.zep.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '(877)-428-9937', 'info@cyclect.com.sg', NULL, 'https://zep.com/pages/contact', 'https://zep.com/pages/contact', NULL);
 INSERT INTO sources VALUES (1376, 'https://www.thomassci.com/browse-by/suppliers/zep');
 INSERT INTO sources VALUES (1376, 'https://zep.com/pages/contact');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1377, 'zeptometrix', 'ZeptoMetrix', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/zeptometrix', NULL, NULL, NULL, 'https://zeptometrix.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '+1.716.882.0920', NULL, NULL, 'https://www.zeptometrix.com/us/en/contact', 'https://www.zeptometrix.com/us/en/contact', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1377, 'zeptometrix', 'ZeptoMetrix', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/zeptometrix', NULL, NULL, NULL, 'https://zeptometrix.com', 'clearbit_verified', NULL, NULL, NULL, NULL, NULL, 'ריאגנטים וביולוגיה מולקולרית', 'ריאגנטים וביולוגיה מולקולרית', 'keyword_guess', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.zeptometrix.com) but no distributor name could be extracted automatically: «rench Guiana
+
+French Polynesia
+
+Gabon
+
+Gambia
+
+Georgia
+
+Germany
+
+Ghana
+
+Gibraltar
+
+Greece
+
+Greenland
+
+Grenada
+
+Guadeloupe
+
+Guam
+
+Guatemala
+
+Guinea
+
+Guinea-Bissa»', '+1.716.882.0920', NULL, NULL, 'https://www.zeptometrix.com/us/en/contact', 'https://www.zeptometrix.com/us/en/contact', NULL);
 INSERT INTO products VALUES (1377, 1, 'NATtrol Tropical Fever Verification Panel (9 x 0.3mL, 3 x 1.0mL)', NULL, 'thomassci', 'https://www.thomassci.com/p/nattrol-tropical-fever-verification-panel-9-x-0-3ml-3-x-1-0ml');
 INSERT INTO products VALUES (1377, 2, 'NATtrol™ Global Fever Panel', NULL, 'thomassci', 'https://www.thomassci.com/p/nattrol-global-fever-panel');
 INSERT INTO products VALUES (1377, 3, 'HBV Seroconversion Panel Donor# 65584 (8 X 1 mL)', NULL, 'thomassci', 'https://www.thomassci.com/p/hbv-seroconversion-panel-donor-number-65584-8-x-1-ml');
@@ -9887,11 +12077,31 @@ INSERT INTO products VALUES (1377, 4, 'NATtrol Staphylococcus aureus (MRSA) Exte
 INSERT INTO products VALUES (1377, 5, 'NATtrol MRSA Positive Control (6 X 0.5 mL)', NULL, 'thomassci', 'https://www.thomassci.com/p/nattrol-mrsa-positive-control-6-x-0-5-ml');
 INSERT INTO sources VALUES (1377, 'https://www.thomassci.com/browse-by/suppliers/zeptometrix');
 INSERT INTO sources VALUES (1377, 'https://www.zeptometrix.com/us/en/contact');
+INSERT INTO sources VALUES (1377, 'https://www.zeptometrix.com');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1378, 'zhejiang fangye biotech', 'Zhejiang Fangye BioTech', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/zhejiang-fangye-biotech', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO sources VALUES (1378, 'https://www.thomassci.com/browse-by/suppliers/zhejiang-fangye-biotech');
-INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1379, 'zoll', 'ZOLL', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/zoll', NULL, NULL, NULL, 'https://www.zoll.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, '9784219655', NULL, NULL, 'https://www.zoll.com/en-us/about/newsroom', 'https://www.zoll.com/en-us/about/newsroom', NULL);
+INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1379, 'zoll', 'ZOLL', 'T', NULL, 'https://www.thomassci.com/browse-by/suppliers/zoll', NULL, NULL, NULL, 'https://www.zoll.com', 'manual', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'unclear', 'לא ברור', 'partial', 'חיפוש חלקי', NULL, ' | "Israel" appears on the manufacturer''s distributor/contact page (https://www.zoll.com/en-us/contact/worldwide-locations) but no distributor name could be extracted automatically: «burgh (Cardiac Management Solutions)
+
+• New Jersey
+
+• San Jose (Circulation Products)
+
+• Canada
+
+South America
+
+• Brazil
+
+• Latin America
+
+Europe
+
+• France
+
+• G»', '9784219655', NULL, NULL, 'https://www.zoll.com/en-us/about/newsroom', 'https://www.zoll.com/en-us/about/newsroom', NULL);
 INSERT INTO sources VALUES (1379, 'https://www.thomassci.com/browse-by/suppliers/zoll');
 INSERT INTO sources VALUES (1379, 'https://www.zoll.com/en-us/about/newsroom');
+INSERT INTO sources VALUES (1379, 'https://www.zoll.com/en-us/contact/worldwide-locations');
 INSERT INTO suppliers (id, key, name, catalogs, dutscher_url, thomassci_url, quartzy, quartzy_new, own_brand_of, website, website_source, country, country_he, hq, parent, inception, industry, category, category_source, description, employees, employees_year, employees_scope, employees_source, revenue_usd_m, revenue_original, revenue_year, revenue_scope, revenue_source, size_basis, israel_presence, israel_presence_he, israel_check, israel_check_he, israel_evidence_year, israel_note, contact_phone, contact_email, contact_address, contact_url, contact_source, wikidata) VALUES (1380, 'zwiebel', 'Zwiebel', 'D', 'https://www.dutscher.com/search?initialFilters=brand:Zwiebel', NULL, NULL, NULL, NULL, 'https://www.zwiebel.fr', 'manual', NULL, NULL, NULL, NULL, NULL, 'מכשירי מדידה', 'מכשירי מדידה', 'catalog_facet', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'unknown', 'not_found_in_sweep', 'לא נמצא בסריקת המפיצים', 'sweep', 'סריקת אתרי מפיצים', NULL, NULL, NULL, NULL, NULL, 'https://www.zwiebel.fr/contact/', 'https://www.zwiebel.fr/contact/', NULL);
 INSERT INTO products VALUES (1380, 1, 'Anti-vibration benchtop, W x D x H = 550 x 450 x 65 mm', NULL, 'dutscher', 'https://www.dutscher.com/article/677856');
 INSERT INTO products VALUES (1380, 2, 'Anti-vibration bench, W x D x H = 700 x 600 x 750 mm', NULL, 'dutscher', 'https://www.dutscher.com/article/677854');

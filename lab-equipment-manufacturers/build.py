@@ -339,19 +339,54 @@ def load_rows():
     for k, hits in load_json(ENRICH / "israel_knowledge.json", {}).items():
         il.setdefault(k, [])
         il[k] = list(hits) + il[k]
+    mfr_unnamed = {}
+    IL_PHONE = re.compile(r"(?:\+\s?972|\(972\)|\b972)[\s\-\.]?\(?0?\d{1,2}\)?[\s\-\.]?\d{3}[\s\-\.]?\d{4}|\b0(?:[23489]|5\d|7\d)[\s\-\.]?\d{3}[\s\-\.]?\d{4}\b")
+    IL_EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.(?:co\.il|org\.il|ac\.il|net\.il|il)\b")
+
+    def reinterpret(snippet, known):
+        """Name / contact strictly from the lines adjacent to 'Israel' and the 250 chars after it."""
+        lines = [ln.strip() for ln in snippet.splitlines() if ln.strip()]
+        idx = next((i for i, ln in enumerate(lines) if re.search(r"\bIsrael\b|ישראל", ln, re.I)), None)
+        name = known
+        if idx is not None and not name:
+            il_line = lines[idx]
+            cands = [idx] if len(il_line) > 20 else [idx + 1, idx]
+            for j in cands:
+                if 0 <= j < len(lines):
+                    ln = re.sub(r"\bIsrael\b[:\-–]*", "", lines[j], flags=re.I).strip(" :-–,|")
+                    if re.fullmatch(r"(israel|ישראל)", ln, re.I) or not ln:
+                        continue
+                    if 5 <= len(ln) <= 60 and COMPANYISH.search(ln) and not re.search(r"@|www\.|http|\d{5,}|\b(tel|phone|fax|email|distributor|dealer|contact|find|search|select|country|region|list|our|your|the|company|asia|europe|africa|pacific|middle east)\b", ln, re.I):
+                        name = ln
+                        break
+        pos = snippet.lower().find("israel")
+        tail = snippet[pos:pos + 260] if pos >= 0 else ""
+        ph = IL_PHONE.search(tail)
+        em = next((m.group(0).lower() for m in IL_EMAIL.finditer(tail) if re.match(r"(info|sales|office|contact|mail|support|service|orders?|lab|marketing|export|diag|enco|danyel|origolab|a2s|spectro|industry)@", m.group(0), re.I)), None)
+        return name, (re.sub(r"\s+", " ", ph.group(0)).strip() if ph else None), em
+    COMPANYISH = re.compile(r"\b(ltd|inc|llc|gmbh|agencies|engineering|technolog|diagnost|laborator|scientific|biotech|bio\b|tech\b|medical|instruments?|equipment|systems|solutions|industries|trading|supplies|group|sons?|bros|co\.|company|israel)\b", re.I)
     for k, rec in load_json(ENRICH / "mfr_israel.json", {}).items():
         hits = []
+        own = {t for t in k.split() if len(t) >= 4}
         for h in rec.get("hits") or []:
-            if not h.get("name"):
+            known = h.get("name") if h.get("known_distributor") else None
+            nm, ph, em = reinterpret(h.get("snippet") or "", known)
+            if nm and not known:
+                low = nm.lower()
+                if any(t in low for t in own) or re.fullmatch(r"(company|ltd\.?|inc\.?)", low):
+                    nm = None
+            if not nm:
                 continue
-            typ = "subsidiary" if re.search(r"\b(ltd|office|branch|subsidiary|israel)\b", h["name"], re.I) and re.search(r"\bIsrael\b", h["name"]) else "distributor"
-            hits.append({"name": h["name"], "type": typ, "website": None, "phone": h.get("phone"), "email": h.get("email"),
+            typ = "subsidiary" if re.search(r"\bIsrael\b", nm) and re.search(r"\b(ltd|office|branch|subsidiary)\b", nm, re.I) else "distributor"
+            hits.append({"name": nm, "type": typ, "website": None, "phone": ph, "email": em,
                          "scope": "listed for Israel on the manufacturer's own distributor / contact page",
                          "source": h.get("url"), "evidence_year": 2026, "status": "current", "match_basis": "manufacturer_distributor_page",
                          "match_confidence": "mfr_page", "evidence": (h.get("snippet") or "")[:200]})
         if hits:
             il.setdefault(k, [])
             il[k] = hits + il[k]
+        elif rec.get("hits"):
+            mfr_unnamed[k] = rec["hits"][0]
     for k, hits in load_json(ENRICH / "israel_mentions.json", {}).items():
         il.setdefault(k, [])
         il[k] = il[k] + [dict(h, match_basis="distributor_site_mention", scope="brand mentioned on the distributor's product pages (not necessarily the brand's main lines)") for h in hits]
@@ -363,7 +398,16 @@ def load_rows():
     rows = []
     for m in master:
         k = m["key"]
-        rows.append(build_row(m, prior.get(k), resolved.get(k), il.get(k), il_reg, prods.get(k), contacts.get(k), overrides.get(k), searched.get(k)))
+        row = build_row(m, prior.get(k), resolved.get(k), il.get(k), il_reg, prods.get(k), contacts.get(k), overrides.get(k), searched.get(k))
+        if k in mfr_unnamed and row["israel_presence"] in ("not_found_in_sweep", "not_found_in_search"):
+            h = mfr_unnamed[k]
+            row["israel_presence"] = "unclear"
+            row["israel_presence_he"] = PRESENCE_HE["unclear"]
+            row["israel_check"] = "partial"
+            row["israel_check_he"] = CHECK_HE["partial"]
+            row["israel_note"] = (row.get("israel_note") or "") + f' | "Israel" appears on the manufacturer\'s distributor/contact page ({h.get("url")}) but no distributor name could be extracted automatically: «{(h.get("snippet") or "")[:160]}»'
+            row["sources"] = list(dict.fromkeys(row["sources"] + [h.get("url")]))
+        rows.append(row)
     return rows
 
 
