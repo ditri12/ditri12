@@ -181,6 +181,9 @@ def follow_jobs(job, out):
     with open(path, encoding="utf-8") as f:
         links = json.load(f)
     rx = re.compile(pat, re.I)
+    prio = re.compile(job["follow_priority"], re.I) if job.get("follow_priority") else None
+    if prio:
+        links = sorted(links, key=lambda l: 0 if (prio.search(l["href"]) or prio.search(l.get("text") or "")) else 1)
     from urllib.parse import urlparse
     host = urlparse(job["url"]).netloc.lower().replace("www.", "")
     seen, extra = set(), []
