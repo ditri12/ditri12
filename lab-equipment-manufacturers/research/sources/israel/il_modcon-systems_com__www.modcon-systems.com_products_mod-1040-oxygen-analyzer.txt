@@ -1,0 +1,978 @@
+MOD-1040 Oxygen Analyzer | High-Pressure Gas
+
+Skip to content
+
+Open toolbar
+
+Accessibility Tools
+
+Increase Text
+
+Decrease Text
+
+Grayscale
+
+High Contrast
+
+Negative Contrast
+
+Light Background
+
+Links Underline
+
+Readable Font
+
+Reset
+
+Skip to content
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Search
+
+MOD-1040 Oxygen Analyzer for High-Pressure Hydrogen and Hydrocarbon Gases
+
+For further details and specifications
+Choose the PDF files to download
+
+MOD-1040 Oxygen Analyzer
+
+MOD 1040&1060 in Green Hydrogen
+
+MOD-1040 In Situ Oxygen Analysis in High-Pressure Industrial Gases
+
+MOD 1040 in Hydrogen Applications
+
+MOD 1040 in Natural Gas Applications
+
+MOD 1040 in Biogas Applications
+
+Certificate of IECEx
+
+Certificate of ATEX
+
+Certificate of SIL-2
+
+Guide to Oxygen Measurement
+
+Sample Manifold Catalog 5-MF
+
+ECAS-Ex Certificate
+Download PDF
+Please choose at least one file
+
+Facebook
+This field is for validation purposes and should be left unchanged.
+Please fill in the form to download the PDF files
+Name
+*
+
+First
+
+Last
+
+Email
+*
+
+Phone
+Company name
+*
+Country
+Files
+PDF
+
+Download PDF
+
+MOD-1040 In-Situ Optical Oxygen Analyzer for High-Pressure Process Gas
+The MOD-1040 Oxygen Analyzer is patented in-situ optical oxygen analyzer designed for continuous oxygen measurement in high-pressure hydrogen, natural gas and hydrocarbon
+process gas
+applications. It provides real-time oxygen monitoring for refineries, petrochemical plants, natural gas systems, hydrogen production facilities, pipelines, biogas upgrading plants and other demanding industrial gas processes.
+Unlike conventional extractive oxygen analyzers, MOD-1040 measures oxygen directly at the process location, helping reduce sample transport delays, sample conditioning requirements and maintenance complexity. This makes it suitable for high-pressure gas streams, hydrocarbon-rich process gases, H2S-containing gas, natural gas pipelines,
+refinery
+gas, flare gas, petrochemical units and safety-critical hydrogen applications.
+The analyzer measures oxygen from 1 ppm to 100% O2, operates at process pressures up to 350 barg and provides fast T90 response below 5 seconds. With ATEX, IECEx and SIL 2 certification, MOD-1040 supports hazardous-area and safety-related applications where reliable oxygen monitoring is essential for process safety, gas quality, corrosion prevention, asset protection and operational efficiency.
+In-situ optical oxygen measurement.
+Designed for high-pressure process gas applications.
+Suitable for hydrogen, natural gas and hydrocarbon gas streams.
+Oxygen measurement from 1 ppm to 100% O2.
+Process pressure up to 350 barg.
+Fast T90 response below 5 seconds.
+ATEX, IECEx and SIL 2 certified.
+Suitable for refineries, petrochemicals,
+natural gas
+, biogas and hydrogen production.
+Reduced sample conditioning and lower maintenance requirements.
+Integration with DCS, PLC, SCADA and
+AI-enabled process monitoring
+systems.
+For broader information about industrial oxygen analyzer applications, including hydrogen, natural gas, refinery gas and hydrocarbon process gas, see our
+oxygen analyzer solutions
+page.
+The MOD-1040 High-Pressure Oxygen Analyzer is a next-generation patented industrial oxygen analyzer designed for continuous, real-time oxygen measurement in hydrogen, oxygen, and process gas applications operating under the most demanding conditions. The analyzer performs true in-situ oxygen measurement without sample extraction, conditioning systems, pumps, filters, or transport lines, providing immediate process visibility and superior measurement reliability.
+The MOD-1040 measures oxygen concentrations from 1 ppm to 100% O₂ on a single platform, operates at process pressures up to 350 barg (5,076 psi), delivers T90 response times below 5 seconds, and is certified for ATEX and IECEx Zone 1 hazardous area installations and SIL 2 safety applications. ETL Class I Division 1 approvals are currently pending, making the analyzer suitable for global deployment across hydrogen, industrial gas, petrochemical, natural gas, biogas, and energy infrastructure projects.
+Designed specifically for hydrogen production, PEM and alkaline electrolyzers, hydrogen storage and transportation systems, industrial gas facilities, refineries, petrochemical plants, ammonia production, and natural gas infrastructure, the MOD-1040 combines advanced optical sensing technology with automatic pressure and temperature compensation, Bluetooth-enabled commissioning, flexible calibration options, and multiple corrosion-resistant material selections for the most aggressive process environments.
+Field-proven across petrochemical, refinery, natural gas, and biogas installations worldwide, the MOD-1040 delivers reliable trace oxygen measurement down to ppm levels in process streams containing hydrocarbons and high concentrations of H₂S. This unique capability enables accurate oxygen monitoring in applications where conventional analyzers often suffer from reduced performance, excessive maintenance, or premature sensor degradation. The result is superior process safety, improved asset protection, enhanced product quality, corrosion prevention, catalyst protection, gas quality assurance, and lower operating costs in some of the industry’s most demanding environments.
+Unlike conventional extractive oxygen analyzers that introduce transport delays, increase maintenance requirements, and require costly sample conditioning systems, the MOD-1040 measures oxygen directly at the process location, enabling faster detection of gas crossover events, improved process safety, enhanced hydrogen purity control, reduced CAPEX and OPEX, and superior performance for Advanced Process Control (APC), Digital Twins, AI-based optimization, and predictive maintenance applications.
+Why Choose MOD-1040?
+Modern hydrogen and industrial gas facilities require accurate oxygen measurement, immediate response to process deviations, and reliable operation under extreme process conditions. The MOD-1040 delivers:
+True in-situ oxygen measurement
+Oxygen measurement from 1 ppm to 100% O₂
+High-pressure operation up to 350 barg
+T90 response time below 5 seconds
+SIL 2 certified
+ATEX / IECEx Zone 1 certified
+ETL Class I Division 1 pending
+Bluetooth commissioning and diagnostics
+Automatic pressure and temperature compensation
+No sample extraction systems required
+Reduced lifecycle costs
+Direct integration with DCS, PLC and SCADA systems
+Proven performance in hydrogen, hydrocarbons, H₂S-rich gas streams, natural gas, biogas, and refinery applications
+Contact us to learn more
+about MOD-1040 Oxygen Analyzer
+Industry-Leading
+High-Pressure Oxygen Analyzer
+MOD-1040 Oxygen Analyzer is based on patented photonics technology that relies on luminescence quenching of a specially-designed sensor dye, which is immobilized on a support foil. The sensing layer is stimulated with red light, and the resulting luminescence is measured in the near-infrared range of the electromagnetic spectrum.
+The sensor technology is designed to be a compact, plug-in component that can be easily replaced in the field. The sensor features an infrared lamp source that excites a sensing layer, and the properties of the emitted luminescence are measured in the near-infrared range. In the presence of the target gas, the luminescence is quenched, resulting in a reversible change in both intensity and lifetime of the luminescence. MOD-1040 can accurately measure and analyze this process, enabling precise detection and quantification of molecular oxygen. This advanced sensing technology provides reliable and accurate results for various applications.
+With capability for direct installation in process lines operating at pressures up to 350 barg, the analyzer provides accurate oxygen measurement under conditions commonly associated with:
+Hydrogen production
+Green hydrogen projects
+PEM electrolyzers
+Alkaline electrolyzers
+Hydrogen storage systems
+Hydrogen compression stations
+Industrial gas production
+Compressed gas systems
+Refineries
+Petrochemical facilities
+Natural gas infrastructure
+Biogas upgrading systems
+Renewable Natural Gas (RNG)
+Unlike traditional extractive oxygen analyzers that require pressure reduction stations, sample transport tubing, regulators, pumps, and conditioning systems, the MOD-1040 performs oxygen measurement directly at the process location.
+Why Conventional Oxygen Analyzers Struggle in High-Pressure Hydrogen and Hydrocarbon Gases
+Traditional extractive oxygen analyzers often require pressure reduction stations, sample transport tubing, sample conditioning systems, pumps, filters and vent handling. In high-pressure hydrogen, natural gas and hydrocarbon process gases, these systems can increase response time, installation complexity, maintenance requirements and potential leak points.
+MOD-1040 performs oxygen measurement directly at the process location. This in-situ optical measurement approach helps reduce sample delay, simplify system design and improve real-time process visibility. For hydrogen production, natural gas pipelines, refinery gas, petrochemical gas, flare gas and H2S-rich process streams, faster oxygen measurement can support earlier detection of contamination, air ingress and abnormal process conditions.
+In modern hydrogen production facilities, electrolyzers, hydrogen storage systems, and high-pressure gas networks, these sampling systems introduce additional complexity, measurement delays, maintenance requirements, and potential leak points.
+The MOD-1040 eliminates these limitations through direct in-situ measurement, allowing oxygen concentrations to be measured directly within the process stream at pressures up to 350 barg. The result is faster detection of oxygen contamination, improved process safety, reduced maintenance requirements, lower lifecycle costs, and significantly improved analyzer reliability.
+Applications in Refinery, Petrochemical and Hydrocarbon Process Gases
+MOD-1040 is suitable not only for hydrogen applications but also for oxygen measurement in hydrocarbon-rich process gases, refinery gas, petrochemical gas, natural gas, flare gas, biogas and H2S-containing gas streams. In these applications, oxygen monitoring supports process safety, corrosion prevention, gas quality control, catalyst protection and asset reliability.
+In refineries and petrochemical plants, oxygen may indicate air ingress, contamination or abnormal process conditions. Continuous in-situ oxygen measurement helps operators detect these conditions faster than delayed laboratory sampling or traditional extractive
+analyzer systems
+.
+Typical hydrocarbon and process gas applications include refinery gas oxygen monitoring, petrochemical process gas analysis, natural gas pipeline oxygen measurement, flare gas and vent gas monitoring, biogas upgrading, H2S-rich sour gas applications and catalyst protection.
+Immediate oxygen concentration measurement
+No transport delays
+Faster process safety response
+Improved measurement accuracy
+Reduced maintenance requirements
+Lower installation costs
+Simplified system architecture
+Enhanced analyzer reliability
+Reduced ownership costs
+Elimination of sample conditioning systems
+Elimination of sample pumps and filters
+Reduced hydrogen venting requirements
+Fewer potential leak points
+Reduced hazardous area engineering requirements
+Oxygen Analyzer for Electrolyzers
+The MOD-1040 has been specifically developed as an oxygen analyzer for electrolyzers, providing continuous oxygen purity monitoring, hydrogen crossover detection, and real-time process safety monitoring for PEM and alkaline electrolyzer installations.
+Unlike extractive oxygen analyzers, the MOD-1040 performs direct in-situ oxygen measurement at pressures up to 350 barg, enabling faster response times, improved safety performance, and reduced maintenance requirements.
+The analyzer supports hydrogen production facilities ranging from pilot-scale installations to multi-gigawatt green hydrogen projects.
+Designed for Hydrogen and Electrolyzer Safety
+Hydrogen production facilities require continuous oxygen monitoring to ensure process safety, maintain gas purity, and detect dangerous crossover conditions before they become hazardous.
+The MOD-1040 provides continuous oxygen monitoring in:
+PEM Electrolyzers
+Oxygen purity monitoring
+Hydrogen crossover detection
+Process optimization
+Stack protection
+Safety system integration
+Alkaline Electrolyzers
+Oxygen concentration measurement
+Gas purity verification
+Process safety monitoring
+Electrolyte system optimization
+Hydrogen Storage and Transportation
+Oxygen contamination detection
+Purity assurance
+Safety monitoring
+Pipeline integrity monitoring
+Fuel Cell Applications
+Process gas monitoring
+Purity verification
+System performance optimization
+By delivering continuous real-time oxygen monitoring, the MOD-1040 helps operators improve efficiency, increase safety, and extend equipment life.
+Hydrogen Crossover Detection and Electrolyzer Protection
+One of the most critical safety challenges in PEM and Alkaline electrolyzers is the migration of hydrogen into oxygen streams or oxygen into hydrogen streams due to membrane degradation, separator damage, pressure imbalances, or abnormal operating conditions.
+The MOD-1040 continuously monitors oxygen concentrations in real time, enabling early detection of crossover events before hazardous gas mixtures develop.
+Fast response times below 5 seconds help maximize available Process Safety Time (PST) and provide operators with the information required to prevent equipment damage, maintain hydrogen purity, and protect personnel.
+Continuous crossover monitoring also supports predictive maintenance programs by identifying gradual membrane degradation before catastrophic failures occur.
+Advanced Optical Oxygen Measurement Technology
+The MOD-1040 utilizes advanced optical sensing technology to provide highly accurate oxygen measurement across the entire measurement range.
+Performance Highlights
+Measurement range: 1 ppm to 100% O₂
+Detection limit: 1 ppm O₂
+T90 response time: < 5 seconds
+Excellent repeatability
+Long-term measurement stability
+Minimal drift
+Low maintenance requirements
+Continuous online operation
+Exceptional reliability
+The analyzer continuously measures oxygen concentration under:
+High pressure
+High humidity
+Temperature fluctuations
+Process transients
+Aggressive gas compositions
+Hydrocarbon-rich gas streams
+High H₂S concentrations
+Automatic Pressure and Temperature Compensation
+Accurate oxygen measurement under changing process conditions requires compensation for pressure and temperature effects.
+Integrated P&T Compensation
+Two 4–20 mA analog inputs
+Direct connection to pressure transmitters
+Direct connection to temperature transmitters
+Automatic compensation calculations
+No external PLC required
+This capability improves measurement accuracy while simplifying installation and reducing engineering requirements.
+Bluetooth Commissioning and Diagnostics
+The MOD-1040 incorporates a Bluetooth Low Energy (BLE) interface that allows operators to access analyzer information directly from a mobile device.
+Bluetooth App Features
+Analyzer commissioning
+Configuration and setup
+Zero and span calibration
+Diagnostics and troubleshooting
+Real-time oxygen monitoring
+Device health verification
+Process status monitoring
+Simplified maintenance support
+Flexible Calibration and Maintenance
+Calibration Options
+Calibration through mobile app
+Calibration through Modbus RTU
+Remote calibration support
+Simplified field commissioning
+Reduced service requirements
+Low Maintenance Design
+No sample pumps
+No sample conditioning systems
+No transport tubing
+No sample extraction hardware
+Reduced consumables
+Reduced maintenance frequency
+Materials for Aggressive Process Environments
+Available Wetted Materials
+SST316 / SST316L (standard)
+Nickel 200 / 201
+Inconel 625
+Hastelloy C276
+These material options allow deployment in corrosive, sour gas, high-H₂S, and demanding process environments while maximizing long-term reliability.
+Optimized for Digital Transformation and AI
+The MOD-1040 provides high-quality oxygen measurement data for modern industrial automation platforms.
+Integration Capabilities
+PLC systems
+DCS systems
+SCADA systems
+Advanced Process Control (APC)
+Machine Learning applications
+Digital Twin platforms
+Predictive Maintenance systems
+AI-based optimization systems
+Safety Instrumented Systems (SIS)
+Typical Applications
+PEM Electrolyzers
+Alkaline Electrolyzers
+Hydrogen Compression Stations
+Hydrogen Storage Facilities
+Hydrogen Refueling Stations
+Fuel Cell Manufacturing
+Air Separation Units
+Nitrogen Generation Plants
+Biogas Upgrading
+Renewable Natural Gas (RNG)
+Refineries
+Petrochemical Plants
+LNG Facilities
+Natural Gas Transmission Pipelines
+Ammonia Production
+Carbon Capture Systems
+Reduce CAPEX and OPEX
+The MOD-1040 helps reduce total project costs by eliminating:
+Sample conditioning systems
+Pressure reduction stations
+Sample transport lines
+Analyzer shelters
+Sample pumps
+Heated sample systems
+Vent systems
+Benefits
+Lower engineering costs
+Reduced installation costs
+Faster commissioning
+Reduced maintenance
+Improved uptime
+Lower total cost of ownership
+Key Industries
+Hydrogen & Energy
+Green hydrogen
+production
+PEM electrolyzers
+Alkaline electrolyzers
+Hydrogen storage
+Hydrogen transportation
+Fuel cells
+Industrial Gases
+Air Separation Units (ASU)
+Oxygen generation
+Nitrogen generation
+Gas purification systems
+Specialty gas production
+Process Industries
+Refineries
+Petrochemical facilities
+Chemical processing
+Ammonia production
+Fertilizer manufacturing
+Natural gas pipelines
+LNG facilities
+Biogas upgrading plants
+Renewable Natural Gas (RNG)
+Carbon capture and utilization systems
+Certifications and Compliance
+SIL 2 Certified
+ATEX / IECEx Certified Zone 1 Approved
+ETL Class I Division 1 pending
+Designed for hazardous and safety-critical process environments
+The Future of Oxygen Measurement
+As hydrogen production, energy transition projects, industrial automation, and decarbonization initiatives continue to evolve, oxygen measurement systems must provide higher reliability, faster response times, broader operating ranges, and seamless integration with digital process technologies.
+The MOD-1040 combines direct in-situ oxygen measurement, 1 ppm sensitivity, 350 barg operation, SIL 2 functional safety, ATEX/IECEx certification, real-time process intelligence, and global hazardous-area compliance in a single platform, establishing a new benchmark for oxygen analyzers used in hydrogen production, electrolyzers, industrial gases, petrochemicals, biogas upgrading, natural gas processing, and other critical process applications.
+Ready to Improve Oxygen Measurement Performance?
+Whether you are developing a new hydrogen production facility, upgrading an existing electrolyzer installation, improving gas purity monitoring, or enhancing process safety, the MOD-1040 High-Pressure Oxygen Analyzer provides the performance, reliability, and real-time process intelligence required by modern industrial operations.
+Contact MODCON today to discuss your application and learn how the MOD-1040 can help improve safety, reduce operating costs, increase process efficiency, and support your digital transformation initiatives.
+Contact MODCON
+Request a technical consultation
+Schedule an application review
+Receive a product demonstration
+Discuss hydrogen and electrolyzer monitoring solutions
+Obtain a project quotation
+MOD-1040 High-Pressure Oxygen Analyzer — The New Benchmark for In-Situ Oxygen Measurement in Hydrogen, Energy, Industrial Gas, Petrochemical, Natural Gas, and Biogas Applications.
+
+Image Gallery
+
+Get your quote
+
+First Name
+(Required)
+Last Name
+(Required)
+Email
+(Required)
+
+Phone
+(Required)
+Company
+Country
+(Required)
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos Islands
+Colombia
+Comoros
+Congo
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czechia
+Côte d'Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People's Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Macedonia
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine, State of
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Réunion
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Sweden
+Switzerland
+Syria Arab Republic
+Taiwan
+Tajikistan
+Tanzania, the United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Türkiye
+US Minor Outlying Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Viet Nam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Åland Islands
+Product
+Choose your product
+Beacon-3000 NIR Analyzer
+MOD 4100 Crude Oil Analyser
+MOD 4140 On-Line Crude Oil Analyzer
+MOD-1060 Hydrogen Analyzer
+MOD 4100-S Salt in Crude Oil Analyser
+MOD-1022 Hydrocarbon Gas Analyzer
+MOD-1040 Oxygen Analyzer
+Sample Recovery System
+Filter Coalescer
+Analyzer Houses
+Advanced Blending Solutions
+Feasibility Studies
+Financing Structure Packages
+Engineering Services
+Project Execution
+Conception building
+Analyzer Systems
+Field Instrumentation overview
+Other
+Application/Parameter to measure
+Process temperature
+Process pressure
+Ambient conditions
+Hazardous zone
+
+Yes
+
+No
+
+Comments
+
+Get your quote!
+
+Frequently Asked Questions
+
+What is MOD-1040 Oxygen Analyzer used for?
+
+MOD-1040 Oxygen Analyzer is used for continuous oxygen measurement in high-pressure hydrogen, natural gas, refinery gas, petrochemical gas, biogas and other industrial process gas applications. It supports process safety, gas quality control, oxygen contamination detection and real-time process monitoring.
+
+How does MOD-1040 Oxygen Analyzer measure oxygen?
+
+MOD-1040 uses optical fluorescence quenching technology to measure oxygen concentration. Oxygen affects the fluorescence behaviour of the sensor material, and the analyzer converts this response into a precise oxygen measurement. This optical method enables fast and stable oxygen analysis without traditional extractive sampling systems.
+
+Why is in-situ oxygen measurement important in high-pressure gas applications?
+
+In-situ oxygen measurement allows oxygen to be measured directly at the process location without extracting and conditioning a gas sample. This reduces sample delay, simplifies the analyzer system and avoids potential changes in sample composition before measurement.
+
+What are the main advantages of MOD-1040 compared with traditional oxygen analyzers?
+
+The main advantages of MOD-1040 are direct installation on high-pressure pipelines, fast response, compact design and reduced need for sample extraction. Traditional paramagnetic, zirconia, coulometric and TDL oxygen analyzers are typically not designed for direct high-pressure installation and often require sample conditioning. The MOD-1040 helps reduce system complexity, response delay and installation cost while maintaining accurate oxygen measurement.
+
+What is the measurement range of MOD-1040 Oxygen Analyzer?
+
+The MOD-1040 Oxygen Analyzer measures oxygen from 1 ppm to 100% O₂ on a single analyzer platform. This wide measurement range allows it to support trace oxygen monitoring, process oxygen control and high-concentration oxygen measurement in hydrogen, natural gas, refinery gas and other industrial process gas applications.
+
+Can the MOD-1040 Oxygen Analyzer be used in hydrogen production?
+
+Yes. The MOD-1040 Oxygen Analyzer is suitable for hazardous-area applications and is certified for ATEX/IECEx/ECAS-Ex Zone 1 and ETL Class 1 Division installations. It is also SIL 2 certified for safety-related applications.
+
+Is MOD-1040 suitable for hazardous areas?
+
+Yes. The MOD-1040 Oxygen Analyzer is suitable for hazardous-area applications and is certified for ATEX/IECEx/ECAS-Ex Zone 1 and ETL Class 1 Division installations. It is also SIL 2 certified for safety-related applications.
+
+What response time does MOD-1040 provide?
+
+MOD-1040 provides a fast response time, with T90 below 5 seconds. This is important in applications where oxygen concentration can change quickly and operators need immediate process feedback. Fast oxygen analysis supports quicker detection of air ingress, process upsets and unsafe operating conditions.
+
+What pressure can MOD-1040 Oxygen Analyzer withstand?
+
+MOD-1040 is designed for high-pressure gas applications and can operate at process pressures up to 350 barg. This enables direct oxygen measurement in high-pressure hydrogen, natural gas and industrial process gas lines.
+
+How does MOD-1040 help reduce analyzer system complexity?
+
+Because MOD-1040 can be installed directly on the process pipe, it can reduce or eliminate the need for long sample lines, conditioning panels, pressure let-down systems and additional sampling equipment. This simplifies installation, improves response time and reduces maintenance points. For plant engineers, fewer pipes, fewer fittings and fewer ways for the sample to misbehave is usually a welcome result.
+
+Product News
+
+Modcon at Automation & Digitalization Conference in Houston, October 29-30
+
+Modcon at O&G Automation & Digitalization Conference...
+
+Read More >
+
+Modcon at Hydrogen Technology World Expo in Hamburg, October 20–22
+
+Modcon at Hydrogen Technology World Expo in Hamburg, October...
+
+Read More >
+
+Green Oxygen: The Other Product of the Hydrogen Economy
+
+As green hydrogen production expands, oxygen should no longe...
+
+Read More >
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+More Products >
+
+MODCON value proposition includes the following advanced solutions:
+
+Process
+Analyzers
+
+Turn-Key
+Projects
+
+Sample
+Conditioning
+
+Environmental
+
+Advanced
+Blending
+Solutions
+
+Health
+Monitoring
+
+No schema found.
+
+Main Address
+
+10 Orange St. Haymarket,
+London WC2H 7DQ
+Tel:
+
++
+44-204-5771737
+
+See all of our international locations:
+
+Contact Us
+
+Products
+
+Process Analyzers
+
+Sample Conditioning
+
+Analyzer Houses
+
+Sample Recovery System
+
+Turn-Key Projects
+
+Advanced Blending Solutions
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Terminals
+
+Advanced Marine Environmental & Safety Solutions
+
+Health Monitoring
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and System Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+About
+
+Management Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos & Presentations
+
+News
+
+News
+
+Articles
+
+Security
+
+Privacy policy
+
+Accessibility Statement
+
+Another great website by
+
+Custom-Sites.com
+
+Notifications

@@ -1,0 +1,848 @@
+[
+{
+"text": "sales@weighing.co.il",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר#contact-form-section"
+},
+{
+"text": "",
+"title": "",
+"alt": "לוגו ניוטק איילון – פתרונות שקילה",
+"href": "https://www.weighing.co.il/"
+},
+{
+"text": "בית",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/"
+},
+{
+"text": "אודות",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/אודות"
+},
+{
+"text": "מעבדת כיול מוסמכת",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/הסמכות"
+},
+{
+"text": "מידע מקצועי",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מידע-מקצועי"
+},
+{
+"text": "יצירת קשר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר"
+},
+{
+"text": "הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "דף הבית",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/"
+},
+{
+"text": "משקלים לתעשייה 52",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%9C%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94"
+},
+{
+"text": "משקלי ביקורת 19",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99-%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA"
+},
+{
+"text": "משטחי שקילה 7",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%98%D7%97%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94"
+},
+{
+"text": "עגלות משטחים שוקלות 4",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A2%D7%92%D7%9C%D7%95%D7%AA-%D7%9E%D7%A9%D7%98%D7%97%D7%99%D7%9D-%D7%A9%D7%95%D7%A7%D7%9C%D7%95%D7%AA"
+},
+{
+"text": "מאזני תליה 8",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%AA%D7%9C%D7%99%D7%94"
+},
+{
+"text": "מאזני ספירה 4",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%A1%D7%A4%D7%99%D7%A8%D7%94"
+},
+{
+"text": "משקלים קטנים 8",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D"
+},
+{
+"text": "מאזניים מדוייקים 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99%D7%99%D7%9D-%D7%9E%D7%93%D7%95%D7%99%D7%99%D7%A7%D7%99%D7%9D-51"
+},
+{
+"text": "שקילת מיכלים וסילוסים 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99-%D7%9E%D7%99%D7%9B%D7%9C%D7%99%D7%9D-%D7%95%D7%A1%D7%99%D7%9C%D7%95%D7%A1%D7%99%D7%9D"
+},
+{
+"text": "שקילת כלי תחבורה 5",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A9%D7%A7%D7%99%D7%9C%D7%AA-%D7%9B%D7%9C%D7%99-%D7%AA%D7%97%D7%91%D7%95%D7%A8%D7%94"
+},
+{
+"text": "משקלים לחנויות 14",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA+%D7%9E%D7%A9%D7%A7%D7%9C+%D7%9C%D7%97%D7%A0%D7%95%D7%99%D7%95%D7%AA%2C+%D7%9E%D7%A9%D7%A7%D7%9C+%D7%A2%D7%9D+%D7%94%D7%93%D7%A4%D7%A1%D7%94%2C+%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D+%D7%A2%D7%9D+%D7%9E%D7%93%D7%A4%D7%A1%D7%AA"
+},
+{
+"text": "משקלים עם מסך מגע כולל הדפסת מדבקות 6",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%A2%D7%9D-%D7%9E%D7%A1%D7%9A-%D7%9E%D7%92%D7%A2-%D7%9B%D7%95%D7%9C%D7%9C-%D7%94%D7%93%D7%A4%D7%A1%D7%94"
+},
+{
+"text": "משקלים לחישוב מחיר 8",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%9C%D7%97%D7%99%D7%A9%D7%95%D7%91-%D7%9E%D7%97%D7%99%D7%A8"
+},
+{
+"text": "משקל עם מסך מגע והדפסה 6",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99-%D7%93%D7%9C%D7%A4%D7%A7-%D7%9B%D7%95%D7%9C%D7%9C-%D7%94%D7%93%D7%A4%D7%A1%D7%94"
+},
+{
+"text": "משקלים לעמדות מכירה POS 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%9C%D7%A2%D7%9E%D7%93%D7%95%D7%AA-%D7%9E%D7%9B%D7%99%D7%A8%D7%94"
+},
+{
+"text": "מערכות שקילה ואריזה 13",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%95%D7%90%D7%A8%D7%99%D7%96%D7%94"
+},
+{
+"text": "ראשי שקילה 28",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94"
+},
+{
+"text": "ראשי שקילה תוצרת TScale 10",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-tscale"
+},
+{
+"text": "ראשי שקילה תוצרת Uwe 2",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-uwe"
+},
+{
+"text": "ראשי שקילה תוצרת Dini Argeo 6",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-dini-argeo"
+},
+{
+"text": "ראשי שקילה מוגני פיצוץ תוצרת Dini Argeo 8",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%9E%D7%95%D7%92%D7%A0%D7%99-%D7%A4%D7%99%D7%A6%D7%95%D7%A5-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-dini-argeo"
+},
+{
+"text": "ראשי שקילה תוצרת CAS 2",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-cas"
+},
+{
+"text": "מתמרים 34",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%AA%D7%9E%D7%A8%D7%99%D7%9D"
+},
+{
+"text": "מתמרי גזירה וגזירה כפולה Shear Beam and Double Shear Beam 8",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%AA%D7%9E%D7%A8%D7%99-%D7%92%D7%96%D7%99%D7%A8%D7%94-%D7%95%D7%92%D7%96%D7%99%D7%A8%D7%94-%D7%9B%D7%A4%D7%95%D7%9C%D7%94-shear-beam-and-double-shear-beam"
+},
+{
+"text": "מתמרי מתיחה S Type 6",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%AA%D7%9E%D7%A8%D7%99-%D7%9E%D7%AA%D7%99%D7%97%D7%94-s-type"
+},
+{
+"text": "מתמרי לחיצה compression 5",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%AA%D7%9E%D7%A8%D7%99-%D7%9C%D7%97%D7%99%D7%A6%D7%94-compression"
+},
+{
+"text": "מתמרים מרכזיים Off Center 12",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%AA%D7%9E%D7%A8%D7%99%D7%9D-%D7%9E%D7%A8%D7%9B%D7%96%D7%99%D7%99%D7%9D-center"
+},
+{
+"text": "מתמרי כפיפה - Bending Beam 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%AA%D7%9E%D7%A8%D7%99-%D7%9B%D7%A4%D7%99%D7%A4%D7%94-bending-beam"
+},
+{
+"text": "אביזרים ובתי מתמר 2",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%90%D7%91%D7%99%D7%96%D7%A8%D7%99%D7%9D-%D7%95%D7%91%D7%AA%D7%99-%D7%9E%D7%AA%D7%9E%D7%A8"
+},
+{
+"text": "מאזני מעבדה 12",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%9E%D7%A2%D7%91%D7%93%D7%94"
+},
+{
+"text": "מאזנים אנליטיים וחצי אנליטיים 7",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99%D7%9D-%D7%90%D7%A0%D7%9C%D7%99%D7%98%D7%99%D7%99%D7%9D-%D7%95%D7%97%D7%A6%D7%99-%D7%90%D7%A0%D7%9C%D7%99%D7%98%D7%99%D7%99%D7%9D"
+},
+{
+"text": "משטחי שקילה בדיוקים גבוהים 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%98%D7%97%D7%99-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%91%D7%93%D7%99%D7%95%D7%A7%D7%99%D7%9D-%D7%92%D7%91%D7%95%D7%94%D7%99%D7%9D"
+},
+{
+"text": "מאזני לחות 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%9C%D7%97%D7%95%D7%AA"
+},
+{
+"text": "מאזניים מדוייקים 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99%D7%99%D7%9D-%D7%9E%D7%93%D7%95%D7%99%D7%99%D7%A7%D7%99%D7%9D"
+},
+{
+"text": "תוויות מדף אלקטרוניות 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%AA%D7%95%D7%95%D7%99%D7%95%D7%AA-%D7%9E%D7%93%D7%A3-%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%A0%D7%99%D7%95%D7%AA"
+},
+{
+"text": "פתרונות שקילה לבעלי חיים 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A4%D7%AA%D7%A8%D7%95%D7%A0%D7%95%D7%AA-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%9C%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA"
+},
+{
+"text": "משקלי בריאות 18",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99-%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA"
+},
+{
+"text": "מגוון מאזני אדם 11",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%92%D7%95%D7%95%D7%9F-%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%90%D7%93%D7%9D"
+},
+{
+"text": "משקל אדם ביתי 6",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C-%D7%90%D7%93%D7%9D-%D7%91%D7%99%D7%AA%D7%99"
+},
+{
+"text": "משקלי אדם ניידים 5",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99-%D7%90%D7%93%D7%9D-%D7%A0%D7%99%D7%99%D7%93%D7%99%D7%9D"
+},
+{
+"text": "משקל לתינוקות 4",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%9C%D7%99-%D7%AA%D7%99%D7%A0%D7%95%D7%A7%D7%95%D7%AA"
+},
+{
+"text": "מאזני גשר ושקילת רכבים 7",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%92%D7%A9%D7%A8"
+},
+{
+"text": "צגים רחוקים 2",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A6%D7%92%D7%99%D7%9D-%D7%9C%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D"
+},
+{
+"text": "משקולות 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A9%D7%A7%D7%95%D7%9C%D7%95%D7%AA"
+},
+{
+"text": "קופות רושמות 4",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A7%D7%95%D7%A4%D7%95%D7%AA-%D7%A8%D7%95%D7%A9%D7%9E%D7%95%D7%AA"
+},
+{
+"text": "סורקי בר קוד 18",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A1%D7%95%D7%A8%D7%A7%D7%99-%D7%91%D7%A8-%D7%A7%D7%95%D7%93"
+},
+{
+"text": "סורקי ברקוד שולחניים 7",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A1%D7%95%D7%A8%D7%A7%D7%99-%D7%91%D7%A8%D7%A7%D7%95%D7%93-%D7%A9%D7%95%D7%9C%D7%97%D7%A0%D7%99%D7%99%D7%9D"
+},
+{
+"text": "סורקי ברקוד ידניים 6",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A1%D7%95%D7%A8%D7%A7%D7%99-%D7%91%D7%A8%D7%A7%D7%95%D7%93-%D7%99%D7%93%D7%A0%D7%99%D7%99%D7%9D"
+},
+{
+"text": "סורקי ברקוד אלחוטיים 5",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A1%D7%95%D7%A8%D7%A7%D7%99-%D7%91%D7%A8%D7%A7%D7%95%D7%93-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99%D7%99%D7%9D"
+},
+{
+"text": "מדי כח 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%93%D7%99-%D7%9B%D7%97"
+},
+{
+"text": "שונות 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A9%D7%95%D7%A0%D7%95%D7%AA"
+},
+{
+"text": "שעוני נוכחות 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%A9%D7%A2%D7%95%D7%A0%D7%99-%D7%A0%D7%95%D7%9B%D7%97%D7%95%D7%AA"
+},
+{
+"text": "מצברים ומטענים למשקלים 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%9E%D7%A6%D7%91%D7%A8%D7%99%D7%9D-%D7%95%D7%A0%D7%98%D7%A2%D7%A0%D7%99%D7%9D-%D7%9C%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D"
+},
+{
+"text": "אקדחי מחירים 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?category=%D7%90%D7%A7%D7%93%D7%97%D7%99-%D7%9E%D7%97%D7%99%D7%A8%D7%99%D7%9D"
+},
+{
+"text": "ווישי 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?brand=%D7%95%D7%95%D7%99%D7%A9%D7%99"
+},
+{
+"text": "CAS 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?brand=CAS"
+},
+{
+"text": "Dibal 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?brand=Dibal"
+},
+{
+"text": "DIGI 2",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?brand=DIGI"
+},
+{
+"text": "Digi יפן 1",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?brand=Digi+%D7%99%D7%A4%D7%9F"
+},
+{
+"text": "ZEMIC 3",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה?brand=ZEMIC"
+},
+{
+"text": "מאזני ביקורת דגם AHW",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משקלי-ביקורת/מאזני-ביקורת-דגם-ahw"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משקלי-ביקורת/מאזני-ביקורת-דגם-ahw"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "משטח שקילה קטן/בינוני דגם KW",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משטחי-שקילה/משטח-שקילה-קטן-בינוני-דגם-kw"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משטחי-שקילה/משטח-שקילה-קטן-בינוני-דגם-kw"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "עגלת משטחים שוקלת דגם TPS",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משטחי-שקילה/עגלת-משטחים-שוקלת, עגלת ליקוט, מלקטת, ליקוט"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משטחי-שקילה/עגלת-משטחים-שוקלת, עגלת ליקוט, מלקטת, ליקוט"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "משטח שקילה נייד דגם PB תוצרת חברת CAS",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משטחי-שקילה/משטח-שקילה-נייד-pb-תוצרת-חברת-דגם-cas"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה/משטחי-שקילה/משטח-שקילה-נייד-pb-תוצרת-חברת-דגם-cas"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "משקל מדפסת מדבקות עם מסך מגע דגם SM6000",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/משקל-מדפסת-מדבקות-עם-מסך-מגע-דגם-sm6000"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/משקל-מדפסת-מדבקות-עם-מסך-מגע-דגם-sm6000"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "משקל כולל מדפסת מדבקות מסך מגע דגם RM5800B",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מאזני-חנויות/משקלים-עם-מסך-מגע-כולל-הדפסה/משקל-כולל-מדפסת-עם-מסך-מגע,"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מאזני-חנויות/משקלים-עם-מסך-מגע-כולל-הדפסה/משקל-כולל-מדפסת-עם-מסך-מגע,"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מאזניים דגם SM5300 להדפסת מדבקות",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מאזני-חנויות/משקלים-עם-מסך-מגע-כולל-הדפסה/מאזניים-דגם-pe7"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מאזני-חנויות/משקלים-עם-מסך-מגע-כולל-הדפסה/מאזניים-דגם-pe7"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מערכות שקילה ועטיפה אוטומטית דגם AW-5600ATII",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מערכות-שקילה-ועטיפה-אוטומטית-דגם-aw-5600atii"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מערכות-שקילה-ועטיפה-אוטומטית-דגם-aw-5600atii"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מכונת שקילה ומידבוק אוטומטית דגם LI5600",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מכונת-שקילה-ומידבוק-אוטומטית-דגם-li5600"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מכונת-שקילה-ומידבוק-אוטומטית-דגם-li5600"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מערכות שקילה ועטיפה חצי אוטומטית דגם AW-5600FX",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מערכות-שקילה-ועטיפה-חצי-אוטומטית-דגם-aw-5600fx"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מערכות-שקילה-ועטיפה-חצי-אוטומטית-דגם-aw-5600fx"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מכונת חביקה ברצועת פרסום דגם RGW-560II",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מכונת-חביקה-ברצועת-פרסום-דגם-rgw-560ii"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/content/מכונת-חביקה-ברצועת-פרסום-דגם-rgw-560ii"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "ראש שקילה דגם BW",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/ראשי-שקילה/ראש-שקילה-דגם-bw"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/ראשי-שקילה/ראש-שקילה-דגם-bw"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "ראש שקילה דגם T2200P עם מדפסת פנימית",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/ראשי-שקילה/ראש-שקילה-דגם-T2200P"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/ראשי-שקילה/ראש-שקילה-דגם-T2200P"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "ראש שקילה דגם DGT4",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/ראשי-שקילה/ראש-שקילה-דגם-dgt4"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/ראשי-שקילה/ראש-שקילה-דגם-dgt4"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מתמר מרכזי דגם B6F",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מתמרים/מתמרים-מרכזיים/מתמר-מרכזי-דגם-b6f"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מתמרים/מתמרים-מרכזיים/מתמר-מרכזי-דגם-b6f"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "מתמר מרכזי דגם B6N",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מתמרים/מתמרים-מרכזיים/מתמר-מרכזי-דגם-b6n"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מתמרים/מתמרים-מרכזיים/מתמר-מרכזי-דגם-b6n"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "צג מחיר אלקטרוני דגם InfoTag",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/תוויות-מדף-אלקטרוניות/תג-מחיר-אלקטרוני-דגם-InfoTag"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/תוויות-מדף-אלקטרוניות/תג-מחיר-אלקטרוני-דגם-InfoTag"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "משקל לכל סוגי הבקר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/פתרונות-שקילה-לחקלאות/משקלי-צאן/משקל-לכל-סוגי-הבקר-והצאן"
+},
+{
+"text": "לפרטים",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/פתרונות-שקילה-לחקלאות/משקלי-צאן/משקל-לכל-סוגי-הבקר-והצאן"
+},
+{
+"text": "קבלת הצעת מחיר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר?type=quote"
+},
+{
+"text": "דברו עם הצוות המקצועי",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר"
+},
+{
+"text": "",
+"title": "",
+"alt": "לוגו ניוטק איילון – פתרונות שקילה",
+"href": "https://www.weighing.co.il/"
+},
+{
+"text": "בית",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/"
+},
+{
+"text": "מוצרי החברה",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה"
+},
+{
+"text": "אודות",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/אודות"
+},
+{
+"text": "מעבדת כיול מוסמכת",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/הסמכות"
+},
+{
+"text": "מידע מקצועי",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מידע-מקצועי"
+},
+{
+"text": "יצירת קשר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר"
+},
+{
+"text": "משקלים לתעשייה",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלים-לתעשייה"
+},
+{
+"text": "משקלי בריאות",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/משקלי-בריאות"
+},
+{
+"text": "מאזני מעבדה",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/מוצרי-החברה/מאזני-מעבדה"
+},
+{
+"text": "sales@weighing.co.il",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר#contact-form-section"
+},
+{
+"text": "מדיניות הפרטיות",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/privacy-policy"
+},
+{
+"text": "הצהרת נגישות",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/accessibility"
+},
+{
+"text": "",
+"title": "Facebook",
+"alt": "",
+"href": "https://www.facebook.com/pages/%D7%94%D7%9E%D7%95%D7%9E%D7%97%D7%99%D7%9D-%D7%9C%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%A0%D7%99%D7%95%D7%98%D7%A7-%D7%90%D7%99%D7%99%D7%9C%D7%95%D7%9F/153813994715802?fref=ts"
+},
+{
+"text": "",
+"title": "YouTube",
+"alt": "",
+"href": "https://www.youtube.com/user/NewtechAyalon"
+},
+{
+"text": "יצירת קשר",
+"title": "",
+"alt": "",
+"href": "https://www.weighing.co.il/צור-קשר#contact-form-section"
+},
+{
+"text": "",
+"title": "דברו איתנו בווטסאפ — 050-5390169",
+"alt": "",
+"href": "https://wa.me/972505390169"
+}
+]

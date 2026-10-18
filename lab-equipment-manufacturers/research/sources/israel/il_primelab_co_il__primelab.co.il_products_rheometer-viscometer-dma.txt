@@ -1,0 +1,291 @@
+Rheometer Viscometer Dma - Prime Lab Scientific Instruments LTD
+
+Close
+
+Home
+
+About Us
+
+Products
+
+Products
+
+All Products
+
+Rheometer
+
+Dynamic Mechanical Analyze
+
+Gas Adsorption Analyzers
+
+Particle Size Analyzer
+
+Surface Charge And Zeta Potential
+
+Viscometers
+
+Microwave Digestion Systems
+
+FTIR Instruments
+
+Raman Spectrometers
+
+Density Meters
+
+Semi-Solid and Solid Density Analyzers
+
+Refractometer
+
+Indentation, Scratch and Coating Thickness
+
+Process Systems and Sensors
+
+Beverage Measurement Systems
+
+Polarimeters
+
+Consumables for Thermal Analysis
+
+Thermal Analysis Instruments DSC, STA, TMA, and DMA
+
+Oxidation Stability & CFPP Testers
+
+Flash Point Testers
+
+Laboratory Automation And Robotics
+
+XRD Instrumentation
+
+Distillation Analyzers
+
+SAXS Instrumentation
+
+Tribometers
+
+Torque Rheometers
+
+Extruders
+
+Moisture Analyzers
+
+Electrospinning & Electrospraying
+
+Service & Support
+
+Partners
+
+Contact Us
+
+Search for:
+
+Search for:
+Search Button
+
+Contact
+
+Rheometer
+
+Rheometers – Flexible, Accurate, and Built for Your Needs
+
+Whatever your research or application, Anton Paar rheometers adapt quickly and effortlessly. Switching between cone-plate, parallel-plate, or concentric cylinder measuring systems is simple, as is adding temperature devices or extending functionality with a wide selection of accessories, including microscopy, electrorheology, DMA, tribology, powder rheology, and more.
+With 15 different models to choose from, you can build a system that grows with your needs—covering multiple applications while staying within budget. Each instrument is designed for maximum reliability, ensuring the highest data quality along with features that save time, reduce costs, and increase productivity.
+Engineered for convenience and intuitive use, these rheometers turn complex testing into an efficient and seamless experience.
+
+Click Here
+
+Visit Website
+
+Contact Us
+
+Entry-Level Rheometer:
+MCR 53, 73 and 93
+
+The MCR 53, 73 and MCR 93 are designed to deliver research-level performance at an accessible price for QC and routine lab work. With modular upgrades, they adapt to your needs—covering temperatures from -50 °C to +400 °C, pressures up to 150 bar, and industry-specific applications such as polymers, food, battery slurries, starch, and building materials.
+The MCR 53 features a robust ball-bearing motor (no compressed air required), while the MCR 73 offers ultra-sensitive measurements with its air-bearing motor while the MCR 93 has a Normal Force. Both support rotational and oscillatory modes with 100% reproducible gap setting.
+With intuitive RheoCompass software, easy-to-use features like QuickConnect, SafeGap, and patented TruRay lighting, these rheometers ensure precise, reproducible, and convenient measurements every time.
+
+Visit Website
+
+Contact Us
+
+Modular Compact Rheometer:
+MCR 303, MCR 503, and MCR 503 Power
+
+The Modular Compact Rheometer (MCR) series is engineered for precise, high-performance rheological characterization across a wide range of materials. Built on Anton Paar’s modular platform, it supports over 7,000 measuring geometries and 40+ temperature devices, covering –170 °C to +1000 °C.
+Unmatched sensitivity: torque detection down to 0.2 nNm and frequency control up to 200 Hz for accurate analysis of even low-viscosity samples.
+Smart operation: Toolmaster™, QuickConnect, TruGap™, and automatic leveling enable fast, reliable setup and consistent results.
+Advanced control: precise normal-force measurement, drift-free EC motor technology, and exceptional thermal stability ensure reproducibility.
+RheoCompass software: intuitive operation with predefined templates, 21 CFR Part 11 compliance, and powerful data evaluation tools.
+Versatile configuration: expandable for tribology, powder rheology, DMA, rheo-optics, and other specialized applications.
+
+Visit Website
+
+Contact Us
+
+Modular High-End Rheometer:
+MCR 703 MultiDrive
+
+MCR 703 MultiDrive and MCR 703 Space MultiDrive are the most versatile advanced rheometers available, designed for ultimate precision and versatility in complex rheological research. Featuring dual motor transducers, it supports all operating modes , Combined Motor Transducer (CMT), Separate Motor Transducer (SMT), and counter-movement, within one system for unmatched measurement flexibility.
+All modes in one platform: perform rotational, oscillatory, DMA, extensional, and tribological tests with a single instrument.
+Counter-movement mode: enables advanced material characterization with fixed stagnation plane and extended shear rate range.
+Dual-drive configuration: allows synchronized or independent motor control for custom test setups and high dynamic performance.
+Maximum workspace (MCR 703 Space MultiDrive): provides easy integration with external systems such as microscopes, spectroscopy, or glovebox environments.
+Superior temperature management: precise sensor placement near the sample ensures accurate results under dynamic thermal conditions.
+Full modularity: compatible with 200+ Anton Paar accessories, including Toolmaster™ and QuickConnect for fast, error-free configuration.
+
+Visit Website
+
+Contact Us
+
+Polymer Melt Rheometer:
+SmartMelt
+
+The SmartMelt series is Anton Paar’s advanced solution for precise rheological characterization of polymer melts under real processing conditions. Designed for research and quality control, it delivers full shear-rheological data far beyond traditional single-point MFI tests.
+Comprehensive rheological testing: enables steady, transient, and oscillatory measurements for complete melt flow analysis.
+High-performance temperature control: electrical oven (ETD) with direct sample temperature measurement ensures uniform heating from –150 °C to +400 °C.
+Smart operation: Toolmaster™, QuickConnect, automatic gap control, and intuitive RheoCompass™ software streamline setup and testing.
+Energy-efficient and low-noise design: minimizes gas consumption and allows inert-gas operation for oxidation-sensitive polymers.
+Flexible configuration: supports extensions for extensional rheology, tribology, powder rheology, and rheo-optical techniques.
+Standards compliance: fully aligned with ASTM D4440 and ISO 6721 for polymer melt rheology testing.
+
+Visit Website
+
+Contact Us
+
+Dynamic Shear Rheometer:
+SmartPave for Asphalt & Bitumen
+
+The SmartPave series is Anton Paar’s dedicated solution for precise rheological characterization of asphalt binders and bitumen. Designed for both quality control and research, it offers comprehensive testing capabilities across a wide temperature range.
+Comprehensive testing: performs steady, oscillatory, and dynamic shear measurements in compliance with AASHTO, ASTM, DIN EN, and other standards.
+Advanced temperature control: features a Peltier-based heating system with top and bottom heating elements, ensuring uniform sample temperature from –150 °C to +400 °C.
+Smart operation: equipped with Toolmaster™ for automatic tool recognition and RheoCompass™ software with predefined templates for standardized testing procedures.
+Efficient design: air-cooled CoolPeltier™ temperature accessory eliminates the need for external thermostats, reducing energy consumption and space requirements.
+Versatile applications: suitable for testing unmodified and modified asphalt binders, including rubber-modified bitumen, and can be upgraded for testing solid mastic materials.
+User-friendly interface: illuminated sample area and intuitive controls facilitate easy sample preparation and operation.
+
+Visit Website
+
+Contact Us
+
+Rheometer-Raman Setup:
+MCR Evolution & Cora 5001
+
+The Rheo-Raman setup integrates Anton Paar’s MCR rheometer with the Cora 5001 Raman spectrometer, combining rheological and molecular analysis in a single platform. This system enables simultaneous measurement of mechanical properties and chemical structure, providing a comprehensive understanding of material behavior.
+Simultaneous measurements: conduct rheological and Raman spectroscopy measurements concurrently, ensuring consistent temperature and deformation conditions.
+Modular design: easily assemble or disassemble the system without requiring specialized skills, allowing flexibility in usage.
+Advanced analysis: gain molecular insights into viscoelastic behavior, facilitating a deeper understanding of material properties.=
+Efficient development: accelerate development cycles by reducing trial-and-error processes and enabling targeted optimization.
+Root cause analysis: identify deviations and pinpoint their molecular origins, enabling precise corrective actions.
+Versatile applications: suitable for research in polymer science, resin development, adhesives, and photo-polymerization processes.
+
+Visit Website
+
+Contact Us
+
+Automated Rheometer Workflow:
+HTR 7000
+
+The HTR 7000 delivers fully automated rheological measurements for solid, paste-like, or low-viscosity samples. Covering everything from sample preparation to cleaning, it eliminates up to 14 manual steps, enabling 24/7 operation with minimal supervision. Modular design ensures maximum flexibility for different sample types and workflows.
+Key Benefits:
+Automates up to 14 workflow steps and processes 60+ samples continuously.
+Ensures SOP compliance, full traceability, and AI-ready data.
+High reproducibility with automated trimming (±2 %).
+Safe and easy to operate with minimal human interaction.
+Modular and configurable for all plate-plate and cone-plate geometries, with optional temperature control.
+Outcome: Streamlined lab workflows, consistent high-quality data, and maximized productivity.
+
+Contact Us
+
+Name
+*
+
+Phone
+*
+
+Email
+*
+
+Message
+*
+
+Submit
+
+Prime Lab Scientific Instruments LTD is a distributor of advanced scientific and laboratory instruments for the chemistry, biotechnology, life science, pharmaceuticals and electronics industries. We serve as the local partner and distributor for a variety of leading international manufacturers.
+
+Contact Us
+
+Phone:
+
+(+972) 077-205-2099
+
+Fax:
+
+(+972) 153-77-205-2099
+
+Mail:
+
+Email Us
+
+Address: info@primelab.co.il
+
+Derech HaSharon 12 Kefar Sava, Israel
+
+Office Hours:
+
+Sunday - Thursday: 8:00 - 17:00
+Friday - Saturday: Closed
+
+© Primelab 2025. All rights reserved.
+
+×
+
+We use cookies, whether our own or third-party cookies, for various purposes, including improving your browsing experience, displaying personalized ads or content, and analyzing traffic on our website. By clicking the X, you consent to our use of cookies in accordance with our
+Privacy Policy
+.
+
+ניתן להשתמש בחצי המקלדת בכדי לנווט בין כפתורי הרכיב
+ESC
+סגירה
+ניווט מקלדת
+Shift+A
+ביטול הבהובים
+Shift+B
+מונוכרום
+Shift+C
+ספיה
+Shift+D
+ניגודיות גבוהה
+Shift+E
+שחור צהוב
+Shift+F
+היפוך צבעים
+Shift+G
+הדגשת כותרות
+Shift+H
+הדגשת קישורים
+Shift+I
+הצגת תיאור
+Shift+J
+תיאור קבוע
+Shift+K
+גופן קריא
+Shift+L
+הגדלת גופן
+Shift+M
+הקטנת גופן
+Shift+N
+הגדלת מסך
+Shift++
+הקטנת מסך
+Shift+P
+סמן גדול
+Shift+Q
+סמן שחור
+Shift+R
+איפוס הגדרות
+Alt+P
+הצהרת נגישות
+Alt+Q
+דיווח הפרה
+Alt+R
+מופעל על ידי

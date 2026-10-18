@@ -1,0 +1,782 @@
+[
+{
+"text": "",
+"title": "",
+"alt": "EX-LAB",
+"href": "https://ex-lab.com"
+},
+{
+"text": "יצירת קשר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/contact/"
+},
+{
+"text": "אודות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/about/"
+},
+{
+"text": "גלריה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/gallery/"
+},
+{
+"text": "הסמכות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/qualification/"
+},
+{
+"text": "ציוד חדש",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=new-equipment"
+},
+{
+"text": "מקפיא -80",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=ult-freezers-86"
+},
+{
+"text": "ציוד מעבדה שולחני",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=benchtop"
+},
+{
+"text": "אוופורטורים ומאיידים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=evaporators-and-vaporizers"
+},
+{
+"text": "אוטוקלאבים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=autoclaves"
+},
+{
+"text": "מנדפים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=hoods"
+},
+{
+"text": "צ'ילרים וסירקולטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=chillers"
+},
+{
+"text": "מקפאים מעבדתיים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freezers"
+},
+{
+"text": "צנטריפוגות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=centrifuges"
+},
+{
+"text": "ריאקטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=reactors"
+},
+{
+"text": "אינקובטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=incubator"
+},
+{
+"text": "מקררים מעבדתיים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=biologically-refrigerator"
+},
+{
+"text": "משאבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pumps"
+},
+{
+"text": "תנורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=ovens"
+},
+{
+"text": "תאי אקלים ותאי יציבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=environmental-test-chambers"
+},
+{
+"text": "דסיקטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=desiccators"
+},
+{
+"text": "ויסקומטר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=viscometer"
+},
+{
+"text": "ליאופלייזרים - מייבשים בהקפאה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freeze-dryer"
+},
+{
+"text": "ציוד לבדיקות פרמצבטיות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-testing"
+},
+{
+"text": "ציוד בנק דם",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=blood-bank-equipment"
+},
+{
+"text": "ציוד לפתולוגיה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pathology-equipment"
+},
+{
+"text": "מיקרוסקופים ואביזרים למיקרוסקופים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=microscopes"
+},
+{
+"text": "מיכלי חנקן",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=liquid-nitrogen-storage"
+},
+{
+"text": "ציוד יד שנייה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=used-equipment"
+},
+{
+"text": "ביולוגיה מלקולרית",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=molecular-biology-used"
+},
+{
+"text": "Flow cytometry",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=flow-cytometry"
+},
+{
+"text": "ציוד מעבדה שולחני",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=benchtop-lab-equipment"
+},
+{
+"text": "אוטומציה ורובוטיקה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=automation-and-robotics-used"
+},
+{
+"text": "סופרי מושבות ותאים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=cell-colony-counters-used"
+},
+{
+"text": "ליאופלייזרים - מייבשים בהקפאה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freeze-dryers-lyophilizers-used"
+},
+{
+"text": "אינקובטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=incubator-used"
+},
+{
+"text": "ציוד לבנק דם",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=blood-bank-equipment-used-equipment"
+},
+{
+"text": "ציוד להיסטולוגיה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=histology-equipment-used"
+},
+{
+"text": "מיכלי אחסון בחנקן נוזלי",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=liquid-nitrogen-storage-used"
+},
+{
+"text": "מיקרוסקופים ואביזרים למיקרוסקופים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=microscopes-microscope-accessories-used"
+},
+{
+"text": "צ'ילרים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=chillers-used-equipment"
+},
+{
+"text": "צנטריפוגות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=centrifuges-used"
+},
+{
+"text": "אוטוקלאבים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=autoclaves-sterilizers-used"
+},
+{
+"text": "פלייטרידר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=plate-readers-used"
+},
+{
+"text": "מנדפים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=hoods-used-equipment"
+},
+{
+"text": "ציוד לבדיקות פרמצבטיות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-equipment-manufacturing-used-equipment"
+},
+{
+"text": "ציוד אנליטי ואביזרים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=analytics-equipment-used"
+},
+{
+"text": "רוטטורים ומגלגלי מבחנות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=rotators-used"
+},
+{
+"text": "ביוריאקטורים / פרמנטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=bioreactors-fermenters-used"
+},
+{
+"text": "מקפיאים ומקררים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freezers-refrigerators-used"
+},
+{
+"text": "משאבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pumps-used-equipment"
+},
+{
+"text": "תאי אקלים ותאי יציבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=environmental-test-chambers-used-equipment"
+},
+{
+"text": "תנורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=ovens-used-equipment"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://en.ex-lab.com"
+},
+{
+"text": "ENG",
+"title": "",
+"alt": "",
+"href": "https://en.ex-lab.com"
+},
+{
+"text": "",
+"title": "",
+"alt": "EX-LAB",
+"href": "https://ex-lab.com"
+},
+{
+"text": "יצירת קשר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/contact/"
+},
+{
+"text": "אודות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/about/"
+},
+{
+"text": "גלריה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/gallery/"
+},
+{
+"text": "הסמכות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/qualification/"
+},
+{
+"text": "ציוד חדש",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=new-equipment"
+},
+{
+"text": "מקפיא -80",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=ult-freezers-86"
+},
+{
+"text": "ציוד מעבדה שולחני",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=benchtop"
+},
+{
+"text": "אוופורטורים ומאיידים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=evaporators-and-vaporizers"
+},
+{
+"text": "אוטוקלאבים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=autoclaves"
+},
+{
+"text": "מנדפים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=hoods"
+},
+{
+"text": "צ'ילרים וסירקולטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=chillers"
+},
+{
+"text": "מקפאים מעבדתיים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freezers"
+},
+{
+"text": "צנטריפוגות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=centrifuges"
+},
+{
+"text": "ריאקטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=reactors"
+},
+{
+"text": "אינקובטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=incubator"
+},
+{
+"text": "מקררים מעבדתיים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=biologically-refrigerator"
+},
+{
+"text": "משאבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pumps"
+},
+{
+"text": "תנורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=ovens"
+},
+{
+"text": "תאי אקלים ותאי יציבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=environmental-test-chambers"
+},
+{
+"text": "דסיקטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=desiccators"
+},
+{
+"text": "ויסקומטר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=viscometer"
+},
+{
+"text": "ליאופלייזרים - מייבשים בהקפאה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freeze-dryer"
+},
+{
+"text": "ציוד לבדיקות פרמצבטיות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-testing"
+},
+{
+"text": "ציוד בנק דם",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=blood-bank-equipment"
+},
+{
+"text": "ציוד לפתולוגיה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pathology-equipment"
+},
+{
+"text": "מיקרוסקופים ואביזרים למיקרוסקופים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=microscopes"
+},
+{
+"text": "מיכלי חנקן",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=liquid-nitrogen-storage"
+},
+{
+"text": "ציוד יד שנייה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=used-equipment"
+},
+{
+"text": "ביולוגיה מלקולרית",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=molecular-biology-used"
+},
+{
+"text": "Flow cytometry",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=flow-cytometry"
+},
+{
+"text": "ציוד מעבדה שולחני",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=benchtop-lab-equipment"
+},
+{
+"text": "אוטומציה ורובוטיקה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=automation-and-robotics-used"
+},
+{
+"text": "סופרי מושבות ותאים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=cell-colony-counters-used"
+},
+{
+"text": "ליאופלייזרים - מייבשים בהקפאה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freeze-dryers-lyophilizers-used"
+},
+{
+"text": "אינקובטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=incubator-used"
+},
+{
+"text": "ציוד לבנק דם",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=blood-bank-equipment-used-equipment"
+},
+{
+"text": "ציוד להיסטולוגיה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=histology-equipment-used"
+},
+{
+"text": "מיכלי אחסון בחנקן נוזלי",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=liquid-nitrogen-storage-used"
+},
+{
+"text": "מיקרוסקופים ואביזרים למיקרוסקופים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=microscopes-microscope-accessories-used"
+},
+{
+"text": "צ'ילרים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=chillers-used-equipment"
+},
+{
+"text": "צנטריפוגות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=centrifuges-used"
+},
+{
+"text": "אוטוקלאבים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=autoclaves-sterilizers-used"
+},
+{
+"text": "פלייטרידר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=plate-readers-used"
+},
+{
+"text": "מנדפים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=hoods-used-equipment"
+},
+{
+"text": "ציוד לבדיקות פרמצבטיות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-equipment-manufacturing-used-equipment"
+},
+{
+"text": "ציוד אנליטי ואביזרים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=analytics-equipment-used"
+},
+{
+"text": "רוטטורים ומגלגלי מבחנות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=rotators-used"
+},
+{
+"text": "ביוריאקטורים / פרמנטורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=bioreactors-fermenters-used"
+},
+{
+"text": "מקפיאים ומקררים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=freezers-refrigerators-used"
+},
+{
+"text": "משאבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=pumps-used-equipment"
+},
+{
+"text": "תאי אקלים ותאי יציבות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=environmental-test-chambers-used-equipment"
+},
+{
+"text": "תנורים",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=ovens-used-equipment"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://en.ex-lab.com"
+},
+{
+"text": "ENG",
+"title": "",
+"alt": "",
+"href": "https://en.ex-lab.com"
+},
+{
+"text": "",
+"title": "",
+"alt": "EX-LAB",
+"href": "https://ex-lab.com"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%91-%d7%95%d7%a8%d7%98%d7%99%d7%a7%d7%90%d7%9c%d7%99-haier/"
+},
+{
+"text": "אוטוקלב ורטיקאלי - Haier",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%91-%d7%95%d7%a8%d7%98%d7%99%d7%a7%d7%90%d7%9c%d7%99-haier/"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/medical-waste-disposal-workstation-yfxdg-series/"
+},
+{
+"text": "Medical Waste Disposal Workstation YFXDG Series",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/medical-waste-disposal-workstation-yfxdg-series/"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%91-%d7%a9%d7%95%d7%9c%d7%97%d7%a0%d7%99-haier/"
+},
+{
+"text": "אוטוקלב שולחני-Haier",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%91-%d7%a9%d7%95%d7%9c%d7%97%d7%a0%d7%99-haier/"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%90%d7%91-%d7%95%d7%a8%d7%98%d7%99%d7%a7%d7%9c%d7%99-haier/"
+},
+{
+"text": "אוטוקלאב ורטיקלי Haier",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%90%d7%91-%d7%95%d7%a8%d7%98%d7%99%d7%a7%d7%9c%d7%99-haier/"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%90%d7%91-%d7%a8%d7%a6%d7%a4%d7%aa%d7%99-daihan/"
+},
+{
+"text": "אוטוקלאב רצפתי - DAIHAN",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/products/%d7%90%d7%95%d7%98%d7%95%d7%a7%d7%9c%d7%90%d7%91-%d7%a8%d7%a6%d7%a4%d7%aa%d7%99-daihan/"
+},
+{
+"text": "מייל:info@ex-lab.com",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com"
+},
+{
+"text": "דף הבית",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com"
+},
+{
+"text": "אודות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/about/"
+},
+{
+"text": "ציוד חדש",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=new-equipment"
+},
+{
+"text": "ציוד יד שנייה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/?taxonomy=product-category&term=used-equipment"
+},
+{
+"text": "הסמכות",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/qualification/"
+},
+{
+"text": "גלריה",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/gallery/"
+},
+{
+"text": "יצירת קשר",
+"title": "",
+"alt": "",
+"href": "https://ex-lab.com/contact/"
+},
+{
+"text": "website accessibility",
+"title": "",
+"alt": "",
+"href": "https://userway.org"
+}
+]

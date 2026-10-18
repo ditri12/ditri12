@@ -1,0 +1,810 @@
+MOD-1060 Hydrogen Analyzer | Process Gas Monitoring
+
+Skip to content
+
+Open toolbar
+
+Accessibility Tools
+
+Increase Text
+
+Decrease Text
+
+Grayscale
+
+High Contrast
+
+Negative Contrast
+
+Light Background
+
+Links Underline
+
+Readable Font
+
+Reset
+
+Skip to content
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Search
+
+MOD-1060 Hydrogen Analyzer for Industrial Process Gas Monitoring
+
+For further details and specifications
+Choose the PDF files to download
+
+MOD-1060 Hydrogen Analyzer
+
+MOD-1040&1060 in Green Hydrogen
+
+Guide to Hydrogen Measurement
+
+Sample Manifold Catalog 5-MF
+Download PDF
+Please choose at least one file
+
+URL
+This field is for validation purposes and should be left unchanged.
+Please fill in the form to download the PDF files
+Name
+*
+
+First
+
+Last
+
+Email
+*
+
+Phone
+Company name
+*
+Country
+Files
+PDF
+
+Download PDF
+
+MOD-1060 Hydrogen Analyzer for Industrial Process Gas Monitoring
+
+The MOD-1060 Hydrogen Analyzer provides continuous hydrogen measurement in industrial
+process gas
+applications, including hydrogen production,
+refinery hydrogen
+networks, natural gas blending, fuel gas systems and petrochemical processes.
+
+The analyzer is designed for real-time hydrogen monitoring where fast response, reliable measurement and safe operation are required. It supports hydrogen concentration measurement from low ppm levels up to 100% hydrogen and can be integrated with DCS, PLC, SCADA and process optimization platforms.
+
+Hydrogen Analyzer for Process Gas Applications
+
+The MOD-1060 Hydrogen Analyzer is designed for continuous hydrogen measurement in industrial process gas applications. It can support hydrogen production, refinery gas streams, petrochemical processes, fuel gas systems, natural gas blending and other applications where reliable hydrogen monitoring is required.
+
+Real-time hydrogen measurement helps operators follow process conditions, detect concentration changes and maintain stable operation. This is especially important where hydrogen concentration directly affects process safety, gas quality, combustion behaviour, product specification or equipment protection.
+
+Hydrogen Monitoring in Refineries and Petrochemical Plants
+
+Hydrogen is widely used in refineries and petrochemical plants for hydrotreating, hydrocracking, reforming, fuel gas management and other process applications. Continuous hydrogen monitoring helps operators maintain process stability, improve visibility into hydrogen networks and detect abnormal operating conditions earlier.
+
+The MOD-1060 can provide online hydrogen data for refinery and petrochemical process gas streams, helping support safer operation, better process control and improved use of hydrogen resources across the plant.
+
+Hydrogen Measurement in Natural Gas Blending
+
+Hydrogen blending
+into natural gas networks requires accurate and continuous measurement to confirm blending levels and maintain gas quality. Changes in hydrogen concentration can affect combustion properties, Wobbe Index, calorific value, pipeline operation and end-user compatibility.
+
+The MOD-1060 can support hydrogen measurement in natural gas blending applications by providing real-time hydrogen concentration data. This information can be used by operators and control systems to monitor blending performance and support safe, stable gas distribution.
+
+MOD-1060 and
+MOD-1040
+for Hydrogen and Oxygen Monitoring
+
+Hydrogen applications often require both hydrogen and oxygen monitoring. The MOD-1060 Hydrogen Analyzer measures hydrogen concentration, while the MOD-1040 Oxygen Analyzer supports oxygen measurement in hydrogen, natural gas and hydrocarbon process gas streams.
+
+Together, these analyzers can provide a stronger analytical foundation for
+hydrogen production
+, storage, compression, blending and process safety applications. Continuous hydrogen and oxygen measurement helps operators detect contamination, air ingress, abnormal process conditions and changes in gas quality.
+
+Digital Integration with DCS, PLC and Modcon.AI
+
+The MOD-1060 can be integrated with DCS, PLC, SCADA and plant monitoring systems to provide real-time hydrogen measurement data for operators and control systems. This enables hydrogen concentration data to be used for alarms, process monitoring, control decisions and long-term performance analysis.
+
+When connected with Modcon.AI, MOD-1060 measurement data can support process health analysis, predictive diagnostics, hydrogen production optimisation and early detection of abnormal operating behaviour. This helps transform hydrogen analyzer data into practical operational intelligence for safer and more efficient plant performance.
+
+Key Features
+
+Thermal Conductivity-Based Measurement
+: The MOD-1060 operates using thermal conductivity (TCD) technology, providing reliable hydrogen concentration measurements even in dynamic environments.
+
+Wide Measurement Range
+: The MOD-1060 is capable of detecting hydrogen concentrations from low ppm levels up to 100%, making it suitable for diverse applications in industries such as petrochemical, energy, and environmental monitoring.
+
+Explosion-Proof Design
+: The analyzer is housed in an Ex d enclosure and certified for operation in hazardous environments. The MOD-1060 meets ATEX and IECEx standards, ensuring safety in environments with potential hydrogen hazards. Safety integrity level certified: SIL2 as per IEC 61508-2:2010 (020195:3266-1-P1)
+
+Ultra-Fast Response Time
+: With a response time of less than 30 milliseconds, the MOD-1060 provides near-instantaneous measurements, essential for real-time monitoring and fast adaptation to changing hydrogen concentrations.
+
+Flexible Integration
+: The analyzer can be easily integrated into existing systems via 4-20 mA analog output for data transfer.
+
+Contact us to learn more
+about MOD-1060 Hydrogen Analyzer
+
+Applications
+
+Hydrogen Industry and other Renewable Energy
+: Measuring hydrogen levels in fuel cells and electrolyzer applications to ensure optimal performance and safety.
+
+Petrochemical Industry
+: Monitoring hydrogen concentration in refining processes and ensuring safe operating conditions in explosive environments.
+
+Chemical Processing
+: Continuous hydrogen monitoring in chemical reactors to maintain the desired reaction conditions.
+
+Environmental Safety
+: Detecting hydrogen leaks in storage facilities and monitoring emissions to meet environmental standards.
+
+Technical Specifications
+
+Measurement Range
+: 0-100% hydrogen concentration
+
+Response Time (T90)
+: Less than 30 milliseconds
+
+Outputs
+: 4-20 mA, RS-485
+
+Power Supply
+: 24 VDC ±25%, 5 W
+
+Hazardous area
+: ATEX/IECEX Zone 2 , Zone 1
+
+Safety integrity level
+: SIL2
+
+Operation
+Temperature
+: -40°C to 90°C / 125°C (option)
+
+Gas Pressure (Absolute)
+: 0.8 – 200 Bara
+
+Accuracy
+: Less than 50 ppm
+
+Process connection
+: NPT ½”
+
+Why Choose the MOD-1060 Hydrogen Analyzer?
+
+Outstanding precision and speed in hydrogen concentration measurement:
+The MOD-1060 Hydrogen analyzer features an industry-leading response time of < 30 ms and a measurement range from a few ppm to 100 vol.%, specially developed for the new requirements of hydrogen infrastructure in the energy and process industries.
+
+Unrivalled robustness for demanding environments:
+Optimized for use in humid environments, the device withstands condensate and water without damage and provides precise measurements up to a pressure of 200 bar – ideal for electrolysers, fuel cells and other hydrogen applications.
+
+Maximum safety, minimum maintenance:
+With fast and reliable explosion level monitoring, the MOD-1060 significantly increases occupational safety. The device is a long-term investment with an expected service life of up to 10 years.
+
+Adaptability meets economy:
+The extremely compact MOD-1060 saves space and costs. Thanks to it, a wide variety of gas mixtures can be measured without additional sample preparation – a highly efficient solution that outperforms the competition in terms of performance and price.
+
+Ensure your hydrogen monitoring is in safe hands with the MOD-1060 Hydrogen Analyzer.
+
+Image Gallery
+
+Get your quote
+
+First Name
+(Required)
+Last Name
+(Required)
+Email
+(Required)
+
+Phone
+(Required)
+Company
+Country
+(Required)
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos Islands
+Colombia
+Comoros
+Congo
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czechia
+Côte d'Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People's Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Macedonia
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine, State of
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Réunion
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Sweden
+Switzerland
+Syria Arab Republic
+Taiwan
+Tajikistan
+Tanzania, the United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Türkiye
+US Minor Outlying Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Viet Nam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Åland Islands
+Product
+Choose your product
+Beacon-3000 NIR Analyzer
+MOD 4100 Crude Oil Analyser
+MOD 4140 On-Line Crude Oil Analyzer
+MOD-1060 Hydrogen Analyzer
+MOD 4100-S Salt in Crude Oil Analyser
+MOD-1022 Hydrocarbon Gas Analyzer
+MOD-1040 Oxygen Analyzer
+Sample Recovery System
+Filter Coalescer
+Analyzer Houses
+Advanced Blending Solutions
+Feasibility Studies
+Financing Structure Packages
+Engineering Services
+Project Execution
+Conception building
+Analyzer Systems
+Field Instrumentation overview
+Other
+Application/Parameter to measure
+Process temperature
+Process pressure
+Ambient conditions
+Hazardous zone
+
+Yes
+
+No
+
+Comments
+
+Get your quote!
+
+Frequently Asked Questions
+
+What is the MOD 1060 Hydrogen Analyzer used for?
+
+The MOD 1060 is designed for continuous and real-time measurement of hydrogen concentration in oxygen using the thermal conductivity principle, making it ideal for industrial and process control applications
+
+What is the operating principle of the MOD 1060?
+
+The MOD 1060 uses the Wiedemann thermal conductivity principle, which measures the difference in thermal conductivity between hydrogen and other gases to determine hydrogen concentration
+
+What is the typical measurement range of the MOD 1060?
+
+The analyzer measures hydrogen concentrations in oxygen, typically in the range of 0-100% H₂, depending on the configuration and process requirements
+
+What industries use the MOD 1060 Hydrogen Analyzer?
+
+Petrochemical and refining (hydrogen production and recovery) / Power plants (hydrogen cooling in generators) / Steel and metal processing / Semiconductor manufacturing / Chemical processing industries / Air separation and gas production industries
+
+How does water content affect hydrogen measurement in the MOD 1060?
+
+Water vapor can influence the thermal conductivity measurement, potentially introducing errors. Proper sample conditioning and compensation techniques can minimize the impact.
+
+Is the MOD 1060 suitable for hazardous environments?
+
+How often does the MOD 1060 require calibration?
+
+What are the key advantages of the MOD 1060?
+
+High accuracy and fast response time / Long-term stability with minimal drift / Low maintenance requirements / Capable of handling harsh industrial environments / Multiple output options for integration with control systems
+
+What output signals does the MOD 1060 provide?
+
+The analyzer supports 4-20mA analog outputs and digital communication protocols (e.g., Modbus ASCII) for seamless integration with industrial process control systems
+
+Can the MOD 1060 measure hydrogen in gas mixtures other than oxygen?
+
+The MOD 1060 is specifically designed for hydrogen measurement in oxygen-rich environments. For other gas mixtures, a different sensor technology may be required
+
+Product News
+
+Modcon at Automation & Digitalization Conference in Houston, October 29-30
+
+Modcon at O&G Automation & Digitalization Conference...
+
+Read More >
+
+Modcon at Hydrogen Technology World Expo in Hamburg, October 20–22
+
+Modcon at Hydrogen Technology World Expo in Hamburg, October...
+
+Read More >
+
+Green Oxygen: The Other Product of the Hydrogen Economy
+
+As green hydrogen production expands, oxygen should no longe...
+
+Read More >
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+More Products >
+
+MODCON value proposition includes the following advanced solutions:
+
+Process
+Analyzers
+
+Turn-Key
+Projects
+
+Sample
+Conditioning
+
+Environmental
+
+Advanced
+Blending
+Solutions
+
+Health
+Monitoring
+
+No schema found.
+
+Main Address
+
+10 Orange St. Haymarket, London WC2H 7DQ
+Tel:
+
++
+44-204-5771737
+
+See all of our international locations:
+
+Contact Us
+
+Products
+
+Process Analyzers
+
+Sample Conditioning
+
+Analyzer Houses
+
+Sample Recovery System
+
+Turn-Key Projects
+
+Advanced Blending Solutions
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Terminals
+
+Advanced Marine Environmental & Safety Solutions
+
+Health Monitoring
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and System Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+About
+
+Management Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos & Presentations
+
+News
+
+News
+
+Articles
+
+Security
+
+Privacy policy
+
+Accessibility Statement
+
+Another great website by
+
+Custom-Sites.com
+
+Notifications

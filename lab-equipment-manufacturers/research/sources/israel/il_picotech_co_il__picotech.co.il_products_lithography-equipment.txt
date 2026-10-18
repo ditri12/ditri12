@@ -1,0 +1,380 @@
+Lithography Equipment Archives - PicoTech
+
+We use cookies to improve your experience
+
+To provide the best experiences, we use technologies like cookies to store and/or access device information. Consenting to these technologies will allow us to process data such as browsing behavior or unique IDs on this site. Not consenting or withdrawing consent, may adversely affect certain features and functions.
+
+Functional
+
+Functional
+
+Always active
+
+The technical storage or access is strictly necessary for the legitimate purpose of enabling the use of a specific service explicitly requested by the subscriber or user, or for the sole purpose of carrying out the transmission of a communication over an electronic communications network.
+
+Preferences
+
+Preferences
+
+The technical storage or access is necessary for the legitimate purpose of storing preferences that are not requested by the subscriber or user.
+
+Statistics
+
+Statistics
+
+The technical storage or access that is used exclusively for statistical purposes.
+
+The technical storage or access that is used exclusively for anonymous statistical purposes. Without a subpoena, voluntary compliance on the part of your Internet Service Provider, or additional records from a third party, information stored or retrieved for this purpose alone cannot usually be used to identify you.
+
+Marketing
+
+Marketing
+
+The technical storage or access is required to create user profiles to send advertising, or to track the user on a website or across several websites for similar marketing purposes.
+
+Manage options
+
+Manage services
+
+Manage {vendor_count} vendors
+
+Read more about these purposes
+
+Accept
+
+Deny
+
+View preferences
+
+Save preferences
+
+View preferences
+
+Privacy Policy
+
+Privacy Policy
+
+{title}
+
+Home
+
+Markets
+
+Close Markets
+
+Open Markets
+
+Semiconductor Equipment
+
+Material Growth, Epitaxy
+
+Lithography Equipment
+
+Wet Chemistry Tools
+
+Plasma Equipment
+
+Thin Film Deposition
+
+Thermal Processing Equipment
+
+Dicing, Grinding, CMP Equipment
+
+Probe Stations
+
+Analytical Equipment
+
+Automation Solutions
+
+Nanotechnology Equipment
+
+Nanomanufacturing and 3D Printing
+
+Graphene, CNT, 2D Materials
+
+SEM, FIB-SEM, Micro-CT
+
+SAM, AFM, Nanoindentation
+
+E-Beam Lithography
+
+Maskless Lithography
+
+Nanoimprint
+
+Dry Etching and IBE
+
+KRI Ion Sources
+
+Custom Gloveboxes: PVD, ALD, SEM
+
+Analytical Equipment
+
+SEM, FIB-SEM, Micro-CT
+
+Probe Stations
+
+Ellipsometry and Optical Tools
+
+Semi Metrology: CV/IV, Resistivity, Carrier Lifetime/Mobility
+
+SAM, AFM, Nanoindentation
+
+Pull and Shear Testers
+
+Laser Doppler Vibrometers
+
+Failure Analysis: Wet, IBE, Plasma, Laser
+
+Assembly and Test Equipment
+
+Die bonding and Flip-Chip
+
+Wire Bonding
+
+Advanced Packaging
+
+Pull and Shear Testers
+
+Probe Stations
+
+Plasma Cleaning and Activation
+
+Thermal Processing Equipment
+
+Precision Optics and Materials
+
+Optical Coating Tools, IBD, DLC
+
+ALD Systems
+
+Optical Coating Materials
+
+Ellipsometry and Optical Tools
+
+Wafer Transfer, Sorting, Manipulation
+
+Products
+
+Close Products
+
+Open Products
+
+Lithography Equipment
+
+Spin Coaters, Spray Coaters, Developers, Hotplates, Photoresist
+
+Mask-Aligners, Nanoimprint, E-Beam Lithography, Maskless Lithography
+
+Nanomanufacturing and 3D printing
+
+Wafer Bonding
+
+Plasma Equipment
+
+Plasma Cleaning, Plasma Activation: Atmospheric, Vacuum
+
+Plasma Dry Etch: RIE, ICP, Deep Silicon Etch, Mask Etch, IBE
+
+Plasma PECVD, Low-Temp HDPECVD, Large Area PECVD
+
+Thin Film Deposition
+
+Sputter, Thermal, E-beam Evaporation, IBD, ALD, DLC, Precision Optics, In Bumps
+
+Graphene and CNT, 2D materials, Parylene
+
+Optical Coating Materials
+
+Automation Solutions
+
+KRI Ion Sources
+
+Wet Processing
+
+Wet Etch, Lift-Off, Electroplating
+
+Mask Cleaning, SRD
+
+Spray Acid, Spray Solvent Tools
+
+Wafer Transfer, Sorting, Manipulation
+
+Custom Gloveboxes: PVD, ALD, SEM
+
+Advanced Packaging Equipment
+
+Wafer Dicing, Grinding, Thinning, Polishing, CMP, Post-CMP Cleaning
+
+Die bonding and Flip Chip
+
+Wire Bonding Equipment
+
+Pull and Shear Testers
+
+Sintering and Molding
+
+Analytical Equipment
+
+Probe Stations
+
+SEM, FIB-SEM, Micro-CT, Accessories
+
+Ellipsometry and optical tools
+
+Semi Metrology: CV/IV, Resistivity, Carrier Lifetime/Mobility
+
+SAM, AFM, Nanoindentation
+
+Pull and Shear Testers
+
+Laser Doppler Vibrometers
+
+Failure Analysis: Wet, IBE, Plasma, Laser
+
+Thermal Processing Equipment
+
+RTP Equipment
+
+Reflow Ovens
+
+Diffusion Furnaces and LPCVD
+
+Material growth, Epitaxy
+
+ALD Systems
+
+MBE Systems
+
+MOCVD Systems
+
+Customers
+
+Downloads
+
+Close Downloads
+
+Open Downloads
+
+Events
+
+Privacy Policy
+
+General Terms and Conditions
+
+Company
+
+Contact
+
+Search
+
+Search
+
+×
+Search
+
+Login
+
+Contact Us
+
+Search
+
+×
+Search
+
+Home
+»
+Lithography Equipment
+
+Lithography Equipment
+
+PicoTech offers a full range of equipment in the field of Photolithography, Electron-Beam Lithography and Maskless Lithography for Semiconductor and Nano Technology. The portfolio of machines includes manual, semi-automatic and fully automatic tools for R&D and production purposes. The systems can accommodate substrates from small pieces to 300mm wafers and even larger substrates. We have a very big install base and knowledge of Lithography equipment in Israel which we service on a daily basis.
+
+The list of technologies includes:
+
+Photoresist Spin Coating and Spray Coating of Photoresist, Photoresist Development, Photoresist Drying and Baking, Contact and Proximity Mask Aligners, Nanoimprint, Electron-Beam Lithography, and Maskless Lithography such as Laser Direct Writers, Wafer Bonding.
+
+Spin Coaters, Spray Coaters, Developers, Hotplates, Photoresist
+Mask-Aligners, Nanoimprint, E-beam Lithography, Maskless Lithography
+Nanomanufacturing and 3D printing
+Wafer bonding
+
+Get in touch with us
+
+Fields marked with an
+*
+are required
+
+First Name
+
+Last Name
+
+Phone Number
+
+E-mail
+
+Company
+
+Your Message
+
+I agree to get updates
+
+By submitting my details, I agree to receive marketing content from the company by email or text messages. I understand that I can request removal from the mailing list at any time by sending an email to
+info@picotech.co.il
+or by clicking 'Unsubscribe' at the bottom of any message.
+
+I agree to the
+terms of use
+and the company's
+privacy policy
+.
+
+Send Message
+
+Linkedin
+
+Home
+
+Our Company
+
+Privacy Policy
+
+Terms of Use
+
+General Terms and Conditions
+
+Login
+
+Contact
+
+Career at Comtal
+
+Applicant Privacy Notice
+
+Accessibility Statement
+
+Home
+
+Our Company
+
+Privacy Policy
+
+Terms of Use
+
+General Terms and Conditions
+
+Login
+
+Contact
+
+Career at Comtal
+
+Applicant Privacy Notice
+
+Accessibility Statement
+
+Login
+
+Copyright © 2024 Picotech. All rights reserved.
+
+We use cookies to improve your experience

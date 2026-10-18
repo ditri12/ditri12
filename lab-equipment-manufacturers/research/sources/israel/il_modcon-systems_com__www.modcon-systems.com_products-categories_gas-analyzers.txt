@@ -1,0 +1,349 @@
+Process Gas Analyzers for O2, H2 and Natural Gas | Modcon
+
+Skip to content
+
+Open toolbar
+
+Accessibility Tools
+
+Increase Text
+
+Decrease Text
+
+Grayscale
+
+High Contrast
+
+Negative Contrast
+
+Light Background
+
+Links Underline
+
+Readable Font
+
+Reset
+
+Skip to content
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Search
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Modcon Systems Ltd. develops and manufactures process analyzers for real-time measurement of gas and liquid properties in critical industrial applications, including hydrogen production, natural gas processing, refining and petrochemical operations.
+
+Engineered for reliability in extreme environments—including high pressure and corrosive conditions—these analyzers enable immediate, on-site measurements without the need for sample extraction, ensuring fast response times and enhanced process safety.
+
+Product
+
+Measures
+
+Main use
+
+MOD-1040 Oxygen Analyzer
+
+Oxygen
+
+Hydrogen, natural gas, biogas, refinery gas and high-pressure process gas applications
+
+View MOD-1040 oxygen analyzer
+
+MOD-1060 Hydrogen Analyzer
+
+Hydrogen
+
+Hydrogen-rich and industrial process gas streams, hydrogen production and gas purity monitoring
+
+View MOD-1060 hydrogen analyzer
+
+MOD-1022 Real-Time Gas Quality Analyzer
+
+Gas quality / hydrocarbon composition
+
+Natural gas, LPG, olefins, ethylene, fuel gas and hydrocarbon gas applications
+
+View MOD-1022 gas quality analyzer
+
+MOD-1040 Oxygen Analyzer for High-Pressure Hydrogen and Hydrocarbon Gases
+
+See More >
+
+MOD-1060 Hydrogen Analyzer for Industrial Process Gas Monitoring
+
+See More >
+
+MOD-1022 Real-Time Gas Quality Analyzer
+
+See More >
+
+Frequently Asked Questions
+
+What are process gas analyzers used for?
+
+Process gas analyzers are used to measure the composition of gases directly in industrial processes. They help operators monitor oxygen, hydrogen, hydrocarbons and other critical components in real time. In refineries, petrochemical plants, hydrogen production units, natural gas facilities and industrial gas systems, these measurements support process safety, product quality, emissions control and efficient plant operation.
+
+Why are on-line gas analyzers important in modern process plants?
+
+On-line gas analyzers provide continuous measurements without waiting for manual sampling or laboratory analysis. This allows operators to detect process changes quickly, prevent unsafe operating conditions and maintain stable production. In applications such as hydrogen production, natural gas processing and hydrocarbon gas monitoring, fast gas analysis can reduce risk, improve control performance and help avoid expensive shutdowns or off-spec operation.
+
+What is the difference between in-situ gas analyzers and extractive gas analyzers?
+
+In-situ gas analyzers measure the gas directly in the process stream, without extracting the sample to a separate analyzer cabinet. This can provide faster response time, reduce sample transport problems and simplify the overall sampling system. Extractive analyzers remove a sample from the process and condition it before measurement. They can be useful in some applications, but they require more sample handling equipment and careful design to avoid delays, contamination or changes in gas composition.
+
+Where are oxygen analyzers used in gas process applications?
+
+Oxygen analyzers are used wherever oxygen concentration must be controlled for safety, quality or process efficiency. Common applications include hydrogen production, natural gas pipelines, flare systems, inerting systems, petrochemical processes and industrial gas production. Accurate oxygen measurement is especially important where excess oxygen may create explosion risks, catalyst damage, corrosion problems or off-spec gas quality.
+
+Why is oxygen monitoring important in hydrogen production?
+
+Oxygen monitoring is critical in hydrogen production because even small oxygen concentrations can create safety risks and affect gas purity. Reliable on-line oxygen analysis helps operators detect air ingress, confirm process integrity and protect downstream equipment. In high-pressure hydrogen systems, the analyzer must be suitable for demanding process conditions and provide stable, repeatable measurements without introducing unnecessary sampling delays.
+
+How are hydrogen analyzers used in industrial processes?
+
+Hydrogen analyzers measure hydrogen concentration in gas streams for process control, safety monitoring and product quality verification. They are used in hydrogen production, refining, petrochemical processing, fuel gas systems and industrial gas applications. Accurate hydrogen analysis helps operators optimize production, monitor purity, detect process deviations and maintain safe operation in systems where hydrogen concentration is a key control parameter.
+
+What are hydrocarbon gas analyzers used for?
+
+Hydrocarbon gas analyzers are used to monitor hydrocarbon components in gas streams, including fuel gas, natural gas, process gas and emissions-related applications. They help identify changes in gas composition, support combustion control, monitor product quality and improve process safety. In refineries and petrochemical plants, hydrocarbon gas analysis can also help detect leaks, contamination or abnormal process behavior before it becomes a larger problem.
+
+What should be considered when selecting a gas analyzer?
+
+The gas analyzer should be selected based on the measured component, process pressure and temperature, gas composition, required accuracy, response time, hazardous area classification, maintenance expectations and validation method. It is also important to understand possible cross-interferences, corrosive components, condensation risks and whether the application is better suited to in-situ or extractive measurement. A good analyzer choice starts with a properly defined process stream, not a catalogue shortcut.
+
+Why is sample handling important for gas analyzer systems?
+
+For extractive gas analyzer systems, the sample reaching the analyzer must represent the real process gas. Poor sample handling can cause condensation, adsorption, contamination, pressure-related errors or long response times. Sample probes, heated lines, filters, pressure control and conditioning equipment must be designed around the gas composition and operating conditions. Even the best analyzer will give poor results if the sample arrives late, wet or chemically changed.
+
+What are the benefits of turnkey gas analyzer systems?
+
+Turnkey gas analyzer systems combine the analyzer, sample handling equipment, utilities, wiring, communications and safety systems into one engineered package. This reduces site installation work, improves reliability and gives the customer a single responsibility point for design, integration, testing and commissioning. For complex gas analysis applications, especially in hazardous or high-pressure environments, a factory-tested turnkey package is often the most practical route to a clean start-up.
+
+Main Address
+
+10 Orange St. Haymarket, London WC2H 7DQ
+Tel:
+
++
+44-204-5771737
+
+See all of our international locations:
+
+Contact Us
+
+Products
+
+Process Analyzers
+
+Sample Conditioning
+
+Analyzer Houses
+
+Sample Recovery System
+
+Turn-Key Projects
+
+Advanced Blending Solutions
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Terminals
+
+Advanced Marine Environmental & Safety Solutions
+
+Health Monitoring
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and System Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+About
+
+Management Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos & Presentations
+
+News
+
+News
+
+Articles
+
+Security
+
+Privacy policy
+
+Accessibility Statement
+
+Another great website by
+
+Custom-Sites.com

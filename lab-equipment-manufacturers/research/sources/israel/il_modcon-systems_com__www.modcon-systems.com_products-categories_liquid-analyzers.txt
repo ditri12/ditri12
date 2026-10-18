@@ -1,0 +1,372 @@
+Online Liquid Analyzers for Crude Oil and Refining | Modcon
+
+Skip to content
+
+Open toolbar
+
+Accessibility Tools
+
+Increase Text
+
+Decrease Text
+
+Grayscale
+
+High Contrast
+
+Negative Contrast
+
+Light Background
+
+Links Underline
+
+Readable Font
+
+Reset
+
+Skip to content
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Search
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Modcon Systems Ltd. liquid petroleum analyzers use optical and other advanced measurement technologies to provide real-time analysis of complex liquid hydrocarbons, including crude oil, refined fuels and process chemicals.
+
+Modcon liquid analyzers support crude oil and refining applications by providing real-time measurement of crude quality, salt-in-crude content and petroleum product properties for refinery process control.
+
+The analyzers are available in a range of modular configurations, allowing each system to be adapted to the required application, measured properties, process conditions and installation constraints. This modular design provides high versatility and supports optimized system configuration for different refinery, petrochemical and fuel processing applications.
+
+For refinery applications, these liquid analyzer solutions can be combined with
+Oil Refinery
+applications, Analyzer Systems and related online crude oil analyzers such as
+MOD-4100
+,
+MOD-4100S
+and
+MOD-4140.
+
+Product
+
+Measures
+
+Main use
+
+MOD-4100S Salt in Crude Oil Analyser
+
+Salt in crude oil
+
+Desalter monitoring, crude unit protection and crude quality control
+
+View MOD-4100S salt in crude oil analyser
+
+MOD-4100 Crude Oil Analyser
+
+Multiple crude oil properties
+
+Crude quality monitoring, refinery optimisation and blending control
+
+View MOD-4100 crude oil analyser
+
+MOD-4140 On-Line Crude Oil Analyzer
+
+NIR crude oil properties
+
+API, density, water, crude composition and multi-property online crude analysis
+
+View MOD-4140 crude oil analyzer
+
+Beacon-3000 NIR Analyzer
+
+NIR hydrocarbon stream properties
+
+Refinery and petrochemical process quality control for hydrocarbon streams
+
+View Beacon-3000 NIR analyzer
+
+MOD-4140 Online Crude Oil Analyzer
+
+See More >
+
+MOD-4100S Salt in Crude Oil Analyser
+
+See More >
+
+MOD-4100 Crude Oil Analyser
+
+See More >
+
+Beacon-3000 NIR Analyzer
+
+See More >
+
+Frequently Asked Questions
+
+What are petroleum process analyzers used for?
+
+Petroleum process analyzers are used to measure the physical properties and chemical composition of liquid hydrocarbons directly in the process. They help refineries and petrochemical plants produce high-value, on-specification products at optimal cost, while reducing product giveaway, energy consumption and unnecessary laboratory delays. Typical applications include crude oil analysis, refined fuel quality monitoring, blending control, desalting optimization and process unit performance monitoring.
+
+Why are on-line liquid analyzers important in modern refineries?
+
+On-line liquid analyzers provide continuous, real-time information about crude oil, intermediate streams and final petroleum products. This allows operators to react quickly to process changes, maintain product quality and avoid costly off-spec production. Compared with relying only on laboratory testing, on-line petroleum analyzers can improve process control, reduce operating manpower, support energy conservation and help minimize environmental impact.
+
+What should be considered when selecting a petroleum analyzer?
+
+The selection of a petroleum analyzer should begin with a clear definition of the process stream, including operating conditions, pressure, temperature, flow rate and complete sample composition. Important selection factors include the required accuracy and sensitivity, the standard laboratory method used for validation, analyzer response time, maintenance requirements, sample handling needs, calibration standards, cross-interference risks, multi-stream capability and total lifecycle cost.
+
+What is the difference between ASTM-based analyzers and correlative analyzers?
+
+ASTM-based analyzers are designed to reproduce or closely follow recognised laboratory test methods. They usually provide strong correlation with laboratory results and are less dependent on changes in feedstock quality, but they may have longer response times and higher maintenance demands. Correlative analyzers, such as NIR, FTIR and magnetic resonance-based systems, are generally faster and often more economical, but they must be carefully calibrated and validated against laboratory reference methods using appropriate ASTM procedures.
+
+How are NIR analyzers used in petroleum applications?
+
+NIR analyzers use near-infrared spectroscopy to estimate key properties of crude oil, refined fuels and liquid hydrocarbon streams. They are often used where fast, multi-property analysis is required, such as refinery blending, crude oil characterization and product quality monitoring. Because NIR is a correlative technology, its performance depends on robust calibration models, representative samples and proper validation against standard laboratory methods.
+
+Why is representative sampling critical for petroleum analyzers?
+
+The sample reaching the analyzer must be identical to the process stream, or differ from it only in a known and predictable way. Poor sampling can cause measurement errors even when the analyzer itself is accurate. Sample probes, transport lines and conditioning systems must be designed to avoid contamination, phase separation, dead volume, excessive delay and changes in composition before the sample reaches the measurement cell.
+
+What role does sample conditioning play in liquid analyzer systems?
+
+Sample conditioning prepares the process sample for accurate and stable measurement. In petroleum applications, this may include pressure reduction, temperature control, filtration, flow regulation, removal of bubbles or particulates and safe return or disposal of the sample. A well-designed sample conditioning system protects the analyzer, improves repeatability and helps ensure that the measured value reflects the real process condition, not a sampling artefact.
+
+Can petroleum analyzers be used for multi-stream applications?
+
+Yes. Many petroleum analyzer systems can be configured for single-stream or multi-stream operation, depending on the process requirements and the analytical method used. Multi-stream systems allow one analyzer to monitor several process points, which can reduce investment cost and simplify maintenance. The design must still account for stream compatibility, switching time, sample transport delay, cleaning requirements and validation for each stream.
+
+Why are analyzer houses used for refinery liquid analyzer systems?
+
+Analyzer houses provide a controlled and safe environment for process analyzers, sample systems, utilities and electrical equipment. They typically include air conditioning, power distribution, lighting, junction boxes, gas and flame detection, piping, wiring and communication interfaces. For refinery and petrochemical applications, analyzer houses help improve reliability, simplify maintenance and protect sensitive instrumentation from harsh field conditions.
+
+What are the advantages of prefabricated analyzer houses?
+
+Prefabricated analyzer houses are pre-piped, pre-wired and factory-tested before shipment to site. This reduces installation work, shortens commissioning time and limits the number of interfaces that must be managed in the field. A turnkey package also gives the customer a clearer responsibility chain, since one specialist team can manage the analyzers, sample systems, utilities, documentation and testing from design through final acceptance.
+
+Main Address
+
+10 Orange St. Haymarket, London WC2H 7DQ
+Tel:
+
++
+44-204-5771737
+
+See all of our international locations:
+
+Contact Us
+
+Products
+
+Process Analyzers
+
+Sample Conditioning
+
+Analyzer Houses
+
+Sample Recovery System
+
+Turn-Key Projects
+
+Advanced Blending Solutions
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Terminals
+
+Advanced Marine Environmental & Safety Solutions
+
+Health Monitoring
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and System Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+About
+
+Management Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos & Presentations
+
+News
+
+News
+
+Articles
+
+Security
+
+Privacy policy
+
+Accessibility Statement
+
+Another great website by
+
+Custom-Sites.com

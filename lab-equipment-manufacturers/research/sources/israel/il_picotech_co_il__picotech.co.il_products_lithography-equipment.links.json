@@ -1,0 +1,788 @@
+[
+{
+"text": "Manage options",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/#cmplz-manage-consent-container"
+},
+{
+"text": "Manage services",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/#cmplz-cookies-overview"
+},
+{
+"text": "Manage {vendor_count} vendors",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/#cmplz-tcf-wrapper"
+},
+{
+"text": "Read more about these purposes",
+"title": "",
+"alt": "",
+"href": "https://cookiedatabase.org/tcf/purposes/"
+},
+{
+"text": "View preferences",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/#cmplz-manage-consent-container"
+},
+{
+"text": "Privacy Policy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/"
+},
+{
+"text": "Privacy Policy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il"
+},
+{
+"text": "Home",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/"
+},
+{
+"text": "Material Growth, Epitaxy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/material-growth/"
+},
+{
+"text": "Lithography Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/"
+},
+{
+"text": "Wet Chemistry Tools",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/"
+},
+{
+"text": "Plasma Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/"
+},
+{
+"text": "Thin Film Deposition",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/"
+},
+{
+"text": "Thermal Processing Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thermal-processing-equipment/"
+},
+{
+"text": "Dicing, Grinding, CMP Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/wafer-dicing-grinding-thinning-polishing-cmp-post-cmp-cleaning/"
+},
+{
+"text": "Probe Stations",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/probestations/"
+},
+{
+"text": "Analytical Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/"
+},
+{
+"text": "Automation Solutions",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/automation-solutions/"
+},
+{
+"text": "Nanomanufacturing and 3D Printing",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/nanomanufacturing-and-3d-printing/"
+},
+{
+"text": "Graphene, CNT, 2D Materials",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/graphene-and-cnt-2d-materials-parylene/"
+},
+{
+"text": "SEM, FIB-SEM, Micro-CT",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/sem-fib-sem-accessories/"
+},
+{
+"text": "SAM, AFM, Nanoindentation",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/sam-afm-and-nanoindentation/"
+},
+{
+"text": "E-Beam Lithography",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/mask-aligners-nanoimprint-e-beam-lithography-maskless-lithography/"
+},
+{
+"text": "Maskless Lithography",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/mask-aligners-nanoimprint-e-beam-lithography-maskless-lithography/"
+},
+{
+"text": "Nanoimprint",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/mask-aligners-nanoimprint-e-beam-lithography-maskless-lithography/"
+},
+{
+"text": "Dry Etching and IBE",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/plasma-dry-etch-rie-icp-deep-silicon-etch-mask-etch-ibe/"
+},
+{
+"text": "KRI Ion Sources",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/kri-ion-sources/"
+},
+{
+"text": "Custom Gloveboxes: PVD, ALD, SEM",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/custom-gloveboxes-pvd-ald-sem/"
+},
+{
+"text": "SEM, FIB-SEM, Micro-CT",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/sem-fib-sem-accessories/"
+},
+{
+"text": "Probe Stations",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/probestations/"
+},
+{
+"text": "Ellipsometry and Optical Tools",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/ellipsometry-and-optical-tools/"
+},
+{
+"text": "Semi Metrology: CV/IV, Resistivity, Carrier Lifetime/Mobility",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/material-characterization-cv-resistivity-dpl-dlts/"
+},
+{
+"text": "SAM, AFM, Nanoindentation",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/sam-afm-and-nanoindentation/"
+},
+{
+"text": "Pull and Shear Testers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/pull-and-shear-testers-analytical-equipment/"
+},
+{
+"text": "Laser Doppler Vibrometers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/laser-doppler-vibrometers/"
+},
+{
+"text": "Failure Analysis: Wet, IBE, Plasma, Laser",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/failure-analysis-wet-ibe-plasma-laser/"
+},
+{
+"text": "Die bonding and Flip-Chip",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/die-bonding-and-flip-chip/"
+},
+{
+"text": "Wire Bonding",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/wire-bonding-equipment/"
+},
+{
+"text": "Advanced Packaging",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/"
+},
+{
+"text": "Pull and Shear Testers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/pull-and-shear-testers/"
+},
+{
+"text": "Probe Stations",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/probestations/"
+},
+{
+"text": "Plasma Cleaning and Activation",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/plasma-cleaning-plasma-activation-atmospheric-vacuum/"
+},
+{
+"text": "Thermal Processing Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thermal-processing-equipment/"
+},
+{
+"text": "Optical Coating Tools, IBD, DLC",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/sputter-thermal-e-beam-evaporation-ibd-ald-dlc-precision-optics-in-bumps/"
+},
+{
+"text": "ALD Systems",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/material-growth/ald-systems/"
+},
+{
+"text": "Optical Coating Materials",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/optical-coating-materials/"
+},
+{
+"text": "Ellipsometry and Optical Tools",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/ellipsometry-and-optical-tools/"
+},
+{
+"text": "Wafer Transfer, Sorting, Manipulation",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/wafer-transfer-sorting-manipulation/"
+},
+{
+"text": "Lithography Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/"
+},
+{
+"text": "Spin Coaters, Spray Coaters, Developers, Hotplates, Photoresist",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/spin-coaters-spray-coaters-developers-hotplates-photoresist/"
+},
+{
+"text": "Mask-Aligners, Nanoimprint, E-Beam Lithography, Maskless Lithography",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/mask-aligners-nanoimprint-e-beam-lithography-maskless-lithography/"
+},
+{
+"text": "Nanomanufacturing and 3D printing",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/nanomanufacturing-and-3d-printing/"
+},
+{
+"text": "Wafer Bonding",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/lithography-equipment/wafer-bonding/"
+},
+{
+"text": "Plasma Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/"
+},
+{
+"text": "Plasma Cleaning, Plasma Activation: Atmospheric, Vacuum",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/plasma-cleaning-plasma-activation-atmospheric-vacuum/"
+},
+{
+"text": "Plasma Dry Etch: RIE, ICP, Deep Silicon Etch, Mask Etch, IBE",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/plasma-dry-etch-rie-icp-deep-silicon-etch-mask-etch-ibe/"
+},
+{
+"text": "Plasma PECVD, Low-Temp HDPECVD, Large Area PECVD",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/plasma-equipment/plasma-pecvd-low-temp-hdpecvd-large-area-pecvd/"
+},
+{
+"text": "Thin Film Deposition",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/"
+},
+{
+"text": "Sputter, Thermal, E-beam Evaporation, IBD, ALD, DLC, Precision Optics, In Bumps",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/sputter-thermal-e-beam-evaporation-ibd-ald-dlc-precision-optics-in-bumps/"
+},
+{
+"text": "Graphene and CNT, 2D materials, Parylene",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/graphene-and-cnt-2d-materials-parylene/"
+},
+{
+"text": "Optical Coating Materials",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/optical-coating-materials/"
+},
+{
+"text": "Automation Solutions",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/automation-solutions/"
+},
+{
+"text": "KRI Ion Sources",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thin-film-deposition/kri-ion-sources/"
+},
+{
+"text": "Wet Processing",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/"
+},
+{
+"text": "Wet Etch, Lift-Off, Electroplating",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/wet-etch-lift-off-electroplating/"
+},
+{
+"text": "Mask Cleaning, SRD",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/mask-cleaning-srd/"
+},
+{
+"text": "Spray Acid, Spray Solvent Tools",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/spray-acid-spray-solvent-tools/"
+},
+{
+"text": "Wafer Transfer, Sorting, Manipulation",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/wafer-transfer-sorting-manipulation/"
+},
+{
+"text": "Custom Gloveboxes: PVD, ALD, SEM",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/wet-processing/custom-gloveboxes-pvd-ald-sem/"
+},
+{
+"text": "Advanced Packaging Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/"
+},
+{
+"text": "Wafer Dicing, Grinding, Thinning, Polishing, CMP, Post-CMP Cleaning",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/wafer-dicing-grinding-thinning-polishing-cmp-post-cmp-cleaning/"
+},
+{
+"text": "Die bonding and Flip Chip",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/die-bonding-and-flip-chip/"
+},
+{
+"text": "Wire Bonding Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/wire-bonding-equipment/"
+},
+{
+"text": "Pull and Shear Testers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/pull-and-shear-testers/"
+},
+{
+"text": "Sintering and Molding",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/advanced-packaging-equipment/advanced-packaging/"
+},
+{
+"text": "Analytical Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/"
+},
+{
+"text": "Probe Stations",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/probestations/"
+},
+{
+"text": "SEM, FIB-SEM, Micro-CT, Accessories",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/sem-fib-sem-accessories/"
+},
+{
+"text": "Ellipsometry and optical tools",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/ellipsometry-and-optical-tools/"
+},
+{
+"text": "Semi Metrology: CV/IV, Resistivity, Carrier Lifetime/Mobility",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/material-characterization-cv-resistivity-dpl-dlts/"
+},
+{
+"text": "SAM, AFM, Nanoindentation",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/sam-afm-and-nanoindentation/"
+},
+{
+"text": "Pull and Shear Testers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/pull-and-shear-testers-analytical-equipment/"
+},
+{
+"text": "Laser Doppler Vibrometers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/laser-doppler-vibrometers/"
+},
+{
+"text": "Failure Analysis: Wet, IBE, Plasma, Laser",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/analytical-equipment/failure-analysis-wet-ibe-plasma-laser/"
+},
+{
+"text": "Thermal Processing Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thermal-processing-equipment/"
+},
+{
+"text": "RTP Equipment",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thermal-processing-equipment/rtp-equipment/"
+},
+{
+"text": "Reflow Ovens",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thermal-processing-equipment/reflow-ovens/"
+},
+{
+"text": "Diffusion Furnaces and LPCVD",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/thermal-processing-equipment/diffusion-furnaces-and-lpcvd/"
+},
+{
+"text": "Material growth, Epitaxy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/material-growth/"
+},
+{
+"text": "ALD Systems",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/material-growth/ald-systems/"
+},
+{
+"text": "MBE Systems",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/material-growth/mbe-systems/"
+},
+{
+"text": "MOCVD Systems",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/products/material-growth/mocvd-systems/"
+},
+{
+"text": "Customers",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/customers/"
+},
+{
+"text": "Events",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/events/"
+},
+{
+"text": "Privacy Policy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/"
+},
+{
+"text": "General Terms and Conditions",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/general-terms-and-conditions/"
+},
+{
+"text": "Company",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/about/"
+},
+{
+"text": "Contact",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/contact/"
+},
+{
+"text": "Login",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/login/"
+},
+{
+"text": "Contact Us",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/contact/"
+},
+{
+"text": "Home",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/"
+},
+{
+"text": "Spin Coaters, Spray Coaters, Developers, Hotplates, Photoresist",
+"title": "",
+"alt": "Spin Coaters, Spray Coaters, Developers, Hotplates, Photoresist",
+"href": "https://picotech.co.il/products/lithography-equipment/spin-coaters-spray-coaters-developers-hotplates-photoresist/"
+},
+{
+"text": "Mask-Aligners, Nanoimprint, E-beam Lithography, Maskless Lithography",
+"title": "",
+"alt": "Mask-Aligners, Nanoimprint, E-beam Lithography, Maskless Lithography",
+"href": "https://picotech.co.il/products/lithography-equipment/mask-aligners-nanoimprint-e-beam-lithography-maskless-lithography/"
+},
+{
+"text": "Nanomanufacturing and 3D printing",
+"title": "",
+"alt": "Nanomanufacturing and 3D printing",
+"href": "https://picotech.co.il/products/lithography-equipment/nanomanufacturing-and-3d-printing/"
+},
+{
+"text": "Wafer bonding",
+"title": "",
+"alt": "Wafer bonding",
+"href": "https://picotech.co.il/products/lithography-equipment/wafer-bonding/"
+},
+{
+"text": "terms of use",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/terms-of-use"
+},
+{
+"text": "privacy policy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy"
+},
+{
+"text": "Linkedin",
+"title": "",
+"alt": "",
+"href": "https://www.linkedin.com/company/picotech-ltd-israel/"
+},
+{
+"text": "",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il"
+},
+{
+"text": "Home",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/"
+},
+{
+"text": "Our Company",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/about/"
+},
+{
+"text": "Privacy Policy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/"
+},
+{
+"text": "Terms of Use",
+"title": "",
+"alt": "",
+"href": "https://drive.google.com/file/d/1S3N6S0RrEbNVYvhN0nGf5ygr50FIy4iq/view?usp=sharing"
+},
+{
+"text": "General Terms and Conditions",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/general-terms-and-conditions/"
+},
+{
+"text": "Login",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/login/"
+},
+{
+"text": "Contact",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/contact/"
+},
+{
+"text": "Career at Comtal",
+"title": "",
+"alt": "",
+"href": "https://www.comtal.co.il/he/careers/"
+},
+{
+"text": "Applicant Privacy Notice",
+"title": "",
+"alt": "",
+"href": "https://drive.google.com/file/d/1E0zZCL9SB6kciXBFV_gX38JdadMyQJAA/view?usp=sharing"
+},
+{
+"text": "Accessibility Statement",
+"title": "",
+"alt": "",
+"href": "https://drive.google.com/file/d/1S6aXj7Vtm4dKBMCq6DknTZpZ5ESuu5VO/view?usp=sharing"
+},
+{
+"text": "Home",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/"
+},
+{
+"text": "Our Company",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/about/"
+},
+{
+"text": "Privacy Policy",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/privacy-policy/"
+},
+{
+"text": "Terms of Use",
+"title": "",
+"alt": "",
+"href": "https://drive.google.com/file/d/1S3N6S0RrEbNVYvhN0nGf5ygr50FIy4iq/view?usp=sharing"
+},
+{
+"text": "General Terms and Conditions",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/general-terms-and-conditions/"
+},
+{
+"text": "Login",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/login/"
+},
+{
+"text": "Contact",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/contact/"
+},
+{
+"text": "Career at Comtal",
+"title": "",
+"alt": "",
+"href": "https://www.comtal.co.il/he/careers/"
+},
+{
+"text": "Applicant Privacy Notice",
+"title": "",
+"alt": "",
+"href": "https://drive.google.com/file/d/1E0zZCL9SB6kciXBFV_gX38JdadMyQJAA/view?usp=sharing"
+},
+{
+"text": "Accessibility Statement",
+"title": "",
+"alt": "",
+"href": "https://drive.google.com/file/d/1S6aXj7Vtm4dKBMCq6DknTZpZ5ESuu5VO/view?usp=sharing"
+},
+{
+"text": "Login",
+"title": "",
+"alt": "",
+"href": "https://picotech.co.il/login/"
+}
+]

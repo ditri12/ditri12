@@ -1,0 +1,806 @@
+[
+{
+"text": "",
+"title": "",
+"alt": "Modcon Systems Logo",
+"href": "https://modcon.group/"
+},
+{
+"text": "Home",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/"
+},
+{
+"text": "Products",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products"
+},
+{
+"text": "Process Analyzers",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/process-analyzers/"
+},
+{
+"text": "Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/liquid-analyzers/"
+},
+{
+"text": "Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/gas-analyzers/"
+},
+{
+"text": "Process Analyzer Systems for Industrial Applications",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/analyzer-systems/"
+},
+{
+"text": "Industrial AI and Machine Learning for Process Optimisation",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/ai-ml/"
+},
+{
+"text": "Turnkey Process Analyzer Projects",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/turn-key-projects/"
+},
+{
+"text": "Applications",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/applications/"
+},
+{
+"text": "Oil Refinery",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/oil-refinery/"
+},
+{
+"text": "Natural Gas",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/natural-gas/"
+},
+{
+"text": "Petrochemicals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/petrochemicals-2/"
+},
+{
+"text": "Chemicals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/chemicals/"
+},
+{
+"text": "Energy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/energy-2/"
+},
+{
+"text": "Biogas Industry",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/biogas-industry/"
+},
+{
+"text": "Terminals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/terminals/"
+},
+{
+"text": "Green Hydrogen Production",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/green-hydrogen-production/"
+},
+{
+"text": "Environmental",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/environmental/"
+},
+{
+"text": "Support",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/"
+},
+{
+"text": "Three ways to get technical support faster",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/"
+},
+{
+"text": "Service Request Form",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/service-request-form/"
+},
+{
+"text": "Service",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/service/"
+},
+{
+"text": "Installation Supervision and Inspection",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/installation-supervision-and-inspection/"
+},
+{
+"text": "Commissioning and Configuration",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/commissioning-and-system-configuration/"
+},
+{
+"text": "Technical Support Program",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/technical-support-program/"
+},
+{
+"text": "Technical Support MARS Program",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/technical-support-mars-program/"
+},
+{
+"text": "News",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/category/news/"
+},
+{
+"text": "Articles",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/category/articles/"
+},
+{
+"text": "About",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/"
+},
+{
+"text": "Leadership Team",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/#management"
+},
+{
+"text": "Company Integrated Policy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/company-integrated-policy/"
+},
+{
+"text": "Career Opportunities",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/career-opportunities/"
+},
+{
+"text": "Videos",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about#Videos"
+},
+{
+"text": "Contact",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/contact/"
+},
+{
+"text": "Home",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/"
+},
+{
+"text": "Products",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products"
+},
+{
+"text": "Process Analyzers",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/process-analyzers/"
+},
+{
+"text": "Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/liquid-analyzers/"
+},
+{
+"text": "Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/gas-analyzers/"
+},
+{
+"text": "Process Analyzer Systems for Industrial Applications",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/analyzer-systems/"
+},
+{
+"text": "Industrial AI and Machine Learning for Process Optimisation",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/ai-ml/"
+},
+{
+"text": "Turnkey Process Analyzer Projects",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/turn-key-projects/"
+},
+{
+"text": "Applications",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/applications/"
+},
+{
+"text": "Oil Refinery",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/oil-refinery/"
+},
+{
+"text": "Natural Gas",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/natural-gas/"
+},
+{
+"text": "Petrochemicals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/petrochemicals-2/"
+},
+{
+"text": "Chemicals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/chemicals/"
+},
+{
+"text": "Energy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/energy-2/"
+},
+{
+"text": "Biogas Industry",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/biogas-industry/"
+},
+{
+"text": "Terminals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/terminals/"
+},
+{
+"text": "Green Hydrogen Production",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/green-hydrogen-production/"
+},
+{
+"text": "Environmental",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/environmental/"
+},
+{
+"text": "Support",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/"
+},
+{
+"text": "Three ways to get technical support faster",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/"
+},
+{
+"text": "Service Request Form",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/service-request-form/"
+},
+{
+"text": "Service",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/service/"
+},
+{
+"text": "Installation Supervision and Inspection",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/installation-supervision-and-inspection/"
+},
+{
+"text": "Commissioning and Configuration",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/commissioning-and-system-configuration/"
+},
+{
+"text": "Technical Support Program",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/technical-support-program/"
+},
+{
+"text": "Technical Support MARS Program",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/technical-support-mars-program/"
+},
+{
+"text": "News",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/category/news/"
+},
+{
+"text": "Articles",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/category/articles/"
+},
+{
+"text": "About",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/"
+},
+{
+"text": "Leadership Team",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/#management"
+},
+{
+"text": "Company Integrated Policy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/company-integrated-policy/"
+},
+{
+"text": "Career Opportunities",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/career-opportunities/"
+},
+{
+"text": "Videos",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about#Videos"
+},
+{
+"text": "Contact",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/contact/"
+},
+{
+"text": "Modcon Systems Ltd.",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/contact/"
+},
+{
+"text": "analyzer system",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/analyzer-systems/"
+},
+{
+"text": "sample conditioning",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/sample-conditioning/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Financing Packages",
+"href": "https://www.modcon-systems.com/products/financing-structure-packages/"
+},
+{
+"text": "Financing Structure Packages",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/financing-structure-packages/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/financing-structure-packages/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Modern Feasibility Studies",
+"href": "https://www.modcon-systems.com/products/feasibility-studies/"
+},
+{
+"text": "Feasibility Studies",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/feasibility-studies/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/feasibility-studies/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Advanced Blending Solutions",
+"href": "https://www.modcon-systems.com/products/advanced-blending-solutions/"
+},
+{
+"text": "Advanced Blending Solutions",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/advanced-blending-solutions/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/advanced-blending-solutions/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Optimized Blending of Butane in Gasoline",
+"href": "https://www.modcon-systems.com/products/optimized-blending-of-butane-in-gasoline/"
+},
+{
+"text": "Optimized Blending of Butane in Gasoline",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/optimized-blending-of-butane-in-gasoline/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/optimized-blending-of-butane-in-gasoline/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Research",
+"href": "https://www.modcon-systems.com/products/analyzer-houses-2/"
+},
+{
+"text": "Analyzer Houses",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/analyzer-houses-2/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/analyzer-houses-2/"
+},
+{
+"text": "",
+"title": "",
+"alt": "new-project-analyzers",
+"href": "https://www.modcon-systems.com/products/analyzer-systems/"
+},
+{
+"text": "Process Analyzer Systems",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/analyzer-systems/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/analyzer-systems/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Conception building",
+"href": "https://www.modcon-systems.com/products/conception-building/"
+},
+{
+"text": "Conception building",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/conception-building/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/conception-building/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Project Execution",
+"href": "https://www.modcon-systems.com/products/project-execution/"
+},
+{
+"text": "Project Execution",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/project-execution/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/project-execution/"
+},
+{
+"text": "",
+"title": "",
+"alt": "oil_refinery",
+"href": "https://www.modcon-systems.com/products/engineering-services/"
+},
+{
+"text": "Engineering Services",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/engineering-services/"
+},
+{
+"text": "See More >",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/engineering-services/"
+},
+{
+"text": "Contact Us",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/contact/"
+},
+{
+"text": "",
+"title": "",
+"alt": "mail",
+"href": "https://www.modcon-systems.com/contact/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Group 64",
+"href": "https://www.linkedin.com/company/modcon-systems/"
+},
+{
+"text": "Process Analyzers",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/process-analyzers/"
+},
+{
+"text": "Sample Conditioning",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/sample-conditioning/"
+},
+{
+"text": "Analyzer Houses",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?post_type=products&p=225"
+},
+{
+"text": "Sample Recovery System",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products/sample-recovery-system/"
+},
+{
+"text": "Turn-Key Projects",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/turn-key-projects/"
+},
+{
+"text": "Advanced Blending Solutions",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/products-categories/advanced-blending-solutions/"
+},
+{
+"text": "Oil Refinery",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2092"
+},
+{
+"text": "Natural Gas",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2093"
+},
+{
+"text": "Petrochemicals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2095"
+},
+{
+"text": "Chemicals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2098"
+},
+{
+"text": "Energy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2099"
+},
+{
+"text": "Terminals",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2100"
+},
+{
+"text": "Green Hydrogen Production",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2104"
+},
+{
+"text": "Environmental",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=2105"
+},
+{
+"text": "Three ways to get technical support faster",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/"
+},
+{
+"text": "Service Request Form",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/service-request-form/"
+},
+{
+"text": "Service",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/service/"
+},
+{
+"text": "Installation Supervision and Inspection",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/installation-supervision-and-inspection/"
+},
+{
+"text": "Commissioning and System Configuration",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/commissioning-and-system-configuration/"
+},
+{
+"text": "Technical Support Program",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/technical-support-program/"
+},
+{
+"text": "Technical Support MARS Program",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/support/technical-support-mars-program/"
+},
+{
+"text": "Management Team",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/?page_id=27/#managment"
+},
+{
+"text": "Company Integrated Policy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/company-integrated-policy/"
+},
+{
+"text": "Career Opportunities",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/about/career-opportunities/"
+},
+{
+"text": "Videos & Presentations",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/#Videos"
+},
+{
+"text": "News",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/category/news/"
+},
+{
+"text": "Articles",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/category/articles/"
+},
+{
+"text": "Privacy policy",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/privacy-policy/"
+},
+{
+"text": "Accessibility Statement",
+"title": "",
+"alt": "",
+"href": "https://www.modcon-systems.com/accessibility-statement/"
+},
+{
+"text": "",
+"title": "",
+"alt": "Modcon Systems Logo",
+"href": "https://www.modcon-systems.com/"
+},
+{
+"text": "",
+"title": "",
+"alt": "CS Logo no tagline",
+"href": "https://custom-sites.com/?utm_source=modcon-systems&utm_medium=Footer&utm_campaign=Footer%20Credits"
+},
+{
+"text": "Custom-Sites.com",
+"title": "",
+"alt": "",
+"href": "https://custom-sites.com/?utm_source=modcon-systems&utm_medium=Footer&utm_campaign=Footer%20Credits"
+}
+]

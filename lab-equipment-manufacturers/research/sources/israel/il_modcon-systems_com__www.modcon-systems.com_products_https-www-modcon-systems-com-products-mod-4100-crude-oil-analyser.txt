@@ -1,0 +1,743 @@
+MOD-4100 Crude Oil Analyser | Refinery Optimization
+
+Skip to content
+
+Open toolbar
+
+Accessibility Tools
+
+Increase Text
+
+Decrease Text
+
+Grayscale
+
+High Contrast
+
+Negative Contrast
+
+Light Background
+
+Links Underline
+
+Readable Font
+
+Reset
+
+Skip to content
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Home
+
+Products
+
+Process Analyzers
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+Process Gas Analyzers for Oxygen, Hydrogen and Natural Gas
+
+Process Analyzer Systems for Industrial Applications
+
+Industrial AI and Machine Learning for Process Optimisation
+
+Turnkey Process Analyzer Projects
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Biogas Industry
+
+Terminals
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+News
+
+News
+
+Articles
+
+About
+
+Leadership Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos
+
+Contact
+
+Search
+
+MOD-4100 Crude Oil Analyser
+
+For further details and specifications
+Choose the PDF files to download
+
+The Economics of Process Analysis
+
+MOD 4100 S - Salt in Crude Oil Analyser
+
+All-in-one Crude Analyzer MOD 4100
+
+Process NIR Analyzer Mod-4140
+Download PDF
+Please choose at least one file
+
+Comments
+This field is for validation purposes and should be left unchanged.
+Please fill in the form to download the PDF files
+Name
+*
+
+First
+
+Last
+
+Email
+*
+
+Phone
+Company name
+*
+Country
+Files
+PDF
+
+Download PDF
+
+MOD-4100 Online Crude Oil Analyser for Refinery Optimization
+The MOD-4100 Crude Oil Analyser provides online measurement of critical crude oil properties for refinery optimization, crude blending, CDU control and real-time feedstock quality monitoring.
+Crude oil quality can change significantly during transportation, storage, blending and crude switching. Continuous online crude oil analysis helps refineries respond faster to changes in feedstock quality, reduce dependence on delayed laboratory results and improve process control.
+Crude oil quality can change significantly during transportation, storage, blending and crude switching. Continuous online crude oil analysis helps refineries respond faster to changes in feedstock quality, reduce dependence on delayed laboratory results and improve process control.
+Modcon Systems Ltd. provides the MOD 4100 Crude Oil Analyser as part of its industrial analyzer portfolio for real-time process measurement and control.
+The newly redesigned MOD-4100 crude analyzer represents a breakthrough in crude oil on-line analysis. It is a single analyzer, that performs on-line a variety of different critical crude oil measurements to provide real-time analytical data, which is highly important for optimized operation processing of crude oils. The new design of the MOD 4100 analyzer system is based on a “Modular Package concept”. It is inspected and tested by the factory, and ready for immediate installation on-site. The following crude oil critical parameters can be measured on-line and correlated to ASTM:
+Salt Concentration (D3230)
+Distillation (D2892, D86)
+SARA (IP-143 and D893-69)
+Emulsion stability (F3045, D4007 and D3707)
+Hydrogen Sulfide content (D5705)
+RVP (D6377 and D323)
+Viscosity (D445 and D2501)
+Water Content (D4928 and D4006)
+Sulfur content (D2622 and D4294)
+Density (D4928 and D1250)
+The analyzers are applicable in the oil well, pipes, vessel, tanks, and at any other location in the crude oil supply chain from the oil well during transportation, storage, desalting, and blending until the crude distillation unit. On-line and rapid analysis allows real-time detection of unacceptable levels of quality parameters to take immediate corrective actions.
+Contact us to learn more
+about MOD-4100 crude analyzer
+
+Crude Oil Distillation
+On-line monitoring of the crude oil properties before, between, and after the desalters enables efficient operation of the desalter, at minimum cost of energy and process chemicals.
+On-line monitoring of the physical properties such as the SALT, H2S, and TAN of the crude oils entering the CDU is also of high importance for evaluating the potential of corrosion and fouling that affect the equipment and the pipelines.
+Indicates the transition period between two sequential crude oil feeds.
+Continuous verification of the entire batch complying with its specifications.
+System Configuration
+The new MOD 4100 On-line Analytical System is a complete equipment set.
+MOD-4100 allows real-time analysis of critical crude oil properties under field conditions.
+Continuous crude oil sampling from pipelines, tanks, or process vessels, its filtration, and separation from solid particles.
+The analyzer is equipped with an integrated sampling handling and sample condition system, to bring the samples to the physical condition that is required by the analyzer.
+Integrated Analyzer control system.
+Transfer of analysis results to customer’s control room DCS.
+No analyzer shelter is required.
+The analyzer comes installed in an outdoor stainless steel enclosure.
+
+System Advantages
+On-line monitoring of the crude oil qualities also plays a critical role in a variety of different crude oil process optimizations.
+Crude Oil Blending
+:
+Optimization of the ratio between crude oil being blended to provide a blend of required physical properties.
+Reduction of blend cost by maximum incorporation of low-cost crudes in the blend
+Online Crude Oil Analysis for Refineries
+The MOD-4100 Crude Oil Analyser provides continuous online measurement of key crude oil properties directly during refinery operation. Real-time crude oil analysis helps operators understand feedstock quality changes faster than laboratory testing alone, supporting better control of crude unit operation, blending decisions and refinery performance.
+Online crude analysis is especially important when processing variable crude blends, opportunity crudes or during crude switching, where changes in feedstock quality can affect distillation behaviour, product yields, energy consumption and downstream unit stability.
+Crude Blending and CDU Optimization
+Crude oil blending has a direct impact on crude distillation unit performance, desalter operation, product quality and refinery margin. By providing continuous crude quality data, the MOD-4100 supports improved crude blending control and helps operators adjust CDU operation according to actual feedstock conditions.
+When integrated with refinery control and optimization systems, online crude oil analysis can support more stable operation, reduced product giveaway, better energy efficiency and improved response to crude quality variation.
+Real-Time Feedstock Quality Monitoring
+Crude oil quality can change during storage, transfer, blending and crude switching. Delayed laboratory results may not provide operators with sufficient time to respond to these changes. The MOD-4100 provides real-time feedstock quality monitoring, allowing refineries to detect crude property changes earlier and make faster operational decisions.
+Continuous monitoring helps improve process visibility, reduce operational uncertainty and support safer, more efficient refinery operation.
+Measured Crude Oil Properties
+The MOD-4100 can be configured to monitor multiple crude oil properties required for refinery operation and optimization. These may include density, API gravity, distillation-related properties, vapour pressure, water content, salt content, sulfur-related parameters and other crude quality indicators, depending on the specific application and configuration.
+By measuring several crude properties online, the analyser provides a more complete view of feedstock behaviour than a single measurement alone.
+Integration with DCS, APC and Modcon.AI
+The MOD-4100 can be integrated with DCS, PLC, SCADA, Advanced Process Control and refinery optimization platforms. Real-time crude oil data can be used by operators, control systems and advanced software tools to support better decision-making and process performance.
+When connected with Modcon.AI, MOD-4100 data can support CDU optimization, crude switch management, process health analysis and AI-enabled recommendations based on live refinery conditions and crude quality changes.
+
+Image Gallery
+
+Get your quote
+
+First Name
+(Required)
+Last Name
+(Required)
+Email
+(Required)
+
+Phone
+(Required)
+Company
+Country
+(Required)
+Afghanistan
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bonaire, Sint Eustatius and Saba
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cabo Verde
+Cambodia
+Cameroon
+Canada
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos Islands
+Colombia
+Comoros
+Congo
+Congo, Democratic Republic of the
+Cook Islands
+Costa Rica
+Croatia
+Cuba
+Curaçao
+Cyprus
+Czechia
+Côte d'Ivoire
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Eswatini
+Ethiopia
+Falkland Islands
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and McDonald Islands
+Holy See
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People's Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People's Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+North Macedonia
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestine, State of
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Rwanda
+Réunion
+Saint Barthélemy
+Saint Helena, Ascension and Tristan da Cunha
+Saint Kitts and Nevis
+Saint Lucia
+Saint Martin
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Sint Maarten
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Sweden
+Switzerland
+Syria Arab Republic
+Taiwan
+Tajikistan
+Tanzania, the United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Türkiye
+US Minor Outlying Islands
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Viet Nam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+Åland Islands
+Product
+Choose your product
+Beacon-3000 NIR Analyzer
+MOD 4100 Crude Oil Analyser
+MOD 4140 On-Line Crude Oil Analyzer
+MOD-1060 Hydrogen Analyzer
+MOD 4100-S Salt in Crude Oil Analyser
+MOD-1022 Hydrocarbon Gas Analyzer
+MOD-1040 Oxygen Analyzer
+Sample Recovery System
+Filter Coalescer
+Analyzer Houses
+Advanced Blending Solutions
+Feasibility Studies
+Financing Structure Packages
+Engineering Services
+Project Execution
+Conception building
+Analyzer Systems
+Field Instrumentation overview
+Other
+Application/Parameter to measure
+Process temperature
+Process pressure
+Ambient conditions
+Hazardous zone
+
+Yes
+
+No
+
+Comments
+
+Get your quote!
+
+Frequently Asked Questions
+
+What is the MOD-4100 Crude Oil Analyzer?
+
+The MOD-4100 is an advanced on-line analyzer designed to provide real-time measurements of critical crude oil properties, facilitating optimized processing and quality control.
+
+Which parameters can the MOD-4100 measure?
+
+It measures a range of properties, including: Salt Concentration Distillation SARA (Saturates, Aromatics, Resins, and Asphaltenes) Emulsion Stability Hydrogen Sulfide Content Reid Vapor Pressure (RVP) Viscosity Water Content Density
+
+How does the MOD-4100 benefit refinery operations?
+
+By providing continuous, real-time data on crude oil quality, the MOD-4100 enables refineries to: Optimize desalter and distillation processes. Reduce water, chemical, and energy consumption. Prevent corrosion, fouling, and plugging of equipment. Enhance crude blending strategies.
+
+Is the MOD-4100 suitable for use in hazardous environments?
+
+Yes, the MOD-4100 is designed for use in hazardous areas and complies with relevant safety standards, ensuring safe operation in such environments.
+
+Can the MOD-4100 be integrated into existing process control systems?
+
+Absolutely. The analyzer supports various communication interfaces, including RS485, Modbus RTU, and Ethernet, allowing seamless integration with existing Distributed Control Systems (DCS).
+
+What industries can benefit from the MOD-4100?
+
+The analyzer is equipped with an integrated sample handling and conditioning system, ensuring that samples are analyzed under optimal conditions for accurate and reliable measurements.
+
+How does the MOD-4100 handle sample conditioning?
+
+The analyzer is equipped with an integrated sample handling and conditioning system, ensuring that samples are analyzed under optimal conditions for accurate and reliable measurements.
+
+What is the typical response time of the MOD-4100?
+
+The response time varies depending on the specific parameter being measured, but the analyzer is designed to provide rapid results, enabling timely decision-making and process adjustments.
+
+Does the MOD-4100 require frequent maintenance?
+
+The MOD-4100 is engineered for durability and low maintenance. Routine checks and calibrations are recommended to ensure sustained accuracy and performance.
+
+Can the MOD-4100 assist in crude oil blending operations?
+
+Yes, by providing real-time data on various crude oil properties, the MOD-4100 aids in optimizing blending strategies, ensuring the final product meets desired specifications and quality standards.
+
+Product News
+
+Modcon Systems and TOPAN at KIOGE 2026 September 30–October 2 in Almaty, Kazakhstan
+
+Modcon Systems and TOPAN at KIOGE 2026 The 30th Internationa...
+
+Read More >
+
+Real Time Crude Oil Quality Analysis
+
+Real Time Crude Oil Quality Analysis The MOD-4100 All-in-One...
+
+Read More >
+
+Why Fuel Blending Matters More Now Than It Did Ten Years Ago
+
+Why Fuel Blending Matters More Now Than It Did Ten Years Ago...
+
+Read More >
+
+Online Liquid Analyzers for Crude Oil and Hydrocarbon Processes
+
+More Products >
+
+MODCON value proposition includes the following advanced solutions:
+
+Process
+Analyzers
+
+Turn-Key
+Projects
+
+Sample
+Conditioning
+
+Environmental
+
+Advanced
+Blending
+Solutions
+
+Health
+Monitoring
+
+No schema found.
+
+Main Address
+
+10 Orange St. Haymarket, London WC2H 7DQ
+Tel:
+
++
+44-204-5771737
+
+See all of our international locations:
+
+Contact Us
+
+Products
+
+Process Analyzers
+
+Sample Conditioning
+
+Analyzer Houses
+
+Sample Recovery System
+
+Turn-Key Projects
+
+Advanced Blending Solutions
+
+Applications
+
+Oil Refinery
+
+Natural Gas
+
+Petrochemicals
+
+Chemicals
+
+Energy
+
+Terminals
+
+Advanced Marine Environmental & Safety Solutions
+
+Health Monitoring
+
+Green Hydrogen Production
+
+Environmental
+
+Support
+
+Three ways to get technical support faster
+
+Service Request Form
+
+Service
+
+Installation Supervision and Inspection
+
+Commissioning and System Configuration
+
+Technical Support Program
+
+Technical Support MARS Program
+
+About
+
+Management Team
+
+Company Integrated Policy
+
+Career Opportunities
+
+Videos & Presentations
+
+News
+
+News
+
+Articles
+
+Security
+
+Privacy policy
+
+Accessibility Statement
+
+Another great website by
+
+Custom-Sites.com
+
+Notifications
