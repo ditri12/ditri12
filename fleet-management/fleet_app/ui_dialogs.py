@@ -208,7 +208,7 @@ class ReadingDialog(QDialog):
             self.repo.add_reading(self.vid, d)
         except ValidationError as e:
             msg = str(e)
-            if "נמוך מקריאה קודמת" in msg:
+            if "נמוך מקריאה קודמת" in msg or "גבוה מקריאה מאוחרת" in msg:
                 if QMessageBox.question(self, "בדיקת ערך", msg + "\n\nלשמור בכל זאת?", QMessageBox.Yes | QMessageBox.No) == QMessageBox.Yes:
                     try:
                         self.repo.add_reading(self.vid, {**d, "force": True})

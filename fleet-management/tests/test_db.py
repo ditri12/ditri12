@@ -45,6 +45,17 @@ class RepoTests(unittest.TestCase):
         self.repo.add_reading(vid, {"reading_date": "2026-02-01", "km": 9000, "force": True})
         self.assertEqual(len(self.repo.readings(vid)), 2)
 
+    def test_backdated_reading(self):
+        vid = self.repo.create_vehicle({"plate": "6666666"})
+        self.repo.add_reading(vid, {"reading_date": "2026-03-01", "km": 30000})
+        # הזנה רטרואקטיבית תקינה - בין קריאות קיימות
+        self.repo.add_reading(vid, {"reading_date": "2026-01-01", "km": 25000})
+        # רטרואקטיבית עם ערך גבוה מקריאה מאוחרת יותר - נחסם
+        with self.assertRaises(db.ValidationError):
+            self.repo.add_reading(vid, {"reading_date": "2026-02-01", "km": 31000})
+        self.repo.add_reading(vid, {"reading_date": "2026-02-01", "km": 27500})
+        self.assertEqual([r["km"] for r in self.repo.readings(vid)], [30000, 27500, 25000])
+
     def test_repair_requires_description(self):
         vid = self.repo.create_vehicle({"plate": "3333333"})
         with self.assertRaises(db.ValidationError):

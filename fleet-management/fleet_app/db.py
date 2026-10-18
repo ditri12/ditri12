@@ -280,6 +280,10 @@ class Repo:
         r = self.conn.execute("SELECT MAX(km) AS km FROM odometer_readings WHERE vehicle_id = ? AND reading_date < ?", (vid, d)).fetchone()
         return r["km"] if r and r["km"] is not None else None
 
+    def min_reading_after(self, vid: int, d: str) -> Optional[int]:
+        r = self.conn.execute("SELECT MIN(km) AS km FROM odometer_readings WHERE vehicle_id = ? AND reading_date > ?", (vid, d)).fetchone()
+        return r["km"] if r and r["km"] is not None else None
+
     def _insert_reading(self, vid: int, data: dict) -> int:
         row = {
             "vehicle_id": vid,
@@ -287,9 +291,14 @@ class Repo:
             "km": _req_int(data.get("km"), "קילומטראז׳"),
             "note": _opt_text(data.get("note"), 300),
         }
-        prev = self.max_reading_before(vid, row["reading_date"])
-        if prev is not None and row["km"] < prev and not data.get("force"):
-            raise ValidationError(f"הקילומטראז׳ ({row['km']:,}) נמוך מקריאה קודמת ({prev:,}). בדקו את הערך.")
+        # בדיקת סבירות - גם להזנה רטרואקטיבית: הערך חייב להיות בין הקריאה שלפניו לקריאה שאחריו
+        if not data.get("force"):
+            prev = self.max_reading_before(vid, row["reading_date"])
+            if prev is not None and row["km"] < prev:
+                raise ValidationError(f"הקילומטראז׳ ({row['km']:,}) נמוך מקריאה קודמת ({prev:,}). בדקו את הערך.")
+            nxt = self.min_reading_after(vid, row["reading_date"])
+            if nxt is not None and row["km"] > nxt:
+                raise ValidationError(f"הקילומטראז׳ ({row['km']:,}) גבוה מקריאה מאוחרת יותר ({nxt:,}). בדקו את הערך.")
         cur = self.conn.execute("INSERT INTO odometer_readings(vehicle_id, reading_date, km, note) VALUES (:vehicle_id, :reading_date, :km, :note)", row)
         return cur.lastrowid
 
