@@ -1773,7 +1773,21 @@
  {
   "key": "asco",
   "name": "Asco",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q12721055",
+   "label": "Asco",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "ascolour",
    "domain": "ascolour.com",
@@ -1878,7 +1892,26 @@
  {
   "key": "atago",
   "name": "Atago",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q105963563",
+   "label": "Atago",
+   "score": 1.0,
+   "description": "business in Japan",
+   "website": "https://www.atago.net/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Tokyo",
+    "Shibakōen"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Atago",
    "domain": "atago.net",
@@ -2017,7 +2050,32 @@
  {
   "key": "azenta life sciences",
   "name": "Azenta Life Sciences (formerly 4titude)",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117169721",
+   "label": "Azenta Life Sciences",
+   "score": 1.0,
+   "description": "life science company",
+   "website": "https://www.azenta.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Burlington"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": {
+    "value": 1176.0,
+    "year": "2023"
+   },
+   "revenue": {
+    "value": 555498000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 1
+  },
   "clearbit": null,
   "error": null
  },
@@ -2522,7 +2580,25 @@
  {
   "key": "berkshire",
   "name": "Berkshire",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q122389520",
+   "label": "Berkshire",
+   "score": 1.0,
+   "description": "American knitwear company",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Berks County"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1896",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Berkshire Bank",
    "domain": "berkshirebank.com",
@@ -2647,7 +2723,25 @@
  {
   "key": "binder",
   "name": "Binder",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q15873543",
+   "label": "Binder",
+   "score": 1.0,
+   "description": "",
+   "website": "https://www.meesters-in.nl/binderart/",
+   "country": [
+    "Netherlands"
+   ],
+   "hq": [
+    "Haarlem"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1923",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "BINDER",
    "domain": "binder-world.com",
@@ -3419,7 +3513,23 @@
  {
   "key": "brady",
   "name": "Brady",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q55907219",
+   "label": "Brady",
+   "score": 1.0,
+   "description": "software company",
+   "website": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Brady",
    "domain": "bradyunited.org",
@@ -3437,7 +3547,23 @@
  {
   "key": "brand",
   "name": "Brand",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q109781738",
+   "label": "Brand",
+   "score": 1.0,
+   "description": "part of Brand-Erbisdorf",
+   "website": null,
+   "country": [
+    "Germany"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Brandfolder",
    "domain": "brandfolder.com",
@@ -3531,7 +3657,25 @@
  {
   "key": "brother",
   "name": "Brother",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q990804",
+   "label": "Brother Industries",
+   "score": 1.0,
+   "description": "Japanese multinational electronics and electrical equipment company",
+   "website": "https://global.brother/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Nagoya"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1908",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 31
+  },
   "clearbit": {
    "name": "Brother USA",
    "domain": "brother-usa.com",
@@ -3890,7 +4034,23 @@
  {
   "key": "carver",
   "name": "Carver Inc",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2666137",
+   "label": "Carver",
+   "score": 1.0,
+   "description": "Dutch vehicle manufacturer",
+   "website": "https://www.carver.earth/",
+   "country": [],
+   "hq": [
+    "Leeuwarden"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2003",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 7
+  },
   "clearbit": null,
   "error": null
  },
@@ -4219,7 +4379,25 @@
  {
   "key": "cem",
   "name": "CEM",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q5010269",
+   "label": "CEM",
+   "score": 1.0,
+   "description": "electric utility company of Macau",
+   "website": "https://www.cem-macau.com",
+   "country": [
+    "People's Republic of China"
+   ],
+   "hq": [
+    "Macau"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1972",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 5
+  },
   "clearbit": {
    "name": "Cemig",
    "domain": "cemig.com.br",
@@ -4788,7 +4966,25 @@
  {
   "key": "conda",
   "name": "Conda",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q12255924",
+   "label": "Conda",
+   "score": 1.0,
+   "description": "Spanish bus company",
+   "website": null,
+   "country": [
+    "Spain"
+   ],
+   "hq": [
+    "Imárcoain"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "CONDA",
    "domain": "mashup-finance.de",
@@ -4909,7 +5105,21 @@
  {
   "key": "copeland",
   "name": "Copeland",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q141457658",
+   "label": "Copeland",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Copeland",
    "domain": "copeland.band",
@@ -5050,7 +5260,21 @@
  {
   "key": "cramer",
   "name": "Cramer",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q125391366",
+   "label": "Cramer",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Cramer",
    "domain": "cramer.com",
@@ -5458,7 +5682,23 @@
  {
   "key": "dickson",
   "name": "Dickson",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q107262818",
+   "label": "Établissements Dickson",
+   "score": 1.0,
+   "description": "business",
+   "website": null,
+   "country": [
+    "France"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1836",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Dickson",
    "domain": "dicksondata.com",
@@ -5735,7 +5975,25 @@
  {
   "key": "dwk life sciences",
   "name": "DWK Life Sciences (Wheaton)",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q25389001",
+   "label": "DWK Life Sciences",
+   "score": 1.0,
+   "description": "company, e.g. laboratory glass products",
+   "website": "https://www.dwk.com/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Wertheim"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2005",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": null,
   "error": null
  },
@@ -6031,7 +6289,23 @@
  {
   "key": "eis",
   "name": "EIS",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q5422335",
+   "label": "Extreme Ice Survey",
+   "score": 1.0,
+   "description": "uses time-lapse photography, conventional photography and video to document the effects of global warming on glacial ice",
+   "website": "http://extremeicesurvey.org",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "EIS",
    "domain": "eis.de",
@@ -6118,7 +6392,23 @@
  {
   "key": "elma",
   "name": "Elma",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q137711797",
+   "label": "Elma",
+   "score": 1.0,
+   "description": "Swedish film company",
+   "website": null,
+   "country": [
+    "Sweden"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Elmaz",
    "domain": "elmaz.com",
@@ -6446,7 +6736,21 @@
  {
   "key": "esco",
   "name": "Esco",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q30597519",
+   "label": "Esco",
+   "score": 1.0,
+   "description": "Singaporean company",
+   "website": "http://www.escoglobal.com",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1978",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Escorenews",
    "domain": "escorenews.com",
@@ -6693,7 +6997,23 @@
  {
   "key": "falcon",
   "name": "Falcon",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q22691838",
+   "label": "Falcon",
+   "score": 1.0,
+   "description": "UK automobile manufacturer",
+   "website": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Falcon X",
    "domain": "falconx.az",
@@ -6965,7 +7285,28 @@
  {
   "key": "fritsch",
   "name": "Fritsch",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1339978",
+   "label": "Fritsch",
+   "score": 1.0,
+   "description": "FRITSCH BAKERY TECHNOLOGIES GMBH & CO. KG (Markt Einersheim)",
+   "website": "http://www.fritsch.info",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Markt Einersheim"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1926",
+   "employees": {
+    "value": 560.0,
+    "year": null
+   },
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "FRITSCH",
    "domain": "fritsch-international.com",
@@ -7497,7 +7838,27 @@
  {
   "key": "glastron",
   "name": "Glastron",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q3771896",
+   "label": "Glastron",
+   "score": 1.0,
+   "description": "American manufacturer of watercraft",
+   "website": "http://www.glastron.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Little Falls"
+   ],
+   "parent": [
+    "Beneteau Group"
+   ],
+   "industry": [],
+   "inception": "1956",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "Glastron",
    "domain": "glastron.com",
@@ -7670,7 +8031,25 @@
  {
   "key": "grant",
   "name": "Grant",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q5596085",
+   "label": "Grant",
+   "score": 1.0,
+   "description": "United States automobile manufacturing company",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Cleveland"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1913",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "Grants.gov",
    "domain": "grants.gov",
@@ -7834,7 +8213,30 @@
  {
   "key": "guardian",
   "name": "Guardian",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q63371124",
+   "label": "Guardian",
+   "score": 1.0,
+   "description": "Asian retail chain selling personal health and beauty products",
+   "website": "http://www.guardian.com.sg",
+   "country": [
+    "Cambodia",
+    "Malaysia",
+    "Vietnam",
+    "Brunei",
+    "Indonesia",
+    "Singapore"
+   ],
+   "hq": [],
+   "parent": [
+    "DFI Retail Group"
+   ],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Guardian",
    "domain": "guardianlife.com",
@@ -7973,7 +8375,25 @@
  {
   "key": "hamilton",
   "name": "Hamilton",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q5644823",
+   "label": "Hamilton",
+   "score": 1.0,
+   "description": "automobile company in the United States",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Grand Haven"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1917",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Hamilton Watch",
    "domain": "hamiltonwatch.com",
@@ -8163,7 +8583,25 @@
  {
   "key": "hellma",
   "name": "Hellma",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1602883",
+   "label": "Hellma",
+   "score": 1.0,
+   "description": "",
+   "website": "http://www.hellma.com/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Müllheim im Markgräflerland"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1922",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Hellmann's",
    "domain": "hellmanns.com",
@@ -8533,7 +8971,25 @@
  {
   "key": "humboldt",
   "name": "Humboldt",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1432165",
+   "label": "Maschinenbauanstalt Humboldt",
+   "score": 1.0,
+   "description": "company",
+   "website": null,
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Cologne"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1871",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Cal Poly Humboldt",
    "domain": "humboldt.edu",
@@ -8558,7 +9014,23 @@
  {
   "key": "hydrox",
   "name": "Hydrox",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q16964512",
+   "label": "Hydrox",
+   "score": 1.0,
+   "description": "cookie brand by Leaf Brands LLC",
+   "website": "https://leafbrands.com/hydrox/",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1908",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 10
+  },
   "clearbit": {
    "name": "Hydro X",
    "domain": "hydrox.earth",
@@ -8943,13 +9415,29 @@
  {
   "key": "innotech",
   "name": "Innotech",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q138860398",
+   "label": "Innotech Corporation (Japan)",
+   "score": 1.0,
+   "description": "company in Fujisawa, Japan",
+   "website": "https://www.innotech.co.jp",
+   "country": [
+    "Japan"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Innotech",
    "domain": "inno.tech",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Innotech&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "innovating science",
@@ -9026,24 +9514,60 @@
  {
   "key": "integra",
   "name": "Integra",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q130217721",
+   "label": "Fundación Integra",
+   "score": 1.0,
+   "description": "Chilean foundation, intended to provide free preschool education, dependent on the Ministry of Education of Chile",
+   "website": "https://www.integra.cl/",
+   "country": [
+    "Chile"
+   ],
+   "hq": [
+    "Santiago"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1990",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Integraudio",
    "domain": "integraudio.com",
    "score": 0.778
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Integra&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "integra biosciences",
   "name": "INTEGRA Biosciences",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117052362",
+   "label": "INTEGRA Biosciences",
+   "score": 1.0,
+   "description": "INTEGRA Biosciences life science company headquartered in Switzerland",
+   "website": "https://www.integra-biosciences.com",
+   "country": [
+    "Switzerland"
+   ],
+   "hq": [
+    "Zizers"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1965",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "INTEGRA Biosciences",
    "domain": "integra-biosciences.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=INTEGRA+Biosciences&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "intelagard",
@@ -9183,13 +9707,27 @@
  {
   "key": "ironclad",
   "name": "Ironclad",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q122363621",
+   "label": "Ironclad",
+   "score": 1.0,
+   "description": "software company",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Ironclad",
    "domain": "ironcladapp.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q1410980%7CQ3154544%7CQ1150930%7CQ16267748%7CQ6073106%7CQ1057389&props=labels%7Cdescriptions%7Cclaims%7Csitelinks&languages=en%7Che%7Cfr%7Cde&format=json"
+  "error": null
  },
  {
   "key": "isocapt",
@@ -9415,13 +9953,27 @@
  {
   "key": "kappler",
   "name": "Kappler",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q97066",
+   "label": "August Kappler",
+   "score": 1.0,
+   "description": "German naturalist, businessman and researcher (1815-1887)",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 10
+  },
   "clearbit": {
    "name": "Kappler",
    "domain": "kappler.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kappler&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "kd scientific",
@@ -9495,24 +10047,62 @@
  {
   "key": "kgw",
   "name": "KGW",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q3191397",
+   "label": "KGW",
+   "score": 1.0,
+   "description": "NBC television affiliate in Portland, Oregon, United States",
+   "website": "https://www.kgw.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Portland"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1956",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "KGW",
    "domain": "kgw.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=KGW&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "kidde",
   "name": "Kidde",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q12321767",
+   "label": "Kidde",
+   "score": 1.0,
+   "description": "brand of fire detection and suppression equipment",
+   "website": "https://www.kidde.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Mebane"
+   ],
+   "parent": [
+    "United Technologies Corporation"
+   ],
+   "industry": [],
+   "inception": "1917",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 5
+  },
   "clearbit": {
    "name": "Kidde",
    "domain": "kidde.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kidde&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "kilmer wagner and wise",
@@ -9524,13 +10114,35 @@
  {
   "key": "kimberly clark",
   "name": "Kimberly-Clark",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1741634",
+   "label": "Kimberly-Clark",
+   "score": 1.0,
+   "description": "American multinational company",
+   "website": "http://www.kimberly-clark.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Irving"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1872",
+   "employees": null,
+   "revenue": {
+    "value": 20175000000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 27
+  },
   "clearbit": {
    "name": "Kimberly-Clark",
    "domain": "kimberly-clark.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kimberly-Clark&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "kimberly clark arbex",
@@ -9553,13 +10165,31 @@
  {
   "key": "kimble",
   "name": "Kimble",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q11297953",
+   "label": "Kimble",
+   "score": 1.0,
+   "description": "Kimble (Recycle & Discount Developer)",
+   "website": "https://kimble.co.jp/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Aichi Prefecture"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1947",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Kimbley IT 💻 ⛅️ 📡",
    "domain": "kimbley.com",
    "score": 0.75
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kimble&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "kimtech",
@@ -9586,13 +10216,27 @@
  {
   "key": "kinesis",
   "name": "Kinesis",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q6410720",
+   "label": "Kinesis",
+   "score": 1.0,
+   "description": "ergonomic computer keyboards brand",
+   "website": "https://kinesis-ergo.com/",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "Kinesis",
    "domain": "kinesis-ergo.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Kinesis&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "kingfisher biotech",
@@ -9630,13 +10274,31 @@
  {
   "key": "knf",
   "name": "KNF",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q6431684",
+   "label": "KEPCO Nuclear Fuel Company",
+   "score": 1.0,
+   "description": "South Korean company",
+   "website": "http://www.knfc.co.kr/",
+   "country": [],
+   "hq": [
+    "Yuseong District"
+   ],
+   "parent": [
+    "Korea Electric Power Corporation"
+   ],
+   "industry": [],
+   "inception": "1982",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "K1 NFT",
    "domain": "nonsenses-nft.com",
    "score": 0.667
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=KNF&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "knf neuberger",
@@ -9826,13 +10488,31 @@
  {
   "key": "lakeland industries",
   "name": "Lakeland Industries",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q16999030",
+   "label": "Lakeland Industries",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Ronkonkoma"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1982",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Lakeland Industries Global PPE",
    "domain": "lakeland.com",
    "score": 0.776
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Lakeland+Industries&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "lamda biotech",
@@ -9859,13 +10539,29 @@
  {
   "key": "lancer",
   "name": "Lancer",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2534559",
+   "label": "Lancer",
+   "score": 1.0,
+   "description": "historical motorcycle manufacturer in Coventry, United Kingdom",
+   "website": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Lancers",
    "domain": "lancers.jp",
    "score": 0.923
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Lancer&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "lauda",
@@ -9932,13 +10628,27 @@
  {
   "key": "leica",
   "name": "Leica",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q64711880",
+   "label": "Leica",
+   "score": 1.0,
+   "description": "brand used by Leica Camera, Leica Microsystems, Leica Biosystems, and Leica Geosystems",
+   "website": "https://www.leica.com/",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Leica Forum",
    "domain": "l-camera-forum.com",
    "score": 0.625
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Leica&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "lena biosciences",
@@ -10005,7 +10715,25 @@
  {
   "key": "lgp",
   "name": "LGP",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q33121450",
+   "label": "Laboratory of Glass Properties (Russia)",
+   "score": 1.0,
+   "description": "company in Saint Petersburg, Russia",
+   "website": "http://glass-properties-lab.com/index.php?page=index",
+   "country": [
+    "Russia"
+   ],
+   "hq": [
+    "Saint Petersburg"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "LG Puricare",
    "domain": "puricarelg.com.my",
@@ -10052,13 +10780,31 @@
  {
   "key": "liebherr",
   "name": "Liebherr",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q662090",
+   "label": "Liebherr Group",
+   "score": 1.0,
+   "description": "company",
+   "website": "https://www.liebherr.com/",
+   "country": [
+    "Switzerland"
+   ],
+   "hq": [
+    "Bulle"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1949",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 35
+  },
   "clearbit": {
    "name": "Liebherr Schl",
    "domain": "s-liebherr.de",
    "score": 0.762
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Liebherr&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "lifecycle biotechnologies",
@@ -10125,9 +10871,23 @@
  {
   "key": "list biological laboratories",
   "name": "List Biological Laboratories",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q85776823",
+   "label": "List Biological Laboratories",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=List+Biological+Laboratories&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "lithco",
@@ -10154,24 +10914,62 @@
  {
   "key": "lmi",
   "name": "LMI",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q262903",
+   "label": "Lisp Machines",
+   "score": 1.0,
+   "description": "computer manufacturer",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Cambridge"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1979",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "3LM",
    "domain": "3lm.ie",
    "score": 0.667
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=LMI&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "loctite",
   "name": "Loctite",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q567411",
+   "label": "Loctite",
+   "score": 1.0,
+   "description": "brand of adhesives",
+   "website": "https://www.loctite.com/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Düsseldorf"
+   ],
+   "parent": [
+    "Henkel KGaA"
+   ],
+   "industry": [],
+   "inception": "1956",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 13
+  },
   "clearbit": {
    "name": "Loctite",
    "domain": "loctiteproducts.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Loctite&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "logistics supply",
@@ -10292,13 +11090,33 @@
  {
   "key": "luxor",
   "name": "Luxor",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q12040678",
+   "label": "NEOLUXOR",
+   "score": 1.0,
+   "description": "former Czech company",
+   "website": null,
+   "country": [
+    "Czech Republic"
+   ],
+   "hq": [
+    "Prague"
+   ],
+   "parent": [
+    "Czech Media Invest"
+   ],
+   "industry": [],
+   "inception": "1994",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Luxor",
    "domain": "luxor.tech",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Luxor&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "lvl technologies",
@@ -10401,13 +11219,31 @@
  {
   "key": "mapa",
   "name": "Mapa",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1892030",
+   "label": "Mapa",
+   "score": 1.0,
+   "description": "German manufacturer of rubber brand commodities",
+   "website": "http://www.mapa.de/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Zeven"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1947",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "mapaplan",
    "domain": "mapaplan.com",
    "score": 0.667
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mapa&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mapa professional",
@@ -10423,13 +11259,29 @@
  {
   "key": "marienfeld",
   "name": "Marienfeld",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q101497857",
+   "label": "Marienfeld",
+   "score": 1.0,
+   "description": "street in Müncheberg, Brandenburg, Germany",
+   "website": null,
+   "country": [
+    "Germany"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Paul Marienfeld",
    "domain": "marienfeld-superior.com",
    "score": 0.8
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Marienfeld&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "market forge",
@@ -10441,13 +11293,27 @@
  {
   "key": "marvel",
   "name": "Marvel",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q6778133",
+   "label": "Marvel",
+   "score": 1.0,
+   "description": "brand of dried milk powder",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Marvel",
    "domain": "marvel.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Marvel&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "maryland plastics",
@@ -10474,9 +11340,27 @@
  {
   "key": "mattek",
   "name": "MatTek Corporation",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q30253421",
+   "label": "MatTek Corporation",
+   "score": 1.0,
+   "description": "company in Ashland, United States",
+   "website": "http://mattek.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Ashland"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1985",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=MatTek+Corporation&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mawi dna technologies",
@@ -10502,24 +11386,69 @@
  {
   "key": "mbp",
   "name": "MBP",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q16676612",
+   "label": "Minsk bearing plant",
+   "score": 1.0,
+   "description": "Belarusian industrial company",
+   "website": "http://www.mpz.com.by/",
+   "country": [
+    "Belarus"
+   ],
+   "hq": [
+    "Minsk"
+   ],
+   "parent": [
+    "Belarusian Steel Works"
+   ],
+   "industry": [],
+   "inception": "1948",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "M2BPO",
    "domain": "m2bpo.fr",
    "score": 0.75
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=MBP&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mckesson",
   "name": "McKesson",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q570473",
+   "label": "McKesson Corporation",
+   "score": 1.0,
+   "description": "U.S. healthcare supplies",
+   "website": "https://www.mckesson.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Irving"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1833",
+   "employees": {
+    "value": 68000.0,
+    "year": "2016"
+   },
+   "revenue": {
+    "value": 263966000000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 25
+  },
   "clearbit": {
    "name": "McKesson",
    "domain": "mckesson.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=McKesson&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mckesson medical surgical",
@@ -10553,13 +11482,29 @@
  {
   "key": "medchemexpress",
   "name": "MedChemExpress",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q135739178",
+   "label": "MedChemExpress (United States)",
+   "score": 1.0,
+   "description": "company in New York, United States",
+   "website": "https://www.medchemexpress.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "2008",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "MedChemExpress",
    "domain": "medchemexpress.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=MedChemExpress&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "medegen medical products",
@@ -10647,13 +11592,31 @@
  {
   "key": "medplus",
   "name": "MedPlus",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q25344640",
+   "label": "MedPlus",
+   "score": 1.0,
+   "description": "Indian pharmaceutical company",
+   "website": "http://www.medplusindia.com",
+   "country": [
+    "India"
+   ],
+   "hq": [
+    "Hyderabad"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2006",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "MedPlus",
    "domain": "medplus.vn",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=MedPlus&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "megacomfort",
@@ -10702,13 +11665,29 @@
  {
   "key": "merck",
   "name": "Merck",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q96472579",
+   "label": "Merck",
+   "score": 1.0,
+   "description": "public company in Indonesia",
+   "website": "http://www.merck.co.id",
+   "country": [
+    "Indonesia"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Merck.com",
    "domain": "merck.com",
    "score": 0.714
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Merck&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mercodia",
@@ -10771,13 +11750,29 @@
  {
   "key": "metal technology",
   "name": "Metal Technology",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q139407447",
+   "label": "Metal Technology Co. Ltd. (Japan)",
+   "score": 1.0,
+   "description": "company in Nakano City, Japan",
+   "website": null,
+   "country": [
+    "Japan"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Metal Technology",
    "domain": "metaltechnology.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Metal+Technology&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "metis biotechnologies",
@@ -10919,13 +11914,29 @@
  {
   "key": "microflex",
   "name": "Microflex",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q6839523",
+   "label": "Microflex",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Microflex",
    "domain": "microflexfilm.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Microflex&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "microlit",
@@ -11003,13 +12014,34 @@
  {
   "key": "miele",
   "name": "Miele",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q695230",
+   "label": "Miele",
+   "score": 1.0,
+   "description": "German manufacturer of high-end domestic appliances and commercial equipment",
+   "website": "https://www.miele.com",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Gütersloh"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1899",
+   "employees": {
+    "value": 20944.0,
+    "year": "2020"
+   },
+   "revenue": null,
+   "sitelinks": 32
+  },
   "clearbit": {
    "name": "Miele",
    "domain": "miele.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Miele&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "miles scientific",
@@ -11028,16 +12060,61 @@
  {
   "key": "millipore sigma",
   "name": "Millipore Sigma",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q156959",
+   "label": "Merck KGaA",
+   "score": 1.0,
+   "description": "German multinational science and technology company",
+   "website": "https://www.merckgroup.com/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Darmstadt"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1668",
+   "employees": {
+    "value": 60348.0,
+    "year": "2021"
+   },
+   "revenue": {
+    "value": 17534000000.0,
+    "year": "2020",
+    "currency": "Q4916"
+   },
+   "sitelinks": 40
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Millipore+Sigma&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "milliporesigma",
   "name": "MilliporeSigma",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q680841",
+   "label": "Sigma-Aldrich",
+   "score": 1.0,
+   "description": "company",
+   "website": "https://www.sigmaaldrich.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "St. Louis"
+   ],
+   "parent": [
+    "Merck KGaA"
+   ],
+   "industry": [],
+   "inception": "1976",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 19
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=MilliporeSigma&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "miltex an integra",
@@ -11082,13 +12159,31 @@
  {
   "key": "mirus bio",
   "name": "Mirus Bio",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q6874755",
+   "label": "Mirus Bio",
+   "score": 1.0,
+   "description": "",
+   "website": "http://www.mirusbio.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Madison"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Mirus Bio",
    "domain": "mirusbio.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mirus+Bio&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mitegen",
@@ -11158,13 +12253,29 @@
  {
   "key": "molecular dimensions",
   "name": "Molecular Dimensions",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117405683",
+   "label": "Molecular Dimensions",
+   "score": 1.0,
+   "description": "company in Sheffield, United Kingdom",
+   "website": "https://www.moleculardimensions.com",
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Molecular Dimensions",
    "domain": "moleculardimensions.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Molecular+Dimensions&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "molnlycke",
@@ -11220,13 +12331,36 @@
  {
   "key": "mouser electronics",
   "name": "Mouser Electronics",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1453920",
+   "label": "Mouser Electronics, Inc",
+   "score": 1.0,
+   "description": "electronic components distributor",
+   "website": "https://www.mouser.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Mansfield"
+   ],
+   "parent": [
+    "TTI, Inc."
+   ],
+   "industry": [],
+   "inception": "1964",
+   "employees": {
+    "value": 2400.0,
+    "year": null
+   },
+   "revenue": null,
+   "sitelinks": 7
+  },
   "clearbit": {
    "name": "Mouser Electronics",
    "domain": "mouser.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Mouser+Electronics&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mp biomedicals",
@@ -11249,13 +12383,31 @@
  {
   "key": "msa",
   "name": "MSA",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q6723598",
+   "label": "Machine Sazi Arak",
+   "score": 1.0,
+   "description": "manufacturing company in Arak, Iran",
+   "website": "http://www.msa.ir/",
+   "country": [
+    "Iran"
+   ],
+   "hq": [
+    "Arak County"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1967",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 10
+  },
   "clearbit": {
    "name": "MSA Safety",
    "domain": "msasafety.com",
    "score": 0.462
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=MSA&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "mtc bio",
@@ -11376,13 +12528,27 @@
  {
   "key": "nalgene",
   "name": "Nalgene",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q16681178",
+   "label": "Tritan",
+   "score": 1.0,
+   "description": "Brand of plastic products including drinking bottles",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 6
+  },
   "clearbit": {
    "name": "Nalgene",
    "domain": "nalgene.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Nalgene&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "nanocomposix",
@@ -11434,13 +12600,31 @@
  {
   "key": "ndc",
   "name": "NDC",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q11506682",
+   "label": "Nippon Design Center",
+   "score": 1.0,
+   "description": "",
+   "website": "http://www.ndc.co.jp",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Tokyo"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1959",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "NDC",
    "domain": "ndc-inc.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=NDC&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "nds technologies",
@@ -11485,13 +12669,31 @@
  {
   "key": "neta scientific",
   "name": "Neta Scientific",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117162405",
+   "label": "Neta Scientific",
+   "score": 1.0,
+   "description": "Neta Scientific distributor of laboratory supplies, solutions, and safety products",
+   "website": "https://www.netascientific.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Hainesport"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1999",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Neta Scientific",
    "domain": "netascientific.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Neta+Scientific&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "neuromics",
@@ -11616,20 +12818,65 @@
  {
   "key": "nikon",
   "name": "Nikon",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1218180",
+   "label": "Nikon",
+   "score": 1.0,
+   "description": "Japanese multinational corporation headquartered in Tokyo, Japan, specializing in optics and imaging",
+   "website": "https://www.jp.nikon.com/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Minato"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1917",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 67
+  },
   "clearbit": {
    "name": "Nikon",
    "domain": "nikon.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Nikon&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "nilfisk advance",
   "name": "Nilfisk-Advance",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q969760",
+   "label": "Nilfisk",
+   "score": 1.0,
+   "description": "company",
+   "website": "http://www.nilfisk.com/",
+   "country": [
+    "Denmark"
+   ],
+   "hq": [
+    "Copenhagen"
+   ],
+   "parent": [
+    "Nilfisk Holding"
+   ],
+   "industry": [],
+   "inception": "1906",
+   "employees": {
+    "value": 380.0,
+    "year": "2024"
+   },
+   "revenue": {
+    "value": 3822000000.0,
+    "year": "2024",
+    "currency": "Danish krone"
+   },
+   "sitelinks": 12
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Nilfisk-Advance&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "nippon genetics",
@@ -11667,7 +12914,25 @@
  {
   "key": "north",
   "name": "North",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7053720",
+   "label": "North",
+   "score": 1.0,
+   "description": "Financial technology company",
+   "website": "https://www.north.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Troy"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1992",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "North Carolina",
    "domain": "nc.gov",
@@ -11717,24 +12982,58 @@
  {
   "key": "novus biologicals",
   "name": "Novus Biologicals",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7065122",
+   "label": "Novus Biologicals",
+   "score": 1.0,
+   "description": "biotech company based in Littleton, Colorado, USA",
+   "website": "http://www.novusbio.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Littleton"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1996",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Novus Biologicals",
    "domain": "novusbio.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Novus+Biologicals&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "nrd",
   "name": "NRD",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7354404",
+   "label": "National Registration Department",
+   "score": 1.0,
+   "description": "registration office in Malaysia",
+   "website": null,
+   "country": [
+    "Malaysia"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "NRDC",
    "domain": "nrdc.org",
    "score": 0.857
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=NRD&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "nsi lab solutions",
@@ -11833,13 +13132,33 @@
  {
   "key": "ohaus",
   "name": "Ohaus",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q12999195",
+   "label": "Ohaus",
+   "score": 1.0,
+   "description": "American producer of weighing scales and laboratory equipment",
+   "website": "http://www.ohaus.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Parsippany-Troy Hills"
+   ],
+   "parent": [
+    "Mettler Toledo"
+   ],
+   "industry": [],
+   "inception": "1947",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "OHAUS",
    "domain": "ohaus.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Ohaus&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "ok",
@@ -11855,24 +13174,58 @@
  {
   "key": "omega bio tek",
   "name": "Omega Bio-Tek",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117187906",
+   "label": "Omega Bio-Tek",
+   "score": 1.0,
+   "description": "life science business, seller of laboratory reagents and magnetic bead based nucleic acid purification kits",
+   "website": "https://www.omegabiotek.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1998",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Omega Bio-tek",
    "domain": "omegabiotek.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Omega+Bio-Tek&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "omni",
   "name": "Omni International",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q135236400",
+   "label": "Omnitronics",
+   "score": 1.0,
+   "description": "Australian mission-critical communications system manufacturer",
+   "website": "https://www.omnitronicsworld.com",
+   "country": [
+    "Australia"
+   ],
+   "hq": [
+    "Perth"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1981",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "OMNI International",
    "domain": "omni-inc.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Omni+International&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "omnigenx",
@@ -11884,13 +13237,31 @@
  {
   "key": "omron healthcare",
   "name": "Omron Healthcare",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q11292433",
+   "label": "Omron Healthcare",
+   "score": 1.0,
+   "description": "",
+   "website": "http://www.healthcare.omron.co.jp/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Kyoto Prefecture"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2003",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "OMRON Healthcare",
    "domain": "omronhealthcare.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Omron+Healthcare&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "oncodia ab",
@@ -11946,13 +13317,31 @@
  {
   "key": "origene",
   "name": "OriGene",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q30284112",
+   "label": "OriGene",
+   "score": 1.0,
+   "description": "company in Rockville, United States",
+   "website": "http://www.origene.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Rockville"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1996",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "OriGene",
    "domain": "origene.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=OriGene&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "ors nasco",
@@ -12051,9 +13440,32 @@
  {
   "key": "pall",
   "name": "Pall Corporation",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1532489",
+   "label": "Pall Corporation",
+   "score": 1.0,
+   "description": "American company",
+   "website": "http://www.pall.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Port Washington"
+   ],
+   "parent": [
+    "Danaher Corporation"
+   ],
+   "industry": [],
+   "inception": "1946",
+   "employees": {
+    "value": 7217.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 7
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Pall+Corporation&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "palmero health care",
@@ -12080,13 +13492,38 @@
  {
   "key": "parker hannifin",
   "name": "Parker Hannifin",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1470619",
+   "label": "Parker Hannifin",
+   "score": 1.0,
+   "description": "American technology firm",
+   "website": "http://www.parker.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Cleveland"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1917",
+   "employees": {
+    "value": 57500.0,
+    "year": null
+   },
+   "revenue": {
+    "value": 15861608000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 16
+  },
   "clearbit": {
    "name": "Parker Hannifin",
    "domain": "parker.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Parker+Hannifin&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "parter medical products",
@@ -12120,13 +13557,29 @@
  {
   "key": "pct",
   "name": "PCT",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7181518",
+   "label": "Phi Chi Theta",
+   "score": 1.0,
+   "description": "American professional business fratenity",
+   "website": "http://www.phichitheta.org/",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1924",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "PCT",
    "domain": "pctuning.cz",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=PCT&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "pdi healthcare",
@@ -12142,13 +13595,31 @@
  {
   "key": "peak scientific",
   "name": "Peak Scientific",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q79866178",
+   "label": "Peak Scientific",
+   "score": 1.0,
+   "description": "Scottish manufacturer of gas generators for analytical laboratories",
+   "website": "https://www.peakscientific.com/",
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [
+    "Inchinnan"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Peak Scientific",
    "domain": "peakscientific.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Peak+Scientific&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "peak serum",
@@ -12207,13 +13678,31 @@
  {
   "key": "perkinelmer",
   "name": "PerkinElmer",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2066858",
+   "label": "PerkinElmer",
+   "score": 1.0,
+   "description": "American corporation focused in life science research",
+   "website": "https://www.perkinelmer.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Waltham"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1937",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 16
+  },
   "clearbit": {
    "name": "PerkinElmer",
    "domain": "perkinelmer.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=PerkinElmer&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "permagen",
@@ -12257,13 +13746,36 @@
  {
   "key": "phenomenex",
   "name": "Phenomenex",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q11239519",
+   "label": "Phenomenex",
+   "score": 1.0,
+   "description": "manufacturer of high-performance liquid-chromatography columns",
+   "website": "https://www.phenomenex.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Torrance"
+   ],
+   "parent": [
+    "Danaher Corporation"
+   ],
+   "industry": [],
+   "inception": "1982",
+   "employees": {
+    "value": 691.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Phenomenex",
    "domain": "phenomenex.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Phenomenex&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "phipps and bird",
@@ -12567,13 +14079,29 @@
  {
   "key": "precision system science",
   "name": "Precision System Science",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q11335829",
+   "label": "Precision System Science",
+   "score": 1.0,
+   "description": "company in Matsudo, Japan",
+   "website": "http://www.pss.co.jp/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1985",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Precision System Science Co",
    "domain": "pss.co.jp",
    "score": 0.941
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Precision+System+Science&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "precision systems",
@@ -12600,13 +14128,31 @@
  {
   "key": "prestige ameritech",
   "name": "Prestige Ameritech",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q96400051",
+   "label": "Prestige Ameritech",
+   "score": 1.0,
+   "description": "American manufacturer of surgical masks and respirators",
+   "website": "https://www.prestigeameritech.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "North Richland Hills"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Prestige Ameritech",
    "domain": "prestigeameritech.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Prestige+Ameritech&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "princeton chromatography",
@@ -12651,13 +14197,34 @@
  {
   "key": "promega",
   "name": "Promega",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2112744",
+   "label": "Promega",
+   "score": 1.0,
+   "description": "biotechnology company",
+   "website": "http://www.promega.com/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Fitchburg"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1978",
+   "employees": {
+    "value": 1733.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "Promega",
    "domain": "promega.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Promega&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "promocell",
@@ -12793,13 +14360,27 @@
  {
   "key": "puritan medical products",
   "name": "Puritan Medical Products",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q104879653",
+   "label": "Puritan Medical Products",
+   "score": 1.0,
+   "description": "American manufacturer of medical diagnostic products",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Puritan Medical Products",
    "domain": "puritanmedproducts.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Puritan+Medical+Products&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "purus",
@@ -12840,13 +14421,34 @@
  {
   "key": "qiagen",
   "name": "Qiagen",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q315287",
+   "label": "Qiagen",
+   "score": 1.0,
+   "description": "company",
+   "website": "https://www.qiagen.com",
+   "country": [
+    "Netherlands"
+   ],
+   "hq": [
+    "Venlo"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1984",
+   "employees": {
+    "value": 4910.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 14
+  },
   "clearbit": {
    "name": "QIAGEN",
    "domain": "qiagen.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Qiagen&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "qkine",
@@ -12898,13 +14500,31 @@
  {
   "key": "quality biological",
   "name": "Quality Biological",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q30253525",
+   "label": "Quality Biological",
+   "score": 1.0,
+   "description": "company in Gaithersburg, United States",
+   "website": "http://www.qualitybiological.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Gaithersburg"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1983",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Quality Biological",
    "domain": "qualitybiological.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Quality+Biological&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "quality environmental containers",
@@ -13152,24 +14772,64 @@
  {
   "key": "retsch",
   "name": "Retsch",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q124545143",
+   "label": "Retsch",
+   "score": 1.0,
+   "description": "German company specializing in particle sizing",
+   "website": "https://www.retsch.com/",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Haan"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1915",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Retsch",
    "domain": "retsch.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Retsch&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "revvity",
   "name": "Revvity",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q120467527",
+   "label": "Revvity Inc.",
+   "score": 1.0,
+   "description": "global life sciences and diagnostics company",
+   "website": "http://revvity.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Waltham"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": {
+    "value": 2900000000.0,
+    "year": null,
+    "currency": "United States dollar"
+   },
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Revvity 台灣代理', 'Blossom Biotech",
    "domain": "blossombio.com",
    "score": 0.467
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Revvity&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "reytek equipment",
@@ -13199,24 +14859,58 @@
  {
   "key": "ridgid",
   "name": "RIDGID",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7276772",
+   "label": "Ridgid",
+   "score": 1.0,
+   "description": "American tool manufacturer",
+   "website": "http://www.RIDGID.com/",
+   "country": [],
+   "hq": [
+    "Elyria"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1920",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 5
+  },
   "clearbit": {
    "name": "RIDGID",
    "domain": "ridgid.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=RIDGID&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "ritter",
   "name": "Ritter",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q107150780",
+   "label": "Ritter",
+   "score": 1.0,
+   "description": "business",
+   "website": null,
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Durlach"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1887",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "RITTER",
    "domain": "ritter-hof.de",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Ritter&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "rks plastics",
@@ -13228,13 +14922,33 @@
  {
   "key": "roche",
   "name": "Roche",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q212646",
+   "label": "Hoffmann-La Roche",
+   "score": 1.0,
+   "description": "Swiss healthcare company",
+   "website": "https://www.roche.com/",
+   "country": [
+    "Switzerland"
+   ],
+   "hq": [
+    "Basel"
+   ],
+   "parent": [
+    "Roche Holding"
+   ],
+   "industry": [],
+   "inception": "1896",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 41
+  },
   "clearbit": {
    "name": "Roche",
    "domain": "roche.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Roche&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "roche diagnostics",
@@ -13353,13 +15067,33 @@
  {
   "key": "rubbermaid",
   "name": "Rubbermaid",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7375850",
+   "label": "Rubbermaid",
+   "score": 1.0,
+   "description": "American manufacturer and distributor of many household items",
+   "website": "https://www.rubbermaid.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Atlanta"
+   ],
+   "parent": [
+    "Newell Brands"
+   ],
+   "industry": [],
+   "inception": "1920",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 5
+  },
   "clearbit": {
    "name": "Rubbermaid",
    "domain": "rubbermaid.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Rubbermaid&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "rx destroyer",
@@ -13502,24 +15236,63 @@
  {
   "key": "santa cruz biotechnology",
   "name": "Santa Cruz Biotechnology",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q27023694",
+   "label": "Santa Cruz Biotechnology",
+   "score": 1.0,
+   "description": "Biotechnology company",
+   "website": "https://www.scbt.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Dallas"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1991",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Santa Cruz Biotechnology",
    "domain": "scbt.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Santa+Cruz+Biotechnology&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sarstedt",
   "name": "Sarstedt",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117280840",
+   "label": "Sarstedt",
+   "score": 1.0,
+   "description": "international company that develops produces and sell devices and consumables for medicine and science",
+   "website": "https://www.sarstedt.com",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Nümbrecht"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1961",
+   "employees": {
+    "value": 520.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Sarstedt",
    "domain": "sarstedt.de",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Sarstedt&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sartorius",
@@ -13571,13 +15344,29 @@
  {
   "key": "scat",
   "name": "Scat",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q140923273",
+   "label": "Scat",
+   "score": 1.0,
+   "description": "Japanese jewelry brand founded in 2021, specializing in sterling silver accessories",
+   "website": "https://scat-jewelry.com/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "2021",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "АО Авиакомпания SCAT@",
    "domain": "scat.kz",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Scat&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "schott instruments",
@@ -13691,13 +15480,29 @@
  {
   "key": "scotsman",
   "name": "Scotsman",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q125359480",
+   "label": "Scotsman",
+   "score": 1.0,
+   "description": "organization",
+   "website": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Scotsman",
    "domain": "scotsman-ice.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Scotsman&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "scs",
@@ -13709,13 +15514,29 @@
  {
   "key": "sefar",
   "name": "Sefar",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1598541",
+   "label": "Sefar",
+   "score": 1.0,
+   "description": "Swiss screen printing and filtration company",
+   "website": "http://www.sefar.com/",
+   "country": [],
+   "hq": [
+    "Thal"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1833",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Sefaria",
    "domain": "sefaria.org",
    "score": 0.833
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Sefar&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sekisui diagnostics",
@@ -13753,13 +15574,33 @@
  {
   "key": "semperit",
   "name": "Semperit",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q446542",
+   "label": "Semperit",
+   "score": 1.0,
+   "description": "company",
+   "website": "http://www.semperit.at",
+   "country": [
+    "Austria"
+   ],
+   "hq": [
+    "Vienna"
+   ],
+   "parent": [
+    "Continental AG"
+   ],
+   "industry": [],
+   "inception": "1824",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 10
+  },
   "clearbit": {
    "name": "Semperit",
    "domain": "semperitgroup.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Semperit&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sempermed",
@@ -13844,24 +15685,60 @@
  {
   "key": "shamrock",
   "name": "Shamrock",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q26794447",
+   "label": "Shamrock",
+   "score": 1.0,
+   "description": "company",
+   "website": null,
+   "country": [],
+   "hq": [
+    "Cape Town"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1984",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Shamrock Foods",
    "domain": "shamrockfoods.com",
    "score": 0.727
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Shamrock&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sharpie",
   "name": "Sharpie",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q724530",
+   "label": "Sharpie",
+   "score": 1.0,
+   "description": "American manufacturer of writing instruments",
+   "website": "https://sharpie.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Oak Brook"
+   ],
+   "parent": [
+    "Newell Brands"
+   ],
+   "industry": [],
+   "inception": "1964",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 15
+  },
   "clearbit": {
    "name": "Sharpie",
    "domain": "sharpie.nl",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Sharpie&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "shel lab",
@@ -13932,13 +15809,31 @@
  {
   "key": "showa",
   "name": "SHOWA®",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q3482588",
+   "label": "Showa Corporation",
+   "score": 1.0,
+   "description": "Japanese vehicle suspension manufacturer",
+   "website": "http://www.showa1.com/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Gyōda-shi"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1938",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 8
+  },
   "clearbit": {
    "name": "SHOWA",
    "domain": "showagroup.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=SHOWA%C2%AE&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "shurtape technologies",
@@ -13972,13 +15867,27 @@
  {
   "key": "signet",
   "name": "Signet",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q28458690",
+   "label": "Signet",
+   "score": 1.0,
+   "description": "defunct American motor vehicle manufacturer",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "SIGNET",
    "domain": "signetgroup.net",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Signet&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "silver brush",
@@ -13990,13 +15899,27 @@
  {
   "key": "simple green",
   "name": "Simple Green",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1449776",
+   "label": "Simple Green",
+   "score": 1.0,
+   "description": "brand of cleaning products",
+   "website": "https://www.simplegreen.com/",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1979",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Simple Green",
    "domain": "simplegreen.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Simple+Green&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "simple solvents",
@@ -14034,13 +15957,29 @@
  {
   "key": "skc",
   "name": "SKC",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q116810838",
+   "label": "SKC",
+   "score": 1.0,
+   "description": "South Korean manufacturer of magnetic media",
+   "website": null,
+   "country": [
+    "South Korea"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "SK",
    "domain": "sk.co.kr",
    "score": 0.8
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=SKC&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sklar",
@@ -14056,13 +15995,27 @@
  {
   "key": "slice",
   "name": "Slice",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7540223",
+   "label": "Slice",
+   "score": 1.0,
+   "description": "Brand of fruit-flavored soft drink",
+   "website": "https://drinkaslice.com/",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1984",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 6
+  },
   "clearbit": {
    "name": "Slice",
    "domain": "slicelife.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Slice&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "slingshot biosciences",
@@ -14085,13 +16038,31 @@
  {
   "key": "sls",
   "name": "SLS",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q8012895",
+   "label": "Stanford Law School",
+   "score": 1.0,
+   "description": "graduate school of Stanford University, California, U.S",
+   "website": "http://www.law.stanford.edu/",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [
+    "Stanford University"
+   ],
+   "industry": [],
+   "inception": "1893",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 10
+  },
   "clearbit": {
    "name": "SLSP",
    "domain": "slsp.ch",
    "score": 0.857
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=SLS&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "small precision tools",
@@ -14118,13 +16089,34 @@
  {
   "key": "smith and nephew",
   "name": "Smith & Nephew",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q502509",
+   "label": "Smith & Nephew",
+   "score": 1.0,
+   "description": "a company producing medical equipment",
+   "website": "http://www.smith-nephew.com",
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [
+    "London"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1856",
+   "employees": {
+    "value": 11000.0,
+    "year": null
+   },
+   "revenue": null,
+   "sitelinks": 10
+  },
   "clearbit": {
    "name": "Smith & Nephew",
    "domain": "smith-nephew.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Smith+%26+Nephew&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "smith ecological systems",
@@ -14292,13 +16284,31 @@
  {
   "key": "sonoco",
   "name": "Sonoco",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7562151",
+   "label": "Sonoco",
+   "score": 1.0,
+   "description": "United States-based international provider of diversified consumer packaging",
+   "website": "http://www.sonoco.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Hartsville"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1899",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 7
+  },
   "clearbit": {
    "name": "Sonoco",
    "domain": "sonoco.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Sonoco&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sorenson",
@@ -14380,13 +16390,35 @@
  {
   "key": "spectrum",
   "name": "Spectrum",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2961234",
+   "label": "Charter Communications",
+   "score": 1.0,
+   "description": "American cable services provider",
+   "website": "https://www.spectrum.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Stamford"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1993",
+   "employees": null,
+   "revenue": {
+    "value": 54022000000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 24
+  },
   "clearbit": {
    "name": "Spectrum",
    "domain": "spectrum.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Spectrum&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "spectrum chemical",
@@ -14460,13 +16492,31 @@
  {
   "key": "spl",
   "name": "SPL",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q67812756",
+   "label": "SPL",
+   "score": 1.0,
+   "description": "Czech company",
+   "website": null,
+   "country": [
+    "Czech Republic"
+   ],
+   "hq": [
+    "Prague"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2007",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Splice",
    "domain": "splice.com",
    "score": 0.667
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=SPL&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "spray nine",
@@ -14482,35 +16532,94 @@
  {
   "key": "ssi",
   "name": "SSI",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1268871",
+   "label": "Strategic Simulations",
+   "score": 1.0,
+   "description": "American video game developer and publisher",
+   "website": null,
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Sunnyvale"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1979",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 19
+  },
   "clearbit": {
    "name": "SSI",
    "domain": "ssi.com.vn",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=SSI&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "stanley",
   "name": "Stanley",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7600067",
+   "label": "Stanley",
+   "score": 1.0,
+   "description": "brand of food and beverage containers invented by William Stanley Jr. (Founded in 1913)",
+   "website": "https://www.stanley1913.com/",
+   "country": [],
+   "hq": [
+    "Seattle"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1913",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 7
+  },
   "clearbit": {
    "name": "Stanley 1913",
    "domain": "stanley1913.com",
    "score": 0.737
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Stanley&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "staples",
   "name": "Staples",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q785943",
+   "label": "Staples Inc.",
+   "score": 1.0,
+   "description": "American multinational office supply retailing corporation",
+   "website": "https://www.staples.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Framingham"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1986",
+   "employees": {
+    "value": 79075.0,
+    "year": "2015"
+   },
+   "revenue": {
+    "value": 22492000000.0,
+    "year": "2015",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 27
+  },
   "clearbit": {
    "name": "Staples",
    "domain": "staples.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Staples&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "starna cells",
@@ -14566,13 +16675,32 @@
  {
   "key": "steris",
   "name": "STERIS",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q80947821",
+   "label": "Steris",
+   "score": 1.0,
+   "description": "medical device company",
+   "website": "http://www.steris.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Ireland",
+    "Mentor"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1985",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 6
+  },
   "clearbit": {
    "name": "Steris",
    "domain": "steris.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=STERIS&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sterlitech",
@@ -14617,27 +16745,73 @@
  {
   "key": "streamlight",
   "name": "Streamlight",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7622691",
+   "label": "Streamlight",
+   "score": 1.0,
+   "description": "American flashlight manufacturer",
+   "website": "http://www.streamlight.com/",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "Streamlight",
    "domain": "streamlight.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Streamlight&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "strem chemicals",
   "name": "Strem Chemicals",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7623210",
+   "label": "Strem Chemicals",
+   "score": 1.0,
+   "description": "",
+   "website": "http://www.strem.com/",
+   "country": [],
+   "hq": [
+    "Newburyport"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1964",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Strem+Chemicals&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "stuart",
   "name": "Stuart (Cole-Parmer)",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2494032",
+   "label": "Stuart",
+   "score": 1.0,
+   "description": "UK historical motorcycle manufacturer",
+   "website": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Stuart+%28Cole-Parmer%29&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "sunrise science products",
@@ -14649,13 +16823,29 @@
  {
   "key": "supera",
   "name": "Supera",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q30288451",
+   "label": "Supera",
+   "score": 1.0,
+   "description": "organization in Monterrey, Mexico",
+   "website": null,
+   "country": [
+    "Mexico"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "SuperATV",
    "domain": "superatv.com",
    "score": 0.857
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Supera&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "superior manufacturing",
@@ -14667,13 +16857,29 @@
  {
   "key": "supermax",
   "name": "Supermax",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7643958",
+   "label": "Supermax",
+   "score": 1.0,
+   "description": "Malaysian manufacturing company",
+   "website": "http://www.supermax.com.my/",
+   "country": [
+    "Malaysia"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1987",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Supermaxi",
    "domain": "supermaxi.com",
    "score": 0.941
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Supermax&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "surewerx",
@@ -14692,13 +16898,34 @@
  {
   "key": "swagelok",
   "name": "Swagelok",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q671205",
+   "label": "Swagelok",
+   "score": 1.0,
+   "description": "company",
+   "website": "https://www.swagelok.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Solon"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1947",
+   "employees": {
+    "value": 4800.0,
+    "year": null
+   },
+   "revenue": null,
+   "sitelinks": 8
+  },
   "clearbit": {
    "name": "Swagelok",
    "domain": "swagelok.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Swagelok&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "swann morton",
@@ -14801,13 +17028,34 @@
  {
   "key": "tecan",
   "name": "Tecan",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2398881",
+   "label": "Tecan",
+   "score": 1.0,
+   "description": "Life sciences company",
+   "website": "http://www.tecan.com/",
+   "country": [
+    "Switzerland"
+   ],
+   "hq": [
+    "Männedorf"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1980",
+   "employees": {
+    "value": 1869.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 6
+  },
   "clearbit": {
    "name": "Tecan",
    "domain": "tecan.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tecan&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "techne",
@@ -14903,24 +17151,60 @@
  {
   "key": "terracycle",
   "name": "TerraCycle",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2896156",
+   "label": "TerraCycle",
+   "score": 1.0,
+   "description": "American industrial company",
+   "website": "http://www.terracycle.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Trenton"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2001",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 8
+  },
   "clearbit": {
    "name": "TerraCycle",
    "domain": "terracycle.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=TerraCycle&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "terumo",
   "name": "Terumo",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q3518961",
+   "label": "Terumo",
+   "score": 1.0,
+   "description": "a company",
+   "website": "http://www.terumo.co.jp/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Shibuya"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1921",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 15
+  },
   "clearbit": {
    "name": "Terumo",
    "domain": "terumo.co.jp",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Terumo&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "terumo medical",
@@ -14932,13 +17216,31 @@
  {
   "key": "testo",
   "name": "Testo",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2406491",
+   "label": "Testo",
+   "score": 1.0,
+   "description": "company",
+   "website": "https://www.testo.com",
+   "country": [
+    "Germany"
+   ],
+   "hq": [
+    "Lenzkirch"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1957",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 9
+  },
   "clearbit": {
    "name": "TestOut",
    "domain": "testout.com",
    "score": 0.833
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Testo&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "the baker",
@@ -14957,13 +17259,38 @@
  {
   "key": "the home depot",
   "name": "The Home Depot",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q864407",
+   "label": "The Home Depot",
+   "score": 1.0,
+   "description": "American multinational home improvement supplies retailing company",
+   "website": "https://www.homedepot.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Cobb County"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1978",
+   "employees": {
+    "value": 400000.0,
+    "year": "2020"
+   },
+   "revenue": {
+    "value": 159514000000.0,
+    "year": "2024",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 34
+  },
   "clearbit": {
    "name": "The Home Depot",
    "domain": "homedepot.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=The+Home+Depot&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "thermco",
@@ -15136,13 +17463,29 @@
  {
   "key": "tingley rubber",
   "name": "Tingley Rubber",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q76186658",
+   "label": "Tingley Rubber",
+   "score": 1.0,
+   "description": "work safety equipment manufacturer",
+   "website": "https://www.tingleyrubber.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Tingley",
    "domain": "tingleyrubber.com",
    "score": 0.667
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tingley+Rubber&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "tintometer",
@@ -15172,13 +17515,27 @@
  {
   "key": "tork",
   "name": "Tork",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2444134",
+   "label": "Tork",
+   "score": 1.0,
+   "description": "brand of Essity AB",
+   "website": "https://www.torkglobal.com",
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Tork",
    "domain": "torkusa.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Tork&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "toronto research chemicals",
@@ -15212,13 +17569,29 @@
  {
   "key": "tpp",
   "name": "TPP",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q17027088",
+   "label": "TPP",
+   "score": 1.0,
+   "description": "UK based IT company",
+   "website": "http://www.tpp-uk.com",
+   "country": [],
+   "hq": [
+    "Horsforth"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "TPP",
    "domain": "tpp-uk.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=TPP&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "transene",
@@ -15259,9 +17632,27 @@
  {
   "key": "trevigen",
   "name": "Trevigen",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q30253504",
+   "label": "Trevigen",
+   "score": 1.0,
+   "description": "company in Gaithersburg, United States",
+   "website": "http://www.trevigen.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Gaithersburg"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2000",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Trevigen&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "tribioscience",
@@ -15299,13 +17690,29 @@
  {
   "key": "trippnt",
   "name": "TrippNT",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7843709",
+   "label": "TrippNT",
+   "score": 1.0,
+   "description": "American manufacturing company",
+   "website": "http://www.trippnt.com/",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1993",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "TrippNT",
    "domain": "trippnt.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=TrippNT&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "troemner",
@@ -15408,13 +17815,31 @@
  {
   "key": "uline",
   "name": "Uline",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q7879030",
+   "label": "Uline",
+   "score": 1.0,
+   "description": "shipping supply company",
+   "website": "https://www.uline.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Pleasant Prairie"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1980",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 3
+  },
   "clearbit": {
    "name": "Uline",
    "domain": "uline.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Uline&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "ultra ezgrind",
@@ -15567,13 +17992,35 @@
  {
   "key": "valeo",
   "name": "Valeo",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q1305281",
+   "label": "Valeo",
+   "score": 1.0,
+   "description": "French global automotive supplier",
+   "website": "https://www.valeo.com",
+   "country": [
+    "France"
+   ],
+   "hq": [
+    "Paris"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1923",
+   "employees": null,
+   "revenue": {
+    "value": 22044000000.0,
+    "year": "2023",
+    "currency": "Q4916"
+   },
+   "sitelinks": 22
+  },
   "clearbit": {
    "name": "Valeo",
    "domain": "valeo.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Valeo&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "valutek",
@@ -15763,13 +18210,29 @@
  {
   "key": "voss",
   "name": "Voss",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q3270660",
+   "label": "Voss",
+   "score": 1.0,
+   "description": "Norwegian brand of bottled water",
+   "website": "https://vosswater.com",
+   "country": [
+    "Norway"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1998",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 13
+  },
   "clearbit": {
    "name": "VOSS Water",
    "domain": "vosswater.com",
    "score": 0.571
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Voss&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "w a hammond drierite",
@@ -15788,13 +18251,27 @@
  {
   "key": "walter stern",
   "name": "Walter Stern",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q122233610",
+   "label": "Walter Phillips Stern",
+   "score": 1.0,
+   "description": "business executive",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": {
    "name": "Walter Stern,",
    "domain": "waltersterninc.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Walter+Stern&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "waring",
@@ -15874,13 +18351,31 @@
  {
   "key": "wearwell",
   "name": "Wearwell",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q2257655",
+   "label": "Wearwell",
+   "score": 1.0,
+   "description": "British cycle and motorcycle manufacturer",
+   "website": null,
+   "country": [
+    "United Kingdom"
+   ],
+   "hq": [
+    "Wolverhampton"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1889",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 4
+  },
   "clearbit": {
    "name": "Wearwell",
    "domain": "wearwell.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q2257655%7CQ140621028&props=labels%7Cdescriptions%7Cclaims%7Csitelinks&languages=en%7Che%7Cfr%7Cde&format=json"
+  "error": null
  },
  {
   "key": "welch",
@@ -15918,13 +18413,33 @@
  {
   "key": "wesco",
   "name": "Wesco",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q36875363",
+   "label": "Wesco",
+   "score": 1.0,
+   "description": "company in Okayama, Japan",
+   "website": "http://www.wescohd.co.jp/",
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Okayama"
+   ],
+   "parent": [
+    "Wesco Holdings"
+   ],
+   "industry": [],
+   "inception": "1969",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Wesco",
    "domain": "wesco.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Wesco&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "west chester protective gear",
@@ -16038,24 +18553,66 @@
  {
   "key": "wpi",
   "name": "WPI",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q8036798",
+   "label": "Worldwide Partners",
+   "score": 1.0,
+   "description": "global network of independent advertising agencies",
+   "website": "https://www.worldwidepartners.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": null,
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "WPism",
    "domain": "wpism.com",
    "score": 0.75
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=WPI&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "wtw",
   "name": "WTW",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q21189883",
+   "label": "Willis Towers Watson",
+   "score": 1.0,
+   "description": "global insurance company",
+   "website": "https://www.wtwco.com/",
+   "country": [
+    "United States",
+    "United Kingdom"
+   ],
+   "hq": [
+    "London"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2016",
+   "employees": {
+    "value": 46100.0,
+    "year": "2020"
+   },
+   "revenue": {
+    "value": 8866000000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 9
+  },
   "clearbit": {
    "name": "WTW",
    "domain": "wtwco.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=WTW&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "x treme series",
@@ -16092,24 +18649,68 @@
  {
   "key": "xylem",
   "name": "Xylem",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q3146975",
+   "label": "Xylem Inc.",
+   "score": 1.0,
+   "description": "large American water technology provider",
+   "website": "http://www.xylem.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Washington, D.C.",
+    "White Plains"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2011",
+   "employees": {
+    "value": 17800.0,
+    "year": "2022"
+   },
+   "revenue": {
+    "value": 5522000000.0,
+    "year": "2022",
+    "currency": "United States dollar"
+   },
+   "sitelinks": 9
+  },
   "clearbit": {
    "name": "Xylem",
    "domain": "xylem.com",
    "score": 1.0
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Xylem&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "yamato",
   "name": "Yamato",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q11280506",
+   "label": "Yamato",
+   "score": 1.0,
+   "description": "",
+   "website": null,
+   "country": [
+    "Japan"
+   ],
+   "hq": [
+    "Yamanashi Prefecture"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "1951",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 1
+  },
   "clearbit": {
    "name": "Yamato Budogu",
    "domain": "yamatobudogu.com",
    "score": 0.632
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Yamato&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "yamato scientific",
@@ -16125,13 +18726,27 @@
  {
   "key": "ymc",
   "name": "YMC",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q8047402",
+   "label": "Yale Model Congress",
+   "score": 1.0,
+   "description": "organization",
+   "website": null,
+   "country": [],
+   "hq": [],
+   "parent": [],
+   "industry": [],
+   "inception": "1993",
+   "employees": null,
+   "revenue": null,
+   "sitelinks": 2
+  },
   "clearbit": {
    "name": "YMCA of the USA",
    "domain": "ymca.org",
    "score": 0.333
   },
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=YMC&language=en&type=item&limit=6&format=json"
+  "error": null
  },
  {
   "key": "ysi",
@@ -16209,8 +18824,29 @@
  {
   "key": "zymo research",
   "name": "Zymo Research Corporation",
-  "wikidata": null,
+  "wikidata": {
+   "qid": "Q117187983",
+   "label": "Zymo Research",
+   "score": 1.0,
+   "description": "life science business producing and selling reagent kits",
+   "website": "https://www.zymoresearch.com",
+   "country": [
+    "United States"
+   ],
+   "hq": [
+    "Irvine"
+   ],
+   "parent": [],
+   "industry": [],
+   "inception": "2002",
+   "employees": {
+    "value": 178.0,
+    "year": "2023"
+   },
+   "revenue": null,
+   "sitelinks": 0
+  },
   "clearbit": null,
-  "error": "wd: HTTPError: 429 Client Error: Too Many Requests for url: https://www.wikidata.org/w/api.php?action=wbsearchentities&search=Zymo+Research+Corporation&language=en&type=item&limit=6&format=json"
+  "error": null
  }
 ]
