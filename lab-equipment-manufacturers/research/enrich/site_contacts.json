@@ -112,23 +112,17 @@
   "title": null
  },
  "4titude": {
-  "website": "https://4titude.com.au",
-  "phone": "+61413978957",
+  "website": "https://www.azenta.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://4titude.com.au/contact",
+  "contact_url": null,
   "address": null,
-  "source": "https://4titude.com.au/contact",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "NDIS Services Sydney &amp; NSW | 4titude",
-  "phones": [
-   "+61413978957",
-   "1800800110",
-   "4050006042"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "abgene": {
   "website": "https://abgenex.com",
@@ -384,24 +378,17 @@
   "title": null
  },
  "3m safety": {
-  "website": "https://msafety.nl",
-  "phone": "0623762748",
-  "email": "info@msafety.nl",
-  "contact_url": "https://msafety.nl/contact#offerte",
+  "website": "https://www.3m.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://msafety.nl/contact#offerte",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "Home | M Safety",
-  "phones": [
-   "0623762748",
-   "0103220323"
-  ],
-  "emails": [
-   "info@msafety.nl"
-  ]
+  "source": null,
+  "note": null,
+  "status": "error: ReadTimeout",
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "advanced genetic mapping": {
   "website": "https://advancedgeneticmapping.com",
@@ -709,21 +696,19 @@
   ]
  },
  "alere": {
-  "website": "https://alere-maastricht.nl",
+  "website": "https://www.abbott.com",
   "phone": null,
-  "email": "info@alere-maastricht.nl",
-  "contact_url": "https://alere-maastricht.nl/contact/",
+  "email": null,
+  "contact_url": "https://www.abbott.com/en-us/about-abbott/contact",
   "address": null,
-  "source": "https://alere-maastricht.nl/contact/",
+  "source": "https://www.abbott.com/en-us/about-abbott/contact",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "ALERE | hair",
+  "name_match": false,
+  "lab_relevance": 2,
+  "title": "Abbott | Life-Changing Healthcare Technologies",
   "phones": [],
-  "emails": [
-   "info@alere-maastricht.nl"
-  ]
+  "emails": []
  },
  "affinisep": {
   "website": "https://affinisep.com",
@@ -1431,23 +1416,22 @@
   ]
  },
  "ascensia diabetes care": {
-  "website": "https://ascensia.nl",
-  "phone": "+3180023522937",
-  "email": "info@diabetes.ascensia.nl",
-  "contact_url": "https://www.diabetes.ascensia.nl/support/",
+  "website": "https://www.ascensia.com",
+  "phone": "+41 61 560 87 00",
+  "email": null,
+  "contact_url": "https://www.ascensia.com/contact-us/",
   "address": null,
-  "source": "https://www.diabetes.ascensia.nl/support/",
+  "source": "https://www.ascensia.com/contact-us/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "CONTOUR&#174; bloedglucosemetersystemen | Ascensia Diabetes Care Nederland",
+  "lab_relevance": 0,
+  "title": "Ascensia Diabetes Care | Innovative Diabetes Care Solutions",
   "phones": [
-   "+3180023522937"
+   "+41 61 560 87 00",
+   "+1 862 225 2902"
   ],
-  "emails": [
-   "info@diabetes.ascensia.nl"
-  ]
+  "emails": []
  },
  "ansell": {
   "website": "https://ansell.com",
@@ -1836,18 +1820,22 @@
   ]
  },
  "bausch and lomb": {
-  "website": "https://bauschrewards.com",
-  "phone": null,
+  "website": "https://www.bausch.com",
+  "phone": "1-800-553-5340",
   "email": null,
-  "contact_url": "https://bauschrewards.com/contactus",
+  "contact_url": "https://www.bausch.com/about-bausch-lomb/contact-us/",
   "address": null,
-  "source": "https://bauschrewards.com/contactus",
+  "source": "https://www.bausch.com/about-bausch-lomb/contact-us/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "Home Page : BAUSCH + LOMB® horizon rewards",
-  "phones": [],
+  "lab_relevance": 4,
+  "title": "Bausch &#x2B; Lomb Official Home Page",
+  "phones": [
+   "1-800-553-5340",
+   "1-866-693-4880",
+   "1-855-770-0424"
+  ],
   "emails": []
  },
  "avanti polar lipids": {
@@ -1927,19 +1915,17 @@
   "emails": []
  },
  "benchmark": {
-  "website": "https://benchmark.com",
+  "website": "https://www.benchmarkscientific.com",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://benchmark.com/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Benchmark",
-  "phones": [],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "bbraun": {
   "website": "https://bbraun.co.uk",
@@ -2355,21 +2341,21 @@
   "emails": []
  },
  "biologix": {
-  "website": "https://biologix.com.br",
-  "phone": "+55 11 3035-1211",
-  "email": null,
+  "website": "https://www.biologixgroup.com",
+  "phone": null,
+  "email": "inquiry@biologixgroup.com",
   "contact_url": null,
   "address": null,
-  "source": "https://www.biologix.com.br:443/",
+  "source": "https://www.biologixgroup.com/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "Biologix - A evolução do diagnóstico do sono",
-  "phones": [
-   "+55 11 3035-1211"
-  ],
-  "emails": []
+  "lab_relevance": 17,
+  "title": "Biologix Group Limited",
+  "phones": [],
+  "emails": [
+   "inquiry@biologixgroup.com"
+  ]
  },
  "benchpro": {
   "website": "https://benchpro.com",
@@ -2601,23 +2587,21 @@
   "emails": []
  },
  "biosolve": {
-  "website": "https://bio-solve.co.za",
-  "phone": "083 793 4898",
-  "email": "info@bio-solve.co.za",
-  "contact_url": "https://bio-solve.co.za/contact-us/",
+  "website": "https://www.biosolve-chemicals.eu",
+  "phone": null,
+  "email": "info@biosolve-chimie.com",
+  "contact_url": "http://www.biosolve-chemicals.eu/EN/contact.php",
   "address": null,
-  "source": "https://bio-solve.co.za/contact-us/",
+  "source": "http://www.biosolve-chemicals.eu/EN/contact.php",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": false,
-  "lab_relevance": 2,
-  "title": "Bio-solve | Bio-solve",
-  "phones": [
-   "083 793 4898",
-   "079 886 4715"
-  ],
+  "name_match": true,
+  "lab_relevance": 12,
+  "title": "Biosolve",
+  "phones": [],
   "emails": [
-   "info@bio-solve.co.za"
+   "info@biosolve-chimie.com",
+   "info@biosolve-chemicals.com"
   ]
  },
  "biotix": {
@@ -2917,26 +2901,22 @@
   "title": null
  },
  "brandtech": {
-  "website": "https://www.brand.de",
-  "phone": "400 658 3016",
-  "email": "info@brand.com.cn",
-  "contact_url": "https://www.brand.de/en/company/sales-worldwide",
+  "website": "https://www.brandtech.com",
+  "phone": "8885222726",
+  "email": "info@brandtech.com",
+  "contact_url": "https://www.brandtech.com/contact/contact-us",
   "address": null,
-  "source": "https://www.brand.de/en/company/sales-worldwide",
+  "source": "https://www.brandtech.com/contact/contact-us",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": false,
-  "lab_relevance": 16,
-  "title": "Laboratory supplies & laboratory equipment from BRAND",
+  "name_match": true,
+  "lab_relevance": 24,
+  "title": "BRANDTECH Scientific | Innovative Laboratory Equipment",
   "phones": [
-   "400 658 3016",
-   "+91 22 42957790",
-   "06426-1506"
+   "8885222726"
   ],
   "emails": [
-   "info@brand.com.cn",
-   "info@brandtech.com",
-   "sales@atg.com.mt"
+   "info@brandtech.com"
   ]
  },
  "bullard": {
@@ -2959,21 +2939,17 @@
   "emails": []
  },
  "brady": {
-  "website": "https://bradyunited.org",
-  "phone": "202-370-8100",
+  "website": "https://www.bradyid.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://www.bradyunited.org/contact",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.bradyunited.org/contact",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 3,
-  "title": "Brady: United Against Gun Violence | Brady United",
-  "phones": [
-   "202-370-8100"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "caframo": {
   "website": "https://caframo.com",
@@ -3903,25 +3879,23 @@
   "emails": []
  },
  "chemglass": {
-  "website": "https://chemglass.co.uk",
-  "phone": "1282 839600",
-  "email": "enquiries@chemglass.co.uk",
-  "contact_url": "https://www.chemglass.co.uk/contact/",
+  "website": "https://www.chemglass.com",
+  "phone": "1-800-843-1794",
+  "email": null,
+  "contact_url": "https://chemglass.com/ContactUs",
   "address": null,
-  "source": "https://www.chemglass.co.uk/contact/",
+  "source": "https://chemglass.com/ContactUs",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 3,
-  "title": "About Chemglass - Chemglass",
+  "lab_relevance": 27,
+  "title": "Chemglass Life Sciences- Chemglass Life Sciences",
   "phones": [
-   "1282 839600",
-   "01282 839600",
-   "01282 839395"
+   "1-800-843-1794",
+   "1-800-922-4361",
+   "1-856-696-0014"
   ],
-  "emails": [
-   "enquiries@chemglass.co.uk"
-  ]
+  "emails": []
  },
  "cordova safety products": {
   "website": "https://cordovasafety.com",
@@ -4106,22 +4080,18 @@
   "title": null
  },
  "crystal technologies": {
-  "website": "https://ctindia.co.in",
-  "phone": "9594046665",
+  "website": "https://www.crystaltech.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://ctindia.co.in/contact-us/",
+  "contact_url": null,
   "address": null,
-  "source": "https://ctindia.co.in/contact-us/",
+  "source": "https://www.crystaltech.com/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 2,
-  "title": "Crystal Technologies System Pvt Ltd",
-  "phones": [
-   "9594046665",
-   "8451881762",
-   "8454043600"
-  ],
+  "lab_relevance": 0,
+  "title": null,
+  "phones": [],
   "emails": []
  },
  "cowie": {
@@ -4385,24 +4355,17 @@
   ]
  },
  "desco": {
-  "website": "https://desc.org",
-  "phone": "206-464-1570",
-  "email": "info@desc.org",
-  "contact_url": "https://www.desc.org/about/contact/",
+  "website": "https://www.desco.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://www.desc.org/about/contact/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": false,
-  "lab_relevance": 2,
-  "title": "DESC",
-  "phones": [
-   "206-464-1570",
-   "800-833-6388"
-  ],
-  "emails": [
-   "info@desc.org"
-  ]
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "dilux": {
   "website": "https://diluxi.com",
@@ -4433,21 +4396,17 @@
   "emails": []
  },
  "denville": {
-  "website": "https://denvillefamilycounseling.com",
-  "phone": "973-625-3025",
+  "website": "https://www.denvillescientific.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://denvillefamilycounseling.com/contact-us/",
+  "contact_url": null,
   "address": null,
-  "source": "https://denvillefamilycounseling.com/contact-us/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Denville Counseling | Psychotherapy &amp; Counseling",
-  "phones": [
-   "973-625-3025"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": "error: ConnectionError",
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "drucker diagnostics": {
   "website": "https://druckerdiagnostics.com",
@@ -4901,37 +4860,42 @@
   "title": null
  },
  "eisco": {
-  "website": "https://eis-co.com",
-  "phone": "+201018719799",
-  "email": "sales@eis-co.com",
-  "contact_url": "https://eis-co.com/contact.html",
+  "website": "https://www.eiscolabs.com",
+  "phone": "+1-585-563-7963",
+  "email": "info@eiscolabs.com",
+  "contact_url": "https://www.eiscolabs.com/pages/sales",
   "address": null,
-  "source": "https://eis-co.com/contact.html",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "source": "https://www.eiscolabs.com/pages/sales",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 5 personal address(es) omitted",
   "status": 200,
-  "name_match": false,
-  "lab_relevance": 4,
-  "title": "Document Infrastructure &amp; Intelligence | Egyptian Innovation Systems (EIS)",
+  "name_match": true,
+  "lab_relevance": 17,
+  "title": "Eisco Labs",
   "phones": [
-   "+201018719799"
+   "+1-585-563-7963",
+   "+1-585-643-9928",
+   "1 55 6055 0139"
   ],
   "emails": [
-   "sales@eis-co.com",
-   "support@eis-co.com"
+   "info@eiscolabs.com"
   ]
  },
  "elma": {
-  "website": "https://elmaz.com",
+  "website": "https://www.elma-ultrasonic.com",
   "phone": null,
-  "email": null,
-  "contact_url": null,
+  "email": "sales@elma-ultrasonic.com",
+  "contact_url": "https://www.elma-ultrasonic.com/en/kontakt-beratung",
   "address": null,
-  "source": null,
-  "note": null,
-  "status": 403,
-  "name_match": null,
-  "lab_relevance": null,
-  "title": null
+  "source": "https://www.elma-ultrasonic.com/en/kontakt-beratung",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted",
+  "status": 200,
+  "name_match": true,
+  "lab_relevance": 6,
+  "title": "Leading Cleaning Technology - Elma Schmidbauer GmbH",
+  "phones": [],
+  "emails": [
+   "sales@elma-ultrasonic.com"
+  ]
  },
  "echelon biosciences": {
   "website": "https://echelon-inc.com",
@@ -5418,24 +5382,17 @@
   ]
  },
  "falcon": {
-  "website": "https://falconx.az",
-  "phone": "+994516517220",
-  "email": "info@falconx.az",
+  "website": "https://www.corning.com/worldwide/en/products/life-sciences/brands/falcon.html",
+  "phone": null,
+  "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://falconx.az/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Falcon X® Proqramlaşdırma | E-ticarət və SEO Xidməti Başlığı və Yeni Nəsil Nömrələri!",
-  "phones": [
-   "+994516517220",
-   "+994 51 651 72 20"
-  ],
-  "emails": [
-   "info@falconx.az"
-  ]
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "erlab": {
   "website": "https://erlab.com",
@@ -5500,22 +5457,17 @@
   ]
  },
  "extech": {
-  "website": "https://extechit.com",
-  "phone": "01911009900",
+  "website": "https://www.extech.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://extechit.com/contact-us/",
+  "contact_url": null,
   "address": null,
-  "source": "https://extechit.com/contact-us/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "Extech IT",
-  "phones": [
-   "01911009900",
-   "01611999000"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "fischer technical": {
   "website": "https://fischertech.com",
@@ -6516,17 +6468,17 @@
   "title": null
  },
  "hartmann": {
-  "website": "https://hartmann.com",
+  "website": "https://www.hartmann.info",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://shop.hartmann.com",
+  "source": "https://www.hartmann.info/en-dx/country-selection",
   "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 307,
+  "status": 200,
   "name_match": true,
   "lab_relevance": 0,
-  "title": "Access to this page has been denied",
+  "title": "Country Selection",
   "phones": [],
   "emails": []
  },
@@ -7318,20 +7270,20 @@
   "emails": []
  },
  "implen": {
-  "website": "https://implen.cn",
-  "phone": "86-10-63733193",
+  "website": "https://www.implen.de",
+  "phone": "+498972637180",
   "email": "info@implen.com",
-  "contact_url": "https://implen.cn/support/",
+  "contact_url": "https://www.implen.de/support/",
   "address": null,
-  "source": "https://implen.cn/support/",
+  "source": "https://www.implen.de/support/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
   "lab_relevance": 17,
-  "title": "Implen &#8211; Leaders in UV/Vis Spectroscopy &#8211; The most advanced UV-Vis spectrophotometer. #1 Nanodrop Alternative.",
+  "title": "Implen | The Most Innovative UV/Vis Spectrophotometers",
   "phones": [
-   "86-10-63733193",
-   "10-13910956904",
+   "+498972637180",
+   "+18187486400",
    "+49 89 72637180"
   ],
   "emails": [
@@ -7373,14 +7325,14 @@
   ]
  },
  "himedia": {
-  "website": "https://himedya.com",
+  "website": "https://www.himedialabs.com",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
   "source": null,
   "note": null,
-  "status": "error: ConnectionError",
+  "status": 403,
   "name_match": null,
   "lab_relevance": null,
   "title": null
@@ -7592,39 +7544,32 @@
   "title": null
  },
  "improve medical": {
-  "website": "https://improvemed.com.ua",
-  "phone": "+380443555030",
-  "email": "info@improvemed.com.ua",
-  "contact_url": "https://improvemed.com.ua/kontakty/",
-  "address": null,
-  "source": "https://improvemed.com.ua/kontakty/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "Improve Medical - Сертифікація та оцінка відповідності медичних виробів в Україні",
-  "phones": [
-   "+380443555030",
-   "+380443555033",
-   "+380733555030"
-  ],
-  "emails": [
-   "info@improvemed.com.ua",
-   "office@improvemed.com.ua"
-  ]
- },
- "interscience": {
-  "website": "http://www.intersci.com/#",
+  "website": "https://www.improve-medical.com",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
   "source": null,
   "note": null,
-  "status": "error: ConnectionError",
+  "status": 468,
   "name_match": null,
   "lab_relevance": null,
   "title": null
+ },
+ "interscience": {
+  "website": "https://www.interscience.com",
+  "phone": null,
+  "email": null,
+  "contact_url": "https://www.interscience.com/en/",
+  "address": null,
+  "source": "https://www.interscience.com/en/",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "status": 200,
+  "name_match": true,
+  "lab_relevance": 14,
+  "title": "Interscience | Products and solutions for microbiology",
+  "phones": [],
+  "emails": []
  },
  "international plastics": {
   "website": "https://interplas.com",
@@ -7740,19 +7685,23 @@
   ]
  },
  "ironclad": {
-  "website": "https://ironcladapp.com",
-  "phone": null,
-  "email": null,
-  "contact_url": null,
+  "website": "https://www.ironclad.com",
+  "phone": "844-200-5664",
+  "email": "customerservice@ironclad.com",
+  "contact_url": "https://ironclad.com/pages/customer-service.html",
   "address": null,
-  "source": "https://ironcladapp.com/",
+  "source": "https://ironclad.com/pages/customer-service.html",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "Ironclad: AI Contract Lifecycle Management Software",
-  "phones": [],
-  "emails": []
+  "lab_relevance": 4,
+  "title": "Ironclad® Performance Wear | The Best Work &amp; Safety Gloves",
+  "phones": [
+   "844-200-5664"
+  ],
+  "emails": [
+   "customerservice@ironclad.com"
+  ]
  },
  "ja crawford": {
   "website": "https://jacrawford.net",
@@ -8177,21 +8126,17 @@
   "emails": []
  },
  "kgw": {
-  "website": "https://kgw.com",
-  "phone": "503-226-5000",
+  "website": "https://www.kgw-isotherm.de",
+  "phone": null,
   "email": null,
-  "contact_url": "https://www.kgw.com/contact-us",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.kgw.com/contact-us",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Portland&#x27;s Leading Local News: Weather, Traffic, Sports and more in Portland, Oregon | kgw.com",
-  "phones": [
-   "503-226-5000"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 503,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "kinesis": {
   "website": "https://kinesis-ergo.com",
@@ -8364,22 +8309,17 @@
   ]
  },
  "koehler": {
-  "website": "https://koehler-books.de",
-  "phone": "040-707080",
+  "website": "https://www.koehlerinstrument.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://www.koehler-books.de/kontakt/",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.koehler-books.de/kontakt/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Home &#183; Koehler",
-  "phones": [
-   "040-707080",
-   "040-707080-324"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": "error: ConnectTimeout",
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "labplas": {
   "website": "https://labplas.com",
@@ -8433,23 +8373,25 @@
   ]
  },
  "labcon": {
-  "website": "https://labconco.com",
-  "phone": "(816) 333-8811",
-  "email": null,
-  "contact_url": "https://www.labconco.com/contact",
+  "website": "https://www.labcon.com",
+  "phone": "+1.707.766.2100",
+  "email": "info@labcon.com",
+  "contact_url": "https://www.labcon.com/contact.html",
   "address": null,
-  "source": "https://www.labconco.com/contact",
+  "source": "https://www.labcon.com/contact.html",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 19,
-  "title": "Labconco | Laboratory Equipment &amp; Lab Safety Products",
+  "lab_relevance": 13,
+  "title": "Labcon - Home",
   "phones": [
-   "(816) 333-8811",
-   "(816) 363-0130",
-   "(800) 821-5525"
+   "+1.707.766.2100",
+   "+1.707.766.2199",
+   "+1.800.227.1466"
   ],
-  "emails": []
+  "emails": [
+   "info@labcon.com"
+  ]
  },
  "labconco": {
   "website": "https://www.labconco.com",
@@ -8825,18 +8767,20 @@
   "emails": []
  },
  "kimtech": {
-  "website": "https://kimtech.com.pe",
-  "phone": null,
+  "website": "https://www.kcprofessional.com",
+  "phone": "18002413146",
   "email": null,
-  "contact_url": "https://www.kimtech.com.pe/contacto/",
+  "contact_url": "https://www.kcprofessional.com/en-us/contact-us",
   "address": null,
-  "source": "https://www.kimtech.com.pe/contacto/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 2 personal address(es) omitted",
+  "source": "https://www.kcprofessional.com/en-us/contact-us",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Liquidación de Productos - Kimtech",
-  "phones": [],
+  "lab_relevance": 8,
+  "title": "Restroom, Safety &amp; Wiping Products Workplaces Trust | Kimberly-Clark Professional",
+  "phones": [
+   "18002413146"
+  ],
   "emails": []
  },
  "logistics supply": {
@@ -9098,18 +9042,20 @@
   ]
  },
  "marvel": {
-  "website": "https://marvel.com",
-  "phone": null,
+  "website": "https://www.marvelrefrigeration.com",
+  "phone": "+1.616.754.5601",
   "email": null,
-  "contact_url": null,
+  "contact_url": "https://www.marvelrefrigeration.com/contact-us",
   "address": null,
-  "source": "https://www.marvel.com/",
+  "source": "https://www.marvelrefrigeration.com/contact-us",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Marvel.com | The Official Site for Marvel Movies, Characters, Comics, TV",
-  "phones": [],
+  "lab_relevance": 3,
+  "title": "Premium Undercounter Products for Home &amp; Outdoor | Marvel Refrigeration",
+  "phones": [
+   "+1.616.754.5601"
+  ],
   "emails": []
  },
  "macherey nagel": {
@@ -9412,25 +9358,19 @@
   "emails": []
  },
  "mercedes medical": {
-  "website": "https://drugsofabusetests.com",
-  "phone": "8003312716",
-  "email": "sales@drugsofabusetests.com",
-  "contact_url": "https://www.drugsofabusetests.com/contact-us/",
+  "website": "https://www.mercedesmedical.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://www.drugsofabusetests.com/contact-us/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "source": "https://www.mercedesscientific.com",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 7,
-  "title": "Drug Screening Products &amp; Volume Pricing | Mercedes Scientific",
-  "phones": [
-   "8003312716",
-   "+18003312716",
-   "18003312716"
-  ],
-  "emails": [
-   "sales@drugsofabusetests.com"
-  ]
+  "lab_relevance": 6,
+  "title": "Home - Mercedes Scientific | Lab Supplies | Clinical, Analytical, Histology, DOA &amp; More",
+  "phones": [],
+  "emails": []
  },
  "meritech": {
   "website": "https://meritech.com",
@@ -9475,25 +9415,17 @@
   ]
  },
  "medline": {
-  "website": "https://medline.org.ua",
-  "phone": "+380675732155",
-  "email": "info@medline.org.ua",
-  "contact_url": "https://medline.org.ua/kontakty/",
+  "website": "https://www.medline.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://medline.org.ua/kontakty/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Medline - Эстетическая косметология в Харькове",
-  "phones": [
-   "+380675732155",
-   "+380958038565",
-   "+380733127987"
-  ],
-  "emails": [
-   "info@medline.org.ua"
-  ]
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "metrex": {
   "website": "https://metrex.com",
@@ -10743,20 +10675,23 @@
   ]
  },
  "optika": {
-  "website": "https://optikaicourtage.fr",
-  "phone": null,
-  "email": "contact@optikaicourtage.fr",
-  "contact_url": "https://www.optikaicourtage.fr/contact/",
+  "website": "https://www.optikamicroscopes.com",
+  "phone": "0039035571392",
+  "email": "info@optika-italy.com",
+  "contact_url": "https://www.optikamicroscopes.com/optikamicroscopes/contact/",
   "address": null,
-  "source": "https://www.optikaicourtage.fr/contact/",
+  "source": "https://www.optikamicroscopes.com/optikamicroscopes/contact/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "OPTIKAI | Courtier d&#039;assurance pour les entreprises et les particuliers",
-  "phones": [],
+  "lab_relevance": 5,
+  "title": "OPTIKAMICROSCOPES &#8211; Optika Microscopes Italy",
+  "phones": [
+   "0039035571392"
+  ],
   "emails": [
-   "contact@optikaicourtage.fr"
+   "info@optika-italy.com",
+   "info@optikamicroscopes.com"
   ]
  },
  "optimize technologies": {
@@ -10869,25 +10804,17 @@
   ]
  },
  "oxford lab products": {
-  "website": "https://oxfordlp.com",
-  "phone": "85820952-1818",
-  "email": "info@oxfordlp.com",
-  "contact_url": "https://oxfordlp.com/contact-us/",
+  "website": "https://www.oxfordlabproducts.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://oxfordlp.com/contact-us/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 9,
-  "title": "Oxford Lab Products &#8211; Innovation Lives On",
-  "phones": [
-   "85820952-1818",
-   "+18005544920",
-   "+18589521818"
-  ],
-  "emails": [
-   "info@oxfordlp.com"
-  ]
+  "source": null,
+  "note": null,
+  "status": "error: SSLError",
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "palmero health care": {
   "website": "https://palmerohealth.com",
@@ -11045,19 +10972,27 @@
   "emails": []
  },
  "pct": {
-  "website": "https://pctuning.cz",
-  "phone": null,
-  "email": null,
-  "contact_url": null,
+  "website": "https://www.plantcelltechnology.com",
+  "phone": "+1-202-506-5608",
+  "email": "info@plantcelltechnology.com",
+  "contact_url": "https://plantcelltechnology.com/pages/contact-us",
   "address": null,
-  "source": "https://pctuning.cz/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted",
+  "source": "https://plantcelltechnology.com/pages/contact-us",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Průvodce světem informačních technologií | PCTuning.cz",
-  "phones": [],
-  "emails": []
+  "lab_relevance": 10,
+  "title": "Plant Cell Technology",
+  "phones": [
+   "+1-202-506-5608",
+   "+1-616-606-5779",
+   "+1-435-534-8700"
+  ],
+  "emails": [
+   "info@plantcelltechnology.com",
+   "orders@plantcelltechnology.com",
+   "sales@plantcelltechnology.com"
+  ]
  },
  "peprotech": {
   "website": "https://peprotech.com",
@@ -11217,20 +11152,18 @@
   "emails": []
  },
  "phcbi": {
-  "website": "https://www.phchd.com",
-  "phone": "+81-570-003984",
+  "website": "https://www.phchd.com/global/biomedical",
+  "phone": null,
   "email": null,
-  "contact_url": "https://www.phchd.com/global/forms/Input?form_id=%7BA1E4FD0D-9F27-4C4D-9FD1-7A057C9FE770%7D",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.phchd.com/global/forms/Input?form_id=%7BA1E4FD0D-9F27-4C4D-9FD1-7A057C9FE770%7D",
+  "source": "https://www.phchd.com/apac/biomedical",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": false,
-  "lab_relevance": 16,
-  "title": "PHC Holdings Corporation",
-  "phones": [
-   "+81-570-003984"
-  ],
+  "name_match": true,
+  "lab_relevance": 13,
+  "title": "PHCbi | Life Science & Medical Lab Equipment Solutions",
+  "phones": [],
   "emails": []
  },
  "plastic process equipment": {
@@ -11434,22 +11367,17 @@
   ]
  },
  "permagen": {
-  "website": "https://permagen.com.au",
+  "website": "https://www.permagen.com",
   "phone": null,
-  "email": "info@permagen.com.au",
-  "contact_url": "https://permagen.com.au/contact-us/",
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://permagen.com.au/contact-us/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Home - Permagen",
-  "phones": [],
-  "emails": [
-   "info@permagen.com.au",
-   "info@permagen.com.auconnectpermagen"
-  ]
+  "source": null,
+  "note": null,
+  "status": "error: ConnectionError",
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "porvair": {
   "website": "https://www.porvair.com/",
@@ -11653,20 +11581,23 @@
   "emails": []
  },
  "prospec": {
-  "website": "https://prospect2.com",
-  "phone": null,
-  "email": "hello@prospect2.com",
-  "contact_url": null,
+  "website": "https://www.prospecbio.com",
+  "phone": "1-800-805-6531",
+  "email": "info@prospecbio.com",
+  "contact_url": "https://prospecbio.com/pages/contact",
   "address": null,
-  "source": "https://prospect2.com/",
+  "source": "https://prospecbio.com/pages/contact",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Prospect2 &#8211; Marketing Automation",
-  "phones": [],
+  "lab_relevance": 13,
+  "title": "ProSpec | Recombinant Protein Manufacturer",
+  "phones": [
+   "1-800-805-6531",
+   "972-8-9471175"
+  ],
   "emails": [
-   "hello@prospect2.com"
+   "info@prospecbio.com"
   ]
  },
  "protective industrial products": {
@@ -11743,18 +11674,22 @@
   "emails": []
  },
  "puritan": {
-  "website": "https://puritan.com.au",
-  "phone": null,
+  "website": "https://www.puritanmedproducts.com",
+  "phone": "800-321-2313",
   "email": null,
-  "contact_url": null,
+  "contact_url": "https://www.puritanmedproducts.com/pages/contact-us",
   "address": null,
-  "source": "https://puritan.com.au/",
+  "source": "https://www.puritanmedproducts.com/pages/contact-us",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": null,
-  "phones": [],
+  "lab_relevance": 11,
+  "title": "Puritan Medical Products | The Swab Experts",
+  "phones": [
+   "800-321-2313",
+   "207-876-3311",
+   "800-323-4153"
+  ],
   "emails": []
  },
  "purus": {
@@ -12160,38 +12095,36 @@
   "title": null
  },
  "retsch": {
-  "website": "https://www.verder-scientific.com",
-  "phone": "+1 866-473-8724",
-  "email": null,
-  "contact_url": "https://www.verder-scientific.com/contact-services/",
+  "website": "https://www.retsch.com",
+  "phone": null,
+  "email": "info@retsch.com",
+  "contact_url": "https://www.retsch.com/contact-services/",
   "address": null,
-  "source": "https://www.verder-scientific.com/contact-services/",
+  "source": "https://www.retsch.com/contact-services/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": false,
-  "lab_relevance": 8,
-  "title": "Verder Scientific - Enabling Progress",
-  "phones": [
-   "+1 866-473-8724",
-   "845 458 5196",
-   "+27 010 6120141"
-  ],
-  "emails": []
+  "name_match": true,
+  "lab_relevance": 14,
+  "title": "RETSCH – Laboratory Mills, Crushers and Sieve Shakers",
+  "phones": [],
+  "emails": [
+   "info@retsch.com",
+   "sales@verder-scientific.co.za",
+   "info@retsch.fr"
+  ]
  },
  "revvity": {
-  "website": "https://www.perkinelmer.com",
+  "website": "https://www.revvity.com",
   "phone": null,
   "email": null,
-  "contact_url": "https://www.perkinelmer.com/contactus/requestaquote.html",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.perkinelmer.com/contactus/requestaquote.html",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": false,
-  "lab_relevance": 27,
-  "title": "PerkinElmer | Science with Purpose",
-  "phones": [],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "retractable technologies": {
   "website": "https://retractable.com",
@@ -12331,19 +12264,21 @@
   "emails": []
  },
  "rocker": {
-  "website": "https://rocker.com",
-  "phone": "556760-6032",
+  "website": "https://www.rocker.com.tw",
+  "phone": "+886-7-2273358",
   "email": null,
-  "contact_url": null,
+  "contact_url": "https://www.rocker.com.tw/contact-us/",
   "address": null,
-  "source": "https://rocker.com/",
+  "source": "https://www.rocker.com.tw/contact-us/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Rocker",
+  "lab_relevance": 2,
+  "title": "Rocker 實驗室真空過濾設備領導品牌 - Rocker 洛科儀器",
   "phones": [
-   "556760-6032"
+   "+886-7-2273358",
+   "+886-2-26033311",
+   "02-26033311"
   ],
   "emails": []
  },
@@ -12487,25 +12422,22 @@
   ]
  },
  "rotronics": {
-  "website": "https://rotronics.com",
-  "phone": "+33450030859",
-  "email": "contact@rotronics.com",
-  "contact_url": "https://www.rotronics.com/fr/contact/",
+  "website": "https://www.rotronic.com",
+  "phone": "+16314273898",
+  "email": "sales@rotronic-usa.com",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.rotronics.com/fr/contact/",
+  "source": "https://www.rotronic.com/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "Rotronics Industriel : bancs d&#039;essai et bancs de moyeux",
+  "name_match": false,
+  "lab_relevance": 4,
+  "title": "Measurement Solutions - Humidity, Temperature, CO2 and Differential Pressure Measurement (EN_US)",
   "phones": [
-   "+33450030859",
-   "+82-2-304-9500"
+   "+16314273898"
   ],
   "emails": [
-   "contact@rotronics.com",
-   "info@innosim.com",
-   "info@iae-tech.com"
+   "sales@rotronic-usa.com"
   ]
  },
  "salimetrics": {
@@ -12607,23 +12539,19 @@
   "emails": []
  },
  "safety zone": {
-  "website": "https://safetyzone.in",
-  "phone": "+91 4884 293 339",
-  "email": "info@safetyzone.in",
+  "website": "https://www.thesafetyzone.com",
+  "phone": null,
+  "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://safetyzone.in/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 2 personal address(es) omitted",
+  "source": "https://www.thesafetyzone.com/",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "SAFETY ZONE &#8211; E Security Company",
-  "phones": [
-   "+91 4884 293 339"
-  ],
-  "emails": [
-   "info@safetyzone.in"
-  ]
+  "lab_relevance": 0,
+  "title": null,
+  "phones": [],
+  "emails": []
  },
  "sas safety": {
   "website": "https://sassafety.com",
@@ -12816,19 +12744,17 @@
   ]
  },
  "sefar": {
-  "website": "https://sefaria.org",
+  "website": "https://www.sefar.com",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://www.sefaria.org/texts",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Sefaria: a Living Library of Jewish Texts Online",
-  "phones": [],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 429,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "sekisui diagnostics": {
   "website": "https://sekisuidiagnostics.com",
@@ -13001,39 +12927,35 @@
   "title": null
  },
  "serva": {
-  "website": "https://servage.net",
-  "phone": "021-3728006",
-  "email": "support@websupport.se",
-  "contact_url": "https://websupport.se/en/support/",
+  "website": "https://www.serva.de",
+  "phone": null,
+  "email": "info@licorbio.com",
+  "contact_url": "https://www.serva.de/deDE/14_UEber_SERVA_Kontakt.html",
   "address": null,
-  "source": "https://websupport.se/en/support/",
+  "source": "https://www.serva.de/deDE/14_UEber_SERVA_Kontakt.html",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Websupport - Create your own website",
-  "phones": [
-   "021-3728006"
-  ],
+  "lab_relevance": 6,
+  "title": "SERVA Electrophoresis GmbH",
+  "phones": [],
   "emails": [
-   "support@websupport.se",
-   "sales@websupport.se"
+   "info@licorbio.com",
+   "order@licorbio.com"
   ]
  },
  "sharpie": {
-  "website": "https://sharpie.nl",
+  "website": "https://www.sharpie.com",
   "phone": null,
   "email": null,
-  "contact_url": "https://sharpie.nl/contact/",
+  "contact_url": null,
   "address": null,
-  "source": "https://sharpie.nl/contact/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 0,
-  "title": "Internationale 12m² Sharpie zeilklasse - 12m² Sharpie",
-  "phones": [],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "sensoquest": {
   "website": "https://sensoquest.de",
@@ -13177,23 +13099,23 @@
   "emails": []
  },
  "si analytics": {
-  "website": "https://si-analytics.ai",
-  "phone": "042-879-2300",
-  "email": "sales@si-analytics.ai",
-  "contact_url": null,
+  "website": "https://www.si-analytics.com",
+  "phone": "+49 881 183-0",
+  "email": null,
+  "contact_url": "https://www.xylemanalytics.com/en/contact/general-contact",
   "address": null,
-  "source": "https://si-analytics.ai/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 2 personal address(es) omitted",
+  "source": "https://www.xylemanalytics.com/en/contact/general-contact",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "SI Analytics",
+  "lab_relevance": 16,
+  "title": "Xylem Analytics | SI Analytics Brand Analytical Instrumentation",
   "phones": [
-   "042-879-2300"
+   "+49 881 183-0",
+   "+49 881 183-321",
+   "+49 881 183-322"
   ],
-  "emails": [
-   "sales@si-analytics.ai"
-  ]
+  "emails": []
  },
  "r3 safety": {
   "website": "https://r3safety.net",
@@ -13266,19 +13188,21 @@
   ]
  },
  "slice": {
-  "website": "https://slicelife.com",
+  "website": "https://www.sliceproducts.com",
   "phone": null,
-  "email": null,
-  "contact_url": null,
+  "email": "info@sliceproducts.com",
+  "contact_url": "https://www.sliceproducts.com/pages/contact-us",
   "address": null,
-  "source": "https://slicelife.com/",
+  "source": "https://www.sliceproducts.com/pages/contact-us",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Order Pizza Delivery Online &amp; Support Local Pizzerias - Slice",
+  "lab_relevance": 5,
+  "title": "Slice Ceramic Safety Knives | Slice, Inc.",
   "phones": [],
-  "emails": []
+  "emails": [
+   "info@sliceproducts.com"
+  ]
  },
  "sklar": {
   "website": "https://sklarlaw.com",
@@ -13300,19 +13224,17 @@
   "emails": []
  },
  "skc": {
-  "website": "https://sk.co.kr",
+  "website": "https://www.skcinc.com",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://sk.co.kr/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": false,
-  "lab_relevance": 1,
-  "title": "SK",
-  "phones": [],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 406,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "slingshotbio": {
   "website": "https://slingshotbio.com",
@@ -13350,18 +13272,22 @@
   "emails": []
  },
  "sls": {
-  "website": "https://slsp.ch",
-  "phone": null,
+  "website": "https://www.scientificlabs.co.uk",
+  "phone": "115 982 1111",
   "email": null,
-  "contact_url": "https://slsp.ch/kontakt/",
+  "contact_url": "https://www.scientificlabs.co.uk/contactus",
   "address": null,
-  "source": "https://slsp.ch/kontakt/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "source": "https://www.scientificlabs.co.uk/contactus",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "SLSP &#8211; Swiss Library Service Platform",
-  "phones": [],
+  "lab_relevance": 21,
+  "title": "Scientific Laboratory Supplies (SLS) Ltd | Lab Supplies",
+  "phones": [
+   "115 982 1111",
+   "115 982 5275",
+   "1236 431857"
+  ],
   "emails": []
  },
  "so low": {
@@ -13621,22 +13547,26 @@
   ]
  },
  "spectronics": {
-  "website": "https://spectronics.com.au",
-  "phone": "07 3808 6833",
-  "email": null,
-  "contact_url": "https://shop.spectronics.com.au/pages/contact",
+  "website": "https://www.spectroline.com",
+  "phone": "18002748888",
+  "email": "marketing@spectroline.com",
+  "contact_url": "https://spectroline.com/contact/",
   "address": null,
-  "source": "https://shop.spectronics.com.au/pages/contact",
+  "source": "https://spectroline.com/contact/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "Spectronics",
+  "lab_relevance": 7,
+  "title": "The World&#039;s Leading Manufacturer for Fluorescent Leak Detection",
   "phones": [
-   "07 3808 6833",
-   "42 700 398 929"
+   "18002748888",
+   "+15163334840",
+   "(516) 333-4840"
   ],
-  "emails": []
+  "emails": [
+   "marketing@spectroline.com",
+   "orders@spectroline.com"
+  ]
  },
  "specac": {
   "website": "https://specac.com",
@@ -13714,17 +13644,24 @@
   ]
  },
  "simport": {
-  "website": "https://simport.com.tr",
-  "phone": null,
-  "email": null,
-  "contact_url": null,
+  "website": "https://www.simport.com",
+  "phone": "(450) 464-1723",
+  "email": "info@simport.com",
+  "contact_url": "https://www.simport.com/en/page/15-contact-page",
   "address": null,
-  "source": null,
-  "note": null,
-  "status": 503,
-  "name_match": null,
-  "lab_relevance": null,
-  "title": null
+  "source": "https://www.simport.com/en/page/15-contact-page",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "status": 200,
+  "name_match": true,
+  "lab_relevance": 15,
+  "title": "Simport",
+  "phones": [
+   "(450) 464-1723",
+   "1800 464-1723"
+  ],
+  "emails": [
+   "info@simport.com"
+  ]
  },
  "spex sampleprep": {
   "website": "https://spexsampleprep.com",
@@ -13799,21 +13736,25 @@
   ]
  },
  "ssi": {
-  "website": "https://ssi.com.vn",
-  "phone": "1900545471",
-  "email": null,
-  "contact_url": null,
+  "website": "https://www.ssibio.com",
+  "phone": "1-209-333-2120",
+  "email": "support@denverwebsitedesigns.com",
+  "contact_url": "https://www.ssibio.com/contact-us",
   "address": null,
-  "source": "https://www.ssi.com.vn/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "source": "https://www.ssibio.com/contact-us",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Công ty cổ phần chứng khoán SSI",
+  "lab_relevance": 16,
+  "title": "Scientific Specialties | USA-Made Lab Consumables & PCR Supplies",
   "phones": [
-   "1900545471"
+   "1-209-333-2120",
+   "12093332120"
   ],
-  "emails": []
+  "emails": [
+   "support@denverwebsitedesigns.com",
+   "info@ssibio.com"
+  ]
  },
  "steris": {
   "website": "https://steris.com",
@@ -13850,24 +13791,17 @@
   "emails": []
  },
  "spectrum chemical": {
-  "website": "https://spectrumchemicals.net",
-  "phone": "+91 7045920551",
-  "email": "sales@spectrumchemicals.net",
-  "contact_url": "https://www.spectrumchemicals.net/contact/",
+  "website": "https://www.spectrumchemical.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
   "address": null,
-  "source": "https://www.spectrumchemicals.net/contact/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "specialty chemicals suppliers | specialty chemicals distributors | Importers",
-  "phones": [
-   "+91 7045920551",
-   "+1 6109352004"
-  ],
-  "emails": [
-   "sales@spectrumchemicals.net"
-  ]
+  "source": null,
+  "note": null,
+  "status": 403,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "stockwell scientific": {
   "website": "https://stockwellscientific.com",
@@ -14092,21 +14026,20 @@
   "emails": []
  },
  "supermax": {
-  "website": "https://supermaxi.com",
-  "phone": "7861223841992",
+  "website": "https://www.supermax.com.my",
+  "phone": "603-6145 2328",
   "email": null,
-  "contact_url": null,
+  "contact_url": "https://www.supermax.com.my/our-business-contact-lenses",
   "address": null,
-  "source": "https://www.supermaxi.com/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 5 personal address(es) omitted",
+  "source": "https://www.supermax.com.my/our-business-contact-lenses",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 4 personal address(es) omitted",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "SUPERMAXI - Descubra el Lado Super en cada beneficio",
+  "lab_relevance": 6,
+  "title": "Supermax",
   "phones": [
-   "7861223841992",
-   "7862122743240",
-   "7861223848731"
+   "603-6145 2328",
+   "603-6156 2191"
   ],
   "emails": []
  },
@@ -14297,19 +14230,17 @@
   "emails": []
  },
  "testo": {
-  "website": "https://testout.com",
+  "website": "https://www.testo.com",
   "phone": null,
   "email": null,
   "contact_url": null,
   "address": null,
-  "source": "https://www.comptia.org/en-us/lp/testout/",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "CompTIA",
-  "phones": [],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 429,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "thermo scientific": {
   "website": "https://www.thermofisher.com",
@@ -14327,25 +14258,24 @@
   "emails": []
  },
  "thermco": {
-  "website": "https://thermcoreps.com",
-  "phone": "(973) 777-6700",
-  "email": "info@thermcoreps.com",
-  "contact_url": "https://www.thermcoreps.com/contact-us/",
+  "website": "https://www.thermcoproducts.com",
+  "phone": "20(973)20300-9100",
+  "email": "info@thermcoproducts.com",
+  "contact_url": "https://thermcoproducts.com/contact/",
   "address": null,
-  "source": "https://www.thermcoreps.com/contact-us/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 2 personal address(es) omitted",
+  "source": "https://thermcoproducts.com/contact/",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "Thermco - Strong Partners for a Strong Futures.",
+  "lab_relevance": 12,
+  "title": "Industry-Leading Temperature Monitoring and Calibration",
   "phones": [
-   "(973) 777-6700",
-   "(877) 615 6700",
-   "(973)-777-6700"
+   "20(973)20300-9100",
+   "973-300-9100",
+   "20973.300.9100"
   ],
   "emails": [
-   "info@thermcoreps.com",
-   "sales@thermcoreps.com"
+   "info@thermcoproducts.com"
   ]
  },
  "thermo scientific nalgene": {
@@ -14413,35 +14343,42 @@
   "title": null
  },
  "thermosafe": {
-  "website": "https://thermosafety.pl",
-  "phone": null,
+  "website": "https://www.thermosafe.com",
+  "phone": "800-323-7442",
   "email": null,
-  "contact_url": null,
+  "contact_url": "https://thermosafe.com/contact/",
   "address": null,
-  "source": "https://thermosafety.pl/",
+  "source": "https://thermosafe.com/contact/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "NV Casino Polska 2026 – Oficjalna Strona | Graj w NV Kasyno",
-  "phones": [],
+  "lab_relevance": 11,
+  "title": "ThermoSafe: Temperature Controlled Packaging Solutions",
+  "phones": [
+   "800-323-7442",
+   "+3532255112",
+   "800.323.7442"
+  ],
   "emails": []
  },
  "teknova": {
-  "website": "https://teknovak.com",
-  "phone": null,
-  "email": "info@teknovak.com",
-  "contact_url": null,
+  "website": "https://www.teknova.com",
+  "phone": "18002094488",
+  "email": "info@teknova.com",
+  "contact_url": "https://www.teknova.com/en/company/support.html#contact",
   "address": null,
-  "source": "https://www.teknovak.com/",
+  "source": "https://www.teknova.com/en/company/support.html#contact",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Anasayfa - TeknoVak",
-  "phones": [],
+  "lab_relevance": 25,
+  "title": "Home",
+  "phones": [
+   "18002094488",
+   "1.800.209.4488"
+  ],
   "emails": [
-   "info@teknovak.com"
+   "info@teknova.com"
   ]
  },
  "tidi products": {
@@ -14520,18 +14457,21 @@
   ]
  },
  "transforming technologies": {
-  "website": "https://transform-tech.com",
-  "phone": null,
+  "website": "https://www.transforming-technologies.com",
+  "phone": "+1-419-841-9552",
   "email": null,
-  "contact_url": null,
+  "contact_url": "https://transforming-technologies.com/contact-us/",
   "address": null,
-  "source": "https://www.transform-tech.com/",
-  "note": "from the company's own site (homepage / contact page); role addresses only; 2 personal address(es) omitted",
+  "source": "https://transforming-technologies.com/contact-us/",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
-  "name_match": false,
-  "lab_relevance": 0,
-  "title": "Transform-Tech — The One Platform for IT, Recruitment, Security & Development",
-  "phones": [],
+  "name_match": true,
+  "lab_relevance": 10,
+  "title": "Anti-Static ESD Products | Transforming Technologies",
+  "phones": [
+   "+1-419-841-9552",
+   "419-841-9552"
+  ],
   "emails": []
  },
  "tork": {
@@ -14552,19 +14492,27 @@
   "emails": []
  },
  "triforest": {
-  "website": "https://triforestflooring.ca",
-  "phone": null,
-  "email": null,
-  "contact_url": "https://triforestflooring.ca/contact/",
+  "website": "https://www.triforest.com",
+  "phone": "+120(949)20380-8866",
+  "email": "info@triforest.com",
+  "contact_url": "https://www.triforest.com/contact/",
   "address": null,
-  "source": "https://triforestflooring.ca/contact/",
+  "source": "https://www.triforest.com/contact/",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 3,
-  "title": "Best Interac Casinos in Canada 2026: 15 Online e-Transfer Sites",
-  "phones": [],
-  "emails": []
+  "lab_relevance": 12,
+  "title": "Home - TriForest",
+  "phones": [
+   "+120(949)20380-8866",
+   "(888)20777-9956",
+   "20(949)20380-8866"
+  ],
+  "emails": [
+   "info@triforest.com",
+   "sales@triforest.com",
+   "support@triforest.com"
+  ]
  },
  "tribioscience": {
   "website": "https://tribioscience.com",
@@ -15173,21 +15121,17 @@
   "emails": []
  },
  "welch": {
-  "website": "https://welchs.com",
-  "phone": "1-800-340-6870",
+  "website": "https://www.welchvacuum.com",
+  "phone": null,
   "email": null,
-  "contact_url": "https://www.welchs.com/en-us/contact-us",
+  "contact_url": null,
   "address": null,
-  "source": "https://www.welchs.com/en-us/contact-us",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
-  "status": 200,
-  "name_match": true,
-  "lab_relevance": 1,
-  "title": "Welch's | Fruit Juice, Jelly and Snacks",
-  "phones": [
-   "1-800-340-6870"
-  ],
-  "emails": []
+  "source": null,
+  "note": null,
+  "status": 429,
+  "name_match": null,
+  "lab_relevance": null,
+  "title": null
  },
  "water saver faucet": {
   "website": "https://wsflab.com",
@@ -15468,20 +15412,24 @@
   "title": null
  },
  "zep": {
-  "website": "https://zepp.com",
-  "phone": null,
-  "email": "support@zeppclarity.com",
-  "contact_url": "https://zepp.com/contact-us",
+  "website": "https://www.zep.com",
+  "phone": "(877)-428-9937",
+  "email": "info@cyclect.com.sg",
+  "contact_url": "https://zep.com/pages/contact",
   "address": null,
-  "source": "https://zepp.com/contact-us",
-  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "source": "https://zep.com/pages/contact",
+  "note": "from the company's own site (homepage / contact page); role addresses only; 4 personal address(es) omitted",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 1,
-  "title": "Zepp Health | Empowering Health, Inspiring Joy",
-  "phones": [],
+  "lab_relevance": 2,
+  "title": "Buy Zep Products Today! &ndash; Zep Inc.",
+  "phones": [
+   "(877)-428-9937"
+  ],
   "emails": [
-   "support@zeppclarity.com"
+   "info@cyclect.com.sg",
+   "sales@zep.be",
+   "info@zep.co.uk"
   ]
  },
  "yamato": {
@@ -15570,18 +15518,22 @@
   "emails": []
  },
  "zoll": {
-  "website": "https://zoll.de",
-  "phone": null,
+  "website": "https://www.zoll.com",
+  "phone": "9784219655",
   "email": null,
-  "contact_url": "https://www.zoll.de/DE/Kontakt/Dienststellensuche/Startseite/dienststellensuche_node.html",
+  "contact_url": "https://www.zoll.com/en-us/about/newsroom",
   "address": null,
-  "source": "https://www.zoll.de/DE/Kontakt/Dienststellensuche/Startseite/dienststellensuche_node.html",
+  "source": "https://www.zoll.com/en-us/about/newsroom",
   "note": "from the company's own site (homepage / contact page); role addresses only",
   "status": 200,
   "name_match": true,
-  "lab_relevance": 0,
-  "title": "Zoll online - Startseite",
-  "phones": [],
+  "lab_relevance": 7,
+  "title": "ZOLL Medical | ZOLL Medical",
+  "phones": [
+   "9784219655",
+   "6179748659",
+   "4129684501"
+  ],
   "emails": []
  },
  "tocris": {
@@ -15609,6 +15561,42 @@
   "name_match": true,
   "lab_relevance": 1,
   "title": "L&#039;entreprise - Zwiebel",
+  "phones": [],
+  "emails": []
+ },
+ "drummond": {
+  "website": "https://www.drummondsci.com",
+  "phone": "+18005237480",
+  "email": "info@drummondsci.com",
+  "contact_url": "https://drummondsci.com/contact/",
+  "address": null,
+  "source": "https://drummondsci.com/contact/",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "status": 200,
+  "name_match": true,
+  "lab_relevance": 9,
+  "title": "Life Science Contract Manufacturing | Drummond Scientific",
+  "phones": [
+   "+18005237480",
+   "+16103530200"
+  ],
+  "emails": [
+   "info@drummondsci.com",
+   "orders@drummondsci.com"
+  ]
+ },
+ "tuttnauer": {
+  "website": "https://tuttnauer.com",
+  "phone": null,
+  "email": null,
+  "contact_url": null,
+  "address": null,
+  "source": "https://tuttnauer.com/",
+  "note": "from the company's own site (homepage / contact page); role addresses only",
+  "status": 200,
+  "name_match": true,
+  "lab_relevance": 19,
+  "title": "Autoclave sterilizers, washer disinfectors, and other sterile processing products | Tuttnauer",
   "phones": [],
   "emails": []
  }
