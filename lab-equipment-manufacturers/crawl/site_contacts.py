@@ -25,6 +25,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MASTER = os.path.join(ROOT, "research", "catalog_suppliers.json")
 RESOLVED = os.path.join(ROOT, "research", "enrich", "resolved.json")
 PRIOR = os.path.join(ROOT, "research", "enrich", "prior_research.json")
+OVERRIDES = os.path.join(ROOT, "research", "overrides.json")
 OUT = os.path.join(ROOT, "research", "enrich", "site_contacts.json")
 
 PHONE_RX = re.compile(r"(?<![\w/])(\+?\d{1,3}[\s.-]?)?(\(?\d{2,4}\)?[\s.-]?)\d{3,4}[\s.-]?\d{3,4}(?![\w/])")
@@ -132,11 +133,13 @@ def main():
     ap.add_argument("--only-missing", action="store_true")
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--unverified-only", action="store_true", help="only sites not yet checked for name_match/lab_relevance")
+    ap.add_argument("--recheck-changed", action="store_true", help="only keys whose resolved website differs from the cached one")
     args = ap.parse_args()
     master = json.load(open(MASTER, encoding="utf-8"))
     resolved = {x["key"]: x for x in json.load(open(RESOLVED, encoding="utf-8"))} if os.path.exists(RESOLVED) else {}
     prior = json.load(open(PRIOR, encoding="utf-8")) if os.path.exists(PRIOR) else {}
     cache = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else {}
+    overrides = json.load(open(OVERRIDES, encoding="utf-8")) if os.path.exists(OVERRIDES) else {}
     todo = []
     for m in master:
         k = m["key"]
@@ -144,7 +147,7 @@ def main():
             continue
         if args.unverified_only and k in cache and cache[k].get("name_match") is not None:
             continue
-        web = (prior.get(k) or {}).get("website")
+        web = (overrides.get(k) or {}).get("website") or (prior.get(k) or {}).get("website")
         res = resolved.get(k) or {}
         wd = res.get("wikidata") or {}
         cb = res.get("clearbit") or {}
@@ -152,6 +155,10 @@ def main():
             web = wd.get("website")
         if not web and cb.get("domain") and (cb.get("score") or 0) >= 0.8:
             web = "https://" + cb["domain"]
+        if web and args.recheck_changed:
+            cw = (cache.get(k) or {}).get("website") or ""
+            if cw.rstrip("/").lower().replace("www.", "") == web.rstrip("/").lower().replace("www.", ""):
+                continue
         if web:
             todo.append((k, web, m["name"]))
     if args.limit:

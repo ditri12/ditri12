@@ -1,0 +1,470 @@
+{
+ "a and d engineering": {
+  "website": "https://www.aandd.jp",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "advantage lab": {
+  "website": "https://advantage-lab.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "atago": {
+  "website": "https://www.atago.net",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "cytiva": {
+  "website": "https://www.cytivalifesciences.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "dlab scientific": {
+  "website": "https://www.dlabsci.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "qorpak": {
+  "website": "https://www.qorpak.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "swagelok": {
+  "website": "https://www.swagelok.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "gfs chemicals": {
+  "website": "https://www.gfschemicals.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "inficon": {
+  "website": "https://www.inficon.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "jeio tech": {
+  "website": "https://www.jeiotech.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "anatrace": {
+  "website": "https://www.anatrace.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "acrobiosystems": {
+  "website": "https://www.acrobiosystems.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "ammex": {
+  "website": "https://www.ammex.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "new pig": {
+  "website": "https://www.newpig.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "kingfisher biotech": {
+  "website": "https://www.kingfisherbiotech.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "pan biotech": {
+  "website": "https://www.pan-biotech.de",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "molecular dimensions": {
+  "website": "https://www.moleculardimensions.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "precision system science": {
+  "website": "https://www.pss.co.jp",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "zwiebel": {
+  "website": "https://www.zwiebel.fr",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "tournus equipement": {
+  "website": "https://www.tournus.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "cryopal": {
+  "website": "https://www.cryopal.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "franklab": {
+  "website": "https://www.franklab.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "semperit": {
+  "website": "https://www.semperitgroup.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "clorox": {
+  "website": "https://www.clorox.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "kidde": {
+  "website": "https://www.kidde.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "spray nine": {
+  "website": "https://www.spraynine.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "elko filtering": {
+  "website": "https://www.elkofiltering.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "lk packaging": {
+  "website": "https://www.lkpkg.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "ultratape": {
+  "website": "https://www.ultratape.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "ors nasco": {
+  "website": "https://www.orsnasco.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "benchpro": {
+  "website": "https://www.benchpro.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "grainger": {
+  "website": "https://www.grainger.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "mouser electronics": {
+  "website": "https://www.mouser.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "medisca": {
+  "website": "https://www.medisca.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "hartmann": {
+  "website": "https://www.hartmann.info",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "dynarex": {
+  "website": "https://www.dynarex.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "miele": {
+  "website": "https://www.miele.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "alla france": {
+  "website": "https://www.allafrance.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "acco brands": {
+  "website": "https://www.accobrands.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "sas safety": {
+  "website": "https://www.sassafety.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "west chester protective gear": {
+  "website": "https://www.westchestergear.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "decongel": {
+  "website": "https://www.decongel.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "intelagard": {
+  "website": "https://www.intelagard.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "chums": {
+  "website": "https://chums.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "stimpson": {
+  "website": "https://www.stimpson.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "welch": {
+  "website": "https://www.welchvacuum.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "zoll": {
+  "website": "https://www.zoll.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "falcon": {
+  "website": "https://www.corning.com/worldwide/en/products/life-sciences/brands/falcon.html",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "sefar": {
+  "website": "https://www.sefar.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "sharpie": {
+  "website": "https://www.sharpie.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "marvel": {
+  "website": "https://www.marvelrefrigeration.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "medline": {
+  "website": "https://www.medline.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "kimtech": {
+  "website": "https://www.kcprofessional.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "supermax": {
+  "website": "https://www.supermax.com.my",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "testo": {
+  "website": "https://www.testo.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "zep": {
+  "website": "https://www.zep.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "sls": {
+  "website": "https://www.scientificlabs.co.uk",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "serva": {
+  "website": "https://www.serva.de",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "optika": {
+  "website": "https://www.optikamicroscopes.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "teknova": {
+  "website": "https://www.teknova.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "rocker": {
+  "website": "https://www.rocker.com.tw",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "denville": {
+  "website": "https://www.denvillescientific.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "thermosafe": {
+  "website": "https://www.thermosafe.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "thermco": {
+  "website": "https://www.thermcoproducts.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "puritan": {
+  "website": "https://www.puritanmedproducts.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "permagen": {
+  "website": "https://www.permagen.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "prospec": {
+  "website": "https://www.prospecbio.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "si analytics": {
+  "website": "https://www.si-analytics.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "spectronics": {
+  "website": "https://www.spectroline.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "rotronics": {
+  "website": "https://www.rotronic.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "techni tool": {
+  "website": "https://www.techni-tool.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "koehler": {
+  "website": "https://www.koehlerinstrument.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "kgw": {
+  "website": "https://www.kgw-isotherm.de",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "desco": {
+  "website": "https://www.desco.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "eisco": {
+  "website": "https://www.eiscolabs.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "extech": {
+  "website": "https://www.extech.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "ironclad": {
+  "website": "https://www.ironclad.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "pct": {
+  "website": "https://www.plantcelltechnology.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "slice": {
+  "website": "https://www.sliceproducts.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "ssi": {
+  "website": "https://www.ssibio.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "3m safety": {
+  "website": "https://www.3m.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "alere": {
+  "website": "https://www.abbott.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "ascensia diabetes care": {
+  "website": "https://www.ascensia.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "avantor j t baker": {
+  "website": "https://www.avantorsciences.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "avantor macron fine chemicals": {
+  "website": "https://www.avantorsciences.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "phcbi": {
+  "website": "https://www.phchd.com/global/biomedical",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "retsch": {
+  "website": "https://www.retsch.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "revvity": {
+  "website": "https://www.revvity.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "brandtech": {
+  "website": "https://www.brandtech.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "biosolve": {
+  "website": "https://www.biosolve-chemicals.eu",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "nbiotek": {
+  "website": "https://www.n-biotek.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "remco products": {
+  "website": "https://www.remcoproducts.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "skc": {
+  "website": "https://www.skcinc.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "transforming technologies": {
+  "website": "https://www.transforming-technologies.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "lc laboratories": {
+  "website": "https://www.lclabs.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "lamda biotech": {
+  "website": "https://www.lamdabio.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "bausch and lomb": {
+  "website": "https://www.bausch.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "benchmark": {
+  "website": "https://www.benchmarkscientific.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "biologix": {
+  "website": "https://www.biologixgroup.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "triforest": {
+  "website": "https://www.triforest.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "chemglass": {
+  "website": "https://www.chemglass.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "himedia": {
+  "website": "https://www.himedialabs.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "implen": {
+  "website": "https://www.implen.de",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "simport": {
+  "website": "https://www.simport.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "spectrum chemical": {
+  "website": "https://www.spectrumchemical.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "improve medical": {
+  "website": "https://www.improve-medical.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "crystal technologies": {
+  "website": "https://www.crystaltech.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "safety zone": {
+  "website": "https://www.thesafetyzone.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "mercedes medical": {
+  "website": "https://www.mercedesmedical.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "brady": {
+  "website": "https://www.bradyid.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "4titude": {
+  "website": "https://www.azenta.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "drummond": {
+  "website": "https://www.drummondsci.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "elma": {
+  "website": "https://www.elma-ultrasonic.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "labcon": {
+  "website": "https://www.labcon.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "interscience": {
+  "website": "https://www.interscience.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "tuttnauer": {
+  "website": "https://tuttnauer.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ },
+ "oxford lab products": {
+  "website": "https://www.oxfordlabproducts.com",
+  "website_note": "manual: brand/domain pairing checked by hand (auto-detection rejected or mis-resolved)"
+ }
+}
