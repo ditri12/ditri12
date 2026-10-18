@@ -1,45 +1,62 @@
-# מאגר יצרני ציוד מעבדה — 100 היצרנים המובילים בעולם
+# ספקי ציוד מעבדה – מאגר נתונים | Laboratory suppliers database
 
-מאגר נתונים של 100 יצרני ציוד ומכשור המעבדה המובילים בעולם, עם:
+מאגר של **כל הספקים והיצרנים** המופיעים בדפי הספקים/המותגים של שלושה מפיצי ציוד מעבדה גדולים:
 
-- **גודל החברה** — מספר עובדים והכנסות שנתיות (במטבע המקורי ובהמרה לדולר), כולל שנת הנתון והיקפו (חברה / סגמנט / חברת-אם / הערכה).
-- **3 מוצרים מובילים** לכל יצרן.
-- **ייצוג בישראל** — האם ליצרן חברה-בת או משרד בישראל, ומי המפיצים / הנציגים הישראליים שמוכרים את מוצריו (כולל תחום הייצוג, אתר ומקור).
-- **מקורות ורמת ודאות** לכל רשומה.
+| קטלוג | דף המקור | ספקים |
+|---|---|---|
+| Dutscher (צרפת) | https://www.dutscher.com/brands (+ מותגי-הבית בדף private-label) | 227 |
+| Thomas Scientific (ארה"ב) | https://www.thomassci.com/browse-by/suppliers | 1,006 |
+| Quartzy (ארה"ב) | https://www.quartzy.com/suppliers | 377 |
+| Quartzy – ספקים חדשים | https://info.quartzy.com/new-suppliers | 26 |
 
-הנתונים נאספו ב-15.10.2026 מדוחות שנתיים, אתרי היצרנים, אתרי המפיצים הישראליים ועיתונות מקצועית.
+לאחר איחוד שמות זהים: **1,381 ספקים ייחודיים** (209 מופיעים ביותר מקטלוג אחד).
 
-## הקבצים
+לכל ספק נאספים, ככל שקיימים מקורות פומביים: אתר, מדינה, חברת-אם, מספר עובדים והכנסות (עם שנת הנתון והמקור),
+מוצרים מובילים/מייצגים, **ייצוג בישראל** (חברה-בת / מפיץ, עם פרטי קשר של הנציג ושנת הראיה) ופרטי קשר של היצרן.
 
-| קובץ | מה יש בו |
+## קבצים
+
+| קובץ | תוכן |
 |---|---|
-| [`index.html`](index.html) | דף צפייה אינטראקטיבי (עברית, RTL): חיפוש חופשי, סינון לפי ייצוג בישראל / קטגוריה / מדינה / גודל, מיון, פתיחת שורה לפרטים ומקורות, והעתקת הטבלה המסוננת לאקסל. קובץ עצמאי — מורידים ופותחים בדפדפן. |
-| [`data/manufacturers.xlsx`](data/manufacturers.xlsx) | אקסל עם 4 גיליונות: `Manufacturers` (שורה ליצרן), `Israel entities` (שורה לכל נציג ישראלי), `Products` (שורה לכל מוצר), `Summary` (נוסחאות סיכום חיות). |
-| [`data/manufacturers.csv`](data/manufacturers.csv) | אותה טבלה שטוחה, UTF-8 עם BOM (נפתח נכון באקסל בעברית). |
-| [`data/manufacturers.json`](data/manufacturers.json) | הנתונים המלאים והמובנים (מוצרים ונציגים כרשימות), עם כותרת מטא-דאטה. |
-| [`data/manufacturers.sqlite`](data/manufacturers.sqlite) / [`data/manufacturers.sql`](data/manufacturers.sql) | בסיס נתונים SQLite מנורמל (טבלאות `manufacturers`, `products`, `israel_entities`, `sources`) וסקריפט ה-SQL שיוצר אותו. |
-| [`research/`](research/) | קובצי המחקר הגולמיים (10 קבצים × 10 יצרנים) וה-[סכמה](research/SCHEMA.md). |
-| [`build.py`](build.py) | סקריפט הבנייה: ממזג את קובצי המחקר ומייצר את כל הפלטים מחדש (`python3 build.py`). |
+| `index.html` | מציג אינטראקטיבי בעברית (RTL): חיפוש, סינון לפי קטלוג/מדינה/גודל/ייצוג, פירוט לכל ספק |
+| `data/suppliers.json` | הנתונים המלאים (כולל אינדקס הנציגים הישראליים) |
+| `data/suppliers.csv` | טבלה שטוחה (UTF-8 BOM, נפתח באקסל) |
+| `data/suppliers.xlsx` | גיליונות: Suppliers, Israel entities, Products, By Israeli entity, Summary |
+| `data/suppliers.sql`, `data/suppliers.sqlite` | סכמה יחסית: suppliers, products, israel_entities, sources |
+| `research/catalog_suppliers.json` | רשימת-האב: שם, וריאנטים, הקטלוגים שבהם מופיע |
+| `research/enrich/*.json` | שכבות העשרה (מחקר קודם מאומת, Wikidata/Clearbit, התאמות למפיצים ישראליים, מוצרים, אנשי קשר) |
+| `research/israel/` | רשם המפיצים הישראליים ופרטי הקשר שלהם |
+| `research/sources/` | דפי המקור שנסרקו (HTML/טקסט/קישורים) עם index.json לכל סריקה |
+| `crawl/` | כלי הסריקה והעיבוד (ראו להלן) |
+| `build.py` | בונה את כל הפלטים מרשימת-האב ושכבות ההעשרה |
 
-## ערכי השדה "ייצוג בישראל"
+## איך זה נבנה
 
-| ערך | פירוש |
-|---|---|
-| `subsidiary` | ליצרן חברה-בת / משרד משלו בישראל (לעיתים לצד מפיצים). |
-| `distributor` | המוצרים נמכרים בישראל דרך מפיץ / נציג ישראלי עצמאי. |
-| `parent_subsidiary` | נמכר בישראל דרך החברה-הבת הישראלית של קבוצת-האם. |
-| `none_found` | לא נמצאה עדות פומבית לערוץ מכירה ישראלי. **זו לא הוכחה שאין כזה.** |
-| `unclear` | עדויות סותרות או מיושנות — ראו `israel_note`. |
+סביבת העבודה חסומה לגלישה ישירה, ולכן הדפים נשלפים ב-GitHub Actions (`.github/workflows/fetch-pages.yml`, `run-script.yml`)
+ומוחזרים לענף כקבצים:
 
-## הסתייגויות
+1. `crawl/fetch.py` – שליפת דפים (HTTP או דפדפן Playwright; Thomas Scientific דורש Firefox בגלל Cloudflare), כולל מעקב קישורים ברמה אחת.
+2. `crawl/parse_lists.py` – פירסור דפי הרשימות לרשימת-האב `research/catalog_suppliers.json`.
+3. `crawl/resolve_companies.py` – זיהוי החברה ב-Wikidata (אתר, מדינה, מטה, חברת-אם, עובדים, הכנסות) וב-Clearbit (דומיין).
+4. `crawl/match_israel.py` – סריקת אתרי מפיצים ישראליים והתאמת שמות הספקים לדפי המותגים שלהם.
+5. `crawl/import_prior.py` – ייבוא המחקר המאומת מהמאגר הקודם (100 היצרנים המובילים) לספקים החופפים.
+6. `build.py` – מיזוג השכבות ובניית JSON / CSV / XLSX / SQL / SQLite / HTML.
 
-- נציגויות מתחלפות לעיתים קרובות. לפני החלטה מסחרית יש לאמת מול היצרן או המפיץ.
-- הכנסות הומרו לדולר לפי שערי 2025 מקורבים (אירו 1.10, ליש״ט 1.30, פר״ש 1.17, ין 0.0067, יואן 0.139, כתר שוודי 0.098, דולר סינגפורי 0.76).
-- לחברות פרטיות רבות (בעיקר יצרנים גרמניים ושווייצריים בבעלות משפחתית) אין נתונים רשמיים; הנתון מסומן `estimate` והמקור מצוין בהערה.
-- לחברות-בת וחטיבות (למשל חברות דנהר, חטיבות הדיאגנוסטיקה של רוש / אבוט / סימנס) הנתון הוא של הסגמנט או של קבוצת-האם, ומסומן בהתאם.
+## סטטוסים ושדות מפתח
+
+* `israel_presence`: `subsidiary` (חברה-בת), `distributor` (מפיץ/נציג), `parent_subsidiary` (דרך חברת-האם), `none_found` (נבדק ולא נמצא),
+  `unclear`, `not_found_in_sweep` (לא נמצא בסריקת המפיצים – אינו הוכחה להיעדר ייצוג), `pending`.
+* `israel_check`: `verified` (אומת מול אתר היצרן/המפיץ), `partial`, `sweep` (סריקת אתרי מפיצים בלבד).
+* לכל נציג ישראלי: `match_basis` (`prior_research` / `distributor_site_sweep`), `match_confidence` (`exact` / `contained`), `evidence_year`, `status`.
+* גודל: `employees.{value,year,scope,source}`, `revenue.{usd_m,original,year,scope,source}`; `source` ∈ prior / wikidata / manual.
+* `website_source`: prior / wikidata / clearbit / manual; `website_candidate` – דומיין שזוהה אוטומטית וטרם אומת.
 
 ---
 
 ## English summary
 
-A database of the world's 100 leading laboratory-equipment manufacturers: company size (employees, annual revenue), three flagship products each, and whether/through whom their products are sold in Israel (own subsidiary, Israeli distributors with scope, website and source), plus sources and a confidence rating per record. Collected 2026-10-15. Deliverables: interactive Hebrew viewer (`index.html`), Excel (4 sheets), CSV, JSON, SQLite (+ SQL), raw research files and the build script. "none_found" means no public evidence of an Israeli channel was found, not proof of absence.
+Database of every supplier/brand listed on the supplier pages of Dutscher, Thomas Scientific and Quartzy
+(1,381 distinct suppliers after name normalisation), enriched with website, country, parent, employees, revenue,
+representative products, **Israeli representation** (subsidiary / distributor with contacts and evidence year) and
+manufacturer contacts. Pages are fetched through GitHub Actions because the build container has no direct web access.
+Outputs: `index.html` (Hebrew RTL viewer), `data/suppliers.{json,csv,xlsx,sql,sqlite}`.
