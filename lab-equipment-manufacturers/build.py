@@ -135,6 +135,17 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov, search
     wd = res.get("wikidata") or {}
     cb = res.get("clearbit") or {}
     ov = ov or {}
+    # trust Wikidata identity data only for a solid match: exact label (after stripping parentheticals/suffixes)
+    # or score >= 0.9, and an entity that is more than a registry stub (has a sitelink) or carries size data
+    if wd:
+        from crawl.parse_lists import norm as _norm
+        label_ok = _norm(wd.get("label") or "") == key or (wd.get("score") or 0) >= 0.9
+        solid = (wd.get("sitelinks") or 0) >= 1 or bool(wd.get("employees")) or bool(wd.get("revenue"))
+        if not (label_ok and solid):
+            web_wd = wd.get("website")
+            toks = [t for t in key.split() if len(t) >= 4]
+            keep_web = bool(web_wd) and any(t in (web_wd or "").lower() for t in toks)
+            wd = {"qid": wd.get("qid"), "website": web_wd if keep_web else None, "score": wd.get("score"), "untrusted": True}
     r = {"id": m["id"], "key": key, "name": ov.get("name") or m["name"], "names": m.get("names") or [m["name"]]}
     # catalogs
     cats = {}
