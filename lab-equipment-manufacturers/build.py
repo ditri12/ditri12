@@ -98,7 +98,7 @@ def first(*vals):
     return None
 
 
-def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
+def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov, searched=None):
     key = m["key"]
     prior = prior or {}
     res = res or {}
@@ -230,8 +230,11 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
             presence = "distributor"
             check = "partial"
     elif sweep_hits:
-        presence = "distributor"
-        check = "sweep"
+        presence = "distributor" if all((h.get("type") or "distributor") == "distributor" for h in sweep_hits) else "subsidiary"
+        check = "partial" if any(h.get("match_basis") == "manufacturer_or_press" for h in sweep_hits) else "sweep"
+    elif searched:
+        presence = "none_found" if searched.get("status") == "none_found" else "unclear"
+        check = "partial"
     else:
         presence = "not_found_in_sweep"
         check = "sweep"
@@ -242,7 +245,8 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     r["israel_entities"] = ents
     yrs = [e.get("evidence_year") for e in ents if e.get("evidence_year")]
     r["israel_evidence_year"] = max(yrs) if yrs else None
-    r["israel_note"] = first(ov.get("israel_note"), prior.get("israel_note"))
+    r["israel_note"] = first(ov.get("israel_note"), prior.get("israel_note"), (searched or {}).get("note"))
+    r["israel_searched_at"] = (searched or {}).get("searched_at")
     r["israel_current"] = first(ov.get("israel_current"), prior.get("israel_current"), "confirmed_current" if sweep_hits else None)
     # contacts
     c = {}
@@ -290,10 +294,11 @@ def load_rows():
     prods = load_json(ENRICH / "catalog_products.json", {})
     contacts = load_json(ENRICH / "site_contacts.json", {})
     overrides = load_json(RESEARCH / "overrides.json", {})
+    searched = load_json(ENRICH / "israel_searched.json", {})
     rows = []
     for m in master:
         k = m["key"]
-        rows.append(build_row(m, prior.get(k), resolved.get(k), il.get(k), il_reg, prods.get(k), contacts.get(k), overrides.get(k)))
+        rows.append(build_row(m, prior.get(k), resolved.get(k), il.get(k), il_reg, prods.get(k), contacts.get(k), overrides.get(k), searched.get(k)))
     return rows
 
 
