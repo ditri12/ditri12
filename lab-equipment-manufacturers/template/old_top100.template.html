@@ -1,0 +1,454 @@
+<title>מאגר יצרני ציוד מעבדה</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Frank+Ruhl+Libre:wght@700;900&display=swap">
+<style>
+/* Layout: single column, RTL. Header band → presence chips (summary + filter) → toolbar → dense data table with expandable detail rows → methodology footer. */
+:root{
+  --bg:#f3f6f8; --surface:#ffffff; --surface-2:#e9eff3; --fg:#152028; --muted:#5a6a75; --line:#d3dde4;
+  --accent:#0b6f82; --accent-fg:#ffffff; --accent-soft:#dceef2;
+  --c-sub:#1d7a4a; --c-sub-soft:#dcf2e6;
+  --c-dist:#1f5fa6; --c-dist-soft:#e0ebf8;
+  --c-par:#5a49b3; --c-par-soft:#e8e4f6;
+  --c-none:#b1500c; --c-none-soft:#fbe8d6;
+  --c-unc:#66737d; --c-unc-soft:#e6ebee;
+  --c-pend:#8a6d1f; --c-pend-soft:#f7efd6;
+  --font-body:"Heebo",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --font-display:"Frank Ruhl Libre","Heebo",Georgia,serif;
+  --radius:6px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e161b; --surface:#162129; --surface-2:#1d2a33; --fg:#e4ecf0; --muted:#9db0bb; --line:#2a3a45;
+    --accent:#46bfd3; --accent-fg:#06252b; --accent-soft:#113840;
+    --c-sub:#5fd39a; --c-sub-soft:#133826;
+    --c-dist:#7fb3f0; --c-dist-soft:#16304d;
+    --c-par:#b3a5f2; --c-par-soft:#2a2450;
+    --c-none:#f2a25a; --c-none-soft:#45290f;
+    --c-unc:#a8b5bd; --c-unc-soft:#2a353c;
+    --c-pend:#e3c56a; --c-pend-soft:#3a3010;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e161b; --surface:#162129; --surface-2:#1d2a33; --fg:#e4ecf0; --muted:#9db0bb; --line:#2a3a45;
+  --accent:#46bfd3; --accent-fg:#06252b; --accent-soft:#113840;
+  --c-sub:#5fd39a; --c-sub-soft:#133826;
+  --c-dist:#7fb3f0; --c-dist-soft:#16304d;
+  --c-par:#b3a5f2; --c-par-soft:#2a2450;
+  --c-none:#f2a25a; --c-none-soft:#45290f;
+  --c-unc:#a8b5bd; --c-unc-soft:#2a353c;
+  --c-pend:#e3c56a; --c-pend-soft:#3a3010;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.5;direction:rtl}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0;max-width:1320px;margin:0 auto}
+.top{background:var(--surface);border-bottom:1px solid var(--line)}
+.top .wrap{padding-block:22px 18px;display:grid;gap:6px}
+.eyebrow{margin:0;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+h1{margin:0;font-family:var(--font-display);font-weight:900;font-size:clamp(26px,4vw,38px);line-height:1.15;text-wrap:balance}
+.lede{margin:0;max-width:68ch;color:var(--muted);font-size:15px}
+main.wrap{padding-block:18px 40px;display:grid;gap:14px}
+main.wrap>*{min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+.chip .n{font-variant-numeric:tabular-nums;font-weight:700}
+.chip .dot{width:9px;height:9px;border-radius:50%;background:var(--muted);display:inline-block}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.chip.p-sub .dot{background:var(--c-sub)} .chip.p-dist .dot{background:var(--c-dist)} .chip.p-par .dot{background:var(--c-par)} .chip.p-none .dot{background:var(--c-none)} .chip.p-unc .dot{background:var(--c-unc)} .chip.p-pend .dot{background:var(--c-pend)}
+.chip.vchip{margin-inline-start:auto;border-style:dashed}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.toolbar input[type="search"]{flex:1 1 260px;min-width:0}
+.toolbar input,.toolbar select{font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:7px 10px}
+.toolbar select{flex:0 1 auto;min-width:0;max-width:100%;text-overflow:ellipsis}
+.btn{font:inherit;font-size:13px;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:var(--radius);padding:7px 12px;cursor:pointer}
+.btn.primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.count{color:var(--muted);font-size:13px;margin-inline-start:auto;font-variant-numeric:tabular-nums}
+details.dist{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+details.dist summary{cursor:pointer;padding:9px 12px;font-weight:500;color:var(--fg)}
+details.dist summary::marker{color:var(--accent)}
+.dist-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:8px;padding:4px 12px 12px}
+.dist-grid button{font:inherit;text-align:start;background:var(--surface-2);color:var(--fg);border:1px solid var(--line);border-radius:var(--radius);padding:7px 10px;cursor:pointer;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.dist-grid button[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.dist-grid button .n{font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px;white-space:nowrap}
+.dist-grid button .t{min-width:0;overflow-wrap:anywhere}
+.table-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius)}
+table{border-collapse:collapse;width:100%;min-width:880px;table-layout:fixed}
+th.c-id{width:40px} th.c-name{width:20%} th.c-country{width:7%} th.c-cat{width:14%} th.c-emp{width:10%} th.c-rev{width:14%} th.c-pres{width:15%}
+tbody td{overflow-wrap:anywhere}
+thead th{position:sticky;top:0;background:var(--surface-2);color:var(--muted);font-weight:500;font-size:12px;text-align:start;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap;z-index:1}
+thead th[data-sort]{cursor:pointer;user-select:none}
+thead th[data-sort]:hover{color:var(--fg)}
+thead th .arrow{display:inline-block;width:1em;color:var(--accent)}
+tbody td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tbody tr.row{cursor:pointer}
+tbody tr.row:hover td{background:color-mix(in srgb,var(--accent-soft) 45%,transparent)}
+tbody tr.row[aria-expanded="true"] td{background:var(--accent-soft)}
+th.num{white-space:nowrap}
+td.num{font-variant-numeric:tabular-nums;white-space:normal}
+td.num .amt{white-space:nowrap;font-weight:500}
+td.num .yr{display:block;margin:0;white-space:normal;overflow-wrap:anywhere}
+td.num .tag{margin:2px 0 0;display:inline-block}
+td .name{font-weight:700;font-size:14px}
+td .sub{display:block;color:var(--muted);font-size:12px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;direction:ltr;unicode-bidi:isolate;text-align:right}
+td .sub.he{direction:rtl}
+td .yr{color:var(--muted);font-size:11px;margin-inline-start:4px;direction:ltr;unicode-bidi:isolate}
+.tag{display:inline-block;font-size:11px;border-radius:4px;padding:1px 6px;background:var(--surface-2);color:var(--muted);margin-inline-start:4px;vertical-align:middle}
+.badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:2px 9px;font-size:12px;font-weight:500;white-space:nowrap}
+.badge .dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:currentColor}
+.p-sub .badge,.badge.p-sub{background:var(--c-sub-soft);color:var(--c-sub)}
+.badge.p-dist{background:var(--c-dist-soft);color:var(--c-dist)}
+.badge.p-par{background:var(--c-par-soft);color:var(--c-par)}
+.badge.p-none{background:var(--c-none-soft);color:var(--c-none)}
+.badge.p-unc{background:var(--c-unc-soft);color:var(--c-unc)}
+.badge.p-pend{background:var(--c-pend-soft);color:var(--c-pend)}
+.vtag{display:block;font-size:11px;color:var(--muted);margin-top:3px}
+.vtag.warn{color:var(--c-pend)}
+td.ents{}
+td.ents .e{display:block;font-size:13px}
+td.ents .e small{color:var(--muted)}
+tr.detail td{background:var(--surface-2);padding:14px 16px 18px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.dgrid>div{min-width:0}
+.dgrid h3{margin:0 0 6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.dgrid ol,.dgrid ul{margin:0;padding-inline-start:18px}
+.dgrid li{margin-bottom:4px}
+.dgrid dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:3px 10px;font-size:13px}
+.dgrid dt{color:var(--muted)}
+.dgrid dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.ent-card{border:1px solid var(--line);background:var(--surface);border-radius:var(--radius);padding:8px 10px;margin-bottom:8px;font-size:13px}
+.ent-card .t{font-weight:700}
+.ent-card .k{color:var(--muted)}
+.ltr{direction:ltr;unicode-bidi:isolate;display:inline-block;user-select:all}
+.dgrid dd .k{color:var(--muted)}
+.note{font-size:13px;color:var(--fg);margin:6px 0 0;overflow-wrap:anywhere}
+.srcs{font-size:12px;overflow-wrap:anywhere}
+.srcs a{color:var(--accent)}
+.srcs li{margin-bottom:2px}
+a{color:var(--accent)}
+.empty{padding:26px;text-align:center;color:var(--muted)}
+footer.meth{color:var(--muted);font-size:12.5px;max-width:80ch;display:grid;gap:4px}
+footer.meth p{margin:0}
+.toast{position:fixed;bottom:calc(16px + env(safe-area-inset-bottom,0px));inset-inline-start:50%;transform:translateX(50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:999px;font-size:13px;z-index:5}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (max-width:760px){
+  .col-cat,.col-ent{display:none}
+  table{min-width:600px}
+  th.c-name{width:30%} th.c-country{width:12%} th.c-emp{width:16%} th.c-rev{width:18%} th.c-pres{width:auto}
+}
+@media (prefers-reduced-motion:no-preference){ .chip,.btn{transition:background .15s,border-color .15s} }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">__COUNT__ יצרנים · נאסף __GENERATED__</p>
+    <h1>מאגר יצרני ציוד מעבדה</h1>
+    <p class="lede">__COUNT__ יצרני ציוד ומכשור המעבדה המובילים בעולם: גודל החברה (עובדים והכנסות שנתיות), שלושת המוצרים המובילים, ומי מייצג או מוכר אותם בישראל. לחיצה על שורה פותחת את הפרטים והמקורות.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="chips" id="chips" aria-label="סינון לפי ייצוג בישראל"></section>
+
+  <section class="toolbar" aria-label="חיפוש וסינון">
+    <input id="q" type="search" placeholder="חיפוש: יצרן, מותג, מוצר, מפיץ ישראלי…" aria-label="חיפוש חופשי">
+    <select id="f-cat" aria-label="קטגוריה"><option value="">כל הקטגוריות</option></select>
+    <select id="f-country" aria-label="מדינה"><option value="">כל המדינות</option></select>
+    <select id="f-size" aria-label="גודל חברה">
+      <option value="">כל הגדלים</option>
+      <option value="xl">ענק: 10,000+ עובדים</option>
+      <option value="l">גדול: 1,000–9,999</option>
+      <option value="m">בינוני: 100–999</option>
+      <option value="s">קטן: עד 100</option>
+      <option value="na">לא ידוע</option>
+    </select>
+    <button class="btn" id="reset" type="button">נקה סינון</button>
+    <button class="btn" id="copy" type="button" title="מעתיק את הטבלה המסוננת כטקסט מופרד בטאבים (להדבקה באקסל)">העתק טבלה</button>
+    <span class="count" id="count"></span>
+  </section>
+
+  <details class="dist" id="dist">
+    <summary>מפיצים וגופים ישראליים במאגר (לחיצה על מפיץ מסננת את הטבלה)</summary>
+    <div class="dist-grid" id="dist-grid"></div>
+  </details>
+
+  <div class="table-wrap">
+    <table id="t">
+      <thead>
+        <tr>
+          <th data-sort="id" class="num c-id">#<span class="arrow"></span></th>
+          <th data-sort="name" class="c-name">יצרן<span class="arrow"></span></th>
+          <th data-sort="hq_country" class="c-country">מדינה<span class="arrow"></span></th>
+          <th data-sort="category" class="col-cat c-cat">קטגוריה<span class="arrow"></span></th>
+          <th data-sort="employees" class="num c-emp">עובדים<span class="arrow"></span></th>
+          <th data-sort="revenue_usd_m" class="num c-rev">הכנסות שנתיות<span class="arrow"></span></th>
+          <th data-sort="israel_presence" class="c-pres">ייצוג בישראל<span class="arrow"></span></th>
+          <th class="col-ent c-ent">נציגים / מפיצים בישראל</th>
+        </tr>
+      </thead>
+      <tbody id="tb"></tbody>
+    </table>
+    <div class="empty" id="empty" hidden>לא נמצאו יצרנים שמתאימים לסינון.</div>
+  </div>
+
+  <footer class="meth">
+    <p><strong>שיטה.</strong> הנתונים נאספו ב-__GENERATED__ מדוחות שנתיים, אתרי היצרנים, אתרי המפיצים הישראליים ועיתונות מקצועית. הכנסות הומרו לדולר לפי שערי 2025 מקורבים (אירו 1.10, ליש״ט 1.30, פר״ש 1.17, ין 0.0067, יואן 0.139). ליד נתון מופיע תיוג: <span class="tag">הערכה</span> = חברה פרטית ללא נתון רשמי; <span class="tag">חברת-אם</span> / <span class="tag">סגמנט</span> = הנתון של קבוצת-האם או של חטיבה, לא של המותג לבדו.</p>
+    <p><strong>סטטוס אימות.</strong> ״אומת ממקור״ = הערוץ הישראלי נראה במקור (אתר היצרן, אתר המפיץ, הודעה רשמית); ״חיפוש חלקי״ = רק חיפושי רשת, בלי פתיחת דפי ״מפיצים״ של היצרן; ״ידע קודם״ = ידוע ממקור קודם ולא אומת מקוון בסבב זה; ״טרם נבדק״ = ממתין לסבב המחקר הבא.</p>
+    <p><strong>עדכניות הייצוג.</strong> ״ראיה מ-2026״ = הקשר נראה בדף חי של היצרן או המפיץ בבדיקה האחרונה; שנה ישנה יותר = המקור האחרון שנמצא הוא מסמך מאותה שנה והקשר לא אומת מחדש. נציג המסומן ״כבר לא״ הוחלף לפי מקור עדכני יותר ונשמר לתיעוד.</p>
+    <p><strong>יצירת קשר.</strong> טלפונים, כתובות ודוא״ל נאספו מדפי ״צור קשר״ רשמיים ומאינדקסים כפי שהופיעו בתוצאות חיפוש; רק כתובות דוא״ל כלליות (info@ / sales@), לא של אנשים פרטיים. פרטים חסרים = לא נמצאו בחיפוש.</p>
+    <p><strong>ייצוג בישראל.</strong> ״לא נמצא ייצוג״ פירושו שלא נמצאה עדות פומבית לערוץ מכירה ישראלי, לא הוכחה שאין כזה. נציגויות מתחלפות לעיתים קרובות; לפני החלטה מסחרית יש לאמת מול היצרן.</p>
+  </footer>
+</main>
+
+<div class="toast" id="toast" hidden role="status"></div>
+
+<script id="data" type="application/json">__DATA_JSON__</script>
+<script>
+(function(){
+  var DATA = JSON.parse(document.getElementById('data').textContent);
+
+  var CAT_HE = {
+    "Diversified analytical & life-science instruments":"מכשור אנליטי ומדעי החיים (מגוון)",
+    "Analytical instruments (chromatography / mass spectrometry / spectroscopy)":"מכשור אנליטי (כרומטוגרפיה / מסות / ספקטרוסקופיה)",
+    "Elemental & materials analysis":"אנליזת יסודות וחומרים",
+    "Electron microscopy & X-ray / materials characterization":"מיקרוסקופיית אלקטרונים, קרני X ואפיון חומרים",
+    "Light microscopy & imaging":"מיקרוסקופיית אור ודימות",
+    "Life-science instruments & reagents":"מכשור וריאגנטים למדעי החיים",
+    "Genomics / sequencing":"גנומיקה / ריצוף",
+    "Cell analysis (flow cytometry / cell sorting)":"אנליזת תאים (פלואו-סיטומטריה / מיון תאים)",
+    "Liquid handling & lab automation":"טיפול בנוזלים ואוטומציית מעבדה",
+    "Lab balances & weighing":"מאזניים ושקילה",
+    "General lab equipment (incubators, ovens, baths, shakers, stirrers)":"ציוד מעבדה כללי (אינקובטורים, תנורים, אמבטים, בוחשים)",
+    "Centrifuges":"צנטריפוגות",
+    "Biosafety cabinets & clean-air equipment":"מנדפים ביולוגיים וציוד אוויר נקי",
+    "Lab refrigeration & cold storage":"קירור מעבדתי ואחסון קר",
+    "Labware & consumables (plastic & glass)":"כלי מעבדה ומתכלים (פלסטיק וזכוכית)",
+    "Clinical / IVD laboratory analyzers":"אנלייזרים למעבדות קליניות (IVD)",
+    "Bioprocess & filtration":"ביו-תהליכים וסינון",
+    "Water & electrochemical analysis":"אנליזת מים ואלקטרוכימיה",
+    "Thermal analysis & materials testing":"אנליזה תרמית ובדיקת חומרים",
+    "Lab furniture & fume hoods":"ריהוט מעבדה ומנדפים כימיים",
+    "Lab water purification":"טיהור מים למעבדה",
+    "Lab distribution & own-brand products":"הפצת ציוד מעבדה ומותגים עצמיים",
+    "Microplate readers & detection":"קוראי מיקרו-פלטות וגילוי"
+  };
+  var COUNTRY_HE = {"USA":"ארה״ב","Germany":"גרמניה","Japan":"יפן","Switzerland":"שווייץ","UK":"בריטניה","France":"צרפת","Austria":"אוסטריה","Netherlands":"הולנד","China":"סין","Singapore":"סינגפור","Sweden":"שוודיה","Italy":"איטליה","Poland":"פולין","Czech Republic":"צ׳כיה","Luxembourg":"לוקסמבורג","Denmark":"דנמרק","Belgium":"בלגיה","Spain":"ספרד","Canada":"קנדה","Australia":"אוסטרליה","Ireland":"אירלנד","Finland":"פינלנד","Norway":"נורווגיה","South Korea":"דרום קוריאה","India":"הודו","Israel":"ישראל","Hong Kong":"הונג קונג","Taiwan":"טייוואן"};
+  var PRES = {
+    subsidiary:{he:"חברה-בת בישראל",cls:"p-sub",order:0},
+    distributor:{he:"מפיץ ישראלי",cls:"p-dist",order:1},
+    parent_subsidiary:{he:"דרך חברת-האם בישראל",cls:"p-par",order:2},
+    unclear:{he:"לא ברור",cls:"p-unc",order:3},
+    none_found:{he:"לא נמצא ייצוג",cls:"p-none",order:4},
+    pending:{he:"טרם נבדק",cls:"p-pend",order:5}
+  };
+  var CHECK_HE = {verified:"אומת ממקור",partial:"חיפוש חלקי",unverified:"ידע קודם, לא אומת",pending:"טרם נבדק"};
+  var CUR_HE = {confirmed_current:"אומת 2025–26",older_evidence_only:"ראיה ישנה בלבד",changed:"השתנה",not_found:"לא נמצא"};
+  var ESTAT_HE = {current:"עדכני",older_evidence:"ראיה ישנה",no_longer:"כבר לא",new:"חדש"};
+  var ESCOPE_HE = {parent:"חברת-אם",estimate:"הערכה"};
+  var ETYPE_HE = {subsidiary:"חברה-בת",distributor:"מפיץ",service:"שירות"};
+  var CONF_HE = {high:"גבוהה",medium:"בינונית",low:"נמוכה"};
+  var SCOPE_HE = {company:"חברה",segment:"סגמנט",parent:"חברת-אם",estimate:"הערכה"};
+
+  function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c];}); }
+  function catHe(c){ return CAT_HE[c]||c; }
+  function countryHe(c){ return COUNTRY_HE[c]||c; }
+  function fmtInt(n){ return n==null?"—":Number(n).toLocaleString("en-US"); }
+  function fmtRev(v){
+    if(v==null) return "—";
+    if(v>=1000) return "$"+(v/1000).toFixed(v>=10000?0:1)+"B";
+    return "$"+Math.round(v)+"M";
+  }
+  function sizeBucket(r){
+    var e=r.employees; if(e==null) return "na";
+    if(e>=10000) return "xl"; if(e>=1000) return "l"; if(e>=100) return "m"; return "s";
+  }
+  function hay(r){
+    var parts=[r.name,r.aka,r.hq_city,r.hq_country,countryHe(r.hq_country),r.category,catHe(r.category),r.parent,r.ownership,r.israel_note,r.israel_presence,PRES[r.israel_presence].he,CHECK_HE[r.israel_check]||""];
+    r.top_products.forEach(function(p){parts.push(p.name,p.desc);});
+    r.israel_entities.forEach(function(e){parts.push(e.name,e.name_he,e.scope,e.phone,e.email,e.address);});
+    if(r.contact){parts.push(r.contact.phone,r.contact.email,r.contact.address);}
+    return parts.join(" ").toLowerCase();
+  }
+  DATA.forEach(function(r){ r._hay=hay(r); r._size=sizeBucket(r); });
+
+  var state={q:"",cat:"",country:"",size:"",presence:"",onlyVerified:false,entity:"",sortKey:"id",sortDir:1,open:{}};
+  try{ var saved=JSON.parse(localStorage.getItem("labmakers.filters")||"null"); if(saved){ ["q","cat","country","size","presence","onlyVerified","sortKey","sortDir"].forEach(function(k){ if(saved[k]!=null) state[k]=saved[k]; }); } }catch(e){}
+  function persist(){ try{ localStorage.setItem("labmakers.filters",JSON.stringify({q:state.q,cat:state.cat,country:state.country,size:state.size,presence:state.presence,onlyVerified:state.onlyVerified,sortKey:state.sortKey,sortDir:state.sortDir})); }catch(e){} }
+
+  var $=function(id){return document.getElementById(id);};
+  var qEl=$("q"), catEl=$("f-cat"), countryEl=$("f-country"), sizeEl=$("f-size"), tb=$("tb"), countEl=$("count"), emptyEl=$("empty"), chipsEl=$("chips");
+
+  // filter options
+  var cats={}, countries={};
+  DATA.forEach(function(r){ cats[r.category]=(cats[r.category]||0)+1; countries[r.hq_country]=(countries[r.hq_country]||0)+1; });
+  Object.keys(cats).sort(function(a,b){return catHe(a).localeCompare(catHe(b),"he");}).forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=catHe(c)+" ("+cats[c]+")"; catEl.appendChild(o); });
+  Object.keys(countries).sort(function(a,b){return countries[b]-countries[a];}).forEach(function(c){ var o=document.createElement("option"); o.value=c; o.textContent=countryHe(c)+" ("+countries[c]+")"; countryEl.appendChild(o); });
+  qEl.value=state.q; catEl.value=state.cat; countryEl.value=state.country; sizeEl.value=state.size;
+
+  function entShort(e){ return (e.name||"").replace(/\s*\([^)]*\)/g,"").trim(); }
+  function entKey(e){ var t=entShort(e).toLowerCase().split(/[\s,\/]+/).filter(Boolean); while(t.length&&(t[0]==="dr."||t[0]==="dr"||t[0]==="the"||t[0]==="y.a."||t[0]==="s.l."||t[0]==="uri"||(t[0].length<=4&&t[0].indexOf(".")>=0))) t.shift(); return t.length?t[0].replace(/\.$/,""):""; }
+  var ENT_INDEX={};
+  DATA.forEach(function(r){ r.israel_entities.forEach(function(e){ var k=entKey(e); if(!k) return; var d=ENT_INDEX[k]||(ENT_INDEX[k]={key:k,name:entShort(e),he:e.name_he||"",ids:{}}); var sh=entShort(e); if(sh.length<d.name.length) d.name=sh; if(!d.he&&e.name_he) d.he=e.name_he; d.ids[r.id]=1; }); });
+  function renderDist(){
+    var list=Object.keys(ENT_INDEX).map(function(k){var d=ENT_INDEX[k]; d.n=Object.keys(d.ids).length; return d;}).sort(function(a,b){return b.n-a.n||a.name.localeCompare(b.name);});
+    $("dist-grid").innerHTML=list.map(function(d){ return '<button type="button" data-e="'+esc(d.key)+'" aria-pressed="'+(state.entity===d.key?"true":"false")+'"><span class="t">'+esc(d.name)+(d.he?' <small>('+esc(d.he)+')</small>':'')+'</span><span class="n">'+d.n+' יצרנים</span></button>'; }).join("");
+  }
+  $("dist-grid").addEventListener("click",function(ev){ var b=ev.target.closest("button[data-e]"); if(!b) return; state.entity=(state.entity===b.dataset.e)?"":b.dataset.e; renderDist(); render(); });
+
+  // chips (counts over the whole dataset)
+  function renderChips(){
+    var html='<button type="button" class="chip" data-p="" aria-pressed="'+(state.presence===""?"true":"false")+'">כל היצרנים <span class="n">'+DATA.length+'</span></button>';
+    Object.keys(PRES).sort(function(a,b){return PRES[a].order-PRES[b].order;}).forEach(function(k){
+      var n=DATA.filter(function(r){return r.israel_presence===k;}).length;
+      html+='<button type="button" class="chip '+PRES[k].cls+'" data-p="'+k+'" aria-pressed="'+(state.presence===k?"true":"false")+'"><span class="dot"></span>'+esc(PRES[k].he)+' <span class="n">'+n+'</span></button>';
+    });
+    var nv=DATA.filter(function(r){return r.israel_check==="verified";}).length;
+    html+='<button type="button" class="chip vchip" data-v="1" aria-pressed="'+(state.onlyVerified?"true":"false")+'" title="הצג רק יצרנים שהייצוג שלהם בישראל אומת מול מקור">רק מאומתים <span class="n">'+nv+'</span></button>';
+    chipsEl.innerHTML=html;
+  }
+  chipsEl.addEventListener("click",function(ev){ var b=ev.target.closest(".chip"); if(!b) return; if(b.dataset.v){ state.onlyVerified=!state.onlyVerified; } else { state.presence=(state.presence===b.dataset.p)?"":b.dataset.p; } renderChips(); render(); });
+
+  function filtered(){
+    var q=state.q.trim().toLowerCase();
+    return DATA.filter(function(r){
+      if(q && r._hay.indexOf(q)<0) return false;
+      if(state.cat && r.category!==state.cat) return false;
+      if(state.country && r.hq_country!==state.country) return false;
+      if(state.size && r._size!==state.size) return false;
+      if(state.presence && r.israel_presence!==state.presence) return false;
+      if(state.onlyVerified && r.israel_check!=="verified") return false;
+      if(state.entity && !r.israel_entities.some(function(e){return entKey(e)===state.entity;})) return false;
+      return true;
+    });
+  }
+  function sortRows(rows){
+    var k=state.sortKey, d=state.sortDir;
+    rows.sort(function(a,b){
+      var va, vb;
+      if(k==="israel_presence"){ va=PRES[a.israel_presence].order; vb=PRES[b.israel_presence].order; }
+      else if(k==="hq_country"){ va=countryHe(a.hq_country); vb=countryHe(b.hq_country); }
+      else if(k==="category"){ va=catHe(a.category); vb=catHe(b.category); }
+      else { va=a[k]; vb=b[k]; }
+      var na=(va==null||va===""), nb=(vb==null||vb==="");
+      if(na&&nb) return a.id-b.id; if(na) return 1; if(nb) return -1;
+      if(typeof va==="number"&&typeof vb==="number") return (va-vb)*d;
+      return String(va).localeCompare(String(vb),"he")*d;
+    });
+    return rows;
+  }
+
+  function shortParent(p){ return String(p).split(/[;(]/)[0].trim(); }
+  function shortYear(y){ var s=String(y); s=s.replace(/\s*\((?:ended|ending)\s+/i,' (').replace(/\s*\(estimate\)/i,'').replace(/undated.*$/i,'לא מתוארך').replace(/^n\/a.*$/i,'לא מתוארך'); return s.length>22?s.slice(0,22)+'…':s; }
+  function sizeTags(r){
+    var t="";
+    if(r.size_basis==="estimate"||r.revenue_scope==="estimate") t+='<span class="tag">הערכה</span>';
+    if(r.revenue_scope==="parent") t+='<span class="tag">חברת-אם</span>';
+    if(r.revenue_scope==="segment") t+='<span class="tag">סגמנט</span>';
+    return t;
+  }
+  function entCell(r){
+    if(!r.israel_entities.length) return '<span class="sub">—</span>';
+    var shown=r.israel_entities.slice(0,3).map(function(e){
+      var label=e.name_he||e.name;
+      return '<span class="e"'+(e.status==="no_longer"?' style="text-decoration:line-through;color:var(--muted)"':'')+'>'+esc(label)+' <small>· '+esc(ETYPE_HE[e.type]||e.type)+(e.status==="no_longer"?' · כבר לא':'')+'</small></span>';
+    }).join("");
+    if(r.israel_entities.length>3) shown+='<span class="e"><small>+'+(r.israel_entities.length-3)+' נוספים (לחצו לפרטים)</small></span>';
+    return shown;
+  }
+  function rowHtml(r){
+    var p=PRES[r.israel_presence];
+    var open=!!state.open[r.id];
+    return '<tr class="row" data-id="'+r.id+'" aria-expanded="'+open+'" tabindex="0">'+
+      '<td class="num">'+r.id+'</td>'+
+      '<td><span class="name">'+esc(r.name)+'</span>'+(r.aka?'<span class="sub" title="'+esc(r.aka)+'">'+esc(r.aka)+'</span>':'')+(r.parent?'<span class="sub he" title="'+esc(r.parent)+'">חלק מ-'+esc(shortParent(r.parent))+'</span>':'')+'</td>'+
+      '<td>'+esc(countryHe(r.hq_country))+'</td>'+
+      '<td class="col-cat">'+esc(catHe(r.category))+'</td>'+
+      '<td class="num"><span class="amt">'+fmtInt(r.employees)+'</span>'+(r.employees_year?'<span class="yr">'+r.employees_year+'</span>':'')+(ESCOPE_HE[r.employees_scope]?'<span class="tag">'+ESCOPE_HE[r.employees_scope]+'</span>':'')+'</td>'+
+      '<td class="num"><span class="amt">'+fmtRev(r.revenue_usd_m)+'</span>'+(r.revenue_year?'<span class="yr">'+esc(shortYear(r.revenue_year))+'</span>':'')+sizeTags(r)+'</td>'+
+      '<td><span class="badge '+p.cls+'"><span class="dot"></span>'+esc(p.he)+'</span>'+(r.israel_check!=="verified"?'<span class="vtag'+(r.israel_check==="pending"?" warn":"")+'">'+esc(CHECK_HE[r.israel_check]||r.israel_check)+'</span>':'')+(r.israel_evidence_year?'<span class="vtag'+(r.israel_evidence_year<2024?" warn":"")+'">ראיה מ-'+r.israel_evidence_year+(CUR_HE[r.israel_current]?' · '+CUR_HE[r.israel_current]:'')+'</span>':'')+'</td>'+
+      '<td class="ents col-ent">'+entCell(r)+'</td>'+
+    '</tr>'+(open?detailHtml(r):"");
+  }
+  function detailHtml(r){
+    var prods='<ol>'+r.top_products.map(function(p){return '<li><strong>'+esc(p.name)+'</strong> — '+esc(p.desc)+'</li>';}).join("")+'</ol>';
+    var ents=r.israel_entities.length?r.israel_entities.map(function(e){
+      return '<div class="ent-card"><div class="t">'+esc(e.name)+(e.name_he?' <span class="k">('+esc(e.name_he)+')</span>':'')+' <span class="tag">'+esc(ETYPE_HE[e.type]||e.type)+'</span>'+(e.evidence_year?' <span class="tag">'+(ESTAT_HE[e.status]?esc(ESTAT_HE[e.status])+' · ':'')+'ראיה '+e.evidence_year+'</span>':(e.status&&ESTAT_HE[e.status]?' <span class="tag">'+esc(ESTAT_HE[e.status])+'</span>':''))+'</div>'+
+        (e.scope?'<div><span class="k">תחום:</span> '+esc(e.scope)+'</div>':'')+
+        (e.website?'<div><span class="k">אתר:</span> <a href="'+esc(e.website)+'" target="_blank" rel="noopener">'+esc(e.website.replace(/^https?:\/\//,""))+'</a></div>':'')+
+        (e.phone?'<div><span class="k">טלפון:</span> <span class="ltr">'+esc(e.phone)+'</span></div>':'')+
+        (e.email?'<div><span class="k">דוא״ל:</span> <span class="ltr">'+esc(e.email)+'</span></div>':'')+
+        (e.address?'<div><span class="k">כתובת:</span> '+esc(e.address)+'</div>':'')+
+        (e.contact_url?'<div><span class="k">צור קשר:</span> <a href="'+esc(e.contact_url)+'" target="_blank" rel="noopener">'+esc(e.contact_url.replace(/^https?:\/\//,"").slice(0,60))+'</a></div>':'')+
+        (e.source?'<div><span class="k">מקור:</span> <a href="'+esc(e.source)+'" target="_blank" rel="noopener">'+esc(e.source.replace(/^https?:\/\//,"").slice(0,70))+'</a></div>':'')+
+      '</div>';
+    }).join(""):'<p class="note">לא נמצא גוף ישראלי שמייצג את היצרן.</p>';
+    var p=PRES[r.israel_presence];
+    var size='<dl>'+
+      '<dt>עובדים</dt><dd>'+fmtInt(r.employees)+(r.employees_year?' ('+r.employees_year+')':'')+(ESCOPE_HE[r.employees_scope]?' <span class="tag">'+ESCOPE_HE[r.employees_scope]+'</span>':'')+(r.employees_note?' <span class="k">— '+esc(r.employees_note)+'</span>':'')+'</dd>'+
+      '<dt>הכנסות</dt><dd>'+esc(r.revenue_original||"—")+(r.revenue_year?' ('+esc(r.revenue_year)+')':'')+(r.revenue_usd_m!=null?' ≈ '+fmtRev(r.revenue_usd_m):'')+' <span class="tag">'+esc(SCOPE_HE[r.revenue_scope]||r.revenue_scope)+'</span>'+(r.revenue_note?'<br><span class="k">'+esc(r.revenue_note)+'</span>':'')+'</dd>'+
+      '<dt>בעלות</dt><dd>'+esc(r.ownership||"—")+'</dd>'+
+      '<dt>מטה</dt><dd>'+esc(r.hq_city)+', '+esc(countryHe(r.hq_country))+(r.founded?' · נוסדה '+r.founded:'')+'</dd>'+
+      (r.website?'<dt>אתר</dt><dd><a href="'+esc(r.website)+'" target="_blank" rel="noopener">'+esc(r.website.replace(/^https?:\/\//,"").replace(/\/$/,""))+'</a></dd>':'')+
+      contactDl(r)+
+      '<dt>ודאות</dt><dd>'+esc(CONF_HE[r.confidence]||r.confidence)+(r.confidence_note?' <span class="k">— '+esc(r.confidence_note)+'</span>':'')+'</dd>'+
+    '</dl>';
+    var srcs=r.sources.length?'<ul class="srcs">'+r.sources.map(function(u){return '<li><a href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(u.replace(/^https?:\/\//,"").slice(0,90))+'</a></li>';}).join("")+'</ul>':'';
+    return '<tr class="detail"><td colspan="8"><div class="dgrid">'+
+      '<div><h3>3 מוצרים מובילים</h3>'+prods+'</div>'+
+      '<div><h3>ייצוג בישראל · <span class="badge '+p.cls+'"><span class="dot"></span>'+esc(p.he)+'</span> <span class="tag">אימות: '+esc(CHECK_HE[r.israel_check]||r.israel_check)+'</span></h3>'+ents+(r.israel_note?'<p class="note">'+esc(r.israel_note)+'</p>':'')+'</div>'+
+      '<div><h3>גודל, בעלות ומקורות</h3>'+size+(srcs?'<h3 style="margin-top:10px">מקורות</h3>'+srcs:'')+'</div>'+
+    '</div></td></tr>';
+  }
+
+  function contactDl(r){
+    var c=r.contact||{}; if(!(c.phone||c.email||c.address||c.contact_url)) return '';
+    return '<dt>יצירת קשר'+(c.note?' <span class="tag">'+esc(c.note)+'</span>':'')+'</dt><dd>'+
+      (c.phone?'<div><span class="k">טלפון:</span> <span class="ltr">'+esc(c.phone)+'</span></div>':'')+
+      (c.email?'<div><span class="k">דוא״ל:</span> <span class="ltr">'+esc(c.email)+'</span></div>':'')+
+      (c.address?'<div><span class="k">כתובת:</span> '+esc(c.address)+'</div>':'')+
+      (c.contact_url?'<div><span class="k">דף צור-קשר:</span> <a href="'+esc(c.contact_url)+'" target="_blank" rel="noopener">'+esc(c.contact_url.replace(/^https?:\/\//,"").slice(0,60))+'</a></div>':'')+
+    '</dd>';
+  }
+  var lastRows=[];
+  function render(){
+    var rows=sortRows(filtered());
+    lastRows=rows;
+    tb.innerHTML=rows.map(rowHtml).join("");
+    emptyEl.hidden=rows.length>0;
+    countEl.textContent="מציג "+rows.length+" מתוך "+DATA.length+(state.entity&&ENT_INDEX[state.entity]?" · "+ENT_INDEX[state.entity].name:"");
+    document.querySelectorAll("thead th[data-sort]").forEach(function(th){ var a=th.querySelector(".arrow"); a.textContent=(th.dataset.sort===state.sortKey)?(state.sortDir===1?" ▲":" ▼"):""; });
+    persist();
+  }
+
+  tb.addEventListener("click",function(ev){ if(ev.target.closest("a")) return; var tr=ev.target.closest("tr.row"); if(!tr) return; toggle(+tr.dataset.id); });
+  tb.addEventListener("keydown",function(ev){ if(ev.key!=="Enter"&&ev.key!==" ") return; var tr=ev.target.closest("tr.row"); if(!tr) return; ev.preventDefault(); toggle(+tr.dataset.id); });
+  function toggle(id){ if(state.open[id]) delete state.open[id]; else state.open[id]=true; render(); var tr=tb.querySelector('tr.row[data-id="'+id+'"]'); if(tr) tr.focus({preventScroll:true}); }
+
+  document.querySelectorAll("thead th[data-sort]").forEach(function(th){ th.addEventListener("click",function(){ var k=th.dataset.sort; if(state.sortKey===k) state.sortDir=-state.sortDir; else { state.sortKey=k; state.sortDir=(k==="employees"||k==="revenue_usd_m")?-1:1; } render(); }); });
+  qEl.addEventListener("input",function(){ state.q=qEl.value; render(); });
+  catEl.addEventListener("change",function(){ state.cat=catEl.value; render(); });
+  countryEl.addEventListener("change",function(){ state.country=countryEl.value; render(); });
+  sizeEl.addEventListener("change",function(){ state.size=sizeEl.value; render(); });
+  $("reset").addEventListener("click",function(){ state.q=state.cat=state.country=state.size=state.presence=state.entity=""; state.onlyVerified=false; state.sortKey="id"; state.sortDir=1; qEl.value=""; catEl.value=""; countryEl.value=""; sizeEl.value=""; renderChips(); renderDist(); render(); });
+
+  function toast(msg){ var t=$("toast"); t.textContent=msg; t.hidden=false; clearTimeout(toast._t); toast._t=setTimeout(function(){t.hidden=true;},2200); }
+  $("copy").addEventListener("click",function(){
+    var head=["#","יצרן","מותגים","מדינה","קטגוריה","עובדים","שנת עובדים","הכנסות (מקור)","הכנסות מיליוני $","שנת כספים","מוצר 1","מוצר 2","מוצר 3","ייצוג בישראל","סטטוס אימות","נציגים בישראל","טלפון יצרן","דוא״ל יצרן","כתובת יצרן","ודאות"];
+    var lines=[head.join("\t")].concat(lastRows.map(function(r){
+      var ents=r.israel_entities.map(function(e){return e.name+(e.name_he?" ("+e.name_he+")":"")+" ["+(ETYPE_HE[e.type]||e.type)+(e.scope?"; "+e.scope:"")+([e.phone,e.email,e.address].filter(Boolean).length?"; "+[e.phone,e.email,e.address].filter(Boolean).join(", "):"")+"]";}).join(" | ");
+      var c=r.contact||{};
+      var cells=[r.id,r.name,r.aka,countryHe(r.hq_country),catHe(r.category),r.employees==null?"":r.employees,r.employees_year||"",r.revenue_original||"",r.revenue_usd_m==null?"":r.revenue_usd_m,r.revenue_year||"",r.top_products[0].name+" — "+r.top_products[0].desc,r.top_products[1].name+" — "+r.top_products[1].desc,r.top_products[2].name+" — "+r.top_products[2].desc,PRES[r.israel_presence].he,CHECK_HE[r.israel_check]||r.israel_check,ents,c.phone||"",c.email||"",c.address||"",CONF_HE[r.confidence]||r.confidence];
+      return cells.map(function(c){return String(c==null?"":c).replace(/[\t\n\r]+/g," ");}).join("\t");
+    }));
+    var text=lines.join("\n");
+    function fallback(){ var ta=document.createElement("textarea"); ta.value=text; ta.setAttribute("readonly",""); ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta); ta.select(); var ok=false; try{ ok=document.execCommand("copy"); }catch(e){} document.body.removeChild(ta); toast(ok?"הטבלה הועתקה ("+lastRows.length+" שורות)":"ההעתקה נחסמה — סמנו את הטבלה והעתיקו ידנית"); }
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(function(){toast("הטבלה הועתקה ("+lastRows.length+" שורות)");},fallback); } else fallback();
+  });
+
+  renderChips();
+  renderDist();
+  render();
+})();
+</script>

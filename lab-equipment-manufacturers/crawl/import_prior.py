@@ -221,11 +221,11 @@ def main():
             continue
         matched_old += 1
         rec = {
-            "old_id": r.get("id"), "old_name": name, "country": r.get("country"), "category": r.get("category"),
-            "website": r.get("website"), "hq": r.get("hq"), "parent": r.get("parent"),
+            "old_id": r.get("id"), "old_name": name, "aka": r.get("aka"), "country": r.get("hq_country") or r.get("country"), "category": r.get("category"),
+            "website": r.get("website"), "hq": r.get("hq_city") or r.get("hq"), "parent": r.get("parent"), "ownership": r.get("ownership"), "founded": r.get("founded"),
             "employees": r.get("employees"), "employees_year": r.get("employees_year"), "employees_scope": r.get("employees_scope"), "employees_note": r.get("employees_note"),
-            "revenue": r.get("revenue"), "revenue_currency": r.get("revenue_currency"), "revenue_year": r.get("revenue_year"), "revenue_scope": r.get("revenue_scope"), "revenue_note": r.get("revenue_note"),
-            "size_basis": r.get("size_basis"), "products": r.get("products"),
+            "revenue_usd_m": r.get("revenue_usd_m"), "revenue_original": r.get("revenue_original"), "revenue_year": r.get("revenue_year"), "revenue_scope": r.get("revenue_scope"), "revenue_note": r.get("revenue_note"),
+            "size_basis": r.get("size_basis"), "products": r.get("top_products") or r.get("products"), "confidence": r.get("confidence"),
             "israel_presence": r.get("israel_presence"), "israel_entities": r.get("israel_entities"), "israel_note": r.get("israel_note"),
             "israel_check": r.get("israel_check"), "israel_evidence_year": r.get("israel_evidence_year"), "israel_current": r.get("israel_current"),
             "contact": r.get("contact"), "sources": r.get("sources"), "verified_at": old.get("generated"),
