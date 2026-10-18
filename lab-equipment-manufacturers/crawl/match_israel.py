@@ -56,6 +56,8 @@ def main():
     master = json.load(open(MASTER, encoding="utf-8"))
     index = {e["id"]: e for e in json.load(open(os.path.join(SRC, "index.json"), encoding="utf-8"))}
     seed = {s["key"]: s for s in json.load(open(SEED, encoding="utf-8"))} if os.path.exists(SEED) else {}
+    names_he_path = os.path.join(ROOT, "research", "israel", "distributor_names_he.json")
+    names_he = json.load(open(names_he_path, encoding="utf-8")) if os.path.exists(names_he_path) else {}
     # group pages by distributor (root id = part before '__')
     pages = defaultdict(list)
     for pid, e in index.items():
@@ -89,7 +91,7 @@ def main():
         key = site.split(".")[0]
         sd = seed.get(key) or next((s for k, s in seed.items() if site and (site.split(".")[0] in (s.get("website") or ""))), {})
         registry[root] = {"id": root, "site": site, "name": sd.get("name") or (home.get("title") or site).split("|")[0].split(" - ")[0].strip()[:80],
-                          "name_he": sd.get("name_he"), "website": sd.get("website") or home.get("url"),
+                          "name_he": sd.get("name_he") or names_he.get(site), "website": sd.get("website") or home.get("url"),
                           "phone": sd.get("phone") or (phones[0] if phones else None), "email": sd.get("email") or (emails[0] if emails else None),
                           "address": sd.get("address"), "contact_url": sd.get("contact_url"), "note": sd.get("note"),
                           "phones_found": phones, "emails_found": emails,

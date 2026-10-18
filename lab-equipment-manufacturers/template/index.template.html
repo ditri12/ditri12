@@ -2,17 +2,18 @@
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ספקי ציוד מעבדה</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="מאגר ספקי ציוד מעבדה המופיעים בקטלוגים של Dutscher, Thomas Scientific ו-Quartzy: ייצוג בישראל, גודל, מוצרים ואנשי קשר">
 <style>
 :root{--bg:#f6f7f9;--card:#fff;--ink:#1b1f24;--muted:#5b6672;--line:#e3e6ea;--accent:#1f4e78;--accent-ink:#fff;--chip:#eef2f6;--ok:#1d7a46;--warn:#9a6b00;--bad:#9b2c2c;--info:#35557a;--soft:#f1f4f8;--shadow:0 1px 2px rgba(0,0,0,.06)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f1317;--card:#171c22;--ink:#e6e9ed;--muted:#9aa6b2;--line:#2a323b;--accent:#8ab4e8;--accent-ink:#0f1317;--chip:#222a33;--ok:#5fcf8a;--warn:#e0b45c;--bad:#f08a8a;--info:#9cc3f0;--soft:#1d242c;--shadow:none}}
-:root[data-theme="dark"]{--bg:#0f1317;--card:#171c22;--ink:#e6e9ed;--muted:#9aa6b2;--line:#2a323b;--accent:#8ab4e8;--accent-ink:#0f1317;--chip:#222a33;--ok:#5fcf8a;--warn:#e0b45c;--bad:#f08a8a;--info:#9cc3f0;--soft:#1d242c;--shadow:none}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0f1317;--card:#171c22;--ink:#e6e9ed;--muted:#9aa6b2;--line:#2a323b;--accent:#8ab4e8;--accent-ink:#0f1317;--chip:#222a33;--ok:#5fcf8a;--warn:#e0b45c;--bad:#f08a8a;--info:#9cc3f0;--soft:#1d242c;--shadow:none;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1317;--card:#171c22;--ink:#e6e9ed;--muted:#9aa6b2;--line:#2a323b;--accent:#8ab4e8;--accent-ink:#0f1317;--chip:#222a33;--ok:#5fcf8a;--warn:#e0b45c;--bad:#f08a8a;--info:#9cc3f0;--soft:#1d242c;--shadow:none;color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Arial,"Noto Sans Hebrew",sans-serif}
 a{color:var(--accent)}
-main.wrap{max-width:1500px;margin:0 auto;padding:16px}
+main.wrap{max-width:1500px;margin:0 auto;padding-block:16px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 main.wrap>*{min-width:0}
 header h1{font-size:22px;margin:0 0 4px}
 header p{margin:0;color:var(--muted)}
@@ -26,6 +27,8 @@ header p{margin:0;color:var(--muted)}
 .toolbar input[type=search]{flex:1 1 220px;min-width:0}
 .toolbar label.cb{display:flex;gap:4px;align-items:center;color:var(--muted);font-size:13px}
 .toolbar button{font:inherit;padding:7px 11px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);cursor:pointer}
+.toolbar button:focus-visible,.chip:focus-visible,.toolbar input:focus-visible,.toolbar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
 .chip{border:1px solid var(--line);background:var(--chip);border-radius:999px;padding:4px 10px;font-size:13px;cursor:pointer;user-select:none}
 .chip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
@@ -202,7 +205,7 @@ $('#size').addEventListener('change',e=>{state.size=e.target.value;render()});
 $('#verified').addEventListener('change',e=>{state.verified=e.target.checked;render()});
 $('#reset').addEventListener('click',()=>{state.q='';state.catalog='';state.country='';state.size='';state.verified=false;state.pres.clear();state.shown=300;$('#q').value='';$('#catalog').value='';$('#country').value='';$('#size').value='';$('#verified').checked=false;document.querySelectorAll('.chip.on').forEach(c=>c.classList.remove('on'));render()});
 $('#more').addEventListener('click',()=>{state.shown+=300;render()});
-$('#copy').addEventListener('click',()=>{const h=['#','ספק','קטלוגים','אתר','מדינה','חברת-אם','עובדים','שנה','הכנסות $M','שנה','ייצוג בישראל','בדיקה','נציגים','מוצרים','טלפון','דוא"ל'];const lines=[h.join('\t')].concat(filtered.map(r=>[r.id,r.name,Object.keys(CATS).filter(c=>r.catalogs[c]).map(c=>CATS[c].short).join('+'),r.website||'',r.country_he||'',r.parent||'',empOf(r)??'',r.employees?r.employees.year||'':'',revOf(r)??'',r.revenue?r.revenue.year||'':'',PRES[r.israel_presence],CHECK[r.israel_check],(r.israel_entities||[]).map(e=>e.name).join('; '),(r.products||[]).map(p=>p.name).join('; '),(r.contact||{}).phone||'',(r.contact||{}).email||''].map(v=>String(v).replace(/\t|\n/g,' ')).join('\t')));navigator.clipboard.writeText(lines.join('\n')).then(()=>{$('#copy').textContent='הועתק ✓';setTimeout(()=>$('#copy').textContent='העתק TSV',1500)})});
+$('#copy').addEventListener('click',()=>{const h=['#','ספק','קטלוגים','אתר','מדינה','חברת-אם','עובדים','שנה','הכנסות $M','שנה','ייצוג בישראל','בדיקה','נציגים','מוצרים','טלפון','דוא"ל'];const lines=[h.join('\t')].concat(filtered.map(r=>[r.id,r.name,Object.keys(CATS).filter(c=>r.catalogs[c]).map(c=>CATS[c].short).join('+'),r.website||'',r.country_he||'',r.parent||'',empOf(r)??'',r.employees?r.employees.year||'':'',revOf(r)??'',r.revenue?r.revenue.year||'':'',PRES[r.israel_presence],CHECK[r.israel_check],(r.israel_entities||[]).map(e=>e.name).join('; '),(r.products||[]).map(p=>p.name).join('; '),(r.contact||{}).phone||'',(r.contact||{}).email||''].map(v=>String(v).replace(/\t|\n/g,' ')).join('\t')));const txt=lines.join('\n');const done=()=>{$('#copy').textContent='הועתק ✓';setTimeout(()=>$('#copy').textContent='העתק TSV',1500)};const fallback=()=>{const ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(e){}document.body.removeChild(ta)};try{navigator.clipboard.writeText(txt).then(done).catch(fallback)}catch(e){fallback()}});
 $('#foot').innerHTML=`<h3>מתודולוגיה</h3>
 <p><b>אוכלוסייה.</b> כל הספקים/המותגים המופיעים בדפי הספקים של Dutscher (brands), Thomas Scientific (browse-by/suppliers) ו-Quartzy (suppliers, new-suppliers) נכון ל-${DATA.generated}. שמות זהים בקטלוגים שונים אוחדו לרשומה אחת (נרמול שמות: סיומות תאגידיות, סימני רישום).</p>
 <p><b>ייצוג בישראל.</b> "מפיץ/נציג" מסומן כאשר שם הספק מופיע בדפי המותגים/הספקים של מפיץ ישראלי שנסרקו (${(DATA.israeli_entities_index||[]).length} גופים ישראליים במאגר), או כאשר אומת במחקר הקודם מול אתר היצרן. "לא נמצא בסריקת המפיצים" פירושו שהשם לא נמצא באתרי המפיצים שנסרקו – לא הוכחה להיעדר ייצוג. "ראיה מ-שנה" מציין את שנת העדות העדכנית ביותר.</p>
