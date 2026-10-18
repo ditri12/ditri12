@@ -3427,15 +3427,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Y.A. Almog Diagnostic & Medical Equipment Ltd.",
+     "name_he": "י.א. אלמוג",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.almog.co.il",
+     "phone": "+972 3-977-3390",
+     "email": "info@almog.co.il",
+     "address": "Shoham",
+     "contact_url": null,
+     "source": "https://www.almog.co.il/Suppliers.aspx",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "The page is headed 'Suppliers' and lists firms such as Active Motif, Alpco, and Santa Cruz, each tagged with its special"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "877 222 9543",
     "email": null,
@@ -3446,7 +3464,8 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.activemotif.com/contact-us"
+    "https://www.activemotif.com/contact-us",
+    "https://www.almog.co.il/Suppliers.aspx"
    ],
    "category": null,
    "category_source": null,
@@ -4893,6 +4912,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "Dr. Uri Golik Chemical Instrumentation",
+     "name_he": "ד\"ר גוליק",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.golik.co.il",
+     "phone": "+972-3-518-7555",
+     "email": "marketing@golik.co.il",
+     "address": "34 Kibbutz Galuyot St, Tel Aviv 66550",
+     "contact_url": null,
+     "source": "https://www.golik.co.il/manufacturers/agilent-",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Manufacturer page: Agilent's catalog includes ICP-MS and ICP-OES spectrometers (the Agilent 7900 ICP-MS); brands page: I"
+    },
+    {
      "name": "Lumitron Ltd.",
      "name_he": "לומיטרון",
      "type": "distributor",
@@ -4948,7 +4984,8 @@
     "https://www.sec.gov/Archives/edgar/data/1090872/000109087225000087/a-20251031.htm",
     "https://www.businesswire.com/news/home/20251124941358/en/Agilent-Reports-Fourth-Quarter-Fiscal-Year-2025-Financial-Results",
     "https://www.lumitron.co.il/",
-    "https://www.isil.co.il/Vacuum-and-Technology-Partners"
+    "https://www.isil.co.il/Vacuum-and-Technology-Partners",
+    "https://www.golik.co.il/manufacturers/agilent-"
    ],
    "category": "מתכלים וציוד קטן",
    "category_source": "catalog_facet",
@@ -11305,15 +11342,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "דף הבית",
+     "name_he": "אילקס מדיקל",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Page names ARKRAY (global brand); list entry is the US entity name",
+     "website": "https://www.ilexmedical.com/",
+     "phone": "03-938-5501",
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.ilexmedical.com/catalog_products/%D7%A8%D7%A4%D7%95%D7%90%D7%AA-%D7%A1%D7%A4%D7%95%D7%A8%D7%98/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Its product pages describe offerings from manufacturers such as ARKRAY, which supplies its blood lactate meter for sport"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -11323,7 +11378,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/arkray-usa-inc-"
+    "https://www.thomassci.com/browse-by/suppliers/arkray-usa-inc-",
+    "https://www.ilexmedical.com/catalog_products/%D7%A8%D7%A4%D7%95%D7%90%D7%AA-%D7%A1%D7%A4%D7%95%D7%A8%D7%98/"
    ],
    "category": "בטיחות וציוד מגן",
    "category_source": "keyword_guess",
@@ -12610,15 +12666,33 @@
    "applications": [
     "Food physico-chemical testing"
    ],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Medent Scientific Instruments (Medent Group)",
+     "name_he": "מדנט",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.medent.co.il",
+     "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+     "email": "info@medent.co.il",
+     "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+     "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+     "source": "https://www.medent.co.il/en/project/atago-japan/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Medent 'Our Partners' page: ATAGO manufactures digital benchtop refractometers, ABBE refractometers, digital and analog "
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "No Israeli distributor in results; only ATAGO U.S.A. (subsidiary, Bellevue WA), Avantor/VWR listings and Indian resellers.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -12630,7 +12704,8 @@
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Atago",
     "https://www.thomassci.com/browse-by/suppliers/atago",
-    "https://atago.net/"
+    "https://atago.net/",
+    "https://www.medent.co.il/en/project/atago-japan/"
    ],
    "category": "מכשירי מדידה",
    "category_source": "catalog_facet",
@@ -34376,6 +34451,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "Homepage",
+     "name_he": "תרום טכנולוגיות",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.tarom.co.il/",
+     "phone": "+972-3-9214145",
+     "email": "tarom@tarom.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tarom.co.il/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Homepage '## SUPPLIERS' section lists suppliers including Hamilton, Asuragen, Corning, Purolite, Solventum, Bedfont, and"
+    },
+    {
      "name": "Getter Bio-Med (Getter Group)",
      "name_he": "קבוצת גטר",
      "type": "distributor",
@@ -34421,7 +34513,8 @@
     "https://getter.co.il/4203-2",
     "https://www.businesswire.com/news/home/20260127020453/en",
     "https://www.sec.gov/Archives/edgar/data/24741/000002474126000124/glw-20251231.htm",
-    "https://www.getter.co.il/"
+    "https://www.getter.co.il/",
+    "https://tarom.co.il/"
    ],
    "category": "מתכלים וציוד קטן",
    "category_source": "catalog_facet",
@@ -44749,18 +44842,18 @@
      "name": "Eldan Electronic Instruments",
      "name_he": "אלדן ציוד אלקטרוני",
      "type": "distributor",
-     "scope": "listed as a brand on the distributor's site",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
      "website": "https://www.eldan.biz/",
      "phone": "+972-3-937-1111",
      "email": "info@eldan.biz",
      "address": "6 Hashiloach Street, P.O. Box 7641, Petach Tikva 49170",
-     "contact_url": "",
-     "source": "https://www.eldan.biz/",
+     "contact_url": null,
+     "source": "https://www.eldan.biz/histology-pathology/",
      "evidence_year": 2026,
      "status": "current",
      "match_basis": "distributor_site_sweep",
-     "match_confidence": "contained",
-     "match_text": "epredia Logo"
+     "match_confidence": "search",
+     "match_text": "It works with Epredia, Erma Inc, and Cirdan Imaging Ltd to deliver high-quality, reliable products for cancer and other "
     }
    ],
    "israel_evidence_year": 2026,
@@ -44778,7 +44871,7 @@
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Epredia",
     "https://www.thomassci.com/browse-by/suppliers/erie-scientific",
-    "https://www.eldan.biz/"
+    "https://www.eldan.biz/histology-pathology/"
    ],
    "category": "מתכלים וציוד קטן",
    "category_source": "catalog_facet",
@@ -48892,15 +48985,33 @@
     "Analytical filtration and particle analysis",
     "Tissue dissociation and homogenization"
    ],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Medent Scientific Instruments (Medent Group)",
+     "name_he": "מדנט",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.medent.co.il",
+     "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+     "email": "info@medent.co.il",
+     "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+     "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+     "source": "https://www.medent.co.il/en/project/fritsch-germany/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Medent 'Our Partners' page: Fritsch is described as an internationally respected manufacturer of application-oriented la"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -48911,7 +49022,8 @@
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Fritsch",
-    "https://www.fritsch-international.com/contact/my-information-request-list/"
+    "https://www.fritsch-international.com/contact/my-information-request-list/",
+    "https://www.medent.co.il/en/project/fritsch-germany/"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -53597,15 +53709,33 @@
     "Ultrasonic treatment and sonication",
     "Aspiration, vacuuming and fluid transfer"
    ],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Same company as 'Grant Instruments' (list has both)",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": null,
+     "source": "https://www.bioanalytics.co.il/products/grant-instruments/xuba-analogue-ultrasonic-bath-range-1/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Product page 'אמבטיה אולטרסונית אנלוגית Grant XUBA'"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -53615,7 +53745,8 @@
     "note": null
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Grant"
+    "https://www.dutscher.com/search?initialFilters=brand:Grant",
+    "https://www.bioanalytics.co.il/products/grant-instruments/xuba-analogue-ultrasonic-bath-range-1/"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -53695,15 +53826,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": null,
+     "source": "https://www.bioanalytics.co.il/products/grant-instruments/xuba-analogue-ultrasonic-bath-range-1/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Product page 'אמבטיה אולטרסונית אנלוגית Grant XUBA' (URL path 'grant-instruments'); 'It also lists Shodex columns, Teled"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "1763 260 811",
     "email": null,
@@ -53714,7 +53863,8 @@
    },
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/grant-instruments",
-    "https://www.grantinstruments.com/pages/contact-us"
+    "https://www.grantinstruments.com/pages/contact-us",
+    "https://www.bioanalytics.co.il/products/grant-instruments/xuba-analogue-ultrasonic-bath-range-1/"
    ],
    "category": "ציוד מעבדה",
    "category_source": "keyword_guess",
@@ -56073,6 +56223,23 @@
    "israel_check_he": "סריקת אתרי מפיצים",
    "israel_entities": [
     {
+     "name": "Medent Scientific Instruments (Medent Group)",
+     "name_he": "מדנט",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.medent.co.il",
+     "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+     "email": "info@medent.co.il",
+     "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+     "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+     "source": "https://www.medent.co.il/en/project/hanna-usa/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Medent 'Our Partners' page: Hanna is listed for pH ISE Titration Conductivity Dissolved Oxygen"
+    },
+    {
      "name": "Agrolan Ltd.",
      "name_he": "אגרולן",
      "type": "distributor",
@@ -56122,7 +56289,8 @@
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Hanna",
     "http://www.agrolan.com/index.asp",
-    "https://www.bioanalytics.co.il/"
+    "https://www.bioanalytics.co.il/",
+    "https://www.medent.co.il/en/project/hanna-usa/"
    ],
    "category": "כימיה",
    "category_source": "catalog_facet",
@@ -69517,6 +69685,23 @@
    "israel_check_he": "סריקת אתרי מפיצים",
    "israel_entities": [
     {
+     "name": "Dr. Uri Golik Chemical Instrumentation",
+     "name_he": "ד\"ר גוליק",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); List variant 'KNF Neuberger' is the same company",
+     "website": "https://www.golik.co.il",
+     "phone": "+972-3-518-7555",
+     "email": "marketing@golik.co.il",
+     "address": "34 Kibbutz Galuyot St, Tel Aviv 66550",
+     "contact_url": null,
+     "source": "https://www.golik.co.il/brands",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Its brand list includes Agilent, Metrohm, Buchi, Malvern Panalytical, Thermo Scientific, KNF, and SepareCo, among others"
+    },
+    {
      "name": "Ormir Scientific Instruments",
      "name_he": "אורמיר",
      "type": "distributor",
@@ -69549,7 +69734,8 @@
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:KNF",
     "https://www.thomassci.com/browse-by/suppliers/knf",
-    "https://ormir.co.il/card-with-image/"
+    "https://ormir.co.il/card-with-image/",
+    "https://www.golik.co.il/brands"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -79399,6 +79585,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "mrclab.com",
+     "name_he": "MRC",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Same brand list also on https://www.mrclab.com/mrc-trusted-laboratory-equipment-distributor-in-europe (names Memmert, Ohaus, and Velp)",
+     "website": "https://www.mrclab.com",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Brands we represent include Memmert, Kern & Sohn, WTW, Ohaus and Velp Scientifica."
+    },
+    {
      "name": "Electrotherm Marketing 1978 Ltd.",
      "name_he": "אלקטרותרם",
      "type": "distributor",
@@ -79450,7 +79653,8 @@
     "https://www.medent.co.il/scientific.equipment/product-category/%D7%AA%D7%A0%D7%95%D7%A8%D7%99%D7%9D-%D7%9E%D7%A2%D7%91%D7%93%D7%AA%D7%99%D7%99%D7%9D/%D7%AA%D7%A0%D7%95%D7%A8%D7%99-%D7%95%D7%95%D7%90%D7%A7%D7%95%D7%9D/",
     "https://www.memmert.com/en/contact/your-contact-person",
     "https://www.memmert.com/en/contact/your-contact-person/order-processing",
-    "https://www.electrotherm.co.il/"
+    "https://www.electrotherm.co.il/",
+    "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -80740,6 +80944,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "Dr. Uri Golik Chemical Instrumentation",
+     "name_he": "ד\"ר גוליק",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.golik.co.il",
+     "phone": "+972-3-518-7555",
+     "email": "marketing@golik.co.il",
+     "address": "34 Kibbutz Galuyot St, Tel Aviv 66550",
+     "contact_url": null,
+     "source": "https://www.golik.co.il/brands",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Its brand list includes Agilent, Metrohm, Buchi, Malvern Panalytical, Thermo Scientific, KNF, and SepareCo, among others"
+    },
+    {
      "name": "BioAnalytics Ltd.",
      "name_he": "ביואנליטיקס",
      "type": "distributor",
@@ -80796,7 +81017,8 @@
     "https://www.wikidata.org/wiki/Q1925733",
     "https://www.bioanalytics.co.il/products/titration-masters/titrisoft-titration-software-by-si-analytics/",
     "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
-    "https://www.metrohm.com/en_us.html"
+    "https://www.metrohm.com/en_us.html",
+    "https://www.golik.co.il/brands"
    ],
    "category": "כימיקלים ותקנים",
    "category_source": "keyword_guess",
@@ -90775,6 +90997,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "mrclab.com",
+     "name_he": "MRC",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Also on the Europe distributor page",
+     "website": "https://www.mrclab.com",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Brands we represent include Memmert, Kern & Sohn, WTW, Ohaus and Velp Scientifica."
+    },
+    {
      "name": "Yarden Biotec Ltd.",
      "name_he": "ירדן ביוטק",
      "type": "distributor",
@@ -90837,7 +91076,8 @@
     "https://labotal.co.il/product/compact-refrigerated-centrifuge-model-fc-5515r-made-by-ohaus/",
     "https://us.ohaus.com/en-us/contact-us",
     "https://www.yarden-biotec.co.il/manufacturer/scientific-industries",
-    "https://www.yairtech.co.il/partners/"
+    "https://www.yairtech.co.il/partners/",
+    "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa"
    ],
    "category": "מכשירי מדידה",
    "category_source": "catalog_facet",
@@ -94526,15 +94766,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Gamidor Diagnostics",
+     "name_he": "גמידור דיאגנוסטיקה",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Page says 'Permagen Labware'",
+     "website": "https://www.gamidor.co.il/",
+     "phone": "+972-3-927-7277",
+     "email": "info@gamidor.co.il",
+     "address": "Shaham 32, Petach Tikva",
+     "contact_url": null,
+     "source": "https://gamidor.co.il/en/aboutus-2/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "The company's existing portfolio includes world's leading manufacturers such as Roche Diagnostics, Kapa Biosystems, Perm"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -94544,7 +94802,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/permagen"
+    "https://www.thomassci.com/browse-by/suppliers/permagen",
+    "https://gamidor.co.il/en/aboutus-2/"
    ],
    "category": "פיפטות ומתכלים",
    "category_source": "keyword_guess",
@@ -100581,6 +100840,23 @@
    "israel_check_he": "סריקת אתרי מפיצים",
    "israel_entities": [
     {
+     "name": "Medent Scientific Instruments (Medent Group)",
+     "name_he": "מדנט",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.medent.co.il",
+     "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+     "email": "info@medent.co.il",
+     "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+     "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+     "source": "https://medent.co.il/scientific.equipment/product/%D7%A1%D7%95%D7%A0%D7%99%D7%A7%D7%98%D7%95%D7%A8-500w-%D7%93%D7%92%D7%9D-q500-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-qsonica/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Product page title 'סוניקטור 500W דגם Q500. תוצרת Qsonica' (made by Qsonica); Medent's partner page: Qsonica, a U.S. mak"
+    },
+    {
      "name": "Lumitron Ltd.",
      "name_he": "לומיטרון",
      "type": "distributor",
@@ -100613,7 +100889,8 @@
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/qsonica",
     "https://www.lumitron.co.il/",
-    "https://www.sonicator.com/pages/contact-info"
+    "https://www.sonicator.com/pages/contact-info",
+    "https://medent.co.il/scientific.equipment/product/%D7%A1%D7%95%D7%A0%D7%99%D7%A7%D7%98%D7%95%D7%A8-500w-%D7%93%D7%92%D7%9D-q500-%D7%AA%D7%95%D7%A6%D7%A8%D7%AA-qsonica/"
    ],
    "category": null,
    "category_source": null,
@@ -103516,6 +103793,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "Gamidor Diagnostics",
+     "name_he": "גמידור דיאגנוסטיקה",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.gamidor.co.il/",
+     "phone": "+972-3-927-7277",
+     "email": "info@gamidor.co.il",
+     "address": "Shaham 32, Petach Tikva",
+     "contact_url": null,
+     "source": "https://gamidor.co.il/en/genetics/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "It represents Revvity in prenatal and neonatal screening"
+    },
+    {
      "name": "Lifegene Ltd.",
      "name_he": "לייפג'ין",
      "type": "distributor",
@@ -103574,7 +103868,8 @@
     "https://s202.q4cdn.com/908952201/files/doc_news/2022/08/01/PerkinElmer-Accelerates-Transformation-into-High-Growth-High-Margin-Life-Sciences-Diagnostics-Company.pdf",
     "https://peprofessional.com/2022/08/new-mountain-carves-out-unit-of-perkinelmer/",
     "https://www.lifegene.co.il/",
-    "https://www.enco.co.il/suppliers.php"
+    "https://www.enco.co.il/suppliers.php",
+    "https://gamidor.co.il/en/genetics/"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -106158,15 +106453,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Dover Medical & Scientific Equipment",
+     "name_he": "דובר ציוד רפואי ומדעי",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Logo reads 'Sakura' only; in a histology/lab context this is Sakura Finetek - verify",
+     "website": "https://dovermed.co.il",
+     "phone": "+972-9-951-4545",
+     "email": "contact@dovermed.co.il",
+     "address": "11 Hama'alot Street, Herzliya 46583",
+     "contact_url": null,
+     "source": "https://dovermed.co.il/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Dover Medical is a distributor founded in 1974 that represents the most advanced technology companies in Israel. Its par"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -106176,7 +106489,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/sakura-finetek"
+    "https://www.thomassci.com/browse-by/suppliers/sakura-finetek",
+    "https://dovermed.co.il/"
    ],
    "category": "כלי עבודה ותחזוקה",
    "category_source": "keyword_guess",
@@ -106648,6 +106962,23 @@
      "match_basis": "manufacturer_or_press",
      "match_confidence": null,
      "match_text": null
+    },
+    {
+     "name": "Y.A. Almog Diagnostic & Medical Equipment Ltd.",
+     "name_he": "י.א. אלמוג",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Page says 'Santa Cruz' (antibody maker = Santa Cruz Biotechnology)",
+     "website": "https://www.almog.co.il",
+     "phone": "+972 3-977-3390",
+     "email": "info@almog.co.il",
+     "address": "Shoham",
+     "contact_url": null,
+     "source": "https://www.almog.co.il/Suppliers.aspx",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "The page is headed 'Suppliers' and lists firms such as Active Motif, Alpco, and Santa Cruz, each tagged with its special"
     }
    ],
    "israel_evidence_year": 2026,
@@ -106665,7 +106996,8 @@
    "sources": [
     "https://www.quartzy.com/suppliers",
     "https://www.scbt.com/customer-care/contact-us",
-    "https://www.enco.co.il/about.php"
+    "https://www.enco.co.il/about.php",
+    "https://www.almog.co.il/Suppliers.aspx"
    ],
    "category": null,
    "category_source": null,
@@ -111072,18 +111404,18 @@
      "name": "BioAnalytics Ltd.",
      "name_he": "ביואנליטיקס",
      "type": "distributor",
-     "scope": "listed as a brand on the distributor's site",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
      "website": "https://www.bioanalytics.co.il",
      "phone": "+972-72-242-9555",
      "email": null,
      "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
-     "contact_url": "",
-     "source": "https://www.bioanalytics.co.il/",
+     "contact_url": null,
+     "source": "https://www.bioanalytics.co.il/academy/karl-fischer-and-titration-acadmy/",
      "evidence_year": 2026,
      "status": "current",
      "match_basis": "distributor_site_sweep",
-     "match_confidence": "contained",
-     "match_text": "karl fischer SI-analytics"
+     "match_confidence": "search",
+     "match_text": "Titration and Karl Fischer work involves Sentek, which it describes as a British manufacturer, and SI Analytics, a Germa"
     }
    ],
    "israel_evidence_year": 2026,
@@ -111100,8 +111432,8 @@
    },
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/si-analytics",
-    "https://www.bioanalytics.co.il/",
-    "https://www.xylemanalytics.com/en/contact/general-contact"
+    "https://www.xylemanalytics.com/en/contact/general-contact",
+    "https://www.bioanalytics.co.il/academy/karl-fischer-and-titration-acadmy/"
    ],
    "category": "מכשור אנליטי ומדידה",
    "category_source": "keyword_guess",
@@ -115780,15 +116112,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Ophir Analytical Ltd.",
+     "name_he": "אופיר אנליטיקל",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Page names 'Starna'; list entry is 'Starna Cells' (same maker)",
+     "website": "http://www.ophiranalytical.com",
+     "phone": "+972 3-902-2277",
+     "email": null,
+     "address": "Rosh Ha'ayin",
+     "contact_url": null,
+     "source": "http://www.ophiranalytical.com/index.php/consumhls/cuvettes/colorimeter-cells/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Ophir lists Starna under its consumables, with categories for cuvettes, accessories, colorimeter cells, and fluorometer "
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -115798,7 +116148,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/starna-cells"
+    "https://www.thomassci.com/browse-by/suppliers/starna-cells",
+    "http://www.ophiranalytical.com/index.php/consumhls/cuvettes/colorimeter-cells/"
    ],
    "category": "מכשור אנליטי ומדידה",
    "category_source": "keyword_guess",
@@ -120479,6 +120830,40 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "Dr. Uri Golik Chemical Instrumentation",
+     "name_he": "ד\"ר גוליק",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.golik.co.il",
+     "phone": "+972-3-518-7555",
+     "email": "marketing@golik.co.il",
+     "address": "34 Kibbutz Galuyot St, Tel Aviv 66550",
+     "contact_url": null,
+     "source": "https://www.golik.co.il/manufacturers/thermo-scientific?lang=en",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Manufacturer page 'Thermo Scientific': Thermo Scientific's includes desktop scanning electron microscopes; brands page: "
+    },
+    {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Via Eutech Instruments (a Thermo Scientific brand) - borderline, verify",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": null,
+     "source": "https://www.bioanalytics.co.il/products/eutech-pc-450-ph-conductivity-meter/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Product page 'מד pH/EC משולב נייד דגם PC450 מבית Eutech'; 'the Eutech instruments it sells are made by Thermo Scientific"
+    },
+    {
      "name": "BDL (Beith Dekel) Ltd.",
      "name_he": "BDL",
      "type": "distributor",
@@ -120545,7 +120930,9 @@
     "https://jobs.thermofisher.com/mx/es/israel-jobs",
     "https://mr.gov.il/ilgstorefront/he/p/attachment/005056BF4DAB1EDB8098FCA0E2582123/נספחים לפרוטוקול",
     "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
-    "https://www.thermofisher.com/store/v2/contact-us?enableChat=true"
+    "https://www.thermofisher.com/store/v2/contact-us?enableChat=true",
+    "https://www.golik.co.il/manufacturers/thermo-scientific?lang=en",
+    "https://www.bioanalytics.co.il/products/eutech-pc-450-ph-conductivity-meter/"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -127796,6 +128183,23 @@
      "contact_url": "https://labotal.co.il/contact/",
      "contact_source": "https://labotal.co.il/contact/",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "mrclab.com",
+     "name_he": "MRC",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Same company as 'Velp Scientifica' (list has both)",
+     "website": "https://www.mrclab.com",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Brands we represent include Memmert, Kern & Sohn, WTW, Ohaus and Velp Scientifica."
     }
    ],
    "israel_evidence_year": 2026,
@@ -127823,7 +128227,8 @@
     "https://www.velp.com/en-ww/velp-scientifica-distribution-awards.aspx",
     "https://topaziende.quotidiano.net/?p=150864",
     "https://www.velp.com/en-ww/velps-recognition-in-the-top500-2024-companies-of-monza-province.aspx",
-    "https://www.velp.com/en-ww/contact-us.aspx"
+    "https://www.velp.com/en-ww/contact-us.aspx",
+    "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -127919,6 +128324,23 @@
      "contact_url": "https://labotal.co.il/contact/",
      "contact_source": "https://labotal.co.il/contact/",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "mrclab.com",
+     "name_he": "MRC",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Also on the Europe distributor page",
+     "website": "https://www.mrclab.com",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Brands we represent include Memmert, Kern & Sohn, WTW, Ohaus and Velp Scientifica."
     }
    ],
    "israel_evidence_year": 2026,
@@ -127945,7 +128367,8 @@
     "https://www.velp.com/en-ww/velp-scientifica-distribution-awards.aspx",
     "https://topaziende.quotidiano.net/?p=150864",
     "https://www.velp.com/en-ww/velps-recognition-in-the-top500-2024-companies-of-monza-province.aspx",
-    "https://www.velp.com/en-ww/contact-us.aspx"
+    "https://www.velp.com/en-ww/contact-us.aspx",
+    "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa"
    ],
    "category": "ציוד מעבדה",
    "category_source": "keyword_guess",
@@ -129262,15 +129685,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Medent Scientific Instruments (Medent Group)",
+     "name_he": "מדנט",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.medent.co.il",
+     "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+     "email": "info@medent.co.il",
+     "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+     "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+     "source": "https://www.medent.co.il/en/project/waring-usa/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Medent's Waring partner page: Waring (USA) makes laboratory and commercial blenders ... its lab line includes benchtop a"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -129280,7 +129721,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/waring"
+    "https://www.thomassci.com/browse-by/suppliers/waring",
+    "https://www.medent.co.il/en/project/waring-usa/"
    ],
    "category": "פיפטות ומתכלים",
    "category_source": "keyword_guess",
@@ -131405,6 +131847,23 @@
    "israel_check_he": "סריקת אתרי מפיצים",
    "israel_entities": [
     {
+     "name": "mrclab.com",
+     "name_he": "MRC",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "https://www.mrclab.com",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Brands we represent include Memmert, Kern & Sohn, WTW, Ohaus and Velp Scientifica."
+    },
+    {
      "name": "BioAnalytics Ltd.",
      "name_he": "ביואנליטיקס",
      "type": "distributor",
@@ -131454,7 +131913,8 @@
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/wtw",
     "https://www.bioanalytics.co.il/",
-    "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1"
+    "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+    "https://www.mrclab.com/mrc-distributor-of-laboratory-equipment-in-africa"
    ],
    "category": "מכשור אנליטי ומדידה",
    "category_source": "keyword_guess",
@@ -131897,15 +132357,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search); Via Xylem Analytics brand SI Analytics (sold by BioAnalytics); parent-brand level match",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": null,
+     "source": "https://www.bioanalytics.co.il/academy/electrodes-ph-meters-academy/xylem-analytics-ph-handbook/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "'Xylem Analytics pH Handbook' page; The results group SI Analytics under the Xylem Analytics name; https://www.bioanalyt"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -131916,7 +132394,8 @@
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Xylem",
-    "https://www.xylem.com/en-us/contact-us/"
+    "https://www.xylem.com/en-us/contact-us/",
+    "https://www.bioanalytics.co.il/academy/electrodes-ph-meters-academy/xylem-analytics-ph-handbook/"
    ],
    "category": "מכשור אנליטי ומדידה",
    "category_source": "keyword_guess",
@@ -132250,15 +132729,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Ophir Analytical Ltd.",
+     "name_he": "אופיר אנליטיקל",
+     "type": "distributor",
+     "scope": "brand shown on the distributor's site (found via site-restricted search)",
+     "website": "http://www.ophiranalytical.com",
+     "phone": "+972 3-902-2277",
+     "email": null,
+     "address": "Rosh Ha'ayin",
+     "contact_url": null,
+     "source": "http://www.ophiranalytical.com/index.php/hplc-columns/ymc-columns/semi-preparative-lc/ymc-actus/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "search",
+     "match_text": "Its manufacturer lines include YMC, Inertsil, and Hamilton. One of its product pages describes YMC has applied its robus"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -132268,7 +132765,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/ymc"
+    "https://www.thomassci.com/browse-by/suppliers/ymc",
+    "http://www.ophiranalytical.com/index.php/hplc-columns/ymc-columns/semi-preparative-lc/ymc-actus/"
    ],
    "category": "מכשור אנליטי ומדידה",
    "category_source": "keyword_guess",
@@ -133339,6 +133837,146 @@
    "count": 23
   },
   {
+   "key": "medent.co.il",
+   "name": "Medent Scientific Instruments (Medent Group)",
+   "name_he": "מדנט",
+   "type": "distributor",
+   "website": "https://www.medent.co.il",
+   "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+   "email": "info@medent.co.il",
+   "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+   "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+   "suppliers": [
+    {
+     "id": 139,
+     "name": "Atago",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 345,
+     "name": "Cole parmer",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 451,
+     "name": "Electrothermal (Cole-Parmer)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 516,
+     "name": "Fritsch",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 589,
+     "name": "Hanna",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 590,
+     "name": "Hanna Instruments",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 647,
+     "name": "Ika",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 648,
+     "name": "IKA Works",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 669,
+     "name": "Integra",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 670,
+     "name": "INTEGRA Biosciences",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 695,
+     "name": "Jenway (Cole-Parmer)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 751,
+     "name": "Lauda",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 832,
+     "name": "Memmert",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 942,
+     "name": "Oakton",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1053,
+     "name": "Qsonica",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1219,
+     "name": "Stuart (Cole-Parmer)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1238,
+     "name": "Techne (Cole-Parmer)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1343,
+     "name": "Waring",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 18
+  },
+  {
    "key": "labotal.co.il",
    "name": "Labotal Scientific Equipment Ltd.",
    "name_he": "לבוטל ציוד מדעי",
@@ -133684,111 +134322,6 @@
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
-    }
-   ],
-   "count": 13
-  },
-  {
-   "key": "medent.co.il",
-   "name": "Medent Scientific Instruments",
-   "name_he": "מדנט מכשור מדעי",
-   "type": "distributor",
-   "website": "https://www.medent.co.il",
-   "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
-   "email": "info@medent.co.il",
-   "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
-   "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
-   "suppliers": [
-    {
-     "id": 345,
-     "name": "Cole parmer",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 451,
-     "name": "Electrothermal (Cole-Parmer)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 590,
-     "name": "Hanna Instruments",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 647,
-     "name": "Ika",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 648,
-     "name": "IKA Works",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 669,
-     "name": "Integra",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 670,
-     "name": "INTEGRA Biosciences",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 695,
-     "name": "Jenway (Cole-Parmer)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 751,
-     "name": "Lauda",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 832,
-     "name": "Memmert",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 942,
-     "name": "Oakton",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1219,
-     "name": "Stuart (Cole-Parmer)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1238,
-     "name": "Techne (Cole-Parmer)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
     }
    ],
    "count": 13
@@ -134557,6 +135090,160 @@
    "count": 9
   },
   {
+   "key": "bioanalytics.co.il",
+   "name": "BioAnalytics Ltd.",
+   "name_he": "ביואנליטיקס",
+   "type": "distributor",
+   "website": "https://www.bioanalytics.co.il",
+   "phone": "+972-72-242-9555",
+   "email": null,
+   "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 566,
+     "name": "Grant",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 567,
+     "name": "Grant Instruments",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 589,
+     "name": "Hanna",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 590,
+     "name": "Hanna Instruments",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 846,
+     "name": "Metrohm",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1156,
+     "name": "SI Analytics",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1255,
+     "name": "Thermo Scientific",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1365,
+     "name": "WTW",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1370,
+     "name": "Xylem",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 9
+  },
+  {
+   "key": "gamidor.co.il",
+   "name": "Gamidor Diagnostics (1984) Ltd.",
+   "name_he": "גמידור דיאגנוסטיקה",
+   "type": "distributor",
+   "website": "https://www.gamidor.co.il",
+   "phone": "+972-3-927-7277",
+   "email": "info@gamidor.co.il",
+   "address": "Shaham 32, Petach Tikva",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 900,
+     "name": "Nalgene",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 986,
+     "name": "Permagen",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1081,
+     "name": "Revvity",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1088,
+     "name": "Roche",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1089,
+     "name": "Roche Diagnostics Corp.",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1237,
+     "name": "Tecan",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1255,
+     "name": "Thermo Scientific",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1259,
+     "name": "Thermo Scientific Nalgene",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1261,
+     "name": "Thermo Scientific Orion",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    }
+   ],
+   "count": 9
+  },
+  {
    "key": "slmoran.co.il",
    "name": "S.L. Moran Ltd.",
    "name_he": "ש.ל. מורן",
@@ -134753,69 +135440,6 @@
    "count": 7
   },
   {
-   "key": "gamidor.co.il",
-   "name": "Gamidor Diagnostics (1984) Ltd.",
-   "name_he": "גמידור דיאגנוסטיקה",
-   "type": "distributor",
-   "website": "https://www.gamidor.co.il",
-   "phone": "+972-3-927-7277",
-   "email": "info@gamidor.co.il",
-   "address": "Shaham 32, Petach Tikva",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 900,
-     "name": "Nalgene",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1088,
-     "name": "Roche",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1089,
-     "name": "Roche Diagnostics Corp.",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1237,
-     "name": "Tecan",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1255,
-     "name": "Thermo Scientific",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1259,
-     "name": "Thermo Scientific Nalgene",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1261,
-     "name": "Thermo Scientific Orion",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 7
-  },
-  {
    "key": "ormir.co.il",
    "name": "Ormir Scientific Instruments",
    "name_he": "אורמיר",
@@ -134872,6 +135496,62 @@
    "count": 6
   },
   {
+   "key": "mrclab.com",
+   "name": "mrclab.com",
+   "name_he": "MRC",
+   "type": "distributor",
+   "website": "https://www.mrclab.com",
+   "phone": "+972 3-559-5252",
+   "email": null,
+   "address": "3 Ha-Gavish St., Holon 5881702",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 832,
+     "name": "Memmert",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 947,
+     "name": "Ohaus",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1080,
+     "name": "Retsch",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1327,
+     "name": "Velp",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1328,
+     "name": "Velp Scientifica",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1365,
+     "name": "WTW",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 6
+  },
+  {
    "key": "zotal.co.il",
    "name": "Zotal Ltd.",
    "name_he": "זוטל",
@@ -134913,6 +135593,55 @@
     {
      "id": 1381,
      "name": "Zymo Research Corporation",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 5
+  },
+  {
+   "key": "golik.co.il",
+   "name": "Dr. Uri Golik Chemical Instrumentation",
+   "name_he": "ד\"ר גוליק",
+   "type": "distributor",
+   "website": "https://www.golik.co.il",
+   "phone": "+972-3-518-7555",
+   "email": "marketing@golik.co.il",
+   "address": "34 Kibbutz Galuyot St, Tel Aviv 66550",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 53,
+     "name": "Agilent",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 257,
+     "name": "Buchi",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 727,
+     "name": "KNF",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 846,
+     "name": "Metrohm",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1255,
+     "name": "Thermo Scientific",
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
@@ -135117,55 +135846,6 @@
    "count": 5
   },
   {
-   "key": "bioanalytics.co.il",
-   "name": "BioAnalytics Ltd.",
-   "name_he": "ביואנליטיקס",
-   "type": "distributor",
-   "website": "https://www.bioanalytics.co.il",
-   "phone": "+972-72-242-9555",
-   "email": null,
-   "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 589,
-     "name": "Hanna",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 590,
-     "name": "Hanna Instruments",
-     "status": "older_evidence",
-     "evidence_year": null,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 846,
-     "name": "Metrohm",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 1156,
-     "name": "SI Analytics",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 1365,
-     "name": "WTW",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    }
-   ],
-   "count": 5
-  },
-  {
    "key": "lapidot.com",
    "name": "Lapidot Group (Lapidot Medical)",
    "name_he": "לפידות",
@@ -135284,6 +135964,48 @@
     {
      "id": 1030,
      "name": "PromoCell",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 4
+  },
+  {
+   "key": "ophiranalytical.com",
+   "name": "Ophir Analytical Ltd.",
+   "name_he": "אופיר אנליטיקל",
+   "type": "distributor",
+   "website": "https://ophiranalytical.com",
+   "phone": "+972 3-902-2277",
+   "email": "",
+   "address": "Rosh Ha'ayin",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 587,
+     "name": "Hamilton",
+     "status": "new",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 692,
+     "name": "Jasco",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1207,
+     "name": "Starna Cells",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1373,
+     "name": "YMC",
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
@@ -135600,6 +136322,62 @@
    "count": 3
   },
   {
+   "key": "almog.co.il",
+   "name": "Y.A. Almog Diagnostic & Medical Equipment Ltd.",
+   "name_he": "י.א. אלמוג",
+   "type": "distributor",
+   "website": "https://www.almog.co.il",
+   "phone": "+972 3-977-3390",
+   "email": "info@almog.co.il",
+   "address": "Shoham",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 37,
+     "name": "Active Motif",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1112,
+     "name": "Santa Cruz Biotechnology",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 2
+  },
+  {
+   "key": "ilexmedical.com",
+   "name": "דף הבית",
+   "name_he": "אילקס מדיקל",
+   "type": "distributor",
+   "website": "https://www.ilexmedical.com/",
+   "phone": "03-938-5501",
+   "email": null,
+   "address": "7 HaTnufa St., Petah Tikva",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 125,
+     "name": "Arkray USA, Inc.",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1048,
+     "name": "Qiagen",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    }
+   ],
+   "count": 2
+  },
+  {
    "key": "waters.com",
    "name": "Augusta Life Sciences Israel Ltd. (Waters subsidiary, ex-BD Biosciences & Diagnostic Solutions)",
    "name_he": "",
@@ -135684,6 +136462,34 @@
    "count": 2
   },
   {
+   "key": "tarom.co.il",
+   "name": "Homepage",
+   "name_he": "תרום טכנולוגיות",
+   "type": "distributor",
+   "website": "https://www.tarom.co.il/",
+   "phone": "+972-3-9214145",
+   "email": "tarom@tarom.co.il",
+   "address": null,
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 362,
+     "name": "Corning",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 587,
+     "name": "Hamilton",
+     "status": "new",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    }
+   ],
+   "count": 2
+  },
+  {
    "key": "getter-biomed.co.il",
    "name": "Getter Bio-Med (Getter Group)",
    "name_he": "קבוצת גטר",
@@ -135707,34 +136513,6 @@
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
-    }
-   ],
-   "count": 2
-  },
-  {
-   "key": "ophiranalytical.com",
-   "name": "Ophir Analytical Ltd.",
-   "name_he": "",
-   "type": "distributor",
-   "website": "https://ophiranalytical.com",
-   "phone": "+972 3-902-2277",
-   "email": "",
-   "address": "Rosh Ha'ayin",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 587,
-     "name": "Hamilton",
-     "status": "new",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 692,
-     "name": "Jasco",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
     }
    ],
    "count": 2
@@ -136174,27 +136952,6 @@
    "count": 1
   },
   {
-   "key": "golik.co.il",
-   "name": "Dr. Golik Scientific Solutions",
-   "name_he": "ד\"ר גוליק",
-   "type": "distributor",
-   "website": "https://www.golik.co.il",
-   "phone": "+972-3-518-7555",
-   "email": "marketing@golik.co.il",
-   "address": "34 Kibbutz Galuyot St, Tel Aviv 66550",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 257,
-     "name": "Buchi",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
    "key": "modotec.co.il",
    "name": "Modotec Ltd.",
    "name_he": "מודוטק בע\"מ",
@@ -136209,27 +136966,6 @@
      "id": 584,
      "name": "Hach",
      "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
-   "key": "tarom.co.il",
-   "name": "Tarom Applied Technologies Ltd.",
-   "name_he": "",
-   "type": "distributor",
-   "website": "http://www.tarom.co.il",
-   "phone": "",
-   "email": "",
-   "address": "",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 587,
-     "name": "Hamilton",
-     "status": "new",
      "evidence_year": 2026,
      "match_basis": "prior_research"
     }
@@ -136300,27 +137036,6 @@
    "count": 1
   },
   {
-   "key": "ilexmedical.com",
-   "name": "Ilex Medical Ltd.",
-   "name_he": "",
-   "type": "distributor",
-   "website": "https://www.ilexmedical.com",
-   "phone": "+972-3-9385500",
-   "email": "",
-   "address": "7 HaTnufa St., Petah Tikva",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 1048,
-     "name": "Qiagen",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
    "key": "qiagen enzymes / oem reagents sold through the lifegene catalogue (not the qiagen instrument line)",
    "name": "Lifegene Ltd.",
    "name_he": "לייפג'ין",
@@ -136342,22 +137057,22 @@
    "count": 1
   },
   {
-   "key": "mrclab.com",
-   "name": "MRC Laboratory Equipment & Instruments",
-   "name_he": "MRC",
+   "key": "dovermed.co.il",
+   "name": "Dover Medical & Scientific Equipment",
+   "name_he": "דובר ציוד רפואי ומדעי",
    "type": "distributor",
-   "website": "https://www.mrclab.com",
-   "phone": "+972 3-559-5252",
-   "email": "",
-   "address": "3 Ha-Gavish St., Holon 5881702",
-   "contact_url": "",
+   "website": "https://dovermed.co.il",
+   "phone": "+972-9-951-4545",
+   "email": "contact@dovermed.co.il",
+   "address": "11 Hama'alot Street, Herzliya 46583",
+   "contact_url": null,
    "suppliers": [
     {
-     "id": 1080,
-     "name": "Retsch",
+     "id": 1107,
+     "name": "Sakura Finetek",
      "status": "current",
      "evidence_year": 2026,
-     "match_basis": "prior_research"
+     "match_basis": "distributor_site_sweep"
     }
    ],
    "count": 1
