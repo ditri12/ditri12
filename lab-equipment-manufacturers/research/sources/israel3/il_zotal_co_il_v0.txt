@@ -1,0 +1,5 @@
+https://www.zotal.co.il/wp-sitemap-posts-post-1.xml
+https://www.zotal.co.il/wp-sitemap-posts-page-1.xml
+https://www.zotal.co.il/wp-sitemap-posts-product_brands-1.xml
+https://www.zotal.co.il/wp-sitemap-posts-testimonials-1.xml
+https://www.zotal.co.il/wp-sitemap-taxonomies-category-1.xml

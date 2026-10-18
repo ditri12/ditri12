@@ -1,0 +1,164 @@
+﻿
+
+Cooling & Heating And Thermostatic Control, lneya, sundi |
+
+דף הבית
+
+קטלוג
+
+מוצרים
+
+חדשות
+
+אודות החברה
+
+צור קשר
+
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+
+SUNDI-320
+
+Lneya
+
+Applied To The Glass Reactor, Metal Reactor, Bioreactor For Cooling & Heating And Thermostatic Control, Particularly Suitable For Controlling The Required Heat Or Heat Release In The Process Of Reaction.
+
+Technical Parameters:
+
+Temperature Range ˚C
+
+-30°C~180°C
+
+Control Mode
+
+Feedforward PID +Our special dynamic control calculation, PLC controller
+
+Temp. control
+
+Option: process temperature control or jacket oil temperature control
+
+Temp. difference
+
+Set or control the temperature difference between jacket oil and raw material process
+
+Program Editor
+
+20 programs, each program can edit 45 steps
+
+Communication protocol
+
+MODBUS RTU Protocol, RS 485 Interface
+
+Temp. accuracy
+
+±1°C
+
+Heating power
+
+2kW
+
+Cooling capacity
+
+180°C
+
+1.5kW
+
+50°C
+
+1.5kW
+
+0°C
+
+1.5kW
+
+-5°C
+
+0.9kW
+
+-20°C
+
+0.6kW
+
+Circulation pump
+
+Max10L/min 0.8bar
+
+Operation Panel
+
+7-inch color touch screen controller, temperature curve record, data export to excel format
+
+Safety protection
+
+Self-diagnosis function; freezer overload protection; high pressure switch, overload relay, thermal protection device, liquid low level protection, high temperature protection and temperature fault protection
+
+Closed circulation
+
+system
+
+The whole system is full closed circulation,there is no oil mist at high temperature and no water vapor at low temperature, pressure do not rise up when system is running.The system will supplement oil automatically at low temperature
+
+Dimension
+
+350*550*620mm
+
+Weight
+
+55kg
+
+Case material
+
+SUS 304
+
+Optional
+
+Optional Ethernet interface , configure PC operating software
+
+Optional outside touch screen display controller (separated),the communication line distance is 10 meter
+
+לקבלת הצעת מחיר
+
+לקבלת הצעת מחיר על מוצר
+SUNDI-320
+
+לקוח\ה יקר\ה שלום,
+
+נציגינו עומדים לשירותך בכל עת כדי לענות לפנייתך.
+
+לנוחיותך מספר שיטות התקשרות עמנו, על מנת, שנוכל לתת לך את השירות הטוב ביותר:
+
+ליצור קשר באמצעות אי מייל
+sales@master-cold.co.il
+
+או באמצעות מילוי פרטים באתר.
+
+אנא מלא את פרטיך, את נושא הפנייה ואת פרטי ההתקשרות המלאים ואנו נדאג לטפל בפנייתך בכל תשומת הלב ובהקדם האפשרי.
+
+במידה ולא נענית תוך פרק זמן סביר, תוכל\י לברר את סטטוס בקשתך באמצעות קשר טלפוני
+1-800-22-22-66
+
+שם
+
+דוא"ל
+
+טלפון
+
+תאור הפניה:
+
+73
+קולות, בממוצא
+
+9.1
+נקודות מ
+10
+נקודות.
+
+מוצרים
+קטלוג מעבדתי
+
+מכשור יד שניה
+
+מיכשור מעבדתי ותעשייתי
+
+master-cold.co.il 2012 ©

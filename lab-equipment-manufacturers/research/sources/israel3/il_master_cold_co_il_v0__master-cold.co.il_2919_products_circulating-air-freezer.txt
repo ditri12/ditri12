@@ -1,0 +1,168 @@
+﻿
+
+Circulating air freezer |
+
+דף הבית
+
+קטלוג
+
+מוצרים
+
+חדשות
+
+אודות החברה
+
+צור קשר
+
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+
+Circulating air freezer
+
+Lneya
+
+Mini Ultra- Low Temperature Refrigerator Exclusive Use – Circulating air freezer
+
+Description & Application:
+
+1.Widely used in small medical refrigerator,confidential equipment
+
+assembly line of low temperature freezer.
+
+2.Independent refrigerated air recirculating unit and can operate
+
+directly without professional knowledge of refrigeration,it is
+
+relatively independent of cold storage and cryogenic box.
+
+3.Can work for a long time continuosly,defrosting automatically
+
+and it can not affect the storage temperature in the process of
+
+defrosting.
+
+4.Modular design and replace easily for standby machine, (If there
+
+are 10 sets of machines,only one standby machine is enough)
+
+5.Solve the problems of open or close the door frequently and
+
+frosting problem in evaporation system,it will not affect the
+
+temperature of cold storage&cryogenic box in the process of
+
+defrost in evaporation system.
+
+6. Easy installation ( joint the box according to mechanical
+
+drawing,connect the electricity and water and set temperature
+
+completely to work)
+
+Model
+
+LF-A3550W
+
+Recirculating air Temperature range
+
+-80℃ ~-135℃
+
+Controller mode
+
+PID adaptive controller
+
+Communication
+
+MODBUS RTU Protocol, RS 485 Interface
+
+Display
+
+7-inch color touch screen controller, temperature curve record, data export to excel format.
+
+Temp. accuracy
+
+±2℃
+
+Defrost device
+
+Defrosting automatically and it will close the circulation air transportation automatically when defrosting, the time of defrosting <5 min;
+
+It does not effect the temperature in the process of defrost.
+
+Defrost mode
+
+Defrosting by hot gas bypass compressor.
+
+Cooling capacity
+
+-130℃
+
+5kW
+
+Circulating air volume
+
+2600m3/h
+
+Safety protection
+
+Self-diagnosis function; freezer overload protection; high pressure switch, overload relay, thermal protection device, liquid low level protection,high temperature protection and temperature fault protection.
+
+Defrost device
+
+There are installed defrost device and condensate drain inside
+
+Work
+
+Can work continuously
+
+Dimension
+
+1000*2050*1750
+
+לקבלת הצעת מחיר
+
+לקבלת הצעת מחיר על מוצר
+Circulating air freezer
+
+לקוח\ה יקר\ה שלום,
+
+נציגינו עומדים לשירותך בכל עת כדי לענות לפנייתך.
+
+לנוחיותך מספר שיטות התקשרות עמנו, על מנת, שנוכל לתת לך את השירות הטוב ביותר:
+
+ליצור קשר באמצעות אי מייל
+sales@master-cold.co.il
+
+או באמצעות מילוי פרטים באתר.
+
+אנא מלא את פרטיך, את נושא הפנייה ואת פרטי ההתקשרות המלאים ואנו נדאג לטפל בפנייתך בכל תשומת הלב ובהקדם האפשרי.
+
+במידה ולא נענית תוך פרק זמן סביר, תוכל\י לברר את סטטוס בקשתך באמצעות קשר טלפוני
+1-800-22-22-66
+
+שם
+
+דוא"ל
+
+טלפון
+
+תאור הפניה:
+
+248
+קולות, בממוצא
+
+9.3
+נקודות מ
+10
+נקודות.
+
+מוצרים
+קטלוג מעבדתי
+
+מכשור יד שניה
+
+מיכשור מעבדתי ותעשייתי
+
+master-cold.co.il 2012 ©

@@ -1,0 +1,986 @@
+[
+{
+"text": "",
+"title": "",
+"alt": "גאמידור בע\"מ",
+"href": "https://gamidor.co.il/"
+},
+{
+"text": "עמוד הבית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/"
+},
+{
+"text": "אודותינו",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%95%d7%93%d7%95%d7%aa/"
+},
+{
+"text": "הנהלה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%94%d7%a0%d7%94%d7%9c%d7%94/"
+},
+{
+"text": "ספקים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/"
+},
+{
+"text": "מוצרים »",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+},
+{
+"text": "בקרת איכות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a7%d7%a8%d7%aa-%d7%90%d7%99%d7%9b%d7%95%d7%aa/"
+},
+{
+"text": "מדעי החיים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%93%d7%a2%d7%99-%d7%94%d7%97%d7%99%d7%99%d7%9d/"
+},
+{
+"text": "מיקרוביולוגיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94/"
+},
+{
+"text": "גנטיקה וציטוגנטיקה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%92%d7%a0%d7%98%d7%99%d7%a7%d7%94/"
+},
+{
+"text": "אבחון רקמתי",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%91%d7%97%d7%95%d7%9f-%d7%a8%d7%a7%d7%9e%d7%aa%d7%99/"
+},
+{
+"text": "POC",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/poc/"
+},
+{
+"text": "בריאות האישה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa-%d7%94%d7%90%d7%99%d7%a9%d7%94/"
+},
+{
+"text": "כימיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9b%d7%99%d7%9e%d7%99%d7%94/"
+},
+{
+"text": "אלרגיה ואוטואימוניות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%9c%d7%a8%d7%92%d7%99%d7%94/"
+},
+{
+"text": "תעשייה וביוטק",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%aa%d7%a2%d7%a9%d7%99%d7%99%d7%94-%d7%95%d7%91%d7%99%d7%95%d7%98%d7%a7/"
+},
+{
+"text": "ביולוגיה מולקולרית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94-%d7%9e%d7%95%d7%9c%d7%a7%d7%95%d7%9c%d7%a8%d7%99%d7%aa/"
+},
+{
+"text": "מחקר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%97%d7%a7%d7%a8/"
+},
+{
+"text": "בדיקות מהירות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%93%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%94%d7%99%d7%a8%d7%95%d7%aa/"
+},
+{
+"text": "חדשות החברה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-3/"
+},
+{
+"text": "גאמידור בתקשורת",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-2/"
+},
+{
+"text": "קריירה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/"
+},
+{
+"text": "צור קשר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a6%d7%95%d7%a8-%d7%a7%d7%a9%d7%a8/"
+},
+{
+"text": "",
+"title": "עבור ל-",
+"alt": "אנגלית",
+"href": "https://gamidor.co.il/en/partners/"
+},
+{
+"text": "עמוד הבית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/"
+},
+{
+"text": "אודותינו",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%95%d7%93%d7%95%d7%aa/"
+},
+{
+"text": "הנהלה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%94%d7%a0%d7%94%d7%9c%d7%94/"
+},
+{
+"text": "ספקים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/"
+},
+{
+"text": "מוצרים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+},
+{
+"text": "בקרת איכות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a7%d7%a8%d7%aa-%d7%90%d7%99%d7%9b%d7%95%d7%aa/"
+},
+{
+"text": "מדעי החיים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%93%d7%a2%d7%99-%d7%94%d7%97%d7%99%d7%99%d7%9d/"
+},
+{
+"text": "מיקרוביולוגיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94/"
+},
+{
+"text": "גנטיקה וציטוגנטיקה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%92%d7%a0%d7%98%d7%99%d7%a7%d7%94/"
+},
+{
+"text": "אבחון רקמתי",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%91%d7%97%d7%95%d7%9f-%d7%a8%d7%a7%d7%9e%d7%aa%d7%99/"
+},
+{
+"text": "POC",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/poc/"
+},
+{
+"text": "בריאות האישה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa-%d7%94%d7%90%d7%99%d7%a9%d7%94/"
+},
+{
+"text": "כימיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9b%d7%99%d7%9e%d7%99%d7%94/"
+},
+{
+"text": "אלרגיה ואוטואימוניות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%9c%d7%a8%d7%92%d7%99%d7%94/"
+},
+{
+"text": "תעשייה וביוטק",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%aa%d7%a2%d7%a9%d7%99%d7%99%d7%94-%d7%95%d7%91%d7%99%d7%95%d7%98%d7%a7/"
+},
+{
+"text": "ביולוגיה מולקולרית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94-%d7%9e%d7%95%d7%9c%d7%a7%d7%95%d7%9c%d7%a8%d7%99%d7%aa/"
+},
+{
+"text": "מחקר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%97%d7%a7%d7%a8/"
+},
+{
+"text": "בדיקות מהירות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%93%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%94%d7%99%d7%a8%d7%95%d7%aa/"
+},
+{
+"text": "חדשות החברה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-3/"
+},
+{
+"text": "גאמידור בתקשורת",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-2/"
+},
+{
+"text": "קריירה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/"
+},
+{
+"text": "צור קשר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a6%d7%95%d7%a8-%d7%a7%d7%a9%d7%a8/"
+},
+{
+"text": "",
+"title": "עבור ל-",
+"alt": "אנגלית",
+"href": "https://gamidor.co.il/en/partners/"
+},
+{
+"text": "",
+"title": "",
+"alt": "גאמידור בע\"מ",
+"href": "https://gamidor.co.il/"
+},
+{
+"text": "עמוד הבית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/"
+},
+{
+"text": "אודותינו",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%95%d7%93%d7%95%d7%aa/"
+},
+{
+"text": "הנהלה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%94%d7%a0%d7%94%d7%9c%d7%94/"
+},
+{
+"text": "ספקים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/"
+},
+{
+"text": "מוצרים »",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+},
+{
+"text": "בקרת איכות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a7%d7%a8%d7%aa-%d7%90%d7%99%d7%9b%d7%95%d7%aa/"
+},
+{
+"text": "מדעי החיים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%93%d7%a2%d7%99-%d7%94%d7%97%d7%99%d7%99%d7%9d/"
+},
+{
+"text": "מיקרוביולוגיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94/"
+},
+{
+"text": "גנטיקה וציטוגנטיקה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%92%d7%a0%d7%98%d7%99%d7%a7%d7%94/"
+},
+{
+"text": "אבחון רקמתי",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%91%d7%97%d7%95%d7%9f-%d7%a8%d7%a7%d7%9e%d7%aa%d7%99/"
+},
+{
+"text": "POC",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/poc/"
+},
+{
+"text": "בריאות האישה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa-%d7%94%d7%90%d7%99%d7%a9%d7%94/"
+},
+{
+"text": "כימיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9b%d7%99%d7%9e%d7%99%d7%94/"
+},
+{
+"text": "אלרגיה ואוטואימוניות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%9c%d7%a8%d7%92%d7%99%d7%94/"
+},
+{
+"text": "תעשייה וביוטק",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%aa%d7%a2%d7%a9%d7%99%d7%99%d7%94-%d7%95%d7%91%d7%99%d7%95%d7%98%d7%a7/"
+},
+{
+"text": "ביולוגיה מולקולרית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94-%d7%9e%d7%95%d7%9c%d7%a7%d7%95%d7%9c%d7%a8%d7%99%d7%aa/"
+},
+{
+"text": "מחקר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%97%d7%a7%d7%a8/"
+},
+{
+"text": "בדיקות מהירות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%93%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%94%d7%99%d7%a8%d7%95%d7%aa/"
+},
+{
+"text": "חדשות החברה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-3/"
+},
+{
+"text": "גאמידור בתקשורת",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-2/"
+},
+{
+"text": "קריירה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/"
+},
+{
+"text": "צור קשר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a6%d7%95%d7%a8-%d7%a7%d7%a9%d7%a8/"
+},
+{
+"text": "",
+"title": "עבור ל-",
+"alt": "אנגלית",
+"href": "https://gamidor.co.il/en/partners/"
+},
+{
+"text": "עמוד הבית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/"
+},
+{
+"text": "אודותינו",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%95%d7%93%d7%95%d7%aa/"
+},
+{
+"text": "הנהלה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%94%d7%a0%d7%94%d7%9c%d7%94/"
+},
+{
+"text": "ספקים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/"
+},
+{
+"text": "מוצרים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+},
+{
+"text": "בקרת איכות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a7%d7%a8%d7%aa-%d7%90%d7%99%d7%9b%d7%95%d7%aa/"
+},
+{
+"text": "מדעי החיים",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%93%d7%a2%d7%99-%d7%94%d7%97%d7%99%d7%99%d7%9d/"
+},
+{
+"text": "מיקרוביולוגיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94/"
+},
+{
+"text": "גנטיקה וציטוגנטיקה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%92%d7%a0%d7%98%d7%99%d7%a7%d7%94/"
+},
+{
+"text": "אבחון רקמתי",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%91%d7%97%d7%95%d7%9f-%d7%a8%d7%a7%d7%9e%d7%aa%d7%99/"
+},
+{
+"text": "POC",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/poc/"
+},
+{
+"text": "בריאות האישה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa-%d7%94%d7%90%d7%99%d7%a9%d7%94/"
+},
+{
+"text": "כימיה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9b%d7%99%d7%9e%d7%99%d7%94/"
+},
+{
+"text": "אלרגיה ואוטואימוניות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%90%d7%9c%d7%a8%d7%92%d7%99%d7%94/"
+},
+{
+"text": "תעשייה וביוטק",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%aa%d7%a2%d7%a9%d7%99%d7%99%d7%94-%d7%95%d7%91%d7%99%d7%95%d7%98%d7%a7/"
+},
+{
+"text": "ביולוגיה מולקולרית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94-%d7%9e%d7%95%d7%9c%d7%a7%d7%95%d7%9c%d7%a8%d7%99%d7%aa/"
+},
+{
+"text": "מחקר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%9e%d7%97%d7%a7%d7%a8/"
+},
+{
+"text": "בדיקות מהירות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%93%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%94%d7%99%d7%a8%d7%95%d7%aa/"
+},
+{
+"text": "חדשות החברה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-3/"
+},
+{
+"text": "גאמידור בתקשורת",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%97%d7%93%d7%a9%d7%95%d7%aa-2/"
+},
+{
+"text": "קריירה",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/"
+},
+{
+"text": "צור קשר",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%a6%d7%95%d7%a8-%d7%a7%d7%a9%d7%a8/"
+},
+{
+"text": "",
+"title": "עבור ל-",
+"alt": "אנגלית",
+"href": "https://gamidor.co.il/en/partners/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.meridianbioscience.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.copangroup.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.cytocell.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.coastalgenomics.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.cap.org"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.ldbiodiagnostics.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.apacor.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.dreampathdx.net/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://serconlimited.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.randox.com"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.human.de/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.hygiena.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.thermofisher.com/phadia/us/en/our-solutions.html"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.thermofisher.com/search/results?query=oxoid&focusarea=Search%20All"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.axlab.dk/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.alphatecsystems.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.medite.de/startseite.html?&L=1"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.revvity.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.savyondiagnostics.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.roversmedicaldevices.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.schebo.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.epredia.com/products/histology-instruments/cassette-printing?q=&page=1&sort=relevance"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.diapath.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.matsunami-glass.co.jp/english/life/clinical_g/data35.html"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.pro-lab.com/?country=us"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.agilent.com/en/dako-products?gclid=CjwKCAiAxP2eBhBiEiwA5puhNZU3SFrQ7Jf2hMPGj5fDbraiYlXfWz96GvE3utIamKWym_9QvcaWWBoCcs4QAvD_BwE&gclsrc=aw.ds"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.elisasystems.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.biocartis.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.hologic.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.biochain.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.masterdiagnostica.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.phadia.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://dbiosys.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.biokit.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.milestonemed.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://www.histocyte.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://permagenlabware.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://bentleyinstruments.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.phe-culturecollections.org.uk/collections/nctc.aspx"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "http://helica.com/food-safety/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://bionanogenomics.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://codexdna.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.micropticsl.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.behnk.de/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.snibe.com/en/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.ngbiotech.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.tecan.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://gethublet.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://paa-automation.com"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://peakrobotics.com"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://innuscreen.ist-ag.com"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://self-screen.nl/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.bluecatbio.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://irishlifesciences.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.altemislab.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.pixcell-medical.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://liconic.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.vircell.com/en"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.menarinidiagnostics.com/en-us/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://oxgensolutions.com/"
+},
+{
+"text": "לאתר החברה",
+"title": "",
+"alt": "",
+"href": "https://www.alliance-bio-expertise.com/en/"
+},
+{
+"text": "למדיניות הפרטיות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/privacy-policy/"
+},
+{
+"text": "בלוג",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%d7%91%d7%9c%d7%95%d7%92/"
+},
+{
+"text": "מדיניות פרטיות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/privacy-policy/"
+},
+{
+"text": "Facebook",
+"title": "",
+"alt": "",
+"href": "https://www.facebook.com/Gamidor/"
+},
+{
+"text": "Linkedin",
+"title": "",
+"alt": "",
+"href": "https://il.linkedin.com/company/gamidor-diagnostics"
+},
+{
+"text": "הצהרת מדיניות אבטחת מידע",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%D7%94%D7%A6%D7%94%D7%A8%D7%AA-%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA-%D7%90%D7%91%D7%98%D7%97%D7%AA-%D7%9E%D7%99%D7%93%D7%A2/"
+},
+{
+"text": "הצהרה משפטית",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il/%D7%94%D7%A6%D7%94%D7%A8%D7%94-%D7%9E%D7%A9%D7%A4%D7%98%D7%99%D7%AA/"
+},
+{
+"text": "talisinay.com",
+"title": "",
+"alt": "",
+"href": "http://www.talisinay.com/"
+},
+{
+"text": "במדיניות הפרטיות",
+"title": "",
+"alt": "",
+"href": "https://gamidor.co.il//privacy-policy/"
+}
+]

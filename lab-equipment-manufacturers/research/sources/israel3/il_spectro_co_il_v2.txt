@@ -1,0 +1,15 @@
+https://spectro.co.il/page-sitemap.xml
+
+2026-10-15T07:46:35+00:00
+
+https://spectro.co.il/blocks-sitemap.xml
+
+2026-09-14T11:56:45+00:00
+
+https://spectro.co.il/product-sitemap.xml
+
+2026-09-14T12:13:11+00:00
+
+https://spectro.co.il/product_cat-sitemap.xml
+
+2026-09-14T12:13:11+00:00

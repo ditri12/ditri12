@@ -1,0 +1,592 @@
+Custom Oligos, Genes, Peptides and Proteins - Hylabs
+
+We value your privacy
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+Customise
+
+Reject All
+
+Accept All
+
+Powered by
+Customise Consent Preferences
+
+We use cookies to help you navigate efficiently and perform certain functions. You will find detailed information about all cookies under each consent category below.
+The cookies that are categorised as "Necessary" are stored on your browser as they are essential for enabling the basic functionalities of the site. ...
+Show more
+Necessary
+Always Active
+Necessary cookies are required to enable the basic features of this site, such as providing secure log-in or adjusting your consent preferences. These cookies do not store any personally identifiable data.
+Cookie
+pll_language
+Duration
+1 year
+Description
+The pll _language cookie is used by Polylang to remember the language selected by the user when returning to the website, and also to get the language information when not available in another way.
+Cookie
+__cf_bm
+Duration
+1 hour
+Description
+This cookie, set by Cloudflare, is used to support Cloudflare Bot Management.
+Cookie
+_cfuvid
+Duration
+session
+Description
+Cloudflare sets this cookie to track users across sessions to optimize user experience by maintaining session consistency and providing personalized services
+Cookie
+_GRECAPTCHA
+Duration
+6 months
+Description
+Google Recaptcha service sets this cookie to identify bots to protect the website against malicious spam attacks.
+Cookie
+visid_incap_*
+Duration
+1 year
+Description
+Incapsula sets this cookie to provide cloud-based website security services.
+Cookie
+incap_ses_*
+Duration
+session
+Description
+This is an Incapsula DDoS Protection and Web Application Firewall cookie that is used to relate HTTP requests to a certain session.
+Cookie
+nlbi_*
+Duration
+session
+Description
+The Hotels Network sets this cookie to improve security and provide load-balancing to ensure that a client's requests are sent to the same origin server.
+Cookie
+rc::a
+Duration
+Never Expires
+Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+Cookie
+rc::f
+Duration
+Never Expires
+Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+Cookie
+wpEmojiSettingsSupports
+Duration
+session
+Description
+WordPress sets this cookie when a user interacts with emojis on a WordPress site. It helps determine if the user's browser can display emojis properly.
+Cookie
+rc::b
+Duration
+session
+Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+Cookie
+rc::c
+Duration
+session
+Description
+This cookie is set by the Google recaptcha service to identify bots to protect the website against malicious spam attacks.
+Cookie
+cookieyes-consent
+Duration
+1 year
+Description
+CookieYes sets this cookie to remember users' consent preferences so that their preferences are respected on subsequent visits to this site. It does not collect or store any personal information about the site visitors.
+Cookie
+datadome
+Duration
+1 year
+Description
+This is a security cookie set by Force24 to detect BOTS and malicious traffic.
+Cookie
+VISITOR_PRIVACY_METADATA
+Duration
+6 months
+Description
+YouTube sets this cookie to store the user's cookie consent state for the current domain.
+Functional
+Functional cookies help perform certain functionalities like sharing the content of the website on social media platforms, collecting feedback, and other third-party features.
+Cookie
+li_gc
+Duration
+6 months
+Description
+Linkedin set this cookie for storing visitor's consent regarding using cookies for non-essential purposes.
+Cookie
+lidc
+Duration
+1 day
+Description
+LinkedIn sets the lidc cookie to facilitate data center selection.
+Cookie
+VISITOR_INFO1_LIVE
+Duration
+6 months
+Description
+A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface.
+Cookie
+yt-remote-connected-devices
+Duration
+Never Expires
+Description
+YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.
+Cookie
+ytidb::LAST_RESULT_ENTRY_KEY
+Duration
+Never Expires
+Description
+The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search result entry that was clicked by the user. This information is used to improve the user experience by providing more relevant search results in the future.
+Cookie
+yt-remote-device-id
+Duration
+Never Expires
+Description
+YouTube sets this cookie to store the user's video preferences using embedded YouTube videos.
+Cookie
+yt-remote-session-name
+Duration
+session
+Description
+The yt-remote-session-name cookie is used by YouTube to store the user's video player preferences using embedded YouTube video.
+Cookie
+yt-remote-fast-check-period
+Duration
+session
+Description
+The yt-remote-fast-check-period cookie is used by YouTube to store the user's video player preferences for embedded YouTube videos.
+Cookie
+yt-remote-session-app
+Duration
+session
+Description
+The yt-remote-session-app cookie is used by YouTube to store user preferences and information about the interface of the embedded YouTube video player.
+Cookie
+yt-remote-cast-available
+Duration
+session
+Description
+The yt-remote-cast-available cookie is used to store the user's preferences regarding whether casting is available on their YouTube video player.
+Cookie
+yt-remote-cast-installed
+Duration
+session
+Description
+The yt-remote-cast-installed cookie is used to store the user's video player preferences using embedded YouTube video.
+Analytics
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.
+Cookie
+_ga_*
+Duration
+1 year 1 month 4 days
+Description
+Google Analytics sets this cookie to store and count page views.
+Cookie
+_ga
+Duration
+1 year 1 month 4 days
+Description
+Google Analytics sets this cookie to calculate visitor, session and campaign data and track site usage for the site's analytics report. The cookie stores information anonymously and assigns a randomly generated number to recognise unique visitors.
+Cookie
+_gid
+Duration
+1 day
+Description
+Google Analytics sets this cookie to store information on how visitors use a website while also creating an analytics report of the website's performance. Some of the collected data includes the number of visitors, their source, and the pages they visit anonymously.
+Cookie
+_gat_UA-*
+Duration
+1 minute
+Description
+Google Analytics sets this cookie for user behaviour tracking.
+
+Cookie
+vuid
+Duration
+1 year 1 month 4 days
+Description
+Vimeo installs this cookie to collect tracking information by setting a unique ID to embed videos on the website.
+Cookie
+pys_session_limit
+Duration
+1 hour
+Description
+PixelYourSite plugin sets this cookie to manage the analytical services.
+Cookie
+pys_start_session
+Duration
+session
+Description
+PixelYourSite plugin sets this cookie to manage the analytical services.
+Cookie
+YSC
+Duration
+session
+Description
+YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages.
+Performance
+Performance cookies are used to understand and analyse the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+No cookies to display.
+Advertisement
+Advertisement cookies are used to provide visitors with customised advertisements based on the pages you visited previously and to analyse the effectiveness of the ad campaigns.
+Cookie
+bcookie
+Duration
+1 year
+Description
+LinkedIn sets this cookie from LinkedIn share buttons and ad tags to recognize browser IDs.
+Cookie
+_gcl_au
+Duration
+3 months
+Description
+Google Tag Manager sets this cookie to experiment advertisement efficiency of websites using their services.
+Cookie
+test_cookie
+Duration
+15 minutes
+Description
+doubleclick.net sets this cookie to determine if the user's browser supports cookies.
+Cookie
+_fbp
+Duration
+3 months
+Description
+Facebook sets this cookie to store and track interactions.
+Cookie
+__Secure-YNID
+Duration
+6 months
+Description
+Google cookie used to protect user security and prevent fraud, especially during the login process.
+Cookie
+__Secure-ROLLOUT_TOKEN
+Duration
+6 months
+Description
+YouTube sets this cookie to manage feature rollout and experimentation. It helps Google control which new features or interface changes are shown to users as part of testing and staged rollouts, ensuring consistent experience for a given user during an experiment.
+Uncategorised
+Other uncategorised cookies are those that are being analysed and have not been classified into a category as yet.
+Cookie
+_pk_id.b0293ac4-ca85-44ea-bf2d-4e7c3ed3449e.493f
+Duration
+1 year 1 month
+Description
+Description is currently not available.
+Cookie
+_pk_ses.b0293ac4-ca85-44ea-bf2d-4e7c3ed3449e.493f
+Duration
+1 hour
+Description
+Description is currently not available.
+Cookie
+__Secure-YEC
+Duration
+past
+Description
+YouTube sets this cookie to stores the user's video player preferences using embedded YouTube video
+Reject All
+
+Save My Preferences
+
+Accept All
+Powered by
+
+Skip to content
+
+ABOUT US
+
+Company Profile
+
+Managment
+
+Associate Owners
+
+Accreditations
+
+Subsidiaries
+
+Alagene
+
+Progenetics
+
+Hylabs – Seegene
+
+Careers
+
+PRODUCTS
+
+Clinical Diagnostic
+
+Pharma
+
+Food & Water
+
+Research
+
+Production Catalog
+
+SERVICES
+
+Contemination & Impurity Testing
+
+Genomics & Sequencing
+
+R&D Projects
+
+Cell-Culture & Virology
+
+Microbial & Environmental Monitoring
+
+Precision Oncology
+
+Go to Progenetics
+
+Synthetic Biology
+
+Go to Alagene
+
+Full Catalog
+
+REPRESENTED COMPANIES
+
+NEWS
+
+CONTACT US
+
+VIDEO & WEBINARS
+
+BLOG
+
+CUSTOMERS AREA
+
+Lab Services
+
+Custom Products
+
+Results
+
+MSDS/COA
+
+ABOUT US
+
+Company Profile
+
+Managment
+
+Associate Owners
+
+Accreditations
+
+Careers
+
+PRODUCTS
+
+Clinical Diagnostic
+
+Food & water, Veterinary Diagnostic
+
+Biotechnology & Pharma
+
+Research
+
+Production Catalog
+
+SERVICES
+
+Contemination & Impurity Testing
+
+Genomics & Sequencing
+
+R&D Projects
+
+Cell-culture & Virology
+
+Microbial & Environmental Monitoring
+
+Full Catalog
+
+REPRESENTED COMPANIES
+
+NEWS
+
+CONTACT US
+
+VIDEO & WEBINARS
+
+BLOG
+
+CUSTOMERS AREA
+
+Lab services
+
+Custom products
+
+Results
+
+MSDS/COA
+
+NGS - Library Preparation
+
+Custom Oligos, Genes and Peptides
+
+Instrumentation
+
+DNA / RNA Extraction Kits
+
+PCR & qPCR
+
+Nucleic Acid Electrophoresis
+
+Fluorescence and Cell counting Assays
+
+Western Blot and Protein ladders
+
+Enzymes
+
+Molecular Biology Grade Solutions
+
+Prepared Media
+
+Cleaning & Disinfection
+
+HyLabs
+Products
+Research
+Custom Oligos, Genes and Peptides
+
+Custom Oligos, Genes and Peptides
+
+We are working with top companies to provide our customers with high quality custom made Oligos, Genes, Peptides and Antibodies and Proteins.
+
+Our portfolio is varied and provide solutions for different markets, research domains and applications.
+
+METABION- CUSTOM OLIGOS
+
+AZENTA (GENEWIZ) – GENOMICS SERVICES
+
+PEPTIDES
+
+AMONGST OUR REPRESENTED COMPANIES
+
+REPRESENTED COMPANIES
+
+MICROBIOLOGY
+
+MOLECULAR BIOLOGY
+
+IMMUNOLOGY
+
+CLEANING & DISINFECTION
+
+Please contact us and we will
+
+get back to you shortly
+
+Select Sector *
+Academy/Research
+Clinical
+Cosmetic/Food/Water
+Pharma/Biotech
+Other
+
+I agree to receive marketing messages and advertisements from the Company by email and/or text messages (SMS and similar messaging services, including WhatsApp)
+
+I have read and understood the website’s
+Privacy Policy
+and
+Terms of Use
+, and I agree to them.
+
+Follow us on
+
+About us
+
+Video
+
+Represented companies
+
+Contact us
+
+Clinical & Veterinary Diagnostic
+
+Food & water
+
+Research
+
+Accreditations & Certifications
+
+BioPharma
+
+Medical Devices
+
+Clean rooms
+
+Cell Therapy
+
+Water
+
+Website by
+Mixermedia
+
+© All rights reserved Hylabs 2021 -
+
+מדיניות פרטיות
+
+|
+
+תנאי שימוש
+
+אותו מספר וואטצאפ בשירות משודרג, מוזמנים לנסות
+
+TEST TEST
+
+ok! create a quick account:
+
+X
+
+Full name *
+
+Company *
+
+E-mail *
+
+Sector *
+
+Choose
+
+Pharma/BIOTECH
+
+Academy
+
+Food-Water
+
+Clinical
+
+Other
+
+I agree to recieve newsletters and updates & accept
+hylabs
+.
+Terms and Conditions
+
+Submit
+
+You are welcome to enjoy our free content:
+
+X
+
+Remember me
+
+Log in
+
+366
+Array
+(
+[0] => 13
+[1] => 38
+[2] => 234
+[3] => 53
+)

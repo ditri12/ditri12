@@ -1,0 +1,502 @@
+TitriSoft — תוכנת ניהול טיטרציה (SI Analytics) | BioAnalytics
+
+דילוג לתוכן
+
+פתח סרגל נגישות
+
+כלי נגישות
+
+הגדל טקסט
+
+הקטן טקסט
+
+גווני אפור
+
+ניגודיות גבוהה
+
+ניגודיות הפוכה
+
+רקע בהיר
+
+הדגשת קישורים
+
+פונט קריא
+
+איפוס
+
+מפת אתר
+
+הצהרת נגישות
+
+דלג לתוכן
+ביואנליטיקס
+Automated Sample Preparation (SPE)
+אודותינו
+פרסים
+פרס המורה המצטיין לכימיה לשנת 2026 – מיכל בן אליהו וליטל אריה
+פרס המורה המצטיין לכימיה לשנת 2025 – הגב' מרים צ'ולסקי
+פרס לסטודנט דוקטורט המצטיין לשנת 2025 – מר נדים אגבאריה
+פרס ICS–BioAnalytics למנהלנית המצטיינת לשנת 2025 – הגב' שושנה צדיק
+פרס ICS–BioAnalytics לשנת 2025 למנהלנית המצטיינת לשנת 2017 – הגב' אסתר שוען
+מחלקות החברה
+מכירות
+שרות וכיולים
+אבטחת איכות QA
+אדמיניסטרציה ותפעול
+מוצרי ביואנליטיקס
+אלקטרוכימיה
+Ivium
+Palmsens
+ALS-Japan Electrodes
+Scribner
+Leancat
+Basi Research
+redox.me
+BVT Technologies
+Micrux
+כרומטוגרפיה פרפרטיבית ופלאש
+מדי pH, מוליכות, אלקטרודות ועוד
+אלקטרודות
+אלקטרודות למדידת pH
+אלקטרודות למדידת pH מבית SI Analytics
+אלקטרודות למדידת מוליכות
+אלקטרודות למדידת מוליכות מבית WTW
+אלקטרודות רפרנס
+אלקטרודות סלקטיביות
+אלקטרודות תעשייתיות
+אלקטרודות טיטרציה
+מדי pH
+מדי מוליכות
+Titration Masters
+Karl Fischer Titration Masters
+TL 5000-compact titrator
+TL 7500 Titrator
+TL 7750 Titrator
+TL7000 titrator
+TL 7800 Titrator
+TW 7200 Autosampler
+TW 7450 Sample Changer
+TITRONIC 300
+TITRONIC 500
+Exchangeable heads for titrators and piston burettes
+TitriSoft – Titration Software
+מערכות ניטור טמפרטורה
+מערכת ניטור טמפרטורה מתקדמת למעבדות פארמה וביוטק
+מערכת ניטור טמפרטורה מתקדמת לתעשיית המזון
+מערכת ניטור טמפרטורה מתקדמת למעבדות אקדמיה
+מערכת אלחוטית לניטור ובקרת טמפרטורה ולחות
+מיקרוסקופים למעבדה
+כרומטוגרפיה
+HPLC Columns
+GC Columns
+Pumps
+Piston Pumps
+Syringe Pumps
+Evaporation
+Skalar – Analyzers
+SAN++ Series
+SAN++ Compact
+SAN++ Classic/Advanced
+TOC- Total Organic Carbon
+אוטומציה ורובוטיקה
+General Lab Instruments
+Chillers and Circulators
+Ultrasonic Baths
+Liquids Baths
+Dry Blocks
+UV-Cabinets
+Rotators
+Centrifuges
+Shakers
+Mixers and Stirrers
+Cryogen free controlled freezer​
+מדי טמפרטורה לחדרים, מקררים, נוזלים ומוצקים
+HANNA – מד טמפרטורה מכוייל
+TP53 מד חום ומד לחות לחדרים ולמקררים ThermoPro
++Elitech RC-5 – מד טמפרטורה ודאטה לוגר נייד
+AZ 88162 דאטה לוגר – מד לחות וטמפרטורה
+Testo 104-IR – מד טמפרטורה לתעשיית המזון
+UNI-T A63
+כיול מד טמפרטורה
+כיולים
+כיול פיפטורים
+כיול פיפטורים בראש שקט
+כיול פיפטורים למעבדות מחקר אקדמיות
+כיול טיטרטור
+כיול בירטה
+כיול אינקובטור, כיול מקרר, כיול תנור ועוד
+ולידציה למקררים
+נוהל 126
+כיול מד טמפרטורה
+כיול מד לחץ
+כיול pH meter , כיול מד מוליכות
+שרות טכני
+הצוות שלנו
+ביואנליטיקס מעבדת כיול מוסמכת ISO17025
+ביו-בלוג
+האקדמיה
+אלקטרוכימיה
+טיטרציות וקארל פישר
+כרומטוגרפיה פרפרטיבית
+אלקטרודות ומכשירי pH
+Circular Dichroism and Stopped Flow
+High Pressure Pumps
+EN
+
+ביואנליטיקס
+Automated Sample Preparation (SPE)
+אודותינו
+פרסים
+פרס המורה המצטיין לכימיה לשנת 2026 – מיכל בן אליהו וליטל אריה
+פרס המורה המצטיין לכימיה לשנת 2025 – הגב' מרים צ'ולסקי
+פרס לסטודנט דוקטורט המצטיין לשנת 2025 – מר נדים אגבאריה
+פרס ICS–BioAnalytics למנהלנית המצטיינת לשנת 2025 – הגב' שושנה צדיק
+פרס ICS–BioAnalytics לשנת 2025 למנהלנית המצטיינת לשנת 2017 – הגב' אסתר שוען
+מחלקות החברה
+מכירות
+שרות וכיולים
+אבטחת איכות QA
+אדמיניסטרציה ותפעול
+מוצרי ביואנליטיקס
+אלקטרוכימיה
+Ivium
+Palmsens
+ALS-Japan Electrodes
+Scribner
+Leancat
+Basi Research
+redox.me
+BVT Technologies
+Micrux
+כרומטוגרפיה פרפרטיבית ופלאש
+מדי pH, מוליכות, אלקטרודות ועוד
+אלקטרודות
+אלקטרודות למדידת pH
+אלקטרודות למדידת pH מבית SI Analytics
+אלקטרודות למדידת מוליכות
+אלקטרודות למדידת מוליכות מבית WTW
+אלקטרודות רפרנס
+אלקטרודות סלקטיביות
+אלקטרודות תעשייתיות
+אלקטרודות טיטרציה
+מדי pH
+מדי מוליכות
+Titration Masters
+Karl Fischer Titration Masters
+TL 5000-compact titrator
+TL 7500 Titrator
+TL 7750 Titrator
+TL7000 titrator
+TL 7800 Titrator
+TW 7200 Autosampler
+TW 7450 Sample Changer
+TITRONIC 300
+TITRONIC 500
+Exchangeable heads for titrators and piston burettes
+TitriSoft – Titration Software
+מערכות ניטור טמפרטורה
+מערכת ניטור טמפרטורה מתקדמת למעבדות פארמה וביוטק
+מערכת ניטור טמפרטורה מתקדמת לתעשיית המזון
+מערכת ניטור טמפרטורה מתקדמת למעבדות אקדמיה
+מערכת אלחוטית לניטור ובקרת טמפרטורה ולחות
+מיקרוסקופים למעבדה
+כרומטוגרפיה
+HPLC Columns
+GC Columns
+Pumps
+Piston Pumps
+Syringe Pumps
+Evaporation
+Skalar – Analyzers
+SAN++ Series
+SAN++ Compact
+SAN++ Classic/Advanced
+TOC- Total Organic Carbon
+אוטומציה ורובוטיקה
+General Lab Instruments
+Chillers and Circulators
+Ultrasonic Baths
+Liquids Baths
+Dry Blocks
+UV-Cabinets
+Rotators
+Centrifuges
+Shakers
+Mixers and Stirrers
+Cryogen free controlled freezer​
+מדי טמפרטורה לחדרים, מקררים, נוזלים ומוצקים
+HANNA – מד טמפרטורה מכוייל
+TP53 מד חום ומד לחות לחדרים ולמקררים ThermoPro
++Elitech RC-5 – מד טמפרטורה ודאטה לוגר נייד
+AZ 88162 דאטה לוגר – מד לחות וטמפרטורה
+Testo 104-IR – מד טמפרטורה לתעשיית המזון
+UNI-T A63
+כיול מד טמפרטורה
+כיולים
+כיול פיפטורים
+כיול פיפטורים בראש שקט
+כיול פיפטורים למעבדות מחקר אקדמיות
+כיול טיטרטור
+כיול בירטה
+כיול אינקובטור, כיול מקרר, כיול תנור ועוד
+ולידציה למקררים
+נוהל 126
+כיול מד טמפרטורה
+כיול מד לחץ
+כיול pH meter , כיול מד מוליכות
+שרות טכני
+הצוות שלנו
+ביואנליטיקס מעבדת כיול מוסמכת ISO17025
+ביו-בלוג
+האקדמיה
+אלקטרוכימיה
+טיטרציות וקארל פישר
+כרומטוגרפיה פרפרטיבית
+אלקטרודות ומכשירי pH
+Circular Dichroism and Stopped Flow
+High Pressure Pumps
+EN
+
+חפש
+
+TitriSoft – Titration Software by SI Analytics
+Karl Fischer
+TL7500
+TL7750
+Titrators
+TL5000
+TL7000
+TL7750
+TL7800
+Automation
+TW7200
+TW7450
+Dosimats
+TITRONIC 300
+TITRONIC 500
+TitriSoft
+Metrohm
+Applications
+TL7000 Automatic Titrator
+
+Karl Fischer
+TL7500
+TL7750
+Titrators
+TL5000
+TL7000
+TL7750
+TL7800
+Automation
+TW7200
+TW7450
+Dosimats
+TITRONIC 300
+TITRONIC 500
+TitriSoft
+Metrohm
+Applications
+TL7000 Automatic Titrator
+טיטרוסופט - תוכנה לטיטרציה
+TitriSoft Titration Software
+טיטרוסופט - תוכנה לטיטרציה
+TitriSoft הוא תוכנת טיטרציה מתקדמת שפותחה על ידי SI Analytics, המיועדת לפשט ולשפר את תהליך הטיטרציה.
+התוכנה תואמת למגוון מכשירי טיטרציה, כולל TITRONIC® 300, TITRONIC® 500, וסדרת TitroLine® (7000 – 7800), ומציעה ממשק ידידותי למשתמש ותכונות חזקות.
+התוכנה תומכת במשימות שונות כגון הכנת דוגמאות, ביצוע טיטרציה והערכת תוצאות, מה שהופך אותה לכלי חיוני למעבדות השואפות לדיוק ויעילות.
+TitriSoft תואמת למערכות ההפעלה Windows 7, 8.1 ו-10, ומבטיחה נגישות רחבה וקלות אינטגרציה במעבדות קיימות.
+TitriSoft Titration Software
+TitriSoft is a sophisticated titration software developed by SI Analytics, designed to streamline and enhance the titration process.
+Compatible with a range of titration devices, including the TITRONIC® 300, TITRONIC® 500, and the TitroLine® series (7000 – 7800), this software offers a user-friendly interface and robust functionality.
+It supports various tasks such as sample preparation, titration execution, and result evaluation, making it an essential tool for laboratories aiming for precision and efficiency.
+TitriSoft is compatible with Windows 7, 8.1, and 10, ensuring broad accessibility and ease of integration into existing lab setups.
+
+קבל הצעת מחיר
+
+לאתר היצרן
+
+התקשר אלינו
+
+לפרטים נוספים והצעת מחיר, מלא את הפרטים למטה
+
+שם מלא
+
+מייל
+
+טלפון
+
+שם חברה
+
+שליחה
+
+אני מאשר/ת את
+מדיניות הפרטיות
+ומסכים/ה לשימוש במידע כדי להעניק לי חוויית שירות טובה יותר.
+
+More information
+Specifications
+Product
+Description
+TitriSoft 3.5
+titration software for TitroLine® 7000, TitroLine® 7500 KF/7500 KF trace, TitroLine® 7750/7800 and TitroLine® alpha plus
+TitriSoft 3.5P
+titration software like version 3.5 but 21 CFR compliant
+TitriSoft 3.5
+Update titration software from version 2.6 and 2.7 to version 3.5 for TitroLine® 7000, TitroLine® 7500 KF/7500 KF trace, TitroLine® 7750/7800 and TitroLine® alpha plus
+TitriSoft 3.5P
+titration software like version 3.5 but 21 CFR compliant. Update version from 2.6P and 2.7P to 3.5P
+TitriSoft 3.5P
+Update titration software from version 3.5 to version 3.5P for TitroLine® 7000, TitroLine® 7500 KF/7500 KF trace, TitroLine® 7750/7800 and TitroLine® alpha plus
+Links and downloads​
+
+TitriSoft Software user manual
+
+Xylem Analytics Titration Catalogue
+
+BioAnalytics Titration Lab
+
+מוצרים בקטגוריה
+
+Entry Level Titrator
+
+TL 5000
+
+לעמוד המוצר
+
+All in One Titrator
+
+TL 7800
+
+לעמוד המוצר
+
+Advanced Titrator
+
+TL 7000
+
+לעמוד המוצר
+
+Advanced All in one Titrator
+
+TL 7750
+
+לעמוד המוצר
+
+Karl Fischer
+
+TL 7500
+
+לעמוד המוצר
+
+Titration Software
+
+Titrisoft
+
+לעמוד המוצר
+
+Titration Automation
+
+TW 7200
+
+לעמוד המוצר
+
+Titration Automation
+
+TW 7450
+
+לעמוד המוצר
+
+Titration masters
+
+מעבדת אפליקציה
+
+לעמוד המוצר
+
+כיול טיטרטור
+
+מעבדת כיולים
+
+לעמוד השרות
+
+כיול בירטה
+
+Exchange unit
+
+לעמוד הכיול
+
+האקדמיה לטיטרציות של ביואנליטיקס
+הדרכות, דפי נוסחאות, דפי עזר ועוד…
+
+טיטרציה של כלורידים
+
+דפי עזר
+
+להדרכה לחץ כאן
+
+Exchange unit
+
+תאום על טיטרטור
+
+להדרכה לחץ כאן
+
+Exchange unit
+
+Tutorial
+
+להדרכה לחץ כאן
+
+Karl Fischer Tutorial
+
+TL 7500
+
+להדרכה לחץ כאן
+
+please note: the information provided here is for reference for users only (metrohm karl fischer titrators). BioAnalytics is not an official ‎distributor of Metrohm in Israel, nor is it affiliated with Metrohm ’s subsidiaries nor Metrohm representatives in ‎Israel.‎
+the Metrohm titrators shown in the pictures, including the metrohm titrino, Metrohm titrando, Metrohm dosino, and other metrohm titration items, are all from BioAnalytics inventory or Bioanalytics application laboratory.
+BioAnalytics is an ISO/IEC 17025:2017 accredited calibration laboratory. we calibrate and service titrators, including Metrohm titrators and Metrohm Karl Fischer.
+*
+The Metrohm word and Metrohm logo are registered trademarks of Metrohm AG.
+
+השאר פרטים
+
+הפתרונות המתקדמים שלנו נמצאים במרחק שיחת טלפון אחת ממך.
+רק להשאיר פרטים - ואנחנו כבר נחזור אליכם
+
+Linkedin-in
+
+Youtube
+
+Envelope
+
+Google-plus-g
+
+משרד: 072-2429555
+
+פקס: 072-2429666
+
+שם מלא
+
+מייל
+
+טלפון
+
+שם חברה
+
+במה אתה מתעניין?
+
+שליחה
+
+אני מאשר/ת את
+מדיניות הפרטיות
+ומסכים/ה לשימוש במידע כדי להעניק לי חוויית שירות טובה יותר.
+
+פותח ב-
+♥
+על ידי דיגימה
+
+עוצב על ידי סטודיו lowtech
+
+הצהרת נגישות
+
+כמו בכל ניסוי טוב, גם אנחנו אוספים קצת נתונים: האתר משתמש בעוגיות לשיפור חוויית הגלישה.
+מדיניות הפרטיות
+
+מובן

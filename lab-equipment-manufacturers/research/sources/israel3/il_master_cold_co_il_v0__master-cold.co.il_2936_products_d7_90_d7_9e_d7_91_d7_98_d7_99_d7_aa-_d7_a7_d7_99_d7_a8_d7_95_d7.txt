@@ -1,0 +1,133 @@
+﻿
+
+אמבטית קירור\חימום SC-8005 | |
+
+דף הבית
+
+קטלוג
+
+מוצרים
+
+חדשות
+
+אודות החברה
+
+צור קשר
+
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+Be excellent : everyday, in every place, every one of us.
+
+אמבטית קירור\חימום SC-8005
+
+Product Application
+
+Widely used in petrochemical, chemical, pharmaceutical, bioengineering, life science, Light industry and food Industry, sample testing and so on, providing a high-precision constant temperature liquid environment.
+
+Technical Parameters:
+
+Temperature Range ˚C
+
+-80.00℃～100.00℃
+
+Control Mode
+
+Feedforward PID +Our special dynamic control calculation, PLC controller
+
+Temp. control
+
+Option: process temperature control or jacket oil temperature control
+
+Program Editor
+
+20 programs, each program can edit 45 steps
+
+Temp. accuracy
+
+±0.03℃ at -70℃
+
+Effective volume
+
+5L
+
+Operation Panel
+
+7-inch color touch screen controller, temperature curve record, data export to excel format
+
+Heating power
+
+600W
+
+Cooling capacity
+
+20°C
+
+600W
+
+-20°C
+
+550W
+
+-35°C
+
+480W
+
+-45°C
+
+350W
+
+-75°C
+
+100W
+
+Circulation pump
+
+Max10L/min 0.7bar
+
+Operation Panel
+
+7-inch color touch screen controller, temperature curve record, data export to excel format
+
+Safety protection
+
+Self-diagnosis function; freezer overload protection; high pressure switch, overload relay, thermal protection device, liquid low level protection, high temperature protection and temperature fault protection
+
+Data record
+
+Temperature curve records, USB data export ( Excel format)
+
+Dimension
+
+400mm*550mm*750mm
+
+Weight
+
+62KG
+
+Case material
+
+SUS 304
+
+Optional
+
+Optional Ethernet interface , configure PC operating software
+
+Optional outside touch screen display controller (separated),the communication line distance is 10 meter
+
+164
+קולות, בממוצא
+
+9.0
+נקודות מ
+10
+נקודות.
+
+מוצרים
+קטלוג מעבדתי
+
+מכשור יד שניה
+
+מיכשור מעבדתי ותעשייתי
+
+master-cold.co.il 2012 ©
