@@ -8,6 +8,15 @@
    "confidence": "mention",
    "mentions": 1,
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Active Motif provides tools for chromatin analysis, epigenetic research, CRISPR, and protein interaction studies.",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
   }
  ],
  "antibodies com": [
@@ -21,10 +30,30 @@
    "evidence_year": 2026
   }
  ],
+ "arkray": [
+  {
+   "distributor": "il4_ilex_home",
+   "site": "ilexmedical.com",
+   "page_url": "https://www.ilexmedical.com/catallog_category/%d7%a9%d7%aa%d7%a0%d7%99%d7%9d-%d7%95%d7%9e%d7%99%d7%a7%d7%a8%d7%95%d7%a1%d7%a7%d7%95%d7%a4%d7%99%d7%94/",
+   "evidence": "חברת אילקס מדיקל מציעה פתרונות לבדיקות אוסמולריות ושתן כללי ובדיקת מיקרוסקופיה הכוללים מכשור וראגנטים מתוצרת חברות ARKRA",
+   "confidence": "mention",
+   "mentions": 3,
+   "evidence_year": 2026
+  }
+ ],
  "aviva systems biology": [
   {
    "distributor": "il_almog_co_il",
    "site": "almog.co.il",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Aviva Systems Biology provides antibodies, ELISA kits, proteins, and gene expression tools for proteomics and genomics r",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
    "page_url": "https://www.almog.co.il/suppliers",
    "evidence": "Aviva Systems Biology provides antibodies, ELISA kits, proteins, and gene expression tools for proteomics and genomics r",
    "confidence": "mention",
@@ -96,12 +125,30 @@
    "confidence": "mention",
    "mentions": 1,
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Bioptechs designs precision temperature-controlled imaging chambers, objective heaters, and flow cells for live cell mic",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
   }
  ],
  "boster bio": [
   {
    "distributor": "il_almog_co_il",
    "site": "almog.co.il",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Boster Bio offers high-quality ELISA kits, antibodies, and proteins with excellent specificity and reproducibility.",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
    "page_url": "https://www.almog.co.il/suppliers",
    "evidence": "Boster Bio offers high-quality ELISA kits, antibodies, and proteins with excellent specificity and reproducibility.",
    "confidence": "mention",
@@ -118,12 +165,30 @@
    "confidence": "mention",
    "mentions": 1,
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Cellecta offers lentiviral shRNA and CRISPR libraries, barcoded reporters, and functional genomics tools for pooled scre",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
   }
  ],
  "ecm biosciences": [
   {
    "distributor": "il_almog_co_il",
    "site": "almog.co.il",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "ECM Biosciences supplies extracellular matrix proteins, antibodies, and assay kits for studying cell adhesion, migration",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
    "page_url": "https://www.almog.co.il/suppliers",
    "evidence": "ECM Biosciences supplies extracellular matrix proteins, antibodies, and assay kits for studying cell adhesion, migration",
    "confidence": "mention",
@@ -140,6 +205,15 @@
    "confidence": "mention",
    "mentions": 1,
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Enzo Life Sciences offers biochemical tools, fluorescent probes, ELISA kits, and proteasome/apoptosis research reagents ",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
   }
  ],
  "epicypher": [
@@ -149,7 +223,18 @@
    "page_url": "https://www.enco.co.il/",
    "evidence": "Epicypher - CUTANA CUT&Tag Assays for chromatin mapping with low cell numbers",
    "confidence": "mention",
-   "mentions": 2,
+   "mentions": 4,
+   "evidence_year": 2026
+  }
+ ],
+ "eppendorf": [
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/centrifuges/",
+   "evidence": "Labotal גאה להציע מגוון רחב של צנטריפוגות מהמותגים המובילים והאמינים בעולם, כגון Hettich ו-Eppendorf. אנו משווקים פתרונו",
+   "confidence": "mention",
+   "mentions": 1,
    "evidence_year": 2026
   }
  ],
@@ -181,6 +266,17 @@
    "site": "hylabs.co.il/sitemap.xml",
    "page_url": "https://www.hylabs.co.il/product-cat/clinical-veterinary-diagnostic/media-fill/",
    "evidence": "Hardy Diagnostics offers all the products you need to easily assess the risk of microbial contamination of your CSPs (Co",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  }
+ ],
+ "hettich": [
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/centrifuges/",
+   "evidence": "Labotal גאה להציע מגוון רחב של צנטריפוגות מהמותגים המובילים והאמינים בעולם, כגון Hettich ו-Eppendorf. אנו משווקים פתרונו",
    "confidence": "mention",
    "mentions": 1,
    "evidence_year": 2026
@@ -219,10 +315,30 @@
    "evidence_year": 2026
   }
  ],
+ "qiagen": [
+  {
+   "distributor": "il4_ilex_home",
+   "site": "ilexmedical.com",
+   "page_url": "https://www.ilexmedical.com/catallog_category/%d7%91%d7%99%d7%95%d7%9c%d7%95%d7%92%d7%99%d7%94-%d7%9e%d7%95%d7%9c%d7%a7%d7%95%d7%9c%d7%a8%d7%99%d7%aa/",
+   "evidence": "קבוצת אילקס מציעה מגוון רחב של פתרונות מולקולריים חדשניים ומתקדמים עבור האקדמיה, הביוטק והקליניקה. הפתרונות המוצעים הינם",
+   "confidence": "mention",
+   "mentions": 3,
+   "evidence_year": 2026
+  }
+ ],
  "raybiotech": [
   {
    "distributor": "il_almog_co_il",
    "site": "almog.co.il",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "RayBiotech develops protein and antibody arrays enabling multiplex biomarker discovery and cytokine profiling.",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
    "page_url": "https://www.almog.co.il/suppliers",
    "evidence": "RayBiotech develops protein and antibody arrays enabling multiplex biomarker discovery and cytokine profiling.",
    "confidence": "mention",
@@ -237,7 +353,7 @@
    "page_url": "https://newroad.co.il/",
    "evidence": "Official distributor for HORIBA Scientific, Retsch, NanoSurf, StellarNet, PCO and Biolin Scientific in Israel.",
    "confidence": "mention",
-   "mentions": 2,
+   "mentions": 3,
    "evidence_year": 2026
   }
  ],
@@ -245,6 +361,15 @@
   {
    "distributor": "il_almog_co_il",
    "site": "almog.co.il",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Salimetrics provides salivary bioscience solutions including cortisol, alpha-amylase, and immunoglobulin assay kits for ",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
    "page_url": "https://www.almog.co.il/suppliers",
    "evidence": "Salimetrics provides salivary bioscience solutions including cortisol, alpha-amylase, and immunoglobulin assay kits for ",
    "confidence": "mention",
@@ -261,12 +386,30 @@
    "confidence": "mention",
    "mentions": 1,
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Santa Cruz Biotechnology offers an extensive portfolio of 175,000+ antibodies, biochemicals, and specialty lab reagents ",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
   }
  ],
  "slingshot biosciences": [
   {
    "distributor": "il_almog_co_il",
    "site": "almog.co.il",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Slingshot Biosciences develops synthetic cell standards that mimic human cells for flow cytometer calibration, normaliza",
+   "confidence": "mention",
+   "mentions": 1,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
    "page_url": "https://www.almog.co.il/suppliers",
    "evidence": "Slingshot Biosciences develops synthetic cell standards that mimic human cells for flow cytometer calibration, normaliza",
    "confidence": "mention",
@@ -282,6 +425,15 @@
    "evidence": "Synthego delivers CRISPR genome engineering products including synthetic guide RNAs and cell engineering services.",
    "confidence": "mention",
    "mentions": 2,
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_almog_suppliers2",
+   "site": "almog.co.il/suppliers",
+   "page_url": "https://www.almog.co.il/suppliers",
+   "evidence": "Synthego delivers CRISPR genome engineering products including synthetic guide RNAs and cell engineering services.",
+   "confidence": "mention",
+   "mentions": 1,
    "evidence_year": 2026
   }
  ],

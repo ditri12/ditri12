@@ -69,6 +69,14 @@
    "evidence": "ABclonal",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "ABclonal",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "acrobiosystems": [
@@ -99,6 +107,14 @@
    "evidence": "Adipogen",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_tamar_brands",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/",
+   "evidence": "Adipogen – Monoclonal & Polyclonal",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "agilent": [
@@ -115,6 +131,22 @@
    "site": "isil.co.il/sitemap.xml",
    "page_url": "https://www.isil.co.il/Vacuum-and-Technology-Partners",
    "evidence": "Agilent Vacuum Technologies",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eldan_home",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/life-science-division/",
+   "evidence": "Agilent",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lumitron_brands",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Agilent – Cell Analysis",
    "confidence": "contained",
    "evidence_year": 2026
   }
@@ -183,6 +215,14 @@
    "evidence": "Arbor Assays",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Arbor Assays",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "assay genie": [
@@ -190,6 +230,14 @@
    "distributor": "il_ornat_co_il",
    "site": "ornat.co.il",
    "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "Assay Genie",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/reagents/protein-related-products/",
    "evidence": "Assay Genie",
    "confidence": "exact",
    "evidence_year": 2026
@@ -207,6 +255,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Assaypro",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Assaypro",
    "confidence": "exact",
@@ -277,6 +333,14 @@
    "evidence": "Bachem",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bachem",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "bellco": [
@@ -295,6 +359,14 @@
    "evidence": "רולר -Bellco",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Bellco",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "benchmark": [
@@ -305,11 +377,27 @@
    "evidence": "Benchmark Scientific",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Benchmark Scientific",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "benchmark scientific": [
   {
    "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Benchmark Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "Benchmark Scientific",
@@ -333,6 +421,14 @@
    "site": "labotal.co.il",
    "page_url": "https://labotal.co.il/represented-firms/",
    "evidence": "Binder",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/incubators-and-ovens/",
+   "evidence": "אינקובטורים למעבדה מבית BINDER",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -361,6 +457,14 @@
    "evidence": "Bio-Rad",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bio-Rad",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "bio x cell": [
@@ -379,11 +483,27 @@
    "evidence": "Bio X Cell",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bio X Cell",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "biochrom": [
   {
    "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Biochrom UK",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "Biochrom UK",
@@ -409,11 +529,27 @@
    "evidence": "BIOLINE",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "BIOLINE",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "bioplastics": [
   {
    "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "BIOplastics BV",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "BIOplastics BV",
@@ -449,6 +585,14 @@
    "evidence": "Biotage Israel",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_bargal_brands",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "Biotage Israel",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "biotium": [
@@ -475,11 +619,27 @@
    "evidence": "Biotium",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Biotium",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "biotix": [
   {
    "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Biotix",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
    "site": "lifegene.co.il",
    "page_url": "https://www.lifegene.co.il/",
    "evidence": "Biotix",
@@ -510,6 +670,14 @@
    "distributor": "il_ornat_co_il",
    "site": "ornat.co.il",
    "page_url": "https://ornat.co.il/instruments/",
+   "evidence": "Blue-Ray Biotech",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/instruments/centrifuges/",
    "evidence": "Blue-Ray Biotech",
    "confidence": "exact",
    "evidence_year": 2026
@@ -581,6 +749,14 @@
    "evidence": "Cayman Chemical",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Cayman Chemical",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "cell signaling technology": [
@@ -588,6 +764,14 @@
    "distributor": "il_ornat_co_il",
    "site": "ornat.co.il",
    "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "Cell Signaling Technology (CST)",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/reagents/protein-related-products/",
    "evidence": "Cell Signaling Technology (CST)",
    "confidence": "exact",
    "evidence_year": 2026
@@ -657,11 +841,27 @@
    "evidence": "Cleaver Scientific",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/manufacturer/thistle-scientific",
+   "evidence": "Cleaver Scientific DGGE",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "conda": [
   {
    "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Conda",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
    "site": "lifegene.co.il",
    "page_url": "https://www.lifegene.co.il/",
    "evidence": "Conda",
@@ -713,11 +913,35 @@
    "evidence": "Cytiva",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Cytiva",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eisenberg_brands",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/partners/",
+   "evidence": "pall-cytiva-logo",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "diversified biotech": [
   {
    "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Diversified Biotech",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
    "site": "yarden-biotec.co.il",
    "page_url": "https://www.yarden-biotec.co.il/",
    "evidence": "Diversified Biotech",
@@ -821,6 +1045,46 @@
    "evidence": "Electron Microscopy",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_rhenium_brands",
+   "site": "rhenium.co.il/brands",
+   "page_url": "https://rheniumbio.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_rhenium_suppliers",
+   "site": "rhenium.co.il/suppliers",
+   "page_url": "https://rheniumbio.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_rhenium_about",
+   "site": "rhenium.co.il/about",
+   "page_url": "https://rheniumbio.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_bargal_brands",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "elma": [
@@ -833,9 +1097,27 @@
    "evidence_year": 2026
   }
  ],
+ "elmi": [
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/instruments/centrifuges/",
+   "evidence": "ELMI",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "eppendorf": [
   {
    "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Eppendorf",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lumitron_brands",
    "site": "lumitron.co.il",
    "page_url": "https://www.lumitron.co.il/",
    "evidence": "Eppendorf",
@@ -851,6 +1133,14 @@
    "evidence": "epredia Logo",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eldan_home",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/",
+   "evidence": "epredia Logo",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "esco": [
@@ -861,11 +1151,27 @@
    "evidence": "Esco",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Esco",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "excel scientific": [
   {
    "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Excel Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "Excel Scientific",
@@ -911,11 +1217,37 @@
    "evidence": "Foxx Life Sciences",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Foxx Life Sciences",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "fritsch": [
+  {
+   "distributor": "il4_medent_en",
+   "site": "medent.co.il/en",
+   "page_url": "https://www.medent.co.il/en/our-partners/",
+   "evidence": "Fritsch – Germany",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "froggabio": [
   {
    "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Froggabio",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
    "site": "lifegene.co.il",
    "page_url": "https://www.lifegene.co.il/",
    "evidence": "Froggabio",
@@ -941,11 +1273,27 @@
    "evidence": "Gel Company",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Gel Company",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "general lab products": [
   {
    "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "General Lab Products",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_bargal_brands",
    "site": "bargal.co.il",
    "page_url": "https://bargal.co.il/",
    "evidence": "General Lab Products",
@@ -977,6 +1325,22 @@
    "evidence": "GeneTex",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "GENETEX",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "GeneTex",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "genovis": [
@@ -1000,6 +1364,14 @@
   },
   {
    "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Gilson",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
    "site": "lifegene.co.il",
    "page_url": "https://www.lifegene.co.il/",
    "evidence": "Gilson",
@@ -1033,6 +1405,14 @@
    "evidence": "Gold Biotechnology",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Gold Biotechnology",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "greiner bio one": [
@@ -1043,11 +1423,27 @@
    "evidence": "Greiner Bio-One",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Greiner Bio-One",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "guardian": [
   {
    "distributor": "il_eisenbros_co_il",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/",
+   "evidence": "Guardian",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eisenberg_brands",
    "site": "eisenbros.co.il",
    "page_url": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/",
    "evidence": "Guardian",
@@ -1091,6 +1487,14 @@
    "evidence": "HAMILTON C6",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Hamilton",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "hanna": [
@@ -1107,6 +1511,14 @@
    "site": "bioanalytics.co.il",
    "page_url": "https://www.bioanalytics.co.il/",
    "evidence": "HANNA – מד טמפרטורה מכוייל",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_medent_en",
+   "site": "medent.co.il/en",
+   "page_url": "https://www.medent.co.il/en/our-partners/",
+   "evidence": "Hanna – USA",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1147,6 +1559,14 @@
    "evidence": "Heidolph",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/rotary-evaporators/",
+   "evidence": "היתרונות בבחירת אוופורטורים רוטריים מבית Heidolph ב-Labotal",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "hellma": [
@@ -1155,6 +1575,24 @@
    "site": "lumitron.co.il",
    "page_url": "https://www.lumitron.co.il/",
    "evidence": "Hellma",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lumitron_brands",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Hellma",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "hettich": [
+  {
+   "distributor": "il4_eldan_home",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/life-science-division/",
+   "evidence": "HETTICH",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1215,9 +1653,27 @@
    "evidence_year": 2026
   }
  ],
+ "integra": [
+  {
+   "distributor": "il4_medent_en",
+   "site": "medent.co.il/en",
+   "page_url": "https://www.medent.co.il/en/our-partners/",
+   "evidence": "Integra – Switzerland",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
  "interscience": [
   {
    "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Interscience",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lumitron_brands",
    "site": "lumitron.co.il",
    "page_url": "https://www.lumitron.co.il/",
    "evidence": "Interscience",
@@ -1241,6 +1697,14 @@
    "evidence": "Jackson ImmunoResearch",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Jackson ImmunoResearch",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "julabo": [
@@ -1257,6 +1721,14 @@
    "site": "master-cold.co.il",
    "page_url": "http://master-cold.co.il/1641/products/julabo-f32",
    "evidence": "Julabo",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/water-bath/",
+   "evidence": "אמבטי מים, אמבטי חימום ואמבטי טלטול למעבדה – Julabo",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1299,11 +1771,27 @@
    "evidence": "Labconco",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/drying-systems/",
+   "evidence": "Labconco",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "labnet": [
   {
    "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Labnet",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
    "site": "yarden-biotec.co.il",
    "page_url": "https://www.yarden-biotec.co.il/",
    "evidence": "Labnet",
@@ -1347,11 +1835,27 @@
    "evidence": "Lonza",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/instruments/gel-documentation-uv-lab-instruments/",
+   "evidence": "Lonza",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "lovibond": [
   {
    "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Lovibond",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lumitron_brands",
    "site": "lumitron.co.il",
    "page_url": "https://www.lumitron.co.il/",
    "evidence": "Lovibond",
@@ -1367,6 +1871,14 @@
    "evidence": "Lucigen Corporation (Biosearch Technologies)",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Lucigen Corporation (Biosearch Technologies)",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "lvl technologies": [
@@ -1376,6 +1888,14 @@
    "page_url": "https://eisenbros.co.il/partners/",
    "evidence": "LVL-technologies-logo-no-bg",
    "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eisenberg_brands",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/analytical-chemistry/2d-barcoded-storage/",
+   "evidence": "LVL Technologies",
+   "confidence": "exact",
    "evidence_year": 2026
   }
  ],
@@ -1403,11 +1923,35 @@
    "evidence": "MACHEREY-NAGEL",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eldan_home",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/our-partners/",
+   "evidence": "MACHEREY-NAGEL",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/reagents/next-generation-sequencing/",
+   "evidence": "Macherey-Nagel (MN)",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "marienfeld": [
   {
    "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Marienfeld GmbH & Co.KG",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "Marienfeld GmbH & Co.KG",
@@ -1427,6 +1971,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "MedChemExpress",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "MedChemExpress",
    "confidence": "exact",
@@ -1547,6 +2099,14 @@
    "evidence": "Micronic",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Micronic",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "miles scientific": [
@@ -1593,6 +2153,14 @@
    "evidence": "MP Biomedicals",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "MP Biomedicals",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "msa": [
@@ -1633,6 +2201,14 @@
    "evidence": "New England Biolabs (NEB)",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/reagents/molecular-cloning-dna-mnipulation/",
+   "evidence": "New England Biolabs (NEB)",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "next advance": [
@@ -1640,6 +2216,14 @@
    "distributor": "il_ornat_co_il",
    "site": "ornat.co.il",
    "page_url": "https://ornat.co.il/instruments/",
+   "evidence": "Next Advance",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/consumables/homogenization-beads/",
    "evidence": "Next Advance",
    "confidence": "exact",
    "evidence_year": 2026
@@ -1677,6 +2261,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Novoprotein",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Novoprotein",
    "confidence": "exact",
@@ -1737,6 +2329,14 @@
    "evidence": "OHAUS",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/manufacturer/scientific-industries",
+   "evidence": "OHAUS",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "omega bio tek": [
@@ -1745,6 +2345,22 @@
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "Omega Bio-Tek",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Omega Bio-Tek",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eisenberg_brands",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/molecular-biology/",
+   "evidence": "Omega Bio-tek",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1767,6 +2383,14 @@
    "evidence": "Optika",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/microscopes/",
+   "evidence": "מיקרוסקופ דיגיטלי מסדרת B-290, מתוצרת OPTIKA, איטליה הצג פריט",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "oxford instruments": [
@@ -1775,6 +2399,24 @@
    "site": "bargal.co.il",
    "page_url": "https://bargal.co.il/",
    "evidence": "Oxford Instruments",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_bargal_brands",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "Oxford Instruments",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "pall": [
+  {
+   "distributor": "il4_eisenberg_brands",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/analytical-chemistry/filtration-and-separation/",
+   "evidence": "Pall",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1807,6 +2449,14 @@
    "evidence": "Peak Scientific",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/gas-generators/",
+   "evidence": "Peak Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "perkinelmer": [
@@ -1816,6 +2466,16 @@
    "page_url": "https://www.isil.co.il/Analytical-Instruments",
    "evidence": "PerkinElmer Analytical Instruments",
    "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "phcbi": [
+  {
+   "distributor": "il4_eldan_home",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/life-science-division/",
+   "evidence": "PHCbi",
+   "confidence": "exact",
    "evidence_year": 2026
   }
  ],
@@ -1855,6 +2515,14 @@
    "evidence": "PromoCell",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_eisenberg_brands",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/cell-biology/",
+   "evidence": "Promocell",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "prosci": [
@@ -1873,6 +2541,14 @@
    "evidence": "ProSci Incorporated",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "ProSci Incorporated",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "qiagen": [
@@ -1883,11 +2559,35 @@
    "evidence": "Qiagen",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Qiagen",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "qsonica": [
   {
    "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Qsonica",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_medent_en",
+   "site": "medent.co.il/en",
+   "page_url": "https://www.medent.co.il/en/our-partners/",
+   "evidence": "Qsonica – USA",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lumitron_brands",
    "site": "lumitron.co.il",
    "page_url": "https://www.lumitron.co.il/",
    "evidence": "Qsonica",
@@ -1907,6 +2607,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Quidel",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Quidel",
    "confidence": "exact",
@@ -1957,6 +2665,22 @@
    "evidence": "Revvity",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Revvity",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Revvity",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "rockland immunochemicals": [
@@ -1971,6 +2695,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Rockland Immunochemicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Rockland Immunochemicals",
    "confidence": "exact",
@@ -2003,6 +2735,14 @@
    "evidence": "Santa Cruz Biotechnology",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Santa Cruz Biotechnology",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "sarstedt": [
@@ -2023,11 +2763,27 @@
    "evidence": "Scientific Industries",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Scientific Industries",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "scinomix": [
   {
    "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "Scinomix Israel",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_bargal_brands",
    "site": "bargal.co.il",
    "page_url": "https://bargal.co.il/",
    "evidence": "Scinomix Israel",
@@ -2048,6 +2804,14 @@
  "sensoquest": [
   {
    "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "SensoQuest",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_danyel_brands",
    "site": "danyel.co.il",
    "page_url": "https://www.danyel.co.il/",
    "evidence": "SensoQuest",
@@ -2109,6 +2873,14 @@
    "evidence": "Sino Biological",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Sino Biological",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "sorenson": [
@@ -2117,6 +2889,24 @@
    "site": "ornat.co.il",
    "page_url": "https://ornat.co.il/consumables/",
    "evidence": "Sorenson",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/consumables/",
+   "evidence": "Sorenson",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "spex certiprep": [
+  {
+   "distributor": "il4_eisenberg_brands",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/analytical-chemistry/certified-reference-materials-and-standards/",
+   "evidence": "Spex CertiPrep",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -2133,6 +2923,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "STEMCELL Technologies",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "STEMCELL Technologies",
    "confidence": "exact",
@@ -2170,6 +2968,14 @@
  "tecan": [
   {
    "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/manufacturer/usa-scientific",
+   "evidence": "טיפים ל Tecan, מוליכים",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_yarden_brands",
    "site": "yarden-biotec.co.il",
    "page_url": "https://www.yarden-biotec.co.il/manufacturer/usa-scientific",
    "evidence": "טיפים ל Tecan, מוליכים",
@@ -2215,6 +3021,14 @@
    "evidence": "TPP",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_lifegene_brands",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "TPP",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "trippnt": [
@@ -2235,6 +3049,14 @@
    "evidence": "Uvitec",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_ornat_brands",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/category/instruments/gel-documentation-uv-lab-instruments/",
+   "evidence": "Uvitec",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "vacuubrand": [
@@ -2242,6 +3064,14 @@
    "distributor": "il_labotal_co_il",
    "site": "labotal.co.il",
    "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Vacuubrand",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_labotal_brands",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/product-category/vacuum-pumps/",
    "evidence": "Vacuubrand",
    "confidence": "exact",
    "evidence_year": 2026
@@ -2275,6 +3105,16 @@
    "evidence_year": 2026
   }
  ],
+ "waring": [
+  {
+   "distributor": "il4_medent_en",
+   "site": "medent.co.il/en",
+   "page_url": "https://www.medent.co.il/en/our-partners/",
+   "evidence": "Waring – USA",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "worthington biochemical": [
   {
    "distributor": "il_enco_co_il",
@@ -2287,6 +3127,14 @@
   {
    "distributor": "il_enco_co_il_v0",
    "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Worthington Biochemical",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il4_enco_brands",
+   "site": "enco.co.il",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Worthington Biochemical",
    "confidence": "exact",

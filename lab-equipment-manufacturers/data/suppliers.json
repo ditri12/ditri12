@@ -44146,15 +44146,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+     "name_he": "אורנת",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.ornat.co.il/",
+     "phone": "+972-8-9477077",
+     "email": "ornatbio@ornat.co.il",
+     "address": "19 Horvitz Eli St., Rehovot 7608802",
+     "contact_url": "",
+     "source": "https://ornat.co.il/category/instruments/centrifuges/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "ELMI"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -44164,7 +44182,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/elmi"
+    "https://www.thomassci.com/browse-by/suppliers/elmi",
+    "https://ornat.co.il/category/instruments/centrifuges/"
    ],
    "category": "ציוד מעבדה",
    "category_source": "keyword_guess",
@@ -45501,6 +45520,23 @@
      "contact_url": "",
      "contact_source": "https://www.elgalabwater.com/about-us/approved-partners",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "Labotal Scientific Equipment (1997) Ltd.",
+     "name_he": "לבוטל ציוד מדעי",
+     "type": "distributor",
+     "scope": "brand mentioned on the distributor's product pages (not necessarily the brand's main lines)",
+     "website": "https://labotal.co.il",
+     "phone": "+972 2-579-9222",
+     "email": "Sales@labotal.co.il",
+     "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+     "contact_url": "https://labotal.co.il/contact/",
+     "source": "https://labotal.co.il/product-category/centrifuges/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_mention",
+     "match_confidence": "mention",
+     "match_text": "Labotal גאה להציע מגוון רחב של צנטריפוגות מהמותגים המובילים והאמינים בעולם, כגון Hettich ו-Eppendorf. אנו משווקים פתרונו"
     }
    ],
    "israel_evidence_year": 2026,
@@ -45529,6 +45565,7 @@
     "https://www.eppendorf.com/ae-en/",
     "https://www.eppendorf.com/us-en/service-support/ordering/",
     "https://www.wikidata.org/wiki/Q443211",
+    "https://labotal.co.il/product-category/centrifuges/",
     "https://www.eppendorf.com/us-en/company-careers/news-media/press-contact/"
    ],
    "category": "ציוד",
@@ -58771,6 +58808,23 @@
      "contact_url": "",
      "contact_source": "https://www.agilent.com/en/contact-us/israel",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "Labotal Scientific Equipment (1997) Ltd.",
+     "name_he": "לבוטל ציוד מדעי",
+     "type": "distributor",
+     "scope": "brand mentioned on the distributor's product pages (not necessarily the brand's main lines)",
+     "website": "https://labotal.co.il",
+     "phone": "+972 2-579-9222",
+     "email": "Sales@labotal.co.il",
+     "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+     "contact_url": "https://labotal.co.il/contact/",
+     "source": "https://labotal.co.il/product-category/centrifuges/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_mention",
+     "match_confidence": "mention",
+     "match_text": "Labotal גאה להציע מגוון רחב של צנטריפוגות מהמותגים המובילים והאמינים בעולם, כגון Hettich ו-Eppendorf. אנו משווקים פתרונו"
     }
    ],
    "israel_evidence_year": 2026,
@@ -58801,7 +58855,8 @@
     "https://www.bionity.com/de/news/1182379/hettich-schliesst-uebernahme-von-kirsch-medical-zum-jahresende-erfolgreich-ab.html",
     "https://www.stepstone.de/cmp/de/Andreas-Hettich-GmbH-239096/jobs.html",
     "https://www.life-sciences-europe.com/organisation/andreas-hettich-gmbh-group-tuttlingen-baden-wuerttemberg-federal-2001-19621.html",
-    "https://www.wikidata.org/wiki/Q1145225"
+    "https://www.wikidata.org/wiki/Q1145225",
+    "https://labotal.co.il/product-category/centrifuges/"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -92696,6 +92751,23 @@
      "match_basis": "manufacturer_distributor_page",
      "match_confidence": "mfr_page",
      "match_text": "el: +44 (0)1733 421880\n\nuk@tebubio.com\nwww.tebubio.com\n\nUNITED KINGDOM\nVWR International\nTel: 044 745 13 13\nwww.vwr.com\n\nMiddle East\n\nCOUNTRY\nCOMPANY\nCONTACT\nWEBSITE\n\nBAHRAIN\nIntegrated Gulf Biosystem"
+    },
+    {
+     "name": "Eisenberg Bros. Ltd.",
+     "name_he": "האחים אייזנברג",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://eisenbros.co.il",
+     "phone": "+972 3-977-7000",
+     "email": null,
+     "address": "Airport City",
+     "contact_url": "",
+     "source": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/molecular-biology/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Omega Bio-tek"
     }
    ],
    "israel_evidence_year": 2026,
@@ -92714,6 +92786,7 @@
     "https://www.quartzy.com/suppliers",
     "https://www.thomassci.com/browse-by/suppliers/omega-bio-tek",
     "https://www.wikidata.org/wiki/Q117187906",
+    "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/molecular-biology/",
     "https://omegabiotek.com/company/contact-us/",
     "https://omegabiotek.com/distributors/"
    ],
@@ -94617,15 +94690,33 @@
     "Preparative and analytical centrifugation",
     "Analytical filtration and particle analysis"
    ],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Eisenberg Bros. Ltd.",
+     "name_he": "האחים אייזנברג",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://eisenbros.co.il",
+     "phone": "+972 3-977-7000",
+     "email": null,
+     "address": "Airport City",
+     "contact_url": "",
+     "source": "https://eisenbros.co.il/product-category/analytical-chemistry/filtration-and-separation/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Pall"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "Only corporate/SEC profiles (Pall now under Danaher/Cytiva); no Israeli distributor or office named in results.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -94637,7 +94728,8 @@
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Pall",
     "https://www.quartzy.com/suppliers",
-    "https://www.wikidata.org/wiki/Q1532489"
+    "https://www.wikidata.org/wiki/Q1532489",
+    "https://eisenbros.co.il/product-category/analytical-chemistry/filtration-and-separation/"
    ],
    "category": "מתכלים וציוד קטן",
    "category_source": "catalog_facet",
@@ -117168,15 +117260,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Eisenberg Bros. Ltd.",
+     "name_he": "האחים אייזנברג",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://eisenbros.co.il",
+     "phone": "+972 3-977-7000",
+     "email": null,
+     "address": "Airport City",
+     "contact_url": "",
+     "source": "https://eisenbros.co.il/product-category/analytical-chemistry/certified-reference-materials-and-standards/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Spex CertiPrep"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "SPEX CertiPrep (Metuchen NJ; UK subsidiary) works through worldwide distributors; none named for Israel in results.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -117187,7 +117297,8 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/spex-certiprep"
+    "https://www.thomassci.com/browse-by/suppliers/spex-certiprep",
+    "https://eisenbros.co.il/product-category/analytical-chemistry/certified-reference-materials-and-standards/"
    ],
    "category": "כימיקלים ותקנים",
    "category_source": "keyword_guess",
@@ -135840,6 +135951,160 @@
    "count": 24
   },
   {
+   "key": "labotal.co.il",
+   "name": "Labotal Scientific Equipment Ltd.",
+   "name_he": "לבוטל ציוד מדעי",
+   "type": "distributor",
+   "website": "https://labotal.co.il",
+   "phone": "+972 2-579-9222",
+   "email": "Sales@labotal.co.il",
+   "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+   "contact_url": "https://labotal.co.il/contact/",
+   "suppliers": [
+    {
+     "id": 189,
+     "name": "Binder",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 246,
+     "name": "Brand",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 247,
+     "name": "BrandTech®",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 455,
+     "name": "Elma",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 470,
+     "name": "Eppendorf",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_mention"
+    },
+    {
+     "id": 597,
+     "name": "Heidolph",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 603,
+     "name": "Hettich",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_mention"
+    },
+    {
+     "id": 647,
+     "name": "Ika",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 648,
+     "name": "IKA Works",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 700,
+     "name": "Julabo",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 722,
+     "name": "Kinematica",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 739,
+     "name": "Labconco",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 947,
+     "name": "Ohaus",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 950,
+     "name": "Omni International",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 955,
+     "name": "Optika",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 978,
+     "name": "Peak Scientific",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1114,
+     "name": "Sartorius",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1318,
+     "name": "Vacuubrand",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_distributor_page"
+    },
+    {
+     "id": 1327,
+     "name": "Velp",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1328,
+     "name": "Velp Scientifica",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    }
+   ],
+   "count": 20
+  },
+  {
    "key": "medent.co.il",
    "name": "Medent Scientific Instruments (Medent Group)",
    "name_he": "מדנט",
@@ -135975,146 +136240,6 @@
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
-    }
-   ],
-   "count": 18
-  },
-  {
-   "key": "labotal.co.il",
-   "name": "Labotal Scientific Equipment Ltd.",
-   "name_he": "לבוטל ציוד מדעי",
-   "type": "distributor",
-   "website": "https://labotal.co.il",
-   "phone": "+972 2-579-9222",
-   "email": "Sales@labotal.co.il",
-   "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
-   "contact_url": "https://labotal.co.il/contact/",
-   "suppliers": [
-    {
-     "id": 189,
-     "name": "Binder",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 246,
-     "name": "Brand",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 247,
-     "name": "BrandTech®",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 455,
-     "name": "Elma",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 597,
-     "name": "Heidolph",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 647,
-     "name": "Ika",
-     "status": "older_evidence",
-     "evidence_year": null,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 648,
-     "name": "IKA Works",
-     "status": "older_evidence",
-     "evidence_year": null,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 700,
-     "name": "Julabo",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 722,
-     "name": "Kinematica",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 739,
-     "name": "Labconco",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 947,
-     "name": "Ohaus",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 950,
-     "name": "Omni International",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 955,
-     "name": "Optika",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 978,
-     "name": "Peak Scientific",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 1114,
-     "name": "Sartorius",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1318,
-     "name": "Vacuubrand",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "manufacturer_distributor_page"
-    },
-    {
-     "id": 1327,
-     "name": "Velp",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1328,
-     "name": "Velp Scientifica",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
     }
    ],
    "count": 18
@@ -137184,6 +137309,90 @@
    "count": 10
   },
   {
+   "key": "ornat.co.il",
+   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+   "name_he": "אורנת",
+   "type": "distributor",
+   "website": "https://www.ornat.co.il/",
+   "phone": "+972-8-9477077",
+   "email": "ornatbio@ornat.co.il",
+   "address": "19 Horvitz Eli St., Rehovot 7608802",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 133,
+     "name": "Assay Genie",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 228,
+     "name": "Blue-Ray Biotech Corporation",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 294,
+     "name": "Cell Signaling Technology",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 456,
+     "name": "ELMI",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 786,
+     "name": "Lonza",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 798,
+     "name": "Macherey Nagel",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 915,
+     "name": "New England Biolabs (NEB)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 921,
+     "name": "Next advance",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1187,
+     "name": "Sorenson",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1317,
+     "name": "Uvitec",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 10
+  },
+  {
    "key": "lumitron.co.il",
    "name": "Lumitron Ltd.",
    "name_he": "לומיטרון",
@@ -137333,83 +137542,6 @@
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "prior_research"
-    }
-   ],
-   "count": 9
-  },
-  {
-   "key": "ornat.co.il",
-   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
-   "name_he": "אורנת",
-   "type": "distributor",
-   "website": "https://www.ornat.co.il/",
-   "phone": "+972-8-9477077",
-   "email": "ornatbio@ornat.co.il",
-   "address": "19 Horvitz Eli St., Rehovot 7608802",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 133,
-     "name": "Assay Genie",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 228,
-     "name": "Blue-Ray Biotech Corporation",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 294,
-     "name": "Cell Signaling Technology",
-     "status": "current",
-     "evidence_year": null,
-     "match_basis": "manufacturer_or_press"
-    },
-    {
-     "id": 786,
-     "name": "Lonza",
-     "status": "current",
-     "evidence_year": null,
-     "match_basis": "manufacturer_or_press"
-    },
-    {
-     "id": 798,
-     "name": "Macherey Nagel",
-     "status": "current",
-     "evidence_year": null,
-     "match_basis": "manufacturer_or_press"
-    },
-    {
-     "id": 915,
-     "name": "New England Biolabs (NEB)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 921,
-     "name": "Next advance",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 1187,
-     "name": "Sorenson",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 1317,
-     "name": "Uvitec",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
     }
    ],
    "count": 9
@@ -137680,6 +137812,69 @@
     {
      "id": 1237,
      "name": "Tecan",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 7
+  },
+  {
+   "key": "eisenbros.co.il",
+   "name": "Eisenberg Bros. Ltd.",
+   "name_he": "האחים אייזנברג",
+   "type": "distributor",
+   "website": "https://eisenbros.co.il",
+   "phone": "+972 3-977-7000",
+   "email": null,
+   "address": "Airport City",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 388,
+     "name": "Cytiva",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 579,
+     "name": "Guardian",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 794,
+     "name": "LVL technologies",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 949,
+     "name": "Omega Bio-Tek",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 969,
+     "name": "Pall Corporation",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1030,
+     "name": "PromoCell",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1199,
+     "name": "SPEX CertiPrep",
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
@@ -138362,48 +138557,6 @@
      "status": "older_evidence",
      "evidence_year": null,
      "match_basis": "prior_research"
-    }
-   ],
-   "count": 4
-  },
-  {
-   "key": "eisenbros.co.il",
-   "name": "Eisenberg Bros. Ltd.",
-   "name_he": "האחים אייזנברג",
-   "type": "distributor",
-   "website": "https://eisenbros.co.il",
-   "phone": "+972 3-977-7000",
-   "email": null,
-   "address": "Airport City",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 388,
-     "name": "Cytiva",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 579,
-     "name": "Guardian",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 794,
-     "name": "LVL technologies",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    },
-    {
-     "id": 1030,
-     "name": "PromoCell",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
     }
    ],
    "count": 4
