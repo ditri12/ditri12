@@ -37,18 +37,36 @@ def sim(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 
-def wd_search(name, limit=6):
-    r = S.get("https://www.wikidata.org/w/api.php", params={"action": "wbsearchentities", "search": name,
-              "language": "en", "type": "item", "limit": limit, "format": "json"}, timeout=30)
+def wd_get(params, timeout=60):
+    """GET with backoff on 429 / 5xx (Wikidata rate limits anonymous clients)."""
+    params = dict(params, format="json", maxlag=5)
+    delay = 5
+    for attempt in range(7):
+        r = S.get("https://www.wikidata.org/w/api.php", params=params, timeout=timeout)
+        if r.status_code in (429, 503, 502, 500):
+            ra = r.headers.get("Retry-After")
+            wait = float(ra) if ra and ra.isdigit() else delay
+            time.sleep(min(wait, 120))
+            delay = min(delay * 2, 120)
+            continue
+        r.raise_for_status()
+        j = r.json()
+        if "error" in j and j["error"].get("code") == "maxlag":
+            time.sleep(delay)
+            delay = min(delay * 2, 120)
+            continue
+        return j
     r.raise_for_status()
-    return r.json().get("search", [])
+    return {}
+
+
+def wd_search(name, limit=6):
+    return wd_get({"action": "wbsearchentities", "search": name, "language": "en", "type": "item", "limit": limit}).get("search", [])
 
 
 def wd_entities(ids):
-    r = S.get("https://www.wikidata.org/w/api.php", params={"action": "wbgetentities", "ids": "|".join(ids),
-              "props": "labels|descriptions|claims|sitelinks", "languages": "en|he|fr|de", "format": "json"}, timeout=60)
-    r.raise_for_status()
-    return r.json().get("entities", {})
+    return wd_get({"action": "wbgetentities", "ids": "|".join(ids), "props": "labels|descriptions|claims|sitelinks|aliases",
+                   "languages": "en|he|fr|de"}).get("entities", {})
 
 
 def claim_vals(ent, pid):
@@ -97,12 +115,13 @@ def labels_for(ids):
     need = [i for i in ids if i not in LABEL_CACHE]
     for k in range(0, len(need), 50):
         chunk = need[k:k + 50]
-        r = S.get("https://www.wikidata.org/w/api.php", params={"action": "wbgetentities", "ids": "|".join(chunk),
-                  "props": "labels", "languages": "en", "format": "json"}, timeout=60)
-        if r.ok:
-            for qid, e in r.json().get("entities", {}).items():
+        try:
+            j = wd_get({"action": "wbgetentities", "ids": "|".join(chunk), "props": "labels", "languages": "en"})
+            for qid, e in j.get("entities", {}).items():
                 LABEL_CACHE[qid] = e.get("labels", {}).get("en", {}).get("value")
-        time.sleep(0.2)
+        except Exception:
+            pass
+        time.sleep(0.5)
     return {i: LABEL_CACHE.get(i) for i in ids}
 
 
@@ -169,26 +188,38 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only-missing", action="store_true")
+    ap.add_argument("--retry-errors", action="store_true", help="redo entries whose Wikidata lookup errored")
+    ap.add_argument("--delay", type=float, default=1.0)
+    ap.add_argument("--skip-clearbit", action="store_true")
     args = ap.parse_args()
     rows = json.load(open(IN, encoding="utf-8"))
     os.makedirs(OUT_DIR, exist_ok=True)
     cache = {}
     if os.path.exists(OUT):
         cache = {r["key"]: r for r in json.load(open(OUT, encoding="utf-8"))}
-    todo = [r for r in rows if not (args.only_missing and r["key"] in cache)]
+    def needs(r):
+        c = cache.get(r["key"])
+        if c is None:
+            return True
+        if args.retry_errors and c.get("error"):
+            return True
+        return not args.only_missing and not args.retry_errors
+    todo = [r for r in rows if needs(r)]
     if args.limit:
         todo = todo[:args.limit]
     t0 = time.time()
     for i, r in enumerate(todo, 1):
         name = r["name"]
-        rec = {"key": r["key"], "name": name, "wikidata": None, "clearbit": None, "error": None}
+        old = cache.get(r["key"]) or {}
+        rec = {"key": r["key"], "name": name, "wikidata": None, "clearbit": old.get("clearbit"), "error": None}
         try:
             rec["wikidata"] = resolve_wikidata(name)
         except Exception as e:
             rec["error"] = f"wd: {type(e).__name__}: {e}"
-        time.sleep(0.3)
-        rec["clearbit"] = resolve_clearbit(name)
-        time.sleep(0.2)
+        time.sleep(args.delay)
+        if not args.skip_clearbit and rec["clearbit"] is None:
+            rec["clearbit"] = resolve_clearbit(name)
+            time.sleep(0.2)
         cache[r["key"]] = rec
         if i % 20 == 0 or i == len(todo):
             print(f"[{i}/{len(todo)}] {name} -> wd={bool(rec['wikidata'])} cb={(rec['clearbit'] or {}).get('domain')} ({time.time()-t0:.0f}s)", flush=True)

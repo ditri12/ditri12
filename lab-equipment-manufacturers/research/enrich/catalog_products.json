@@ -1,0 +1,808 @@
+{
+ "ace glass": {
+  "products": [
+   {
+    "name": "Adapter, Rotary Evaporator Vial Adapter",
+    "url": "https://www.thomassci.com/p/adapter-rotary-evaporator-vial-adapter",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "1mL Tissue Grinder, Dounce Type, Glass",
+    "url": "https://www.thomassci.com/p/1ml-tissue-grinder-dounce-type",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Adapter, Gas Inlet",
+    "url": "https://www.thomassci.com/p/adapter-gas-inlet2",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Flask, Pressure, Round Bottom",
+    "url": "https://www.thomassci.com/p/flask-pressure-round-bottom1",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Sublimation Apparatus, Vacuum",
+    "url": "https://www.thomassci.com/p/sublimation-apparatus-vacuum",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Tube, Filtering",
+    "url": "https://www.thomassci.com/p/tube-filtering",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 377
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/ace-glass"
+  ]
+ },
+ "3m": {
+  "products": [
+   {
+    "name": "3M HEAD HARNESS ASSEMBLY FOR 6000 SERIES",
+    "url": "https://www.thomassci.com/p/3m-head-harness-assembly-for-6000-series",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Comply™ Lead Free Steam Indicator Tape",
+    "url": "https://www.thomassci.com/p/comply-lead-free-steam-indicator-tape",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "3M™ SecureFit™, Protective Eyewear, SF201AF, Clear Lens",
+    "url": "https://www.thomassci.com/p/3m-securefit-protective-eyewear-sf201af-clear-lens",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Scotch® Magic™ Tape",
+    "url": "https://www.thomassci.com/p/scotch-magic-tape",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Particulate Respirator 8200/07023(AAD), N95",
+    "url": "https://www.thomassci.com/p/particulate-respirator-8200/07023aad-n95",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Scotch® Box Sealing Tape 371",
+    "url": "https://www.thomassci.com/p/scotch-box-sealing-tape-371",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 98
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/3m"
+  ]
+ },
+ "corning": {
+  "products": [
+   {
+    "name": "Spin-X® Centrifuge Tube Filter",
+    "url": "https://www.thomassci.com/p/spin-x-centrifuge-tube-filter",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Treated Surface Roller Bottles",
+    "url": "https://www.thomassci.com/p/treated-surface-roller-bottles",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Reagent Reservoirs",
+    "url": "https://www.thomassci.com/p/reagent-reservoirs1",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Falcon® Bacteriological Petri Dishes",
+    "url": "https://www.thomassci.com/p/bd-falcon-petri-dishes",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "PYREX Disposable Rimless Culture Tubes",
+    "url": "https://www.thomassci.com/p/pyrex-disposable-rimless-culture-tubes",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "PYREX® VISTA™ Griffin Low Form Beakers",
+    "url": "https://www.thomassci.com/p/pyrex-vista-griffin-beakers",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 1314,
+   "dutscher": 1516
+  },
+  "categories": [
+   {
+    "name": "UGAP Selection",
+    "name_he": "UGAP Selection",
+    "count": 1167
+   },
+   {
+    "name": "Consumables and small equipment",
+    "name_he": "מתכלים וציוד קטן",
+    "count": 1119
+   },
+   {
+    "name": "Made in Europe",
+    "name_he": "Made in Europe",
+    "count": 334
+   },
+   {
+    "name": "Available in stock",
+    "name_he": "Available in stock",
+    "count": 244
+   },
+   {
+    "name": "Pipetting",
+    "name_he": "פיפטות",
+    "count": 243
+   }
+  ],
+  "applications": [
+   "Adherent cell culture",
+   "Liquid handling - Pipetting",
+   "Cell expansion and bioproduction",
+   "Suspension cell culture",
+   "Fermentation and bioprocessing"
+  ],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/corning",
+   "https://www.dutscher.com/search?initialFilters=brand:Corning"
+  ],
+  "category": "UGAP Selection"
+ },
+ "eppendorf": {
+  "products": [
+   {
+    "name": "Eppendorf epT.I.P.S.",
+    "url": "https://www.thomassci.com/p/eppendorf-eptips",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Combitips advanced®",
+    "url": "https://www.thomassci.com/p/combitips-advanced",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "e.p. T.I.P.S.",
+    "url": "https://www.thomassci.com/p/e-p-t-i-p-s-",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "DNA LoBind Tubes",
+    "url": "https://www.thomassci.com/p/dna-lobind-tubes",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Repeater M4 - Multi-Dispenser Pipette",
+    "url": "https://www.thomassci.com/p/repeater-m4",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "PCR Tubes",
+    "url": "https://www.thomassci.com/p/pcr-tubes1",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 268,
+   "dutscher": 2695
+  },
+  "categories": [
+   {
+    "name": "Made in Europe",
+    "name_he": "Made in Europe",
+    "count": 2191
+   },
+   {
+    "name": "Equipment",
+    "name_he": "ציוד",
+    "count": 1257
+   },
+   {
+    "name": "UGAP Selection",
+    "name_he": "UGAP Selection",
+    "count": 1170
+   },
+   {
+    "name": "Pipetting",
+    "name_he": "פיפטות",
+    "count": 834
+   },
+   {
+    "name": "Available for leasing",
+    "name_he": "Available for leasing",
+    "count": 483
+   }
+  ],
+  "applications": [
+   "Liquid handling - Pipetting",
+   "Preparative and analytical centrifugation",
+   "Mixing, agitation and resuspension",
+   "Cryopreservation and ultralow temperature storage",
+   "Lyophilized for long-term storage"
+  ],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/eppendorf",
+   "https://www.dutscher.com/search?initialFilters=brand:Eppendorf"
+  ],
+  "category": "Made in Europe"
+ },
+ "heathrow scientific": {
+  "products": [
+   {
+    "name": "OneRack® Full-Size Delrin® POM Test Tube Racks",
+    "url": "https://www.thomassci.com/p/onerack-full-size-delrin-pom-test-tube-racks",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Disposable Transfer Pipets",
+    "url": "https://www.thomassci.com/p/disposable-transfer-pipets",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Cube Rack",
+    "url": "https://www.thomassci.com/p/cube-rack",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Spatulas",
+    "url": "https://www.thomassci.com/p/spatulas1",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Sprout® Plus Mini Centrifuge",
+    "url": "https://www.thomassci.com/p/sprout-plus-mini-centrifuge",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "eShield® Sterile Covers",
+    "url": "https://www.thomassci.com/p/eshield-sterile-covers",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 187
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/heathrow-scientific"
+  ]
+ },
+ "justrite": {
+  "products": [
+   {
+    "name": "JUSTRITE Sure-Grip Yellow EX Flammable Safety Cabinet",
+    "url": "https://www.thomassci.com/p/justrite-sure-grip-yellow-ex-flammable-safety-cabinet-90-gallons-w/-2-shelves-and-2-self-close-doors-18-ga-cr-steel",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Sure-Grip® EX Countertop and Compac Cabinets for Corrosives",
+    "url": "https://www.thomassci.com/p/sure-grip-ex-countertop-and-compac-cabinets-for-corrosives",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Sure-Grip® EX Corrosives/Acid Steel Safety Cabinets",
+    "url": "https://www.thomassci.com/p/steel-acid-storage-cabinets",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Flammable Liquid Storage Cabinets, Compac",
+    "url": "https://www.thomassci.com/p/flammable-liquid-storage-cabinets-compac",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Safety Drum Funnel",
+    "url": "https://www.thomassci.com/p/safety-drum-funnel-large-steel-funnel-with-self-closing-cover-and-6-inch-flame-arrester-for-use-with-flammables",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "HPLC Can Spill Basin",
+    "url": "https://www.thomassci.com/p/hplc-can-spill-basin",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 34
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/justrite"
+  ]
+ },
+ "labcon": {
+  "products": [
+   {
+    "name": "Eclipse™ Macro 10mL Pipet Tips for Popular Pipettors",
+    "url": "https://www.thomassci.com/p/eclipse-macro-10ml-pipet-tips-for-popular-pipettors",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Microtube Storage Racks",
+    "url": "https://www.thomassci.com/p/microtube-storage-racks",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Eclipse™ 200µL Graduated Pipet Tips",
+    "url": "https://www.thomassci.com/p/eclipse-200l-graduated-pipet-tips",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "2.0mL SuperClear® Microcentrifuge Tubes with Attached Caps",
+    "url": "https://www.thomassci.com/p/20ml-superclear-microcentrifuge-tubes-with-attached-caps",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "ZAP™ SLIK 1000µL Low Retention Aerosol Filter Pipet Tips with Wide Orifice",
+    "url": "https://www.thomassci.com/p/zap-slik-1000l-low-retention-aerosol-filter-pipet-tips-with-wide-orifice",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "SuperClear® Centrifuge Tubes",
+    "url": "https://www.thomassci.com/p/superclear-centrifuge-tubes-with-flat-caps-and-printed-graduations",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 182
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/labcon"
+  ]
+ },
+ "luxor": {
+  "products": [
+   {
+    "name": "Utility Cart / Utility Bins",
+    "url": "https://www.thomassci.com/p/utility-cart-/-utility-bins",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Pneumatic Adjustable Height Flip-Top Student Desk/Nesting Desk",
+    "url": "https://www.thomassci.com/p/pneumatic-adjustable-height-flip-top-student-desk/nesting-desk",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Reversable Double Sided Whiteboard",
+    "url": "https://www.thomassci.com/p/reversable-double-sided-whiteboard",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "SideTrak® Portable Freestanding and Attachable Monitors",
+    "url": "https://www.thomassci.com/p/sidetrak-portable-freestanding-and-attachable-monitors",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Three Shelf Tub Cart",
+    "url": "https://www.thomassci.com/p/three-shelf-tub-cart",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "High Capacity Two Shelf Tub Carts",
+    "url": "https://www.thomassci.com/p/high-capacity-two-shelf-tub-carts",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 23
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/luxor"
+  ]
+ },
+ "nel scientific": {
+  "products": [
+   {
+    "name": "Fluid Thioglycollate Medium (USP Formulation)",
+    "url": "https://www.thomassci.com/p/fluid-thioglycollate-medium-usp-formulation",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "MR-VP Broth",
+    "url": "https://www.thomassci.com/p/mr-vp-broth",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Campy-Blaser",
+    "url": "https://www.thomassci.com/p/campy-blaser",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Ureaplasma Broth",
+    "url": "https://www.thomassci.com/p/ureaplasma-broth",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Urea Agar",
+    "url": "https://www.thomassci.com/p/urea-agar-1",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Cetrimide Agar",
+    "url": "https://www.thomassci.com/p/cetrimide-agar-1",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 23
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/nel-scientific"
+  ]
+ },
+ "ohaus": {
+  "products": [
+   {
+    "name": "Inoculating Turntable",
+    "url": "https://www.thomassci.com/p/talboys-inoculating-turntable",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "OHAUS Defender™ 3000 - i-D33 Bench Scale",
+    "url": "https://www.thomassci.com/p/ohaus-defender-3000-i-d33-bench-scale",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "AQUASEARCHER™ Bench Meter",
+    "url": "https://www.thomassci.com/p/aquasearcher-bench-meter",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Overhead Stirrer",
+    "url": "https://www.thomassci.com/p/overhead-stirrer-1",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Talboys Advanced Waving Shaker",
+    "url": "https://www.thomassci.com/p/talboys-advanced-waving-shaker",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Navigator® NVT Series Portable Scales",
+    "url": "https://www.thomassci.com/p/navigator-nvt-series-portable-scales",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 186,
+   "dutscher": 1906
+  },
+  "categories": [
+   {
+    "name": "Measuring instrument",
+    "name_he": "מכשירי מדידה",
+    "count": 1174
+   },
+   {
+    "name": "Available for leasing",
+    "name_he": "Available for leasing",
+    "count": 880
+   },
+   {
+    "name": "UGAP Selection",
+    "name_he": "UGAP Selection",
+    "count": 594
+   },
+   {
+    "name": "Equipment",
+    "name_he": "ציוד",
+    "count": 587
+   },
+   {
+    "name": "Made in Europe",
+    "name_he": "Made in Europe",
+    "count": 262
+   }
+  ],
+  "applications": [
+   "Weighing and metrology",
+   "Mixing, agitation and resuspension",
+   "Preparative and analytical centrifugation",
+   "Heat treatment and thermostating",
+   "Incubation and biological culture"
+  ],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/ohaus",
+   "https://www.dutscher.com/search?initialFilters=brand:Ohaus"
+  ],
+  "category": "מכשירי מדידה"
+ },
+ "zymo research": {
+  "products": [
+   {
+    "name": "Zymo-Spin I Columns",
+    "url": "https://www.thomassci.com/p/zymo-spin-i-columns",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "ZymoPURE II Plasmid Midiprep Kits",
+    "url": "https://www.thomassci.com/p/zymopure-ii-plasmid-midiprep-kits",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "RNA Clean & Concentrator-5 Kits",
+    "url": "https://www.thomassci.com/p/rna-clean-and-concentrator-5-kits",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "Quick-RNA MagBead",
+    "url": "https://www.thomassci.com/p/quick-rna-magbead",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "ZymoPURE Plasmid Miniprep Kits",
+    "url": "https://www.thomassci.com/p/zymopure-plasmid-miniprep-kits",
+    "catalog": "thomassci"
+   },
+   {
+    "name": "ZymoPURE II Plasmid Maxiprep Kits",
+    "url": "https://www.thomassci.com/p/zymopure-ii-plasmid-maxiprep-kits",
+    "catalog": "thomassci"
+   }
+  ],
+  "product_count": {
+   "thomassci": 504
+  },
+  "categories": [],
+  "applications": [],
+  "description": null,
+  "source_pages": [
+   "https://www.thomassci.com/browse-by/suppliers/zymo-research-corporation"
+  ]
+ },
+ "binder": {
+  "products": [
+   {
+    "name": "BINDER KBF-S ECO 1020 environmental chamber - 230 V",
+    "url": "https://www.dutscher.com/article/492798",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "Climatic chamber BINDER KBF-S ECO 240 - 230 V",
+    "url": "https://www.dutscher.com/article/492800",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "CO₂ incubator - CB260 - standard equipment with O₂ regulation 0.2–20 %",
+    "url": "https://www.dutscher.com/article/495081",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "CO₂ Incubator - CB170 - standard equipment with right handle",
+    "url": "https://www.dutscher.com/article/495077",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "CO₂ incubator - CB170 - standard equipment",
+    "url": "https://www.dutscher.com/article/495076",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "CO₂ Incubator - CBS260 - standard equipment",
+    "url": "https://www.dutscher.com/article/495088",
+    "catalog": "dutscher"
+   }
+  ],
+  "product_count": {
+   "dutscher": 943
+  },
+  "categories": [
+   {
+    "name": "Equipment",
+    "name_he": "ציוד",
+    "count": 767
+   },
+   {
+    "name": "Made in Europe",
+    "name_he": "Made in Europe",
+    "count": 699
+   },
+   {
+    "name": "Available for leasing",
+    "name_he": "Available for leasing",
+    "count": 647
+   },
+   {
+    "name": "UGAP Selection",
+    "name_he": "UGAP Selection",
+    "count": 441
+   },
+   {
+    "name": "New",
+    "name_he": "New",
+    "count": 25
+   }
+  ],
+  "applications": [
+   "Incubation and biological culture",
+   "Food microbiological analyses",
+   "Stability studies and climatic testing",
+   "720 l",
+   "400 l"
+  ],
+  "description": null,
+  "source_pages": [
+   "https://www.dutscher.com/search?initialFilters=brand:Binder"
+  ],
+  "category": "ציוד"
+ },
+ "memmert": {
+  "products": [
+   {
+    "name": "Peltier effect incubator Memmert IPP750eco",
+    "url": "https://www.dutscher.com/article/914346",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "LN2 emergency kit for ULT1000 freezer",
+    "url": "https://www.dutscher.com/article/915923",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "CO₂ backup for ULT360eco freezer",
+    "url": "https://www.dutscher.com/article/915673",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "Lock for internal door for ULT500 freezer",
+    "url": "https://www.dutscher.com/article/915733",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "External door lock for ULT360 freezer",
+    "url": "https://www.dutscher.com/article/915631",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "External door lock for ULT1000 freezer",
+    "url": "https://www.dutscher.com/article/915931",
+    "catalog": "dutscher"
+   }
+  ],
+  "product_count": {
+   "dutscher": 3423
+  },
+  "categories": [
+   {
+    "name": "Made in Europe",
+    "name_he": "Made in Europe",
+    "count": 2343
+   },
+   {
+    "name": "Equipment",
+    "name_he": "ציוד",
+    "count": 2032
+   },
+   {
+    "name": "UGAP Selection",
+    "name_he": "UGAP Selection",
+    "count": 973
+   },
+   {
+    "name": "Available for leasing",
+    "name_he": "Available for leasing",
+    "count": 633
+   },
+   {
+    "name": "New",
+    "name_he": "New",
+    "count": 68
+   }
+  ],
+  "applications": [
+   "Incubation and biological culture",
+   "Heat treatment and thermostating",
+   "Stability studies and climatic testing",
+   "108 l",
+   "256 l"
+  ],
+  "description": null,
+  "source_pages": [
+   "https://www.dutscher.com/search?initialFilters=brand:Memmert"
+  ],
+  "category": "Made in Europe"
+ },
+ "velp": {
+  "products": [
+   {
+    "name": "VELP MST magnetic stirrer, stirring capacity 5 Litres",
+    "url": "https://www.dutscher.com/article/399000B",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "EcoDryBlock Dry Bath",
+    "url": "https://www.dutscher.com/article/399211",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "Velp ZX3 vortex mixer",
+    "url": "https://www.dutscher.com/article/399045",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "EcoDryBlock dry bath pack with block for 24 COD tubes ø 16 mm",
+    "url": "https://www.dutscher.com/article/399212",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "EcoDryBlock dry bath pack with block for 4 COD tubes ø 42 mm",
+    "url": "https://www.dutscher.com/article/399213",
+    "catalog": "dutscher"
+   },
+   {
+    "name": "ARE 5 heating stirrer, stirring capacity 15 litres analogue",
+    "url": "https://www.dutscher.com/article/399151",
+    "catalog": "dutscher"
+   }
+  ],
+  "product_count": {
+   "dutscher": 287
+  },
+  "categories": [
+   {
+    "name": "Made in Europe",
+    "name_he": "Made in Europe",
+    "count": 229
+   },
+   {
+    "name": "Equipment",
+    "name_he": "ציוד",
+    "count": 177
+   },
+   {
+    "name": "Available for leasing",
+    "name_he": "Available for leasing",
+    "count": 91
+   },
+   {
+    "name": "UGAP Selection",
+    "name_he": "UGAP Selection",
+    "count": 76
+   },
+   {
+    "name": "Special offer",
+    "name_he": "Special offer",
+    "count": 40
+   }
+  ],
+  "applications": [
+   "Mixing, agitation and resuspension",
+   "Tissue dissociation and homogenization",
+   "Stainless steel",
+   "Water and environmental analysis",
+   "5 l"
+  ],
+  "description": null,
+  "source_pages": [
+   "https://www.dutscher.com/search?initialFilters=brand:Velp"
+  ],
+  "category": "Made in Europe"
+ }
+}

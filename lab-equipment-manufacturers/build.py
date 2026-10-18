@@ -122,7 +122,7 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
         web, web_src = prior["website"], "prior"
     elif wd.get("website"):
         web, web_src = wd["website"], "wikidata"
-    elif cb.get("domain") and (cb.get("score") or 0) >= 0.8:
+    elif cb.get("domain") and (cb.get("score") or 0) >= 0.9:
         web, web_src = "https://" + cb["domain"], "clearbit"
     r["website"] = web
     r["website_source"] = web_src
@@ -137,7 +137,7 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     r["inception"] = first(ov.get("inception"), prior.get("founded"), wd.get("inception"))
     r["aka"] = prior.get("aka")
     r["ownership"] = first(ov.get("ownership"), prior.get("ownership"))
-    r["industry"] = first(ov.get("industry"), prior.get("category"), ", ".join(wd.get("industry") or []) or None)
+    r["industry"] = first(ov.get("industry"), prior.get("category"), (prods or {}).get("category") if isinstance(prods, dict) else None, ", ".join(x for x in (wd.get("industry") or []) if x) or None)
     desc = first(ov.get("description"), (cats.get("quartzy_new") or {}).get("description"), wd.get("description"))
     r["description"] = desc
     r["wikidata"] = wd.get("qid")
@@ -172,10 +172,17 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     if not plist:
         for p in (prior.get("products") or []):
             plist.append({"name": p if isinstance(p, str) else p.get("name"), "desc": None if isinstance(p, str) else p.get("desc"), "source": "prior"})
-    if not plist and prods:
-        for p in prods:
-            plist.append({"name": p.get("name"), "source": p.get("source", "catalog"), "url": p.get("url"), "catalog": p.get("catalog")})
+    pinfo = prods if isinstance(prods, dict) else {"products": prods or []}
+    if not plist:
+        for p in pinfo.get("products") or []:
+            plist.append({"name": p.get("name"), "source": p.get("catalog") or "catalog", "url": p.get("url"), "catalog": p.get("catalog")})
     r["products"] = [p for p in plist if p.get("name")][:5]
+    r["product_count"] = pinfo.get("product_count") or {}
+    r["categories"] = pinfo.get("categories") or []
+    r["applications"] = pinfo.get("applications") or []
+    if not desc and pinfo.get("description"):
+        desc = pinfo["description"]
+        r["description"] = desc
     # Israel
     ents = []
     for e in (ov.get("israel_entities") or prior.get("israel_entities") or []):

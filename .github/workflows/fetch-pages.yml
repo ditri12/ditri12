@@ -61,13 +61,14 @@ jobs:
           if [ "$GZIP" = "true" ]; then extra="--gzip"; fi
           python lab-equipment-manufacturers/crawl/fetch.py --jobs "$JOBS" --out "$OUT" --workers "$WORKERS" --render-workers "${RENDER_WORKERS:-1}" $extra
       - name: Upload artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: pages-${{ github.run_id }}
           path: ${{ inputs.out }}
           retention-days: 14
       - name: Commit results
-        if: env.DO_COMMIT == 'true'
+        if: always() && env.DO_COMMIT == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
