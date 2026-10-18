@@ -27,6 +27,14 @@
    "evidence": "Abcam",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_zotal_co_il_v1",
+   "site": "zotal.co.il/sitemap_index.xml",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Abcam",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "abclonal": [
@@ -50,6 +58,14 @@
    "distributor": "il_doronscientific_com",
    "site": "doronscientific.com",
    "page_url": "https://doronscientific.com/products/",
+   "evidence": "ABclonal",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "ABclonal",
    "confidence": "exact",
    "evidence_year": 2026
@@ -93,6 +109,14 @@
    "evidence": "Agilent – Cell Analysis",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_isil_co_il_v0",
+   "site": "isil.co.il/sitemap.xml",
+   "page_url": "https://www.isil.co.il/Vacuum-and-Technology-Partners",
+   "evidence": "Agilent Vacuum Technologies",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "ambeed": [
@@ -123,6 +147,14 @@
    "evidence": "Antibodies.com",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_zotal_co_il_v1",
+   "site": "zotal.co.il/sitemap_index.xml",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Antibodies.com",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "anton paar": [
@@ -139,6 +171,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Arbor Assays",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Arbor Assays",
    "confidence": "exact",
@@ -163,6 +203,14 @@
    "evidence": "Assaypro",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Assaypro",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "atlas antibodies": [
@@ -181,6 +229,14 @@
    "site": "tamar.co.il",
    "page_url": "https://www.tamar.co.il/represented-companies/",
    "evidence": "Azenta Life Sciences",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_hylabs_co_il_v0",
+   "site": "hylabs.co.il/sitemap.xml",
+   "page_url": "https://www.hylabs.co.il/product-cat/research/custom-made-products/",
+   "evidence": "AZENTA (GENEWIZ) – GENOMICS SERVICES",
    "confidence": "contained",
    "evidence_year": 2026
   }
@@ -209,6 +265,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bachem",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Bachem",
    "confidence": "exact",
@@ -281,12 +345,36 @@
    "evidence": "Bio-Rad",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_hylabs_co_il_v1",
+   "site": "hylabs.co.il/sitemap_index.xml",
+   "page_url": "https://www.hylabs.co.il/products-sitemap.xml",
+   "evidence": "https://www.hylabs.co.il/products/cfx96-bio-rad/",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bio-Rad",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "bio x cell": [
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bio X Cell",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Bio X Cell",
    "confidence": "exact",
@@ -379,6 +467,14 @@
    "evidence": "Biotium",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Biotium",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "biotix": [
@@ -449,6 +545,16 @@
    "evidence_year": 2026
   }
  ],
+ "buchi": [
+  {
+   "distributor": "il_isil_co_il_v1",
+   "site": "isil.co.il/sitemap_index.xml",
+   "page_url": "https://www.isil.co.il/index.php?dir=site&page=teams&op=category&cs=8",
+   "evidence": "מנהל מכירות ומומחה למכשור מעבדתי תחום BUCHI",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "caisson labs": [
   {
    "distributor": "il_tivanbiotech_com",
@@ -463,6 +569,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Cayman Chemical",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Cayman Chemical",
    "confidence": "exact",
@@ -514,6 +628,14 @@
    "distributor": "il_hylabs_co_il",
    "site": "hylabs.co.il",
    "page_url": "https://www.hylabs.co.il/",
+   "evidence": "Clean rooms",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_hylabs_co_il_v0",
+   "site": "hylabs.co.il/sitemap.xml",
+   "page_url": "https://www.hylabs.co.il/product-cat/clinical-veterinary-diagnostic/",
    "evidence": "Clean rooms",
    "confidence": "exact",
    "evidence_year": 2026
@@ -675,6 +797,30 @@
    "evidence": "Electron Microscopy",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_rhenium_co_il_v1",
+   "site": "rhenium.co.il/sitemap.xml",
+   "page_url": "https://rheniumbio.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_rhenium_co_il_v2",
+   "site": "rhenium.co.il/sitemap_index.xml",
+   "page_url": "https://rheniumbio.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "elma": [
@@ -823,6 +969,14 @@
    "evidence": "GeneTex",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "GeneTex",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "genovis": [
@@ -867,6 +1021,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Gold Biotechnology",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Gold Biotechnology",
    "confidence": "exact",
@@ -939,6 +1101,14 @@
    "evidence": "HANNA USA",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bioanalytics_co_il",
+   "site": "bioanalytics.co.il",
+   "page_url": "https://www.bioanalytics.co.il/",
+   "evidence": "HANNA – מד טמפרטורה מכוייל",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "hanna instruments": [
@@ -989,12 +1159,30 @@
    "evidence_year": 2026
   }
  ],
+ "himedia": [
+  {
+   "distributor": "il_hylabs_co_il_v0",
+   "site": "hylabs.co.il/sitemap.xml",
+   "page_url": "https://www.hylabs.co.il/product-cat/food-water/dehydrate-culture-media/",
+   "evidence": "Himedia",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "huber": [
   {
    "distributor": "il_slmoran_co_il",
    "site": "slmoran.co.il",
    "page_url": "https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
    "evidence": "לוגו Huber",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_master_cold_co_il_v0",
+   "site": "master-cold.co.il",
+   "page_url": "http://master-cold.co.il/1370/products/minichiller",
+   "evidence": "Huber",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1005,6 +1193,14 @@
    "site": "slmoran.co.il",
    "page_url": "https://slmoran.co.il/",
    "evidence": "חדשים מ- IKA - הומוגנייזרים",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_master_cold_co_il_v0",
+   "site": "master-cold.co.il",
+   "page_url": "http://master-cold.co.il/category/news",
+   "evidence": "פלטת חימום עם בחישה מגנטי ורגש טמפרטורה חיצוני חברת IKA",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1037,6 +1233,14 @@
    "evidence": "Jackson ImmunoResearch",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Jackson ImmunoResearch",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "julabo": [
@@ -1044,6 +1248,14 @@
    "distributor": "il_labotal_co_il",
    "site": "labotal.co.il",
    "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Julabo",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_master_cold_co_il_v0",
+   "site": "master-cold.co.il",
+   "page_url": "http://master-cold.co.il/1641/products/julabo-f32",
    "evidence": "Julabo",
    "confidence": "exact",
    "evidence_year": 2026
@@ -1105,6 +1317,14 @@
    "site": "avni-son.co.il",
    "page_url": "https://avni-son.co.il/",
    "evidence": "Lauda מערכות חימום / קירור / צ'ילרים",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_master_cold_co_il_v0",
+   "site": "master-cold.co.il",
+   "page_url": "http://master-cold.co.il/1715/products/lauda-rc-6-cp",
+   "evidence": "Lauda",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1203,6 +1423,14 @@
    "evidence": "MedChemExpress",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "MedChemExpress",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "medkoo biosciences": [
@@ -1241,6 +1469,14 @@
    "evidence": "Merck",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_mercury_ltd_co_il_v0",
+   "site": "mercury-ltd.co.il/sitemap.xml",
+   "page_url": "https://www.mercury-ltd.co.il/singleuse_manufacturing_sn5spkmix50vsl",
+   "evidence": "MERCK",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "metrohm": [
@@ -1253,10 +1489,34 @@
    "evidence_year": 2026
   },
   {
+   "distributor": "il_bioanalytics_co_il",
+   "site": "bioanalytics.co.il",
+   "page_url": "https://www.bioanalytics.co.il/products/titration-masters/titrisoft-titration-software-by-si-analytics/",
+   "evidence": "Metrohm",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
    "distributor": "il_bdl_co_il",
    "site": "bdl.co.il",
    "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
    "evidence": "Metrohm",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_isil_co_il_v0",
+   "site": "isil.co.il/sitemap.xml",
+   "page_url": "https://www.isil.co.il/index.php?dir=site&amp;page=catalog&amp;op=item&amp;cs=3790",
+   "evidence": "Metrohm Ion chromatographs",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_isil_co_il_v1",
+   "site": "isil.co.il/sitemap_index.xml",
+   "page_url": "https://www.isil.co.il/index.php?dir=site&page=teams&op=category&cs=8",
+   "evidence": "מנהלת מכירות תחום METROHM ומומחית תחום אנליזה יונית.",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -1307,12 +1567,28 @@
    "evidence": "Mirus bio",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_zotal_co_il_v1",
+   "site": "zotal.co.il/sitemap_index.xml",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Mirus bio",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "mp biomedicals": [
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "MP Biomedicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "MP Biomedicals",
    "confidence": "exact",
@@ -1393,6 +1669,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Novoprotein",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Novoprotein",
    "confidence": "exact",
@@ -1581,6 +1865,14 @@
    "evidence": "ProSci Incorporated",
    "confidence": "contained",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "ProSci Incorporated",
+   "confidence": "contained",
+   "evidence_year": 2026
   }
  ],
  "qiagen": [
@@ -1607,6 +1899,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Quidel",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Quidel",
    "confidence": "exact",
@@ -1649,12 +1949,28 @@
    "evidence": "Revvity",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Revvity",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "rockland immunochemicals": [
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Rockland Immunochemicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Rockland Immunochemicals",
    "confidence": "exact",
@@ -1675,6 +1991,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Santa Cruz Biotechnology",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Santa Cruz Biotechnology",
    "confidence": "exact",
@@ -1759,10 +2083,28 @@
    "evidence_year": 2026
   }
  ],
+ "si analytics": [
+  {
+   "distributor": "il_bioanalytics_co_il",
+   "site": "bioanalytics.co.il",
+   "page_url": "https://www.bioanalytics.co.il/",
+   "evidence": "karl fischer SI-analytics",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
  "sino biological": [
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Sino Biological",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "Sino Biological",
    "confidence": "exact",
@@ -1783,6 +2125,14 @@
   {
    "distributor": "il_enco_co_il",
    "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "STEMCELL Technologies",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
    "page_url": "https://www.enco.co.il/suppliers.php",
    "evidence": "STEMCELL Technologies",
    "confidence": "exact",
@@ -1905,6 +2255,14 @@
    "evidence": "Vector Laboratories",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_zotal_co_il_v1",
+   "site": "zotal.co.il/sitemap_index.xml",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Vector Laboratories",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "velp": [
@@ -1925,6 +2283,14 @@
    "evidence": "Worthington Biochemical",
    "confidence": "exact",
    "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il_v0",
+   "site": "enco.co.il/sitemap.xml",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Worthington Biochemical",
+   "confidence": "exact",
+   "evidence_year": 2026
   }
  ],
  "wpi": [
@@ -1939,6 +2305,14 @@
  ],
  "wtw": [
   {
+   "distributor": "il_bioanalytics_co_il",
+   "site": "bioanalytics.co.il",
+   "page_url": "https://www.bioanalytics.co.il/",
+   "evidence": "אלקטרודות למדידת מוליכות מבית WTW",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
    "distributor": "il_bdl_co_il",
    "site": "bdl.co.il",
    "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
@@ -1951,6 +2325,14 @@
   {
    "distributor": "il_zotal_co_il",
    "site": "zotal.co.il",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Zymo Research",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_zotal_co_il_v1",
+   "site": "zotal.co.il/sitemap_index.xml",
    "page_url": "https://www.zotal.co.il/brands/",
    "evidence": "Zymo Research",
    "confidence": "exact",

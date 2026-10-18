@@ -4908,6 +4908,23 @@
      "match_basis": "distributor_site_sweep",
      "match_confidence": "contained",
      "match_text": "Agilent – Cell Analysis"
+    },
+    {
+     "name": "Israel Scientific Instruments Ltd. (ISI)",
+     "name_he": null,
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.isil.co.il",
+     "phone": "+972 3-923-2202",
+     "email": "info@isil.co.il",
+     "address": "32 Shacham St., P.O. Box 7790, Petah Tikva 49170",
+     "contact_url": "",
+     "source": "https://www.isil.co.il/Vacuum-and-Technology-Partners",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "contained",
+     "match_text": "Agilent Vacuum Technologies"
     }
    ],
    "israel_evidence_year": 2026,
@@ -4930,7 +4947,8 @@
     "http://eldan.biz/fisebilanit-2014/",
     "https://www.sec.gov/Archives/edgar/data/1090872/000109087225000087/a-20251031.htm",
     "https://www.businesswire.com/news/home/20251124941358/en/Agilent-Reports-Fourth-Quarter-Fiscal-Year-2025-Financial-Results",
-    "https://www.lumitron.co.il/"
+    "https://www.lumitron.co.il/",
+    "https://www.isil.co.il/Vacuum-and-Technology-Partners"
    ],
    "category": "מתכלים וציוד קטן",
    "category_source": "catalog_facet",
@@ -18140,6 +18158,23 @@
      "match_basis": "distributor_site_sweep",
      "match_confidence": "exact",
      "match_text": "Bio-Rad"
+    },
+    {
+     "name": "Hy Laboratories Ltd. (hylabs)",
+     "name_he": null,
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.hylabs.co.il",
+     "phone": "+972-8-936-6475",
+     "email": null,
+     "address": "8 Prof. Menakhem Plaut St., Rehovot (Prospeo lists 6 Plaut St., Rehovot 7670606)",
+     "contact_url": "",
+     "source": "https://www.hylabs.co.il/products-sitemap.xml",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "contained",
+     "match_text": "https://www.hylabs.co.il/products/cfx96-bio-rad/"
     }
    ],
    "israel_evidence_year": 2026,
@@ -18166,7 +18201,8 @@
     "https://www.reveliolabs.com/companies/bio-rad-laboratories/employees",
     "https://www.bio-rad.com/webroot/web/pdf/general/trading_terms/AGB_IL.pdf",
     "https://www.bio-rad.com/en-us/feature/quality-management-systems-certificates.html",
-    "https://www.enco.co.il/suppliers.php"
+    "https://www.enco.co.il/suppliers.php",
+    "https://www.hylabs.co.il/products-sitemap.xml"
    ],
    "category": "ריאגנטים וביולוגיה מולקולרית",
    "category_source": "keyword_guess",
@@ -24639,6 +24675,23 @@
      "contact_url": "",
      "contact_source": "https://www.pharmaceutical-tech.com/suppliers/dr-golik ; https://craft.co/dr-golik",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "Israel Scientific Instruments Ltd. (ISI)",
+     "name_he": null,
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.isil.co.il",
+     "phone": "+972 3-923-2202",
+     "email": "info@isil.co.il",
+     "address": "32 Shacham St., P.O. Box 7790, Petah Tikva 49170",
+     "contact_url": "",
+     "source": "https://www.isil.co.il/index.php?dir=site&page=teams&op=category&cs=8",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "מנהל מכירות ומומחה למכשור מעבדתי תחום BUCHI"
     }
    ],
    "israel_evidence_year": 2026,
@@ -24670,6 +24723,7 @@
     "https://golik.co.il/products/rotavapor-%D7%9E%D7%A2%D7%A8%D7%9B%D7%95%D7%AA-%D7%A0%D7%99%D7%93%D7%95%D7%A3/",
     "https://www.golik.co.il/puresystem",
     "https://www.buchi.com/en/support/buchi-worldwide",
+    "https://www.isil.co.il/index.php?dir=site&page=teams&op=category&cs=8",
     "https://www.buchi.com/en/support/contact"
    ],
    "category": "ציוד",
@@ -56034,6 +56088,23 @@
      "match_basis": "distributor_site_sweep",
      "match_confidence": "exact",
      "match_text": "HANNA USA"
+    },
+    {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": "",
+     "source": "https://www.bioanalytics.co.il/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "HANNA – מד טמפרטורה מכוייל"
     }
    ],
    "israel_evidence_year": 2026,
@@ -56050,7 +56121,8 @@
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Hanna",
-    "http://www.agrolan.com/index.asp"
+    "http://www.agrolan.com/index.asp",
+    "https://www.bioanalytics.co.il/"
    ],
    "category": "כימיה",
    "category_source": "catalog_facet",
@@ -58213,15 +58285,33 @@
    "applications": [
     "Media, sera and cell supplements"
    ],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Hy Laboratories Ltd. (hylabs)",
+     "name_he": null,
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.hylabs.co.il",
+     "phone": "+972-8-936-6475",
+     "email": null,
+     "address": "8 Prof. Menakhem Plaut St., Rehovot (Prospeo lists 6 Plaut St., Rehovot 7670606)",
+     "contact_url": "",
+     "source": "https://www.hylabs.co.il/product-cat/food-water/dehydrate-culture-media/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Himedia"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "HiMedia distributors found for Germany (neoFroxx, exclusive) and North America (own subsidiary HiMedia Laboratories LLC) plus a VWR India agreement; no Israel entry.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -58232,7 +58322,8 @@
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:HiMedia",
-    "https://www.thomassci.com/browse-by/suppliers/himedia"
+    "https://www.thomassci.com/browse-by/suppliers/himedia",
+    "https://www.hylabs.co.il/product-cat/food-water/dehydrate-culture-media/"
    ],
    "category": "ריאגנטים ביולוגיים",
    "category_source": "catalog_facet",
@@ -61586,6 +61677,23 @@
      "match_basis": "distributor_site_sweep",
      "match_confidence": "exact",
      "match_text": "חדשים מ- IKA - הומוגנייזרים"
+    },
+    {
+     "name": "Master-Cold",
+     "name_he": "מאסטר-קולד",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "http://master-cold.co.il",
+     "phone": null,
+     "email": "sales@master-cold.co.il",
+     "address": "",
+     "contact_url": "",
+     "source": "http://master-cold.co.il/category/news",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "פלטת חימום עם בחישה מגנטי ורגש טמפרטורה חיצוני חברת IKA"
     }
    ],
    "israel_evidence_year": 2026,
@@ -61617,7 +61725,8 @@
     "http://master-cold.co.il/wp-content/uploads/2012/01/Magnetic%20stirrers%20hotplates.pdf",
     "https://www.medent.co.il/scientific.equipment/product-category/%D7%91%D7%95%D7%97%D7%A9%D7%99%D7%9D-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D/%D7%91%D7%95%D7%97%D7%A9%D7%99%D7%9D-%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%99%D7%9D-%D7%A2%D7%9D-%D7%97%D7%99%D7%9E%D7%95%D7%9D/",
     "https://www.medent.co.il/scientific.equipment/product-category/%D7%95%D7%95%D7%A8%D7%98%D7%A7%D7%A1/",
-    "https://slmoran.co.il/"
+    "https://slmoran.co.il/",
+    "http://master-cold.co.il/category/news"
    ],
    "category": "ציוד",
    "category_source": "catalog_facet",
@@ -66671,6 +66780,23 @@
      "contact_url": "https://labotal.co.il/contact/",
      "contact_source": "https://labotal.co.il/contact/",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "Master-Cold",
+     "name_he": "מאסטר-קולד",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "http://master-cold.co.il",
+     "phone": null,
+     "email": "sales@master-cold.co.il",
+     "address": "",
+     "contact_url": "",
+     "source": "http://master-cold.co.il/1641/products/julabo-f32",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Julabo"
     }
    ],
    "israel_evidence_year": 2026,
@@ -66696,6 +66822,7 @@
     "https://prospeo.io/c/julabo-revenue",
     "https://labotal.co.il/product/julabo-magio-ms-and-mx-heating-circulatorsideal-for-demanding-external-applications/",
     "https://labotal.co.il/firms/?lang=en",
+    "http://master-cold.co.il/1641/products/julabo-f32",
     "https://www.julabo.com/en-us/contact"
    ],
    "category": "ציוד",
@@ -71822,6 +71949,23 @@
      "contact_url": "https://avni-son.co.il/%D7%A6%D7%A8%D7%95-%D7%A7%D7%A9%D7%A8/",
      "contact_source": "https://avni-son.co.il/%D7%A6%D7%A8%D7%95-%D7%A7%D7%A9%D7%A8/ ; https://www.d.co.il/2630120/30660/",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "Master-Cold",
+     "name_he": "מאסטר-קולד",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "http://master-cold.co.il",
+     "phone": null,
+     "email": "sales@master-cold.co.il",
+     "address": "",
+     "contact_url": "",
+     "source": "http://master-cold.co.il/1715/products/lauda-rc-6-cp",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Lauda"
     }
    ],
    "israel_evidence_year": 2026,
@@ -71853,6 +71997,7 @@
     "https://www.lauda.de/us/warranty-conditions/participants",
     "https://www.lauda.de/en/footernav/top/1-spalte/locations-worldwide",
     "https://www.medent.co.il/scientific.equipment/product-category/lauda-%D7%90%D7%9E%D7%91%D7%98%D7%99%D7%9D-%D7%A1%D7%99%D7%A8%D7%A7%D7%95%D7%9C%D7%98%D7%95%D7%A8%D7%99%D7%9D-%D7%95%D7%A6%D7%99%D7%9C%D7%A8%D7%99%D7%9D/%D7%A6%D7%99%D7%9C%D7%A8%D7%99%D7%9D/",
+    "http://master-cold.co.il/1715/products/lauda-rc-6-cp",
     "https://www.lauda.de/de/kontakt"
    ],
    "category": "ציוד",
@@ -80595,6 +80740,23 @@
      "match_basis": "prior_research"
     },
     {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": "",
+     "source": "https://www.bioanalytics.co.il/products/titration-masters/titrisoft-titration-software-by-si-analytics/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Metrohm"
+    },
+    {
      "name": "BDL (Beith Dekel) Ltd.",
      "name_he": "BDL",
      "type": "distributor",
@@ -80632,6 +80794,7 @@
     "https://pitchbook.com/profiles/company/64426-42",
     "https://www.metrohm.com/en_ae/company/how-to-find-us.html",
     "https://www.wikidata.org/wiki/Q1925733",
+    "https://www.bioanalytics.co.il/products/titration-masters/titrisoft-titration-software-by-si-analytics/",
     "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
     "https://www.metrohm.com/en_us.html"
    ],
@@ -110900,15 +111063,33 @@
    },
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": "",
+     "source": "https://www.bioanalytics.co.il/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "contained",
+     "match_text": "karl fischer SI-analytics"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+49 881 183-0",
     "email": null,
@@ -110919,6 +111100,7 @@
    },
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/si-analytics",
+    "https://www.bioanalytics.co.il/",
     "https://www.xylemanalytics.com/en/contact/general-contact"
    ],
    "category": "מכשור אנליטי ומדידה",
@@ -131223,6 +131405,23 @@
    "israel_check_he": "סריקת אתרי מפיצים",
    "israel_entities": [
     {
+     "name": "BioAnalytics Ltd.",
+     "name_he": "ביואנליטיקס",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.bioanalytics.co.il",
+     "phone": "+972-72-242-9555",
+     "email": null,
+     "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+     "contact_url": "",
+     "source": "https://www.bioanalytics.co.il/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "אלקטרודות למדידת מוליכות מבית WTW"
+    },
+    {
      "name": "BDL (Beith Dekel) Ltd.",
      "name_he": "BDL",
      "type": "distributor",
@@ -131254,6 +131453,7 @@
    },
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/wtw",
+    "https://www.bioanalytics.co.il/",
     "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1"
    ],
    "category": "מכשור אנליטי ומדידה",
@@ -134721,6 +134921,104 @@
    "count": 5
   },
   {
+   "key": "isil.co.il",
+   "name": "Israel Scientific Instruments Ltd. (ISI)",
+   "name_he": "ISI – ישראל מכשור מדעי",
+   "type": "distributor",
+   "website": "https://www.isil.co.il",
+   "phone": "+972 3-923-2202",
+   "email": "info@isil.co.il",
+   "address": "32 Shacham St., P.O. Box 7790, Petah Tikva 49170",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 53,
+     "name": "Agilent",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 257,
+     "name": "Buchi",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 846,
+     "name": "Metrohm",
+     "status": "current",
+     "evidence_year": 2025,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 985,
+     "name": "PerkinElmer",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 1081,
+     "name": "Revvity",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    }
+   ],
+   "count": 5
+  },
+  {
+   "key": "hylabs.co.il",
+   "name": "HyLabs (Hy Laboratories Ltd.)",
+   "name_he": "היי-לאבס",
+   "type": "distributor",
+   "website": "https://www.hylabs.co.il",
+   "phone": "+972-8-936-6475",
+   "email": "oligo@hylabs.co.il",
+   "address": "8 Prof. Menakhem Plaut St., Rehovot (Prospeo lists 6 Plaut St., Rehovot 7670606)",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 149,
+     "name": "Azenta",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 150,
+     "name": "Azenta Life Sciences (formerly 4titude)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 192,
+     "name": "Bio-Rad",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 333,
+     "name": "Clean Rooms International",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 609,
+     "name": "HiMedia",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 5
+  },
+  {
    "key": "nbtltd.com",
    "name": "New Biotechnology Ltd",
    "name_he": "ניו ביוטכנולוגי (NBT)",
@@ -134814,6 +135112,55 @@
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "prior_research"
+    }
+   ],
+   "count": 5
+  },
+  {
+   "key": "bioanalytics.co.il",
+   "name": "BioAnalytics Ltd.",
+   "name_he": "ביואנליטיקס",
+   "type": "distributor",
+   "website": "https://www.bioanalytics.co.il",
+   "phone": "+972-72-242-9555",
+   "email": null,
+   "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 589,
+     "name": "Hanna",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 590,
+     "name": "Hanna Instruments",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 846,
+     "name": "Metrohm",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1156,
+     "name": "SI Analytics",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1365,
+     "name": "WTW",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
     }
    ],
    "count": 5
@@ -134937,6 +135284,48 @@
     {
      "id": 1030,
      "name": "PromoCell",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 4
+  },
+  {
+   "key": "master-cold.co.il",
+   "name": "Master-Cold",
+   "name_he": "מאסטר-קולד",
+   "type": "distributor",
+   "website": "http://master-cold.co.il",
+   "phone": "",
+   "email": "sales@master-cold.co.il",
+   "address": "",
+   "contact_url": "",
+   "suppliers": [
+    {
+     "id": 626,
+     "name": "Huber USA",
+     "status": "older_evidence",
+     "evidence_year": null,
+     "match_basis": "prior_research"
+    },
+    {
+     "id": 647,
+     "name": "Ika",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 700,
+     "name": "Julabo",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 751,
+     "name": "Lauda",
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "distributor_site_sweep"
@@ -135106,41 +135495,6 @@
    "count": 3
   },
   {
-   "key": "hylabs.co.il",
-   "name": "HyLabs (Hy Laboratories Ltd.)",
-   "name_he": "היי-לאבס",
-   "type": "distributor",
-   "website": "https://www.hylabs.co.il",
-   "phone": "+972-8-936-6475",
-   "email": "oligo@hylabs.co.il",
-   "address": "8 Prof. Menakhem Plaut St., Rehovot (Prospeo lists 6 Plaut St., Rehovot 7670606)",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 149,
-     "name": "Azenta",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 150,
-     "name": "Azenta Life Sciences (formerly 4titude)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 333,
-     "name": "Clean Rooms International",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "distributor_site_sweep"
-    }
-   ],
-   "count": 3
-  },
-  {
    "key": "ex-lab.com",
    "name": "EX-LAB Ltd.",
    "name_he": "אקס-לאב",
@@ -135205,41 +135559,6 @@
      "name": "MilliporeSigma",
      "status": "current",
      "evidence_year": 2026,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 3
-  },
-  {
-   "key": "isil.co.il",
-   "name": "Israel Scientific Instruments Ltd. (ISI)",
-   "name_he": "ISI – ישראל מכשור מדעי",
-   "type": "distributor",
-   "website": "https://www.isil.co.il",
-   "phone": "+972 3-923-2202",
-   "email": "info@isil.co.il",
-   "address": "32 Shacham St., P.O. Box 7790, Petah Tikva 49170",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 846,
-     "name": "Metrohm",
-     "status": "current",
-     "evidence_year": 2025,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 985,
-     "name": "PerkinElmer",
-     "status": "older_evidence",
-     "evidence_year": null,
-     "match_basis": "prior_research"
-    },
-    {
-     "id": 1081,
-     "name": "Revvity",
-     "status": "older_evidence",
-     "evidence_year": null,
      "match_basis": "prior_research"
     }
    ],
@@ -135918,27 +136237,6 @@
    "count": 1
   },
   {
-   "key": "bioanalytics.co.il",
-   "name": "BioAnalytics",
-   "name_he": "",
-   "type": "distributor",
-   "website": "https://www.bioanalytics.co.il",
-   "phone": "+972-72-242-9555",
-   "email": "",
-   "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 590,
-     "name": "Hanna Instruments",
-     "status": "older_evidence",
-     "evidence_year": null,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
    "key": "cannadepot.co.il",
    "name": "Cannadepot",
    "name_he": "",
@@ -135952,27 +136250,6 @@
     {
      "id": 590,
      "name": "Hanna Instruments",
-     "status": "older_evidence",
-     "evidence_year": null,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
-   "key": "master-cold.co.il",
-   "name": "Master-Cold",
-   "name_he": "",
-   "type": "distributor",
-   "website": "http://master-cold.co.il",
-   "phone": "",
-   "email": "",
-   "address": "",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 626,
-     "name": "Huber USA",
      "status": "older_evidence",
      "evidence_year": null,
      "match_basis": "prior_research"
