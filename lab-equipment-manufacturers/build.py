@@ -113,7 +113,7 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
                    "catalog_link": src.get("catalog_link")}
     r["catalogs"] = cats
     r["n_catalogs"] = len(cats)
-    r["own_brand_of"] = "Dutscher" if any(c.get("own_brand") for c in cats.values()) else None
+    r["own_brand_of"] = ", ".join(CATALOGS[c]["name"] for c, v in cats.items() if v.get("own_brand")) or None
     # website
     web, web_src = None, None
     if ov.get("website"):
@@ -123,11 +123,16 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     elif wd.get("website"):
         web, web_src = wd["website"], "wikidata"
     elif cb.get("domain") and (cb.get("score") or 0) >= 0.9:
-        web, web_src = "https://" + cb["domain"], "clearbit"
+        sc = site_contact or {}
+        checked = sc.get("name_match") is not None and domain_of(sc.get("website")) == cb["domain"].lower()
+        plausible = (not checked) or (sc.get("name_match") and (sc.get("lab_relevance") or 0) >= 2)
+        if plausible:
+            web, web_src = "https://" + cb["domain"], "clearbit" if not checked else "clearbit_verified"
     r["website"] = web
     r["website_source"] = web_src
     r["website_candidate"] = ("https://" + cb["domain"]) if (not web and cb.get("domain")) else None
     r["website_candidate_score"] = cb.get("score") if r["website_candidate"] else None
+    r["website_verified"] = web_src in ("prior", "wikidata", "manual", "clearbit_verified")
     # identity
     country = first(ov.get("country"), prior.get("country"), (wd.get("country") or [None])[0])
     r["country"] = country
@@ -243,6 +248,10 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     c = {}
     pc = prior.get("contact") or {}
     sc = site_contact or {}
+    if sc and web and domain_of(sc.get("website")) != domain_of(web):
+        sc = {}
+    if sc and not web:
+        sc = {}
     oc = ov.get("contact") or {}
     c["phone"] = clean_phone(first(oc.get("phone"), pc.get("phone"), sc.get("phone")))
     c["email"] = first(oc.get("email"), pc.get("email"), sc.get("email"))

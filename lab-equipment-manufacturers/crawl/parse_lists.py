@@ -76,10 +76,17 @@ def quartzy_new():
     return out
 
 
+THOMAS_OWN = {"labforce", "chemforce", "ce force", "thomas scientific", "thomas", "cleanforce", "safeforce"}
+
+
 def thomassci():
     path = os.path.join(SRC, "thomas", "thomas_suppliers_parsed.json")
     if os.path.exists(path):
-        return json.load(open(path, encoding="utf-8"))
+        items = json.load(open(path, encoding="utf-8"))
+        for it in items:
+            if norm(it["name"]) in THOMAS_OWN:
+                it["own_brand"] = True
+        return items
     return []
 
 

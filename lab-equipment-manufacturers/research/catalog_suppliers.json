@@ -4252,7 +4252,8 @@
   ],
   "sources": {
    "thomassci": {
-    "url": "https://www.thomassci.com/browse-by/suppliers/ce-force-powered-by-thomas-scientific"
+    "url": "https://www.thomassci.com/browse-by/suppliers/ce-force-powered-by-thomas-scientific",
+    "own_brand": true
    }
   },
   "id": 289,
@@ -4634,7 +4635,8 @@
   ],
   "sources": {
    "thomassci": {
-    "url": "https://www.thomassci.com/browse-by/suppliers/chemforce-powered-by-thomas-scientific"
+    "url": "https://www.thomassci.com/browse-by/suppliers/chemforce-powered-by-thomas-scientific",
+    "own_brand": true
    }
   },
   "id": 316,
@@ -10866,7 +10868,8 @@
   ],
   "sources": {
    "thomassci": {
-    "url": "https://www.thomassci.com/browse-by/suppliers/labforce-powered-by-thomas-scientific"
+    "url": "https://www.thomassci.com/browse-by/suppliers/labforce-powered-by-thomas-scientific",
+    "own_brand": true
    }
   },
   "id": 741,
@@ -16095,7 +16098,8 @@
   ],
   "sources": {
    "thomassci": {
-    "url": "https://www.thomassci.com/browse-by/suppliers/safeforce-powered-by-thomas-scientific"
+    "url": "https://www.thomassci.com/browse-by/suppliers/safeforce-powered-by-thomas-scientific",
+    "own_brand": true
    }
   },
   "id": 1102,
@@ -18557,7 +18561,8 @@
   ],
   "sources": {
    "thomassci": {
-    "url": "https://www.thomassci.com/browse-by/suppliers/thomas"
+    "url": "https://www.thomassci.com/browse-by/suppliers/thomas",
+    "own_brand": true
    }
   },
   "id": 1270,

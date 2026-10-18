@@ -66,8 +66,17 @@ def emails_from(html, text):
     return list(dict.fromkeys(role)), len(rest)
 
 
-def process(key, website):
-    rec = {"website": website, "phone": None, "email": None, "contact_url": None, "address": None, "source": None, "note": None, "status": None}
+LAB_RX = re.compile(r"laborator|\blabs?\b|scientific|research|biotech|biolog|chemical|reagent|instrument|equipment|antibod|assay|pipet|microscop|diagnostic|medical|safety|glove|cleanroom|supplies|supply|industrial|manufactur|analytical|pharma|life science|consumable|sample|enzyme|protein|cell|genom|clinical|sterile|filtration|glassware|plastic|balance|weigh|incubator|centrifug|chromatograph|spectro|microbiolog|cryo|freezer|thermo", re.I)
+
+
+def name_tokens(name):
+    toks = [t for t in re.split(r"[^a-z0-9]+", name.lower()) if len(t) >= 3 and t not in ("inc", "ltd", "llc", "corp", "corporation", "company", "the", "and", "gmbh", "co", "usa", "international", "scientific", "products", "group", "laboratories", "laboratory", "sciences", "science", "bio", "lab", "labs")]
+    return toks or [t for t in re.split(r"[^a-z0-9]+", name.lower()) if t]
+
+
+def process(key, website, name=""):
+    rec = {"website": website, "phone": None, "email": None, "contact_url": None, "address": None, "source": None, "note": None, "status": None,
+           "name_match": None, "lab_relevance": None, "title": None}
     try:
         r = get(website)
     except Exception as e:
@@ -79,6 +88,12 @@ def process(key, website):
     html = r.text
     base = r.url
     text = html_to_text(html)
+    mt = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+    rec["title"] = re.sub(r"\s+", " ", mt.group(1)).strip()[:150] if mt else None
+    low = (text[:20000] + " " + (rec["title"] or "") + " " + base).lower()
+    toks = name_tokens(name) if name else []
+    rec["name_match"] = bool(toks) and any(t in low for t in toks)
+    rec["lab_relevance"] = len(set(m.group(0).lower() for m in LAB_RX.finditer(text[:30000])))
     phones = phones_from(html, text)
     emails, n_personal = emails_from(html, text)
     contact_url = None
@@ -116,6 +131,7 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--only-missing", action="store_true")
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--unverified-only", action="store_true", help="only sites not yet checked for name_match/lab_relevance")
     args = ap.parse_args()
     master = json.load(open(MASTER, encoding="utf-8"))
     resolved = {x["key"]: x for x in json.load(open(RESOLVED, encoding="utf-8"))} if os.path.exists(RESOLVED) else {}
@@ -126,6 +142,8 @@ def main():
         k = m["key"]
         if args.only_missing and k in cache:
             continue
+        if args.unverified_only and k in cache and cache[k].get("name_match") is not None:
+            continue
         web = (prior.get(k) or {}).get("website")
         res = resolved.get(k) or {}
         wd = res.get("wikidata") or {}
@@ -135,14 +153,14 @@ def main():
         if not web and cb.get("domain") and (cb.get("score") or 0) >= 0.8:
             web = "https://" + cb["domain"]
         if web:
-            todo.append((k, web))
+            todo.append((k, web, m["name"]))
     if args.limit:
         todo = todo[:args.limit]
     print(f"{len(todo)} sites to check", flush=True)
     t0 = time.time()
     done = 0
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futs = {ex.submit(process, k, w): k for k, w in todo}
+        futs = {ex.submit(process, k, w, nm): k for k, w, nm in todo}
         for fu in as_completed(futs):
             k = futs[fu]
             try:
