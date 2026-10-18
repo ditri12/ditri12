@@ -1,0 +1,163 @@
+{
+ "il_syntezza_com": {
+  "id": "il_syntezza_com",
+  "site": "syntezza.com",
+  "name": "Syntezza Bioscience",
+  "name_he": "סינתזה ביוסיינס",
+  "website": "https://www.syntezza.com/",
+  "phone": null,
+  "email": null,
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://www.syntezza.com/",
+   "https://www.syntezza.com/",
+   "https://www.syntezza.com/product-category/research-reagents-kits/",
+   "https://www.syntezza.com/product/gentegra-systems-%e2%80%8e/"
+  ],
+  "n_pages": 4,
+  "n_lines": 547
+ },
+ "il_yairtech_co_il": {
+  "id": "il_yairtech_co_il",
+  "site": "yairtech.co.il",
+  "name": "Yair Technologies",
+  "name_he": "יאיר טכנולוגיות",
+  "website": "https://www.yairtech.co.il/",
+  "phone": "+97288544856",
+  "email": "contact@yairtech.co.il",
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "+97288544856",
+   "+97288600454",
+   "+972507547472"
+  ],
+  "emails_found": [
+   "contact@yairtech.co.il"
+  ],
+  "pages": [
+   "https://www.yairtech.co.il/",
+   "https://www.yairtech.co.il/product/",
+   "https://www.yairtech.co.il/partners/",
+   "https://www.yairtech.co.il/cat_product/biological/",
+   "https://www.yairtech.co.il/cat_product/safety/",
+   "https://www.yairtech.co.il/cat_product/laboratory-balances/",
+   "https://www.yairtech.co.il/cat_product/hplc-columns/",
+   "https://www.yairtech.co.il/cat_product/consumables/",
+   "https://www.yairtech.co.il/cat_product/apparatus/",
+   "https://www.yairtech.co.il/cat_product/sales-yad2/",
+   "https://www.yairtech.co.il/cat_product/systems/",
+   "https://www.yairtech.co.il/product/micro-flow-imaging-mfi-instruments/"
+  ],
+  "n_pages": 12,
+  "n_lines": 3261
+ },
+ "il_doronscientific_com": {
+  "id": "il_doronscientific_com",
+  "site": "doronscientific.com",
+  "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+  "name_he": "דורון סיינטיפיק",
+  "website": "https://www.doronscientific.com/",
+  "phone": "054-5544004",
+  "email": "info@doronscientific.com",
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "054-5544004",
+   "+972-54-5544004"
+  ],
+  "emails_found": [
+   "info@doronscientific.com",
+   "ilan@doronscientific.com",
+   "sophie@kahuna.co.il"
+  ],
+  "pages": [
+   "https://doronscientific.com/",
+   "https://doronscientific.com/suppliers/",
+   "https://doronscientific.com/products/",
+   "https://doronscientific.com/products/cell-lines/",
+   "https://doronscientific.com/products/antibodies/",
+   "https://doronscientific.com/products/elisa-kits/",
+   "https://doronscientific.com/products/diagnostic-veterinary/",
+   "https://doronscientific.com/products/venom-toxins/",
+   "https://doronscientific.com/products/custom-services/",
+   "https://doronscientific.com/products/recombinant-proteins/",
+   "https://doronscientific.com/products-categories/",
+   "https://doronscientific.com/products/small-molecule-inhibitors/",
+   "https://doronscientific.com/featured-products-hub/"
+  ],
+  "n_pages": 13,
+  "n_lines": 23778
+ },
+ "il_nbtltd_com": {
+  "id": "il_nbtltd_com",
+  "site": "nbtltd.com",
+  "name": "NBT",
+  "name_he": "ניו ביוטכנולוגי (NBT)",
+  "website": "https://www.nbtltd.com/",
+  "phone": null,
+  "email": null,
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://nbtltd.com/",
+   "https://nbtltd.com/suppliers",
+   "https://nbtltd.com/products-page",
+   "https://nbtltd.com/products-categories/cognitive-neuroscience",
+   "https://nbtltd.com/products-categories/animal-behavior-and-physiology",
+   "https://nbtltd.com/products-categories/cell-neurobiology-imaging",
+   "https://nbtltd.com/products-categories/microfluidics-and-organ-on-a-chip",
+   "https://nbtltd.com/products-categories/biomechanics-motion-capture",
+   "https://nbtltd.com/products/hpms-physiological-monitoring-system",
+   "https://nbtltd.com/products/artinis-brite-ultra",
+   "https://nbtltd.com/products/arqus"
+  ],
+  "n_pages": 11,
+  "n_lines": 2730
+ },
+ "il_tivanbiotech_com": {
+  "id": "il_tivanbiotech_com",
+  "site": "tivanbiotech.com",
+  "name": "Tivan Biotech",
+  "name_he": "טיבן ביוטק",
+  "website": "https://www.tivanbiotech.com/",
+  "phone": "077-4701591",
+  "email": "customerservice@tivanbiotech.com",
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "077-4701591",
+   "054-2226019"
+  ],
+  "emails_found": [
+   "customerservice@tivanbiotech.com"
+  ],
+  "pages": [
+   "https://tivanbiotech.com/",
+   "https://tivanbiotech.com/manufacturer/candor-bioscience",
+   "https://tivanbiotech.com/manufacturer/hummert-international",
+   "https://tivanbiotech.com/manufacturers",
+   "https://tivanbiotech.com/manufacturer/amsbio",
+   "https://tivanbiotech.com/manufacturer/cellendes",
+   "https://tivanbiotech.com/manufacturer/bioworld",
+   "https://tivanbiotech.com/manufacturer/glysci",
+   "https://tivanbiotech.com/manufacturer/caisson",
+   "https://tivanbiotech.com/manufacturer/hardy-diagnostic",
+   "https://tivanbiotech.com/manufacturer/fairbiotech",
+   "https://tivanbiotech.com/manufacturer/formedium",
+   "https://tivanbiotech.com/manufacturer/cube"
+  ],
+  "n_pages": 13,
+  "n_lines": 2427
+ }
+}

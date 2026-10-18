@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "crawl"))
 from parse_lists import norm  # noqa: E402
 
-SRC = os.path.join(ROOT, "research", "sources", "israel")
+SRC_DIRS = [os.path.join(ROOT, "research", "sources", d) for d in ("israel", "israel2", "israel3") if os.path.exists(os.path.join(ROOT, "research", "sources", d, "index.json"))]
 MASTER = os.path.join(ROOT, "research", "catalog_suppliers.json")
 SEED = os.path.join(ROOT, "research", "israel", "distributor_contacts_seed.json")
 OUT_MATCHES = os.path.join(ROOT, "research", "enrich", "israel_matches.json")
@@ -31,7 +31,14 @@ direct dynamic elite express first focus future gold green ideal impact key libe
 one open optimum pacific peak perfect plus point power prime pure quality rapid ready safe select simple smart solid source south summit
 superior supreme total true ultra united value victory vision west world zero tools lab labs medical science scientific products supply
 supplies systems technologies technology instruments industries international solutions company group corporation health safety home
-office school paper plastic glass metal water air fire ice heat cold bio chem gen cell dna rna""".split())
+office school paper plastic glass metal water air fire ice heat cold bio chem gen cell dna rna
+across antibodies antibody bioscience biosciences biotech biotechnology multi reagents reagent research thomas chemicals chemical diagnostics
+diagnostic equipment labware glassware plastics pump pumps filter filters balance balances pipette pipettes genomics molecular proteins protein
+cells clean cleaning industrial enterprises enterprise manufacturing distribution trading services service lifesciences biomedical medica
+therm thermo micro nano opti optical electronics electronic engineering design designs dimensions innovations innovative imaging analytical
+analytics environmental laboratory laboratories sciences scientifics corp inc ltd gmbh usa america american europe european asia pacific
+north south east west central global national international universal general standard premium select plus pure fine smart new
+tech techno technologie technik gene genes genetic genetics organics organic natural nature""".split())
 
 
 def tokens(s):
@@ -54,7 +61,12 @@ def phone_email(text):
 
 def main():
     master = json.load(open(MASTER, encoding="utf-8"))
-    index = {e["id"]: e for e in json.load(open(os.path.join(SRC, "index.json"), encoding="utf-8"))}
+    index = {}
+    where = {}
+    for d in SRC_DIRS:
+        for e in json.load(open(os.path.join(d, "index.json"), encoding="utf-8")):
+            index[e["id"]] = e
+            where[e["id"]] = d
     seed = {s["key"]: s for s in json.load(open(SEED, encoding="utf-8"))} if os.path.exists(SEED) else {}
     names_he_path = os.path.join(ROOT, "research", "israel", "distributor_names_he.json")
     names_he = json.load(open(names_he_path, encoding="utf-8")) if os.path.exists(names_he_path) else {}
@@ -71,13 +83,13 @@ def main():
     for root, plist in pages.items():
         lines = []
         for e in plist:
-            txt = os.path.join(SRC, e["id"] + ".txt")
+            txt = os.path.join(where[e["id"]], e["id"] + ".txt")
             if os.path.exists(txt):
                 for ln in read_text(txt).splitlines():
                     ln = ln.strip()
                     if ln and len(ln) <= 120:
                         lines.append((ln, e["final_url"] or e["url"]))
-            lj = os.path.join(SRC, e["id"] + ".links.json")
+            lj = os.path.join(where[e["id"]], e["id"] + ".links.json")
             if os.path.exists(lj):
                 for l in json.load(open(lj, encoding="utf-8")):
                     for t in (l.get("text"), l.get("alt"), l.get("title")):
@@ -96,31 +108,46 @@ def main():
                           "address": sd.get("address"), "contact_url": sd.get("contact_url"), "note": sd.get("note"),
                           "phones_found": phones, "emails_found": emails,
                           "pages": [e["final_url"] or e["url"] for e in plist], "n_pages": len(plist), "n_lines": len(lines)}
-    # match
+    # match: index every normalised line and its token n-grams (n<=4) per distributor
     matches = defaultdict(list)
+    per_dist = {}
+    for root, lines in corpora.items():
+        exact, grams = {}, {}
+        for ln, url in lines:
+            nl = norm(ln)
+            if not nl:
+                continue
+            exact.setdefault(nl, (ln, url))
+            if len(nl) <= 60:
+                toks = nl.split()
+                for n in range(1, min(4, len(toks)) + 1):
+                    for i in range(len(toks) - n + 1):
+                        g = " ".join(toks[i:i + n])
+                        if g != nl:
+                            grams.setdefault(g, (ln, url))
+        per_dist[root] = (exact, grams)
     for m in master:
         variants = {norm(n) for n in m.get("names", [m["name"]])} | {m["key"]}
         variants = {v for v in variants if v}
-        for root, lines in corpora.items():
+        for root, (exact, grams) in per_dist.items():
             best = None
-            for ln, url in lines:
-                nl = norm(ln)
-                if not nl:
+            for v in variants:
+                toks = v.split()
+                if len(toks) == 1 and (v in GENERIC or len(v) < 3):
                     continue
+                if v in exact:
+                    best = ("exact",) + exact[v]
+                    break
+            if best is None:
                 for v in variants:
                     toks = v.split()
-                    if nl == v:
-                        conf = "exact"
-                    elif len(v) >= 5 and (len(toks) >= 2 or v not in GENERIC) and re.search(r"(?:^|\s)" + re.escape(v) + r"(?:\s|$)", nl) and len(nl) <= 60:
-                        conf = "contained"
-                    else:
+                    if len(toks) == 1 and (v in GENERIC or len(v) < 6):
                         continue
-                    if best is None or (conf == "exact" and best[0] != "exact"):
-                        best = (conf, ln, url)
-                    if conf == "exact":
+                    if len(toks) >= 2 and all(t in GENERIC for t in toks):
+                        continue
+                    if len(v) >= 5 and len(toks) <= 4 and v in grams:
+                        best = ("contained",) + grams[v]
                         break
-                if best and best[0] == "exact":
-                    break
             if best:
                 matches[m["key"]].append({"distributor": root, "site": registry[root]["site"], "page_url": best[2], "evidence": best[1][:120],
                                           "confidence": best[0], "evidence_year": 2026})

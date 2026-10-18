@@ -1158,15 +1158,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "AAT Bioquest"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "408-733-1304",
     "email": null,
@@ -1177,6 +1195,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://www.aatbio.com/careers.html"
    ],
    "prior_verified": false,
@@ -1286,15 +1305,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "ABclonal"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -1304,7 +1341,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -2277,15 +2315,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "ACROBiosystems"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -2296,6 +2352,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://www.acrobiosystems.com/"
    ],
    "prior_verified": false,
@@ -2476,15 +2533,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "ACTGENE"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -2494,7 +2569,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/actgene"
+    "https://www.thomassci.com/browse-by/suppliers/actgene",
+    "https://tivanbiotech.com/manufacturers"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -6068,15 +6144,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Ambeed"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "630-580-1088",
     "email": "sales@ambeed.com",
@@ -6087,6 +6181,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://www.ambeed.com/contact-us.html"
    ],
    "prior_verified": false,
@@ -6576,15 +6671,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "AMSBIO"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+4401235828200",
     "email": null,
@@ -6595,6 +6708,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://tivanbiotech.com/manufacturers",
     "https://www.amsbio.com/contact-us/"
    ],
    "prior_verified": false,
@@ -9712,15 +9826,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "unclear",
-   "israel_presence_he": "לא ברור",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Atlas Antibodies"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "No Israeli distributor named; a GlobalData company profile says Atlas markets its products in Israel (among other countries) but no channel is identified. Only older context: 2008 Sigma-Aldrich ex-Europe distribution deal; Bio-Connect for Benelux.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "6000 0000 0004",
     "email": "support@atlasantibodies.com",
@@ -9733,6 +9865,7 @@
     "https://www.quartzy.com/suppliers",
     "https://info.quartzy.com/new-suppliers",
     "https://www.thomassci.com/browse-by/suppliers/atlas-antibodies",
+    "https://www.yairtech.co.il/partners/",
     "https://www.atlasantibodies.com/company/contact-us/"
    ],
    "prior_verified": false,
@@ -10668,15 +10801,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "AZURA GENOMICS"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "No result mentions Azura Genomics; hits concern other genomics vendors' Israeli distributors (Eisenberg Bros for Fluidigm, Eldan for Vizgen/Medicinal Genomics, Syntezza for IDT/BGI).",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "888-333-3895",
     "email": "info@azuragenomics.com",
@@ -10688,6 +10839,7 @@
    "sources": [
     "https://www.quartzy.com/suppliers",
     "https://www.thomassci.com/browse-by/suppliers/azura-genomics",
+    "https://www.yairtech.co.il/partners/",
     "https://azuragenomics.com/pages/contact"
    ],
    "prior_verified": false,
@@ -14875,15 +15027,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Biorbyt"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+1 (415) 906-5211",
     "email": "info@biorbyt.com",
@@ -14894,6 +15064,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://www.biorbyt.com/contact-us"
    ],
    "prior_verified": false,
@@ -15674,15 +15845,50 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "contained",
+     "match_text": "Bioworld technology"
+    },
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "bioWorld"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "bioWORLD (Dublin, OH) claims distribution partners in 45 countries but none named for Israel; results polluted by the BioWorld news publication; Enco appeared with no link.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -15694,6 +15900,8 @@
    "sources": [
     "https://www.quartzy.com/suppliers",
     "https://www.thomassci.com/browse-by/suppliers/bioworld",
+    "https://doronscientific.com/products/",
+    "https://tivanbiotech.com/manufacturers",
     "https://www.bioworld.com/"
    ],
    "prior_verified": false,
@@ -16576,15 +16784,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Boster Bio"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "888-466-3604",
     "email": "sales@bosterbio.com",
@@ -16595,6 +16821,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://www.bosterbio.com/contact-us"
    ],
    "prior_verified": false,
@@ -19007,15 +19234,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Caisson Labs"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -19025,7 +19270,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://tivanbiotech.com/manufacturers"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -20624,15 +20870,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Cell Systems"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "425-823-1010",
     "email": "customerservice@cell-systems.com",
@@ -20643,6 +20907,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://cell-systems.com/pages/contact"
    ],
    "prior_verified": false,
@@ -26421,15 +26686,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "CUBE BIOTECH"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "06108-3666",
     "email": "info@cube-biotech.com",
@@ -26440,6 +26723,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://tivanbiotech.com/manufacturers",
     "https://cube-biotech.com/contact/"
    ],
    "prior_verified": false,
@@ -33949,15 +34233,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "EZ Biosystems"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "No result mentions EZ Biosystems; hits concern other companies' Israeli distributors (Eldan for Element Biosciences, Tivan Biotech for OZ Biosciences, Eisenberg Bros for Fluidigm, Rhenium for Life Technologies).",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -33968,7 +34270,8 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://info.quartzy.com/new-suppliers"
+    "https://info.quartzy.com/new-suppliers",
+    "https://tivanbiotech.com/manufacturers"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -34550,15 +34853,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "NBT",
+     "name_he": "ניו ביוטכנולוגי (NBT)",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.nbtltd.com/",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://nbtltd.com/products-page",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Fine Science Tools"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+1800-521-2109",
     "email": null,
@@ -34569,6 +34890,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://nbtltd.com/products-page",
     "https://finescience.com/"
    ],
    "prior_verified": false,
@@ -37344,15 +37666,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "GENOVIS"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+86 187 2162 7299",
     "email": "order@genovis.com",
@@ -37363,6 +37703,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://www.yairtech.co.il/partners/",
     "https://www.genovis.com/support/contact-us/"
    ],
    "prior_verified": false,
@@ -38288,15 +38629,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/product/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "contained",
+     "match_text": "GoatThroat Pumps"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -38306,7 +38665,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/goatthroat"
+    "https://www.thomassci.com/browse-by/suppliers/goatthroat",
+    "https://www.yairtech.co.il/product/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -40936,15 +41296,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "NBT",
+     "name_he": "ניו ביוטכנולוגי (NBT)",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.nbtltd.com/",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://nbtltd.com/products-page",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Harvard Apparatus"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "Harvard Bioscience says it sells via direct and distribution channels; no Israeli distributor named (only a used-equipment eBay seller in Petah Tikva).",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+800-232-2380",
     "email": "orders@harvardapparatus.com",
@@ -40956,6 +41334,7 @@
    "sources": [
     "https://www.quartzy.com/suppliers",
     "https://www.thomassci.com/browse-by/suppliers/harvard-apparatus",
+    "https://nbtltd.com/products-page",
     "https://www.harvardapparatus.com/contact"
    ],
    "prior_verified": false,
@@ -46115,15 +46494,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "NBT",
+     "name_he": "ניו ביוטכנולוגי (NBT)",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.nbtltd.com/",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://nbtltd.com/products-page",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Instech"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "18004434227",
     "email": "orders@instechlabs.com",
@@ -46134,6 +46531,7 @@
    },
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/instech",
+    "https://nbtltd.com/products-page",
     "https://www.instechlabs.com/contact"
    ],
    "prior_verified": false,
@@ -53950,15 +54348,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "List Biological Laboratories"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -53968,7 +54384,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -57280,15 +57697,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "MedKoo Biosciences"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -57298,7 +57733,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -59866,15 +60302,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Miles Scientific"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -59884,7 +60338,8 @@
     "note": null
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/miles-scientific-analtech"
+    "https://www.thomassci.com/browse-by/suppliers/miles-scientific-analtech",
+    "https://www.yairtech.co.il/partners/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -65363,15 +65818,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "NSJ Bioreagents"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "858.663.9055",
     "email": "info@nsjbio.com",
@@ -65382,6 +65855,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
     "https://www.nsjbio.com/contact-us.html"
    ],
    "prior_verified": false,
@@ -66080,6 +66554,23 @@
      "contact_url": "https://labotal.co.il/contact/",
      "contact_source": "https://labotal.co.il/contact/",
      "match_basis": "prior_research"
+    },
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "OHAUS"
     }
    ],
    "israel_evidence_year": 2026,
@@ -66108,7 +66599,8 @@
     "https://labotal.co.il/firms/ohaus/?lang=en",
     "https://labotal.co.il/firms/?lang=en",
     "https://labotal.co.il/product/compact-refrigerated-centrifuge-model-fc-5515r-made-by-ohaus/",
-    "https://us.ohaus.com/en-us/contact-us"
+    "https://us.ohaus.com/en-us/contact-us",
+    "https://www.yairtech.co.il/partners/"
    ],
    "prior_verified": true,
    "prior_verified_at": "2026-10-15"
@@ -67765,15 +68257,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "pan biotech"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": "info@pan-biotech.de",
@@ -67784,6 +68294,7 @@
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Pan+biotech",
+    "https://www.yairtech.co.il/partners/",
     "https://pan-biotech.de/kontakt/"
    ],
    "prior_verified": false,
@@ -79429,15 +79940,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "Selleck Chemicals"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "(877) 796-6397",
     "email": "sales@selleckchem.com",
@@ -79448,6 +79977,7 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
+    "https://tivanbiotech.com/manufacturers",
     "https://www.selleckchem.com/contact.html"
    ],
    "prior_verified": false,
@@ -85712,15 +86242,50 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+     "name_he": "דורון סיינטיפיק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.doronscientific.com/",
+     "phone": "054-5544004",
+     "email": "info@doronscientific.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://doronscientific.com/products/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "TargetMol"
+    },
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.tivanbiotech.com/",
+     "phone": "077-4701591",
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://tivanbiotech.com/manufacturers",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "TARGETMOL"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -85730,7 +86295,9 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://doronscientific.com/products/",
+    "https://tivanbiotech.com/manufacturers"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -90374,15 +90941,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_search",
-   "israel_presence_he": "לא נמצא בחיפוש ראשוני",
-   "israel_check": "partial",
-   "israel_check_he": "חיפוש חלקי",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
+   "israel_check": "sweep",
+   "israel_check_he": "סריקת אתרי מפיצים",
+   "israel_entities": [
+    {
+     "name": "Yair Technologies",
+     "name_he": "יאיר טכנולוגיות",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.yairtech.co.il/",
+     "phone": "+97288544856",
+     "email": "contact@yairtech.co.il",
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.yairtech.co.il/partners/",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "TRIPPNT"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": "No result mentions TrippNT; hits are Tripp Lite Israel (Minicom, Jerusalem) and audio/electronics distributors - different companies.",
    "israel_searched_at": "2026-10-18",
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "+1 (800)874-7768",
     "email": "sales@trippnt.com",
@@ -90394,6 +90979,7 @@
    "sources": [
     "https://www.quartzy.com/suppliers",
     "https://www.thomassci.com/browse-by/suppliers/trippnt",
+    "https://www.yairtech.co.il/partners/",
     "https://www.trippnt.com/contactus"
    ],
    "prior_verified": false,
@@ -95377,15 +95963,33 @@
    "product_count": {},
    "categories": [],
    "applications": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "NBT",
+     "name_he": "ניו ביוטכנולוגי (NBT)",
+     "type": "distributor",
+     "scope": "listed as a brand on the distributor's site",
+     "website": "https://www.nbtltd.com/",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://nbtltd.com/products-page",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "distributor_site_sweep",
+     "match_confidence": "exact",
+     "match_text": "WPI"
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
    "israel_searched_at": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -95395,7 +95999,8 @@
     "note": null
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:WPI"
+    "https://www.dutscher.com/search?initialFilters=brand:WPI",
+    "https://nbtltd.com/products-page"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -96645,6 +97250,111 @@
  ],
  "israeli_entities_index": [
   {
+   "key": "doronscientific.com",
+   "name": "distributor of Recombinant Proteins, Antibodies, Cell Line, ELISA Kit",
+   "name_he": "דורון סיינטיפיק",
+   "type": "distributor",
+   "website": "https://www.doronscientific.com/",
+   "phone": "054-5544004",
+   "email": "info@doronscientific.com",
+   "address": "8 Yehoshua Baum St., Kiryat Ono",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 14,
+     "name": "AAT Bioquest",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 16,
+     "name": "ABclonal",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 31,
+     "name": "Acrobiosystems",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 88,
+     "name": "Ambeed",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 212,
+     "name": "Biorbyt",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 219,
+     "name": "Biotium",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 222,
+     "name": "BioWORLD",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 236,
+     "name": "Boster Bio",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 295,
+     "name": "Cell Systems",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 776,
+     "name": "List Biological Laboratories",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 827,
+     "name": "MedKoo Biosciences",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 938,
+     "name": "NSJ Bioreagents",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1232,
+     "name": "TargetMol",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 13
+  },
+  {
    "key": "medent.co.il",
    "name": "Medent Scientific Instruments",
    "name_he": "מדנט מכשור מדעי",
@@ -97044,6 +97754,167 @@
    "count": 12
   },
   {
+   "key": "yairtech.co.il",
+   "name": "Yair Technologies",
+   "name_he": "יאיר טכנולוגיות",
+   "type": "distributor",
+   "website": "https://www.yairtech.co.il/",
+   "phone": "+97288544856",
+   "email": "contact@yairtech.co.il",
+   "address": null,
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 142,
+     "name": "Atlas Antibodies",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 153,
+     "name": "Azura Genomics",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 525,
+     "name": "G-Biosciences",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 545,
+     "name": "Genovis",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 558,
+     "name": "GoatThroat",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 862,
+     "name": "Miles Scientific (Analtech)",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 888,
+     "name": "MTC Bio",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 947,
+     "name": "Ohaus",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 971,
+     "name": "Pan biotech",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1291,
+     "name": "TrippNT",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 10
+  },
+  {
+   "key": "tivanbiotech.com",
+   "name": "Tivan Biotech",
+   "name_he": "טיבן ביוטק",
+   "type": "distributor",
+   "website": "https://www.tivanbiotech.com/",
+   "phone": "077-4701591",
+   "email": "customerservice@tivanbiotech.com",
+   "address": null,
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 34,
+     "name": "ACTGene, Inc.",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 96,
+     "name": "AMSBIO",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 222,
+     "name": "BioWORLD",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 270,
+     "name": "Caisson Labs",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 383,
+     "name": "Cube Biotech",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 493,
+     "name": "EZ Biosystems",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 967,
+     "name": "OZ Biosciences",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 1136,
+     "name": "Selleck Chemicals",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1232,
+     "name": "TargetMol",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 9
+  },
+  {
    "key": "eldan.biz",
    "name": "Eldan Electronic Instruments Ltd. (Neopharm group)",
    "name_he": "אלדן",
@@ -97343,6 +98214,55 @@
     }
    ],
    "count": 6
+  },
+  {
+   "key": "nbtltd.com",
+   "name": "New Biotechnology Ltd",
+   "name_he": "ניו ביוטכנולוגי (NBT)",
+   "type": "distributor",
+   "website": "https://www.nbtltd.com",
+   "phone": "+972-2-673-2001",
+   "email": "nbtsales@nbtltd.com",
+   "address": "3 Mekor Haim St., P.O. Box 8662, Jerusalem 91086",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 219,
+     "name": "Biotium",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 502,
+     "name": "Fine Science Tools",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 593,
+     "name": "Harvard Apparatus",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 666,
+     "name": "Instech",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    },
+    {
+     "id": 1364,
+     "name": "WPI",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "distributor_site_sweep"
+    }
+   ],
+   "count": 5
   },
   {
    "key": "tamar.co.il",
@@ -97996,34 +98916,6 @@
    "count": 2
   },
   {
-   "key": "yairtech.co.il",
-   "name": "Yair Technologies (Yair Tech)",
-   "name_he": "יאיר טכנולוגיות",
-   "type": "distributor",
-   "website": "https://www.yairtech.co.il",
-   "phone": null,
-   "email": null,
-   "address": null,
-   "contact_url": null,
-   "suppliers": [
-    {
-     "id": 525,
-     "name": "G-Biosciences",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "manufacturer_or_press"
-    },
-    {
-     "id": 888,
-     "name": "MTC Bio",
-     "status": "current",
-     "evidence_year": null,
-     "match_basis": "manufacturer_or_press"
-    }
-   ],
-   "count": 2
-  },
-  {
    "key": "ophiranalytical.com",
    "name": "Ophir Analytical Ltd.",
    "name_he": "",
@@ -98325,48 +99217,6 @@
    "count": 1
   },
   {
-   "key": "doronscientific.com",
-   "name": "Doron Scientific",
-   "name_he": "דורון סיינטיפיק",
-   "type": "distributor",
-   "website": "https://www.doronscientific.com",
-   "phone": "+972-54-554-4004",
-   "email": null,
-   "address": "8 Yehoshua Baum St., Kiryat Ono",
-   "contact_url": null,
-   "suppliers": [
-    {
-     "id": 219,
-     "name": "Biotium",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "manufacturer_or_press"
-    }
-   ],
-   "count": 1
-  },
-  {
-   "key": "nbtltd.com",
-   "name": "New Biotechnology Ltd",
-   "name_he": "ניו ביוטכנולוגי (NBT)",
-   "type": "distributor",
-   "website": "https://www.nbtltd.com",
-   "phone": "+972-2-673-2001",
-   "email": "nbtsales@nbtltd.com",
-   "address": "3 Mekor Haim St., P.O. Box 8662, Jerusalem 91086",
-   "contact_url": null,
-   "suppliers": [
-    {
-     "id": 219,
-     "name": "Biotium",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "manufacturer_or_press"
-    }
-   ],
-   "count": 1
-  },
-  {
    "key": "origolab",
    "name": "Origolab Ltd",
    "name_he": "אוריגולאב",
@@ -98635,27 +99485,6 @@
      "status": "new",
      "evidence_year": 2026,
      "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
-   "key": "tivanbiotech.com",
-   "name": "Tivan Biotech",
-   "name_he": "טיבן ביוטק",
-   "type": "distributor",
-   "website": "https://www.tivanbiotech.com",
-   "phone": null,
-   "email": "customerservice@tivanbiotech.com",
-   "address": null,
-   "contact_url": null,
-   "suppliers": [
-    {
-     "id": 967,
-     "name": "OZ Biosciences",
-     "status": "current",
-     "evidence_year": null,
-     "match_basis": "manufacturer_or_press"
     }
    ],
    "count": 1

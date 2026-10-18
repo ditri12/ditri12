@@ -1,0 +1,348 @@
+{
+ "aat bioquest": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "AAT Bioquest",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "abclonal": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "ABclonal",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "acrobiosystems": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "ACROBiosystems",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "actgene": [
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "ACTGENE",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "ambeed": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "Ambeed",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "amsbio": [
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "AMSBIO",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "atlas antibodies": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "Atlas Antibodies",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "azura genomics": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "AZURA GENOMICS",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "biorbyt": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "Biorbyt",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "biotium": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "Biotium",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bioworld": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "Bioworld technology",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "bioWorld",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "boster bio": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "Boster Bio",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "caisson labs": [
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "Caisson Labs",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "cell systems": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "Cell Systems",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "cube biotech": [
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "CUBE BIOTECH",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "ez biosystems": [
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "EZ Biosystems",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "fine science tools": [
+  {
+   "distributor": "il_nbtltd_com",
+   "site": "nbtltd.com",
+   "page_url": "https://nbtltd.com/products-page",
+   "evidence": "Fine Science Tools",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "g biosciences": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "G-Biosciences",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "genovis": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "GENOVIS",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "goatthroat": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/product/",
+   "evidence": "GoatThroat Pumps",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "harvard apparatus": [
+  {
+   "distributor": "il_nbtltd_com",
+   "site": "nbtltd.com",
+   "page_url": "https://nbtltd.com/products-page",
+   "evidence": "Harvard Apparatus",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "instech": [
+  {
+   "distributor": "il_nbtltd_com",
+   "site": "nbtltd.com",
+   "page_url": "https://nbtltd.com/products-page",
+   "evidence": "Instech",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "list biological laboratories": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "List Biological Laboratories",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "medkoo biosciences": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "MedKoo Biosciences",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "miles scientific": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "Miles Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "mtc bio": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "MTC Bio",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "nsj bioreagents": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "NSJ Bioreagents",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "ohaus": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "OHAUS",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "pan biotech": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "pan biotech",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "selleck chemicals": [
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "Selleck Chemicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "targetmol": [
+  {
+   "distributor": "il_doronscientific_com",
+   "site": "doronscientific.com",
+   "page_url": "https://doronscientific.com/products/",
+   "evidence": "TargetMol",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_tivanbiotech_com",
+   "site": "tivanbiotech.com",
+   "page_url": "https://tivanbiotech.com/manufacturers",
+   "evidence": "TARGETMOL",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "trippnt": [
+  {
+   "distributor": "il_yairtech_co_il",
+   "site": "yairtech.co.il",
+   "page_url": "https://www.yairtech.co.il/partners/",
+   "evidence": "TRIPPNT",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "wpi": [
+  {
+   "distributor": "il_nbtltd_com",
+   "site": "nbtltd.com",
+   "page_url": "https://nbtltd.com/products-page",
+   "evidence": "WPI",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ]
+}
