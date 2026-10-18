@@ -222,8 +222,41 @@
     "note": "Wikidata (P2139)"
    },
    "size_basis": "reported",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "3M HEAD HARNESS ASSEMBLY FOR 6000 SERIES",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/3m-head-harness-assembly-for-6000-series",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Comply™ Lead Free Steam Indicator Tape",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/comply-lead-free-steam-indicator-tape",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "3M™ SecureFit™, Protective Eyewear, SF201AF, Clear Lens",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/3m-securefit-protective-eyewear-sf201af-clear-lens",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Scotch® Magic™ Tape",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/scotch-magic-tape",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Particulate Respirator 8200/07023(AAD), N95",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/particulate-respirator-8200/07023aad-n95",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 98
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -1992,8 +2025,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "Adapter, Rotary Evaporator Vial Adapter",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/adapter-rotary-evaporator-vial-adapter",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "1mL Tissue Grinder, Dounce Type, Glass",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/1ml-tissue-grinder-dounce-type",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Adapter, Gas Inlet",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/adapter-gas-inlet2",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Flask, Pressure, Round Bottom",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/flask-pressure-round-bottom1",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Sublimation Apparatus, Vacuum",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/sublimation-apparatus-vacuum",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 377
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -12659,9 +12725,32 @@
      "source": "prior"
     }
    ],
-   "product_count": {},
-   "categories": [],
-   "applications": [],
+   "product_count": {
+    "dutscher": 943
+   },
+   "categories": [
+    {
+     "name": "Equipment",
+     "name_he": "ציוד",
+     "count": 767
+    },
+    {
+     "name": "Consumables and small equipment",
+     "name_he": "מתכלים וציוד קטן",
+     "count": 19
+    },
+    {
+     "name": "Measuring instrument",
+     "name_he": "מכשירי מדידה",
+     "count": 1
+    }
+   ],
+   "applications": [
+    "Incubation and biological culture",
+    "Food microbiological analyses",
+    "Stability studies and climatic testing",
+    "Lyophilized for long-term storage"
+   ],
    "israel_presence": "distributor",
    "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "verified",
@@ -23942,9 +24031,39 @@
      "source": "prior"
     }
    ],
-   "product_count": {},
-   "categories": [],
-   "applications": [],
+   "product_count": {
+    "thomassci": 1314,
+    "dutscher": 1516
+   },
+   "categories": [
+    {
+     "name": "Consumables and small equipment",
+     "name_he": "מתכלים וציוד קטן",
+     "count": 1119
+    },
+    {
+     "name": "Pipetting",
+     "name_he": "פיפטות",
+     "count": 243
+    },
+    {
+     "name": "Equipment",
+     "name_he": "ציוד",
+     "count": 115
+    },
+    {
+     "name": "Bioreactive",
+     "name_he": "ריאגנטים ביולוגיים",
+     "count": 13
+    }
+   ],
+   "applications": [
+    "Adherent cell culture",
+    "Liquid handling - Pipetting",
+    "Cell expansion and bioproduction",
+    "Suspension cell culture",
+    "Fermentation and bioprocessing"
+   ],
    "israel_presence": "distributor",
    "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "verified",
@@ -30951,9 +31070,44 @@
      "source": "prior"
     }
    ],
-   "product_count": {},
-   "categories": [],
-   "applications": [],
+   "product_count": {
+    "thomassci": 268,
+    "dutscher": 2695
+   },
+   "categories": [
+    {
+     "name": "Equipment",
+     "name_he": "ציוד",
+     "count": 1257
+    },
+    {
+     "name": "Pipetting",
+     "name_he": "פיפטות",
+     "count": 834
+    },
+    {
+     "name": "Consumables and small equipment",
+     "name_he": "מתכלים וציוד קטן",
+     "count": 424
+    },
+    {
+     "name": "Measuring instrument",
+     "name_he": "מכשירי מדידה",
+     "count": 16
+    },
+    {
+     "name": "Health and safety",
+     "name_he": "בטיחות",
+     "count": 1
+    }
+   ],
+   "applications": [
+    "Liquid handling - Pipetting",
+    "Preparative and analytical centrifugation",
+    "Mixing, agitation and resuspension",
+    "Cryopreservation and ultralow temperature storage",
+    "Lyophilized for long-term storage"
+   ],
    "israel_presence": "distributor",
    "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "verified",
@@ -39394,8 +39548,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "OneRack® Full-Size Delrin® POM Test Tube Racks",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/onerack-full-size-delrin-pom-test-tube-racks",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Disposable Transfer Pipets",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/disposable-transfer-pipets",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Cube Rack",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/cube-rack",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Spatulas",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/spatulas1",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Sprout® Plus Mini Centrifuge",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/sprout-plus-mini-centrifuge",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 187
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -46777,8 +46964,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "JUSTRITE Sure-Grip Yellow EX Flammable Safety Cabinet",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/justrite-sure-grip-yellow-ex-flammable-safety-cabinet-90-gallons-w/-2-shelves-and-2-self-close-doors-18-ga-cr-steel",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Sure-Grip® EX Countertop and Compac Cabinets for Corrosives",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/sure-grip-ex-countertop-and-compac-cabinets-for-corrosives",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Sure-Grip® EX Corrosives/Acid Steel Safety Cabinets",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/steel-acid-storage-cabinets",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Flammable Liquid Storage Cabinets, Compac",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/flammable-liquid-storage-cabinets-compac",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Safety Drum Funnel",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/safety-drum-funnel-large-steel-funnel-with-self-closing-cover-and-6-inch-flame-arrester-for-use-with-flammables",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 34
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -49086,8 +49306,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "Eclipse™ Macro 10mL Pipet Tips for Popular Pipettors",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/eclipse-macro-10ml-pipet-tips-for-popular-pipettors",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Microtube Storage Racks",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/microtube-storage-racks",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Eclipse™ 200µL Graduated Pipet Tips",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/eclipse-200l-graduated-pipet-tips",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "2.0mL SuperClear® Microcentrifuge Tubes with Attached Caps",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/20ml-superclear-microcentrifuge-tubes-with-attached-caps",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "ZAP™ SLIK 1000µL Low Retention Aerosol Filter Pipet Tips with Wide Orifice",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/zap-slik-1000l-low-retention-aerosol-filter-pipet-tips-with-wide-orifice",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 182
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -52735,8 +52988,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "Utility Cart / Utility Bins",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/utility-cart-/-utility-bins",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Pneumatic Adjustable Height Flip-Top Student Desk/Nesting Desk",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/pneumatic-adjustable-height-flip-top-student-desk/nesting-desk",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Reversable Double Sided Whiteboard",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/reversable-double-sided-whiteboard",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "SideTrak® Portable Freestanding and Attachable Monitors",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/sidetrak-portable-freestanding-and-attachable-monitors",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Three Shelf Tub Cart",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/three-shelf-tub-cart",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 23
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -55197,9 +55483,28 @@
      "source": "prior"
     }
    ],
-   "product_count": {},
-   "categories": [],
-   "applications": [],
+   "product_count": {
+    "dutscher": 3423
+   },
+   "categories": [
+    {
+     "name": "Equipment",
+     "name_he": "ציוד",
+     "count": 2032
+    },
+    {
+     "name": "Consumables and small equipment",
+     "name_he": "מתכלים וציוד קטן",
+     "count": 4
+    }
+   ],
+   "applications": [
+    "Incubation and biological culture",
+    "Heat treatment and thermostating",
+    "Stability studies and climatic testing",
+    "Food microbiological analyses",
+    "Aspiration, vacuuming and fluid transfer"
+   ],
    "israel_presence": "distributor",
    "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "verified",
@@ -60551,8 +60856,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "Fluid Thioglycollate Medium (USP Formulation)",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/fluid-thioglycollate-medium-usp-formulation",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "MR-VP Broth",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/mr-vp-broth",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Campy-Blaser",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/campy-blaser",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Ureaplasma Broth",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/ureaplasma-broth",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Urea Agar",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/urea-agar-1",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 23
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",
@@ -63236,9 +63574,34 @@
      "source": "prior"
     }
    ],
-   "product_count": {},
-   "categories": [],
-   "applications": [],
+   "product_count": {
+    "thomassci": 186,
+    "dutscher": 1906
+   },
+   "categories": [
+    {
+     "name": "Measuring instrument",
+     "name_he": "מכשירי מדידה",
+     "count": 1174
+    },
+    {
+     "name": "Equipment",
+     "name_he": "ציוד",
+     "count": 587
+    },
+    {
+     "name": "Consumables and small equipment",
+     "name_he": "מתכלים וציוד קטן",
+     "count": 82
+    }
+   ],
+   "applications": [
+    "Weighing and metrology",
+    "Mixing, agitation and resuspension",
+    "Preparative and analytical centrifugation",
+    "Heat treatment and thermostating",
+    "Incubation and biological culture"
+   ],
    "israel_presence": "distributor",
    "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "verified",
@@ -88982,9 +89345,33 @@
      "source": "prior"
     }
    ],
-   "product_count": {},
-   "categories": [],
-   "applications": [],
+   "product_count": {
+    "dutscher": 287
+   },
+   "categories": [
+    {
+     "name": "Equipment",
+     "name_he": "ציוד",
+     "count": 177
+    },
+    {
+     "name": "Consumables and small equipment",
+     "name_he": "מתכלים וציוד קטן",
+     "count": 9
+    },
+    {
+     "name": "Measuring instrument",
+     "name_he": "מכשירי מדידה",
+     "count": 6
+    }
+   ],
+   "applications": [
+    "Mixing, agitation and resuspension",
+    "Tissue dissociation and homogenization",
+    "Water and environmental analysis",
+    "PCR and nucleic acid amplification",
+    "Spectrophotometry and colorimetry"
+   ],
    "israel_presence": "distributor",
    "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "verified",
@@ -92656,8 +93043,41 @@
    "employees": null,
    "revenue": null,
    "size_basis": "unknown",
-   "products": [],
-   "product_count": {},
+   "products": [
+    {
+     "name": "Zymo-Spin I Columns",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/zymo-spin-i-columns",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "ZymoPURE II Plasmid Midiprep Kits",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/zymopure-ii-plasmid-midiprep-kits",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "RNA Clean & Concentrator-5 Kits",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/rna-clean-and-concentrator-5-kits",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "Quick-RNA MagBead",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/quick-rna-magbead",
+     "catalog": "thomassci"
+    },
+    {
+     "name": "ZymoPURE Plasmid Miniprep Kits",
+     "source": "thomassci",
+     "url": "https://www.thomassci.com/p/zymopure-plasmid-miniprep-kits",
+     "catalog": "thomassci"
+    }
+   ],
+   "product_count": {
+    "thomassci": 504
+   },
    "categories": [],
    "applications": [],
    "israel_presence": "not_found_in_sweep",

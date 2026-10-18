@@ -124,29 +124,24 @@
   },
   "categories": [
    {
-    "name": "UGAP Selection",
-    "name_he": "UGAP Selection",
-    "count": 1167
-   },
-   {
     "name": "Consumables and small equipment",
     "name_he": "מתכלים וציוד קטן",
     "count": 1119
    },
    {
-    "name": "Made in Europe",
-    "name_he": "Made in Europe",
-    "count": 334
-   },
-   {
-    "name": "Available in stock",
-    "name_he": "Available in stock",
-    "count": 244
-   },
-   {
     "name": "Pipetting",
     "name_he": "פיפטות",
     "count": 243
+   },
+   {
+    "name": "Equipment",
+    "name_he": "ציוד",
+    "count": 115
+   },
+   {
+    "name": "Bioreactive",
+    "name_he": "ריאגנטים ביולוגיים",
+    "count": 13
    }
   ],
   "applications": [
@@ -161,7 +156,7 @@
    "https://www.thomassci.com/browse-by/suppliers/corning",
    "https://www.dutscher.com/search?initialFilters=brand:Corning"
   ],
-  "category": "UGAP Selection"
+  "category": "מתכלים וציוד קטן"
  },
  "eppendorf": {
   "products": [
@@ -202,19 +197,9 @@
   },
   "categories": [
    {
-    "name": "Made in Europe",
-    "name_he": "Made in Europe",
-    "count": 2191
-   },
-   {
     "name": "Equipment",
     "name_he": "ציוד",
     "count": 1257
-   },
-   {
-    "name": "UGAP Selection",
-    "name_he": "UGAP Selection",
-    "count": 1170
    },
    {
     "name": "Pipetting",
@@ -222,9 +207,19 @@
     "count": 834
    },
    {
-    "name": "Available for leasing",
-    "name_he": "Available for leasing",
-    "count": 483
+    "name": "Consumables and small equipment",
+    "name_he": "מתכלים וציוד קטן",
+    "count": 424
+   },
+   {
+    "name": "Measuring instrument",
+    "name_he": "מכשירי מדידה",
+    "count": 16
+   },
+   {
+    "name": "Health and safety",
+    "name_he": "בטיחות",
+    "count": 1
    }
   ],
   "applications": [
@@ -239,7 +234,7 @@
    "https://www.thomassci.com/browse-by/suppliers/eppendorf",
    "https://www.dutscher.com/search?initialFilters=brand:Eppendorf"
   ],
-  "category": "Made in Europe"
+  "category": "ציוד"
  },
  "heathrow scientific": {
   "products": [
@@ -500,24 +495,14 @@
     "count": 1174
    },
    {
-    "name": "Available for leasing",
-    "name_he": "Available for leasing",
-    "count": 880
-   },
-   {
-    "name": "UGAP Selection",
-    "name_he": "UGAP Selection",
-    "count": 594
-   },
-   {
     "name": "Equipment",
     "name_he": "ציוד",
     "count": 587
    },
    {
-    "name": "Made in Europe",
-    "name_he": "Made in Europe",
-    "count": 262
+    "name": "Consumables and small equipment",
+    "name_he": "מתכלים וציוד קטן",
+    "count": 82
    }
   ],
   "applications": [
@@ -620,32 +605,21 @@
     "count": 767
    },
    {
-    "name": "Made in Europe",
-    "name_he": "Made in Europe",
-    "count": 699
+    "name": "Consumables and small equipment",
+    "name_he": "מתכלים וציוד קטן",
+    "count": 19
    },
    {
-    "name": "Available for leasing",
-    "name_he": "Available for leasing",
-    "count": 647
-   },
-   {
-    "name": "UGAP Selection",
-    "name_he": "UGAP Selection",
-    "count": 441
-   },
-   {
-    "name": "New",
-    "name_he": "New",
-    "count": 25
+    "name": "Measuring instrument",
+    "name_he": "מכשירי מדידה",
+    "count": 1
    }
   ],
   "applications": [
    "Incubation and biological culture",
    "Food microbiological analyses",
    "Stability studies and climatic testing",
-   "720 l",
-   "400 l"
+   "Lyophilized for long-term storage"
   ],
   "description": null,
   "source_pages": [
@@ -691,43 +665,28 @@
   },
   "categories": [
    {
-    "name": "Made in Europe",
-    "name_he": "Made in Europe",
-    "count": 2343
-   },
-   {
     "name": "Equipment",
     "name_he": "ציוד",
     "count": 2032
    },
    {
-    "name": "UGAP Selection",
-    "name_he": "UGAP Selection",
-    "count": 973
-   },
-   {
-    "name": "Available for leasing",
-    "name_he": "Available for leasing",
-    "count": 633
-   },
-   {
-    "name": "New",
-    "name_he": "New",
-    "count": 68
+    "name": "Consumables and small equipment",
+    "name_he": "מתכלים וציוד קטן",
+    "count": 4
    }
   ],
   "applications": [
    "Incubation and biological culture",
    "Heat treatment and thermostating",
    "Stability studies and climatic testing",
-   "108 l",
-   "256 l"
+   "Food microbiological analyses",
+   "Aspiration, vacuuming and fluid transfer"
   ],
   "description": null,
   "source_pages": [
    "https://www.dutscher.com/search?initialFilters=brand:Memmert"
   ],
-  "category": "Made in Europe"
+  "category": "ציוד"
  },
  "velp": {
   "products": [
@@ -767,42 +726,32 @@
   },
   "categories": [
    {
-    "name": "Made in Europe",
-    "name_he": "Made in Europe",
-    "count": 229
-   },
-   {
     "name": "Equipment",
     "name_he": "ציוד",
     "count": 177
    },
    {
-    "name": "Available for leasing",
-    "name_he": "Available for leasing",
-    "count": 91
+    "name": "Consumables and small equipment",
+    "name_he": "מתכלים וציוד קטן",
+    "count": 9
    },
    {
-    "name": "UGAP Selection",
-    "name_he": "UGAP Selection",
-    "count": 76
-   },
-   {
-    "name": "Special offer",
-    "name_he": "Special offer",
-    "count": 40
+    "name": "Measuring instrument",
+    "name_he": "מכשירי מדידה",
+    "count": 6
    }
   ],
   "applications": [
    "Mixing, agitation and resuspension",
    "Tissue dissociation and homogenization",
-   "Stainless steel",
    "Water and environmental analysis",
-   "5 l"
+   "PCR and nucleic acid amplification",
+   "Spectrophotometry and colorimetry"
   ],
   "description": null,
   "source_pages": [
    "https://www.dutscher.com/search?initialFilters=brand:Velp"
   ],
-  "category": "Made in Europe"
+  "category": "ציוד"
  }
 }

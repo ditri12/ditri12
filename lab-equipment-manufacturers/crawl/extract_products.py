@@ -80,29 +80,27 @@ def dutscher(h, t):
     m = re.search(r"([\d][\d,\.\s]*)\s*items", t)
     if m:
         out["product_count"]["dutscher"] = int(re.sub(r"[^\d]", "", m.group(1)))
-    # categories facet: lines after 'Categories' until 'Brand'
-    i = t.find("\nCategories\n")
-    j = t.find("\nBrand\n", i + 1)
-    if i > 0 and j > i:
-        block = t[i + 12:j].split("\n")
-        cats = []
-        for k in range(0, len(block) - 1):
-            name, cnt = block[k].strip(), block[k + 1].strip()
-            if re.fullmatch(r"\(\d+\)", cnt) and name and not re.fullmatch(r"\(\d+\)", name):
-                cats.append({"name": name, "name_he": DUTSCHER_CAT_HE.get(name, name), "count": int(cnt.strip("()"))})
-        cats.sort(key=lambda c: -c["count"])
-        out["categories"] = cats[:5]
-    i = t.find("\nApplication\n")
-    j = t.find("\nShow all filters", i + 1)
-    if i > 0 and j > i:
-        block = t[i + 13:j].split("\n")
-        apps = []
-        for k in range(0, len(block) - 1):
-            name, cnt = block[k].strip(), block[k + 1].strip()
-            if re.fullmatch(r"\(\d+\)", cnt) and name and not re.fullmatch(r"\(\d+\)", name):
-                apps.append({"name": name, "count": int(cnt.strip("()"))})
-        apps.sort(key=lambda c: -c["count"])
-        out["applications"] = [a["name"] for a in apps[:5]]
+    def facet(header):
+        """Values of one facet block: 'Header\nName\n(count)\nName\n(count)...' ending at the next header line."""
+        j = t.find("\nBrand\n")
+        i = t.rfind("\n" + header + "\n", 0, j) if header == "Categories" and j > 0 else t.find("\n" + header + "\n")
+        if i < 0:
+            return []
+        lines = t[i + len(header) + 2:].split("\n")
+        vals = []
+        k = 0
+        while k < len(lines) - 1:
+            name, cnt = lines[k].strip(), lines[k + 1].strip()
+            if name and re.fullmatch(r"\(\d+\)", cnt) and not re.fullmatch(r"\(\d+\)", name):
+                vals.append({"name": name, "count": int(cnt.strip("()"))})
+                k += 2
+            else:
+                break
+        vals.sort(key=lambda c: -c["count"])
+        return vals
+    cats = facet("Categories")
+    out["categories"] = [{"name": c["name"], "name_he": DUTSCHER_CAT_HE.get(c["name"], c["name"]), "count": c["count"]} for c in cats[:5]]
+    out["applications"] = [a["name"] for a in facet("Application")[:5]]
     seen = set()
     for m in re.finditer(r'<a[^>]+href="(/article/[^"]+)"[^>]*>(.*?)</a>', h, re.S):
         name = clean(re.sub(r"<[^>]+>", " ", m.group(2)))
