@@ -336,6 +336,9 @@ def load_rows():
     for k, hits in load_json(ENRICH / "israel_knowledge.json", {}).items():
         il.setdefault(k, [])
         il[k] = list(hits) + il[k]
+    for k, hits in load_json(ENRICH / "israel_mentions.json", {}).items():
+        il.setdefault(k, [])
+        il[k] = il[k] + [dict(h, match_basis="distributor_site_mention", scope="brand mentioned on the distributor's product pages (not necessarily the brand's main lines)") for h in hits]
     il_reg = load_json(RESEARCH / "israel" / "distributors.json", {})
     prods = load_json(ENRICH / "catalog_products.json", {})
     contacts = load_json(ENRICH / "site_contacts.json", {})

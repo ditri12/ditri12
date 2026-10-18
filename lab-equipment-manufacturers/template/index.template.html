@@ -107,8 +107,8 @@ const PRES_CLS = {subsidiary:'ok',distributor:'ok',parent_subsidiary:'info',none
 const ETYPE = {subsidiary:'חברה-בת',distributor:'מפיץ',service:'שירות',office:'משרד'};
 const ESTAT = {current:'עדכני',older_evidence:'ראיה ישנה',no_longer:'לא עוד',new:'חדש'};
 const SRC_HE = {prior:'מחקר קודם מאומת',wikidata:'Wikidata',clearbit:'זיהוי דומיין אוטומטי – לאימות',clearbit_verified:'זיהוי דומיין, אומת מול האתר',manual:'ידני',site:'אתר החברה',catalog:'קטלוג',thomassci:'Thomas Scientific',dutscher:'Dutscher'};
-const BASIS_HE = {prior_research:'מחקר קודם מאומת',distributor_site_sweep:'סריקת אתר המפיץ',manufacturer_or_press:'אתר היצרן / המפיץ / פרסום'};
-const CONF_HE = {exact:'התאמה מדויקת',contained:'שם מופיע בשורה'};
+const BASIS_HE = {prior_research:'מחקר קודם מאומת',distributor_site_sweep:'סריקת אתר המפיץ',distributor_site_mention:'אזכור בדפי המוצרים של המפיץ',manufacturer_or_press:'אתר היצרן / המפיץ / פרסום',manufacturer_distributor_page:'דף המפיצים של היצרן'};
+const CONF_HE = {exact:'התאמה מדויקת',contained:'שם מופיע בשורה',mention:'אזכור בתוכן',search:'תוצאת חיפוש',mfr_page:'ציטוט מדף היצרן'};
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt = n => n==null?'':Number(n).toLocaleString('en-US');
 const yr = y => y?String(y).replace(/^FY\s*/i,'FY '):'';
