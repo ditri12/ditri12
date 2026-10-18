@@ -1,0 +1,13 @@
+[
+  {"id": "thomas_ff", "url": "https://www.thomassci.com/browse-by/suppliers", "render": true, "engine": "firefox", "cf_wait": 30, "timeout": 120},
+  {"id": "thomas_cr", "url": "https://www.thomassci.com/browse-by/suppliers", "render": true, "engine": "chromium", "cf_wait": 30, "timeout": 120},
+  {"id": "thomas_wk", "url": "https://www.thomassci.com/browse-by/suppliers", "render": true, "engine": "webkit", "cf_wait": 30, "timeout": 120},
+  {"id": "thomas_wayback_raw", "url": "https://web.archive.org/web/2026id_/https://www.thomassci.com/browse-by/suppliers", "timeout": 120},
+  {"id": "thomas_wayback_2025", "url": "https://web.archive.org/web/2025id_/https://www.thomassci.com/browse-by/suppliers", "timeout": 120},
+  {"id": "thomas_wayback_avail", "url": "https://archive.org/wayback/available?url=thomassci.com/browse-by/suppliers", "timeout": 60},
+  {"id": "thomas_cdx_suppliers", "url": "https://web.archive.org/cdx/search/cdx?url=thomassci.com/browse-by/suppliers/*&output=json&fl=original,timestamp,statuscode&collapse=urlkey&limit=20000", "timeout": 180},
+  {"id": "thomas_productsitemap_wayback", "url": "https://web.archive.org/web/2026id_/https://www.thomassci.com/sitemap.xml", "timeout": 120},
+  {"id": "quartzy_catalog", "url": "https://www.quartzy.com/catalog", "render": true},
+  {"id": "quartzy_become_supplier", "url": "https://info.quartzy.com/become-supplier-request"},
+  {"id": "dutscher_brands_fr_lang", "url": "https://www.dutscher.com/brands?language=fr", "render": true, "locale": "fr-FR"}
+]

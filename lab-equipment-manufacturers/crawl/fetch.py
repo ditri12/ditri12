@@ -81,11 +81,18 @@ def fetch_http(job):
     return {"status": r.status_code, "final_url": r.url, "content_type": ctype, "html": r.text}
 
 
+CHALLENGE_RX = re.compile(r"just a moment|attention required|checking your browser|cf-challenge|challenge-platform|verify you are human", re.I)
+
+
 def fetch_render(browser, job):
     url = job["url"]
-    ctx = browser.new_context(user_agent=UA, viewport={"width": 1400, "height": 1000},
-                              locale=job.get("locale", "en-US"))
+    kw = {"viewport": {"width": 1400, "height": 1000}, "locale": job.get("locale", "en-US")}
+    if job.get("engine", "chromium") == "chromium":
+        kw["user_agent"] = UA
+    ctx = browser.new_context(**kw)
     page = ctx.new_page()
+    if job.get("engine", "chromium") == "chromium":
+        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
     status = None
     try:
         resp = page.goto(url, wait_until="domcontentloaded", timeout=job.get("timeout", 90) * 1000)
@@ -95,6 +102,18 @@ def fetch_render(browser, job):
         except Exception:
             pass
         page.wait_for_timeout(job.get("wait_ms", 1500))
+        cf_wait = job.get("cf_wait", 0)
+        if cf_wait:
+            for _ in range(int(cf_wait)):
+                body = page.content()
+                if not CHALLENGE_RX.search(page.title() or "") and not CHALLENGE_RX.search(body[:5000]):
+                    break
+                page.wait_for_timeout(1000)
+            try:
+                page.wait_for_load_state("networkidle", timeout=15000)
+            except Exception:
+                pass
+            status = 200 if not CHALLENGE_RX.search(page.title() or "") else status
         if job.get("scroll", True):
             last = -1
             for _ in range(job.get("scroll_max", 40)):
@@ -244,10 +263,18 @@ def run_pass(jobs, index, index_path, args):
     if render_jobs:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            browsers = {}
+
+            def get_browser(engine):
+                if engine not in browsers:
+                    bt = getattr(p, engine)
+                    args = ["--disable-blink-features=AutomationControlled"] if engine == "chromium" else []
+                    browsers[engine] = bt.launch(headless=True, args=args)
+                return browsers[engine]
+
             for i, job in enumerate(render_jobs, 1):
                 try:
-                    res = fetch_render(browser, job)
+                    res = fetch_render(get_browser(job.get("engine", "chromium")), job)
                     e = save(job, res, args.out, args.gzip)
                 except Exception as ex_:
                     e = {"id": slug(job["id"]), "url": job["url"], "status": None,
@@ -257,7 +284,8 @@ def run_pass(jobs, index, index_path, args):
                 print(f"[render {i}/{len(render_jobs)}] {e['id']} -> {e.get('status')} {e.get('error') or ''}", flush=True)
                 with open(index_path, "w", encoding="utf-8") as f:
                     json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
-            browser.close()
+            for b in browsers.values():
+                b.close()
 
 
 if __name__ == "__main__":
