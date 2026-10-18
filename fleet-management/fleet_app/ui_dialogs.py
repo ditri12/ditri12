@@ -7,15 +7,29 @@ from datetime import date
 from typing import Optional
 
 from PySide6.QtCore import Qt
+from PySide6.QtGui import QGuiApplication
 from PySide6.QtWidgets import (
-    QComboBox, QDialog, QDialogButtonBox, QFileDialog, QFormLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit,
-    QMessageBox, QPlainTextEdit, QPushButton, QSpinBox, QVBoxLayout, QWidget, QCheckBox,
+    QComboBox, QDialog, QDialogButtonBox, QFileDialog, QFormLayout, QFrame, QGroupBox, QHBoxLayout, QLabel, QLineEdit,
+    QMessageBox, QPlainTextEdit, QPushButton, QScrollArea, QSpinBox, QVBoxLayout, QWidget, QCheckBox,
 )
 
 from . import config
 from .calc import Settings
 from .db import Repo, ValidationError
 from .widgets import GarageCombo, KmEdit, OptionalDateEdit, show_error
+
+
+def fit_to_screen(dialog: QDialog, content: QWidget, extra_height: int = 70, max_fraction: float = 0.9):
+    """פותח את החלון בגובה התוכן, אך לא יותר מגובה המסך הזמין - כדי שהכפתורים לא ייחתכו.
+    אם המסך נמוך מהתוכן, התוכן נגלל והכפתורים נשארים גלויים."""
+    screen = QGuiApplication.primaryScreen()
+    if screen is None:
+        return
+    avail = screen.availableGeometry()
+    content.adjustSize()
+    want_h = content.sizeHint().height() + extra_height
+    want_w = max(content.sizeHint().width() + 40, dialog.minimumWidth())
+    dialog.resize(min(want_w, int(avail.width() * 0.95)), min(want_h, int(avail.height() * max_fraction)))
 
 
 def _buttons(dialog: QDialog, ok_text="שמירה"):
@@ -36,8 +50,19 @@ class VehicleFormDialog(QDialog):
         self.repo = repo
         self.vehicle = vehicle
         self.setWindowTitle("עריכת פרטי רכב" if vehicle else "הקמת רכב חדש")
-        self.setMinimumWidth(560)
-        root = QVBoxLayout(self)
+        self.setMinimumWidth(640 if vehicle else 860)
+        outer = QVBoxLayout(self)
+        outer.setContentsMargins(8, 8, 8, 8)
+        # התוכן בתוך אזור גלילה כדי שכפתורי השמירה יישארו גלויים גם במסכים נמוכים
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        scroll.setFrameShape(QFrame.NoFrame)
+        scroll.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
+        content = QWidget()
+        root = QVBoxLayout(content)
+        root.setContentsMargins(4, 4, 4, 4)
+        scroll.setWidget(content)
+        outer.addWidget(scroll, 1)
 
         details = QGroupBox("פרטי הרכב")
         form = QFormLayout(details)
@@ -66,7 +91,7 @@ class VehicleFormDialog(QDialog):
         self.insurance_expiry = OptionalDateEdit()
         self.mileage_year_start = OptionalDateEdit()
         self.notes = QPlainTextEdit()
-        self.notes.setFixedHeight(60)
+        self.notes.setFixedHeight(48)
         form.addRow("מספר רישוי *", self.plate)
         row = QHBoxLayout()
         row.addWidget(self.make)
@@ -88,6 +113,10 @@ class VehicleFormDialog(QDialog):
         root.addWidget(details)
 
         if not vehicle:
+            # שני הקטעים האופציונליים זה לצד זה כדי לקצר את הטופס
+            side = QHBoxLayout()
+            side.setSpacing(10)
+
             km_box = QGroupBox("קילומטראז׳ נוכחי (אופציונלי)")
             kf = QFormLayout(km_box)
             kf.setLabelAlignment(Qt.AlignRight)
@@ -95,9 +124,13 @@ class VehicleFormDialog(QDialog):
             self.initial_km_date = OptionalDateEdit(required=True, default=date.today())
             kf.addRow("קילומטראז׳", self.initial_km)
             kf.addRow("נכון לתאריך", self.initial_km_date)
-            root.addWidget(km_box)
+            km_hint = QLabel("מומלץ להזין גם קריאה ישנה (בכרטיס הרכב, רטרואקטיבית) כדי שיחושב ממוצע נסועה.")
+            km_hint.setWordWrap(True)
+            km_hint.setStyleSheet("color:#5f6b7a;font-size:11px")
+            kf.addRow("", km_hint)
+            side.addWidget(km_box, 2)
 
-            svc_box = QGroupBox("טיפול אחרון (אופציונלי - נדרש לחישוב מועד הטיפול הבא)")
+            svc_box = QGroupBox("טיפול אחרון (אופציונלי - נדרש לחישוב הטיפול הבא)")
             sf = QFormLayout(svc_box)
             sf.setLabelAlignment(Qt.AlignRight)
             self.svc_date = OptionalDateEdit()
@@ -105,22 +138,25 @@ class VehicleFormDialog(QDialog):
             self.svc_garage = GarageCombo(repo.garages())
             self.svc_desc = QPlainTextEdit()
             self.svc_desc.setPlaceholderText("מה נעשה בטיפול: שמן, פילטרים, בלמים…")
-            self.svc_desc.setFixedHeight(60)
+            self.svc_desc.setFixedHeight(48)
             self.svc_cost = KmEdit(decimals=True)
             sf.addRow("תאריך הטיפול", self.svc_date)
             sf.addRow("קילומטראז׳ בטיפול", self.svc_km)
             sf.addRow("מוסך", self.svc_garage)
             sf.addRow("מה נעשה", self.svc_desc)
             sf.addRow("עלות (₪)", self.svc_cost)
-            root.addWidget(svc_box)
+            side.addWidget(svc_box, 3)
+            root.addLayout(side)
         else:
             self.active = QCheckBox("רכב פעיל בצי")
             self.active.setChecked(bool(vehicle.get("active", 1)))
             root.addWidget(self.active)
             self._load(vehicle)
 
-        root.addWidget(_buttons(self))
+        root.addStretch(1)
+        outer.addWidget(_buttons(self))
         self.result_id: Optional[int] = None
+        fit_to_screen(self, content)
 
     def _load(self, v: dict):
         from .db import format_plate
