@@ -2,11 +2,13 @@ name: Build FleetManager (Windows)
 
 on:
   push:
+    branches:
+      - "**"
+    tags:
+      - "fleet-v*"
     paths:
       - "fleet-management/**"
       - ".github/workflows/build-fleet-manager.yml"
-    tags:
-      - "fleet-v*"
   workflow_dispatch:
 
 permissions:
@@ -52,18 +54,43 @@ jobs:
           Start-Sleep -Seconds 8
           if ($p.HasExited) { Write-Error "FleetManager.exe exited early with code $($p.ExitCode)"; exit 1 }
           Stop-Process -Id $p.Id -Force
-      - name: Upload artifact
+      - name: Read application version
+        id: ver
+        shell: pwsh
+        run: |
+          $v = python -c "import fleet_app; print(fleet_app.__version__)"
+          "version=$v" >> $env:GITHUB_OUTPUT
+      - name: Build installer (Inno Setup)
+        shell: pwsh
+        run: |
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /DAppVersion=${{ steps.ver.outputs.version }} /DSourceDir=..\dist build\installer.iss
+          Get-ChildItem dist
+      - name: Upload installer
         uses: actions/upload-artifact@v4
         with:
-          name: FleetManager-windows
+          name: FleetManager-Setup
+          path: fleet-management/dist/FleetManager-Setup-*.exe
+          if-no-files-found: error
+      - name: Upload portable executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: FleetManager-portable
           path: fleet-management/dist/FleetManager.exe
           if-no-files-found: error
       - name: Publish release (on fleet-v* tag)
         if: startsWith(github.ref, 'refs/tags/fleet-v')
         uses: softprops/action-gh-release@v2
         with:
-          files: fleet-management/dist/FleetManager.exe
+          files: |
+            fleet-management/dist/FleetManager-Setup-*.exe
+            fleet-management/dist/FleetManager.exe
           name: ניהול צי רכב ${{ github.ref_name }}
           body: |
-            קובץ הפעלה יחיד ל-Windows. הורידו את FleetManager.exe והפעילו - אין צורך בהתקנה.
-            הנתונים נשמרים ב-%APPDATA%\FleetManager\fleet.db (ניתן לשינוי בהגדרות).
+            ## קבצי התקנה ל-Windows
+
+            - **FleetManager-Setup-x.y.z.exe** - קובץ התקנה (מומלץ): מתקין את התוכנה, יוצר קיצור דרך בתפריט התחל ובשולחן העבודה, וכולל הסרה דרך "הוספה והסרה של תוכניות". לא נדרשות הרשאות מנהל.
+            - **FleetManager.exe** - גרסה ניידת: קובץ יחיד שרץ בלי התקנה.
+
+            בהפעלה הראשונה Windows עשוי להציג אזהרת SmartScreen (הקובץ אינו חתום דיגיטלית): לחצו "מידע נוסף" ואז "הפעל בכל זאת".
+
+            הנתונים נשמרים ב-`%APPDATA%\FleetManager\fleet.db`. לעבודה משותפת של כמה מחשבים, בחרו בהגדרות קובץ נתונים בתיקייה משותפת ברשת.

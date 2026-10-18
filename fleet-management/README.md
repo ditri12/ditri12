@@ -20,11 +20,15 @@
 
 ## התקנה והפעלה
 
-### אפשרות 1 - קובץ הפעלה (מומלץ לעובדים)
+### אפשרות 1 - קובץ התקנה (מומלץ)
 
-1. בדף **Actions** של המאגר ב-GitHub בחרו את הריצה האחרונה של "Build FleetManager (Windows)" והורידו את הקובץ `FleetManager-windows` (או מדף **Releases** אם פורסמה גרסה).
-2. חלצו את `FleetManager.exe` והפעילו. אין צורך בהתקנה.
+1. בדף **Releases** של המאגר (https://github.com/ditri12/ditri12/releases) הורידו את `FleetManager-Setup-x.y.z.exe`.
+2. הפעילו את ההתקנה. היא מתקינה למשתמש הנוכחי (ללא הרשאות מנהל), יוצרת קיצור דרך בתפריט התחל ובשולחן העבודה, ומוסיפה הסרה דרך "הוספה והסרה של תוכניות".
 3. בהפעלה הראשונה Windows עשוי להציג אזהרת SmartScreen (קובץ לא חתום) - לחצו "מידע נוסף" ואז "הפעל בכל זאת".
+
+קיימת גם גרסה ניידת `FleetManager.exe` (קובץ יחיד, ללא התקנה) באותו דף.
+
+כל דחיפה לקוד בונה את שני הקבצים גם ב-**Actions** (הורדה דרך Artifacts); גרסה רשמית מתפרסמת ב-Releases כשדוחפים תגית `fleet-vX.Y.Z`.
 
 ### אפשרות 2 - הרצה מקוד המקור
 
@@ -44,7 +48,13 @@ run.bat
 build\build_exe.bat
 ```
 
-הקובץ נוצר ב-`dist\FleetManager.exe`.
+הקובץ נוצר ב-`dist\FleetManager.exe`. ליצירת קובץ התקנה מלא יש להתקין [Inno Setup 6](https://jrsoftware.org/isinfo.php) ולהריץ:
+
+```bat
+"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" /DAppVersion=1.0.0 /DSourceDir=..\dist build\installer.iss
+```
+
+התוצאה: `dist\FleetManager-Setup-1.0.0.exe`.
 
 ## איפה נשמרים הנתונים
 
