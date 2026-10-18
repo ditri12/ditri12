@@ -182,6 +182,22 @@ ALIASES = {
 }
 
 
+# exact old display name -> master keys
+OLD_TO_KEYS = {
+    "Merck KGaA – Life Science (MilliporeSigma / Sigma-Aldrich / Merck Millipore)": ["milliporesigma", "merck"],
+    "Avantor (incl. VWR)": ["avantor j t baker", "avantor macron fine chemicals"],
+    "Eppendorf SE": ["eppendorf"],
+    "BD Biosciences & BD Diagnostic Solutions (part of Waters since Feb 2026)": ["bd biosciences"],
+    "Peter Huber Kältemaschinenbau": ["huber"],
+    "BÜCHI Labortechnik": ["buchi"],
+    "Haier Biomedical": ["haier"],
+    "Nikon – Healthcare Business (Nikon Instruments)": ["nikon"],
+    "Antylia Scientific (ex-Cole-Parmer)": ["cole parmer", "oakton", "stuart", "techne", "jenway", "electrothermal"],
+    "Verder Scientific (Retsch, Carbolite Gero, Eltra, Microtrac MRB, QATM)": ["retsch"],
+    "Thermo Fisher Scientific": ["thermo scientific", "nalgene", "thermo scientific nalgene", "thermo scientific orion"],
+}
+
+
 def main():
     src = sys.argv[1]
     old = json.load(open(src, encoding="utf-8"))
@@ -199,6 +215,7 @@ def main():
         for oldname, als in ALIASES.items():
             if norm(oldname) == norm(name) or norm(name) in [norm(a) for a in als]:
                 cands.update(norm(a) for a in als)
+        cands.update(OLD_TO_KEYS.get(name, []))
         hit = [k for k in cands if k in keys]
         if not hit:
             continue
