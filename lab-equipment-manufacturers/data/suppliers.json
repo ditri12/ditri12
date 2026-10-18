@@ -4936,12 +4936,13 @@
     "phone": "",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.abbott.com/en-us/about-abbott/contact",
+    "source": "https://www.abbott.com/en-us/about-abbott/contact",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/alere"
+    "https://www.thomassci.com/browse-by/suppliers/alere",
+    "https://www.abbott.com/en-us/about-abbott/contact"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -8864,15 +8865,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "+41 61 560 87 00",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.ascensia.com/contact-us/",
+    "source": "https://www.ascensia.com/contact-us/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/ascensia-diabetes-care"
+    "https://www.thomassci.com/browse-by/suppliers/ascensia-diabetes-care",
+    "https://www.ascensia.com/contact-us/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -11257,15 +11259,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "1-800-553-5340",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.bausch.com/about-bausch-lomb/contact-us/",
+    "source": "https://www.bausch.com/about-bausch-lomb/contact-us/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/bausch-and-lomb"
+    "https://www.thomassci.com/browse-by/suppliers/bausch-and-lomb",
+    "https://www.bausch.com/about-bausch-lomb/contact-us/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -14287,16 +14290,17 @@
    "israel_current": null,
    "contact": {
     "phone": "",
-    "email": null,
+    "email": "inquiry@biologixgroup.com",
     "address": null,
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://www.biologixgroup.com/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Biologix",
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/biologix"
+    "https://www.thomassci.com/browse-by/suppliers/biologix",
+    "https://www.biologixgroup.com/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -15074,14 +15078,15 @@
    "israel_current": null,
    "contact": {
     "phone": "",
-    "email": null,
+    "email": "info@biosolve-chimie.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "http://www.biosolve-chemicals.eu/EN/contact.php",
+    "source": "http://www.biosolve-chemicals.eu/EN/contact.php",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Biosolve"
+    "https://www.dutscher.com/search?initialFilters=brand:Biosolve",
+    "http://www.biosolve-chemicals.eu/EN/contact.php"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -17469,7 +17474,8 @@
     "https://www.vacuubrand.com/service-advice/contact/contacts-worldwide",
     "https://www.brand.de/brand/contentserv_data/Context/BRAND%20GMBH%20%2B%20CO%20KG/Dokumente/Firma%20intern/Markenbrosch%C3%BCre/Markenbrosch%C3%BCre_BRAND.pdf",
     "https://www.brand.de/fileadmin/user_upload/documents/Stellenanzeigen/202300406_Anzeige_Techniker_TPD_Serienentwicklung.pdf",
-    "https://group.brand.de/en/about-us/about-us"
+    "https://group.brand.de/en/about-us/about-us",
+    "https://www.brandtech.com/contact/contact-us"
    ],
    "prior_verified": true,
    "prior_verified_at": "2026-10-15"
@@ -22038,16 +22044,17 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "1-800-843-1794",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://chemglass.com/ContactUs",
+    "source": "https://chemglass.com/ContactUs",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/chemglass"
+    "https://www.thomassci.com/browse-by/suppliers/chemglass",
+    "https://chemglass.com/ContactUs"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -26038,12 +26045,13 @@
     "email": null,
     "address": null,
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://www.crystaltech.com/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/crystal-technologies"
+    "https://www.thomassci.com/browse-by/suppliers/crystal-technologies",
+    "https://www.crystaltech.com/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -28368,16 +28376,17 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+18005237480",
+    "email": "info@drummondsci.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://drummondsci.com/contact/",
+    "source": "https://drummondsci.com/contact/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Drummond",
-    "https://www.thomassci.com/browse-by/suppliers/drummond"
+    "https://www.thomassci.com/browse-by/suppliers/drummond",
+    "https://drummondsci.com/contact/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -30742,16 +30751,17 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+1-585-563-7963",
+    "email": "info@eiscolabs.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.eiscolabs.com/pages/sales",
+    "source": "https://www.eiscolabs.com/pages/sales",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 5 personal address(es) omitted"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/eisco"
+    "https://www.thomassci.com/browse-by/suppliers/eisco",
+    "https://www.eiscolabs.com/pages/sales"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -31325,15 +31335,16 @@
    "israel_current": null,
    "contact": {
     "phone": "",
-    "email": null,
+    "email": "sales@elma-ultrasonic.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.elma-ultrasonic.com/en/kontakt-beratung",
+    "source": "https://www.elma-ultrasonic.com/en/kontakt-beratung",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Elma",
-    "https://www.thomassci.com/browse-by/suppliers/elma"
+    "https://www.thomassci.com/browse-by/suppliers/elma",
+    "https://www.elma-ultrasonic.com/en/kontakt-beratung"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -40869,11 +40880,12 @@
     "email": null,
     "address": null,
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://www.hartmann.info/en-dx/country-selection",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Hartmann"
+    "https://www.dutscher.com/search?initialFilters=brand:Hartmann",
+    "https://www.hartmann.info/en-dx/country-selection"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -45141,16 +45153,17 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+498972637180",
+    "email": "info@implen.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.implen.de/support/",
+    "source": "https://www.implen.de/support/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Implen",
-    "https://www.thomassci.com/browse-by/suppliers/implen"
+    "https://www.thomassci.com/browse-by/suppliers/implen",
+    "https://www.implen.de/support/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -47060,14 +47073,15 @@
     "phone": "",
     "email": null,
     "address": "Troy",
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.interscience.com/en/",
+    "source": "https://www.interscience.com/en/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Interscience",
     "https://www.thomassci.com/browse-by/suppliers/interscience",
-    "https://www.wikidata.org/wiki/Q30282491"
+    "https://www.wikidata.org/wiki/Q30282491",
+    "https://www.interscience.com/en/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -47250,15 +47264,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "844-200-5664",
+    "email": "customerservice@ironclad.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://ironclad.com/pages/customer-service.html",
+    "source": "https://ironclad.com/pages/customer-service.html",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/ironclad"
+    "https://www.thomassci.com/browse-by/suppliers/ironclad",
+    "https://ironclad.com/pages/customer-service.html"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -50112,15 +50127,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "18002413146",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.kcprofessional.com/en-us/contact-us",
+    "source": "https://www.kcprofessional.com/en-us/contact-us",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Kimtech"
+    "https://www.dutscher.com/search?initialFilters=brand:Kimtech",
+    "https://www.kcprofessional.com/en-us/contact-us"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -51264,17 +51280,18 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+1.707.766.2100",
+    "email": "info@labcon.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.labcon.com/contact.html",
+    "source": "https://www.labcon.com/contact.html",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Labcon",
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/labcon"
+    "https://www.thomassci.com/browse-by/suppliers/labcon",
+    "https://www.labcon.com/contact.html"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -56061,15 +56078,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "+1.616.754.5601",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.marvelrefrigeration.com/contact-us",
+    "source": "https://www.marvelrefrigeration.com/contact-us",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/marvel"
+    "https://www.thomassci.com/browse-by/suppliers/marvel",
+    "https://www.marvelrefrigeration.com/contact-us"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -57828,12 +57846,13 @@
     "email": null,
     "address": null,
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://www.mercedesscientific.com",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/mercedes-medical"
+    "https://www.thomassci.com/browse-by/suppliers/mercedes-medical",
+    "https://www.mercedesscientific.com"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -66603,15 +66622,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "0039035571392",
+    "email": "info@optika-italy.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.optikamicroscopes.com/optikamicroscopes/contact/",
+    "source": "https://www.optikamicroscopes.com/optikamicroscopes/contact/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Optika"
+    "https://www.dutscher.com/search?initialFilters=brand:Optika",
+    "https://www.optikamicroscopes.com/optikamicroscopes/contact/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -68073,15 +68093,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+1-202-506-5608",
+    "email": "info@plantcelltechnology.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://plantcelltechnology.com/pages/contact-us",
+    "source": "https://plantcelltechnology.com/pages/contact-us",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://info.quartzy.com/new-suppliers"
+    "https://info.quartzy.com/new-suppliers",
+    "https://plantcelltechnology.com/pages/contact-us"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -69120,7 +69141,7 @@
     "phone": "+81 3 5408 7280",
     "email": null,
     "address": "15F Dai-ichi Life Hibiya First, 1-13-2 Yurakucho, Chiyoda-ku, Tokyo 100-8403, Japan",
-    "contact_url": "https://www.phchd.com/global/forms/Input?form_id=%7BA1E4FD0D-9F27-4C4D-9FD1-7A057C9FE770%7D",
+    "contact_url": null,
     "source": "https://www.phchd.com/global/news/2024/0315",
     "note": "HQ (moved from Nishi-Shimbashi, Minato-ku, 1 Apr 2024); PHC Holdings fax +81 3 3214 1080; PHC Corporation (PHCbi maker) +81 3 5408 7290 / fax +81 3 3214 1188 (also on https://www.phchd.com/global/phc/corporate/profile); IR/PR +81 3 6778 5311, phc-pr@gg.phchd.com; June 2024 securities report lists +81 3 6695 9938"
    },
@@ -69142,7 +69163,7 @@
     "https://www.phchd.com/~/Media/phchd_g/sustainability/integratedreport2026/pdf/integratedreport2026_6.pdf",
     "https://www.phchd.com/global/sustainability/integratedreport2026/executive/ataglance",
     "https://stockanalysis.com/quote/tyo/6523/financials/income-statement/",
-    "https://www.phchd.com/global/forms/Input?form_id=%7BA1E4FD0D-9F27-4C4D-9FD1-7A057C9FE770%7D"
+    "https://www.phchd.com/apac/biomedical"
    ],
    "prior_verified": true,
    "prior_verified_at": "2026-10-15"
@@ -72032,15 +72053,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "1-800-805-6531",
+    "email": "info@prospecbio.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://prospecbio.com/pages/contact",
+    "source": "https://prospecbio.com/pages/contact",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://prospecbio.com/pages/contact"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -72537,15 +72559,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "800-321-2313",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.puritanmedproducts.com/pages/contact-us",
+    "source": "https://www.puritanmedproducts.com/pages/contact-us",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Puritan"
+    "https://www.dutscher.com/search?initialFilters=brand:Puritan",
+    "https://www.puritanmedproducts.com/pages/contact-us"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -76267,15 +76290,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "+886-7-2273358",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.rocker.com.tw/contact-us/",
+    "source": "https://www.rocker.com.tw/contact-us/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Rocker"
+    "https://www.dutscher.com/search?initialFilters=brand:Rocker",
+    "https://www.rocker.com.tw/contact-us/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -76530,16 +76554,17 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+16314273898",
+    "email": "sales@rotronic-usa.com",
     "address": "La Roche-sur-Foron",
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://www.rotronic.com/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.thomassci.com/browse-by/suppliers/rotronics",
-    "https://www.wikidata.org/wiki/Q131636473"
+    "https://www.wikidata.org/wiki/Q131636473",
+    "https://www.rotronic.com/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -77109,12 +77134,13 @@
     "email": null,
     "address": null,
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://www.thesafetyzone.com/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/safety-zone"
+    "https://www.thomassci.com/browse-by/suppliers/safety-zone",
+    "https://www.thesafetyzone.com/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -79805,14 +79831,15 @@
    "israel_current": null,
    "contact": {
     "phone": "",
-    "email": null,
+    "email": "info@licorbio.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.serva.de/deDE/14_UEber_SERVA_Kontakt.html",
+    "source": "https://www.serva.de/deDE/14_UEber_SERVA_Kontakt.html",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:Serva"
+    "https://www.dutscher.com/search?initialFilters=brand:Serva",
+    "https://www.serva.de/deDE/14_UEber_SERVA_Kontakt.html"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -80705,15 +80732,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "+49 881 183-0",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.xylemanalytics.com/en/contact/general-contact",
+    "source": "https://www.xylemanalytics.com/en/contact/general-contact",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/si-analytics"
+    "https://www.thomassci.com/browse-by/suppliers/si-analytics",
+    "https://www.xylemanalytics.com/en/contact/general-contact"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -81091,16 +81119,17 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "(450) 464-1723",
+    "email": "info@simport.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.simport.com/en/page/15-contact-page",
+    "source": "https://www.simport.com/en/page/15-contact-page",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Simport",
-    "https://www.thomassci.com/browse-by/suppliers/simport"
+    "https://www.thomassci.com/browse-by/suppliers/simport",
+    "https://www.simport.com/en/page/15-contact-page"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -81353,14 +81382,15 @@
    "israel_current": null,
    "contact": {
     "phone": "",
-    "email": null,
+    "email": "info@sliceproducts.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.sliceproducts.com/pages/contact-us",
+    "source": "https://www.sliceproducts.com/pages/contact-us",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/slice"
+    "https://www.thomassci.com/browse-by/suppliers/slice",
+    "https://www.sliceproducts.com/pages/contact-us"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -81542,15 +81572,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "115 982 1111",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.scientificlabs.co.uk/contactus",
+    "source": "https://www.scientificlabs.co.uk/contactus",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted"
    },
    "sources": [
-    "https://www.dutscher.com/search?initialFilters=brand:SLS"
+    "https://www.dutscher.com/search?initialFilters=brand:SLS",
+    "https://www.scientificlabs.co.uk/contactus"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -83086,15 +83117,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "18002748888",
+    "email": "marketing@spectroline.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://spectroline.com/contact/",
+    "source": "https://spectroline.com/contact/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/spectronics"
+    "https://www.thomassci.com/browse-by/suppliers/spectronics",
+    "https://spectroline.com/contact/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -83803,15 +83835,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "1-209-333-2120",
+    "email": "support@denverwebsitedesigns.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.ssibio.com/contact-us",
+    "source": "https://www.ssibio.com/contact-us",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 1 personal address(es) omitted"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/ssi"
+    "https://www.thomassci.com/browse-by/suppliers/ssi",
+    "https://www.ssibio.com/contact-us"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -85110,16 +85143,17 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "603-6145 2328",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.supermax.com.my/our-business-contact-lenses",
+    "source": "https://www.supermax.com.my/our-business-contact-lenses",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 4 personal address(es) omitted"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/supermax"
+    "https://www.thomassci.com/browse-by/suppliers/supermax",
+    "https://www.supermax.com.my/our-business-contact-lenses"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -86589,16 +86623,17 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "18002094488",
+    "email": "info@teknova.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.teknova.com/en/company/support.html#contact",
+    "source": "https://www.teknova.com/en/company/support.html#contact",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/teknova"
+    "https://www.thomassci.com/browse-by/suppliers/teknova",
+    "https://www.teknova.com/en/company/support.html#contact"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -87229,15 +87264,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "20(973)20300-9100",
+    "email": "info@thermcoproducts.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://thermcoproducts.com/contact/",
+    "source": "https://thermcoproducts.com/contact/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/thermco"
+    "https://www.thomassci.com/browse-by/suppliers/thermco",
+    "https://thermcoproducts.com/contact/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -88782,15 +88818,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "800-323-7442",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://thermosafe.com/contact/",
+    "source": "https://thermosafe.com/contact/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/thermosafe"
+    "https://www.thomassci.com/browse-by/suppliers/thermosafe",
+    "https://thermosafe.com/contact/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -89880,15 +89917,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "+1-419-841-9552",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://transforming-technologies.com/contact-us/",
+    "source": "https://transforming-technologies.com/contact-us/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/transforming-technologies"
+    "https://www.thomassci.com/browse-by/suppliers/transforming-technologies",
+    "https://transforming-technologies.com/contact-us/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -90210,17 +90248,18 @@
    "israel_searched_at": "2026-10-18",
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "+120(949)20380-8866",
+    "email": "info@triforest.com",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.triforest.com/contact/",
+    "source": "https://www.triforest.com/contact/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Triforest",
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/triforest"
+    "https://www.thomassci.com/browse-by/suppliers/triforest",
+    "https://www.triforest.com/contact/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -90888,12 +90927,13 @@
     "email": null,
     "address": null,
     "contact_url": null,
-    "source": null,
-    "note": null
+    "source": "https://tuttnauer.com/",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Tuttnauer",
     "https://www.thomassci.com/browse-by/suppliers/tuttnauer-ltd-",
+    "https://tuttnauer.com/",
     "https://pharmchoices.com/list-of-medical-device-companies-in-israel-2/7/"
    ],
    "prior_verified": false,
@@ -96229,15 +96269,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
-    "email": null,
+    "phone": "(877)-428-9937",
+    "email": "info@cyclect.com.sg",
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://zep.com/pages/contact",
+    "source": "https://zep.com/pages/contact",
+    "note": "from the company's own site (homepage / contact page); role addresses only; 4 personal address(es) omitted"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/zep"
+    "https://www.thomassci.com/browse-by/suppliers/zep",
+    "https://zep.com/pages/contact"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -96419,15 +96460,16 @@
    "israel_searched_at": null,
    "israel_current": null,
    "contact": {
-    "phone": "",
+    "phone": "9784219655",
     "email": null,
     "address": null,
-    "contact_url": null,
-    "source": null,
-    "note": null
+    "contact_url": "https://www.zoll.com/en-us/about/newsroom",
+    "source": "https://www.zoll.com/en-us/about/newsroom",
+    "note": "from the company's own site (homepage / contact page); role addresses only"
    },
    "sources": [
-    "https://www.thomassci.com/browse-by/suppliers/zoll"
+    "https://www.thomassci.com/browse-by/suppliers/zoll",
+    "https://www.zoll.com/en-us/about/newsroom"
    ],
    "prior_verified": false,
    "prior_verified_at": null
