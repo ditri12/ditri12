@@ -139,7 +139,7 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov, search
     # or score >= 0.9, and an entity that is more than a registry stub (has a sitelink) or carries size data
     if wd:
         from crawl.parse_lists import norm as _norm
-        label_ok = _norm(wd.get("label") or "") == key or (wd.get("score") or 0) >= 0.9
+        label_ok = _norm(wd.get("label") or "") == key or ((wd.get("score") or 0) >= 0.9 and len(key) > 4)
         solid = (wd.get("sitelinks") or 0) >= 1 or bool(wd.get("employees")) or bool(wd.get("revenue"))
         if not (label_ok and solid):
             web_wd = wd.get("website")
