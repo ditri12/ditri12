@@ -1,0 +1,1136 @@
+{
+ "assay genie": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "Manufacturer has regional distributor pages (assaygenie.com/distributors, incl. a Middle East section whose content was not visible in snippets); no Israel entry surfaced. May 2024 release names new distributors only for Saudi Arabia (AFMS), India and Hong Kong. No Hebrew sources.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "biologix": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results only show Biologix (Jinan, China; BIOLOGIX/CryoKING brands, heavy private-label OEM) catalogs and profiles plus unrelated Israeli distributor pages (Rhenium, Agentek, Medix Biochemica's Petach Tikva partner); nothing links any Israeli company to Biologix.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "biotium": {
+  "status": "found",
+  "presence": "distributor",
+  "note": "Manufacturer-side evidence: Biotium's own authorized-distributors page (Middle East) lists four Israeli distributors; Biotium sells direct only to US customers. Contact details are on that page but were not shown in the search snippet. Enco's own site (enco.co.il) appeared but does not name Biotium.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "fischer technical": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a Fisher Scientific brand page describing Fischer Technical Company as a US manufacturer's representative for the educational/industrial lab market; other hits concern the unrelated Fischer Technology (coating measurement) and generic Israeli distributors (Eisenberg Bros, Ornat) with no link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "labcon": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Search covered Labcon North America (lab plastics) and Labconco (the website given in targets); Labconco's distributor pages list US/Canada/global dealers but no Israel entry appeared in results, and nothing links Labcon to an Israeli distributor. Other hits (Labcon Bulgaria, Labco) are unrelated.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "triforest": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only US reseller listings (Genesee Scientific) for TriForest Labware flasks; Israeli distributor pages that surfaced (Rhenium, Enco, Ornat) do not list TriForest. Note: website in targets (triforestflooring.ca) is a flooring company, not the labware maker.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ace glass": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results only describe Ace Glass Inc. (Vineland, NJ) and its US role as a Corning/PYREX regional distributor and reseller of Lauda/IKA/KNF; no Israel mention at all.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "air tite": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results only describe Air-Tite Products (Virginia; exclusive North American distributor for Henke Sass Wolf, TSK, Poulten & Graf) and US resellers (VWR, Thomas Scientific, Fisher); no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "alconox": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Alconox says its detergents are sold through distributors in 40-50+ countries (and it joined TCP Analytical in 2025), but no Israeli distributor is named in any result.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "arvensis": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Arvensis at all; hits are generic Israeli distributor pages (Rhenium, Enco, Agentek, Ornat/LI-COR, S.L. Moran) unrelated to Arvensis.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "azura genomics": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Azura Genomics; hits concern other genomics vendors' Israeli distributors (Eisenberg Bros for Fluidigm, Eldan for Vizgen/Medicinal Genomics, Syntezza for IDT/BGI).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "benchpro": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "BenchPro (US industrial/lab workbench maker) results are US-only (Bench Depot as US distributor, EIS); Israeli distributor pages (Rhenium, Agentek, Enco, S.L. Moran) do not mention BenchPro.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "bio plas": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Bio Plas Inc. (California) sells exclusively through a B2B distributor network; results name only US resellers (MAP Medical). The Israeli 'Bio-Lab Ltd' (Jerusalem) hit is an unrelated name match.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "blue ray biotech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Blue-Ray Biotech; hits are generic Israeli distributor profiles (Enco, Agentek, Eldan, Rhenium, Ornat) and unrelated press releases.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "cayman chemical": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "Cayman's site says worldwide distribution runs via Cayman Europe (Tallinn) plus independent distributors, and Cayman Europe's page says its network extends to 'the Middle East', but no Israeli distributor is named; the site's International Distributors section was not visible in results.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "copan": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results cover Copan's global deals (bioMerieux exclusive worldwide for certain swabs, 2007; Beckman Coulter amendment for 21 markets; Thermo Fisher US-only for WASP) and US/AU resellers; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "decon labs": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results describe Decon Labs (US cleaning/disinfection products, 'one of North America's leading suppliers'); Israeli distributor pages (Enco, Agentek, Rhenium) do not mention Decon.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "dynalon": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Dynalon; 'DYN Diagnostics' (Caesarea, Roche IVD representative) and Eldan hits are unrelated name/industry matches.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "environmental express": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results show Environmental Express (Charleston, SC) with distributors in NZ (John Morris Group) and via Core & Main; Israeli hits (Chemitron, Veridis) are unrelated and do not mention the brand.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ethos biosciences": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Ethos Biosciences (Logan Township, NJ; Ott Group) distributes via sister companies; Israeli hits (Enco, Eldan, Tivan/OZ Biosciences release) do not mention Ethos.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ez biosystems": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions EZ Biosystems; hits concern other companies' Israeli distributors (Eldan for Element Biosciences, Tivan Biotech for OZ Biosciences, Eisenberg Bros for Fluidigm, Rhenium for Life Technologies).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "foxx life sciences": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Foxx results cover its Netherlands EU distribution centre, North American master-distribution deals (Ami Polymer, Abdos, Borosil) and a Thomas Scientific agreement; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ga": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "GA International / LabTAG (Laval, Quebec) says it ships worldwide; the only Israeli hits are unrelated label/sticker importers on chamber.org.il; no distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "hardy diagnostics": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Hardy Diagnostics (Santa Maria, CA) exports to 80+ foreign distributors (unnamed); no Israeli distributor named in results.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "himedia": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "HiMedia distributors found for Germany (neoFroxx, exclusive) and North America (own subsidiary HiMedia Laboratories LLC) plus a VWR India agreement; no Israel entry.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "implen": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Implen distributors found for Australia (LabGear Australia, exclusive) and India (Inkarp Instruments), plus Fisher Scientific EU brand pages; no Israel mention. Note: website in targets (implen.cn) is not the manufacturer's main site (implen.de).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "intact genomics": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Intact Genomics; hits are other vendors' Israeli distributor announcements (Eisenberg Bros/Fluidigm, Ornat/LI-COR, Eldan/Medicinal Genomics, Syntezza/IDT).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "jeio tech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result links Jeio Tech (Daejeon, Korea / Des Plaines, IL) to Israel; Israeli distributor hits (Tech Top, Phoenix Technologies, Eastronics) are for unrelated electronics/audio brands.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "kingfisher biotech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Kingfisher Biotech (veterinary/species-specific reagents) results show NZ (Mediray) and EU (Clinisciences) resellers; Israeli distributor pages (Enco, Rhenium, Agentek, Syntezza) do not list Kingfisher.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "labnet": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Labnet International (Edison, NJ) sells via a dealer network and a GlobalData profile cites presence in the Middle East, but no Israeli dealer is named; results are US/UK/FR resellers.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "labstrong": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "LabStrong (Dubuque, Iowa) results are US-only (it is itself a US distributor for Synoptics); Israeli distributor pages (Enco, Rhenium, Agentek) do not mention LabStrong.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "mtc bio": {
+  "status": "found",
+  "presence": "distributor",
+  "note": "Distributor-side evidence only: an Israeli supplier site (yairtech.co.il) has an MTC Bio brand page; MTC Bio's own site/distributor list did not surface. Other hits are US resellers (Labrepco, Test Equipment Depot, Enzo/Axxora) and unrelated Israeli distributors.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "nest scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "NEST (Wuxi, China; NEST Scientific USA in Woodbridge, NJ) results show a 2024 North American deal with Captivate Bio and claims of sales in 50-80 countries; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "oxford lab products": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No Israeli distributor for Oxford Lab Products (San Diego pipettes/benchtop equipment); results are dominated by Oxford Nanopore, whose Israeli channel partner is Zotal Ltd (Tel Aviv) - a different company, not applicable.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "prosci": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "ProSci is a Genesee Scientific antibody brand sold direct; a Feb 2025 release on its global commercial strategy names no Israeli distributor; product hits are US price pages.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "raybiotech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "RayBiotech's 2012 distributor-conference release cites distributors in 35+ countries (unnamed); EU resellers (Bio-Connect, Insight Bio) appear; Israeli distributor pages (Enco, Rhenium, Biological Industries) do not list RayBiotech.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "rockland immunochemicals": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "Rockland's own distributor page (rockland.com/distributors) exists but the snippet cut off after Belgium; third-party profiles list distributors in US, Australia, Austria, Belgium, Brazil, Canada, Chile, Denmark 'among others' without naming Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "sanisure": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a 2023 EcoVadis press release for SaniSure (Camarillo, CA; single-use bioprocessing); Israeli hits (Dubek, Sano, Dansell, Plasson) are unrelated name matches.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "seward": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Seward (part of FermionX Ltd since 2016) results are US/EU catalog pages (VWR, Thomas Scientific, Capitol Scientific); no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "socorex": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Socorex at all; hits are unrelated Israeli distributor announcements (OpteamX, Militram, Rhenium, Agentek).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "spectrum chemical": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "Spectrum's distributor page has a 'Worldwide' locator (partners in 70 countries) but country entries were not visible in results; USA distributor page lists Cole-Parmer, Fisher, Grainger, Quartzy, VWR; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "sterlitech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Sterlitech (Kent, WA) claims customers in 125+ countries; no Israeli distributor named; Agentek appeared only as a generic Israeli distributor with no Sterlitech link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "thewell bioscience": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Manufacturer-side: TheWell's distributor directory (thewellbio.com/company/distributors) shows Middle East & North Africa covered only by Neo-Science (UAE) and no Israel entry. XP Biomed (its China distributor) is the China arm of Biological Industries (Israel) - not an Israeli channel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "united scientific supplies": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "United Scientific Supplies Inc. (Libertyville, IL) appears only on Fisher Scientific brand pages; the South African 'United Scientific (Pty)' is unrelated; Israeli distributor hits (Enco, Agentek, Rhenium, Eisenberg) do not mention it.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "welch": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Welch Vacuum (Gardner Denver, Niles IL) results list US distributors (A-VAC, Ideal Vacuum, Across International) and Fisher EU pages; no Israel mention. Note: website in targets (welchs.com) is the juice brand, not Welch Vacuum.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "3m": {
+  "status": "found",
+  "presence": "subsidiary",
+  "note": "Multiple news items (NoCamels 2014 and 2015, Globes interview) plus a startupim company directory page confirm a 3M Israel subsidiary (Ra'anana/Herzliya); no current official 3M Israel contact page surfaced in results, so details are older evidence. 3M later sold its Israeli electronic-monitoring unit Attenti (2017).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "bal supply": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Bal Supply at all; hits are generic Israeli distributor listings (Rhenium, Tamar Laboratory Supplies, Agentek, Enco, Ornat, Lumitron).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "cadence science": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a Fisher Scientific brand page for Cadence Science Inc. (animal feeding needles); all Israel hits concern Cadence Design Systems (EDA software, Haifa) - unrelated.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "eagle thermoplastics": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Eagle Thermoplastics; hits are Albis Distribution (polymer distributor opening a Tel Aviv subsidiary) and Eagle Plastics UK - unrelated.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "greenwood products": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Greenwood Products (Piscataway, NJ; acquired by Calibre Scientific, April 2023) results are US-only; Israeli distributor pages (Rhenium, Enco, S.L. Moran) do not mention Greenwood.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "kord valmark": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Kord-Valmark at all; hits are unrelated Israeli valve/fittings and industrial distributor listings.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "mercedes medical": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Mercedes Medical / Mercedes Scientific (Sarasota and Lakewood Ranch, FL; a BD distributor) results are all US; Israeli hits (Medtechnica, Eldan, A.L. Medi-Market) are not linked to it.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "minigrip": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Minigrip; 'Mini Line Ltd' (Petach Tikva electronics importer) is an unrelated name match; other hits are unrelated Israeli dealer announcements.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "showa": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "SHOWA (gloves) sells via a worldwide distributor network; results show US/ZA sellers (MDS Associates, Gemplers, RS South Africa) and showagroup.com EU pages; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "trippnt": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions TrippNT; hits are Tripp Lite Israel (Minicom, Jerusalem) and audio/electronics distributors - different companies.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "adam equipment": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results were only product listings (RS Online, Agar Scientific) and company background claiming a worldwide distributor network; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "biochrom": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Harvard Bioscience (owner of Biochrom) has a 'Where to Buy' distributor directory (harvardbioscience.com/contact-us/where-to-buy) but no Israel entry was visible in the results; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "biospec": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "BioSpec Products' distributor page (biospec.com/distributors) lists partners by country but the visible part stopped at China; Israeli distributors Enco, Rhenium, Syntezza appeared without any link to BioSpec. Target site biospec.de may be a different company.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "filtrous": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No results about the company at all; only unrelated Israeli filtration/water pages.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "hirschmann": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Hirschmann Laborgeraete claims sales partners in 100+ countries but none named for Israel; results polluted by the unrelated Hirschmann Test & Measurement (SOS electronic).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "pro scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only US channels (VWR, Thomas, Marshall, MIDSCI) and an Indian reseller appeared; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "aaron chemicals": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Aaron Chemicals; results were Aaron Industries (India) and Israeli specialty-chemical distributors (Lidorr/Azelis, Orokia, Y.S. Ashkenazi/Brenntag, Depotchem) with no link to this supplier.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "advansta": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Advansta; the only similar-name hit was ADVANSYS Technologies for Life (Israeli distributor of Genovis, 2010), an unrelated company.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "aladdin scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Aladdin's contact page names only US (Riverside CA) and German (Bueren) hubs and has a distributor-recruitment form; Israel not mentioned; Eldan/Agentek appeared with no link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "aobchem": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only AOBChem USA company profiles (Knowde, scientist.com); Israeli chemical distributors Orokia and BSC Distributors appeared with no link to AOBChem.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "avidity science": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only company profiles (UK/US sites, acquired by ATS 2023); no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "bellco glass": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "Bellco's company profile (pharmaceutical-tech.com/suppliers/bellco-glass-inc) lists Israel among the countries in its worldwide distributor network, but no result names the Israeli distributor.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "bio basic": {
+  "status": "found",
+  "presence": "distributor",
+  "note": "Distributor-side evidence: Syntezza's own live About page plus its ISO document (https://www.syntezza.com/wp-content/uploads/2020/02/ISO-Regulatory-Compliance-Syntezza-Bioscience-Ltd-2-2020-1.pdf); exclusivity claim only in the scientist.com profile (https://app.scientist.com/providers/syntezza-contract-services). No manufacturer-side page found.",
+  "searched_at": "2026-10-18",
+  "searches": 2
+ },
+ "bioworld": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "bioWORLD (Dublin, OH) claims distribution partners in 45 countries but none named for Israel; results polluted by the BioWorld news publication; Enco appeared with no link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "boston bioproducts": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Israel hit was Boston Scientific / Amos Gazit (2014), a different company; Boston BioProducts profiles mention no Israeli partner.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "chemglass": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Chemglass Life Sciences 2026 capabilities PDFs and company profile only; Agentek appeared in results with no stated link to Chemglass.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "crystalgen": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a GlobalData profile of Crystalgen (Commack, NY); Israeli distributors in results (Enco, Agentek) not linked to Crystalgen.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "drummond": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Drummond Scientific's find-a-distributor page (drummondsci.com/find-a-distributor/) lists international partners by country but the snippet cut off at Hungary, before Israel; nothing confirmed. Target website (drummondgolf.com.au) is wrong; the lab supplier is Drummond Scientific, Broomall PA.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "elma": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Elma Schmidbauer GmbH (Singen) sells in 80+ countries via distributors (DKSH, VWR listings); no Israel mention. Target website elmaz.com is wrong (elma-ultrasonic.com).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "erlab": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Erlab reports a dealer network in 40+ countries, none named for Israel; the Nanomix 'eLab'/Biotron Ltd (2022) hit is an unrelated company; Eldan/Rhenium appeared with no link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "exodus bio": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Distributors named only for Australia/NZ (ATA Scientific) and UK/Ireland (Analytik); Israeli distributors Enco/Eldan appeared with no link to EXODUS Bio.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "fd neurotechnologies": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a Cedarlane supplier page; the 'Neurotechnology' distributor page listing Israel is a different company; Eldan/AMI Technologies appeared with no link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "g biosciences": {
+  "status": "found",
+  "presence": "distributor",
+  "note": "Distributor-side evidence from Yair Technologies' live site (brand page, partners page https://yairtech.co.il/partners/, services page naming G-Biosciences as a main supplier); G-Biosciences' own distributor list was not visible in results. Site is Israeli (Hebrew/English).",
+  "searched_at": "2026-10-18",
+  "searches": 2
+ },
+ "gmp labeling": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions the company; hits were unrelated Israeli pharma labeling services (Dor), importers (Propharm) and MoH GMP certificates.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "heathrow scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only distributor listings in Australia/NZ/US (DKSH, Raptor, Mediray, VWR, Sigma); no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ibi scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Company profiles and US resellers only; Agentek/Enco appeared with no link to IBI.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "inorganic ventures": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "IV's international-operations page says it uses one exclusive distributor per territory outside US/Canada; only Spain (Inycom) named; Israel not shown.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "j g finneran": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results entirely unrelated (film distributors, law firm); nothing about J.G. Finneran.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "kemtech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a Panjiva trade-data listing (Brea, CA glassware imports); no Israel link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "labchem": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "LabChem Inc. (Pittsburgh) listing only; a Fujifilm Wako 'LabChem' distributor page (different brand) cut off before Israel; Agentek/Enco/Rhenium appeared with no link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "labrepco": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "LabRepCo is itself a US East-Coast regional distributor (Horsham, PA); no international channel found.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "microlit": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Microlit (Lucknow, India; offices India/USA/Brazil) claims presence in 55+ countries; an Israeli Chamber of Commerce importer page listed other pipette brands, not Microlit.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "mystaire": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results entirely unrelated (Mystere jet book, film distributors); nothing about Mystaire.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "omni": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only company info and Fisher/Sigma/VWR storefront listings; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "porvair": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Germany distributor (MZ-Analysentechnik) named; Porvair Sciences cites a worldwide distributor network without countries.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "quality biological": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentions Quality Biological; ENCO Diagnostics (Petach Tikva) appeared only as Medix Biochemica's Israeli distributor.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ricca chemical": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Ricca's own distributor page (riccachemical.com/distributors) lists US firms only; Israeli chemical distributors (Lidorr, Orokia) appeared with no link to Ricca.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "sampling systems": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Sampling Systems Ltd (Coleshill, Warwickshire) says it has distributors around the globe but names none; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "scilogex": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Scilogex's distributor page only invites contact to locate a distributor; agentek.co.il pages appeared in the results but no result states Agentek carries Scilogex.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "skc": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "SKC Inc. (Eighty Four, PA) has a distributor locator but no Israel entry visible; target website sk.co.kr is wrong (skcinc.com).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "sp bel art": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only overseas resellers in South Africa/NZ/India/Australia and Fisher listings; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "spex sampleprep": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Australia/NZ distributor (John Morris Group) and US listings; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "teknova": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Company profiles only; Agentek/Enco appeared with no link to Teknova.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "tuttnauer": {
+  "status": "found",
+  "presence": "subsidiary",
+  "note": "Tuttnauer is an Israeli-origin company; Beit Shemesh HQ confirmed by a 2026 Israeli medical-device directory, MarketScreener (Tuttnauer Ltd., HQ Beit Shemesh) and an Israel Trade Commission post dated 2026-01-15 (israeltrade.org.au); listed as 'subsidiary' because it is the group's own Israeli entity, not a distributor.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "varizymes": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only company profiles (Middleton, WI); name-confusion hits Varizig (Kamada) and VarSome (Danyel Biotech) are unrelated.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "zymo research": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only global-network claims, a 2017 VWR North America deal and a Seegene listing; no Israeli distributor named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ansell": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Ansell cites 100+ countries and an authorized-distributor network; only a UK distributor appeared; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "dupont": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "DuPont Tyvek contact directory and converter/distributor lists appeared but no Israel entry visible; only Brazil/Mexico (IIMAK) and US deals named.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "improve medical": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Guangzhou Improve Medical Instruments profiles and US trade records only; Guangzhou-Israel biotech news does not name the company. Target website improvemed.com.ua is wrong.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "medline": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Medline Industries (Northfield, IL) profiles cite 90-125 countries but no Israel channel appeared. Target website medline.org.ua is wrong.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "miele": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Miele Professional lab distributors named only for Hungary (Labokraft, 2025) and the US (ARES Scientific); no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "sempermed": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only US (MDS Associates, Sempermed USA) and Swiss (Huberlab) channels and FDA device records; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "tempshield": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Singapore distributor (PDS International/safety.com.sg) and Fisher/VWR/Thomas/ProSciTech listings; no Israel mention.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "atlas antibodies": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "No Israeli distributor named; a GlobalData company profile says Atlas markets its products in Israel (among other countries) but no channel is identified. Only older context: 2008 Sigma-Aldrich ex-Europe distribution deal; Bio-Connect for Benelux.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "biomiga": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned Biomiga at all; only unrelated Israeli distributors (Enco, Agentek, Biotron, Syntezza) surfaced.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "burkle": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Buerkle GmbH's own site (country-selector distributor page) and trade-fair/company profiles; no Israeli partner shown in the results.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "genscript": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "No distributor named. A third-party job listing (Mar 2026) for 'Sales Account Manager, Israel' at 'GenScript Israel' suggests direct sales coverage, and a company-data profile lists Israel as a new market, but nothing was confirmed on a GenScript page.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "polyscience": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Results covered Polysciences Inc. (Warrington PA; offices in Germany/Taiwan/India/Brazil, none in Israel) and unrelated Israeli distributors; nothing linking PolyScience (chillers/circulators) to an Israeli channel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "4titude": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned 4titude; only unrelated Israeli distributor pages (Corning optical, AVM, audio gear).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "across": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned Across International; only generic Israeli distributor/trade-guide pages.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ak scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "AK Scientific's own distributors page (aksci.com/distributors.php) lists networks in Asia, Europe, Oceania and South America; Israel is not listed. Agentek/Enco surfaced but without any AK Scientific link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "antibodies": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "antibodiesinc.com has a 'Global Distribution Partners' page but the snippet showed no Israel entry. A 'Zotal (Tel Aviv)' Israel listing surfaced, but it is on antibodies.com (a different UK company), so it is not attributable to Antibodies Inc.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "atago": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No Israeli distributor in results; only ATAGO U.S.A. (subsidiary, Bellevue WA), Avantor/VWR listings and Indian resellers.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "being scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only BEING Scientific (US arm of BEING Technology, Ontario CA) profiles and US resellers (San Diego Scale, Labfilterz); nothing for Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "bertin": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Bertin Technologies cites a network of ~50 distributors worldwide, but results name none for Israel (only VWR, ThomasSci, Szabo-Scandic product pages).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "biomedical polymers": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only the company's SelectScience profile (Gardner, MA) and unrelated Israeli distributors (Enco, Agentek, Tivan for OZ Biosciences, Ornat); no connection found.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "boekel": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Boekel Scientific cites a worldwide distribution network, but the results did not include its distributor list or any Israeli partner (Agentek surfaced without a Boekel link).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "celltreat": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only US wholesaler listings (MAP Medical) and unrelated Israeli distributors; no CELLTREAT Israel link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "crystal technologies": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result connected Crystal Technologies (lab supplier) to an Israeli channel; only generic Israeli lab distributors (Rhenium, Agentek, Enco, S.L. Moran, Ornat) and an unrelated press release about A-Crystal Electronic Technology/Paradox Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "discovery life sciences": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No Israel link in results (company profiles only); unrelated Israeli distributors Eldan and Agentek surfaced.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "eisco": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Eisco's sales page (eiscolabs.com/pages/sales) routes buyers to regional contacts (Asia/Middle East/Africa) and customer support; no Israeli distributor named. Biotium's Middle East list (Doron Scientific, Enco, New Biotechnology, Origolab) is unrelated.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "epredia": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Epredia distribution deals for US/UK/Germany/Japan (Lunaphore LabSat, Paige, Aiforia, Medline); nothing for Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "excel scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only company profiles (Victorville, CA) and a New Zealand distributor (Mediray); no Israeli entity connected.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "falcon": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Searched as Corning's Falcon labware brand: Corning APAC/NA distributor pages and Falcon product sheets surfaced; no Israel distributor listed in results.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "froggabio": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "FroggaBio is itself a Canadian distributor (Concord, ON); no Israel channel found. BioLamina's distributor page lists Almog Diagnostic for Israel, which is unrelated to FroggaBio.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "gfs chemicals": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned GFS Chemicals; only general Israeli specialty-chemical distributors (BSC Distributors, Orokia/Azelis, Lidorr, Y.S. Ashkenazi/Brenntag).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "harvard apparatus": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Harvard Bioscience says it sells via direct and distribution channels; no Israeli distributor named (only a used-equipment eBay seller in Petah Tikva).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "hoefer": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only product/brand pages (Sigma-Aldrich, DKSH, Fisher, ThomasSci); no Israeli partner.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "innovative bioscience": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned Innovative Bioscience; only unrelated Israeli distributors (Tivan Biotech for OZ Biosciences, Enco, Syntezza, Rhenium for Tosoh/Life Technologies).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "interscience": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Interscience cites distributors in 130+ countries; no Israeli partner in results (Analytics-Shop US/UK, DKSH Australia, Fisher).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "kd scientific": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only product listings and resellers in other countries (ThomasSci, Fisher, John Morris AU, Labex ZA); no Israeli distributor.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "knf": {
+  "status": "none_found",
+  "presence": "unclear",
+  "note": "Single weak source: an English-language page titled 'World leading diaphragm pumps by KNF' hosted on an Israeli staging/temp subdomain (apparently a copy of LDR's website), undated. A second confirming search returned only the same page; no confirmation on knf.com or on an LDR-owned domain, so treat as unverified. | A page on an Israeli staging subdomain names \"LDR\" as KNF representative in Israel; source unreliable, not recorded.",
+  "searched_at": "2026-10-18",
+  "searches": 2
+ },
+ "labplas": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Labplas cites 175+ independent distributors in 60+ countries; none named for Israel in results (Rhenium, S.L. Moran surfaced without a Labplas link).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "mdi membrane technologies": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only company directory profiles (Harrisburg PA / Advanced Microdevices, Ambala India); no Israel information.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "mycofold": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only a UW CoMotion startup profile (pre-seed, AI-designed proteins); no distributors listed anywhere.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "omega bio tek": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only company profiles (Norcross, GA); no Israeli distributor; Agentek surfaced but without any Omega Bio-tek link.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "pall": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only corporate/SEC profiles (Pall now under Danaher/Cytiva); no Israeli distributor or office named in results.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "qorpak": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned Qorpak; only unrelated Israeli companies (Amisragas, Dubek, Diplomat).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "restek": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Restek directs customers to 'local Restek office or distributor'; none named for Israel in results (only US distributor Chrom Tech).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "saint gobain": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only Saint-Gobain Performance Plastics tubing product pages (ThomasSci, Fisher, Labfriend Malaysia, Saint-Gobain NA/China sites); nothing for Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "scientific industries": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "D&B profile says the company has distributors worldwide (over half of sales outside US); none named for Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "simport": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Simport Scientific (Quebec) cites a global distribution network; no Israeli distributor named (Enco and M. Stauber surfaced only as Agrisera distributors).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "southernbiotech": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result connected SouthernBiotech to an Israeli distributor; Enco's listed brands do not include it.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "spex certiprep": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "SPEX CertiPrep (Metuchen NJ; UK subsidiary) works through worldwide distributors; none named for Israel in results.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "synthego": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Synthego has a worldwide authorized-distributor directory, but the snippet showed no Israel entry; only global deals with Eurofins (44 countries, 2018) and Thermo Fisher (TrueGuide) surfaced. Slingshot/Almog press release is unrelated.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "troemner": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned Troemner; only unrelated Israeli companies.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "uvex": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Searched as uvex safety: no importer/distributor named; a Newegg Israel storefront lists uvex safety products priced in shekels (marketplace, not an official channel).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "wld tec": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned WLD-TEC; the similar-named WITec (microscopes) appointed ATSL as Israeli distributor in 2012, which is a different company.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "action health": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "No result mentioned Action Health; only unrelated Israeli medical distributors (Medtechnica, Eldan, Promedico, Lapidot, Propharm).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "brady": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only US parts-distributor listings and a 2016 Brady laboratory-identification catalog with regional contacts (visible portion excluded Israel).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "carver": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only manufacturer (Carver/ACS Group) and US reseller pages (VWR, CCSI, American Laboratory Trading); nothing for Israel.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "ellsworth adhesives": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Ellsworth's own list of countries where it has a presence (job-board page) does not include Israel; no Israeli distributor found.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "honeywell": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Searched for Honeywell Research Chemicals (Fluka/Riedel-de Haen): only acquisition news (2015) and a German dealer (Altmann Analytik, 2016); no Israeli channel surfaced. Honeywell's wider corporate presence in Israel was not covered by this search.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "levgo": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only LevGo company profiles (Berkeley, CA; smartSpatula) and unrelated Israeli distributors (Rhenium, Agentek, Enco, Ornat).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "microflex": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Searched as Ansell's Microflex brand: Ansell's Where-to-Buy page has a country selector but no Israel entry visible; only non-Israeli retailers (RS Korea/Philippines, VWR, ThomasSci, Labfriend India).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "nasco": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Whirl-Pak was divested by Nasco to Filtration Group (2022); no Israeli distributor named; Israeli hits (Gotta Hay Trade, Winpac) were unrelated packaging/consumer firms.",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ },
+ "safety zone": {
+  "status": "none_found",
+  "presence": "none_found",
+  "note": "Only The Safety Zone LLC (US) brand info; Israeli hits unrelated (an unnamed glove importer on chamber.org.il; Gamida Ltd listed as Shield Scientific's distributor).",
+  "searched_at": "2026-10-18",
+  "searches": 1
+ }
+}

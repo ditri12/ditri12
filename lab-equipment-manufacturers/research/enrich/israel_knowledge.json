@@ -130,5 +130,147 @@
    "match_basis": "manufacturer_or_press",
    "scope": "OZ Biosciences announced Tivan Biotech as its distributor in Israel (blog post, undated)"
   }
+ ],
+ "biotium": [
+  {
+   "name": "Doron Scientific",
+   "type": "distributor",
+   "website": "https://www.doronscientific.com",
+   "phone": "+972-54-554-4004",
+   "email": null,
+   "scope": "Listed as an authorized distributor for Israel (Kiryat Ono) on Biotium's Middle East authorized-distributors page",
+   "source": "https://biotium.com/authorized-distributors/middle-east",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "address": "8 Yehoshua Baum St., Kiryat Ono",
+   "name_he": "דורון סיינטיפיק"
+  },
+  {
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "type": "distributor",
+   "website": "https://www.enco.co.il",
+   "phone": null,
+   "email": null,
+   "scope": "Listed as an authorized distributor for Israel (Petach Tikva) on Biotium's Middle East authorized-distributors page",
+   "source": "https://biotium.com/authorized-distributors/middle-east",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "name_he": "אנקו"
+  },
+  {
+   "name": "New Biotechnology Ltd",
+   "type": "distributor",
+   "website": "https://www.nbtltd.com",
+   "phone": "+972-2-673-2001",
+   "email": "nbtsales@nbtltd.com",
+   "scope": "Listed as an authorized distributor for Israel (Jerusalem) on Biotium's Middle East authorized-distributors page",
+   "source": "https://biotium.com/authorized-distributors/middle-east",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "address": "3 Mekor Haim St., P.O. Box 8662, Jerusalem 91086",
+   "name_he": "ניו ביוטכנולוגי (NBT)"
+  },
+  {
+   "name": "Origolab Ltd",
+   "type": "distributor",
+   "website": null,
+   "phone": "+972-2-566-9285",
+   "email": "origolab@netmedia.net.il",
+   "scope": "Listed as an authorized distributor for Israel on Biotium's Middle East authorized-distributors page",
+   "source": "https://biotium.com/authorized-distributors/middle-east",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "address": "28 Kaf-Tet BeNovember St., Jerusalem",
+   "name_he": "אוריגולאב"
+  }
+ ],
+ "mtc bio": [
+  {
+   "name": "Yair Technologies (Yair Tech)",
+   "type": "distributor",
+   "website": "https://www.yairtech.co.il",
+   "phone": null,
+   "email": null,
+   "scope": "Israeli lab-supply website carries an MTC Bio brand page describing the brand ('supplying life science research with quality consumables and liquid handling instruments'); official/exclusive status not stated and not confirmed on the manufacturer side",
+   "source": "https://www.yairtech.co.il/?p=3561",
+   "evidence_year": null,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "name_he": "יאיר טכנולוגיות"
+  }
+ ],
+ "3m": [
+  {
+   "name": "3M Israel",
+   "type": "subsidiary",
+   "website": null,
+   "phone": null,
+   "email": null,
+   "scope": "3M's Israeli subsidiary: customer innovation center opened in Herzliya (Dec 2015), R&D center announced for Israel (2014), ~200 staff reported in 2014; a company directory (startupim) lists its office at HaTidhar St 4, Ra'anana",
+   "source": "https://nocamels.com/2015/12/3m-opens-customer-innovation-center-in-israel/",
+   "evidence_year": 2015,
+   "status": "older_evidence",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "name_he": "3M ישראל"
+  }
+ ],
+ "bio basic": [
+  {
+   "name": "Syntezza Bioscience Ltd",
+   "type": "distributor",
+   "website": "https://www.syntezza.com",
+   "phone": null,
+   "email": null,
+   "scope": "Syntezza's About page lists the custom genes and peptides of BioBasic among its product lines; its ISO compliance document (2020) lists Bio Basic Inc. (Markham, Ontario) as a manufacturing partner for products supplied in Israel; Syntezza's scientist.com profile calls it the exclusive distributor in Israel of BioBasic for genes. Address: 17 Hartom Street, Har Hotzvim, Jerusalem.",
+   "source": "https://www.syntezza.com/about/",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "address": "17 Hartom St., Har Hotzvim, Jerusalem",
+   "name_he": "סינתזה ביוסיינס"
+  }
+ ],
+ "g biosciences": [
+  {
+   "name": "Yair Technologies (Yair Tech)",
+   "type": "distributor",
+   "website": "https://www.yairtech.co.il",
+   "phone": null,
+   "email": null,
+   "scope": "Yair Technologies' site has a G-Biosciences product-category page and lists G-Biosciences among its partners and main suppliers (proteomics reagents: protein extraction, purification, electrophoresis, Western blotting, protein labeling).",
+   "source": "https://www.yairtech.co.il/cat_product/g-biosciences/",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "name_he": "יאיר טכנולוגיות"
+  }
+ ],
+ "tuttnauer": [
+  {
+   "name": "Tuttnauer Ltd.",
+   "type": "subsidiary",
+   "website": "https://tuttnauer.com",
+   "phone": null,
+   "email": null,
+   "scope": "Tuttnauer's Israeli legal entity, headquarters and manufacturing base: Har Tuv B Industrial Zone, P.O. Box 170, Beit Shemesh 9910101, Israel (founded 1925; described as the central base for worldwide operations and product development; US HQ in Hauppauge, NY).",
+   "source": "https://pharmchoices.com/list-of-medical-device-companies-in-israel-2/7/",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "match_confidence": "search",
+   "name_he": "טוטנאור"
+  }
  ]
 }

@@ -1,0 +1,62 @@
+[
+ {
+  "id": "il_yairtech_co_il",
+  "url": "https://www.yairtech.co.il/",
+  "render": true,
+  "scroll": true,
+  "timeout": 60,
+  "cf_wait": 8,
+  "follow": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies|catalog|קטלוג|product|מוצר",
+  "follow_priority": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies",
+  "follow_max": 12,
+  "follow_render": true
+ },
+ {
+  "id": "il_syntezza_com",
+  "url": "https://www.syntezza.com/",
+  "render": true,
+  "scroll": true,
+  "timeout": 60,
+  "cf_wait": 8,
+  "follow": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies|catalog|קטלוג|product|מוצר",
+  "follow_priority": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies",
+  "follow_max": 12,
+  "follow_render": true
+ },
+ {
+  "id": "il_nbtltd_com",
+  "url": "https://www.nbtltd.com/",
+  "render": true,
+  "scroll": true,
+  "timeout": 60,
+  "cf_wait": 8,
+  "follow": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies|catalog|קטלוג|product|מוצר",
+  "follow_priority": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies",
+  "follow_max": 12,
+  "follow_render": true
+ },
+ {
+  "id": "il_doronscientific_com",
+  "url": "https://www.doronscientific.com/",
+  "render": true,
+  "scroll": true,
+  "timeout": 60,
+  "cf_wait": 8,
+  "follow": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies|catalog|קטלוג|product|מוצר",
+  "follow_priority": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies",
+  "follow_max": 12,
+  "follow_render": true
+ },
+ {
+  "id": "il_tivanbiotech_com",
+  "url": "https://www.tivanbiotech.com/",
+  "render": true,
+  "scroll": true,
+  "timeout": 60,
+  "cf_wait": 8,
+  "follow": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies|catalog|קטלוג|product|מוצר",
+  "follow_priority": "brand|supplier|manufactur|partner|vendor|principal|represent|agenc|מותג|יצרנ|ספק|שותפ|נציג|חברות|companies",
+  "follow_max": 12,
+  "follow_render": true
+ }
+]
