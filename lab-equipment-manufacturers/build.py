@@ -240,6 +240,9 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov, search
     sweep_hits = []
     for h in (il_matches or []):
         reg = il_reg.get(h.get("distributor")) if h.get("distributor") else None
+        if reg is None and h.get("name"):
+            nk = re.sub(r"[^a-z0-9]", "", h["name"].lower())[:8]
+            reg = next((v for v in il_reg.values() if nk and re.sub(r"[^a-z0-9]", "", (v.get("name") or "").lower()).startswith(nk)), None)
         reg = reg or {}
         host = domain_of(reg.get("website") or h.get("website") or h.get("site"))
         if host and host in seen_hosts:
@@ -336,6 +339,19 @@ def load_rows():
     for k, hits in load_json(ENRICH / "israel_knowledge.json", {}).items():
         il.setdefault(k, [])
         il[k] = list(hits) + il[k]
+    for k, rec in load_json(ENRICH / "mfr_israel.json", {}).items():
+        hits = []
+        for h in rec.get("hits") or []:
+            if not h.get("name"):
+                continue
+            typ = "subsidiary" if re.search(r"\b(ltd|office|branch|subsidiary|israel)\b", h["name"], re.I) and re.search(r"\bIsrael\b", h["name"]) else "distributor"
+            hits.append({"name": h["name"], "type": typ, "website": None, "phone": h.get("phone"), "email": h.get("email"),
+                         "scope": "listed for Israel on the manufacturer's own distributor / contact page",
+                         "source": h.get("url"), "evidence_year": 2026, "status": "current", "match_basis": "manufacturer_distributor_page",
+                         "match_confidence": "mfr_page", "evidence": (h.get("snippet") or "")[:200]})
+        if hits:
+            il.setdefault(k, [])
+            il[k] = hits + il[k]
     for k, hits in load_json(ENRICH / "israel_mentions.json", {}).items():
         il.setdefault(k, [])
         il[k] = il[k] + [dict(h, match_basis="distributor_site_mention", scope="brand mentioned on the distributor's product pages (not necessarily the brand's main lines)") for h in hits]

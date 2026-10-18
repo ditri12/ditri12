@@ -18,7 +18,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "crawl"))
 from parse_lists import norm  # noqa: E402
 
-SRC_DIRS = [os.path.join(ROOT, "research", "sources", d) for d in ("israel", "israel2", "israel3") if os.path.exists(os.path.join(ROOT, "research", "sources", d, "index.json"))]
+SRC_DIRS = [os.path.join(ROOT, "research", "sources", d) for d in ("israel", "israel2", "israel3", "israel4", "israel5") if os.path.exists(os.path.join(ROOT, "research", "sources", d, "index.json"))]
 MASTER = os.path.join(ROOT, "research", "catalog_suppliers.json")
 SEED = os.path.join(ROOT, "research", "israel", "distributor_contacts_seed.json")
 OUT_MATCHES = os.path.join(ROOT, "research", "enrich", "israel_matches.json")
