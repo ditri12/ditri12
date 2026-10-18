@@ -1,6 +1,8 @@
 """טפסי הזנה: רכב, קריאת קילומטראז׳, טיפול, תיקון, הגדרות."""
 from __future__ import annotations
 
+import os
+import sqlite3
 from datetime import date
 from typing import Optional
 
@@ -350,42 +352,42 @@ class SettingsDialog(QDialog):
         form.addRow("התראה כשנותרו לטיפול (ק״מ)", self.alert_km)
         lay.addWidget(box)
 
-        dbox = QGroupBox("קובץ הנתונים")
+        dbox = QGroupBox("תיקיית שמירת הנתונים")
         dl = QVBoxLayout(dbox)
-        self.db_label = QLabel(str(repo.path))
-        self.db_label.setWordWrap(True)
-        self.db_label.setLayoutDirection(Qt.LeftToRight)
-        self.db_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
-        dl.addWidget(self.db_label)
-        hint = QLabel("כדי שכמה עובדים יעבדו על אותם נתונים, אפשר לשמור את הקובץ בתיקייה משותפת ברשת ולבחור אותו בכל מחשב. השינוי נכנס לתוקף לאחר הפעלה מחדש של התוכנה.")
+        hint = QLabel("כל הרישום (רכבים, טיפולים, תיקונים, קילומטראז׳) נשמר בקובץ fleet.db בתוך התיקייה שנבחרת. "
+                      "כדי שכמה מחשבים יעבדו על אותו רישום, בחרו תיקייה משותפת ברשת (נתיב רשת או כונן רשת ממופה) "
+                      "ובחרו את אותה תיקייה בכל מחשב.")
         hint.setWordWrap(True)
         hint.setStyleSheet("color:#5f6b7a;font-size:11px")
         dl.addWidget(hint)
         row = QHBoxLayout()
-        choose = QPushButton("בחירת קובץ נתונים אחר…")
-        choose.clicked.connect(self._choose_db)
-        reset = QPushButton("חזרה לברירת המחדל")
-        reset.clicked.connect(self._reset_db)
-        row.addWidget(choose)
-        row.addWidget(reset)
-        row.addStretch(1)
+        self.dir_edit = QLineEdit(str(repo.path.parent))
+        self.dir_edit.setLayoutDirection(Qt.LeftToRight)
+        self.dir_edit.setPlaceholderText(r"C:\FleetData  או  \\server\share\FleetData")
+        browse = QPushButton("בחירת תיקייה…")
+        browse.setObjectName("secondary")
+        browse.clicked.connect(self._choose_dir)
+        row.addWidget(self.dir_edit, 1)
+        row.addWidget(browse)
         dl.addLayout(row)
+        row2 = QHBoxLayout()
+        reset = QPushButton("חזרה לברירת המחדל (מחשב זה)")
+        reset.setObjectName("secondary")
+        reset.clicked.connect(lambda: self.dir_edit.setText(str(config.default_data_dir())))
+        row2.addWidget(reset)
+        row2.addStretch(1)
+        dl.addLayout(row2)
+        self.current_dir = str(repo.path.parent)
         lay.addWidget(dbox)
 
         lay.addWidget(_buttons(self))
-        self.db_changed = False
+        self.new_db_path: Optional[str] = None   # מתמלא אם המשתמש שינה תיקייה; החלון הראשי פותח את הקובץ החדש
 
-    def _choose_db(self):
-        path, _ = QFileDialog.getSaveFileName(self, "בחירת קובץ נתונים", str(self.repo.path), "קובץ נתונים (*.db);;כל הקבצים (*)", options=QFileDialog.DontConfirmOverwrite)
+    def _choose_dir(self):
+        start = self.dir_edit.text().strip() or str(self.repo.path.parent)
+        path = QFileDialog.getExistingDirectory(self, "בחירת תיקייה לשמירת הנתונים", start, QFileDialog.ShowDirsOnly)
         if path:
-            config.set_db_path(path)
-            self.db_label.setText(path)
-            self.db_changed = True
-
-    def _reset_db(self):
-        config.set_db_path(None)
-        self.db_label.setText(str(config.default_db_path()))
-        self.db_changed = True
+            self.dir_edit.setText(path)
 
     def accept(self):
         s = Settings(
@@ -397,6 +399,40 @@ class SettingsDialog(QDialog):
         except ValidationError as e:
             show_error(self, str(e))
             return
-        if self.db_changed:
-            QMessageBox.information(self, "מיקום הנתונים שונה", "מיקום קובץ הנתונים ישתנה בהפעלה הבאה של התוכנה.")
+        new_dir = self.dir_edit.text().strip()
+        if new_dir and os.path.normcase(os.path.abspath(new_dir)) != os.path.normcase(os.path.abspath(self.current_dir)):
+            if not self._apply_new_dir(new_dir):
+                return
         super().accept()
+
+    def _apply_new_dir(self, new_dir: str) -> bool:
+        err = config.check_writable(new_dir)
+        if err:
+            show_error(self, err, "התיקייה אינה זמינה")
+            return False
+        target = os.path.join(new_dir, config.DB_FILENAME)
+        if os.path.exists(target):
+            QMessageBox.information(self, "נמצא רישום קיים",
+                                    f"בתיקייה שנבחרה כבר קיים קובץ נתונים:\n{target}\n\nהתוכנה תעבוד מעכשיו על הרישום הזה.")
+        elif self.repo.has_data():
+            box = QMessageBox(self)
+            box.setIcon(QMessageBox.Question)
+            box.setWindowTitle("העברת הנתונים")
+            box.setText(f"להעתיק את הרישום הקיים ({self.repo.path}) לתיקייה החדשה?\n\n"
+                        "כן - כל הרכבים וההיסטוריה יועתקו לתיקייה החדשה.\nלא - התוכנה תתחיל בתיקייה החדשה עם רישום ריק.")
+            yes = box.addButton("כן, להעתיק", QMessageBox.YesRole)
+            box.addButton("לא, להתחיל ריק", QMessageBox.NoRole)
+            cancel = box.addButton("ביטול", QMessageBox.RejectRole)
+            box.exec()
+            if box.clickedButton() is cancel:
+                return False
+            if box.clickedButton() is yes:
+                try:
+                    self.repo.copy_to(target)
+                except (OSError, sqlite3.Error) as e:
+                    show_error(self, f"ההעתקה נכשלה:\n{e}")
+                    return False
+        is_default = os.path.normcase(os.path.abspath(new_dir)) == os.path.normcase(os.path.abspath(str(config.default_data_dir())))
+        config.set_data_dir(None if is_default else new_dir)
+        self.new_db_path = target
+        return True

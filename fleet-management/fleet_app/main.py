@@ -1,12 +1,13 @@
 """נקודת הכניסה של התוכנה."""
 from __future__ import annotations
 
+import os
 import sqlite3
 import sys
 
 from PySide6.QtCore import QLocale, Qt
 from PySide6.QtGui import QFont, QIcon, QPixmap, QPainter, QColor
-from PySide6.QtWidgets import QApplication, QMessageBox
+from PySide6.QtWidgets import QApplication, QFileDialog, QMessageBox
 
 from . import APP_NAME, APP_TITLE, config
 from .db import Repo
@@ -63,14 +64,42 @@ def make_icon() -> QIcon:
     return QIcon(pm)
 
 
+def first_run_choose_location() -> None:
+    """בהפעלה הראשונה: לשאול היכן לשמור את הרישום (מחשב זה או תיקייה משותפת ברשת)."""
+    if config.is_configured() or os.environ.get("FLEET_DB"):
+        return
+    box = QMessageBox()
+    box.setWindowTitle(APP_TITLE)
+    box.setIcon(QMessageBox.Question)
+    box.setText("ברוכים הבאים! היכן לשמור את רישום צי הרכב?")
+    box.setInformativeText("אפשר לשמור במחשב זה בלבד, או בתיקייה משותפת ברשת כדי שכמה עובדים יעבדו על אותו רישום.\n"
+                           "ניתן לשנות זאת בכל עת דרך 'הגדרות'.")
+    local = box.addButton("במחשב זה", QMessageBox.AcceptRole)
+    shared = box.addButton("בחירת תיקייה (למשל ברשת)…", QMessageBox.ActionRole)
+    box.setDefaultButton(local)
+    box.exec()
+    if box.clickedButton() is shared:
+        while True:
+            folder = QFileDialog.getExistingDirectory(None, "בחירת תיקייה לשמירת הנתונים", str(config.default_data_dir()), QFileDialog.ShowDirsOnly)
+            if not folder:
+                break
+            err = config.check_writable(folder)
+            if err:
+                QMessageBox.critical(None, APP_TITLE, err)
+                continue
+            config.set_data_dir(folder)
+            break
+
+
 def open_repo(app) -> Repo | None:
+    first_run_choose_location()
     path = config.db_path()
     try:
         return Repo(path)
     except (sqlite3.Error, OSError) as e:
         QMessageBox.critical(None, APP_TITLE, f"לא ניתן לפתוח את קובץ הנתונים:\n{path}\n\n{e}\n\n"
                              "התוכנה תחזור לקובץ ברירת המחדל במחשב זה.")
-        config.set_db_path(None)
+        config.set_data_dir(None)
         try:
             return Repo(config.default_db_path())
         except (sqlite3.Error, OSError) as e2:

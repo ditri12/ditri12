@@ -12,5 +12,5 @@ from fleet_app.main import make_icon  # noqa: E402
 out = sys.argv[1] if len(sys.argv) > 1 else "icon.ico"
 pm = make_icon().pixmap(256, 256)
 ok = pm.save(out)
-print(("נוצר " if ok else "נכשל ") + out)
+print(("created " if ok else "FAILED ") + out)
 sys.exit(0 if ok else 1)

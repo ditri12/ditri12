@@ -76,3 +76,40 @@ class RepoTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CopyAndConfigTests(unittest.TestCase):
+    def test_copy_to_network_like_folder(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = db.Repo(os.path.join(tmp, "local", "fleet.db"))
+            vid = repo.create_vehicle({"plate": "7777777", "initial_km": 1000})
+            repo.add_repair(vid, {"repair_date": "2026-01-01", "description": "x", "garage": "g"})
+            self.assertTrue(repo.has_data())
+            target = os.path.join(tmp, "shared", "FleetData", "fleet.db")
+            repo.copy_to(target)
+            repo.close()
+            other = db.Repo(target)
+            self.assertEqual(len(other.list_vehicles()), 1)
+            self.assertEqual(len(other.repairs(vid)), 1)
+            other.close()
+
+    def test_config_data_dir(self):
+        from fleet_app import config
+        with tempfile.TemporaryDirectory() as tmp:
+            old = dict(os.environ)
+            os.environ["XDG_DATA_HOME"] = tmp
+            os.environ["APPDATA"] = tmp
+            os.environ.pop("FLEET_DB", None)
+            try:
+                self.assertFalse(config.is_configured())
+                self.assertEqual(config.db_path(), config.default_data_dir() / "fleet.db")
+                shared = os.path.join(tmp, "net", "FleetData")
+                self.assertIsNone(config.check_writable(shared))
+                config.set_data_dir(shared)
+                self.assertTrue(config.is_configured())
+                self.assertEqual(str(config.db_path()), os.path.join(shared, "fleet.db"))
+                config.set_data_dir(None)
+                self.assertEqual(config.data_dir(), config.default_data_dir())
+            finally:
+                os.environ.clear()
+                os.environ.update(old)

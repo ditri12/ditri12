@@ -156,10 +156,9 @@ class Repo:
         self.conn = sqlite3.connect(str(self.path), timeout=10)
         self.conn.row_factory = sqlite3.Row
         self.conn.execute("PRAGMA foreign_keys = ON")
-        try:
-            self.conn.execute("PRAGMA journal_mode = WAL")
-        except sqlite3.OperationalError:
-            pass  # למשל על כונן רשת שלא תומך
+        # יומן DELETE (ברירת המחדל) ולא WAL: WAL אינו אמין על תיקיות רשת משותפות (SMB),
+        # והנפח כאן קטן כך שאין צורך בו.
+        self.conn.execute("PRAGMA journal_mode = DELETE")
         self.conn.executescript(SCHEMA)
         with self.conn:
             for k, v in Settings().to_dict().items():
@@ -167,6 +166,20 @@ class Repo:
 
     def close(self):
         self.conn.close()
+
+    def has_data(self) -> bool:
+        return self.conn.execute("SELECT COUNT(*) FROM vehicles").fetchone()[0] > 0
+
+    def copy_to(self, dest: str | Path) -> None:
+        """העתקה בטוחה של כל הנתונים לקובץ אחר (לדוגמה לתיקיית רשת)."""
+        dest = Path(dest)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        target = sqlite3.connect(str(dest))
+        try:
+            with target:
+                self.conn.backup(target)
+        finally:
+            target.close()
 
     # ----- settings -----
     def get_settings(self) -> Settings:

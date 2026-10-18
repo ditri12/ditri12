@@ -296,8 +296,22 @@ class MainWindow(QMainWindow):
                 self.open_vehicle(d.result_id)
 
     def open_settings(self):
-        if SettingsDialog(self.repo, self).exec():
+        dlg = SettingsDialog(self.repo, self)
+        if dlg.exec():
+            if dlg.new_db_path:
+                self.switch_repo(dlg.new_db_path)
             self.refresh()
+
+    def switch_repo(self, path):
+        """מעבר לקובץ נתונים אחר (למשל בתיקיית רשת) בלי להפעיל מחדש את התוכנה."""
+        try:
+            new_repo = Repo(path)
+        except Exception as e:  # sqlite3.Error / OSError
+            QMessageBox.critical(self, "שגיאה", f"לא ניתן לפתוח את קובץ הנתונים:\n{path}\n\n{e}")
+            return
+        self.repo.close()
+        self.repo = new_repo
+        QMessageBox.information(self, "תיקיית הנתונים", f"התוכנה עובדת כעת על הרישום שב:\n{path}")
 
     def export_csv(self):
         path, _ = QFileDialog.getSaveFileName(self, "ייצוא רשימת הרכבים", f"צי רכב {date.today().isoformat()}.csv", "CSV (*.csv)")
