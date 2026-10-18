@@ -55,6 +55,8 @@ def html_to_text(html):
 
 
 def extract_links(html, base):
+    if html.lstrip().startswith("<?xml") or "<urlset" in html[:2000] or "<sitemapindex" in html[:2000]:
+        return [{"text": "", "title": "", "alt": "", "href": urljoin(base, m)} for m in re.findall(r"<loc>\s*(.*?)\s*</loc>", html)]
     try:
         soup = BeautifulSoup(html, "lxml")
     except Exception:

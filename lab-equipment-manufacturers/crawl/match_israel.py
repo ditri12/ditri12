@@ -38,7 +38,9 @@ cells clean cleaning industrial enterprises enterprise manufacturing distributio
 therm thermo micro nano opti optical electronics electronic engineering design designs dimensions innovations innovative imaging analytical
 analytics environmental laboratory laboratories sciences scientifics corp inc ltd gmbh usa america american europe european asia pacific
 north south east west central global national international universal general standard premium select plus pure fine smart new
-tech techno technologie technik gene genes genetic genetics organics organic natural nature""".split())
+tech techno technologie technik gene genes genetic genetics organics organic natural nature
+electron microscopy company digital online logo israel usa rocker shaker mixer balance meter centrifuge incubator freezer oven bath
+pipette tips tubes plates filters gloves glove kit kits media medium serum cells line lines system systems""".split())
 
 
 def tokens(s):
@@ -88,17 +90,17 @@ def main():
                 for ln in read_text(txt).splitlines():
                     ln = ln.strip()
                     if ln and len(ln) <= 120:
-                        lines.append((ln, e["final_url"] or e["url"]))
+                        lines.append((ln, e["final_url"] or e["url"], "text"))
             lj = os.path.join(where[e["id"]], e["id"] + ".links.json")
             if os.path.exists(lj):
                 for l in json.load(open(lj, encoding="utf-8")):
-                    for t in (l.get("text"), l.get("alt"), l.get("title")):
+                    for origin, t in (("link", l.get("text")), ("alt", l.get("alt")), ("alt", l.get("title"))):
                         if t and len(t) <= 120:
-                            lines.append((t.strip(), e["final_url"] or e["url"]))
+                            lines.append((t.strip(), e["final_url"] or e["url"], origin))
         corpora[root] = lines
         home = index.get(root, {})
         site = re.sub(r"^https?://(www\.)?", "", home.get("url", "")).strip("/")
-        txt_all = "\n".join(l for l, _ in lines)
+        txt_all = "\n".join(l for l, _, _ in lines)
         phones, emails = phone_email(txt_all)
         key = site.split(".")[0]
         sd = seed.get(key) or next((s for k, s in seed.items() if site and (site.split(".")[0] in (s.get("website") or ""))), {})
@@ -113,15 +115,20 @@ def main():
     per_dist = {}
     for root, lines in corpora.items():
         exact, grams = {}, {}
-        for ln, url in lines:
+        for ln, url, origin in lines:
             nl = norm(ln)
             if not nl:
                 continue
             exact.setdefault(nl, (ln, url))
-            if len(nl) <= 60:
+            # contained matches: only short lines; logo alt / link texts anywhere, plain text only at line start
+            if len(nl) <= 45:
                 toks = nl.split()
+                if re.search(r"\b(for|with|compatible|fits?|type|style|by)\b|\bל[א-ת]", nl + " " + ln.lower()):
+                    continue
                 for n in range(1, min(4, len(toks)) + 1):
                     for i in range(len(toks) - n + 1):
+                        if origin == "text" and i != 0:
+                            continue
                         g = " ".join(toks[i:i + n])
                         if g != nl:
                             grams.setdefault(g, (ln, url))

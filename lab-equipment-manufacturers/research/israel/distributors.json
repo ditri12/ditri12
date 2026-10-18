@@ -1,4 +1,1276 @@
 {
+ "il_labotal_co_il": {
+  "id": "il_labotal_co_il",
+  "site": "labotal.co.il",
+  "name": "Labotal Scientific Equipment (1997) Ltd.",
+  "name_he": "לבוטל ציוד מדעי",
+  "website": "https://labotal.co.il",
+  "phone": "+972 2-579-9222",
+  "email": "Sales@labotal.co.il",
+  "address": "Hashalom Rd., Abu Ghosh 9084500 (mail: Mevaseret Zion)",
+  "contact_url": "https://labotal.co.il/contact/",
+  "note": "distributor; official contact page",
+  "phones_found": [
+   "+972-2-5799222",
+   "02-5799222",
+   "+972-2-5799221"
+  ],
+  "emails_found": [
+   "Sales@labotal.co.il",
+   "sales@labotal.co.il",
+   "service@labotal.co.il"
+  ],
+  "pages": [
+   "https://labotal.co.il/",
+   "https://labotal.co.il/represented-firms/",
+   "https://labotal.co.il/products/",
+   "https://labotal.co.il/product-category/rotary-evaporators/",
+   "https://labotal.co.il/product-category/incubators-and-ovens/",
+   "https://labotal.co.il/product-category/water-bath/",
+   "https://labotal.co.il/product-category/homogenizers/",
+   "https://labotal.co.il/product-category/histology/",
+   "https://labotal.co.il/product-category/cannabis-extraction/",
+   "https://labotal.co.il/product-category/new-arrivals/",
+   "https://labotal.co.il/product-category/chemistry-innovation/"
+  ],
+  "n_pages": 11,
+  "n_lines": 4877
+ },
+ "il_medent_co_il": {
+  "id": "il_medent_co_il",
+  "site": "medent.co.il",
+  "name": "Medent Scientific Instruments (Medent Group)",
+  "name_he": "מדנט",
+  "website": "https://www.medent.co.il",
+  "phone": "+972 72-395-0508 (sales); +972 8-683-6306 (service)",
+  "email": "info@medent.co.il",
+  "address": "110 Mordei HaGetaot St., Beer Sheva 8420643",
+  "contact_url": "https://www.medent.co.il/scientific.equipment/%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8/",
+  "note": "distributor; official contact page",
+  "phones_found": [
+   "08-623-7984"
+  ],
+  "emails_found": [
+   "info@medent.co.il"
+  ],
+  "pages": [
+   "https://www.medent.co.il/"
+  ],
+  "n_pages": 1,
+  "n_lines": 203
+ },
+ "il_agentek_co_il": {
+  "id": "il_agentek_co_il",
+  "site": "agentek.co.il",
+  "name": "Agentek (1987) Ltd.",
+  "name_he": "אגנטק",
+  "website": "https://agentek.co.il",
+  "phone": "+972 9-965-7000",
+  "email": "info@agentek.co.il",
+  "address": "Greenwork Yakum Business Park, Yakum 6097200",
+  "contact_url": "https://agentek.co.il/contact/",
+  "note": "distributor; phone/address from SPT Labtech's distributors page",
+  "phones_found": [
+   "09-9657000"
+  ],
+  "emails_found": [
+   "info@agentek.co.il"
+  ],
+  "pages": [
+   "https://agentek.co.il/%d7%90%d7%92%d7%a0%d7%98%d7%a7-%d7%a8%d7%90%d7%a9%d7%99/",
+   "https://agentek.co.il/%d7%a0%d7%a6%d7%99%d7%92%d7%95%d7%99%d7%95%d7%aa/",
+   "https://agentek.co.il/representative/brookfield/",
+   "https://agentek.co.il/representative/nova-biomedical/",
+   "https://agentek.co.il/representative/konica-minolta/",
+   "https://agentek.co.il/representative/leco/",
+   "https://agentek.co.il/representative/technogym/",
+   "https://agentek.co.il/representative/gilson/",
+   "https://agentek.co.il/representative/mettler-toledo/",
+   "https://agentek.co.il/representative/shimadzu/",
+   "https://agentek.co.il/representative/nikon/"
+  ],
+  "n_pages": 11,
+  "n_lines": 4016
+ },
+ "il_lifegene_co_il": {
+  "id": "il_lifegene_co_il",
+  "site": "lifegene.co.il",
+  "name": "Lifegene Ltd.",
+  "name_he": "לייפג'ין",
+  "website": "https://www.lifegene.co.il",
+  "phone": "+972 8-644-4314",
+  "email": "info@lifegene.co.il",
+  "address": "4 Ha'maayan St., Modi'in 7171101 (directory lists Modi'in; other sources say Mevo Horon – verify)",
+  "contact_url": "",
+  "note": "distributor; details from Bioline's distributor directory",
+  "phones_found": [],
+  "emails_found": [
+   "info@lifegene.co.il"
+  ],
+  "pages": [
+   "https://www.lifegene.co.il/",
+   "https://www.lifegene.co.il/suppliers",
+   "https://www.lifegene.co.il/Suppliers",
+   "https://www.lifegene.co.il/product_list?c0=128693",
+   "https://www.lifegene.co.il/massive_production",
+   "https://www.lifegene.co.il/whatman_products",
+   "https://www.lifegene.co.il/product_list?c0=119180",
+   "https://www.lifegene.co.il/product_list?c0=116443",
+   "https://www.lifegene.co.il/product_list?c0=116450",
+   "https://www.lifegene.co.il/Whatman_products"
+  ],
+  "n_pages": 10,
+  "n_lines": 3510
+ },
+ "il_danyel_co_il": {
+  "id": "il_danyel_co_il",
+  "site": "danyel.co.il",
+  "name": "Danyel Biotech Ltd.",
+  "name_he": "דניאל ביוטק",
+  "website": "https://www.danyel.co.il",
+  "phone": "1-800-711-911 (also +972 8-936-6066)",
+  "email": "danyel@danyel.co.il",
+  "address": "8 Hamada St., Science Park, Rehovot 7670308",
+  "contact_url": "https://www.danyel.co.il/contact-us/",
+  "note": "distributor; address from company profile, contact page on its site",
+  "phones_found": [
+   "+972-54-3348014",
+   "+972-54-334-8022",
+   "+972-54-5670705"
+  ],
+  "emails_found": [
+   "danyel@danyel.co.il",
+   "yiftach.s@danyel.co.il",
+   "assaf@danyel.co.il"
+  ],
+  "pages": [
+   "https://www.danyel.co.il/",
+   "https://www.danyel.co.il/suppliers/",
+   "https://www.danyel.co.il/partners/aid-autoimmun-diagnostika-gmbh/",
+   "https://www.danyel.co.il/products/",
+   "https://www.danyel.co.il/bioprocess-production-industry/",
+   "https://www.danyel.co.il/products/protein-research-qc/"
+  ],
+  "n_pages": 6,
+  "n_lines": 2644
+ },
+ "il_bargal_co_il": {
+  "id": "il_bargal_co_il",
+  "site": "bargal.co.il",
+  "name": "Bargal Analytical Instruments Ltd.",
+  "name_he": "ברגל מכשור אנליטי",
+  "website": "https://www.bargal.co.il/",
+  "phone": "+972-3-979-6533",
+  "email": "sales@bargal.co.il",
+  "address": "10 Shaked Street, Modi'in Industrial Park, Shoham 6085102",
+  "contact_url": "",
+  "note": "Distributor; phone/fax (+972-3-979-6538) from Biopac distributor page, sales email from TA Instruments Middle-East directory; addresses conflict: 10 Shaked St, Shoham (Thermo Fisher 2018 distributor letter on mr.gov.il and aggregator HQ) vs 12 Kinneret St / Galil St, Airport City (older directories)",
+  "phones_found": [],
+  "emails_found": [
+   "sales@bargal.co.il"
+  ],
+  "pages": [
+   "https://bargal.co.il/",
+   "https://bargal.co.il/%d7%a0%d7%a6%d7%99%d7%92%d7%95%d7%aa-%d7%97%d7%93%d7%a9%d7%94-%d7%91%d7%91%d7%a8%d7%92%d7%9c-%d7%97%d7%91%d7%a8%d7%aa-trajan-sge-%d7%95-crs-%d7%9c%d7%9e%d7%aa%d7%9b%d7%9c%d7%99%d7%9d-%d7%9c-gc/",
+   "https://bargal.co.il/product-category/life-science/",
+   "https://bargal.co.il/product-category/chromatography-mass-spectrometry/",
+   "https://bargal.co.il/product-category/synthesis-physical-testing/",
+   "https://bargal.co.il/product-category/spectroscopy/",
+   "https://bargal.co.il/product-category/material-characterization/",
+   "https://bargal.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+  ],
+  "n_pages": 8,
+  "n_lines": 896
+ },
+ "il_rhenium_co_il": {
+  "id": "il_rhenium_co_il",
+  "site": "rhenium.co.il",
+  "name": "Rhenium Ltd.",
+  "name_he": "רניום",
+  "website": "https://www.rhenium.co.il",
+  "phone": "+972 8-955-8888",
+  "email": null,
+  "address": "20 Hasatat St., P.O. Box 180, Modi'in 7171101",
+  "contact_url": "",
+  "note": "distributor; Beckman Coulter's Israel contact page",
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://rheniumbio.co.il/"
+  ],
+  "n_pages": 1,
+  "n_lines": 646
+ },
+ "il_ilexmedical_com": {
+  "id": "il_ilexmedical_com",
+  "site": "ilexmedical.com",
+  "name": "דף הבית",
+  "name_he": "אילקס מדיקל",
+  "website": "https://www.ilexmedical.com/",
+  "phone": "03-938-5501",
+  "email": null,
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "03-938-5501"
+  ],
+  "emails_found": [],
+  "pages": [
+   "https://www.ilexmedical.com/",
+   "https://www.ilexmedical.com/catalog/"
+  ],
+  "n_pages": 2,
+  "n_lines": 504
+ },
+ "il_getter_co_il": {
+  "id": "il_getter_co_il",
+  "site": "getter.co.il",
+  "name": "Getter Bio-Med (Getter Group)",
+  "name_he": "קבוצת גטר",
+  "website": "https://www.getter-biomed.co.il",
+  "phone": "+972 3-576-1555 (Getter Group switchboard)",
+  "email": "info@getter.co.il",
+  "address": "7 Shimshon St., Petah Tikva 4912502",
+  "contact_url": "",
+  "note": "distributor; group switchboard from Dapei Zahav (verify)",
+  "phones_found": [
+   "03-5761555",
+   "03-5766704",
+   "03-5570111"
+  ],
+  "emails_found": [
+   "info@getter.co.il",
+   "gginfo@gg.co.il",
+   "teddyn@gg.co.il"
+  ],
+  "pages": [
+   "https://www.getter.co.il/",
+   "https://www.getter.co.il/%d7%a7%d7%91%d7%95%d7%a6%d7%aa-%d7%92%d7%98%d7%a8/",
+   "https://www.getter.co.il/%d7%a0%d7%a6%d7%99%d7%92%d7%95%d7%99%d7%95%d7%aa-%d7%90%d7%a1%d7%98%d7%a8%d7%98%d7%92%d7%99%d7%95%d7%aa/",
+   "https://www.getter.co.il/%d7%92%d7%98%d7%a8-%d7%92%d7%90%d7%94-%d7%9c%d7%94%d7%a6%d7%99%d7%92-%d7%a7%d7%91%d7%9c%d7%aa-%d7%94%d7%a0%d7%a6%d7%99%d7%92%d7%95%d7%aa-%d7%94%d7%a8%d7%a9%d7%9e%d7%99%d7%aa-%d7%9c%d7%9e%d7%95%d7%a6/",
+   "https://www.getter.co.il/%d7%97%d7%93%d7%a9-%d7%97%d7%91%d7%a8%d7%aa-%d7%92%d7%99%d7%92%d7%99-%d7%99%d7%a8%d7%95%d7%9d-%d7%94%d7%99%d7%a0%d7%94-%d7%a0%d7%a6%d7%99%d7%92%d7%aa-skf-%d7%91%d7%99%d7%a9%d7%a8%d7%90%d7%9c/",
+   "https://www.getter.co.il/%d7%97%d7%98%d7%99%d7%91%d7%aa-%d7%92%d7%99%d7%92%d7%99-%d7%99%d7%a8%d7%95%d7%9d-%d7%9e%d7%a6%d7%a8%d7%a4%d7%aa-%d7%90%d7%aa-%d7%97%d7%91%d7%a8%d7%aa-inovance-%d7%9c%d7%a0%d7%a6%d7%99%d7%92%d7%95/",
+   "https://www.getter.co.il/brands/",
+   "https://www.getter.co.il/about/",
+   "https://www.getter.co.il/about-en/",
+   "https://www.getter.co.il/cart/",
+   "https://www.getter.co.il/product-category/%d7%a4%d7%aa%d7%a8%d7%95%d7%a0%d7%95%d7%aa-%d7%94%d7%93%d7%a4%d7%a1%d7%94-%d7%95%d7%92%d7%99%d7%9e%d7%95%d7%a8-%d7%9c%d7%9e%d7%a9%d7%a8%d7%93/%d7%a4%d7%aa%d7%a8%d7%95%d7%a0%d7%95%d7%aa-%d7%94%d7%93%d7%a4%d7%a1%d7%94-%d7%9c%d7%a2%d7%a1%d7%a7%d7%99%d7%9d/"
+  ],
+  "n_pages": 11,
+  "n_lines": 4593
+ },
+ "il_lumitron_co_il": {
+  "id": "il_lumitron_co_il",
+  "site": "lumitron.co.il",
+  "name": "Lumitron Ltd.",
+  "name_he": "לומיטרון",
+  "website": "https://www.lumitron.co.il",
+  "phone": "+972 52-525-6287",
+  "email": "lumitron@lumitron.co.il",
+  "address": "17 Hamiflasim St., Petah Tikva",
+  "contact_url": "",
+  "note": "distributor; phone from ELGA's approved-partners directory",
+  "phones_found": [
+   "077-230-7790"
+  ],
+  "emails_found": [
+   "lumitron@lumitron.co.il"
+  ],
+  "pages": [
+   "https://www.lumitron.co.il/",
+   "https://www.lumitron.co.il/our-brands-heb/",
+   "https://www.lumitron.co.il/our-products/consumables/",
+   "https://www.lumitron.co.il/our-brands/qsonica/",
+   "https://www.lumitron.co.il/our-brands/miulab/",
+   "https://www.lumitron.co.il/our-brands/4biocell/",
+   "https://www.lumitron.co.il/our-brands/agilent/",
+   "https://www.lumitron.co.il/our-brands/eppendorf/",
+   "https://www.lumitron.co.il/our-brands/veolia/",
+   "https://www.lumitron.co.il/our-brands/charm-sciences/",
+   "https://www.lumitron.co.il/our-brands/elga-veolia/"
+  ],
+  "n_pages": 11,
+  "n_lines": 4960
+ },
+ "il_gamidor_co_il": {
+  "id": "il_gamidor_co_il",
+  "site": "gamidor.co.il",
+  "name": "Gamidor Diagnostics",
+  "name_he": "גמידור דיאגנוסטיקה",
+  "website": "https://www.gamidor.co.il/",
+  "phone": "+972-3-927-7277",
+  "email": "info@gamidor.co.il",
+  "address": "Shaham 32, Petach Tikva",
+  "contact_url": "",
+  "note": "Distributor; details from official site pages (gamidor.co.il/en); customer-service email cs_gamidor@gamidor.co.il; older UKHSA distributor listing shows Hasivim 43, Petah Tikva and +972-3-927-7282",
+  "phones_found": [
+   "03-9277277"
+  ],
+  "emails_found": [
+   "info@gamidor.co.il"
+  ],
+  "pages": [
+   "https://gamidor.co.il/",
+   "https://gamidor.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
+   "https://gamidor.co.il/%D7%A1%D7%A4%D7%A7%D7%99%D7%9D/",
+   "https://gamidor.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/",
+   "https://gamidor.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D/"
+  ],
+  "n_pages": 5,
+  "n_lines": 1596
+ },
+ "il_eldan_biz": {
+  "id": "il_eldan_biz",
+  "site": "eldan.biz",
+  "name": "Eldan Electronic Instruments",
+  "name_he": "אלדן ציוד אלקטרוני",
+  "website": "https://www.eldan.biz/",
+  "phone": "+972-3-937-1111",
+  "email": "info@eldan.biz",
+  "address": "6 Hashiloach Street, P.O. Box 7641, Petach Tikva 49170",
+  "contact_url": "",
+  "note": "Distributor (Neopharm Group member, est. 1960; Agilent's Israel channel partner); fax +972-3-937-1100; alt. line +972-3-937-1102 and email eldan@eldan.biz (MN-net distributor listing); one directory lists Kiryat Gat as HQ",
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://www.eldan.biz/",
+   "https://www.eldan.biz/our-partners/"
+  ],
+  "n_pages": 2,
+  "n_lines": 1452
+ },
+ "il_almog_co_il": {
+  "id": "il_almog_co_il",
+  "site": "almog.co.il",
+  "name": "Y.A. Almog Diagnostic & Medical Equipment Ltd.",
+  "name_he": "י.א. אלמוג",
+  "website": "https://www.almog.co.il",
+  "phone": "+972 3-977-3390",
+  "email": "info@almog.co.il",
+  "address": "Shoham",
+  "contact_url": "",
+  "note": "distributor; details from Miltenyi Biotec's distributor page",
+  "phones_found": [
+   "+972-3-9773390"
+  ],
+  "emails_found": [
+   "info@almog.co.il"
+  ],
+  "pages": [
+   "https://www.almog.co.il/",
+   "https://www.almog.co.il/suppliers"
+  ],
+  "n_pages": 2,
+  "n_lines": 345
+ },
+ "il_zotal_co_il": {
+  "id": "il_zotal_co_il",
+  "site": "zotal.co.il",
+  "name": "Zotal Ltd.",
+  "name_he": "זוטל",
+  "website": "https://www.zotal.co.il",
+  "phone": "+972 3-649-2444",
+  "email": "sales@zotal.co.il",
+  "address": "4 Habarzel St., Tel Aviv 6971008",
+  "contact_url": "",
+  "note": "distributor; Dun's Guide listing (verify)",
+  "phones_found": [],
+  "emails_found": [
+   "sales@zotal.co.il"
+  ],
+  "pages": [
+   "https://www.zotal.co.il/",
+   "https://www.zotal.co.il/brands/"
+  ],
+  "n_pages": 2,
+  "n_lines": 439
+ },
+ "il_eisenbros_co_il": {
+  "id": "il_eisenbros_co_il",
+  "site": "eisenbros.co.il",
+  "name": "Eisenberg Bros. Ltd.",
+  "name_he": "האחים אייזנברג",
+  "website": "https://eisenbros.co.il",
+  "phone": "+972 3-977-7000",
+  "email": null,
+  "address": "Airport City",
+  "contact_url": "",
+  "note": "distributor; 2014 sponsor listing (verify)",
+  "phones_found": [
+   "+972-3-9777000"
+  ],
+  "emails_found": [],
+  "pages": [
+   "https://eisenbros.co.il/",
+   "https://eisenbros.co.il/partners/",
+   "https://eisenbros.co.il/shop/",
+   "https://eisenbros.co.il/product-category/microscopy-imaging/",
+   "https://eisenbros.co.il/product-category/microscopy-imaging/material-science-microscopy/",
+   "https://eisenbros.co.il/product-category/microscopy-imaging/life-science-microscopy/",
+   "https://eisenbros.co.il/product-category/microscopy-imaging/measurement-solutions/",
+   "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/",
+   "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/reproductive-health/",
+   "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/genomics/",
+   "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/cell-biology/"
+  ],
+  "n_pages": 11,
+  "n_lines": 5231
+ },
+ "il_ophiranalytical_com": {
+  "id": "il_ophiranalytical_com",
+  "site": "ophiranalytical.com",
+  "name": "Ophir Analytical Ltd.",
+  "name_he": "אופיר אנליטיקל",
+  "website": "http://www.ophiranalytical.com",
+  "phone": "+972 3-902-2277",
+  "email": null,
+  "address": "Rosh Ha'ayin",
+  "contact_url": "",
+  "note": "distributor; phone from JASCO's worldwide-locations page",
+  "phones_found": [
+   "+97239022277",
+   "+972-39022277"
+  ],
+  "emails_found": [],
+  "pages": [
+   "https://ophiranalytical.com/"
+  ],
+  "n_pages": 1,
+  "n_lines": 279
+ },
+ "il_citrinesolutions_co_il": {
+  "id": "il_citrinesolutions_co_il",
+  "site": "citrinesolutions.co.il",
+  "name": "Citrine Solutions Ltd.",
+  "name_he": "סיטרין סולושנס",
+  "website": "https://www.citrinesolutions.co.il",
+  "phone": "054-6064300",
+  "email": "info@ctrn-s.com",
+  "address": "",
+  "contact_url": "",
+  "note": "No company contact details found; only a ContactOut profile of a Co-CEO at 'CITRINE Solutions LTD., Center District, Israel' appeared (personal data not recorded). Other 'Citrine' hits (Citrine S A L, Citrine Global) are different companies. No retry budget left.",
+  "phones_found": [
+   "054-6064300",
+   "076-5430204",
+   "054-7341545"
+  ],
+  "emails_found": [
+   "info@ctrn-s.com",
+   "ilan@CitrineSolutions.co.il",
+   "ilan@citrinesolutions.co.il"
+  ],
+  "pages": [
+   "https://www.citrinesolutions.co.il/",
+   "https://www.citrinesolutions.co.il/index.asp?module=category&item_id=3",
+   "https://www.citrinesolutions.co.il/index.asp?module=category&item_id=4",
+   "https://www.citrinesolutions.co.il/?module=news&item_id=25&news_id=20",
+   "https://www.citrinesolutions.co.il/?module=articles&item_id=26&article_id=4&art_category_id=4",
+   "https://www.citrinesolutions.co.il/?module=catalog&item_id=5&c_id=0",
+   "https://www.citrinesolutions.co.il/?module=articles_list&item_id=26&art_category_id=5",
+   "https://www.citrinesolutions.co.il/?module=catalog&item_id=5&c_id=0",
+   "https://www.citrinesolutions.co.il/?module=articles&item_id=26&article_id=1&art_category_id=1",
+   "https://www.citrinesolutions.co.il/?module=catalog&item_id=5&c_id=1",
+   "https://www.citrinesolutions.co.il/?module=catalog&item_id=5&c_id=93"
+  ],
+  "n_pages": 11,
+  "n_lines": 5771
+ },
+ "il_slmoran_co_il": {
+  "id": "il_slmoran_co_il",
+  "site": "slmoran.co.il",
+  "name": "S.L. Moran Ltd.",
+  "name_he": "ש.ל. מורן",
+  "website": "https://slmoran.co.il",
+  "phone": "+972 74-702-9898",
+  "email": "office@slmoran.co.il",
+  "address": "Shatner Center 7, Givat Shaul, Jerusalem",
+  "contact_url": "",
+  "note": "distributor; details from Yamato Scientific's global distributor page",
+  "phones_found": [
+   "074-7029898",
+   "054-2500587"
+  ],
+  "emails_found": [
+   "office@slmoran.co.il"
+  ],
+  "pages": [
+   "https://slmoran.co.il/",
+   "https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
+   "https://slmoran.co.il/login/",
+   "https://slmoran.co.il/products_cat/%d7%9e%d7%91%d7%a6%d7%a2%d7%99-%d7%94%d7%97%d7%95%d7%93%d7%a9/",
+   "https://slmoran.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/",
+   "https://slmoran.co.il/products_cat/%d7%90%d7%95%d7%95%d7%a4%d7%95%d7%a8%d7%98%d7%95%d7%a8-%d7%a8%d7%95%d7%98%d7%95%d7%a8/",
+   "https://slmoran.co.il/products_cat/%d7%90%d7%99%d7%a0%d7%a7%d7%95%d7%91%d7%98%d7%95%d7%a8%d7%99%d7%9d/",
+   "https://slmoran.co.il/products_cat/%d7%90%d7%9c%d7%a7%d7%98%d7%a8%d7%95%d7%9b%d7%99%d7%9e%d7%99%d7%94-electrochemistry/",
+   "https://slmoran.co.il/products_cat/%d7%90%d7%9e%d7%91%d7%98-%d7%90%d7%95%d7%9c%d7%98%d7%a8%d7%90%d7%a1%d7%95%d7%a0%d7%99/",
+   "https://slmoran.co.il/products_cat/%d7%90%d7%9e%d7%91%d7%98%d7%99-%d7%97%d7%99%d7%9e%d7%95%d7%9d-%d7%a7%d7%99%d7%a8%d7%95%d7%a8-%d7%a1%d7%99%d7%a8%d7%a7%d7%95%d7%9c%d7%98%d7%95%d7%a8/",
+   "https://slmoran.co.il/products_cat/%d7%91%d7%93%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%99%d7%9d-%d7%90%d7%a0%d7%9c%d7%99%d7%96%d7%94-water-anlysis/"
+  ],
+  "n_pages": 11,
+  "n_lines": 3666
+ },
+ "il_tamar_co_il": {
+  "id": "il_tamar_co_il",
+  "site": "tamar.co.il",
+  "name": "Tamar Laboratory Supplies Ltd.",
+  "name_he": "תמר ציוד מעבדה",
+  "website": "https://www.tamar.co.il",
+  "phone": "+972 2-533-6070 (also 02-579-9777)",
+  "email": "mail@tamar.co.il",
+  "address": "HaAla St., Mevaseret Zion 90805",
+  "contact_url": "",
+  "note": "distributor; numbers from Dapei Zahav / Dun's Guide (verify)",
+  "phones_found": [],
+  "emails_found": [
+   "mail@tamar.co.il"
+  ],
+  "pages": [
+   "https://www.tamar.co.il/",
+   "https://www.tamar.co.il/represented-companies/",
+   "https://www.tamar.co.il/https-www-bertin-instruments-com-product-air-samplers-coriolis-micro-air-sampler/",
+   "https://www.tamar.co.il/https-www-bertin-instruments-com-product-air-samplers-coriolis-micro-air-sampler-2/",
+   "https://www.tamar.co.il/in-vitro-rna-production/",
+   "https://www.tamar.co.il/mrna-production/",
+   "https://www.tamar.co.il/molecular-biology/fermentas-products/ladders/",
+   "https://www.tamar.co.il/protein-delivery-protein-production-reagents/",
+   "https://www.tamar.co.il/collagenase-nb-products/"
+  ],
+  "n_pages": 9,
+  "n_lines": 4673
+ },
+ "il_mercury-ltd_co_il": {
+  "id": "il_mercury-ltd_co_il",
+  "site": "mercury-ltd.co.il",
+  "name": "Mercury Scientific & Industrial Products Ltd.",
+  "name_he": "מרקורי",
+  "website": "https://mercury-ltd.co.il",
+  "phone": "+972 3-938-7164",
+  "email": "mercury@mercury-ltd.co.il",
+  "address": "12 Ha'avoda St., P.O. Box 159, Rosh Ha'ayin",
+  "contact_url": "https://eng.mercury-ltd.co.il/about_us",
+  "note": "distributor; phone/address from the company's English site footer",
+  "phones_found": [
+   "03-9387164",
+   "03-9021078"
+  ],
+  "emails_found": [
+   "mercury@mercury-ltd.co.il"
+  ],
+  "pages": [
+   "https://www.mercury-ltd.co.il/",
+   "https://www.mercury-ltd.co.il/biopharmaceutical_manufacturing_1",
+   "https://www.mercury-ltd.co.il/new_brands",
+   "https://www.mercury-ltd.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99%D7%9D",
+   "https://www.mercury-ltd.co.il/Life_Science_Research_1"
+  ],
+  "n_pages": 5,
+  "n_lines": 1218
+ },
+ "il_lapidot_com": {
+  "id": "il_lapidot_com",
+  "site": "lapidot.com",
+  "name": "Lapidot Group",
+  "name_he": "לפידות",
+  "website": "https://www.lapidot.com/",
+  "phone": "+972-4-6309630 / +972-74-7797836",
+  "email": "customerservice@lapidot.com",
+  "address": "8 Hashita St., P.O. Box 3552, Caesarea Industrial Park 3088900",
+  "contact_url": "",
+  "note": "HQ of Israeli distributor (Lapidot Medical Import and Marketing Ltd., Caesarea; laboratories business unit represents Bruker; mass spectrometry handled from a Gedera office). +972-4-6309630 (fax +972-4-6309631) and customerservice@lapidot.com from an older directory listing; +972-74-7797836 for the laboratories BU from Bruker's 2025 office page.",
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://www.lapidot.com/",
+   "https://www.lapidot.com/business-partners/",
+   "https://www.lapidot.com/%d7%a6%d7%99%d7%95%d7%93-%d7%95%d7%aa%d7%a8%d7%95%d7%a4%d7%95%d7%aa-%d7%9c%d7%91%d7%aa%d7%99-%d7%97%d7%95%d7%9c%d7%99%d7%9d/",
+   "https://www.lapidot.com/product-category/medical-services-he/",
+   "https://www.lapidot.com/product-category/%d7%a4%d7%90%d7%a8%d7%9e%d7%94-%d7%95%d7%9e%d7%95%d7%a6%d7%a8%d7%99-%d7%91%d7%a8%d7%99%d7%90%d7%95%d7%aa/",
+   "https://www.lapidot.com/product/%d7%a1%d7%a4%d7%90%d7%98%d7%95%d7%9f/",
+   "https://www.lapidot.com/product/%d7%a1%d7%99%d7%a1%d7%98%d7%99%d7%99%d7%9f/",
+   "https://www.lapidot.com/product/%d7%93%d7%a8%d7%95%d7%a4%d7%a1%d7%a4%d7%98/",
+   "https://www.lapidot.com/product/%d7%93%d7%a8%d7%95%d7%a4-%d7%98%d7%95%d7%a0%d7%99%d7%a7-5/",
+   "https://www.lapidot.com/product/%d7%a8%d7%99%d7%96%d7%90%d7%9c%d7%98%d7%a1/",
+   "https://www.lapidot.com/product/%d7%98%d7%a1%d7%a7%d7%98%d7%9f/"
+  ],
+  "n_pages": 11,
+  "n_lines": 3099
+ },
+ "il_modcon-systems_com": {
+  "id": "il_modcon-systems_com",
+  "site": "modcon-systems.com",
+  "name": "Modcon Systems Ltd.",
+  "name_he": "מודקון",
+  "website": "https://modcon-systems.com",
+  "phone": "+972-4-9553955",
+  "email": null,
+  "address": "Modcon House, M. Boronshtein St., South Akko Industrial Park, Akko 24222",
+  "contact_url": "",
+  "note": "HQ (Israeli company, Akko; process analyzers / engineering). Phones from Rigzone directory (+972-4-9553955, +972-4-9553956); website from Israel Innovation Authority profile; Prospeo/CB Insights 'London' listings look unreliable. No general email seen.",
+  "phones_found": [
+   "04-5771737"
+  ],
+  "emails_found": [],
+  "pages": [
+   "https://www.modcon-systems.com/",
+   "https://www.modcon-systems.com/products/",
+   "https://www.modcon-systems.com/products-categories/liquid-analyzers/",
+   "https://www.modcon-systems.com/products-categories/gas-analyzers/",
+   "https://www.modcon-systems.com/products-categories/analyzer-systems/",
+   "https://www.modcon-systems.com/products-categories/ai-ml/",
+   "https://www.modcon-systems.com/products-categories/turn-key-projects/",
+   "https://www.modcon-systems.com/green-hydrogen-production/",
+   "https://www.modcon-systems.com/products/mod-1040-oxygen-analyzer/",
+   "https://www.modcon-systems.com/products/mod-1060-hydrogen-analyzer/",
+   "https://www.modcon-systems.com/products/https-www-modcon-systems-com-products-mod-4100-crude-oil-analyser/?utm_source=chatgpt.com"
+  ],
+  "n_pages": 11,
+  "n_lines": 4934
+ },
+ "il_enco_co_il": {
+  "id": "il_enco_co_il",
+  "site": "enco.co.il",
+  "name": "Enco",
+  "name_he": "אנקו",
+  "website": "https://www.enco.co.il/",
+  "phone": "+972-3-934-9922",
+  "email": "orders@enco.co.il",
+  "address": "17 Mivtza Kadesh St, P.O.B. 8009, Petach Tikva 4918001",
+  "contact_url": "",
+  "note": "Distributor (Enco Scientific Services & Diagnostics); fax +972-3-934-9876; details from Biotium authorized-distributor page; official about page https://www.enco.co.il/about.php",
+  "phones_found": [],
+  "emails_found": [
+   "orders@enco.co.il"
+  ],
+  "pages": [
+   "https://www.enco.co.il/",
+   "https://www.enco.co.il/suppliers.php"
+  ],
+  "n_pages": 2,
+  "n_lines": 864
+ },
+ "il_isil_co_il": {
+  "id": "il_isil_co_il",
+  "site": "isil.co.il",
+  "name": "Israel Scientific Instruments Ltd. (ISI)",
+  "name_he": "ISI מכשור מדעי",
+  "website": "https://www.isil.co.il",
+  "phone": "+972 3-923-2202",
+  "email": "info@isil.co.il",
+  "address": "32 Shacham St., P.O. Box 7790, Petah Tikva 49170",
+  "contact_url": "",
+  "note": "distributor",
+  "phones_found": [
+   "03-9232202",
+   "03-9229750"
+  ],
+  "emails_found": [
+   "isi@isil.co.il"
+  ],
+  "pages": [
+   "https://www.isil.co.il/",
+   "https://www.isil.co.il/Analytical-Instruments",
+   "https://www.isil.co.il/index.php?dir=site&page=catalog&op=item&cs=3828",
+   "https://www.isil.co.il/index.php?dir=site&page=catalog&op=item&cs=3793",
+   "https://www.isil.co.il/index.php?dir=site&page=catalog&op=item&cs=3810",
+   "https://www.isil.co.il/index.php?dir=site&page=catalog&op=category&cs=356",
+   "https://www.isil.co.il/index.php?dir=site&page=catalog&op=category&cs=333"
+  ],
+  "n_pages": 7,
+  "n_lines": 1307
+ },
+ "il_bemek_co_il": {
+  "id": "il_bemek_co_il",
+  "site": "bemek.co.il",
+  "name": "IM Beit HaEmek (Beit HaEmek Industries)",
+  "name_he": "תעשיות בית העמק",
+  "website": "https://www.bemek.co.il",
+  "phone": "+972 4-868-9015",
+  "email": "info@bemek.co.il",
+  "address": "Kibbutz Beit HaEmek",
+  "contact_url": "https://www.bemek.co.il/about-us/",
+  "note": "distributor; official site",
+  "phones_found": [
+   "04-8689015",
+   "04-8689010"
+  ],
+  "emails_found": [
+   "info@bemek.co.il"
+  ],
+  "pages": [
+   "https://www.bemek.co.il/",
+   "https://www.bemek.co.il/suppliers/",
+   "https://www.bemek.co.il/suppliers/abclonal/",
+   "https://www.bemek.co.il/suppliers/access-biologicals/",
+   "https://www.bemek.co.il/suppliers/amazon/",
+   "https://www.bemek.co.il/suppliers/anygenes/",
+   "https://www.bemek.co.il/suppliers/atcc/",
+   "https://www.bemek.co.il/suppliers/bio-west/",
+   "https://www.bemek.co.il/suppliers/celvivo/",
+   "https://www.bemek.co.il/suppliers/chemo-metec/",
+   "https://www.bemek.co.il/suppliers/filtrox/"
+  ],
+  "n_pages": 11,
+  "n_lines": 3277
+ },
+ "il_ornat_co_il": {
+  "id": "il_ornat_co_il",
+  "site": "ornat.co.il",
+  "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+  "name_he": "אורנת",
+  "website": "https://www.ornat.co.il/",
+  "phone": "+972-8-9477077",
+  "email": "ornatbio@ornat.co.il",
+  "address": "19 Horvitz Eli St., Rehovot 7608802",
+  "contact_url": "",
+  "note": "HQ of Israeli distributor (Rehovot; founded 1990; NEB, CST, Lonza, Macherey-Nagel). Details from the Macherey-Nagel distributor listing (fax +972-8-9363034); LI-COR ended its Ornat distribution agreement in April 2018.",
+  "phones_found": [
+   "+972-8-9477077",
+   "+972-8-9363034"
+  ],
+  "emails_found": [
+   "office@novalab.com",
+   "Ornatbio@ornat.co.il"
+  ],
+  "pages": [
+   "https://ornat.co.il/",
+   "https://ornat.co.il/our-partners-reagents/",
+   "https://ornat.co.il/instruments/",
+   "https://ornat.co.il/consumables/",
+   "https://ornat.co.il/category/reagents/rna-related-products/",
+   "https://ornat.co.il/category/reagents/protein-related-products/",
+   "https://ornat.co.il/category/services-2/oem-bulk-products/",
+   "https://ornat.co.il/new-products-reagents/",
+   "https://ornat.co.il/new-products-instruments/",
+   "https://ornat.co.il/wp-content/uploads/2022/03/weizmann-wherhouse-ornat-product-with-NEB-2022-1-1.jpg"
+  ],
+  "n_pages": 10,
+  "n_lines": 2132
+ },
+ "il_tarom_co_il": {
+  "id": "il_tarom_co_il",
+  "site": "tarom.co.il",
+  "name": "Homepage",
+  "name_he": "תרום טכנולוגיות",
+  "website": "https://www.tarom.co.il/",
+  "phone": "+972-3-9214145",
+  "email": "tarom@tarom.co.il",
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "+972-3-9214145",
+   "+972-3-9214146"
+  ],
+  "emails_found": [
+   "tarom@tarom.co.il"
+  ],
+  "pages": [
+   "https://tarom.co.il/"
+  ],
+  "n_pages": 1,
+  "n_lines": 203
+ },
+ "il_picotech_co_il": {
+  "id": "il_picotech_co_il",
+  "site": "picotech.co.il",
+  "name": "PicoTech Ltd.",
+  "name_he": "פיקוטק",
+  "website": "https://www.picotech.co.il/",
+  "phone": "+972-3-6356650",
+  "email": "info@picotech.co.il",
+  "address": "17 Ha-Mefalsim St., Petah Tikva",
+  "contact_url": "",
+  "note": "HQ of Israeli distributor (semiconductor / nanofabrication / materials-science equipment representative; Tescan and Imina distributor), Petah Tikva. Address from Tescan distributor page; phone from a 2014 Israel Society for Microscopy sponsor list (may be outdated). Email domain picotech.co.il seen only via a named-person address.",
+  "phones_found": [],
+  "emails_found": [
+   "info@picotech.co.il"
+  ],
+  "pages": [
+   "https://picotech.co.il/",
+   "https://picotech.co.il/privacy-policy/",
+   "https://picotech.co.il/products/lithography-equipment/nanomanufacturing-and-3d-printing/",
+   "https://picotech.co.il/products/material-growth/",
+   "https://picotech.co.il/products/lithography-equipment/",
+   "https://picotech.co.il/products/wet-processing/",
+   "https://picotech.co.il/products/plasma-equipment/",
+   "https://picotech.co.il/products/thin-film-deposition/",
+   "https://picotech.co.il/products/thermal-processing-equipment/",
+   "https://picotech.co.il/products/advanced-packaging-equipment/wafer-dicing-grinding-thinning-polishing-cmp-post-cmp-cleaning/",
+   "https://picotech.co.il/products/analytical-equipment/probestations/"
+  ],
+  "n_pages": 11,
+  "n_lines": 3591
+ },
+ "il_yarden-biotec_co_il": {
+  "id": "il_yarden-biotec_co_il",
+  "site": "yarden-biotec.co.il",
+  "name": "Yarden Biotec Ltd.",
+  "name_he": "ירדן ביוטק",
+  "website": "https://www.yarden-biotec.co.il",
+  "phone": "+972 2-651-1102",
+  "email": "info@yarden-biotec.co.il",
+  "address": "Moshav Yad HaShmona 9089500",
+  "contact_url": "",
+  "note": "distributor; Dun's Guide / Dapei Zahav (consistent)",
+  "phones_found": [
+   "02-6511102",
+   "02-6511103",
+   "02-651-1102"
+  ],
+  "emails_found": [
+   "info@yarden-biotec.co.il",
+   "sales2026@yarden-biotec.co.il",
+   "avi@yarden-biotec.co.il"
+  ],
+  "pages": [
+   "https://www.yarden-biotec.co.il/",
+   "https://www.yarden-biotec.co.il/mid-page/spectrophotometers",
+   "https://www.yarden-biotec.co.il/",
+   "https://www.yarden-biotec.co.il/mid-page/glassware-washers",
+   "https://www.yarden-biotec.co.il/mid-page/microscopes",
+   "https://www.yarden-biotec.co.il/manufacturer/usa-scientific",
+   "https://www.yarden-biotec.co.il/manufacturer/thistle-scientific",
+   "https://www.yarden-biotec.co.il/manufacturer/syngene",
+   "https://www.yarden-biotec.co.il/manufacturer/scientific-industries",
+   "https://www.yarden-biotec.co.il/manufacturer/labnet",
+   "https://www.yarden-biotec.co.il/manufacturer/dynex-technologies"
+  ],
+  "n_pages": 11,
+  "n_lines": 4360
+ },
+ "il_agrolan_com": {
+  "id": "il_agrolan_com",
+  "site": "agrolan.com",
+  "name": "Agrolan Ltd.",
+  "name_he": "אגרולן",
+  "website": "https://agrolan.com",
+  "phone": "+972-4-666-9999",
+  "email": "agrolan@agrolan.co.il",
+  "address": "P.O. Box 45, Moshav Nov 12921",
+  "contact_url": "",
+  "note": "Distributor (HORIBA water-quality instrumentation distributor listing); fax +972-4-676-3093; website agrolan.com per startupim profile while the email domain is agrolan.co.il - verify; founded 1991, based in Nov (Golan)",
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "http://www.agrolan.com/index.asp",
+   "http://www.agrolan.com/category.asp?salestag=1",
+   "http://www.agrolan.com/product.asp?productid=1800",
+   "http://www.agrolan.com/mybasket.asp",
+   "http://www.agrolan.com/product.asp?productid=1370&CatCode=",
+   "http://www.agrolan.com/product.asp?productid=721&CatCode=",
+   "http://www.agrolan.com/product.asp?productid=896&CatCode=",
+   "http://www.agrolan.com/product.asp?productid=907&CatCode=",
+   "http://www.agrolan.com/product.asp?productid=909&CatCode=",
+   "http://www.agrolan.com/product.asp?productid=924&CatCode=",
+   "http://www.agrolan.com/product.asp?productid=1023&CatCode="
+  ],
+  "n_pages": 11,
+  "n_lines": 6473
+ },
+ "il_newroad_sgo_co_il": {
+  "id": "il_newroad_sgo_co_il",
+  "site": "newroad.sgo.co.il",
+  "name": "New-Road Agencies Ltd.",
+  "name_he": "ניו-רוד סוכנויות",
+  "website": "https://newroad.sgo.co.il",
+  "phone": "+972-3-902-8787",
+  "email": null,
+  "address": "Park Afek, Rosh Ha'ayin",
+  "contact_url": "https://newroad.sgo.co.il/?p=58",
+  "note": "distributor since 2005; phone hidden on BioFindly",
+  "phones_found": [
+   "+972-3-902-8787",
+   "+972-3-902-8788"
+  ],
+  "emails_found": [],
+  "pages": [
+   "https://newroad.co.il/"
+  ],
+  "n_pages": 1,
+  "n_lines": 549
+ },
+ "il_primelab_co_il": {
+  "id": "il_primelab_co_il",
+  "site": "primelab.co.il",
+  "name": "Prime Lab Scientific Instruments Ltd.",
+  "name_he": "פריים לאב",
+  "website": "https://primelab.co.il",
+  "phone": "077-205-2099",
+  "email": "info@primelab.co.il",
+  "address": "",
+  "contact_url": "",
+  "note": "Nothing found in two searches (English with domain; Hebrew 'פריים לאב'): only unrelated Prime Lab entities (Egypt, India) and Israeli 'Prime' businesses.",
+  "phones_found": [
+   "077-205-2099"
+  ],
+  "emails_found": [
+   "info@primelab.co.il"
+  ],
+  "pages": [
+   "https://primelab.co.il/",
+   "https://primelab.co.il/partners/",
+   "https://primelab.co.il/products/",
+   "https://primelab.co.il/products/rheometer-viscometer-dma/",
+   "https://primelab.co.il/products/microwave-digestion-synthesis",
+   "https://primelab.co.il/products/raman-ftir/",
+   "https://primelab.co.il/products/density-meter-analyzer/",
+   "https://primelab.co.il/products/process-instrumentation/",
+   "https://primelab.co.il/products/polarimeter-refractometer/",
+   "https://primelab.co.il/products/thermal-analysis-consumables/",
+   "https://primelab.co.il/products/thermal-analysis-instruments"
+  ],
+  "n_pages": 11,
+  "n_lines": 2191
+ },
+ "il_modotec_co_il": {
+  "id": "il_modotec_co_il",
+  "site": "modotec.co.il",
+  "name": "Modotec Ltd. (Modotec Water Technologies Ltd.)",
+  "name_he": "מודוטק",
+  "website": "http://www.modotec.co.il",
+  "phone": "+972-4-991-9988",
+  "email": "info@modotec.co.il",
+  "address": "16 Moshe Bernstein St., South Industrial Park, Acre (Akko) 2422238",
+  "contact_url": "",
+  "note": "HQ (Acre); company reg. no. 512653031. Israel distributor/representative for Trimod'Besta, Hidrostal and McCrometer (water/flow instrumentation). Second line +972-4-991-9977; postcode also listed as 2413202 and one listing says 1 Moshe Bernstein, P.O. Box 3299. Only named-person emails seen (not recorded). Found on 2nd search.",
+  "phones_found": [
+   "049919988"
+  ],
+  "emails_found": [
+   "info@modotec.co.il"
+  ],
+  "pages": [
+   "https://www.modotec.co.il/",
+   "https://www.modotec.co.il/%d7%a1%d7%a4%d7%a7%d7%98%d7%95%d7%a4%d7%95%d7%98%d7%95%d7%9e%d7%98%d7%a8%d7%99%d7%9d/",
+   "https://www.modotec.co.il/%D7%A1%D7%A4%D7%A7%D7%98%D7%95%D7%A4%D7%95%D7%98%D7%95%D7%9E%D7%98%D7%A8%D7%99%D7%9D/",
+   "https://www.modotec.co.il/%d7%a7%d7%98%d7%92%d7%95%d7%a8%d7%99%d7%95%d7%aa-%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+  ],
+  "n_pages": 4,
+  "n_lines": 724
+ },
+ "il_bioanalytics_co_il": {
+  "id": "il_bioanalytics_co_il",
+  "site": "bioanalytics.co.il",
+  "name": "BioAnalytics Ltd.",
+  "name_he": "ביואנליטיקס",
+  "website": "https://www.bioanalytics.co.il",
+  "phone": "+972-72-242-9555",
+  "email": null,
+  "address": "29 Omarim St. (listed as \"29'th Omarim\"), Omer 84965",
+  "contact_url": "",
+  "note": "HQ (Omer, Israel) per third-party aggregator SignalHire (founded 2011; electrochemistry, chromatography, calibration, lab automation); also appears on the Macherey-Nagel Israel distributor list (mn-net.com) but no details shown there. Verify on official site.",
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://www.bioanalytics.co.il/"
+  ],
+  "n_pages": 1,
+  "n_lines": 11
+ },
+ "il_cannadepot_co_il": {
+  "id": "il_cannadepot_co_il",
+  "site": "cannadepot.co.il",
+  "name": "Cannadepot",
+  "name_he": "קנאדיפו",
+  "website": "https://cannadepot.co.il",
+  "phone": null,
+  "email": null,
+  "address": "",
+  "contact_url": "",
+  "note": "Nothing found: the one search returned only unrelated cannabis companies (CANN-IL, Canndoc); no retry budget left.",
+  "phones_found": [],
+  "emails_found": [],
+  "pages": [
+   "https://cannadepot.co.il/",
+   "https://cannadepot.co.il/%d7%94%d7%9e%d7%95%d7%aa%d7%92%d7%99%d7%9d-%d7%a9%d7%9c%d7%a0%d7%95/",
+   "https://cannadepot.co.il/product-category/%d7%90%d7%a7%d7%95%d7%95-%d7%9e%d7%a1%d7%98%d7%a8-%d7%98%d7%95%d7%9c%d7%a1-aqua-master-tools/",
+   "https://cannadepot.co.il/product/kokonaut-%d7%94%d7%95%d7%90-%d7%97%d7%99%d7%99%d7%a9%d7%9f-%d7%a1%d7%91%d7%99%d7%91%d7%aa%d7%99-%d7%a9%d7%9c-%d7%98%d7%9e%d7%a4%d7%a8%d7%98%d7%95%d7%a8%d7%94-%d7%95%d7%9c%d7%97%d7%95/?preview=true#tab-description",
+   "https://cannadepot.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99-%d7%90%d7%99%d7%a0%d7%91%d7%a0%d7%a9%d7%9f/",
+   "https://cannadepot.co.il/product-category/%d7%97%d7%9c%d7%9c%d7%99-%d7%92%d7%99%d7%93%d7%95%d7%9c/",
+   "https://cannadepot.co.il/product-category/%d7%97%d7%9c%d7%9c%d7%99-%d7%92%d7%99%d7%93%d7%95%d7%9c/%d7%90%d7%95%d7%94%d7%9c%d7%99-%d7%92%d7%99%d7%93%d7%95%d7%9c/",
+   "https://cannadepot.co.il/product-category/%d7%aa%d7%90%d7%95%d7%a8%d7%94-%d7%97%d7%a9%d7%9e%d7%9c/",
+   "https://cannadepot.co.il/product-category/%d7%aa%d7%90%d7%95%d7%a8%d7%94-%d7%97%d7%a9%d7%9e%d7%9c/%d7%9e%d7%a0%d7%95%d7%a8%d7%95%d7%aa-%d7%92%d7%99%d7%93%d7%95%d7%9c/",
+   "https://cannadepot.co.il/product-category/%d7%aa%d7%90%d7%95%d7%a8%d7%94-%d7%97%d7%a9%d7%9e%d7%9c/%d7%a8%d7%a4%d7%9c%d7%a7%d7%98%d7%95%d7%a8%d7%99%d7%9d/"
+  ],
+  "n_pages": 10,
+  "n_lines": 9339
+ },
+ "il_dovermed_co_il": {
+  "id": "il_dovermed_co_il",
+  "site": "dovermed.co.il",
+  "name": "Dover Medical & Scientific Equipment",
+  "name_he": "דובר ציוד רפואי ומדעי",
+  "website": "https://dovermed.co.il",
+  "phone": "+972-9-951-4545",
+  "email": "contact@dovermed.co.il",
+  "address": "11 Hama'alot Street, Herzliya 46583",
+  "contact_url": "",
+  "note": "Distributor (founded 1974; medical, diagnostic and research divisions); fax +972-9-958-0151; details from pharmchoices.com directory, company also profiled at mtec-sc.org",
+  "phones_found": [],
+  "emails_found": [
+   "contact@dovermed.co.il",
+   "HR10@dovermed.co.il",
+   "HR40@dovermed.co.il"
+  ],
+  "pages": [
+   "https://dovermed.co.il/",
+   "https://dovermed.co.il/"
+  ],
+  "n_pages": 2,
+  "n_lines": 432
+ },
+ "il_bepex_co_il": {
+  "id": "il_bepex_co_il",
+  "site": "bepex.co.il",
+  "name": "Bepex",
+  "name_he": "בפקס",
+  "website": "https://www.bepex.co.il/",
+  "phone": "+972-9-972-7600",
+  "email": "cs@bepex.co.il",
+  "address": "Shoham Kadima Industrial Zone, P.O. Box 9081, Even Yehuda 4050003",
+  "contact_url": "",
+  "note": "Distributor (Israeli importer and servicer of medical and laboratory equipment); details from ZoomInfo/Datanyze directory listings",
+  "phones_found": [
+   "09-9727600",
+   "09-9547244"
+  ],
+  "emails_found": [
+   "cs@bepex.co.il"
+  ],
+  "pages": [
+   "https://www.bepex.co.il/"
+  ],
+  "n_pages": 1,
+  "n_lines": 571
+ },
+ "il_avni-son_co_il": {
+  "id": "il_avni-son_co_il",
+  "site": "avni-son.co.il",
+  "name": "Meshulam Avni & Son Ltd. (משולם אבני ובנו בע\"מ)",
+  "name_he": "אבני ובנו",
+  "website": "https://avni-son.co.il",
+  "phone": "+972-4-821-9989",
+  "email": "info@avni-son.co.il",
+  "address": "101 Bar Yehuda Rd. (דרך בר יהודה 101), Nesher",
+  "contact_url": "https://avni-son.co.il/%D7%A6%D7%A8%D7%95-%D7%A7%D7%A9%D7%A8/",
+  "note": "HQ (Nesher). Lab equipment supplier (glassware, porcelain, plastic, metalware; calibration/maintenance). Fax 04-8216146. Found on 2nd search (Hebrew).",
+  "phones_found": [
+   "050-5326972",
+   "050-7907742",
+   "04-8219989"
+  ],
+  "emails_found": [
+   "info@avni-son.co.il",
+   "negishutatar@gmail.com"
+  ],
+  "pages": [
+   "https://avni-son.co.il/",
+   "https://avni-son.co.il/%d7%9e%d7%9b%d7%a9%d7%95%d7%a8-%d7%9e%d7%a2%d7%91%d7%93%d7%aa%d7%99-laboratory-instruments/%d7%a1%d7%a4%d7%a7%d7%98%d7%a8%d7%95%d7%a4%d7%95%d7%98%d7%95%d7%9e%d7%98%d7%a8/",
+   "https://avni-son.co.il/%d7%9e%d7%91%d7%97%d7%a8-%d7%9b%d7%9c%d7%99-%d7%97%d7%a8%d7%a1%d7%99%d7%a0%d7%94-%d7%9c%d7%9e%d7%a2%d7%91%d7%93%d7%94-ceramic-materials-products/%d7%a1%d7%99%d7%a8%d7%95%d7%aa-%d7%a9%d7%a8%d7%99%d7%a4%d7%94-2/",
+   "https://avni-son.co.il/%d7%a6%d7%99%d7%95%d7%93-%d7%9c%d7%9e%d7%a2%d7%91%d7%93%d7%95%d7%aa-%d7%9b%d7%9c%d7%9c%d7%99-general-labratory-equipment/%d7%a0%d7%99%d7%99%d7%a8%d7%95%d7%aa-2/",
+   "https://avni-son.co.il/%d7%91%d7%a7%d7%a9%d7%aa-%d7%94%d7%a6%d7%a2%d7%aa-%d7%9e%d7%97%d7%99%d7%a8-%d7%94%d7%96%d7%9e%d7%a0%d7%aa-%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/"
+  ],
+  "n_pages": 5,
+  "n_lines": 4757
+ },
+ "il_ormir_co_il": {
+  "id": "il_ormir_co_il",
+  "site": "ormir.co.il",
+  "name": "Ormir Scientific Instruments",
+  "name_he": "אורמיר",
+  "website": "https://ormir.co.il",
+  "phone": "+972-586272546",
+  "email": "info@ormir.co.il",
+  "address": "Kfar Yona",
+  "contact_url": "",
+  "note": "distributor; BioFindly profile (phone hidden)",
+  "phones_found": [
+   "+972-586272546"
+  ],
+  "emails_found": [
+   "info@ormir.co.il"
+  ],
+  "pages": [
+   "https://ormir.co.il/",
+   "https://ormir.co.il/card-with-image/",
+   "https://ormir.co.il/product-category/products/"
+  ],
+  "n_pages": 3,
+  "n_lines": 586
+ },
+ "il_ex-lab_com": {
+  "id": "il_ex-lab_com",
+  "site": "ex-lab.com",
+  "name": "EX-LAB Ltd.",
+  "name_he": "אקס-לאב",
+  "website": "https://www.ex-lab.com/",
+  "phone": "03-9214108",
+  "email": "info@ex-lab.com",
+  "address": "4 Nevatim St., Petah Tikva",
+  "contact_url": "",
+  "note": "distributor; B144 listing (phone not shown in snippet)",
+  "phones_found": [
+   "03-9214108",
+   "03-9214110",
+   "08-6371752"
+  ],
+  "emails_found": [
+   "info@ex-lab.com"
+  ],
+  "pages": [
+   "https://ex-lab.com/",
+   "https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-equipment-manufacturing-used-equipment",
+   "https://ex-lab.com/?taxonomy=product-category&term=new-equipment",
+   "https://ex-lab.com/?taxonomy=product-category&term=ult-freezers-86",
+   "https://ex-lab.com/?taxonomy=product-category&term=benchtop",
+   "https://ex-lab.com/?taxonomy=product-category&term=evaporators-and-vaporizers",
+   "https://ex-lab.com/?taxonomy=product-category&term=autoclaves",
+   "https://ex-lab.com/?taxonomy=product-category&term=hoods",
+   "https://ex-lab.com/?taxonomy=product-category&term=chillers",
+   "https://ex-lab.com/?taxonomy=product-category&term=freezers",
+   "https://ex-lab.com/?taxonomy=product-category&term=centrifuges"
+  ],
+  "n_pages": 11,
+  "n_lines": 3539
+ },
+ "il_hylabs_co_il": {
+  "id": "il_hylabs_co_il",
+  "site": "hylabs.co.il",
+  "name": "Hy Laboratories Ltd. (hylabs)",
+  "name_he": "היי-לאבס",
+  "website": "https://www.hylabs.co.il",
+  "phone": "+972-8-936-6475",
+  "email": "oligo@hylabs.co.il",
+  "address": "8 Prof. Menakhem Plaut St., Rehovot (Prospeo lists 6 Plaut St., Rehovot 7670606)",
+  "contact_url": "",
+  "note": "HQ (Rehovot). Microbiology diagnostics company founded 1974; details from third-party directories (street number conflicts 6 vs 8 Plaut St.).",
+  "phones_found": [],
+  "emails_found": [
+   "oligo@hylabs.co.il",
+   "molsupport@hylabs.co.il"
+  ],
+  "pages": [
+   "https://www.hylabs.co.il/",
+   "https://www.hylabs.co.il/",
+   "https://www.hylabs.co.il/product-cat/clinical-veterinary-diagnostic/",
+   "https://www.hylabs.co.il/product-cat/pharma-and-biotechnology/",
+   "https://www.hylabs.co.il/product-cat/food-water/",
+   "https://www.hylabs.co.il/product-cat/research/",
+   "https://www.hylabs.co.il/customer-area/?btn=c-p"
+  ],
+  "n_pages": 7,
+  "n_lines": 3083
+ },
+ "il_bdl_co_il": {
+  "id": "il_bdl_co_il",
+  "site": "bdl.co.il",
+  "name": "BDL (Beith Dekel) Ltd.",
+  "name_he": "BDL",
+  "website": "https://www.bdl.co.il",
+  "phone": "+972 9-761-1800",
+  "email": "info@bdl.co.il",
+  "address": "Ra'anana (warehouse: Netanya)",
+  "contact_url": "https://www.bdl.co.il/Contact.aspx",
+  "note": "distributor; official contact page",
+  "phones_found": [
+   "04325-6043",
+   "03216-3032",
+   "03202-3032"
+  ],
+  "emails_found": [],
+  "pages": [
+   "https://www.bdl.co.il/",
+   "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1"
+  ],
+  "n_pages": 2,
+  "n_lines": 2454
+ },
+ "il_electrotherm_co_il": {
+  "id": "il_electrotherm_co_il",
+  "site": "electrotherm.co.il",
+  "name": "Electrotherm Marketing 1978 Ltd.",
+  "name_he": "אלקטרותרם",
+  "website": "https://www.electrotherm.co.il",
+  "phone": "+972-77-866-0600",
+  "email": "sales@electrotherm.co.il",
+  "address": "Migdal HaEmek",
+  "contact_url": "",
+  "note": "distributor; email from Nabertherm's world-wide sales page",
+  "phones_found": [
+   "077-8660777"
+  ],
+  "emails_found": [
+   "sales@electrotherm.co.il"
+  ],
+  "pages": [
+   "https://www.electrotherm.co.il/",
+   "https://www.electrotherm.co.il/%D7%A1%D7%A4%D7%A7%D7%99%D7%9D",
+   "https://www.electrotherm.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d",
+   "https://www.electrotherm.co.il/%D7%A1%D7%A8%D7%98%D7%99-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%91%D7%A2%D7%9C%D7%99-%D7%94%D7%A1%D7%A4%D7%A7-%D7%A7%D7%91%D7%95%D7%A2-cat44",
+   "https://www.electrotherm.co.il/Implant-Blasting-Solutions-cat188",
+   "https://www.electrotherm.co.il/%D7%A1%D7%A8%D7%98%D7%99-%D7%97%D7%99%D7%9E%D7%95%D7%9D-%D7%91%D7%A2%D7%9C%D7%99-%D7%94%D7%A1%D7%A4%D7%A7-%D7%A7%D7%91%D7%95%D7%A2-cat44",
+   "https://www.electrotherm.co.il/%d7%aa%d7%a7%d7%a0%d7%95%d7%9f-page4"
+  ],
+  "n_pages": 7,
+  "n_lines": 8918
+ },
+ "il_weighing_co_il": {
+  "id": "il_weighing_co_il",
+  "site": "weighing.co.il",
+  "name": "משקלים",
+  "name_he": "ניוטק איילון",
+  "website": "https://www.weighing.co.il/",
+  "phone": "072-3229888",
+  "email": "sales@weighing.co.il",
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "072-3229888",
+   "072-3922178",
+   "072-3922177"
+  ],
+  "emails_found": [
+   "sales@weighing.co.il"
+  ],
+  "pages": [
+   "https://www.weighing.co.il/",
+   "https://www.weighing.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94/%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%92%D7%A9%D7%A8",
+   "https://www.weighing.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94/%D7%A4%D7%AA%D7%A8%D7%95%D7%A0%D7%95%D7%AA-%D7%A9%D7%A7%D7%99%D7%9C%D7%94-%D7%9C%D7%97%D7%A7%D7%9C%D7%90%D7%95%D7%AA",
+   "https://www.weighing.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94",
+   "https://www.weighing.co.il/content/%D7%9E%D7%A9%D7%A7%D7%9C-%D7%91%D7%99%D7%A7%D7%95%D7%A8%D7%AA-%D7%93%D7%92%D7%9D-a7-40",
+   "https://www.weighing.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94/%D7%9E%D7%90%D7%96%D7%A0%D7%99-%D7%9E%D7%A2%D7%91%D7%93%D7%94/%D7%9E%D7%90%D7%96%D7%A0%D7%99%D7%99%D7%9D-%D7%9E%D7%93%D7%95%D7%99%D7%99%D7%A7%D7%99%D7%9D/%D7%9E%D7%90%D7%96%D7%A0%D7%99%D7%99%D7%9D-%D7%9E%D7%93%D7%95%D7%99%D7%99%D7%A7%D7%99%D7%9D-%D7%93%D7%92%D7%9D-xe-h",
+   "https://www.weighing.co.il/%D7%9E%D7%95%D7%A6%D7%A8%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94/%D7%9E%D7%A9%D7%A7%D7%9C%D7%99%D7%9D-%D7%9C%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94"
+  ],
+  "n_pages": 7,
+  "n_lines": 2297
+ },
+ "il_medtechnica_co_il": {
+  "id": "il_medtechnica_co_il",
+  "site": "medtechnica.co.il",
+  "name": "Revolutionize Israeli Healthcare- Medtechnica",
+  "name_he": "מדטכניקה",
+  "website": "https://www.medtechnica.co.il/",
+  "phone": "03-925-4040",
+  "email": "sales@medtechnica.co.il",
+  "address": null,
+  "contact_url": null,
+  "note": null,
+  "phones_found": [
+   "03-925-4040"
+  ],
+  "emails_found": [
+   "sales@medtechnica.co.il"
+  ],
+  "pages": [
+   "https://medtechnica.co.il/",
+   "https://medtechnica.co.il/partner/",
+   "https://medtechnica.co.il/get-in-touch/"
+  ],
+  "n_pages": 3,
+  "n_lines": 462
+ },
  "il_syntezza_com": {
   "id": "il_syntezza_com",
   "site": "syntezza.com",

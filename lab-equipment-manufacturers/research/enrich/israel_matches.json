@@ -1,4 +1,14 @@
 {
+ "4titude": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "4titude® (Azenta Life Sciences)",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "aat bioquest": [
   {
    "distributor": "il_doronscientific_com",
@@ -9,7 +19,33 @@
    "evidence_year": 2026
   }
  ],
+ "abcam": [
+  {
+   "distributor": "il_zotal_co_il",
+   "site": "zotal.co.il",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Abcam",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "abclonal": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "ABclonal",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bemek_co_il",
+   "site": "bemek.co.il",
+   "page_url": "https://www.bemek.co.il/",
+   "evidence": "ABclonal",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
   {
    "distributor": "il_doronscientific_com",
    "site": "doronscientific.com",
@@ -39,6 +75,26 @@
    "evidence_year": 2026
   }
  ],
+ "adipogen": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "Adipogen",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "agilent": [
+  {
+   "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Agilent – Cell Analysis",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
  "ambeed": [
   {
    "distributor": "il_doronscientific_com",
@@ -59,12 +115,82 @@
    "evidence_year": 2026
   }
  ],
+ "antibodies com": [
+  {
+   "distributor": "il_zotal_co_il",
+   "site": "zotal.co.il",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Antibodies.com",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "anton paar": [
+  {
+   "distributor": "il_primelab_co_il",
+   "site": "primelab.co.il",
+   "page_url": "https://primelab.co.il/",
+   "evidence": "Anton Paar GmbH",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "arbor assays": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Arbor Assays",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "assay genie": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "Assay Genie",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "assaypro": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Assaypro",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "atlas antibodies": [
   {
    "distributor": "il_yairtech_co_il",
    "site": "yairtech.co.il",
    "page_url": "https://www.yairtech.co.il/partners/",
    "evidence": "Atlas Antibodies",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "azenta": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "Azenta Life Sciences",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "azenta life sciences": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "Azenta Life Sciences",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -79,6 +205,134 @@
    "evidence_year": 2026
   }
  ],
+ "bachem": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bachem",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bellco": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Bellco",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_ex-lab_com",
+   "site": "ex-lab.com",
+   "page_url": "https://ex-lab.com/?taxonomy=product-category&term=pharmaceutical-equipment-manufacturing-used-equipment",
+   "evidence": "רולר -Bellco",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "benchmark": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Benchmark Scientific",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "benchmark scientific": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Benchmark Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bertin": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "Bertin",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "binder": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Binder",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bio rad": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bio-Rad",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bio x cell": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Bio X Cell",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "biochrom": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Biochrom UK",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "bioer": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "Bioer",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bioline": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "BIOLINE",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bioplastics": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "BIOplastics BV",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "biorbyt": [
   {
    "distributor": "il_doronscientific_com",
@@ -89,12 +343,50 @@
    "evidence_year": 2026
   }
  ],
+ "biospec": [
+  {
+   "distributor": "il_ormir_co_il",
+   "site": "ormir.co.il",
+   "page_url": "https://ormir.co.il/card-with-image/",
+   "evidence": "BioSpec Products",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "biotage": [
+  {
+   "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "Biotage Israel",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
  "biotium": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Biotium",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
   {
    "distributor": "il_doronscientific_com",
    "site": "doronscientific.com",
    "page_url": "https://doronscientific.com/products/",
    "evidence": "Biotium",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "biotix": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Biotix",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -117,12 +409,42 @@
    "evidence_year": 2026
   }
  ],
+ "blue ray biotech": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/instruments/",
+   "evidence": "Blue-Ray Biotech",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "bms": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "BMS",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "boster bio": [
   {
    "distributor": "il_doronscientific_com",
    "site": "doronscientific.com",
    "page_url": "https://doronscientific.com/products/",
    "evidence": "Boster Bio",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "branson": [
+  {
+   "distributor": "il_slmoran_co_il",
+   "site": "slmoran.co.il",
+   "page_url": "https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
+   "evidence": "לוגו branson",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -137,12 +459,100 @@
    "evidence_year": 2026
   }
  ],
+ "cayman chemical": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Cayman Chemical",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "cell signaling technology": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "Cell Signaling Technology (CST)",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "cell systems": [
   {
    "distributor": "il_doronscientific_com",
    "site": "doronscientific.com",
    "page_url": "https://doronscientific.com/products/",
    "evidence": "Cell Systems",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "chemetrics": [
+  {
+   "distributor": "il_slmoran_co_il",
+   "site": "slmoran.co.il",
+   "page_url": "https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
+   "evidence": "לוגו Chemetrics",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "chemglass": [
+  {
+   "distributor": "il_slmoran_co_il",
+   "site": "slmoran.co.il",
+   "page_url": "https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
+   "evidence": "לוגו Chemglass",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "clean rooms": [
+  {
+   "distributor": "il_hylabs_co_il",
+   "site": "hylabs.co.il",
+   "page_url": "https://www.hylabs.co.il/",
+   "evidence": "Clean rooms",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "cleaver scientific": [
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/manufacturer/thistle-scientific",
+   "evidence": "Cleaver Scientific DGGE",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Cleaver Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "conda": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Conda",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "corning": [
+  {
+   "distributor": "il_getter_co_il",
+   "site": "getter.co.il",
+   "page_url": "https://www.getter.co.il/",
+   "evidence": "Corning גטר נציגות ,חברת גטר קום קבוצת גטר",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -157,12 +567,182 @@
    "evidence_year": 2026
   }
  ],
+ "cytiva": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Cytiva",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_eisenbros_co_il",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/partners/",
+   "evidence": "pall-cytiva-logo",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "Cytiva",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "diversified biotech": [
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Diversified Biotech",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "dlab scientific": [
+  {
+   "distributor": "il_ormir_co_il",
+   "site": "ormir.co.il",
+   "page_url": "https://ormir.co.il/card-with-image/",
+   "evidence": "DLAB Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "dr weigert": [
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Dr.Weigert",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "drucker diagnostics": [
+  {
+   "distributor": "il_lapidot_com",
+   "site": "lapidot.com",
+   "page_url": "https://www.lapidot.com/business-partners/",
+   "evidence": "Drucker Diagnostics",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "edmund buehler": [
+  {
+   "distributor": "il_ormir_co_il",
+   "site": "ormir.co.il",
+   "page_url": "https://ormir.co.il/card-with-image/",
+   "evidence": "edmund-buehler.de",
+   "confidence": "contained",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_ex-lab_com",
+   "site": "ex-lab.com",
+   "page_url": "https://ex-lab.com/?taxonomy=product-category&term=benchtop",
+   "evidence": "שייקרים מיוחדים - Edmund Buehler",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "electron microscopy": [
+  {
+   "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/%d7%9e%d7%95%d7%a6%d7%a8%d7%99%d7%9d/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_rhenium_co_il",
+   "site": "rhenium.co.il",
+   "page_url": "https://rheniumbio.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/",
+   "evidence": "Electron Microscopy",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "elma": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Elma",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "eppendorf": [
+  {
+   "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Eppendorf",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "epredia": [
+  {
+   "distributor": "il_eldan_biz",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/",
+   "evidence": "epredia Logo",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "esco": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Esco",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "excel scientific": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Excel Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "ez biosystems": [
   {
    "distributor": "il_tivanbiotech_com",
    "site": "tivanbiotech.com",
    "page_url": "https://tivanbiotech.com/manufacturers",
    "evidence": "EZ Biosystems",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "falcon": [
+  {
+   "distributor": "il_lapidot_com",
+   "site": "lapidot.com",
+   "page_url": "https://www.lapidot.com/business-partners/",
+   "evidence": "Falcon",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -177,12 +757,70 @@
    "evidence_year": 2026
   }
  ],
+ "foxx life sciences": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Foxx Life Sciences",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "froggabio": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Froggabio",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "g biosciences": [
   {
    "distributor": "il_yairtech_co_il",
    "site": "yairtech.co.il",
    "page_url": "https://www.yairtech.co.il/partners/",
    "evidence": "G-Biosciences",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "gel": [
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Gel Company",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "general lab products": [
+  {
+   "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "General Lab Products",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "genetex": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "GENETEX",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "GeneTex",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -197,6 +835,24 @@
    "evidence_year": 2026
   }
  ],
+ "gilson": [
+  {
+   "distributor": "il_agentek_co_il",
+   "site": "agentek.co.il",
+   "page_url": "https://agentek.co.il/representative/gilson/",
+   "evidence": "Gilson - אגנטק",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Gilson",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "goatthroat": [
   {
    "distributor": "il_yairtech_co_il",
@@ -207,12 +863,148 @@
    "evidence_year": 2026
   }
  ],
+ "gold biotechnology": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Gold Biotechnology",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "greiner bio one": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Greiner Bio-One",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "guardian": [
+  {
+   "distributor": "il_eisenbros_co_il",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/",
+   "evidence": "Guardian",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "hach": [
+  {
+   "distributor": "il_modotec_co_il",
+   "site": "modotec.co.il",
+   "page_url": "https://www.modotec.co.il/%d7%a1%d7%a4%d7%a7%d7%98%d7%95%d7%a4%d7%95%d7%98%d7%95%d7%9e%d7%98%d7%a8%d7%99%d7%9d/",
+   "evidence": "ספקטרופוטומטרים מתוצרת HACH לבדיקות ואנליזות מים,שפכים וחומרים הומוגניים.",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "haier": [
+  {
+   "distributor": "il_ex-lab_com",
+   "site": "ex-lab.com",
+   "page_url": "https://ex-lab.com/?taxonomy=product-category&term=new-equipment",
+   "evidence": "אוטוקלב ורטיקאלי - Haier",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "hamilton": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Hamilton",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bepex_co_il",
+   "site": "bepex.co.il",
+   "page_url": "https://www.bepex.co.il/",
+   "evidence": "HAMILTON C6",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "hanna": [
+  {
+   "distributor": "il_agrolan_com",
+   "site": "agrolan.com",
+   "page_url": "http://www.agrolan.com/index.asp",
+   "evidence": "HANNA USA",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "hanna instruments": [
+  {
+   "distributor": "il_mercury-ltd_co_il",
+   "site": "mercury-ltd.co.il",
+   "page_url": "https://www.mercury-ltd.co.il/new_brands",
+   "evidence": "Hanna Instruments",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_cannadepot_co_il",
+   "site": "cannadepot.co.il",
+   "page_url": "https://cannadepot.co.il/",
+   "evidence": "hanna instruments /מכשירים האנה",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "harvard apparatus": [
   {
    "distributor": "il_nbtltd_com",
    "site": "nbtltd.com",
    "page_url": "https://nbtltd.com/products-page",
    "evidence": "Harvard Apparatus",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "heidolph": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Heidolph",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "hellma": [
+  {
+   "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Hellma",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "huber": [
+  {
+   "distributor": "il_slmoran_co_il",
+   "site": "slmoran.co.il",
+   "page_url": "https://slmoran.co.il/%d7%a1%d7%a4%d7%a7%d7%99%d7%9d/",
+   "evidence": "לוגו Huber",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "ika": [
+  {
+   "distributor": "il_slmoran_co_il",
+   "site": "slmoran.co.il",
+   "page_url": "https://slmoran.co.il/",
+   "evidence": "חדשים מ- IKA - הומוגנייזרים",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -227,12 +1019,188 @@
    "evidence_year": 2026
   }
  ],
+ "interscience": [
+  {
+   "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Interscience",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "jackson immunoresearch": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Jackson ImmunoResearch",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "julabo": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Julabo",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "kimble": [
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Kimble Chase",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "kinematica": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Kinematica",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "knf": [
+  {
+   "distributor": "il_ormir_co_il",
+   "site": "ormir.co.il",
+   "page_url": "https://ormir.co.il/card-with-image/",
+   "evidence": "KNF",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "labconco": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Labconco",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "labnet": [
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Labnet",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "lauda": [
+  {
+   "distributor": "il_avni-son_co_il",
+   "site": "avni-son.co.il",
+   "page_url": "https://avni-son.co.il/",
+   "evidence": "Lauda מערכות חימום / קירור / צ'ילרים",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "list biological laboratories": [
   {
    "distributor": "il_doronscientific_com",
    "site": "doronscientific.com",
    "page_url": "https://doronscientific.com/products/",
    "evidence": "List Biological Laboratories",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "lonza": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "Lonza",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "lovibond": [
+  {
+   "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Lovibond",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "lucigen": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Lucigen Corporation (Biosearch Technologies)",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "lvl technologies": [
+  {
+   "distributor": "il_eisenbros_co_il",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/partners/",
+   "evidence": "LVL-technologies-logo-no-bg",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "macherey nagel": [
+  {
+   "distributor": "il_eldan_biz",
+   "site": "eldan.biz",
+   "page_url": "https://www.eldan.biz/our-partners/",
+   "evidence": "MACHEREY-NAGEL",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "Macherey-Nagel (MN)",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "MACHEREY-NAGEL",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "marienfeld": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Marienfeld GmbH & Co.KG",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "medchemexpress": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "MedChemExpress",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -247,12 +1215,116 @@
    "evidence_year": 2026
   }
  ],
+ "memmert": [
+  {
+   "distributor": "il_electrotherm_co_il",
+   "site": "electrotherm.co.il",
+   "page_url": "https://www.electrotherm.co.il/",
+   "evidence": "Memmert",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "merck": [
+  {
+   "distributor": "il_mercury-ltd_co_il",
+   "site": "mercury-ltd.co.il",
+   "page_url": "https://www.mercury-ltd.co.il/",
+   "evidence": "MERCK",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Merck",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "metrohm": [
+  {
+   "distributor": "il_isil_co_il",
+   "site": "isil.co.il",
+   "page_url": "https://www.isil.co.il/Analytical-Instruments",
+   "evidence": "METROHM",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Metrohm",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "mettler toledo": [
+  {
+   "distributor": "il_agentek_co_il",
+   "site": "agentek.co.il",
+   "page_url": "https://agentek.co.il/representative/mettler-toledo/",
+   "evidence": "Mettler Toledo - אגנטק",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Mettler-Toledo Online",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "micronic": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Micronic",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "miles scientific": [
   {
    "distributor": "il_yairtech_co_il",
    "site": "yairtech.co.il",
    "page_url": "https://www.yairtech.co.il/partners/",
    "evidence": "Miles Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "mirus bio": [
+  {
+   "distributor": "il_zotal_co_il",
+   "site": "zotal.co.il",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Mirus bio",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "mp biomedicals": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "MP Biomedicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "msa": [
+  {
+   "distributor": "il_getter_co_il",
+   "site": "getter.co.il",
+   "page_url": "https://www.getter.co.il/%d7%a0%d7%a6%d7%99%d7%92%d7%95%d7%99%d7%95%d7%aa-%d7%90%d7%a1%d7%98%d7%a8%d7%98%d7%92%d7%99%d7%95%d7%aa/",
+   "evidence": "MSA",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -267,6 +1339,66 @@
    "evidence_year": 2026
   }
  ],
+ "nabertherm": [
+  {
+   "distributor": "il_electrotherm_co_il",
+   "site": "electrotherm.co.il",
+   "page_url": "https://www.electrotherm.co.il/",
+   "evidence": "Nabertherm",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "new england biolabs": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/our-partners-reagents/",
+   "evidence": "New England Biolabs (NEB)",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "next advance": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/instruments/",
+   "evidence": "Next Advance",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "nikon": [
+  {
+   "distributor": "il_agentek_co_il",
+   "site": "agentek.co.il",
+   "page_url": "https://agentek.co.il/representative/nikon/",
+   "evidence": "Nikon - אגנטק",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "nova biomedical": [
+  {
+   "distributor": "il_agentek_co_il",
+   "site": "agentek.co.il",
+   "page_url": "https://agentek.co.il/representative/nova-biomedical/",
+   "evidence": "NOVA Biomedical - אגנטק",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "novoprotein": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Novoprotein",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "nsj bioreagents": [
   {
    "distributor": "il_doronscientific_com",
@@ -277,12 +1409,88 @@
    "evidence_year": 2026
   }
  ],
+ "nusep": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "NuSep",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "oakton": [
+  {
+   "distributor": "il_slmoran_co_il",
+   "site": "slmoran.co.il",
+   "page_url": "https://slmoran.co.il/products_cat/%d7%91%d7%93%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%99%d7%9d-%d7%90%d7%a0%d7%9c%d7%99%d7%96%d7%94-water-anlysis/",
+   "evidence": "Oakton Ctstestr 50",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
  "ohaus": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Ohaus",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/manufacturer/scientific-industries",
+   "evidence": "OHAUS",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
   {
    "distributor": "il_yairtech_co_il",
    "site": "yairtech.co.il",
    "page_url": "https://www.yairtech.co.il/partners/",
    "evidence": "OHAUS",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "omega bio tek": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "Omega Bio-Tek",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "omni": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "OMNI",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "optika": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Optika",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "oxford instruments": [
+  {
+   "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "Oxford Instruments",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -297,12 +1505,286 @@
    "evidence_year": 2026
   }
  ],
+ "pcr biosystems": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "PCR Biosystems",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "peak scientific": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Peak Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "perkinelmer": [
+  {
+   "distributor": "il_isil_co_il",
+   "site": "isil.co.il",
+   "page_url": "https://www.isil.co.il/Analytical-Instruments",
+   "evidence": "PerkinElmer Analytical Instruments",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "pro scientific": [
+  {
+   "distributor": "il_ormir_co_il",
+   "site": "ormir.co.il",
+   "page_url": "https://ormir.co.il/card-with-image/",
+   "evidence": "PRO Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "promega": [
+  {
+   "distributor": "il_bemek_co_il",
+   "site": "bemek.co.il",
+   "page_url": "https://www.bemek.co.il/",
+   "evidence": "Promega",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "promocell": [
+  {
+   "distributor": "il_eisenbros_co_il",
+   "site": "eisenbros.co.il",
+   "page_url": "https://eisenbros.co.il/product-category/life-sciences-and-healthcare/cell-biology/",
+   "evidence": "Promocell",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bemek_co_il",
+   "site": "bemek.co.il",
+   "page_url": "https://www.bemek.co.il/",
+   "evidence": "PromoCell",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "prosci": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "ProSci Incorporated",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "qiagen": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Qiagen",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "qsonica": [
+  {
+   "distributor": "il_lumitron_co_il",
+   "site": "lumitron.co.il",
+   "page_url": "https://www.lumitron.co.il/",
+   "evidence": "Qsonica",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "quidel": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Quidel",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "reagecon": [
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Reagecon",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "retsch": [
+  {
+   "distributor": "il_avni-son_co_il",
+   "site": "avni-son.co.il",
+   "page_url": "https://avni-son.co.il/",
+   "evidence": "מטחנות תוצרת RETSCH",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "revvity": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "Revvity",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Revvity",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "rockland immunochemicals": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Rockland Immunochemicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "rotronics": [
+  {
+   "distributor": "il_agrolan_com",
+   "site": "agrolan.com",
+   "page_url": "http://www.agrolan.com/index.asp",
+   "evidence": "Rotronics - CH",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "santa cruz biotechnology": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Santa Cruz Biotechnology",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "sarstedt": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "SARSTEDT",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "scientific industries": [
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/",
+   "evidence": "Scientific Industries",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "scinomix": [
+  {
+   "distributor": "il_bargal_co_il",
+   "site": "bargal.co.il",
+   "page_url": "https://bargal.co.il/",
+   "evidence": "Scinomix Israel",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
  "selleck chemicals": [
   {
    "distributor": "il_tivanbiotech_com",
    "site": "tivanbiotech.com",
    "page_url": "https://tivanbiotech.com/manufacturers",
    "evidence": "Selleck Chemicals",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "sensoquest": [
+  {
+   "distributor": "il_danyel_co_il",
+   "site": "danyel.co.il",
+   "page_url": "https://www.danyel.co.il/",
+   "evidence": "SensoQuest",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "serva": [
+  {
+   "distributor": "il_tamar_co_il",
+   "site": "tamar.co.il",
+   "page_url": "https://www.tamar.co.il/represented-companies/",
+   "evidence": "SERVA",
+   "confidence": "exact",
+   "evidence_year": 2026
+  },
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "SERVA",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "shel lab": [
+  {
+   "distributor": "il_ormir_co_il",
+   "site": "ormir.co.il",
+   "page_url": "https://ormir.co.il/card-with-image/",
+   "evidence": "SHEL LAB",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "sino biological": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Sino Biological",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "sorenson": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/consumables/",
+   "evidence": "Sorenson",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "stemcell technologies": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "STEMCELL Technologies",
    "confidence": "exact",
    "evidence_year": 2026
   }
@@ -325,6 +1807,66 @@
    "evidence_year": 2026
   }
  ],
+ "tci": [
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "TCI",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "tecan": [
+  {
+   "distributor": "il_yarden-biotec_co_il",
+   "site": "yarden-biotec.co.il",
+   "page_url": "https://www.yarden-biotec.co.il/manufacturer/usa-scientific",
+   "evidence": "טיפים ל Tecan, מוליכים",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "terumo": [
+  {
+   "distributor": "il_bepex_co_il",
+   "site": "bepex.co.il",
+   "page_url": "https://www.bepex.co.il/",
+   "evidence": "ביו-ריאקטור אוטומטי מבית TERUMO BCT",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "thermo scientific": [
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "Thermo Scientific",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "thermo scientific sorvall": [
+  {
+   "distributor": "il_citrinesolutions_co_il",
+   "site": "citrinesolutions.co.il",
+   "page_url": "https://www.citrinesolutions.co.il/?module=catalog&item_id=5&c_id=1",
+   "evidence": "צנטריפוגה רצפתית מקוררת Thermo Scientific Sorvall RC 3BP+ Centrifuge",
+   "confidence": "contained",
+   "evidence_year": 2026
+  }
+ ],
+ "tpp": [
+  {
+   "distributor": "il_lifegene_co_il",
+   "site": "lifegene.co.il",
+   "page_url": "https://www.lifegene.co.il/",
+   "evidence": "TPP",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "trippnt": [
   {
    "distributor": "il_yairtech_co_il",
@@ -335,12 +1877,82 @@
    "evidence_year": 2026
   }
  ],
+ "uvitec": [
+  {
+   "distributor": "il_ornat_co_il",
+   "site": "ornat.co.il",
+   "page_url": "https://ornat.co.il/instruments/",
+   "evidence": "Uvitec",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "vacuubrand": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "Vacuubrand",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "vector laboratories": [
+  {
+   "distributor": "il_zotal_co_il",
+   "site": "zotal.co.il",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Vector Laboratories",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "velp": [
+  {
+   "distributor": "il_labotal_co_il",
+   "site": "labotal.co.il",
+   "page_url": "https://labotal.co.il/represented-firms/",
+   "evidence": "VELP",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "worthington biochemical": [
+  {
+   "distributor": "il_enco_co_il",
+   "site": "enco.co.il",
+   "page_url": "https://www.enco.co.il/suppliers.php",
+   "evidence": "Worthington Biochemical",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
  "wpi": [
   {
    "distributor": "il_nbtltd_com",
    "site": "nbtltd.com",
    "page_url": "https://nbtltd.com/products-page",
    "evidence": "WPI",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "wtw": [
+  {
+   "distributor": "il_bdl_co_il",
+   "site": "bdl.co.il",
+   "page_url": "https://www.bdl.co.il/Search.aspx?Category=Chemistry&FCD=1",
+   "evidence": "WTW",
+   "confidence": "exact",
+   "evidence_year": 2026
+  }
+ ],
+ "zymo research": [
+  {
+   "distributor": "il_zotal_co_il",
+   "site": "zotal.co.il",
+   "page_url": "https://www.zotal.co.il/brands/",
+   "evidence": "Zymo Research",
    "confidence": "exact",
    "evidence_year": 2026
   }
