@@ -18729,14 +18729,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
+   "israel_entities": [
+    {
+     "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+     "name_he": "אורנת",
+     "type": "distributor",
+     "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated",
+     "website": "https://www.ornat.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.fiseb.org/vendors/",
+     "evidence_year": null,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
    "israel_evidence_year": null,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -18746,7 +18764,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://www.fiseb.org/vendors/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -43599,14 +43618,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+     "name_he": "אנקו",
+     "type": "distributor",
+     "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)",
+     "website": "https://www.enco.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.enco.co.il/about.php",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -43617,7 +43654,8 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/jackson-immunoresearch"
+    "https://www.thomassci.com/browse-by/suppliers/jackson-immunoresearch",
+    "https://www.enco.co.il/about.php"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -49863,14 +49901,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
+   "israel_entities": [
+    {
+     "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+     "name_he": "אורנת",
+     "type": "distributor",
+     "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated",
+     "website": "https://www.ornat.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.fiseb.org/vendors/",
+     "evidence_year": null,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
    "israel_evidence_year": null,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -49881,7 +49937,8 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/lonza"
+    "https://www.thomassci.com/browse-by/suppliers/lonza",
+    "https://www.fiseb.org/vendors/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -50567,14 +50624,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
+   "israel_entities": [
+    {
+     "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+     "name_he": "אורנת",
+     "type": "distributor",
+     "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated",
+     "website": "https://www.ornat.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.fiseb.org/vendors/",
+     "evidence_year": null,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
    "israel_evidence_year": null,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -50585,7 +50660,8 @@
    },
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:Macherey+Nagel",
-    "https://www.thomassci.com/browse-by/suppliers/macherey-nagel"
+    "https://www.thomassci.com/browse-by/suppliers/macherey-nagel",
+    "https://www.fiseb.org/vendors/"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -56051,14 +56127,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+     "name_he": "אנקו",
+     "type": "distributor",
+     "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)",
+     "website": "https://www.enco.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.enco.co.il/about.php",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -56069,7 +56163,8 @@
    },
    "sources": [
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/mp-biomedicals"
+    "https://www.thomassci.com/browse-by/suppliers/mp-biomedicals",
+    "https://www.enco.co.il/about.php"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -61582,14 +61677,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
+   "israel_entities": [
+    {
+     "name": "Tivan Biotech",
+     "name_he": "טיבן ביוטק",
+     "type": "distributor",
+     "scope": "OZ Biosciences announced Tivan Biotech as its distributor in Israel (blog post, undated)",
+     "website": "https://www.tivanbiotech.com",
+     "phone": null,
+     "email": "customerservice@tivanbiotech.com",
+     "address": null,
+     "contact_url": null,
+     "source": "https://ozbiosciences.com/blog/welcome-to-our-new-distributor-in-israel-n6",
+     "evidence_year": null,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
    "israel_evidence_year": null,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -61601,7 +61714,8 @@
    "sources": [
     "https://www.dutscher.com/search?initialFilters=brand:OZ+Biosciences",
     "https://www.quartzy.com/suppliers",
-    "https://www.thomassci.com/browse-by/suppliers/oz-biosciences"
+    "https://www.thomassci.com/browse-by/suppliers/oz-biosciences",
+    "https://ozbiosciences.com/blog/welcome-to-our-new-distributor-in-israel-n6"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -70998,14 +71112,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+     "name_he": "אנקו",
+     "type": "distributor",
+     "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)",
+     "website": "https://www.enco.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.enco.co.il/about.php",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -71015,7 +71147,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://www.enco.co.il/about.php"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -76934,14 +77067,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+     "name_he": "אנקו",
+     "type": "distributor",
+     "scope": "Enco's About page lists 'Stem Cell' among distributed brands - most likely STEMCELL Technologies; to confirm",
+     "website": "https://www.enco.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.enco.co.il/about.php",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": "contained",
+     "match_text": null
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -76951,7 +77102,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://www.enco.co.il/about.php"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -87134,14 +87286,32 @@
    "revenue": null,
    "size_basis": "unknown",
    "products": [],
-   "israel_presence": "not_found_in_sweep",
-   "israel_presence_he": "לא נמצא בסריקת המפיצים",
+   "israel_presence": "distributor",
+   "israel_presence_he": "מפיץ/נציג בישראל",
    "israel_check": "sweep",
    "israel_check_he": "סריקת אתרי מפיצים",
-   "israel_entities": [],
-   "israel_evidence_year": null,
+   "israel_entities": [
+    {
+     "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+     "name_he": "אנקו",
+     "type": "distributor",
+     "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)",
+     "website": "https://www.enco.co.il",
+     "phone": null,
+     "email": null,
+     "address": null,
+     "contact_url": null,
+     "source": "https://www.enco.co.il/about.php",
+     "evidence_year": 2026,
+     "status": "current",
+     "match_basis": "manufacturer_or_press",
+     "match_confidence": null,
+     "match_text": null
+    }
+   ],
+   "israel_evidence_year": 2026,
    "israel_note": null,
-   "israel_current": null,
+   "israel_current": "confirmed_current",
    "contact": {
     "phone": "",
     "email": null,
@@ -87151,7 +87321,8 @@
     "note": null
    },
    "sources": [
-    "https://www.quartzy.com/suppliers"
+    "https://www.quartzy.com/suppliers",
+    "https://www.enco.co.il/about.php"
    ],
    "prior_verified": false,
    "prior_verified_at": null
@@ -88975,6 +89146,55 @@
    "count": 6
   },
   {
+   "key": "enco.co.il",
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "name_he": "אנקו",
+   "type": "distributor",
+   "website": "https://www.enco.co.il",
+   "phone": null,
+   "email": null,
+   "address": null,
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 689,
+     "name": "Jackson ImmunoResearch",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 885,
+     "name": "MP Biomedicals",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 1112,
+     "name": "Santa Cruz Biotechnology",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 1210,
+     "name": "STEMCELL Technologies",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 1363,
+     "name": "Worthington Biochemical",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "manufacturer_or_press"
+    }
+   ],
+   "count": 5
+  },
+  {
    "key": "tamar.co.il",
    "name": "Tamar Laboratory Supplies",
    "name_he": "תמר ציוד מעבדתי",
@@ -89051,6 +89271,48 @@
     {
      "id": 989,
      "name": "PHCBI",
+     "status": "current",
+     "evidence_year": 2026,
+     "match_basis": "prior_research"
+    }
+   ],
+   "count": 4
+  },
+  {
+   "key": "ornat.co.il",
+   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+   "name_he": "אורנת",
+   "type": "distributor",
+   "website": "https://www.ornat.co.il",
+   "phone": "+972-8-9477077",
+   "email": "ornatbio@ornat.co.il",
+   "address": "19 Horvitz Eli St., Rehovot 7608802",
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 294,
+     "name": "Cell Signaling Technology",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 786,
+     "name": "Lonza",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 798,
+     "name": "Macherey Nagel",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
+    },
+    {
+     "id": 915,
+     "name": "New England Biolabs (NEB)",
      "status": "current",
      "evidence_year": 2026,
      "match_basis": "prior_research"
@@ -90053,27 +90315,6 @@
    "count": 1
   },
   {
-   "key": "ornat.co.il",
-   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
-   "name_he": "אורנת",
-   "type": "distributor",
-   "website": "https://www.ornat.co.il",
-   "phone": "+972-8-9477077",
-   "email": "ornatbio@ornat.co.il",
-   "address": "19 Horvitz Eli St., Rehovot 7608802",
-   "contact_url": "",
-   "suppliers": [
-    {
-     "id": 915,
-     "name": "New England Biolabs (NEB)",
-     "status": "current",
-     "evidence_year": 2026,
-     "match_basis": "prior_research"
-    }
-   ],
-   "count": 1
-  },
-  {
    "key": "advanced",
    "name": "Advanced Technological Solutions Ltd. (ATSL)",
    "name_he": "",
@@ -90111,6 +90352,27 @@
      "status": "new",
      "evidence_year": 2026,
      "match_basis": "prior_research"
+    }
+   ],
+   "count": 1
+  },
+  {
+   "key": "tivanbiotech.com",
+   "name": "Tivan Biotech",
+   "name_he": "טיבן ביוטק",
+   "type": "distributor",
+   "website": "https://www.tivanbiotech.com",
+   "phone": null,
+   "email": "customerservice@tivanbiotech.com",
+   "address": null,
+   "contact_url": null,
+   "suppliers": [
+    {
+     "id": 967,
+     "name": "OZ Biosciences",
+     "status": "current",
+     "evidence_year": null,
+     "match_basis": "manufacturer_or_press"
     }
    ],
    "count": 1

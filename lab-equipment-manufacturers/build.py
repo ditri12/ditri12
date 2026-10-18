@@ -186,21 +186,27 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     seen_names = {re.sub(r"[^a-z0-9]", "", (e.get("name") or "").lower())[:10] for e in ents}
     sweep_hits = []
     for h in (il_matches or []):
-        reg = il_reg.get(h["distributor"]) or {}
-        host = domain_of(reg.get("website") or h.get("site"))
-        if host in seen_hosts:
+        reg = il_reg.get(h.get("distributor")) if h.get("distributor") else None
+        reg = reg or {}
+        host = domain_of(reg.get("website") or h.get("website") or h.get("site"))
+        if host and host in seen_hosts:
             continue
-        nm = reg.get("name") or h.get("site")
-        nkey = re.sub(r"[^a-z0-9]", "", nm.lower())[:10]
+        nm = h.get("name") or reg.get("name") or h.get("site")
+        nkey = re.sub(r"[^a-z0-9]", "", (nm or "").lower())[:10]
         if nkey in seen_names:
             continue
-        seen_hosts.add(host)
+        if host:
+            seen_hosts.add(host)
         seen_names.add(nkey)
-        ents.append({"name": nm, "name_he": reg.get("name_he"), "type": "distributor", "scope": h.get("scope") or "listed as a brand on the distributor's site",
-                     "website": reg.get("website") or ("https://" + host if host else None), "phone": reg.get("phone"), "email": reg.get("email"),
-                     "address": reg.get("address"), "contact_url": reg.get("contact_url"), "source": h.get("page_url"),
-                     "evidence_year": h.get("evidence_year") or 2026, "status": "current", "match_basis": "distributor_site_sweep",
-                     "match_confidence": h.get("confidence"), "match_text": h.get("evidence")})
+        ents.append({"name": nm, "name_he": h.get("name_he") or reg.get("name_he"), "type": h.get("type") or "distributor",
+                     "scope": h.get("scope") or "listed as a brand on the distributor's site",
+                     "website": h.get("website") or reg.get("website") or ("https://" + host if host else None),
+                     "phone": h.get("phone") or reg.get("phone"), "email": h.get("email") or reg.get("email"),
+                     "address": h.get("address") or reg.get("address"), "contact_url": h.get("contact_url") or reg.get("contact_url"),
+                     "source": h.get("source") or h.get("page_url"),
+                     "evidence_year": h.get("evidence_year") if "evidence_year" in h else 2026, "status": h.get("status") or "current",
+                     "match_basis": h.get("match_basis") or "distributor_site_sweep",
+                     "match_confidence": h.get("match_confidence") or h.get("confidence"), "match_text": h.get("evidence")})
         sweep_hits.append(h)
     if ov.get("israel_presence"):
         presence = ov["israel_presence"]
@@ -249,6 +255,7 @@ def build_row(m, prior, res, il_matches, il_reg, prods, site_contact, ov):
     srcs += [h.get("page_url") for h in sweep_hits if h.get("page_url")]
     if sc.get("source"):
         srcs.append(sc["source"])
+    srcs += [h.get("source") for h in sweep_hits if h.get("source")]
     r["sources"] = list(dict.fromkeys(s for s in srcs if s))
     r["prior_verified"] = bool(prior)
     r["prior_verified_at"] = prior.get("verified_at")
@@ -260,6 +267,9 @@ def load_rows():
     prior = load_json(ENRICH / "prior_research.json", {})
     resolved = {x["key"]: x for x in load_json(ENRICH / "resolved.json", [])}
     il = load_json(ENRICH / "israel_matches.json", {})
+    for k, hits in load_json(ENRICH / "israel_knowledge.json", {}).items():
+        il.setdefault(k, [])
+        il[k] = list(hits) + il[k]
     il_reg = load_json(RESEARCH / "israel" / "distributors.json", {})
     prods = load_json(ENRICH / "catalog_products.json", {})
     contacts = load_json(ENRICH / "site_contacts.json", {})

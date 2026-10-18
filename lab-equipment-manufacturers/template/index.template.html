@@ -103,7 +103,7 @@ const PRES_CLS = {subsidiary:'ok',distributor:'ok',parent_subsidiary:'info',none
 const ETYPE = {subsidiary:'חברה-בת',distributor:'מפיץ',service:'שירות',office:'משרד'};
 const ESTAT = {current:'עדכני',older_evidence:'ראיה ישנה',no_longer:'לא עוד',new:'חדש'};
 const SRC_HE = {prior:'מחקר קודם מאומת',wikidata:'Wikidata',clearbit:'Clearbit (זיהוי דומיין)',manual:'ידני',site:'אתר החברה',catalog:'קטלוג',thomassci:'Thomas Scientific',dutscher:'Dutscher'};
-const BASIS_HE = {prior_research:'מחקר קודם מאומת',distributor_site_sweep:'סריקת אתר המפיץ'};
+const BASIS_HE = {prior_research:'מחקר קודם מאומת',distributor_site_sweep:'סריקת אתר המפיץ',manufacturer_or_press:'אתר היצרן / המפיץ / פרסום'};
 const CONF_HE = {exact:'התאמה מדויקת',contained:'שם מופיע בשורה'};
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt = n => n==null?'':Number(n).toLocaleString('en-US');

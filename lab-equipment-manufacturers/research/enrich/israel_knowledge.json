@@ -1,0 +1,134 @@
+{
+ "santa cruz biotechnology": [
+  {
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "name_he": "אנקו",
+   "website": "https://www.enco.co.il",
+   "type": "distributor",
+   "source": "https://www.enco.co.il/about.php",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)"
+  }
+ ],
+ "jackson immunoresearch": [
+  {
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "name_he": "אנקו",
+   "website": "https://www.enco.co.il",
+   "type": "distributor",
+   "source": "https://www.enco.co.il/about.php",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)"
+  }
+ ],
+ "mp biomedicals": [
+  {
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "name_he": "אנקו",
+   "website": "https://www.enco.co.il",
+   "type": "distributor",
+   "source": "https://www.enco.co.il/about.php",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)"
+  }
+ ],
+ "worthington biochemical": [
+  {
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "name_he": "אנקו",
+   "website": "https://www.enco.co.il",
+   "type": "distributor",
+   "source": "https://www.enco.co.il/about.php",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Enco's About page lists the brand among the international companies it distributes in Israel (antibodies/biochemicals)"
+  }
+ ],
+ "stemcell technologies": [
+  {
+   "name": "Enco Scientific Services Ltd. (Enco Diagnostics)",
+   "name_he": "אנקו",
+   "website": "https://www.enco.co.il",
+   "type": "distributor",
+   "source": "https://www.enco.co.il/about.php",
+   "evidence_year": 2026,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Enco's About page lists 'Stem Cell' among distributed brands - most likely STEMCELL Technologies; to confirm",
+   "match_confidence": "contained"
+  }
+ ],
+ "new england biolabs": [
+  {
+   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+   "name_he": "אורנת",
+   "website": "https://www.ornat.co.il",
+   "type": "distributor",
+   "source": "https://www.fiseb.org/vendors/",
+   "evidence_year": null,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated"
+  }
+ ],
+ "cell signaling technology": [
+  {
+   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+   "name_he": "אורנת",
+   "website": "https://www.ornat.co.il",
+   "type": "distributor",
+   "source": "https://www.fiseb.org/vendors/",
+   "evidence_year": null,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated"
+  }
+ ],
+ "lonza": [
+  {
+   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+   "name_he": "אורנת",
+   "website": "https://www.ornat.co.il",
+   "type": "distributor",
+   "source": "https://www.fiseb.org/vendors/",
+   "evidence_year": null,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated"
+  }
+ ],
+ "macherey nagel": [
+  {
+   "name": "Ornat BioChemicals & Lab Equipment Ltd.",
+   "name_he": "אורנת",
+   "website": "https://www.ornat.co.il",
+   "type": "distributor",
+   "source": "https://www.fiseb.org/vendors/",
+   "evidence_year": null,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "Listed as Ornat partner brand on the FISEB (Federation of Israeli Societies for Experimental Biology) vendors page; undated"
+  }
+ ],
+ "oz biosciences": [
+  {
+   "name": "Tivan Biotech",
+   "name_he": "טיבן ביוטק",
+   "website": "https://www.tivanbiotech.com",
+   "type": "distributor",
+   "email": "customerservice@tivanbiotech.com",
+   "source": "https://ozbiosciences.com/blog/welcome-to-our-new-distributor-in-israel-n6",
+   "evidence_year": null,
+   "status": "current",
+   "match_basis": "manufacturer_or_press",
+   "scope": "OZ Biosciences announced Tivan Biotech as its distributor in Israel (blog post, undated)"
+  }
+ ]
+}
