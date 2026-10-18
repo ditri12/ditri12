@@ -1,0 +1,172 @@
+Physiological Monitoring System for Small Animals (HPMS) - NBT
+
+Home
+Products
+Medical
+Our Projects
+Support
+About Us
+Blog
+Webinars
+Contact Us
+Contact Us
+
+75-1500 / 75-1501 / 75-1557 / 75-1558
+Animal Behavior and Physiology
+Physiological Monitoring System for Small Animals (HPMS)
+The Harvard Apparatus HPMS is a compact, multi-parameter platform that simultaneously records ECG, respiration, heart rate, and body temperature on a heated surface sized for mice or rats. Add-on modules extend the system to capture blood pressure, exhaled CO₂, and SpO₂. All data streams wirelessly to an Android tablet for real-time visualization and effortless export to LabChart, Excel, or MATLAB.
+Request Quote
+Overview
+Specifications
+Gallery
+Applications
+Downloads
+Publications
+FAQ
+What is the HPMS?
+The Harvard Apparatus Physiological Monitoring System (HPMS) is a compact, multi-parameter platform that lets researchers monitor every vital sign of a small animal during surgery from a single touchscreen tablet. The system was built to replace the patchwork of separate monitors that traditionally clutter a microsurgery bench - one heated platform, one wireless link, one display, and seamless data export to your analysis tool of choice.
+Whether you are working on mice as small as 10 g or rats up to 600 g, HPMS measures temperature, ECG, and respiration straight out of the box, and can be expanded with optional modules for blood pressure, exhaled CO
+2
+, and SpO
+2
+. A closed-loop heated surface keeps the animal at a precisely controlled temperature throughout the procedure, while real-time waveforms and numeric values stream wirelessly to the included Android tablet.
+Key Features
+Multi-parameter monitoring on a single platform: Temperature, ECG, respiration, heart rate, and breath rate are recorded simultaneously, with optional modules for blood pressure, CO
+2
+, and SpO
+2
+.
+Heated platform with closed-loop temperature control: PID-controlled surface up to 45 °C with 0.1 °C resolution and ±0.1 °C accuracy maintains stable physiological conditions throughout long procedures.
+Wireless tablet display: Data streams over a wireless link from the platform to an 8" or 10" Android tablet. Customizable real-time waveforms and numeric readouts on three configurable graphs.
+Compact footprint, fast setup: Two platform sizes (mouse-only or rat-and-mouse) fit easily onto a stereotaxic stage with minimal cable management and short pre-procedure setup time.
+Open data export: Recordings convert to LabChart (.adibin), Excel, MATLAB, and CSV via included scripts and conversion tools.
+Field-upgradable: Blood pressure and SpO
+2
+modules can be activated by software key after purchase; the CO
+2
+module is added via an RMA retrofit.
+Configurable analog outputs: Four BNC analog outputs (±5 V, 1 kHz, 16-bit) integrate the platform with existing acquisition systems.
+NEED MORE INFORMATION ABOUT THIS PRODUCT?
+Send us your email
+Send us your email
+Technical Specifications
+Catalog Numbers
+75-1500 (Mouse, 8" tablet) · 75-1501 (Mouse & Rat, 8" tablet) · 75-1557 (Mouse, 10" tablet) · 75-1558 (Mouse & Rat, 10" tablet)
+Animal Weight Range
+Mouse platforms: 10–100 g · Mouse & rat platforms: 10–600 g
+ECG Display Leads
+I, II, III, aVL, aVR, aVF
+ECG Acquisition Rate
+1 kHz, 24-bit
+Electrode Connections
+3 external electrodes (2 mm connectors)
+Respiration Acquisition Rate
+250 Hz
+Heart Rate Range
+200–800 bpm (calculated each second)
+Breath Rate Range
+25–330 breaths/min (calculated each second)
+Heated Platform Surface
+Up to 45 °C, 0.1 °C resolution, ±0.1 °C accuracy, closed-loop PID control
+Blood Pressure (optional, 75-1502)
+Full waveform display with systolic / diastolic numeric readout (Redel 5-pin transducer connector; APT-300 / 73-4905 recommended)
+Exhaled CO
+2
+(optional, 75-1503)
+1 Hz refresh, 0.1% accuracy (1/8" tubing connection)
+SpO
+2
+(optional, 75-1504)
+80–100% range, 250 Hz / 24-bit, red & infrared channel display
+Mouse Platform Dimensions
+10 cm (W) × 21 cm (L) × 2.9 cm (D)
+Rat & Mouse Platform Dimensions
+12 cm (W) × 30.4 cm (L) × 2.9 cm (D)
+Tablet Display
+8" or 10" high-resolution Android touchscreen, 5–8 h battery life, >400 h on-board recording capacity
+Communication Module
+9 × 11 × 2.5 cm enclosure; 100–240 V power supply; separate enclosure to avoid wireless/analog interference
+Wireless Range
+15–25 m between communication module and tablet
+Analog Outputs
+4 × BNC, ±5 V, 1 kHz, 16-bit
+Data Export
+CSV converter, MATLAB & Excel import scripts, LabChart-compatible (.adibin)
+Applications
+Vital-signs monitoring during stereotaxic and microsurgical procedures on mice and rats
+Cardiovascular research - ECG morphology, heart rate variability, and blood pressure waveform analysis
+Respiratory physiology and ventilation studies
+Anaesthesia monitoring and homeothermic management during long surgical preparations
+Pre-clinical safety pharmacology and acute toxicity assessment
+Recovery and acute physiology studies in small-animal models
+Small Animal Telemetry
+Explore All Products
+In Vivo Recording
+Explore All Products
+Anesthesia
+Explore All Products
+HPMS Brochure
+HPMS User's Manual
+HPMS Publications
+Peer-reviewed research using the Harvard Apparatus Physiological Monitoring System
+The HPMS is widely cited in publications spanning small-animal cardiovascular surgery, anaesthesia monitoring, stroke and ischemia models, and acute respiratory physiology. Researchers rely on the system for stable temperature control and continuous ECG, blood pressure, and SpO₂ acquisition during in vivo procedures.
+What is the HPMS Physiological Monitoring System and what is it used for?
+The Harvard Apparatus HPMS is a compact, multi-parameter monitoring platform that simultaneously records temperature, ECG, respiration, heart rate, and breath rate from mice and rats during surgery and acute physiology procedures. Optional modules extend the system with blood pressure, exhaled CO₂, and SpO₂. Data streams wirelessly to a touchscreen Android tablet for real-time visualization and easy export to LabChart, Excel, or MATLAB.
+What research applications is the HPMS suited for?
+The HPMS Physiological Monitoring System is widely used across cardiovascular and respiratory physiology, stroke and ischemia models, anaesthesia monitoring, stereotaxic and microsurgical procedures, and pre-clinical safety pharmacology. It is designed for any in-vivo workflow that requires continuous, multi-parameter monitoring of small animals on a precisely heated platform with wireless data export.
+What are the key technical features of the HPMS?
+The HPMS combines a closed-loop heated platform (up to 45 °C, 0.1 °C resolution, ±0.1 °C accuracy) with 1 kHz / 24-bit ECG (six display leads), 250 Hz respiration acquisition, heart-rate detection from 200–800 bpm, four configurable BNC analog outputs (±5 V, 1 kHz, 16-bit), and a 15–25 m wireless link to an 8″ or 10″ Android tablet with over 400 hours of on-board recording capacity. Optional modules add blood pressure, exhaled CO₂, and SpO₂ measurement.
+Is the HPMS available in Israel with local support?
+Yes. NBT Ltd is the exclusive distributor of Harvard Apparatus in Israel. Our team of scientific specialists provides full local support including installation, application training, and ongoing technical assistance for the HPMS Physiological Monitoring System.
+What accessories or systems is the HPMS compatible with?
+The HPMS pairs with the APT-300 (73-4905) blood pressure transducer or any compatible Redel 5-pin transducer, Harvard-supplied SpO₂ sensors and rectal probes, head-fixation devices for mouse and rat platforms (75-1540 to 75-1543), an anaesthesia Bain circuit holder (75-1539), and tail-vein adapters. Recordings export directly to ADInstruments LabChart, MATLAB, and Excel via the included conversion tools. NBT Ltd can advise on the optimal configuration for your study.
+Still have questions?
+Can’t find the answer you’re looking for? Please chat to our friendly team.
+Contact Us
+Related Products:
+ThermoStar Homeothermic Monitoring System
+Read More
+RoVent®-Advanced small animal ventilator
+Read More
+iPRECIO Micro Infusion Pumps
+Read More
+Request for Quote
+Please fill in as much details as possible and we will take care of your request as soon as possible
+Full Name *
+Head of Lab / Company *
+Email *
+Phone Number
+Product Name *
+Cat No.
+Message
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Request for Quote
+Please fill in as much details as possible and we will take care of your request as soon as possible
+Request Quote
+X
+Let's discuss your specific needs
+Request Quote
+Start your research
+journey today
+Primary Pages
+Home
+All Products
+About Us
+Contact Us
+Cognitive Neuroscience
+Animal Behavior and Physiology
+Cell Neurobiology & Imaging
+Microfluidics and Organ-on-a-Chip
+Biomechanics & Motion Capture
+Blog
+News
+Events
+Israeli Projects
+Utility Pages
+Accessibility Statement
+Terms & Conditions
+Privacy Policy
+© NBT - New Biotechnology Ltd - 2026
+Built by
+DuoDiv

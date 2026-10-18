@@ -1,0 +1,250 @@
+Arqus – Extreme Performance Motion Capture Camera - NBT
+
+Home
+Products
+Medical
+Our Projects
+Support
+About Us
+Blog
+Webinars
+Contact Us
+Contact Us
+
+Arqus A5 / A9 / A12 / A26
+Biomechanics & Motion Capture
+Arqus – Extreme Performance Motion Capture Camera
+Qualisys' highest-performing motion capture camera platform. Four models from 5 MP up to 26 MP, full-FOV frame rates up to 1,400 fps, marker detection at 50 m, full-pipeline latency down to 3 ms, daisy-chained networking and an optional weatherproof IP67 housing for outdoor research.
+Request Quote
+Overview
+Specifications
+Gallery
+Applications
+Downloads
+Publications
+FAQ
+The industry's highest-performing motion capture camera platform
+The Arqus is engineered as the highest-performing motion capture camera platform in the industry, by the team behind Qualisys' proven Miqus camera line. Built around high-resolution image sensors, a powerful strobe and Qualisys' advanced marker detection algorithms, Arqus delivers exceptional accuracy - even at distance, even outdoors, and even at frame rates other cameras cannot match.
+Arqus is available in four models (A5, A9, A12 and A26) ranging from the industry's highest full-FOV frame rate (1,400 fps at 1 MP) to the industry's highest resolution motion capture sensor (26 MP at 150 fps). The A12's optional motorized lens lets you control focus and aperture directly from QTM. All models share the same compact die-cast aluminium body, OLED status display, LED indicator ring and integrated Manfrotto / Arca-Swiss quick-release mount.
+Key Features
+Industry-leading resolution and speed: Capture from 5 MP up to 26 MP, or run full field-of-view at up to 1,400 fps. All models hit 10,000 fps in reduced-FOV high-speed mode.
+3 ms full-pipeline latency: Engineered for real-time applications - camera plus full QTM software pipeline latency down to 3 ms.
+50 m (165 ft) marker detection range: 24 high-power 850 nm NIR LEDs, 50% more powerful than previous Qualisys models, combine with high-resolution sensors and refined detection algorithms to track passive markers from far away without sacrificing accuracy.
+Passive & active marker support: Both marker types supported natively, on every model.
+Daisy-chained networking, up to 80% less cabling: One combined data + power cable links each camera to the next - no separate switch, no long runs back to a hub. A 24-camera system covering 30 × 10 m uses a fraction of the cabling of conventional rigs.
+External synchronization: Sync with any external hardware and any Qualisys camera via the Camera Sync Unit - supports Trig in, Sync in/out, Video Genlock, PTP, SMPTE and IRIG.
+Camera Sync Unit external sync: Trig in, Sync in/out, Video Genlock, PTP, SMPTE and IRIG.
+Wide lens selection: Standard, wide-angle and narrow-angle options - horizontal field of view up to 82°.
+Integrated quick-release mount: Standard 1/4″ tripod mounts plus a built-in quick-release plate compatible with most tripod heads - no missing plates, fast setup and tear-down.
+Native 3D video overlay: Pair with Miqus Video for synchronized reference video and intuitive overlay of 3D analysis results.
+A camera made for outdoor tracking
+Protected Arqus models are natively waterproof and dustproof (IP67 / NEMA 6) and ship with industrial push-pull connectors and an extended operating temperature range of −15 to 45 °C. Combined with embedded active filtering, the optional Sun Filter and the high-power strobe, the Arqus distinguishes markers from the background even in the brightest sunshine, making it the most outdoor-capable Qualisys mocap camera to date.
+Protected models include:
+Weatherproof housing (IP67 / NEMA 6)
+Industrial push-pull connectors
+Extended operating temperature range
+Sun filters available with standard and narrow lenses
+All models include:
+Active filtering for improved outdoor support
+50% more powerful strobe than previous Qualisys models
+Native passive and active marker support
+Up to 80% less cabling with daisy-chaining
+Qualisys' unique daisy-chained Gigabit Ethernet means a lot less cable to manage. One combined data and power cable connects from camera to camera - no switches, no long runs back to a central hub. A 24-camera Arqus system covering 30 × 10 m (100 × 33 ft) uses up to 80% less cabling than conventional star-wired systems. For portable rigs you will not want anything else; for permanent installs the cable mess simply disappears.
+Good things come in fours
+Four models. Four impressive takes on motion capture - from the industry's fastest full-FOV camera to the industry's highest-resolution mocap sensor.
+Arqus A5: 5 MP at 700 fps full-FOV, or 1 MP at 1,400 fps in high-speed mode - the speed champion.
+Arqus A9: 9 MP at 300 fps with the widest available 82° × 48° field of view - the all-rounder for large volumes.
+Arqus A12: 12 MP at 300 fps with optional EF-mount motorized lens (focus & aperture controlled from QTM), and 40 m (130 ft) measurement distance with 16 mm markers - the long-range workhorse.
+Arqus A26: 26 MP at 150 fps full-FOV (5120 × 5120) - the highest-resolution motion capture camera in the industry.
+3D resolution & accuracy
+Arqus delivers a 3D resolution of 0.03–0.06 mm - the smallest detectable motion measured at 10 m (33 ft) with a standard lens, making it the most accurate Qualisys mocap camera ever produced.
+NEED MORE INFORMATION ABOUT THIS PRODUCT?
+Send us your email
+Send us your email
+Model comparison - A5 / A9 / A12 / A26
+A5
+A9
+A12
+A26
+Pixels (Normal mode, full FOV)
+5 MP
+9 MP
+12 MP
+26 MP
+Resolution
+2560 × 1920
+4224 × 2160
+4096 × 3072
+5120 × 5120
+Frame rate (full FOV)
+700 fps
+300 fps
+300 fps
+150 fps
+Camera latency
+1.4 ms
+3.3 ms
+3.3 ms
+6.7 ms
+High-speed mode (full FOV)
+1 MP @ 1,400 fps (1280 × 960)
+2.5 MP @ 590 fps (2112 × 1080)
+3 MP @ 1,040 fps (2048 × 1536)
+6.5 MP @ 290 fps (2560 × 2560)
+High-speed camera latency
+0.7 ms
+1.7 ms
+1 ms
+3.4 ms
+Standard lens FOV
+56° × 44°
+67° × 37°
+54° × 42°
+56° × 56°
+Wide angle FOV
+77° × 62°
+82° × 48°
+-
+-
+Narrow angle FOV
+29° × 22°
+47° × 25°
+36° × 27°
+29° × 29°
+Max frame rate (reduced FOV)
+10,000 fps
+10,000 fps
+10,000 fps
+10,000 fps
+Measurement distance (16 mm marker)
+26 m (85 ft)
+28 m (91 ft)
+40 m (130 ft)
+32 m (104 ft)
+3D resolution at 10 m
+0.06 mm
+0.05 mm
+0.04 mm
+0.03 mm
+Active filtering (outdoor)
+Yes
+Yes
+Yes
+Yes
+Motorized lens
+No
+No
+Yes (optional)
+No
+Lens mount
+C
+C
+EF-M
+C
+Common to all Arqus models
+Camera output modes
+Marker coordinates / streaming video for preview
+Marker support
+Passive and active
+Built-in display
+Graphical high-contrast OLED with LED status ring
+Camera body
+Die-cast aluminum, polycarbonate & thermoplastic polyurethane
+Strobe
+24 high-power NIR LEDs @ 850 nm (50% more powerful than previous models)
+External sync
+Camera Sync Unit - Trig in, Sync in/out, Video Genlock, PTP, SMPTE, IRIG
+Connection
+Single connector, daisy-chained Gigabit Ethernet and power
+Power
+Daisy-chained, 36–58 VDC @ 40 W maximum
+Operating temperature
+Standard housing: 0–35 °C (32–95 °F) · Protected housing: −15–45 °C (5–113 °F)
+Camera size
+132 × 143 × 126 mm (5.2 × 5.6 × 5 in)
+Camera weight
+1.9 kg (4.2 lbs)
+Available housings
+Standard (IP30 / NEMA 1) or Protected (IP67 / NEMA 6)
+Security
+Kensington lock
+Mounting
+Built-in quick release (Manfrotto & Arca-Swiss compatible) plus two 1/4″ tripod mounts
+Miqus / Oqus compatibility
+Yes. Mixes natively with Miqus and Oqus cameras in the same system
+Applications
+Marker-based 3D motion capture for biomechanics and human movement research
+Sports performance analysis - running, cycling, swimming, baseball, golf, cricket
+Clinical gait analysis and functional assessment
+Animal biomechanics and equine lameness research
+Outdoor motion capture in challenging environments - sun, rain, dust
+Engineering & robotics tracking, UAV / drone flight tracking
+Marine vessel testing and wind-power blade deflection measurement
+Animation, virtual production, virtual reality and entertainment
+Real-time 3D positioning for industrial and OEM integrations
+Sports and Performance research
+Explore All Products
+No items found.
+Arqus Publications
+Peer-reviewed research using Qualisys Arqus motion capture cameras
+Arqus cameras are used in peer-reviewed studies across biomechanics, clinical gait analysis, sports science, animal locomotion, robotics and outdoor field measurements. The platform is widely cited for high-resolution, high-speed marker-based 3D motion capture in both indoor labs and challenging outdoor environments.
+What's the difference between the four Arqus models (A5, A9, A12, A26)?
+All four Arqus models share the same body, OLED display, 24-LED strobe and lens platform - the difference is the image sensor and the trade-off between resolution, frame rate and capture distance. The A5 is the speed champion (5 MP @ 700 fps full-FOV; 1 MP @ 1,400 fps in high-speed mode). The A9 is the wide-volume all-rounder (9 MP @ 300 fps with the widest 82° × 48° field of view). The A12 is the long-range workhorse (12 MP @ 300 fps, 40 m measurement distance with 16 mm markers, optional motorized EF-mount lens controlled from QTM). The A26 is the highest-resolution motion capture camera in the industry (26 MP @ 150 fps, 5120 × 5120). Pick by your trade-off of accuracy, frame rate and capture volume, and feel free to mix models in the same system.
+Can Arqus cameras be used outdoors and in harsh weather?
+Yes. Each Arqus model is available in a Protected housing rated IP67 / NEMA 6, with industrial push-pull connectors and an extended operating range of −15 to 45 °C (5 to 113 °F). Combined with embedded active filtering, the optional Sun Filter and a strobe 50% more powerful than previous Qualisys models, Arqus distinguishes markers from the background even in bright sunlight, rain, dust and cold. The Standard housing (IP30 / NEMA 1, 0 to 35 °C) is the right choice for indoor lab use.
+Can Arqus cameras be mixed with my existing Miqus or Oqus cameras?
+Yes. Arqus is natively compatible with both Miqus and Oqus cameras and runs in the same Qualisys Track Manager (QTM) system on the same daisy-chain. You can extend an existing Miqus or Oqus rig with Arqus units - for example, adding A26 cameras for higher resolution or Protected Arqus models for outdoor capability - without replacing your installed cameras.
+How much cabling does daisy-chaining actually save?
+A typical 24-camera Arqus system covering a 30 × 10 m (100 × 33 ft) volume uses up to 80% less cabling than a conventional star-wired motion capture rig. A single combined data + power Gigabit Ethernet cable runs from each camera to the next - no Ethernet switch, no long runs back to a central hub. Portable rigs deploy faster, permanent installs look cleaner, and there are far fewer cables to troubleshoot.
+Is the Arqus suitable for real-time applications like robotics, VR and live production?
+Yes. Camera-only latency is as low as 0.7 ms (A5 high-speed mode), and end-to-end latency through the full QTM software pipeline is 3 ms - fast enough for real-time control loops. The Camera Sync Unit supports Trig in, Sync in/out, Video Genlock, PTP, SMPTE and IRIG for tight synchronization with external hardware. Real-time SDKs are available for QTM, MATLAB, LabVIEW, Unity, Unreal Engine, MotionBuilder, Maya, iClone Motion LIVE and ROS, making Arqus a strong fit for robotics, UAV tracking, virtual production, VR/AR, OEM integrations and broadcast.
+Still have questions?
+Can’t find the answer you’re looking for? Please chat to our friendly team.
+Contact Us
+Related Products:
+AMTI Tandem Instrumented Treadmill
+Read More
+Trigno Avanti Sensor
+Read More
+Xsens Link
+Read More
+Request for Quote
+Please fill in as much details as possible and we will take care of your request as soon as possible
+Full Name *
+Head of Lab / Company *
+Email *
+Phone Number
+Product Name *
+Cat No.
+Message
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Request for Quote
+Please fill in as much details as possible and we will take care of your request as soon as possible
+Request Quote
+X
+Let's discuss your specific needs
+Request Quote
+Start your research
+journey today
+Primary Pages
+Home
+All Products
+About Us
+Contact Us
+Cognitive Neuroscience
+Animal Behavior and Physiology
+Cell Neurobiology & Imaging
+Microfluidics and Organ-on-a-Chip
+Biomechanics & Motion Capture
+Blog
+News
+Events
+Israeli Projects
+Utility Pages
+Accessibility Statement
+Terms & Conditions
+Privacy Policy
+© NBT - New Biotechnology Ltd - 2026
+Built by
+DuoDiv

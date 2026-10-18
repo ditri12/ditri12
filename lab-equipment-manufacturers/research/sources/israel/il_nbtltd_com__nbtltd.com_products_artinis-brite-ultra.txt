@@ -1,0 +1,122 @@
+Artinis Brite Ultra - NBT
+
+Home
+Products
+Medical
+Our Projects
+Support
+About Us
+Blog
+Webinars
+Contact Us
+Contact Us
+
+ART-BriteUltra
+Cognitive Neuroscience
+Artinis Brite Ultra
+The only mass fNIRS hyperscanning system in the world, supporting simultaneous measurement of up to 30 participants.
+Request Quote
+Overview
+Specifications
+Gallery
+Applications
+Downloads
+Publications
+FAQ
+Many brains, one hub.
+Big group brain research made easy
+Perform hyperscanning experiments with up to 30 participants using the Brite Ultra system. Powered by multiple Brite Ultra devices, the system offers flexibility in optode layout, allowing you to focus on the cortical areas most relevant to your research. Whether you're working in a controlled lab or a more naturalistic setting, the Brite Ultra's portability and wireless characteristics allow the system to adapt easily to different group sizes and environments. As your study grows, you can seamlessly add more Brite devices to expand your setup when needed.
+Seamless synchronization in one hub
+Get a complete overview of perfectly synchronized (f)NIRS data from all participants with the Brite Ultra system. Designed for large-scale hyperscanning experience, the system supports an efficient research coordinator–assistant workflow, making even mass measurements in naturalistic settings manageable. It is well-suited for various environments, including classrooms, control rooms, sports fields, cockpits, and any setting where investigations involving multiple individuals as a group are conducted.
+Brite Ultra package - what's included
+System
+Brite Connect Ultra fNIRS hyperscanning monitoring software
+Connection hub with pre-installed software and touchscreen display
+Brite Ultra devices (available per 12, 24, or 30)
+Neoprene headbands/headcaps
+PortaSync synchronizer instrument
+System accessories
+Support
+Superior support in setting up your research
+User manual and quick start guide in English
+Area of Applications
+Brain oxygenation monitoring
+Group hyperscanning
+Social interactions
+Cognitive studies
+Psychological research
+Sports science
+Developmental studies
+Neural synchrony
+NEED MORE INFORMATION ABOUT THIS PRODUCT?
+Send us your email
+Send us your email
+No items found.
+Brain-Computer Interface Research
+Explore All Products
+fNIRS
+Explore All Products
+Brite Ultra Leaflet
+Artinis OxySoft
+Proprietary NIRS acquisition and analysis software
+OxySoft is Artinis's NIRS recording and analysis platform compatible with all Artinis devices. OxySoft 4 adds .snirf export, improved signal quality indexing, Bluetooth recovery, and intuitive event mapping — enabling real-time and post-hoc analysis via LSL streaming to MATLAB or Python.
+How many participants can be measured simultaneously with the Brite Ultra?
+The Brite Ultra system supports hyperscanning experiments with up to 30 participants simultaneously. It is available in configurations of 12, 24, or 30 Brite Ultra devices, allowing researchers to scale from pilot studies to large-group experiments.
+What software manages the Brite Ultra multi-participant setup?
+The Brite Ultra system uses Brite Connect Ultra, a dedicated fNIRS hyperscanning monitoring software. It runs on a connection hub with a pre-installed operating system for streamlined setup.
+How is synchronization achieved across all participants?
+The system includes a PortaSync synchronizer instrument, which ensures perfectly synchronized fNIRS data across all Brite Ultra devices in the system.
+Can the Brite Ultra be used outside the laboratory?
+Yes. The Brite Ultra is specifically designed for portability and use in naturalistic settings. It has been deployed in classrooms, sports fields, concert halls, and other real-world environments.
+What brain regions can the Brite Ultra measure?
+The Brite Ultra system offers flexibility in optode layout, allowing researchers to configure the headbands or headcaps to target the cortical areas most relevant to their research questions.
+Still have questions?
+Can’t find the answer you’re looking for? Please chat to our friendly team.
+Contact Us
+Related Products:
+Artinis OxySoft
+Read More
+NIRSport2 – Mobile fNIRS by NIRx
+Read More
+EEG g.Nautilus-PRO Flexible
+Read More
+Request for Quote
+Please fill in as much details as possible and we will take care of your request as soon as possible
+Full Name *
+Head of Lab / Company *
+Email *
+Phone Number
+Product Name *
+Cat No.
+Message
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Request for Quote
+Please fill in as much details as possible and we will take care of your request as soon as possible
+Request Quote
+X
+Let's discuss your specific needs
+Request Quote
+Start your research
+journey today
+Primary Pages
+Home
+All Products
+About Us
+Contact Us
+Cognitive Neuroscience
+Animal Behavior and Physiology
+Cell Neurobiology & Imaging
+Microfluidics and Organ-on-a-Chip
+Biomechanics & Motion Capture
+Blog
+News
+Events
+Israeli Projects
+Utility Pages
+Accessibility Statement
+Terms & Conditions
+Privacy Policy
+© NBT - New Biotechnology Ltd - 2026
+Built by
+DuoDiv
