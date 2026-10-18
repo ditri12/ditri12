@@ -15,6 +15,10 @@ on:
         description: Parallel HTTP workers
         required: false
         default: "4"
+      render_workers:
+        description: Parallel browser workers for rendered pages
+        required: false
+        default: "1"
       gzip:
         description: Store HTML gzipped (true/false)
         required: false
@@ -39,6 +43,7 @@ jobs:
       JOBS: ${{ inputs.jobs }}
       OUT: ${{ inputs.out }}
       WORKERS: ${{ inputs.workers }}
+      RENDER_WORKERS: ${{ inputs.render_workers }}
       GZIP: ${{ inputs.gzip }}
       DO_COMMIT: ${{ inputs.commit }}
     steps:
@@ -57,7 +62,7 @@ jobs:
         run: |
           extra=""
           if [ "$GZIP" = "true" ]; then extra="--gzip"; fi
-          python lab-equipment-manufacturers/crawl/fetch.py --jobs "$JOBS" --out "$OUT" --workers "$WORKERS" $extra
+          python lab-equipment-manufacturers/crawl/fetch.py --jobs "$JOBS" --out "$OUT" --workers "$WORKERS" --render-workers "${RENDER_WORKERS:-1}" $extra
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:

@@ -1,0 +1,1991 @@
+[
+{
+"id": "du_2_mag",
+"url": "https://www.dutscher.com/search?initialFilters=brand:2+Mag",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_3m",
+"url": "https://www.dutscher.com/search?initialFilters=brand:3M",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_4titude",
+"url": "https://www.dutscher.com/search?initialFilters=brand:4Titude",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_a_and_d_instruments",
+"url": "https://www.dutscher.com/search?initialFilters=brand:A%26D+instruments",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_abgene",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Abgene",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_adam_equipment",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Adam+equipment",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_advantage_lab",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Advantage+Lab",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_agilent",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Agilent",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ahlstrom",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ahlstrom",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_alsit",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Alsit",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_anios",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Anios",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ansell",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ansell",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_anton_paar",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Anton+Paar",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_apelex",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Apelex",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_arvensis",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Arvensis",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_asecos",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Asecos",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_atago",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Atago",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_avidity_science",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Avidity+Science",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_azenta",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Azenta",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_azlon",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Azlon",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bbraun",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Bbraun",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bd_medical",
+"url": "https://www.dutscher.com/search?initialFilters=brand:BD+medical",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bellco",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Bellco",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_benchmark",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Benchmark",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bimos",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Bimos",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_binder",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Binder",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biochrom",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biochrom",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bioer",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Bioer",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biologix",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biologix",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bioplastics",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Bioplastics",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biosigma",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biosigma",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biosolve",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biosolve",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biospec",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biospec",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biotech_rabbit",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biotech+Rabbit",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_biotium",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Biotium",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_blue_ray_biotech",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Blue-Ray+Biotech",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_bms",
+"url": "https://www.dutscher.com/search?initialFilters=brand:BMS",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_brady",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Brady",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_brand",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Brand",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_buchi",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Buchi",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_burkle",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Burkle",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_capp",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Capp",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_carlo_erba",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Carlo+Erba",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cellaven",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cellaven",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_celltreat",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Celltreat",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cem",
+"url": "https://www.dutscher.com/search?initialFilters=brand:CEM",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_certoclav",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Certoclav",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_chemsolute",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Chemsolute",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_clearline",
+"url": "https://www.dutscher.com/search?initialFilters=brand:ClearLine",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cleaver_scientific",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cleaver+Scientific",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_codigel",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Codigel",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cole_parmer",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cole+parmer",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_conda",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Conda",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_consort",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Consort",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_copan",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Copan",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_corning",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Corning",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cowie",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cowie",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cryokit",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cryokit",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cryopal",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cryopal",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cti_biotech",
+"url": "https://www.dutscher.com/search?initialFilters=brand:CTI+Biotech",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_curtec",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Curtec",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_cytiva",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Cytiva",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_d_and_n",
+"url": "https://www.dutscher.com/search?initialFilters=brand:D%26N",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_drummond",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Drummond",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_dupont",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Dupont",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_duran",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Duran",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_edmund_buehler",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Edmund+Buehler",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_elma",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Elma",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_embitec",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Embitec",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_emp_rotomoulage",
+"url": "https://www.dutscher.com/search?initialFilters=brand:EMP+Rotomoulage",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_eppendorf",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Eppendorf",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_epredia",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Epredia",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_erlab",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Erlab",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_esco",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Esco",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_eurx",
+"url": "https://www.dutscher.com/search?initialFilters=brand:EurX",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_falcon",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Falcon",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_foxx",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Foxx",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_franklab",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Franklab",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_fritsch",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Fritsch",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_froilabo",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Froilabo",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_gene_bio_application",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Gene+Bio-Application",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_genesee",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Genesee",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_genscript",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Genscript",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_gerhardt",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Gerhardt",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_gilac",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Gilac",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_gilson",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Gilson",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_gosselin",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Gosselin",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_grant",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Grant",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_greiner_bio_one",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Greiner+Bio-One",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hach",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hach",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hamilton",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hamilton",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hammacher",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hammacher",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hanna",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hanna",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hartmann",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hartmann",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_haver_and_boeker",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Haver+%26+Boeker",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_heidolph",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Heidolph",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hellma",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hellma",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hettich",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hettich",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_himedia",
+"url": "https://www.dutscher.com/search?initialFilters=brand:HiMedia",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_hirschmann",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Hirschmann",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_honeywell",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Honeywell",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ika",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ika",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_implen",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Implen",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_indicia",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Indicia",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_integra",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Integra",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_interscience",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Interscience",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_jasco",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Jasco",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_jenway",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Jenway",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_jp_selecta",
+"url": "https://www.dutscher.com/search?initialFilters=brand:JP+Selecta",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_julabo",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Julabo",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kango",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Kango",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kgw",
+"url": "https://www.dutscher.com/search?initialFilters=brand:KGW",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kimberly_clark_arbex",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Kimberly+clark+-+Arbex",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kimble",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Kimble",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kimtech",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Kimtech",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kisker",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Kisker",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_knf",
+"url": "https://www.dutscher.com/search?initialFilters=brand:KNF",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_kottermann",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Kottermann",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_labcon",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Labcon",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_labnet",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Labnet",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_labplas",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Labplas",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_lancer",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Lancer",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_lauda",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Lauda",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_liebherr",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Liebherr",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_liofilchem",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Liofilchem",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_logos_biosystems",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Logos+biosystems",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_macherey_nagel",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Macherey+Nagel",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_mapa",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Mapa",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_marienfeld",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Marienfeld",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_medicom_kolmi_hopen",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Medicom+Kolmi+Hopen",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_memmert",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Memmert",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_merck",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Merck",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_metis_biotechnologies",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Metis+Biotechnologies",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_mettler_toledo",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Mettler-Toledo",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_microflex",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Microflex",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_micronic",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Micronic",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_miele",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Miele",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_minigrip",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Minigrip",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_moineau_instruments",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Moineau+instruments",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_molnlycke",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Molnlycke",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_mp_hygiene_wepa_professional",
+"url": "https://www.dutscher.com/search?initialFilters=brand:MP+Hygiene+-+WEPA+Professional",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_multi",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Multi",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_multiroir",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Multiroir",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nabertherm",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nabertherm",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nafvsm",
+"url": "https://www.dutscher.com/search?initialFilters=brand:NAFVSM",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nalgene",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nalgene",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nasco",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nasco",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nbiotek",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nbiotek",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_next_advance",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Next+advance",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nichiryo",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nichiryo",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nikon",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nikon",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_nippon_genetics",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Nippon+genetics",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ohaus",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ohaus",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_omni",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Omni",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_optika",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Optika",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_owibio",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Owibio",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_oz_biosciences",
+"url": "https://www.dutscher.com/search?initialFilters=brand:OZ+Biosciences",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_pall",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Pall",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_pan_biotech",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Pan+biotech",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_phagogene",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Phagogene",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_phcbi",
+"url": "https://www.dutscher.com/search?initialFilters=brand:PHCBI",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_polyscience",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Polyscience",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_porvair",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Porvair",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_proteogenix",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Proteogenix",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_puritan",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Puritan",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_rainin",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Rainin",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ral_diagnostics",
+"url": "https://www.dutscher.com/search?initialFilters=brand:RAL+Diagnostics",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ratiolab",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ratiolab",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_reagecon",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Reagecon",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_retsch",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Retsch",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_revvity",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Revvity",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ritter",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ritter",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_rocker",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Rocker",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_saint_gobain",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Saint+Gobain",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sampling_systems",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sampling+systems",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sanisure",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sanisure",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sartorius",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sartorius",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_scat",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Scat",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_schott_instruments",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Schott+instruments",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sefar",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sefar",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_semperit",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Semperit",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sensoquest",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sensoquest",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_serva",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Serva",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_seward",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Seward",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_shield_scientific",
+"url": "https://www.dutscher.com/search?initialFilters=brand:SHIELD+Scientific",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_showa",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Showa",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_simport",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Simport",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sls",
+"url": "https://www.dutscher.com/search?initialFilters=brand:SLS",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_socorex",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Socorex",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_solis_biodyne",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Solis+Biodyne",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_solstice",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Solstice",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sorifa",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sorifa",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_spectrum",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Spectrum",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_spl",
+"url": "https://www.dutscher.com/search?initialFilters=brand:SPL",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_sterilin",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Sterilin",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_stuart",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Stuart",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_swann_morton",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Swann+morton",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_tecan",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Tecan",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_techne",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Techne",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_tempshield",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Tempshield",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_terumo",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Terumo",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_testo",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Testo",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_thermo_scientific",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Thermo+Scientific",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_tork",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Tork",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_tournus_equipement",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Tournus+equipement",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_tpp",
+"url": "https://www.dutscher.com/search?initialFilters=brand:TPP",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_treff_nolato",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Treff+Nolato",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_triforest",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Triforest",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_trionyx",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Trionyx",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_tuttnauer",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Tuttnauer",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_uvex",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Uvex",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_uvitec",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Uvitec",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_vacuubrand",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Vacuubrand",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_velp",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Velp",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_venair",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Venair",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_welch",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Welch",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_wheaton",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Wheaton",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_wld_tec",
+"url": "https://www.dutscher.com/search?initialFilters=brand:WLD-Tec",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_wpi",
+"url": "https://www.dutscher.com/search?initialFilters=brand:WPI",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_xylem",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Xylem",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_zwiebel",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Zwiebel",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+}
+]

@@ -209,6 +209,7 @@ def main():
     ap.add_argument("--jobs", required=True)
     ap.add_argument("--out", required=True)
     ap.add_argument("--workers", type=int, default=4)
+    ap.add_argument("--render-workers", type=int, default=1)
     ap.add_argument("--gzip", action="store_true")
     ap.add_argument("--delay", type=float, default=0.5, help="seconds between requests per worker")
     args = ap.parse_args()
@@ -264,31 +265,47 @@ def run_pass(jobs, index, index_path, args):
                     json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
 
     if render_jobs:
+        import threading
         from playwright.sync_api import sync_playwright
-        with sync_playwright() as p:
-            browsers = {}
+        lock = threading.Lock()
+        counter = [0]
+        nworkers = max(1, min(args.render_workers, len(render_jobs)))
+        chunks = [render_jobs[k::nworkers] for k in range(nworkers)]
 
-            def get_browser(engine):
-                if engine not in browsers:
-                    bt = getattr(p, engine)
-                    args = ["--disable-blink-features=AutomationControlled"] if engine == "chromium" else []
-                    browsers[engine] = bt.launch(headless=True, args=args)
-                return browsers[engine]
+        def render_worker(chunk):
+            with sync_playwright() as p:
+                browsers = {}
 
-            for i, job in enumerate(render_jobs, 1):
-                try:
-                    res = fetch_render(get_browser(job.get("engine", "chromium")), job)
-                    e = save(job, res, args.out, args.gzip)
-                except Exception as ex_:
-                    e = {"id": slug(job["id"]), "url": job["url"], "status": None,
-                         "error": f"{type(ex_).__name__}: {ex_}"}
-                    traceback.print_exc()
-                index[e["id"]] = e
-                print(f"[render {i}/{len(render_jobs)}] {e['id']} -> {e.get('status')} {e.get('error') or ''}", flush=True)
-                with open(index_path, "w", encoding="utf-8") as f:
-                    json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
-            for b in browsers.values():
-                b.close()
+                def get_browser(engine):
+                    if engine not in browsers:
+                        bt = getattr(p, engine)
+                        a = ["--disable-blink-features=AutomationControlled"] if engine == "chromium" else []
+                        browsers[engine] = bt.launch(headless=True, args=a)
+                    return browsers[engine]
+
+                for job in chunk:
+                    try:
+                        res = fetch_render(get_browser(job.get("engine", "chromium")), job)
+                        e = save(job, res, args.out, args.gzip)
+                    except Exception as ex_:
+                        e = {"id": slug(job["id"]), "url": job["url"], "status": None,
+                             "error": f"{type(ex_).__name__}: {ex_}"}
+                    with lock:
+                        counter[0] += 1
+                        index[e["id"]] = e
+                        print(f"[render {counter[0]}/{len(render_jobs)}] {e['id']} -> {e.get('status')} {e.get('error') or ''}", flush=True)
+                        if counter[0] % 10 == 0:
+                            with open(index_path, "w", encoding="utf-8") as f:
+                                json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
+                    time.sleep(args.delay)
+                for b in browsers.values():
+                    b.close()
+
+        threads = [threading.Thread(target=render_worker, args=(c,)) for c in chunks if c]
+        for t in threads:
+            t.start()
+        for t in threads:
+            t.join()
 
 
 if __name__ == "__main__":
