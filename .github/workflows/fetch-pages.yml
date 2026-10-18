@@ -31,9 +31,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: fetch-pages-${{ github.ref }}
-  cancel-in-progress: false
 
 jobs:
   fetch:
