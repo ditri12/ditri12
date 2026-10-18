@@ -1,0 +1,18 @@
+[
+  {"id": "dutscher_brands_en", "url": "https://www.dutscher.com/brands?language=en", "render": true},
+  {"id": "dutscher_brands_fr", "url": "https://www.dutscher.com/brands", "render": true},
+  {"id": "dutscher_private_label", "url": "https://www.dutscher.com/head-display/private-label?language=en", "render": true},
+  {"id": "dutscher_sitemap", "url": "https://www.dutscher.com/sitemap.xml"},
+  {"id": "dutscher_robots", "url": "https://www.dutscher.com/robots.txt"},
+  {"id": "thomassci_suppliers", "url": "https://www.thomassci.com/browse-by/suppliers", "render": true},
+  {"id": "thomassci_suppliers_http", "url": "https://www.thomassci.com/browse-by/suppliers"},
+  {"id": "thomassci_sitemap", "url": "https://www.thomassci.com/sitemap.xml"},
+  {"id": "thomassci_robots", "url": "https://www.thomassci.com/robots.txt"},
+  {"id": "quartzy_suppliers", "url": "https://www.quartzy.com/suppliers", "render": true},
+  {"id": "quartzy_suppliers_http", "url": "https://www.quartzy.com/suppliers"},
+  {"id": "quartzy_sitemap", "url": "https://www.quartzy.com/sitemap.xml"},
+  {"id": "quartzy_robots", "url": "https://www.quartzy.com/robots.txt"},
+  {"id": "quartzy_new_suppliers", "url": "https://info.quartzy.com/new-suppliers", "render": true},
+  {"id": "quartzy_new_suppliers_http", "url": "https://info.quartzy.com/new-suppliers"},
+  {"id": "quartzy_info_sitemap", "url": "https://info.quartzy.com/sitemap.xml"}
+]
