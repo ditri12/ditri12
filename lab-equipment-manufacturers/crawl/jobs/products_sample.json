@@ -1,0 +1,166 @@
+[
+{
+"id": "th_3m",
+"url": "https://www.thomassci.com/browse-by/suppliers/3m",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_ace_glass",
+"url": "https://www.thomassci.com/browse-by/suppliers/ace-glass",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_corning",
+"url": "https://www.thomassci.com/browse-by/suppliers/corning",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_eppendorf",
+"url": "https://www.thomassci.com/browse-by/suppliers/eppendorf",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_heathrow_scientific",
+"url": "https://www.thomassci.com/browse-by/suppliers/heathrow-scientific",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_justrite",
+"url": "https://www.thomassci.com/browse-by/suppliers/justrite",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_labcon",
+"url": "https://www.thomassci.com/browse-by/suppliers/labcon",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_luxor",
+"url": "https://www.thomassci.com/browse-by/suppliers/luxor",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_nel_scientific",
+"url": "https://www.thomassci.com/browse-by/suppliers/nel-scientific",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_ohaus",
+"url": "https://www.thomassci.com/browse-by/suppliers/ohaus",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "th_zymo_research",
+"url": "https://www.thomassci.com/browse-by/suppliers/zymo-research-corporation",
+"render": true,
+"engine": "firefox",
+"cf_wait": 20,
+"timeout": 60,
+"scroll": false,
+"wait_ms": 800
+},
+{
+"id": "du_binder",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Binder",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_corning",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Corning",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_eppendorf",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Eppendorf",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_memmert",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Memmert",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_ohaus",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Ohaus",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+},
+{
+"id": "du_velp",
+"url": "https://www.dutscher.com/search?initialFilters=brand:Velp",
+"render": true,
+"timeout": 60,
+"scroll": true,
+"scroll_max": 3,
+"wait_ms": 1200
+}
+]
