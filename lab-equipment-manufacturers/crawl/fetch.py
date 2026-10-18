@@ -150,6 +150,38 @@ def save(job, res, out, use_gzip):
             "links": len(links), "render": bool(job.get("render")), "error": None}
 
 
+def follow_jobs(job, out):
+    """Depth-1 expansion: return extra jobs for links of the fetched page matching job['follow'] (regex on href or text)."""
+    pat = job.get("follow")
+    if not pat:
+        return []
+    jid = slug(job["id"])
+    path = os.path.join(out, jid + ".links.json")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        links = json.load(f)
+    rx = re.compile(pat, re.I)
+    from urllib.parse import urlparse
+    host = urlparse(job["url"]).netloc.lower().replace("www.", "")
+    seen, extra = set(), []
+    for l in links:
+        href = l["href"].split("#")[0]
+        if not href.startswith("http") or href in seen:
+            continue
+        h = urlparse(href).netloc.lower().replace("www.", "")
+        if not job.get("follow_any_host") and h != host:
+            continue
+        if rx.search(href) or rx.search(l.get("text") or "") or rx.search(l.get("title") or ""):
+            seen.add(href)
+            extra.append({"id": jid + "__" + slug(re.sub(r"^https?://", "", href)), "url": href,
+                          "render": job.get("follow_render", job.get("render", False)),
+                          "scroll": job.get("scroll", True), "timeout": job.get("timeout", 60)})
+        if len(extra) >= job.get("follow_max", 15):
+            break
+    return extra
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--jobs", required=True)
@@ -167,9 +199,29 @@ def main():
         with open(index_path, encoding="utf-8") as f:
             for e in json.load(f):
                 index[e["id"]] = e
+    t0 = time.time()
+    for pass_no in (1, 2):
+        run_pass(jobs, index, index_path, args)
+        extra = []
+        for j in jobs:
+            e = index.get(slug(j["id"]))
+            if e and not e.get("error"):
+                extra.extend(follow_jobs(j, args.out))
+        extra = [j for j in extra if slug(j["id"]) not in index]
+        if pass_no == 1 and extra:
+            print(f"follow pass: {len(extra)} extra pages", flush=True)
+            jobs = extra
+        else:
+            break
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
+    ok = sum(1 for e in index.values() if e.get("status") and 200 <= e["status"] < 400)
+    print(f"done: {len(index)} pages, {ok} ok, {time.time() - t0:.0f}s", flush=True)
+
+
+def run_pass(jobs, index, index_path, args):
     http_jobs = [j for j in jobs if not j.get("render")]
     render_jobs = [j for j in jobs if j.get("render")]
-    t0 = time.time()
 
     def run_http(job):
         time.sleep(args.delay)
@@ -206,11 +258,6 @@ def main():
                 with open(index_path, "w", encoding="utf-8") as f:
                     json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
             browser.close()
-
-    with open(index_path, "w", encoding="utf-8") as f:
-        json.dump(list(index.values()), f, ensure_ascii=False, indent=1)
-    ok = sum(1 for e in index.values() if e.get("status") and 200 <= e["status"] < 400)
-    print(f"done: {len(index)} pages, {ok} ok, {time.time() - t0:.0f}s", flush=True)
 
 
 if __name__ == "__main__":
