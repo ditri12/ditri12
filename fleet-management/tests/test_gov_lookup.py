@@ -34,7 +34,7 @@ class FakeResp:
 class ParseTests(unittest.TestCase):
     def test_parse_record(self):
         info = gov_lookup.parse_record(SAMPLE, "x")
-        self.assertEqual(info.make, "Toyota Japan")
+        self.assertEqual(info.make, "Toyota")
         self.assertEqual(info.model, "Corolla")
         self.assertEqual(info.year, 2022)
         self.assertEqual(info.test_expiry.isoformat(), "2027-03-11")
@@ -42,7 +42,16 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(info.color, "לבן")
         self.assertEqual(info.fuel, "היברידי")
         self.assertIn("מספר שלדה", info.notes_text())
-        self.assertIn("Toyota Japan Corolla 2022", info.summary())
+        self.assertIn("Toyota Corolla 2022", info.summary())
+
+    def test_clean_make(self):
+        self.assertEqual(gov_lookup.clean_make("סיטרואן פורטוג"), "סיטרואן")
+        self.assertEqual(gov_lookup.clean_make("טויוטה יפן"), "טויוטה")
+        self.assertEqual(gov_lookup.clean_make("יונדאי קוריאה"), "יונדאי")
+        self.assertEqual(gov_lookup.clean_make("HYUNDAI KOREA"), "HYUNDAI")
+        self.assertEqual(gov_lookup.clean_make("ב.מ.וו דרום אפריקה"), "ב.מ.וו")
+        self.assertEqual(gov_lookup.clean_make("יפן"), "יפן")   # מילה אחת - לא נוגעים
+        self.assertEqual(gov_lookup.clean_make("קיה"), "קיה")
 
 
 class LookupTests(unittest.TestCase):

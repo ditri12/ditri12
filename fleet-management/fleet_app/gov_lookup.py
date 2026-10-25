@@ -128,10 +128,31 @@ def _title(s: Optional[str]) -> Optional[str]:
     return s.title() if s.isupper() and s.isascii() else s
 
 
+# במאגר שם היצרן כולל את מדינת הייצור, לעיתים קטועה: "טויוטה יפן", "סיטרואן פורטוג", "יונדאי קוריאה"
+_COUNTRY_SUFFIXES = (
+    "יפן", "קוריאה", "גרמניה", "צרפת", "ספרד", "פורטוגל", "פורטוג", "טורקיה", "סין", "ארה\"ב", "ארהב", "בריטניה",
+    "אנגליה", "איטליה", "צ'כיה", "צכיה", "סלובקיה", "הונגריה", "פולין", "בלגיה", "הולנד", "שבדיה", "רומניה", "מקסיקו",
+    "תאילנד", "הודו", "ברזיל", "דרום אפריקה", "אוסטריה", "סלובניה", "רוסיה", "אינדונזיה", "מרוקו", "וייטנאם", "טייוואן",
+    "JAPAN", "KOREA", "GERMANY", "FRANCE", "SPAIN", "PORTUGAL", "TURKEY", "CHINA", "USA", "UK", "ITALY", "CZECH",
+    "SLOVAKIA", "HUNGARY", "POLAND", "BELGIUM", "NETHERLANDS", "SWEDEN", "ROMANIA", "MEXICO", "THAILAND", "INDIA", "BRAZIL",
+)
+
+
+def clean_make(make: Optional[str]) -> Optional[str]:
+    """מסיר את מדינת הייצור מסוף שם היצרן, אם נשארת לפחות מילה אחת."""
+    if not make:
+        return None
+    words = make.split()
+    for suffix in sorted(_COUNTRY_SUFFIXES, key=len, reverse=True):
+        sw = suffix.split()
+        if len(words) > len(sw) and [w.upper() for w in words[-len(sw):]] == [x.upper() for x in sw]:
+            return " ".join(words[:-len(sw)])
+    return make
+
+
 def parse_record(rec: dict, source: str = "") -> VehicleInfo:
     plate = _clean(rec.get("mispar_rechev")) or ""
-    make = _clean(rec.get("tozeret_nm"))
-    # שם היצרן במאגר כולל לעיתים את המדינה: "טויוטה יפן" / "HYUNDAI KOREA"
+    make = clean_make(_clean(rec.get("tozeret_nm")))
     model = _clean(rec.get("kinuy_mishari")) or _clean(rec.get("degem_nm"))
     on_road = _clean(rec.get("moed_aliya_lakvish"))
     return VehicleInfo(
