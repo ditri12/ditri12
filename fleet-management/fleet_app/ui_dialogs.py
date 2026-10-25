@@ -6,17 +6,38 @@ import sqlite3
 from datetime import date
 from typing import Optional
 
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QGuiApplication
 from PySide6.QtWidgets import (
     QComboBox, QDialog, QDialogButtonBox, QFileDialog, QFormLayout, QFrame, QGroupBox, QHBoxLayout, QLabel, QLineEdit,
     QMessageBox, QPlainTextEdit, QPushButton, QScrollArea, QSpinBox, QVBoxLayout, QWidget, QCheckBox,
 )
 
-from . import config
+from . import config, gov_lookup
 from .calc import Settings
 from .db import Repo, ValidationError
 from .widgets import GarageCombo, KmEdit, OptionalDateEdit, show_error
+
+
+class PlateLookupThread(QThread):
+    """שאילתה למאגר משרד התחבורה ברקע, כדי שהטופס לא ייתקע בזמן ההמתנה."""
+    found = Signal(object)        # VehicleInfo
+    not_found = Signal(str)
+    failed = Signal(str)
+
+    def __init__(self, plate: str, parent=None):
+        super().__init__(parent)
+        self.plate = plate
+
+    def run(self):
+        try:
+            self.found.emit(gov_lookup.lookup_plate(self.plate))
+        except gov_lookup.NotFound as e:
+            self.not_found.emit(str(e))
+        except gov_lookup.NetworkError as e:
+            self.failed.emit(str(e))
+        except Exception as e:  # noqa: BLE001 - לא להפיל את הטופס בגלל תקלה בזיהוי
+            self.failed.emit(str(e))
 
 
 def fit_to_screen(dialog: QDialog, content: QWidget, extra_height: int = 70, max_fraction: float = 0.9):
@@ -70,6 +91,19 @@ class VehicleFormDialog(QDialog):
         self.plate = QLineEdit()
         self.plate.setPlaceholderText("לדוגמה 12-345-67")
         self.plate.setLayoutDirection(Qt.LeftToRight)
+        self.lookup_btn = QPushButton("🔍 זיהוי אוטומטי")
+        self.lookup_btn.setObjectName("secondary")
+        self.lookup_btn.setToolTip("איתור פרטי הרכב במאגר הפתוח של משרד התחבורה לפי מספר הרישוי")
+        self.lookup_btn.clicked.connect(lambda: self.lookup_plate(manual=True))
+        self.lookup_status = QLabel("")
+        self.lookup_status.setWordWrap(True)
+        self.lookup_status.setStyleSheet("color:#5f6b7a;font-size:11px")
+        self._lookup_thread: Optional[PlateLookupThread] = None
+        self._lookup_done_for = ""
+        self.lookup_enabled = bool(repo.get_settings().gov_lookup)
+        self.lookup_btn.setVisible(self.lookup_enabled)
+        if self.lookup_enabled:
+            self.plate.editingFinished.connect(lambda: self.lookup_plate(manual=False))
         self.make = QLineEdit()
         self.make.setPlaceholderText("טויוטה")
         self.model = QLineEdit()
@@ -92,7 +126,13 @@ class VehicleFormDialog(QDialog):
         self.mileage_year_start = OptionalDateEdit()
         self.notes = QPlainTextEdit()
         self.notes.setFixedHeight(48)
-        form.addRow("מספר רישוי *", self.plate)
+        plate_row = QHBoxLayout()
+        plate_row.addWidget(self.plate, 1)
+        plate_row.addWidget(self.lookup_btn)
+        pw = QWidget()
+        pw.setLayout(plate_row)
+        form.addRow("מספר רישוי *", pw)
+        form.addRow("", self.lookup_status)
         row = QHBoxLayout()
         row.addWidget(self.make)
         row.addWidget(self.model)
@@ -158,9 +198,66 @@ class VehicleFormDialog(QDialog):
         self.result_id: Optional[int] = None
         fit_to_screen(self, content)
 
+    # ---------- זיהוי אוטומטי ממאגר משרד התחבורה ----------
+    def lookup_plate(self, manual: bool):
+        digits = "".join(ch for ch in self.plate.text() if ch.isdigit())
+        if not (5 <= len(digits) <= 8):
+            if manual:
+                self._set_lookup_status("יש להזין מספר רישוי תקין (5-8 ספרות)", "warn")
+            return
+        if not manual and digits == self._lookup_done_for:
+            return  # כבר נבדק המספר הזה
+        if self._lookup_thread and self._lookup_thread.isRunning():
+            return
+        self._lookup_done_for = digits
+        self._set_lookup_status("מאתר את הרכב במאגר משרד התחבורה…", "info")
+        self.lookup_btn.setEnabled(False)
+        t = PlateLookupThread(digits, self)
+        t.found.connect(self._on_lookup_found)
+        t.not_found.connect(lambda msg: self._on_lookup_missing(msg, network=False))
+        t.failed.connect(lambda msg: self._on_lookup_missing(msg, network=True))
+        t.finished.connect(lambda: self.lookup_btn.setEnabled(True))
+        self._lookup_thread = t
+        t.start()
+
+    def _set_lookup_status(self, text: str, kind: str):
+        color = {"ok": "#1a7f37", "warn": "#9a6700", "err": "#c0392b", "info": "#5f6b7a"}[kind]
+        self.lookup_status.setStyleSheet(f"color:{color};font-size:11px")
+        self.lookup_status.setText(text)
+
+    def _on_lookup_found(self, info):
+        filled = []
+        if info.make and not self.make.text().strip():
+            self.make.setText(info.make); filled.append("יצרן")
+        if info.model and not self.model.text().strip():
+            self.model.setText(info.model); filled.append("דגם")
+        if info.year and not self.year.value():
+            self.year.setValue(info.year); filled.append("שנה")
+        if info.test_expiry and self.test_expiry.value() is None:
+            self.test_expiry.set_value(info.test_expiry); filled.append("תוקף טסט")
+        extra = info.notes_text()
+        if extra and extra not in self.notes.toPlainText():
+            cur = self.notes.toPlainText().strip()
+            self.notes.setPlainText((cur + "\n" if cur else "") + extra)
+        if not self.vehicle and info.last_test_km and not self.initial_km.value():
+            # ק״מ מהטסט האחרון כנקודת פתיחה רטרואקטיבית, אם יש גם תאריך
+            if info.last_test_date:
+                self.initial_km.set_value(info.last_test_km)
+                self.initial_km_date.set_value(info.last_test_date)
+                filled.append("ק״מ בטסט האחרון")
+        what = ", ".join(filled) if filled else "אין שדות ריקים למילוי"
+        self._set_lookup_status(f"✔ זוהה: {info.summary()}  ({info.source}). מולאו: {what}. ניתן לערוך את הפרטים.", "ok")
+
+    def _on_lookup_missing(self, msg: str, network: bool):
+        if network:
+            self._set_lookup_status(f"⚠ אין גישה למאגר משרד התחבורה ({msg}). יש להזין את פרטי הרכב ידנית.", "warn")
+        else:
+            self._set_lookup_status("✖ הרכב לא נמצא במאגר משרד התחבורה. יש להזין את פרטי הרכב ידנית.", "err")
+
     def _load(self, v: dict):
         from .db import format_plate
         self.plate.setText(format_plate(v["plate"]))
+        self._lookup_done_for = "".join(ch for ch in v["plate"] if ch.isdigit())
         self.make.setText(v.get("make") or "")
         self.model.setText(v.get("model") or "")
         self.year.setValue(int(v["year"]) if v.get("year") else 0)
@@ -388,6 +485,17 @@ class SettingsDialog(QDialog):
         form.addRow("התראה כשנותרו לטיפול (ק״מ)", self.alert_km)
         lay.addWidget(box)
 
+        gbox = QGroupBox("זיהוי רכב אוטומטי")
+        gl = QVBoxLayout(gbox)
+        self.gov_lookup = QCheckBox("בהזנת מספר רישוי, לאתר את פרטי הרכב במאגר הפתוח של משרד התחבורה (data.gov.il)")
+        self.gov_lookup.setChecked(bool(s.gov_lookup))
+        gl.addWidget(self.gov_lookup)
+        ghint = QLabel("ממלא אוטומטית יצרן, דגם, שנת ייצור ותוקף טסט. דורש חיבור לאינטרנט. אם הרכב לא נמצא, מזינים ידנית.")
+        ghint.setWordWrap(True)
+        ghint.setStyleSheet("color:#5f6b7a;font-size:11px")
+        gl.addWidget(ghint)
+        lay.addWidget(gbox)
+
         dbox = QGroupBox("תיקיית שמירת הנתונים")
         dl = QVBoxLayout(dbox)
         hint = QLabel("כל הרישום (רכבים, טיפולים, תיקונים, קילומטראז׳) נשמר בקובץ fleet.db בתוך התיקייה שנבחרת. "
@@ -429,6 +537,7 @@ class SettingsDialog(QDialog):
         s = Settings(
             service_interval_km=self.interval_km.value(), service_interval_months=self.interval_months.value(),
             annual_km_limit=self.annual_limit.value(), alert_days=self.alert_days.value(), alert_km=self.alert_km.value(),
+            gov_lookup=1 if self.gov_lookup.isChecked() else 0,
         )
         try:
             self.repo.update_settings(s)

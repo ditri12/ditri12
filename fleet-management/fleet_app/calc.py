@@ -136,6 +136,7 @@ class Settings:
     annual_km_limit: int = 35000
     alert_days: int = 30
     alert_km: int = 1000
+    gov_lookup: int = 1   # זיהוי רכב אוטומטי ממאגר משרד התחבורה (1 = פעיל)
 
     @classmethod
     def from_dict(cls, d: dict) -> "Settings":
