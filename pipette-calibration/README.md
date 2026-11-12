@@ -103,7 +103,10 @@ without Outlook the default mail client opens instead.
 5. **History** - search past calibrations (also by customer), re-create a
    PDF, load one back into the form, **Delete** one or several rows
    (Ctrl / Shift to multi-select, with confirmation), or switch the
-   recalibration **reminders on / off** per calibration. The Setup tab has
+   recalibration **reminders on / off** per calibration, or **Send reminder
+   now** for the selected rows, which e-mails the customer immediately even if
+   reminders are off for that calibration or one was already sent (an
+   address is asked for when none is on record). The Setup tab has
    the same "Do not send recalibration reminders" checkbox for a pipette you
    are calibrating now; muted rows are grey and show OFF in the Reminder
    column.

@@ -116,3 +116,27 @@ def test_delete_and_no_reminder_flag(tmp_path):
     assert a.document_no not in h.reminder_marks()
     assert h.delete([]) == 0
     h.close()
+
+
+def test_manual_reminder_ignores_flags_and_guards(tmp_path, monkeypatch):
+    from pipette_cal.reminders import send_manual
+    h = History(tmp_path / "h.sqlite")
+    cfg = AppConfig()
+    a = _rec("LG-CAL-2025-0001", "SN-1", "2025-11-20", "2026-11-20", "Lab A", "a@example.com")
+    b = _rec("LG-CAL-2025-0002", "SN-2", "2025-11-21", "2026-11-21", "Walk-in", "")
+    h.add(a); h.add(b)
+    h.set_no_reminder([a.id], True)
+    h.mark_reminded(a.document_no, "a@example.com; cc office")
+    h.record_reminder_send("a@example.com", [a.document_no])
+    sent = []
+    monkeypatch.setattr("pipette_cal.reminders.compose_email",
+                        lambda to, subject, body, attachments, send=False, html=None, cc="": sent.append((to, cc)) or "ok")
+    msg = send_manual(h, cfg, [h.get(a.id)], date(2026, 11, 12))
+    assert sent == [("a@example.com", "info@lifegene.co.il")] and "1 pipette" in msg
+    assert "(manual)" in h.reminder_marks()[a.document_no][1]
+    import pytest
+    with pytest.raises(ValueError):
+        send_manual(h, cfg, [h.get(b.id)], date(2026, 11, 12))
+    send_manual(h, cfg, [h.get(a.id), h.get(b.id)], date(2026, 11, 12), email_override="x@example.com")
+    assert sent[-1][0] == "x@example.com"
+    h.close()

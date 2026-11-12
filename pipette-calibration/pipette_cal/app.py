@@ -26,7 +26,7 @@ import tkinter as tk
 import tkinter.font as tkfont
 from datetime import date, datetime
 from pathlib import Path
-from tkinter import filedialog, messagebox, ttk
+from tkinter import filedialog, messagebox, simpledialog, ttk
 
 from . import __app_name__, __version__
 from .certificate import CertificateInfo, build_certificate, default_filename
@@ -34,7 +34,7 @@ from .models import (CATALOGUE, LEVELS, REPLICATES, Level, PipetteSpec, full_mod
                      resolve_catalogue_name)
 from .physics import Environment, air_density, water_density, z_factor
 from .report import compose_email, open_file, print_file
-from .reminders import check_and_send
+from .reminders import check_and_send, send_manual
 from .scale import BaseScale, RadwagScale, Reading, ScaleError, SimulatedScale
 from .stats import CalibrationResult, evaluate
 from .storage import AppConfig, CalibrationRecord, History, now_iso
@@ -730,7 +730,8 @@ class App(tk.Tk):
         Button(actions, self, "Re-create PDF", self._history_pdf, "primary").pack(side="left")
         Button(actions, self, "Load into form", self._history_load, "secondary").pack(side="left", padx=8)
         Button(actions, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left")
-        Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left", padx=8)
+        Button(actions, self, "Send reminder now", self._history_send_reminder, "secondary").pack(side="left", padx=8)
+        Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left")
         tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
                  bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x", pady=(0, 4))
         cols = ("document", "date", "model", "serial", "customer", "verdict", "next", "reminder")
@@ -1467,7 +1468,7 @@ class App(tk.Tk):
             if mark:
                 sent_at, sent_to = mark
                 reminder = (f"skipped {sent_at[:10]}" if sent_to.startswith("not sent") else
-                            f"sent {sent_at[:10]} to {sent_to.split(';')[0]}")
+                            f"sent {sent_at[:10]} to {sent_to.split(';')[0]}" + (" (manual)" if "(manual)" in sent_to else ""))
             if rec.no_reminder:
                 reminder = "OFF" + (f"  ({reminder})" if reminder else "")
             nxt = rec.next_calibration or rec.payload.get("next_calibration_date", "")
@@ -1525,6 +1526,34 @@ class App(tk.Tk):
         self._refresh_history()
         self._refresh_output_buttons()
         messagebox.showinfo("Delete", f"{n} calibration(s) deleted.", parent=self)
+
+    def _history_send_reminder(self):
+        """Manual reminder for the selected calibrations: works even when
+        reminders are switched off for them or were already sent."""
+        ids = self._selected_ids()
+        if not ids:
+            return
+        records = [r for r in (self.history.get(i) for i in ids) if r]
+        missing = [r for r in records if not r.customer_email.strip()]
+        override = ""
+        if missing:
+            override = simpledialog.askstring(
+                "Send reminder", f"{len(missing)} of the selected calibration(s) have no customer e-mail.\n"
+                                 "Enter the address to send ALL selected reminders to:", parent=self) or ""
+            if not override.strip():
+                return
+        targets = sorted({(override or r.customer_email).strip().lower() for r in records})
+        if not messagebox.askyesno("Send reminder", f"Send the recalibration reminder for {len(records)} pipette(s) "
+                                                    f"to:\n{chr(10).join(targets)}\n\n(copy to "
+                                                    f"{self.cfg.reminder_email_to or 'the office'})", parent=self):
+            return
+        try:
+            msg = send_manual(self.history, self.cfg, records, email_override=override.strip())
+        except Exception as exc:  # noqa: BLE001
+            messagebox.showerror("Send reminder", str(exc), parent=self)
+            return
+        self._refresh_history()
+        messagebox.showinfo("Send reminder", msg, parent=self)
 
     def _history_toggle_reminder(self):
         ids = self._selected_ids()

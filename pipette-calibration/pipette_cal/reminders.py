@@ -120,6 +120,33 @@ def build_internal_reminder(records: list[CalibrationRecord], today: date) -> tu
     return subject, "\n".join(lines), html
 
 
+def send_manual(history: History, cfg: AppConfig, records: list[CalibrationRecord],
+                today: date | None = None, email_override: str = "") -> str:
+    """Send the customer reminder for the given calibrations NOW, ignoring the
+    'no reminder' flag, earlier reminders and the per-customer repeat guard.
+    Records are grouped by customer address (or all sent to *email_override*).
+    Every send is recorded like an automatic one."""
+    today = today or date.today()
+    office = cfg.reminder_email_to.strip() or OFFICE_EMAIL
+    groups: dict[str, list[CalibrationRecord]] = {}
+    for r in records:
+        email = (email_override or r.customer_email).strip().lower()
+        if not email:
+            raise ValueError(f"{r.document_no} ({r.model} S/N {r.serial_no or '-'}) has no customer e-mail. "
+                             "Enter an address to send to.")
+        groups.setdefault(email, []).append(r)
+    messages = []
+    for email, recs in groups.items():
+        subject, body, html = build_customer_reminder(recs, today, office)
+        messages.append(compose_email(email, subject, body, [], send=cfg.reminder_auto_send, html=html, cc=office))
+        history.record_reminder_send(email, [r.document_no for r in recs])
+        for r in recs:
+            history.mark_reminded(r.document_no, f"{email}; cc {office} (manual)")
+        log.info("manual reminder: %d pipette(s) -> %s (cc %s)", len(recs), email, office)
+    return (f"Reminder for {len(records)} pipette(s) sent to {len(groups)} address(es), office copy to {office}.\n"
+            + "\n".join(messages))
+
+
 def check_and_send(history: History, cfg: AppConfig, today: date | None = None) -> tuple[int, str]:
     """Send the reminders that are due. Returns (number of pipettes, message)."""
     today = today or date.today()
