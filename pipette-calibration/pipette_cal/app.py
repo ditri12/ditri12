@@ -722,15 +722,17 @@ class App(tk.Tk):
         e = self._entry(top, self.v_search, width=28)
         e.pack(side="left", padx=8, ipady=3)
         e.bind("<KeyRelease>", lambda ev: self._refresh_history())
-        Button(top, self, "Re-create PDF", self._history_pdf, "primary").pack(side="right")
-        Button(top, self, "Load into form", self._history_load, "secondary").pack(side="right", padx=8)
-        Button(top, self, "Delete", self._history_delete, "danger").pack(side="right")
-        Button(top, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="right", padx=8)
         Button(top, self, "Send reminders now", lambda: self._run_reminders(silent=False), "secondary").pack(side="right")
         self.reminder_info = tk.Label(top, text="", bg=p["surface"], fg=p["muted"], font=self.f_small)
         self.reminder_info.pack(side="right", padx=10)
-        tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
-                 bg=p["surface"], fg=p["muted"], font=self.f_small).pack(anchor="w", pady=(0, 4))
+        actions = tk.Frame(card.body, bg=p["surface"])
+        actions.pack(fill="x", pady=(0, 8))
+        Button(actions, self, "Re-create PDF", self._history_pdf, "primary").pack(side="left")
+        Button(actions, self, "Load into form", self._history_load, "secondary").pack(side="left", padx=8)
+        Button(actions, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left")
+        Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left", padx=8)
+        tk.Label(actions, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
+                 bg=p["surface"], fg=p["muted"], font=self.f_small).pack(side="left", padx=6)
         cols = ("document", "date", "model", "serial", "customer", "verdict", "next", "reminder")
         self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="extended")
         for c, w in zip(cols, (140, 130, 80, 110, 150, 60, 90, 180)):
