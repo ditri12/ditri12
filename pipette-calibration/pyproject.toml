@@ -1,0 +1,15 @@
+[project]
+name = "pipette-calibration"
+version = "2.0.0"
+description = "Gravimetric calibration of Gilson pipettes with a RADWAG balance - LifeGene Ltd."
+requires-python = ">=3.10"
+dependencies = ["reportlab>=4.0", "pillow>=10.0", "pywin32>=306; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pyinstaller>=6.0"]
+
+[project.gui-scripts]
+pipette-calibration = "pipette_cal.app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
