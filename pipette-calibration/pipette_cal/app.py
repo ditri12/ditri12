@@ -1117,7 +1117,8 @@ class App(tk.Tk):
             serial_no=self.v_serial.get().strip(), tip=self.v_tip.get().strip(),
             operator=self.operator(), balance_id=self.v_balance.get().strip(),
             place=self.cfg.place_of_calibration, comments=self.v_comments.get(),
-            series=self.series(), procedure=self.cfg.procedure, logo_path=self._logo_path())
+            series=self.series(), procedure=self.cfg.procedure, logo_path=self._logo_path(),
+            signature_path=self._signature_path())
 
     def _calculate(self):
         try:
@@ -1341,6 +1342,7 @@ class App(tk.Tk):
             messagebox.showerror("History", f"This record cannot be rebuilt: {exc}", parent=self)
             return
         info.logo_path = self._logo_path()
+        info.signature_path = self._signature_path()
         target = filedialog.asksaveasfilename(
             parent=self, title="Re-create certificate", defaultextension=".pdf", filetypes=[("PDF", "*.pdf")],
             initialdir=self.cfg.pdf_folder or str(Path.home() / "Documents"),
@@ -1467,6 +1469,10 @@ class App(tk.Tk):
     @classmethod
     def _logo_path(cls) -> Path | None:
         return cls._asset("logo.png", "logo.jpg", "logo.jpeg")
+
+    @classmethod
+    def _signature_path(cls) -> Path | None:
+        return cls._asset("signature.png", "signature.jpg", "signature.jpeg")
 
     def _load_logo(self):
         path = self._logo_path()

@@ -112,6 +112,7 @@ class CertificateInfo:
     series: str = "Classic"          # PIPETMAN series: Classic / Neo / L / Multi
     procedure: str = ""              # "Standard" line, printed when set
     logo_path: Path | None = None
+    signature_path: Path | None = None   # image of the operator's signature (optional)
 
 
 # ---- symbol font for the check marks -----------------------------------------
@@ -185,6 +186,22 @@ def _logo(info: CertificateInfo):
     t.setStyle(TableStyle([("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
                            ("TOPPADDING", (0, 0), (-1, -1), 1), ("BOTTOMPADDING", (0, 0), (-1, -1), 1)]))
     return t
+
+
+def _signature_image(info: CertificateInfo):
+    """Signature image scaled to fit 55 x 16 mm, or None."""
+    if not info.signature_path or not Path(info.signature_path).exists():
+        return None
+    try:
+        img = Image(str(info.signature_path))
+    except Exception as exc:  # noqa: BLE001
+        log.warning("signature image not usable: %s", exc)
+        return None
+    max_w, max_h = 55 * mm, 16 * mm
+    scale = min(max_w / img.imageWidth, max_h / img.imageHeight)
+    img.drawWidth, img.drawHeight = img.imageWidth * scale, img.imageHeight * scale
+    img.hAlign = "LEFT"
+    return img
 
 
 def _info_column(title: str, pairs: list[tuple[str, str]]):
@@ -324,9 +341,15 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
     # ---- page 2 ------------------------------------------------------------
     story.append(PageBreak())
     story += [HRFlowable(width="100%", thickness=0.75, color=HDRGREY), Spacer(1, 3 * mm)]
-    left = [Paragraph(f"Calibrated by:  <b>{info.operator or '-'}</b>", st_body), Spacer(1, 9 * mm),
-            Paragraph("_" * 36, _ps("ul", 8, HDRGREY)),
-            Paragraph("Authorized Signature", _ps("as", 7, DGREY))]
+    left = [Paragraph(f"Calibrated by:  <b>{info.operator or '-'}</b>", st_body)]
+    sig_img = _signature_image(info)
+    if sig_img is not None:
+        left += [Spacer(1, 2 * mm), sig_img, Spacer(1, 1 * mm)]
+    else:
+        left += [Spacer(1, 9 * mm)]
+    left += [HRFlowable(width=6 * cm, thickness=0.6, color=HDRGREY, hAlign="LEFT", spaceBefore=0, spaceAfter=1),
+             Paragraph(f"Authorized Signature{'' if sig_img is None else '  -  signed electronically'}"
+                       f"   {cal_date}", _ps("as", 7, DGREY))]
     if info.comments.strip():
         left += [Spacer(1, 3 * mm), Paragraph(f"Comments:  {info.comments.strip()}", st_body)]
     right = [Paragraph(f"<b><font color='{BLUE.hexval()}'>{COMPANY}</font></b>", _ps("co", 10, bold=True)),
