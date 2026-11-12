@@ -1118,7 +1118,7 @@ class App(tk.Tk):
             operator=self.operator(), balance_id=self.v_balance.get().strip(),
             place=self.cfg.place_of_calibration, comments=self.v_comments.get(),
             series=self.series(), procedure=self.cfg.procedure, logo_path=self._logo_path(),
-            signature_path=self._signature_path())
+            signature_path=self._signature_path(), signer_name=self.cfg.signer_name)
 
     def _calculate(self):
         try:
@@ -1343,6 +1343,7 @@ class App(tk.Tk):
             return
         info.logo_path = self._logo_path()
         info.signature_path = self._signature_path()
+        info.signer_name = self.cfg.signer_name
         target = filedialog.asksaveasfilename(
             parent=self, title="Re-create certificate", defaultextension=".pdf", filetypes=[("PDF", "*.pdf")],
             initialdir=self.cfg.pdf_folder or str(Path.home() / "Documents"),
@@ -1395,6 +1396,7 @@ class App(tk.Tk):
         body.pack(padx=20, pady=16)
         fields = (
             ("Calibrated by (operator)", "operator", str),
+            ("Signer name (next to the signature)", "signer_name", str),
             ("Default e-mail recipient", "email_to", str),
             ("Place of calibration", "place_of_calibration", str),
             ("Standard / procedure (on certificate)", "procedure", str),

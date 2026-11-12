@@ -46,6 +46,7 @@ class AppConfig:
     balance_id: str = ""
     balance_readability_mg: float = 0.001
     operator: str = "LifeGene Technical Service"
+    signer_name: str = ""            # person who signs the certificate (printed next to the signature)
     theme: str = "dark"
     default_temperature_c: float = 22.0
     default_humidity_pct: float = 50.0

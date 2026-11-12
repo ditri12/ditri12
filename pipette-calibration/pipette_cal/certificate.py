@@ -113,6 +113,7 @@ class CertificateInfo:
     procedure: str = ""              # "Standard" line, printed when set
     logo_path: Path | None = None
     signature_path: Path | None = None   # image of the operator's signature (optional)
+    signer_name: str = ""                # printed next to the signature; defaults to operator
 
 
 # ---- symbol font for the check marks -----------------------------------------
@@ -189,7 +190,7 @@ def _logo(info: CertificateInfo):
 
 
 def _signature_image(info: CertificateInfo):
-    """Signature image scaled to fit 55 x 16 mm, or None."""
+    """Signature image scaled to fit 45 x 32 mm, or None."""
     if not info.signature_path or not Path(info.signature_path).exists():
         return None
     try:
@@ -197,7 +198,7 @@ def _signature_image(info: CertificateInfo):
     except Exception as exc:  # noqa: BLE001
         log.warning("signature image not usable: %s", exc)
         return None
-    max_w, max_h = 55 * mm, 16 * mm
+    max_w, max_h = 45 * mm, 32 * mm
     scale = min(max_w / img.imageWidth, max_h / img.imageHeight)
     img.drawWidth, img.drawHeight = img.imageWidth * scale, img.imageHeight * scale
     img.hAlign = "LEFT"
@@ -343,13 +344,20 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
     story += [HRFlowable(width="100%", thickness=0.75, color=HDRGREY), Spacer(1, 3 * mm)]
     left = [Paragraph(f"Calibrated by:  <b>{info.operator or '-'}</b>", st_body)]
     sig_img = _signature_image(info)
+    signer = info.signer_name.strip() or info.operator or ""
+    name_block = [Paragraph(f"<b>{signer}</b>", _ps("sn", 9, bold=True)),
+                  HRFlowable(width=5.5 * cm, thickness=0.6, color=HDRGREY, hAlign="LEFT", spaceBefore=2, spaceAfter=1),
+                  Paragraph(f"Authorized Signature{'' if sig_img is None else '  -  signed electronically'}"
+                            f"   {cal_date}", _ps("as", 7, DGREY))]
     if sig_img is not None:
-        left += [Spacer(1, 2 * mm), sig_img, Spacer(1, 1 * mm)]
+        # signature image at the left, name and signature line beside it, bottom-aligned
+        sig_row = Table([[sig_img, name_block]], colWidths=[sig_img.drawWidth + 4 * mm, 6 * cm])
+        sig_row.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "BOTTOM"),
+                                     ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                     ("TOPPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 0)]))
+        left += [Spacer(1, 2 * mm), sig_row]
     else:
-        left += [Spacer(1, 9 * mm)]
-    left += [HRFlowable(width=6 * cm, thickness=0.6, color=HDRGREY, hAlign="LEFT", spaceBefore=0, spaceAfter=1),
-             Paragraph(f"Authorized Signature{'' if sig_img is None else '  -  signed electronically'}"
-                       f"   {cal_date}", _ps("as", 7, DGREY))]
+        left += [Spacer(1, 9 * mm)] + name_block
     if info.comments.strip():
         left += [Spacer(1, 3 * mm), Paragraph(f"Comments:  {info.comments.strip()}", st_body)]
     right = [Paragraph(f"<b><font color='{BLUE.hexval()}'>{COMPANY}</font></b>", _ps("co", 10, bold=True)),
