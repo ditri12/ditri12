@@ -886,8 +886,8 @@ class App(tk.Tk):
         demo = isinstance(self.scale, SimulatedScale)
         self.btn_connect.config(text="Disconnect" if connected else "Connect")
         self.side_connect_btn.config(text="Disconnect" if connected else "Connect")
-        self.side_scale_addr.config(text="Demo mode  ·  change in Measurements" if self.v_demo.get() else
-                                    f"{self.v_ip.get().strip()}:{self.v_port.get()}  ·  change in Measurements")
+        self.side_scale_addr.config(text="Demo mode (simulator)" if self.v_demo.get() else
+                                    f"{self.v_ip.get().strip()}:{self.v_port.get()}")
         self.btn_listen.config(text="Stop listening" if listening else "Start listening")
         for b in (self.btn_listen, self.btn_zero, self.btn_tare):
             b.set_enabled(connected)
