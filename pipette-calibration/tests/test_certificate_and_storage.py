@@ -21,7 +21,8 @@ def _result(model="P200"):
 def test_certificate_is_two_pages(tmp_path):
     res = _result()
     info = CertificateInfo("LG-CAL-2026-0001", date(2026, 11, 12), date(2027, 11, 12),
-                           "SN-12345", "D200", operator="D. Test", comments="ok")
+                           "SN-12345", "DF200", operator="D. Test", comments="ok", series="L",
+                           procedure="W-004-04 Calibration of Pipette")
     out = build_certificate(tmp_path / "cert.pdf", info, res)
     data = out.read_bytes()
     assert data.startswith(b"%PDF")
@@ -58,6 +59,7 @@ def test_config_roundtrip(tmp_path, monkeypatch):
     monkeypatch.setattr("pipette_cal.storage.app_data_dir", lambda: tmp_path)
     cfg = AppConfig.load()
     assert cfg.scale_ip == "10.0.0.112"
+    assert cfg.operator == "LifeGene Technical Service"
     cfg.scale_ip = "192.168.1.5"
     cfg.operator = "Dmitri"
     cfg.save()

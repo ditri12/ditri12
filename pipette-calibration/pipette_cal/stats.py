@@ -22,6 +22,7 @@ class LevelResult:
     systematic_error_ul: float      # mean - nominal
     systematic_error_pct: float     # relative to nominal
     random_error_ul: float          # = SD
+    random_error_pct: float         # SD / nominal * 100 (as on the certificate)
     cv_pct: float                   # SD / mean * 100
     uncertainty_ul: float           # expanded uncertainty of the mean, k = 2
     sys_limit_ul: float
@@ -98,6 +99,7 @@ def evaluate_level(spec: PipetteSpec, level: Level, weights_g: list[float],
         systematic_error_ul=sys_err,
         systematic_error_pct=(sys_err / nominal * 100.0) if nominal else 0.0,
         random_error_ul=sd,
+        random_error_pct=(sd / nominal * 100.0) if nominal else 0.0,
         cv_pct=(sd / mean * 100.0) if mean else 0.0,
         uncertainty_ul=_uncertainty(sd, len(volumes), readability_mg, z),
         sys_limit_ul=spec.sys_limit_ul,

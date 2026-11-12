@@ -45,7 +45,7 @@ class AppConfig:
     poll_interval_s: float = 0.25
     balance_id: str = ""
     balance_readability_mg: float = 0.001
-    operator: str = ""
+    operator: str = "LifeGene Technical Service"
     theme: str = "dark"
     default_temperature_c: float = 22.0
     default_humidity_pct: float = 50.0
@@ -55,6 +55,8 @@ class AppConfig:
     demo_mode: bool = False
     place_of_calibration: str = "LifeGene Lab, Mevo Horon, Israel"
     next_calibration_months: int = 12
+    procedure: str = "W-004-04 Calibration of Pipette"   # "Standard" line on the certificate
+    default_air_temperature_c: float = 22.0
 
     @classmethod
     def path(cls) -> Path:

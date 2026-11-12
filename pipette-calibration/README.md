@@ -29,12 +29,20 @@ a small, tested application:
   numbers are generated automatically (`LG-CAL-2026-0001`, ...), a certificate
   can be re-created from history at any time, and the Setup tab warns when a
   serial number was calibrated before.
-* **Settings dialog** - operator name, e-mail recipient, balance readability,
-  default environment, PDF folder, next-calibration interval. Stored per user
-  in `%APPDATA%\LifeGene\PipetteCalibration`.
-* **Certificate** - two pages, no clipped text, colour-coded LOW / MID / HIGH
-  tables, limits and PASS/FAIL per criterion, weights and volumes, bold
-  scope-of-calibration notice, LifeGene contact details, page footer.
+* **Settings dialog** - operator name (default "LifeGene Technical Service"),
+  e-mail recipient, standard / procedure line, balance readability, default
+  environment, PDF folder, next-calibration interval. Stored per user in
+  `%APPDATA%\LifeGene\PipetteCalibration`.
+* **Certificate** - the approved LifeGene / Gilson layout: logo and address,
+  navy title banner, Document / Operator / Date / RESULT bar, three info
+  columns (air and water temperature, pressure, humidity, Z factor, Standard
+  W-004-04), one results block per test volume with normalised limits,
+  "Canal 1" results row with A / CV marks, individual weights and volumes;
+  page 2 with signature, contact details, decision-rule notes, the bold
+  scope-of-calibration notice in a blue box, and the "shall not be reproduced
+  except in full" footer. Always exactly two pages, no clipped text.
+* **Full PIPETMAN catalogue** - Classic, Neo (N), L and Multi models with the
+  original tip assignments (GS-10, DF30, D100, DF200, DF1000, ...).
 * **Dark / light theme**, maximised window, logo from `assets/logo.png`.
 * **Windows helpers** - `install.bat`, `run.bat`, and `build_exe.bat`
   (PyInstaller) to hand out a single `PipetteCalibration.exe`.
@@ -59,7 +67,8 @@ without Outlook the default mail client opens instead.
 1. **Setup** - choose the model, enter the serial number. Tip, document number,
    calibration date, next calibration (+12 months) and place are filled in
    automatically and can be edited.
-2. **Environment** - water temperature, humidity, pressure, balance ID.
+2. **Environment** - air temperature, pressure, humidity, water temperature,
+   balance ID. Water density, air density and the Z factor update live.
 3. **Measurements** - *Connect* (IP 10.0.0.112 : 4001 by default). The live
    reading is always shown. Dispense the test volume and press **Enter**
    (or *Save reading*); the program stores the weight, tares the balance and

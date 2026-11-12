@@ -30,13 +30,20 @@ STANDARD_PRESSURE_HPA = 1013.25
 
 @dataclass(frozen=True)
 class Environment:
-    temperature_c: float
+    temperature_c: float                    # temperature of the test water
     humidity_pct: float
     pressure_hpa: float = STANDARD_PRESSURE_HPA
+    air_temperature_c: float | None = None  # defaults to the water temperature
+
+    @property
+    def air_t(self) -> float:
+        return self.temperature_c if self.air_temperature_c is None else self.air_temperature_c
 
     def validate(self) -> None:
         if not 0.0 <= self.temperature_c <= 40.0:
             raise ValueError("Water temperature must be between 0 and 40 C.")
+        if not 0.0 <= self.air_t <= 45.0:
+            raise ValueError("Air temperature must be between 0 and 45 C.")
         if not 0.0 <= self.humidity_pct <= 100.0:
             raise ValueError("Relative humidity must be between 0 and 100 %.")
         if not 800.0 <= self.pressure_hpa <= 1100.0:
@@ -61,7 +68,7 @@ def air_density(temperature_c: float, humidity_pct: float,
 def z_factor(env: Environment) -> float:
     """Conversion factor in uL/mg (equivalently mL/g)."""
     rho_w = water_density(env.temperature_c)
-    rho_a = air_density(env.temperature_c, env.humidity_pct, env.pressure_hpa)
+    rho_a = air_density(env.air_t, env.humidity_pct, env.pressure_hpa)
     # (1/(rho_w - rho_a)) is in m3/kg; multiply by 1000 to get mL/g.
     return 1000.0 / (rho_w - rho_a) * (1.0 - rho_a / STEEL_DENSITY)
 

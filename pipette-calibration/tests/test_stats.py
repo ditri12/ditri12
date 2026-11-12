@@ -48,6 +48,7 @@ def test_random_error_fails():
     assert mid.systematic_pass and not mid.random_pass
     assert mid.random_error_ul == pytest.approx(5.7735, abs=1e-3)
     assert mid.cv_pct == pytest.approx(1.1547, abs=1e-3)
+    assert mid.random_error_pct == pytest.approx(1.1547, abs=1e-3)
 
 
 def test_requires_four_weights():

@@ -28,7 +28,8 @@ from tkinter import filedialog, messagebox, ttk
 
 from . import __app_name__, __version__
 from .certificate import CertificateInfo, build_certificate, default_filename
-from .models import ALL_SPECS, LEVELS, REPLICATES, Level, PipetteSpec, get_spec
+from .models import (CATALOGUE, LEVELS, REPLICATES, Level, PipetteSpec, full_model_name,
+                     resolve_catalogue_name)
 from .physics import Environment, air_density, water_density, z_factor
 from .report import email_file, open_file, print_file
 from .scale import BaseScale, RadwagScale, Reading, ScaleError, SimulatedScale
@@ -38,7 +39,8 @@ from .storage import AppConfig, CalibrationRecord, History, now_iso
 log = logging.getLogger(__name__)
 
 TABS = ("Setup", "Environment", "Measurements", "Results", "History")
-DATE_FMT = "%d.%m.%Y"
+DEFAULT_OPERATOR = "LifeGene Technical Service"
+DATE_FMT = "%d/%m/%Y"
 
 PALETTES = {
     "dark": dict(bg="#0f172a", surface="#1e293b", surface2="#273449", border="#334155",
@@ -182,8 +184,8 @@ class App(tk.Tk):
         self.current_tab = tk.StringVar(value=TABS[0])
 
         # ---- form variables (survive theme rebuilds) --------------------
-        self.v_model = tk.StringVar(value=ALL_SPECS[4].display_name)      # P200
-        self.v_tip = tk.StringVar(value=ALL_SPECS[4].default_tip)
+        self.v_model = tk.StringVar(value=CATALOGUE[4][0])      # PIPETMAN Classic P200
+        self.v_tip = tk.StringVar(value=CATALOGUE[4][1].default_tip)
         self.v_serial = tk.StringVar()
         self.v_doc = tk.StringVar(value=self.history.next_document_number())
         today = date.today()
@@ -191,6 +193,7 @@ class App(tk.Tk):
         self.v_next = tk.StringVar(value=add_months(today, self.cfg.next_calibration_months).strftime(DATE_FMT))
         self.v_comments = tk.StringVar()
         self.v_temp = tk.StringVar(value=f"{self.cfg.default_temperature_c:g}")
+        self.v_air = tk.StringVar(value=f"{self.cfg.default_air_temperature_c:g}")
         self.v_hum = tk.StringVar(value=f"{self.cfg.default_humidity_pct:g}")
         self.v_press = tk.StringVar(value=f"{self.cfg.default_pressure_hpa:g}")
         self.v_balance = tk.StringVar(value=self.cfg.balance_id)
@@ -201,7 +204,7 @@ class App(tk.Tk):
 
         self.v_model.trace_add("write", lambda *_: self._on_model_change())
         self.v_serial.trace_add("write", lambda *_: self._on_serial_change())
-        for v in (self.v_temp, self.v_hum, self.v_press):
+        for v in (self.v_temp, self.v_air, self.v_hum, self.v_press):
             v.trace_add("write", lambda *_: self._update_env_readout())
 
         self._build()
@@ -287,9 +290,9 @@ class App(tk.Tk):
             txt.pack(side="left", padx=(0, 14))
             row = tk.Frame(txt, bg=p["header"])
             row.pack(anchor="w")
-            tk.Label(row, text="LIFE", fg="#60a5fa", bg=p["header"],
+            tk.Label(row, text="LIFE", fg="#4a9be0", bg=p["header"],
                      font=(self.f_title.cget("family"), 17, "bold")).pack(side="left")
-            tk.Label(row, text="GENE", fg="#4ade80", bg=p["header"],
+            tk.Label(row, text="GENE", fg="#8cd36a", bg=p["header"],
                      font=(self.f_title.cget("family"), 17, "bold")).pack(side="left")
             tk.Label(txt, text="Supporting Science", fg="#94a3b8", bg=p["header"],
                      font=(self.f_small.cget("family"), 8, "italic")).pack(anchor="w")
@@ -417,7 +420,7 @@ class App(tk.Tk):
     def _field(self, master, label, widget_factory, row, col, hint=""):
         p = self.p
         cell = tk.Frame(master, bg=p["surface"])
-        cell.grid(row=row, column=col, sticky="ew", padx=(0, 18), pady=6)
+        cell.grid(row=row, column=col, sticky="new", padx=(0, 18), pady=6)
         tk.Label(cell, text=label, bg=p["surface"], fg=p["accent"], font=self.f_caption).pack(anchor="w")
         w = widget_factory(cell)
         w.pack(fill="x", ipady=4, pady=(3, 0))
@@ -435,7 +438,7 @@ class App(tk.Tk):
             g.columnconfigure(c, weight=1)
         self._field(g, "Model", lambda m: ttk.Combobox(
             m, textvariable=self.v_model, state="readonly",
-            values=[s.display_name for s in ALL_SPECS], font=self.f_body), 0, 0)
+            values=[name for name, _, _ in CATALOGUE], font=self.f_body), 0, 0)
         self._field(g, "Tip", lambda m: self._entry(m, self.v_tip), 0, 1,
                     "Suggested from the model - editable")
         self._field(g, "Serial number", lambda m: self._entry(m, self.v_serial), 0, 2)
@@ -454,7 +457,7 @@ class App(tk.Tk):
         self._field(g2, "Document number", lambda m: self._entry(m, self.v_doc, mono=True), 0, 0,
                     "Generated automatically - editable")
         e_date = self._field(g2, "Calibration date", lambda m: self._entry(m, self.v_date), 0, 1,
-                             "dd.mm.yyyy")
+                             "dd/mm/yyyy")
         e_date.bind("<FocusOut>", lambda e: self._on_date_change())
         e_next = self._field(g2, "Next calibration", lambda m: self._entry(m, self.v_next), 0, 2,
                              f"Default: {self.cfg.next_calibration_months} months after calibration")
@@ -463,9 +466,8 @@ class App(tk.Tk):
                     lambda m: tk.Label(m, text=self.cfg.place_of_calibration, anchor="w",
                                        bg=p["surface2"], fg=p["text"], font=self.f_body, padx=6), 1, 0)
         self._field(g2, "Calibrated by",
-                    lambda m: tk.Label(m, text=self.cfg.operator or "(set in Settings)", anchor="w",
-                                       bg=p["surface2"], fg=p["text"] if self.cfg.operator else p["muted"],
-                                       font=self.f_body, padx=6), 1, 1)
+                    lambda m: tk.Label(m, text=self.operator(), anchor="w", bg=p["surface2"],
+                                       fg=p["text"], font=self.f_body, padx=6), 1, 1)
         self._field(g2, "Comments", lambda m: self._entry(m, self.v_comments), 2, 0)
         g2.grid_slaves(row=2, column=0)[0].grid_configure(columnspan=3)
         return page
@@ -476,14 +478,15 @@ class App(tk.Tk):
         card = Card(page, self, "Environmental conditions")
         card.pack(fill="x", pady=(0, 12))
         g = card.body
-        for c in range(4):
+        for c in range(5):
             g.columnconfigure(c, weight=1)
-        self._field(g, "Water temperature (°C)", lambda m: self._entry(m, self.v_temp, mono=True), 0, 0,
-                    "Measured in the test water, 0 - 40 °C")
-        self._field(g, "Relative humidity (%)", lambda m: self._entry(m, self.v_hum, mono=True), 0, 1)
-        self._field(g, "Air pressure (hPa)", lambda m: self._entry(m, self.v_press, mono=True), 0, 2,
+        self._field(g, "Air temperature (°C)", lambda m: self._entry(m, self.v_air, mono=True), 0, 0)
+        self._field(g, "Air pressure (hPa)", lambda m: self._entry(m, self.v_press, mono=True), 0, 1,
                     "1013.25 if unknown")
-        self._field(g, "Balance ID", lambda m: self._entry(m, self.v_balance), 0, 3,
+        self._field(g, "Relative humidity (%)", lambda m: self._entry(m, self.v_hum, mono=True), 0, 2)
+        self._field(g, "Water temperature (°C)", lambda m: self._entry(m, self.v_temp, mono=True), 0, 3,
+                    "Measured in the test water, 0 - 40 °C")
+        self._field(g, "Balance ID", lambda m: self._entry(m, self.v_balance), 0, 4,
                     "Printed on the certificate")
 
         card2 = Card(page, self, "Derived conversion factors", p["amber"])
@@ -601,7 +604,8 @@ class App(tk.Tk):
         grid.pack(fill="both", expand=True)
         self.result_cards: dict[Level, dict[str, tk.Label]] = {}
         rows = (("Average volume", "mean"), ("Systematic error", "sys"), ("Random error (SD)", "rnd"),
-                ("CV", "cv"), ("Uncertainty (k=2)", "unc"), ("Accuracy", "acc"), ("Weights g → µL", "weights"))
+                ("Random error (%)", "cv"), ("Uncertainty (k=2)", "unc"), ("Accuracy", "acc"),
+                ("Weights g → µL", "weights"))
         for ci, lv in enumerate(LEVELS):
             grid.columnconfigure(ci, weight=1, uniform="res")
             card = Card(grid, self, "", p[lv.value.lower()])
@@ -656,11 +660,13 @@ class App(tk.Tk):
     # Form logic
     # ------------------------------------------------------------------
     def spec(self) -> PipetteSpec:
-        name = self.v_model.get()
-        for s in ALL_SPECS:
-            if s.display_name == name:
-                return s
-        return get_spec(name.split()[0])
+        return resolve_catalogue_name(self.v_model.get())[0]
+
+    def series(self) -> str:
+        return resolve_catalogue_name(self.v_model.get())[1]
+
+    def operator(self) -> str:
+        return self.cfg.operator.strip() or DEFAULT_OPERATOR
 
     def _on_model_change(self):
         if not hasattr(self, "spec_info"):
@@ -668,6 +674,7 @@ class App(tk.Tk):
         s = self.spec()
         self.v_tip.set(s.default_tip)
         self.spec_info.config(text=(
+            f"Range {s.range_label.replace('uL', 'µL')}  ·  {s.channels} channel{'s' if s.channels > 1 else ''}  ·  "
             f"Test volumes: {s.test_volumes[0]:g} / {s.test_volumes[1]:g} / {s.test_volumes[2]:g} µL      "
             f"Limits: systematic error ± {s.sys_limit_ul:g} µL,  random error ≤ {s.rnd_limit_ul:g} µL"))
         for lv in LEVELS:
@@ -697,9 +704,10 @@ class App(tk.Tk):
 
     def _environment(self) -> Environment:
         try:
-            env = Environment(float(self.v_temp.get()), float(self.v_hum.get()), float(self.v_press.get()))
+            env = Environment(float(self.v_temp.get()), float(self.v_hum.get()), float(self.v_press.get()),
+                              float(self.v_air.get()))
         except ValueError:
-            raise ValueError("Temperature, humidity and pressure must be numbers.") from None
+            raise ValueError("Temperatures, humidity and pressure must be numbers.") from None
         env.validate()
         return env
 
@@ -714,7 +722,7 @@ class App(tk.Tk):
             return
         self.env_readout["Water density"].config(text=f"{water_density(env.temperature_c):.3f}")
         self.env_readout["Air density"].config(
-            text=f"{air_density(env.temperature_c, env.humidity_pct, env.pressure_hpa):.4f}")
+            text=f"{air_density(env.air_t, env.humidity_pct, env.pressure_hpa):.4f}")
         self.env_readout["Z factor"].config(text=f"{z_factor(env):.5f}")
         self._refresh_slots()
 
@@ -776,7 +784,7 @@ class App(tk.Tk):
             return self._environment()
         except ValueError:
             return Environment(self.cfg.default_temperature_c, self.cfg.default_humidity_pct,
-                               self.cfg.default_pressure_hpa)
+                               self.cfg.default_pressure_hpa, self.cfg.default_air_temperature_c)
 
     def _poll_scale(self):
         if self.scale:
@@ -939,9 +947,9 @@ class App(tk.Tk):
         return CertificateInfo(
             document_no=self.v_doc.get().strip(), calibration_date=cal, next_calibration_date=nxt,
             serial_no=self.v_serial.get().strip(), tip=self.v_tip.get().strip(),
-            operator=self.cfg.operator, balance_id=self.v_balance.get().strip(),
+            operator=self.operator(), balance_id=self.v_balance.get().strip(),
             place=self.cfg.place_of_calibration, comments=self.v_comments.get(),
-            logo_path=self._logo_path())
+            series=self.series(), procedure=self.cfg.procedure, logo_path=self._logo_path())
 
     def _calculate(self):
         try:
@@ -962,14 +970,16 @@ class App(tk.Tk):
 
     def _store_record(self, info: CertificateInfo, result: CalibrationResult):
         payload = {
-            "model": result.spec.model, "serial_no": info.serial_no, "tip": info.tip,
+            "model": result.spec.model, "series": info.series, "serial_no": info.serial_no, "tip": info.tip,
             "document_no": info.document_no, "calibration_date": info.calibration_date.isoformat(),
             "next_calibration_date": info.next_calibration_date.isoformat(),
             "operator": info.operator, "balance_id": info.balance_id, "place": info.place,
-            "comments": info.comments, "balance_readability_mg": result.balance_readability_mg,
+            "comments": info.comments, "procedure": info.procedure,
+            "balance_readability_mg": result.balance_readability_mg,
             "environment": {"temperature_c": result.environment.temperature_c,
                             "humidity_pct": result.environment.humidity_pct,
-                            "pressure_hpa": result.environment.pressure_hpa},
+                            "pressure_hpa": result.environment.pressure_hpa,
+                            "air_temperature_c": result.environment.air_t},
             "weights_g": {lv.value: list(result.level(lv).weights_g) for lv in LEVELS},
             "z": result.z, "verdict": result.verdict,
         }
@@ -991,7 +1001,8 @@ class App(tk.Tk):
         self.verdict_label.config(text=f"CALIBRATION {result.verdict}", fg=colour)
         failed = [lv.level.value for lv in result.levels if not lv.passed]
         self.verdict_sub.config(text=(
-            f"Gilson {result.spec.model}  ·  S/N {self.v_serial.get().strip()}  ·  Z = {result.z:.5f} µL/mg\n"
+            f"Gilson {full_model_name(result.spec, self.series())}  ·  S/N {self.v_serial.get().strip()}  ·  "
+            f"Z = {result.z:.5f} µL/mg\n"
             + ("All test volumes are within the acceptance limits." if ok else
                f"Out of limits at: {', '.join(failed)}.")), fg=p["text"])
         for lv in result.levels:
@@ -1004,7 +1015,7 @@ class App(tk.Tk):
                             fg=p["green"] if lv.systematic_pass else p["red"])
             c["rnd"].config(text=f"{lv.random_error_ul:.3f} µL\nlimit ≤ {lv.rnd_limit_ul:g} µL",
                             fg=p["green"] if lv.random_pass else p["red"])
-            c["cv"].config(text=f"{lv.cv_pct:.2f} %")
+            c["cv"].config(text=f"{lv.random_error_pct:.2f} %   (CV {lv.cv_pct:.2f} %)")
             c["unc"].config(text=f"± {lv.uncertainty_ul:.3f} µL")
             c["acc"].config(text=f"{lv.accuracy_pct:.2f} %")
             c["weights"].config(text="\n".join(f"{w:.6f} → {v:.3f}" for w, v in zip(lv.weights_g, lv.volumes_ul)))
@@ -1068,8 +1079,8 @@ class App(tk.Tk):
         body = (f"Please find attached the calibration certificate {info.document_no}.\n\n"
                 f"Pipette: Gilson {self.result.spec.model}, S/N {info.serial_no}\n"
                 f"Result: {self.result.verdict}\n"
-                f"Calibration date: {info.calibration_date:%d.%m.%Y}\n"
-                f"Next calibration: {info.next_calibration_date:%d.%m.%Y}\n\n"
+                f"Calibration date: {info.calibration_date:%d/%m/%Y}\n"
+                f"Next calibration: {info.next_calibration_date:%d/%m/%Y}\n\n"
                 "LifeGene Ltd., Mevo Horon, Israel\n+972-(0)8-6444314 | info@lifegene.co.il\n")
         try:
             msg = email_file(path, self.cfg.email_to, subject, body)
@@ -1139,12 +1150,15 @@ class App(tk.Tk):
         pl = rec.payload
         env = Environment(**pl["environment"])
         weights = {lv: list(pl["weights_g"][lv.value]) for lv in LEVELS}
-        result = evaluate(get_spec(pl["model"]), env, weights, pl.get("balance_readability_mg", 0.001))
+        spec, series = resolve_catalogue_name(pl["model"])
+        series = pl.get("series", series)
+        result = evaluate(spec, env, weights, pl.get("balance_readability_mg", 0.001))
         info = CertificateInfo(
             document_no=pl["document_no"], calibration_date=date.fromisoformat(pl["calibration_date"]),
             next_calibration_date=date.fromisoformat(pl["next_calibration_date"]),
             serial_no=pl["serial_no"], tip=pl["tip"], operator=pl.get("operator", ""),
-            balance_id=pl.get("balance_id", ""), place=pl.get("place", ""), comments=pl.get("comments", ""))
+            balance_id=pl.get("balance_id", ""), place=pl.get("place", ""), comments=pl.get("comments", ""),
+            series=series, procedure=pl.get("procedure", ""))
         return info, result
 
     def _history_pdf(self):
@@ -1175,7 +1189,7 @@ class App(tk.Tk):
         except (KeyError, ValueError) as exc:
             messagebox.showerror("History", f"This record cannot be loaded: {exc}", parent=self)
             return
-        self.v_model.set(result.spec.display_name)
+        self.v_model.set(full_model_name(result.spec, info.series))
         self.v_tip.set(info.tip)
         self.v_serial.set(info.serial_no)
         self.v_doc.set(info.document_no)
@@ -1183,6 +1197,7 @@ class App(tk.Tk):
         self.v_next.set(info.next_calibration_date.strftime(DATE_FMT))
         self.v_comments.set(info.comments)
         self.v_temp.set(f"{result.environment.temperature_c:g}")
+        self.v_air.set(f"{result.environment.air_t:g}")
         self.v_hum.set(f"{result.environment.humidity_pct:g}")
         self.v_press.set(f"{result.environment.pressure_hpa:g}")
         self.v_balance.set(info.balance_id)
@@ -1210,10 +1225,12 @@ class App(tk.Tk):
             ("Calibrated by (operator)", "operator", str),
             ("Default e-mail recipient", "email_to", str),
             ("Place of calibration", "place_of_calibration", str),
+            ("Standard / procedure (on certificate)", "procedure", str),
             ("Next calibration after (months)", "next_calibration_months", int),
             ("Balance readability (mg)", "balance_readability_mg", float),
             ("Balance poll interval (s)", "poll_interval_s", float),
-            ("Default temperature (°C)", "default_temperature_c", float),
+            ("Default water temperature (°C)", "default_temperature_c", float),
+            ("Default air temperature (°C)", "default_air_temperature_c", float),
             ("Default humidity (%)", "default_humidity_pct", float),
             ("Default pressure (hPa)", "default_pressure_hpa", float),
             ("PDF folder", "pdf_folder", str),

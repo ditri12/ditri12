@@ -38,3 +38,12 @@ def test_environment_validation():
         Environment(20.0, 50.0, 500.0).validate()
     Environment(22.0, 45.0, 1010.0).validate()
     assert math.isfinite(z_factor(Environment(22.0, 45.0, 1010.0)))
+
+
+def test_air_temperature_is_separate_from_water_temperature():
+    same = z_factor(Environment(20.0, 50.0, 1013.25))
+    warmer_air = z_factor(Environment(20.0, 50.0, 1013.25, air_temperature_c=30.0))
+    assert warmer_air != pytest.approx(same, abs=1e-7)
+    assert Environment(20.0, 50.0).air_t == 20.0
+    with pytest.raises(ValueError):
+        Environment(20.0, 50.0, 1013.25, air_temperature_c=60.0).validate()
