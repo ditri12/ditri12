@@ -570,14 +570,16 @@ class App(tk.Tk):
         ttk.Checkbutton(row, text="Auto-save when stable", variable=self.v_auto).pack(side="left", padx=(0, 14))
         self.btn_connect = Button(row, self, "Connect", self._toggle_connect, "primary")
         self.btn_connect.pack(side="left")
-        self.btn_listen = Button(row, self, "Start listening", self._toggle_listen, "secondary")
-        self.btn_listen.pack(side="left", padx=8)
-        self.btn_zero = Button(row, self, "Zero", lambda: self._scale_cmd("zero"), "secondary")
-        self.btn_zero.pack(side="left")
-        self.btn_tare = Button(row, self, "Tare", lambda: self._scale_cmd("tare"), "secondary")
-        self.btn_tare.pack(side="left", padx=8)
-        self.btn_drop = Button(row, self, "Simulate drop", self._simulate_drop, "ghost")
-        self.btn_drop.pack(side="left")
+        row2 = tk.Frame(conn.body, bg=p["surface"])
+        row2.pack(fill="x", pady=(8, 0))
+        self.btn_listen = Button(row2, self, "Start listening", self._toggle_listen, "secondary")
+        self.btn_listen.pack(side="left")
+        self.btn_zero = Button(row2, self, "Zero", lambda: self._scale_cmd("zero"), "secondary")
+        self.btn_zero.pack(side="left", padx=8)
+        self.btn_tare = Button(row2, self, "Tare", lambda: self._scale_cmd("tare"), "secondary")
+        self.btn_tare.pack(side="left")
+        self.btn_drop = Button(row2, self, "Simulate drop", self._simulate_drop, "ghost")
+        self.btn_drop.pack(side="left", padx=8)
 
         live = tk.Frame(page, bg=p["surface"], highlightbackground=p["border"], highlightthickness=1)
         live.pack(fill="x", pady=(0, 12))
@@ -1085,7 +1087,8 @@ class App(tk.Tk):
         self.progress_label.config(text=f"{done} / {REPLICATES * 3} measurements")
         self.progress_hint.config(text=(
             "All measurements recorded - press Calculate." if nxt is None else
-            f"Next: {nxt[0].value} #{nxt[1] + 1} - dispense {self.spec().volume_for(nxt[0]):g} µL and press Enter."))
+            f"Next: {nxt[0].value} #{nxt[1] + 1} - dispense {self.spec().volume_for(nxt[0]):g} µL"
+            + (", it is saved when stable." if self.v_auto.get() else " and press Enter.")))
         self._refresh_target()
 
     def _refresh_target(self):
