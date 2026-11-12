@@ -405,13 +405,11 @@ class App(tk.Tk):
         self.side_scale_status = tk.Label(sc.body, text="Not connected", bg=p["surface"],
                                           fg=p["muted"], font=self.f_small)
         self.side_scale_status.pack(anchor="w")
-        row = tk.Frame(sc.body, bg=p["surface"])
-        row.pack(fill="x", pady=(8, 0))
-        self.side_connect_btn = Button(row, self, "Connect", self._toggle_connect, "primary")
-        self.side_connect_btn.pack(side="left")
-        self.side_scale_addr = tk.Label(row, text="", bg=p["surface"], fg=p["muted"], font=self.f_small,
-                                        cursor="hand2")
-        self.side_scale_addr.pack(side="left", padx=10)
+        self.side_connect_btn = Button(sc.body, self, "Connect", self._toggle_connect, "primary")
+        self.side_connect_btn.pack(anchor="w", pady=(8, 2))
+        self.side_scale_addr = tk.Label(sc.body, text="", bg=p["surface"], fg=p["muted"], font=self.f_small,
+                                        cursor="hand2", anchor="w")
+        self.side_scale_addr.pack(anchor="w")
         self.side_scale_addr.bind("<Button-1>", lambda e: self._show_tab("Measurements"))
 
     def _build_footer(self):
@@ -888,8 +886,8 @@ class App(tk.Tk):
         demo = isinstance(self.scale, SimulatedScale)
         self.btn_connect.config(text="Disconnect" if connected else "Connect")
         self.side_connect_btn.config(text="Disconnect" if connected else "Connect")
-        self.side_scale_addr.config(text="Demo mode" if self.v_demo.get() else
-                                    f"{self.v_ip.get().strip()}:{self.v_port.get()}  (Measurements tab)")
+        self.side_scale_addr.config(text="Demo mode  ·  change in Measurements" if self.v_demo.get() else
+                                    f"{self.v_ip.get().strip()}:{self.v_port.get()}  ·  change in Measurements")
         self.btn_listen.config(text="Stop listening" if listening else "Start listening")
         for b in (self.btn_listen, self.btn_zero, self.btn_tare):
             b.set_enabled(connected)
