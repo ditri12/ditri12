@@ -119,8 +119,9 @@ def build_customer_reminder(records: list[CalibrationRecord], today: date,
                (f"{n} פיפטורים" if n > 1 else f"Gilson {first.model} S/N {first.serial_no or '-'}"))
     greeting = f"שלום {name}," if name else "שלום רב,"
     many = n > 1
-    p1 = ("לפי הרישומים שלנו, מועד הכיול השנתי של " + ("הפיפטורים הבאים" if many else "הפיפטור הבא") +
-          " שכוילו על ידי LifeGene מתקרב. כיול תקופתי שומר על דיוק התוצאות ועל עקיבותן, "
+    p1 = ("לפי הרישומים שלנו, מועד הכיול השנתי של " +
+          ("הפיפטורים הבאים שכוילו" if many else "הפיפטור הבא שכויל") +
+          " על ידי LifeGene מתקרב. כיול תקופתי שומר על דיוק התוצאות ועל עקיבותן, "
           "ואנו ממליצים לבצע כיול חוזר לפני המועד המצוין.")
     p2 = ("נשמח לשלוח לך הצעת מחיר לכיול החוזר. לקבלת הצעה או לתיאום מועד נוח, ניתן להשיב למייל זה "
           f"או לפנות למשרדנו: {office_email} | {OFFICE_PHONE}.")
@@ -132,11 +133,12 @@ def build_customer_reminder(records: list[CalibrationRecord], today: date,
                      f"כויל ב-{_fmt(r.calibrated_at[:10])}, מועד כיול חוזר {_fmt(r.next_calibration)} "
                      f"({_status_he(r, today)})")
     lines += ["", p2, "", p3, ""] + sign_lines
+    # The HTML version ends after the thanks: Outlook appends the sender's own
+    # signature. The plain-text version (used only without Outlook) keeps a
+    # minimal company signature.
     html = (f"<div dir='rtl' style='direction:rtl;text-align:right'>"
             f"<p>{_esc(greeting)}</p><p>{_esc(p1)}</p>{_table_html_he(records, today)}"
-            f"<p>{_esc(p2)}</p><p>{_esc(p3)}</p>"
-            f"<p style='color:#555'>{sign_lines[0]}<br>{sign_lines[1]}<br>"
-            f"{OFFICE_PHONE} | <a href='mailto:{office_email}'>{office_email}</a></p></div>")
+            f"<p>{_esc(p2)}</p><p>{_esc(p3)}</p></div>")
     return subject, "\n".join(lines), html
 
 

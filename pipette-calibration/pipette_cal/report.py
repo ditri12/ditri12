@@ -39,15 +39,14 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
                   send: bool = False, html: str | None = None, cc: str = "") -> str:
     """Create an e-mail with *attachments*.
 
-    Outlook (COM, Windows + pywin32) is used when available.
+    Outlook (COM, Windows + pywin32) is used when available. The message is
+    always opened first with ``Display``: that is what makes Outlook insert the
+    user's default signature, which is then kept below the message text.
 
-    * ``send=False``: the draft is opened for review. Reading ``GetInspector``
-      makes Outlook insert the user's default signature, and the message text
-      is placed above it.
-    * ``send=True``: the message is sent immediately without touching the
-      inspector (opening it before ``Send`` makes some Outlook versions fail
-      with "The parameter is incorrect"). If sending still fails, the draft is
-      opened instead so nothing is lost, and the returned text says so.
+    * ``send=False``: the draft stays open for review.
+    * ``send=True``: ``Send`` is called right away (the window closes). If
+      Outlook refuses, the draft stays open and the returned text says so, so
+      nothing is lost.
 
     Without Outlook the default mail client is opened through a mailto link
     and the files have to be attached by hand.
@@ -70,37 +69,32 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
                     mail.Recipients.Add(addr).Type = 2          # olCC
                 mail.Recipients.ResolveAll()
                 mail.Subject = subject
-                text_html = html or "<br>".join(_html_escape(line) for line in body.splitlines())
                 step = "attach files"
                 for path in attachments:
                     mail.Attachments.Add(str(Path(path).resolve()))
-                if send:
-                    step = "set body"
-                    mail.HTMLBody = (f'<div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">'
-                                     f'{text_html}</div>')
-                    step = "send"
-                    try:
-                        mail.Send()
-                        return f"E-mail sent to {to} with {len(attachments)} attachment(s)."
-                    except Exception as exc:  # noqa: BLE001
-                        log.warning("Outlook Send failed (%s); opening the draft instead", exc)
-                        mail.Display(False)
-                        return (f"Outlook refused to send automatically ({exc}).\n"
-                                "The message was opened as a draft instead - please press Send in Outlook.")
+                step = "open draft"
+                mail.Display(False)                 # Outlook inserts the default signature here
                 step = "load signature"
                 try:
-                    mail.GetInspector                   # Outlook inserts the default signature
                     signature_html = mail.HTMLBody or ""
                 except Exception as exc:  # noqa: BLE001
-                    log.warning("could not load the Outlook signature: %s", exc)
+                    log.warning("could not read the Outlook signature: %s", exc)
                     signature_html = ""
                 step = "set body"
+                text_html = html or "<br>".join(_html_escape(line) for line in body.splitlines())
                 mail.HTMLBody = (f'<div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">'
                                  f'{text_html}</div><br>{signature_html}')
-                step = "open draft"
-                mail.Display(False)
-                return (f"Outlook message opened with {len(attachments)} attachment(s)"
-                        + (" and your signature." if signature_html else "."))
+                if not send:
+                    return (f"Outlook message opened with {len(attachments)} attachment(s)"
+                            + (" and your signature." if signature_html else "."))
+                step = "send"
+                try:
+                    mail.Send()
+                    return f"E-mail sent to {to} with {len(attachments)} attachment(s)."
+                except Exception as exc:  # noqa: BLE001
+                    log.warning("Outlook Send failed (%s); the draft stays open", exc)
+                    return (f"Outlook refused to send automatically ({exc}).\n"
+                            "The message is open as a draft - please press Send in Outlook.")
             except Exception as exc:  # noqa: BLE001 - COM errors are not typed
                 raise RuntimeError(f"Outlook failed at step '{step}': {exc}") from exc
     webbrowser.open(f"mailto:{quote(to)}?subject={quote(subject)}&body={quote(body)}"
