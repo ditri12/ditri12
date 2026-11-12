@@ -34,6 +34,7 @@ from .models import (CATALOGUE, LEVELS, REPLICATES, Level, PipetteSpec, full_mod
                      resolve_catalogue_name)
 from .physics import Environment, air_density, water_density, z_factor
 from .report import compose_email, open_file, print_file
+from . import autostart
 from .reminders import check_and_send, send_manual
 from .scale import BaseScale, RadwagScale, Reading, ScaleError, SimulatedScale
 from .stats import CalibrationResult, evaluate
@@ -227,6 +228,7 @@ class App(tk.Tk):
         self.v_next = tk.StringVar(value=add_months(today, self.cfg.next_calibration_months).strftime(DATE_FMT))
         self.v_comments = tk.StringVar()
         self.v_customer = tk.StringVar()
+        self.v_contact = tk.StringVar()
         self.v_customer_email = tk.StringVar()
         self.v_no_reminder = tk.BooleanVar(value=False)
         self.v_temp = tk.StringVar(value=f"{self.cfg.default_temperature_c:g}")
@@ -253,6 +255,11 @@ class App(tk.Tk):
         if self.cfg.auto_connect:
             self.after(600, lambda: self._connect(silent=True))
         self.after(4000, lambda: self._run_reminders(silent=True))
+        try:
+            if autostart.is_supported() and self.cfg.start_with_windows != autostart.is_enabled():
+                autostart.set_enabled(self.cfg.start_with_windows)
+        except OSError as exc:
+            log.warning("auto-start registration failed: %s", exc)
 
     # ------------------------------------------------------------------
     # Building the UI
@@ -538,12 +545,14 @@ class App(tk.Tk):
         g3 = card3.body
         for c in range(3):
             g3.columnconfigure(c, weight=1)
-        self._field(g3, "Customer / department", lambda m: self._entry(m, self.v_customer), 0, 0,
-                    "Optional - printed on the certificate and used for reminders")
-        self._field(g3, "Customer e-mail", lambda m: self._entry(m, self.v_customer_email), 0, 1,
-                    "Recipient of the certificate e-mail")
+        self._field(g3, "Customer / company", lambda m: self._entry(m, self.v_customer), 0, 0,
+                    "Printed on the certificate and used for reminders")
+        self._field(g3, "Contact person", lambda m: self._entry(m, self.v_contact), 0, 1,
+                    "E-mails are addressed to this name")
+        self._field(g3, "Customer e-mail", lambda m: self._entry(m, self.v_customer_email), 0, 2,
+                    "Recipient of the certificate and reminder e-mails")
         self.batch_info = tk.Label(g3, text="", bg=p["surface"], fg=p["muted"], font=self.f_small, justify="left")
-        self.batch_info.grid(row=0, column=2, sticky="w")
+        self.batch_info.grid(row=2, column=0, columnspan=3, sticky="w")
         ttk.Checkbutton(g3, text="Do not send recalibration reminders for this pipette",
                         variable=self.v_no_reminder).grid(row=1, column=0, columnspan=3, sticky="w", pady=(4, 0))
         return page
@@ -729,14 +738,15 @@ class App(tk.Tk):
         actions.pack(fill="x", pady=(0, 8))
         Button(actions, self, "Re-create PDF", self._history_pdf, "primary").pack(side="left")
         Button(actions, self, "Load into form", self._history_load, "secondary").pack(side="left", padx=8)
-        Button(actions, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left")
-        Button(actions, self, "Send reminder now", self._history_send_reminder, "secondary").pack(side="left", padx=8)
-        Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left")
+        Button(actions, self, "Edit customer", self._history_edit_customer, "secondary").pack(side="left")
+        Button(actions, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left", padx=8)
+        Button(actions, self, "Send reminder now", self._history_send_reminder, "secondary").pack(side="left")
+        Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left", padx=8)
         tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
                  bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x", pady=(0, 4))
-        cols = ("document", "date", "model", "serial", "customer", "verdict", "next", "reminder")
+        cols = ("document", "date", "model", "serial", "customer", "contact", "email", "verdict", "next", "reminder")
         self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="extended")
-        for c, w in zip(cols, (140, 130, 80, 110, 150, 60, 90, 180)):
+        for c, w in zip(cols, (130, 120, 70, 100, 130, 110, 150, 55, 85, 150)):
             self.history_tree.heading(c, text=c.upper())
             self.history_tree.column(c, width=w, anchor="w")
         sb = ttk.Scrollbar(card.body, orient="vertical", command=self.history_tree.yview)
@@ -1210,12 +1220,13 @@ class App(tk.Tk):
             "z": result.z, "verdict": result.verdict,
         }
         payload["customer"] = self.v_customer.get().strip()
+        payload["contact_name"] = self.v_contact.get().strip()
         payload["customer_email"] = self.v_customer_email.get().strip()
         rec = CalibrationRecord(info.document_no, now_iso(), result.spec.model, info.serial_no,
                                 info.tip, result.verdict, info.operator, payload,
                                 customer=payload["customer"], customer_email=payload["customer_email"],
                                 next_calibration=info.next_calibration_date.isoformat(),
-                                no_reminder=self.v_no_reminder.get())
+                                no_reminder=self.v_no_reminder.get(), contact_name=payload["contact_name"])
         try:
             self.history.add(rec)
             self.current_record = rec
@@ -1338,24 +1349,27 @@ class App(tk.Tk):
             messagebox.showerror("Email", f"Could not create the PDF(s):\n{exc}", parent=self)
             return
         to = self.v_customer_email.get().strip() or self.cfg.email_to
-        customer = self.v_customer_email.get().strip() and self.v_customer.get().strip()
+        customer = self.v_customer.get().strip()
+        contact = self.v_contact.get().strip() or customer
         if len(records) == 1:
             r = records[0]
             subject = f"Pipette calibration certificate {r.document_no} - Gilson {r.model} S/N {r.serial_no}"
-            intro = f"Please find attached the calibration certificate {r.document_no}."
+            intro = f"Please find attached the calibration certificate {r.document_no} for your pipette."
         else:
             subject = f"Pipette calibration certificates - {len(records)} pipettes" + \
                       (f" - {customer}" if customer else "")
             intro = f"Please find attached the calibration certificates for your {len(records)} pipettes."
-        lines = [intro, ""]
+        lines = [f"Dear {contact}," if contact else "Dear customer,", "", intro, ""]
         for r in records:
             nxt = r.next_calibration or r.payload.get("next_calibration_date", "")
             lines.append(f"- Gilson {r.model}, S/N {r.serial_no or '-'}: {r.verdict}  "
                          f"(certificate {r.document_no}, calibrated {r.calibrated_at[:10]}, "
                          f"next calibration {parse_date(nxt).strftime(DATE_FMT) if nxt else '-'})")
-        lines += ["", "LifeGene Ltd., Mevo Horon, Israel", "+972-(0)8-6444314 | info@lifegene.co.il"]
+        lines += ["", "Thank you for choosing LifeGene. We look forward to assisting you.", "",
+                  "LifeGene Ltd. - Technical Service", "Mevo Horon, Israel",
+                  f"+972-(0)8-6444314 | {self.cfg.email_cc or 'info@lifegene.co.il'}"]
         try:
-            msg = compose_email(to, subject, "\n".join(lines), paths)
+            msg = compose_email(to, subject, "\n".join(lines), paths, cc=self.cfg.email_cc)
             messagebox.showinfo("Email", msg, parent=self)
             self.batch = []
             self._refresh_output_buttons()
@@ -1426,6 +1440,7 @@ class App(tk.Tk):
         self.v_serial.set("")
         self.v_comments.set("")
         self.v_customer.set("")
+        self.v_contact.set("")
         self.v_customer_email.set("")
         self.v_no_reminder.set(False)
         self.v_doc.set(self.history.next_document_number())
@@ -1477,8 +1492,9 @@ class App(tk.Tk):
             except ValueError:
                 pass
             self.history_tree.insert("", "end", iid=str(rec.id), tags=("muted" if rec.no_reminder else rec.verdict,),
-                                     values=(rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.customer,
-                                             rec.verdict, nxt, reminder))
+                                     values=(rec.document_no, rec.calibrated_at[:16], rec.model, rec.serial_no,
+                                             rec.customer, rec.contact_name, rec.customer_email, rec.verdict, nxt,
+                                             reminder))
 
     def _run_reminders(self, silent: bool):
         """Send the recalibration reminder e-mail for pipettes due within the
@@ -1526,6 +1542,49 @@ class App(tk.Tk):
         self._refresh_history()
         self._refresh_output_buttons()
         messagebox.showinfo("Delete", f"{n} calibration(s) deleted.", parent=self)
+
+    def _history_edit_customer(self):
+        """Fill in or change customer, contact person and e-mail of the selected
+        calibrations (all selected rows receive the same values; a field left
+        empty keeps each row's current value)."""
+        ids = self._selected_ids()
+        if not ids:
+            return
+        first = self.history.get(ids[0])
+        p = self.p
+        win = tk.Toplevel(self, bg=p["surface"])
+        win.title("Edit customer details")
+        win.transient(self)
+        win.grab_set()
+        win.resizable(False, False)
+        body = tk.Frame(win, bg=p["surface"])
+        body.pack(padx=20, pady=16)
+        tk.Label(body, text=f"{len(ids)} calibration(s) selected. Empty fields keep the current value.",
+                 bg=p["surface"], fg=p["muted"], font=self.f_small).grid(row=0, column=0, columnspan=2,
+                                                                          sticky="w", pady=(0, 8))
+        vars_ = {}
+        for i, (label, key) in enumerate((("Customer / company", "customer"), ("Contact person", "contact_name"),
+                                          ("Customer e-mail", "customer_email")), start=1):
+            tk.Label(body, text=label, bg=p["surface"], fg=p["muted"], font=self.f_small,
+                     anchor="w").grid(row=i, column=0, sticky="w", pady=4, padx=(0, 14))
+            v = tk.StringVar(value=getattr(first, key) if first and len(ids) == 1 else "")
+            vars_[key] = v
+            self._entry(body, v, width=38).grid(row=i, column=1, sticky="ew", ipady=3)
+
+        def save():
+            kw = {k: (v.get() if v.get().strip() else None) for k, v in vars_.items()}
+            if len(ids) == 1:          # single row: allow clearing a field on purpose
+                kw = {k: v.get() for k, v in vars_.items()}
+            n = self.history.update_customer(ids, **kw)
+            win.destroy()
+            self._refresh_history()
+            for i in ids:
+                self.history_tree.selection_add(str(i))
+            messagebox.showinfo("Edit customer", f"Customer details updated for {n} calibration(s).", parent=self)
+        btns = tk.Frame(body, bg=p["surface"])
+        btns.grid(row=5, column=0, columnspan=2, sticky="e", pady=(12, 0))
+        Button(btns, self, "Cancel", win.destroy, "secondary").pack(side="left", padx=(0, 8))
+        Button(btns, self, "Save", save, "primary").pack(side="left")
 
     def _history_send_reminder(self):
         """Manual reminder for the selected calibrations: works even when
@@ -1623,6 +1682,7 @@ class App(tk.Tk):
         self.v_next.set(info.next_calibration_date.strftime(DATE_FMT))
         self.v_comments.set(info.comments)
         self.v_customer.set(rec.customer)
+        self.v_contact.set(rec.contact_name)
         self.v_customer_email.set(rec.customer_email)
         self.v_no_reminder.set(rec.no_reminder)
         self.v_temp.set(f"{result.environment.temperature_c:g}")
@@ -1654,7 +1714,8 @@ class App(tk.Tk):
             ("Calibrated by (operator)", "operator", str),
             ("Signer name (next to the signature)", "signer_name", str),
             ("Default e-mail recipient (certificates)", "email_to", str),
-            ("Office address copied on reminders", "reminder_email_to", str),
+            ("Office copy on certificate e-mails (CC)", "email_cc", str),
+            ("Office copy on reminders (CC)", "reminder_email_to", str),
             ("Remind this many days before the due date", "reminder_days_before", int),
             ("Send reminders automatically (yes/no)", "reminder_auto_send", _parse_bool),
             ("Do not e-mail the same customer again within (days)", "reminder_repeat_days", int),
@@ -1666,6 +1727,7 @@ class App(tk.Tk):
             ("Balance readability (mg)", "balance_readability_mg", float),
             ("Balance poll interval (s)", "poll_interval_s", float),
             ("Connect to the balance at start-up (yes/no)", "auto_connect", _parse_bool),
+            ("Start the program when Windows starts (yes/no)", "start_with_windows", _parse_bool),
             ("Default water temperature (°C)", "default_temperature_c", float),
             ("Default air temperature (°C)", "default_air_temperature_c", float),
             ("Default humidity (%)", "default_humidity_pct", float),
@@ -1691,6 +1753,10 @@ class App(tk.Tk):
                 msg.config(text=f"Invalid value: {exc}")
                 return
             self.cfg.save()
+            try:
+                autostart.set_enabled(self.cfg.start_with_windows)
+            except OSError as exc:
+                messagebox.showwarning("Settings", f"Could not change the Windows start-up entry:\n{exc}", parent=self)
             win.destroy()
             self._build()
         btns = tk.Frame(body, bg=p["surface"])

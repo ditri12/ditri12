@@ -29,6 +29,8 @@ a small, tested application:
   numbers are generated automatically (`LG-CAL-2026-0001`, ...), a certificate
   can be re-created from history at any time, and the Setup tab warns when a
   serial number was calibrated before.
+* **Start with Windows** - on by default (Settings); the program registers
+  itself in the user's Start-up entries so the reminders run every morning.
 * **Settings dialog** - operator name (printed as "Calibrated by"),
   e-mail recipient, standard / procedure line, balance readability, default
   environment, PDF folder, next-calibration interval. Stored per user in
@@ -103,10 +105,12 @@ without Outlook the default mail client opens instead.
 5. **History** - search past calibrations (also by customer), re-create a
    PDF, load one back into the form, **Delete** one or several rows
    (Ctrl / Shift to multi-select, with confirmation), or switch the
-   recalibration **reminders on / off** per calibration, or **Send reminder
-   now** for the selected rows, which e-mails the customer immediately even if
-   reminders are off for that calibration or one was already sent (an
-   address is asked for when none is on record). The Setup tab has
+   recalibration **reminders on / off** per calibration, **Edit customer** to
+   fill in or correct customer, contact person and e-mail of past calibrations
+   (several rows at once), or **Send reminder now** for the selected rows,
+   which e-mails the customer immediately even if reminders are off for that
+   calibration or one was already sent (an address is asked for when none is
+   on record). The Setup tab has
    the same "Do not send recalibration reminders" checkbox for a pipette you
    are calibrating now; muted rows are grey and show OFF in the Reminder
    column.
@@ -118,10 +122,12 @@ program starts (and on *Send reminders now* in the History tab) it looks for
 pipettes whose date falls within the next 30 days or has passed, takes the
 latest calibration of each serial number, and sends one e-mail per customer:
 **To** the customer e-mail stored with the calibration, **CC** the LifeGene
-office (info@lifegene.co.il, changeable in Settings). The message tells the
-customer that the annual calibration is due, lists the pipettes with their
-certificate numbers and due dates, and invites them to reply or contact the
-office for a quotation. Pipettes recorded without a customer e-mail are
+office (naama@lifegene.co.il, changeable in Settings). The message is in
+Hebrew, addressed to the contact person entered on the Setup tab (or the
+company name), tells the customer that the annual calibration is due, lists
+the pipettes with their certificate numbers and due dates, and invites them to
+reply or contact the office for a quotation. Certificate e-mails are
+addressed to the same contact person and copied to the office as well. Pipettes recorded without a customer e-mail are
 listed in an internal message to the office only. Two guards prevent
 nagging: each certificate is reminded once, and a customer address that
 already received a reminder is not e-mailed again for a year (Settings:

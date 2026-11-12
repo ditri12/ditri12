@@ -65,7 +65,10 @@ def test_config_roundtrip(tmp_path, monkeypatch):
     cfg.save()
     again = AppConfig.load()
     assert again.scale_ip == "192.168.1.5" and again.operator == "Dmitri"
-    (tmp_path / "config.json").write_text('{"operator": "LifeGene Technical Service"}')
-    assert AppConfig.load().operator == "Dmitri Trakhtman"      # old default is migrated
+    (tmp_path / "config.json").write_text('{"operator": "LifeGene Technical Service", '
+                                          '"reminder_email_to": "info@lifegene.co.il"}')
+    migrated = AppConfig.load()
+    assert migrated.operator == "Dmitri Trakhtman"               # old defaults are migrated
+    assert migrated.reminder_email_to == "naama@lifegene.co.il" and migrated.email_cc == "naama@lifegene.co.il"
     (tmp_path / "config.json").write_text("{not json")
     assert AppConfig.load().scale_ip == "10.0.0.112"

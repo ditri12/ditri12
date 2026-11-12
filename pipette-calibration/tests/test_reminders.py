@@ -25,14 +25,18 @@ def test_due_for_reminder_picks_latest_per_serial_and_only_once(tmp_path):
     h.close()
 
 
-def test_customer_reminder_wording():
+def test_customer_reminder_is_hebrew_and_personal():
+    a = _rec("LG-CAL-2025-0001", "SN-1", "2025-11-20", "2026-11-20")
+    a.contact_name = "דניאל"
     subject, body, html = build_customer_reminder(
-        [_rec("LG-CAL-2025-0001", "SN-1", "2025-11-20", "2026-11-20"),
-         _rec("LG-CAL-2024-0009", "SN-3", "2024-10-01", "2025-10-01")], date(2026, 11, 12))
-    assert subject.startswith("Annual pipette calibration due soon") and "2 pipettes" in subject
-    assert body.startswith("Dear Lab A,") and "quotation" in body and "info@lifegene.co.il" in body
-    assert "SN-1" in body and "due in 8 days" in body and "overdue by" in body
-    assert "<table" in html and "mailto:info@lifegene.co.il" in html
+        [a, _rec("LG-CAL-2024-0009", "SN-3", "2024-10-01", "2025-10-01")], date(2026, 11, 12))
+    assert subject.startswith("תזכורת") and "2 פיפטורים" in subject
+    assert body.startswith("שלום דניאל,") and "הצעת מחיר" in body and "naama@lifegene.co.il" in body
+    assert "SN-1" in body and "בעוד 8 ימים" in body and "עבר לפני" in body
+    assert "dir='rtl'" in html and "mailto:naama@lifegene.co.il" in html
+    # without a contact person the company name is used
+    assert build_customer_reminder([_rec("LG-CAL-2025-0002", "SN-2", "2025-11-20", "2026-11-20")],
+                                   date(2026, 11, 12))[1].startswith("שלום Lab A,")
 
 
 def test_internal_reminder_for_missing_email():
@@ -44,7 +48,7 @@ def test_internal_reminder_for_missing_email():
 def test_check_and_send_groups_by_customer_and_copies_office(tmp_path, monkeypatch):
     h = History(tmp_path / "h.sqlite")
     cfg = AppConfig()
-    assert cfg.reminder_email_to == "info@lifegene.co.il"
+    assert cfg.reminder_email_to == "naama@lifegene.co.il"
     assert check_and_send(h, cfg)[0] == 0
     h.add(_rec("LG-CAL-2025-0001", "SN-1", "2025-11-20", "2026-11-20", "Lab A", "a@example.com"))
     h.add(_rec("LG-CAL-2025-0002", "SN-2", "2025-11-21", "2026-11-21", "Lab A", "A@example.com"))
@@ -58,9 +62,9 @@ def test_check_and_send_groups_by_customer_and_copies_office(tmp_path, monkeypat
     monkeypatch.setattr("pipette_cal.reminders.compose_email", fake_compose)
     n, msg = check_and_send(h, cfg, date(2026, 11, 12))
     assert n == 4 and len(sent) == 3
-    assert ("a@example.com", "info@lifegene.co.il") in {(t, c) for t, c, _, _ in sent}
-    assert sum(1 for t, c, s_, _ in sent if t == "a@example.com" and "2 pipettes" in s_) == 1
-    assert ("info@lifegene.co.il", "") in {(t, c) for t, c, _, _ in sent}       # internal message
+    assert ("a@example.com", "naama@lifegene.co.il") in {(t, c) for t, c, _, _ in sent}
+    assert sum(1 for t, c, s_, _ in sent if t == "a@example.com" and "2 פיפטורים" in s_) == 1
+    assert ("naama@lifegene.co.il", "") in {(t, c) for t, c, _, _ in sent}       # internal message
     assert all(send is True for *_, send in sent)
     assert check_and_send(h, cfg, date(2026, 11, 12))[0] == 0      # reminded only once
     # a new pipette of Lab A becomes due a month later: the customer was contacted
@@ -132,7 +136,7 @@ def test_manual_reminder_ignores_flags_and_guards(tmp_path, monkeypatch):
     monkeypatch.setattr("pipette_cal.reminders.compose_email",
                         lambda to, subject, body, attachments, send=False, html=None, cc="": sent.append((to, cc)) or "ok")
     msg = send_manual(h, cfg, [h.get(a.id)], date(2026, 11, 12))
-    assert sent == [("a@example.com", "info@lifegene.co.il")] and "1 pipette" in msg
+    assert sent == [("a@example.com", "naama@lifegene.co.il")] and "1 pipette" in msg
     assert "(manual)" in h.reminder_marks()[a.document_no][1]
     import pytest
     with pytest.raises(ValueError):
@@ -140,3 +144,28 @@ def test_manual_reminder_ignores_flags_and_guards(tmp_path, monkeypatch):
     send_manual(h, cfg, [h.get(a.id), h.get(b.id)], date(2026, 11, 12), email_override="x@example.com")
     assert sent[-1][0] == "x@example.com"
     h.close()
+
+
+def test_update_customer_details(tmp_path):
+    h = History(tmp_path / "h.sqlite")
+    a = _rec("LG-CAL-2025-0001", "SN-1", "2025-11-20", "2026-11-20", customer="", email="")
+    b = _rec("LG-CAL-2025-0002", "SN-2", "2025-11-21", "2026-11-21", customer="Lab B", email="b@example.com")
+    h.add(a); h.add(b)
+    assert h.update_customer([a.id, b.id], customer="Hospital", contact_name="Dana", customer_email=None) == 2
+    ra, rb = h.get(a.id), h.get(b.id)
+    assert ra.customer == "Hospital" and ra.contact_name == "Dana" and ra.customer_email == ""
+    assert rb.customer == "Hospital" and rb.customer_email == "b@example.com"      # None keeps the value
+    assert ra.payload["customer"] == "Hospital" and ra.payload["contact_name"] == "Dana"
+    h.update_customer([a.id], customer_email="a@example.com")
+    assert [r.document_no for r in h.due_for_reminder(30, date(2026, 11, 12)) if r.customer_email == "a@example.com"]
+    assert h.list(search="Dana")[0].document_no in ("LG-CAL-2025-0001", "LG-CAL-2025-0002")
+    h.close()
+
+
+def test_autostart_command_and_noop_outside_windows():
+    from pipette_cal import autostart
+    cmd = autostart.launch_command()
+    assert "gilson_calibration.py" in cmd or ".exe" in cmd
+    if not autostart.is_supported():
+        assert autostart.is_enabled() is False
+        autostart.set_enabled(True)          # no-op, must not raise

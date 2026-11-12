@@ -33,7 +33,7 @@ from .storage import AppConfig, CalibrationRecord, History
 log = logging.getLogger(__name__)
 
 OFFICE_PHONE = "+972-(0)8-6444314"
-OFFICE_EMAIL = "info@lifegene.co.il"
+OFFICE_EMAIL = "naama@lifegene.co.il"
 
 
 def _esc(text: str) -> str:
@@ -47,20 +47,35 @@ def _fmt(iso: str) -> str:
         return iso or "-"
 
 
-def _status(r: CalibrationRecord, today: date) -> str:
+def _days_left(r: CalibrationRecord, today: date) -> int | None:
     try:
-        days = (date.fromisoformat(r.next_calibration) - today).days
+        return (date.fromisoformat(r.next_calibration) - today).days
     except ValueError:
+        return None
+
+
+def _status(r: CalibrationRecord, today: date) -> str:
+    days = _days_left(r, today)
+    if days is None:
         return "-"
     if days < 0:
         return f"overdue by {-days} days"
     return "due today" if days == 0 else f"due in {days} days"
 
 
+def _status_he(r: CalibrationRecord, today: date) -> str:
+    days = _days_left(r, today)
+    if days is None:
+        return "-"
+    if days < 0:
+        return f"עבר לפני {-days} ימים"
+    return "היום" if days == 0 else f"בעוד {days} ימים"
+
+
 def _table_html(records: list[CalibrationRecord], today: date, internal: bool) -> str:
     heads = ["Pipette", "Serial number", "Certificate", "Calibrated on", "Recalibration due", "Status"]
     if internal:
-        heads = ["Customer"] + heads
+        heads = ["Customer", "Contact"] + heads
     th = "".join(f"<th style='padding:5px 10px;border:1px solid #cfd8e3;background:#eef3f8;text-align:left'>{h}</th>"
                  for h in heads)
     rows = []
@@ -68,38 +83,60 @@ def _table_html(records: list[CalibrationRecord], today: date, internal: bool) -
         cells = [f"Gilson {r.model}", r.serial_no or "-", r.document_no, r.calibrated_at[:10],
                  _fmt(r.next_calibration), _status(r, today)]
         if internal:
-            cells = [r.customer or "-"] + cells
+            cells = [r.customer or "-", r.contact_name or "-"] + cells
         rows.append("<tr>" + "".join(f"<td style='padding:5px 10px;border:1px solid #cfd8e3'>{_esc(c)}</td>"
                                      for c in cells) + "</tr>")
     return f"<table style='border-collapse:collapse;font-size:10.5pt'><tr>{th}</tr>{''.join(rows)}</table>"
 
 
+def _table_html_he(records: list[CalibrationRecord], today: date) -> str:
+    heads = ["פיפטור", "מספר סידורי", "מספר תעודה", "תאריך כיול", "מועד כיול חוזר", "סטטוס"]
+    th = "".join(f"<th style='padding:5px 10px;border:1px solid #cfd8e3;background:#eef3f8;text-align:right'>{h}</th>"
+                 for h in heads)
+    rows = []
+    for r in records:
+        cells = [f"Gilson {r.model}", r.serial_no or "-", r.document_no, _fmt(r.calibrated_at[:10]),
+                 _fmt(r.next_calibration), _status_he(r, today)]
+        rows.append("<tr>" + "".join(f"<td style='padding:5px 10px;border:1px solid #cfd8e3;text-align:right'>"
+                                     f"{_esc(c)}</td>" for c in cells) + "</tr>")
+    return (f"<table dir='rtl' style='border-collapse:collapse;font-size:10.5pt;direction:rtl'>"
+            f"<tr>{th}</tr>{''.join(rows)}</table>")
+
+
+def greeting_name(records: list[CalibrationRecord]) -> str:
+    """Contact person if recorded, otherwise the customer / department name."""
+    return (next((r.contact_name for r in records if r.contact_name.strip()), "")
+            or next((r.customer for r in records if r.customer.strip()), "")).strip()
+
+
 def build_customer_reminder(records: list[CalibrationRecord], today: date,
                             office_email: str = OFFICE_EMAIL) -> tuple[str, str, str]:
-    """(subject, plain text, HTML) of the message sent to one customer."""
-    customer = next((r.customer for r in records if r.customer), "")
+    """(subject, plain text, HTML) of the Hebrew message sent to one customer."""
     n = len(records)
-    subject = ("Annual pipette calibration due soon - " +
-               (f"{n} pipettes" if n > 1 else f"Gilson {records[0].model} S/N {records[0].serial_no or '-'}"))
-    greeting = f"Dear {customer}," if customer else "Dear customer,"
-    p1 = (f"Our records show that the annual calibration of the following pipette{'s' if n > 1 else ''} "
-          "calibrated by LifeGene is approaching its due date. Regular calibration keeps your results "
-          "accurate and traceable, and we recommend recalibrating before the date below.")
-    p2 = ("We would be pleased to send you a quotation for the recalibration. To request one, or to "
-          f"schedule a convenient date, simply reply to this e-mail or contact our office at "
-          f"{office_email} / {OFFICE_PHONE}.")
-    p3 = "Thank you for choosing LifeGene. We look forward to assisting you."
-    sign = "LifeGene Ltd. - Technical Service\nMevo Horon, Israel\n" + f"{OFFICE_PHONE} | {office_email}"
+    name = greeting_name(records)
+    first = records[0]
+    subject = ("תזכורת: מועד הכיול השנתי של הפיפטור מתקרב - " +
+               (f"{n} פיפטורים" if n > 1 else f"Gilson {first.model} S/N {first.serial_no or '-'}"))
+    greeting = f"שלום {name}," if name else "שלום רב,"
+    many = n > 1
+    p1 = ("לפי הרישומים שלנו, מועד הכיול השנתי של " + ("הפיפטורים הבאים" if many else "הפיפטור הבא") +
+          " שכוילו על ידי LifeGene מתקרב. כיול תקופתי שומר על דיוק התוצאות ועל עקיבותן, "
+          "ואנו ממליצים לבצע כיול חוזר לפני המועד המצוין.")
+    p2 = ("נשמח לשלוח לך הצעת מחיר לכיול החוזר. לקבלת הצעה או לתיאום מועד נוח, ניתן להשיב למייל זה "
+          f"או לפנות למשרדנו: {office_email} | {OFFICE_PHONE}.")
+    p3 = "תודה שבחרתם ב-LifeGene, נשמח לעמוד לשירותכם."
+    sign_lines = ["LifeGene Ltd. - שירות טכני", "מבוא חורון, ישראל", f"{OFFICE_PHONE} | {office_email}"]
     lines = [greeting, "", p1, ""]
     for r in records:
-        lines.append(f"  - Gilson {r.model}, S/N {r.serial_no or '-'}, certificate {r.document_no}, "
-                     f"calibrated {r.calibrated_at[:10]}, recalibration due {_fmt(r.next_calibration)} "
-                     f"({_status(r, today)})")
-    lines += ["", p2, "", p3, "", sign]
-    html = (f"<p>{_esc(greeting)}</p><p>{_esc(p1)}</p>{_table_html(records, today, internal=False)}"
+        lines.append(f"  - Gilson {r.model}, מספר סידורי {r.serial_no or '-'}, תעודה {r.document_no}, "
+                     f"כויל ב-{_fmt(r.calibrated_at[:10])}, מועד כיול חוזר {_fmt(r.next_calibration)} "
+                     f"({_status_he(r, today)})")
+    lines += ["", p2, "", p3, ""] + sign_lines
+    html = (f"<div dir='rtl' style='direction:rtl;text-align:right'>"
+            f"<p>{_esc(greeting)}</p><p>{_esc(p1)}</p>{_table_html_he(records, today)}"
             f"<p>{_esc(p2)}</p><p>{_esc(p3)}</p>"
-            f"<p style='color:#555'>LifeGene Ltd. - Technical Service<br>Mevo Horon, Israel<br>"
-            f"{OFFICE_PHONE} | <a href='mailto:{office_email}'>{office_email}</a></p>")
+            f"<p style='color:#555'>{sign_lines[0]}<br>{sign_lines[1]}<br>"
+            f"{OFFICE_PHONE} | <a href='mailto:{office_email}'>{office_email}</a></p></div>")
     return subject, "\n".join(lines), html
 
 

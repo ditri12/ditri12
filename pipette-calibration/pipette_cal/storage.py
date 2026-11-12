@@ -55,10 +55,12 @@ class AppConfig:
     email_to: str = ""
     demo_mode: bool = False
     auto_connect: bool = True        # try the saved balance address when the program starts
+    start_with_windows: bool = True  # register in the user's Run key (applied on first start / Settings)
     auto_capture: bool = True        # save a reading automatically once it is stable
     auto_stable_seconds: float = 1.5     # reading must be unchanged this long (balance flag stable)
     auto_unflagged_seconds: float = 3.0  # ... or this long when the balance never flags stable
-    reminder_email_to: str = "info@lifegene.co.il"   # office address: copied on every customer reminder
+    reminder_email_to: str = "naama@lifegene.co.il"   # office address: copied on every customer reminder
+    email_cc: str = "naama@lifegene.co.il"            # office copy on certificate e-mails
     reminder_days_before: int = 30       # how long before the due date the reminder goes out
     reminder_auto_send: bool = True      # send through Outlook without opening the draft
     reminder_repeat_days: int = 365      # never e-mail the same customer address again within this period
@@ -87,6 +89,8 @@ class AppConfig:
                 setattr(cfg, key, value)
         if cfg.operator.strip() in ("", "LifeGene Technical Service"):
             cfg.operator = cls.operator          # settings saved by an earlier version
+        if cfg.reminder_email_to.strip() in ("", "info@lifegene.co.il"):
+            cfg.reminder_email_to = cls.reminder_email_to
         return cfg
 
     def save(self) -> None:
@@ -111,6 +115,7 @@ class CalibrationRecord:
     customer_email: str = ""
     next_calibration: str = ""   # ISO date
     no_reminder: bool = False    # excluded from the recalibration reminders
+    contact_name: str = ""       # person at the customer addressed in e-mails
 
 
 class History:
@@ -156,6 +161,8 @@ class History:
                 self._conn.execute(f"ALTER TABLE calibrations ADD COLUMN {name} TEXT DEFAULT ''")
         if "no_reminder" not in cols:
             self._conn.execute("ALTER TABLE calibrations ADD COLUMN no_reminder INTEGER DEFAULT 0")
+        if "contact_name" not in cols:
+            self._conn.execute("ALTER TABLE calibrations ADD COLUMN contact_name TEXT DEFAULT ''")
         if "next_calibration" not in cols:          # back-fill from the stored payload
             for row in self._conn.execute("SELECT id, payload FROM calibrations").fetchall():
                 try:
@@ -180,11 +187,12 @@ class History:
     def add(self, rec: CalibrationRecord) -> int:
         cur = self._conn.execute(
             "INSERT INTO calibrations (document_no, calibrated_at, model, serial_no, tip, "
-            "verdict, operator, payload, customer, customer_email, next_calibration, no_reminder) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+            "verdict, operator, payload, customer, customer_email, next_calibration, no_reminder, contact_name) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.tip,
              rec.verdict, rec.operator, json.dumps(rec.payload), rec.customer, rec.customer_email,
-             rec.next_calibration or rec.payload.get("next_calibration_date", ""), int(rec.no_reminder)))
+             rec.next_calibration or rec.payload.get("next_calibration_date", ""), int(rec.no_reminder),
+             rec.contact_name))
         self._conn.commit()
         rec.id = cur.lastrowid
         return rec.id
@@ -193,8 +201,8 @@ class History:
         like = f"%{search.strip()}%"
         rows = self._conn.execute(
             "SELECT * FROM calibrations WHERE document_no LIKE ? OR serial_no LIKE ? "
-            "OR model LIKE ? OR customer LIKE ? ORDER BY calibrated_at DESC, id DESC LIMIT ?",
-            (like, like, like, like, limit)).fetchall()
+            "OR model LIKE ? OR customer LIKE ? OR contact_name LIKE ? ORDER BY calibrated_at DESC, id DESC LIMIT ?",
+            (like, like, like, like, like, limit)).fetchall()
         return [self._to_record(r) for r in rows]
 
     # ---- recalibration reminders ---------------------------------------
@@ -224,6 +232,32 @@ class History:
         cur = self._conn.execute(f"DELETE FROM calibrations WHERE id IN ({','.join('?' * len(record_ids))})", record_ids)
         self._conn.commit()
         return cur.rowcount
+
+    def update_customer(self, record_ids: list[int], customer: str | None = None,
+                        contact_name: str | None = None, customer_email: str | None = None) -> int:
+        """Fill in / change customer details of existing calibrations. A None
+        argument leaves that field untouched. The stored payload is updated as
+        well so re-created certificates show the new customer."""
+        if not record_ids:
+            return 0
+        n = 0
+        for rid in record_ids:
+            row = self._conn.execute("SELECT * FROM calibrations WHERE id = ?", (rid,)).fetchone()
+            if not row:
+                continue
+            payload = json.loads(row["payload"])
+            values = {
+                "customer": row["customer"] if customer is None else customer.strip(),
+                "contact_name": (row["contact_name"] or "") if contact_name is None else contact_name.strip(),
+                "customer_email": row["customer_email"] if customer_email is None else customer_email.strip(),
+            }
+            payload.update(values)
+            self._conn.execute(
+                "UPDATE calibrations SET customer = ?, contact_name = ?, customer_email = ?, payload = ? WHERE id = ?",
+                (values["customer"], values["contact_name"], values["customer_email"], json.dumps(payload), rid))
+            n += 1
+        self._conn.commit()
+        return n
 
     def set_no_reminder(self, record_ids: list[int], value: bool) -> None:
         if record_ids:
@@ -273,7 +307,8 @@ class History:
             verdict=row["verdict"], operator=row["operator"] or "",
             payload=json.loads(row["payload"]), customer=row["customer"] or "",
             customer_email=row["customer_email"] or "", next_calibration=row["next_calibration"] or "",
-            no_reminder=bool(row["no_reminder"]) if "no_reminder" in row.keys() else False)
+            no_reminder=bool(row["no_reminder"]) if "no_reminder" in row.keys() else False,
+            contact_name=(row["contact_name"] or "") if "contact_name" in row.keys() else "")
 
 
 def now_iso() -> str:
