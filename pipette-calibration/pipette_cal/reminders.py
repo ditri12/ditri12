@@ -123,8 +123,12 @@ def build_customer_reminder(records: list[CalibrationRecord], today: date,
           ("הפיפטורים הבאים שכוילו" if many else "הפיפטור הבא שכויל") +
           " על ידי LIFEGENE מתקרב. כיול תקופתי שומר על דיוק התוצאות ועל עקיבותן, "
           "ואנו ממליצים לבצע כיול חוזר לפני המועד המצוין.")
-    p2 = ("נשמח לשלוח לך הצעת מחיר לכיול החוזר. לקבלת הצעה או לתיאום מועד נוח, ניתן להשיב למייל זה "
-          f"או לפנות למשרדנו: {office_email} | {OFFICE_PHONE}.")
+    p2_text = ("נשמח לשלוח לך הצעת מחיר לכיול החוזר. לקבלת הצעה או לתיאום מועד נוח, ניתן להשיב למייל זה "
+               "או לפנות למשרדנו: ")
+    p2 = f"{p2_text}{office_email} | {OFFICE_PHONE}."
+    # e-mail address and phone number kept left-to-right inside the Hebrew sentence
+    p2_html = (f"{brand_html(p2_text)}<span dir='ltr' style='unicode-bidi:isolate'>"
+               f"<a href='mailto:{office_email}'>{office_email}</a> | {OFFICE_PHONE}</span>.")
     p3 = "תודה שבחרתם ב-LIFEGENE, נשמח לעמוד לשירותכם."
     sign_lines = ["LifeGene Ltd. - שירות טכני", "מבוא חורון, ישראל", f"{OFFICE_PHONE} | {office_email}"]
     lines = [greeting, "", p1, ""]
@@ -138,7 +142,7 @@ def build_customer_reminder(records: list[CalibrationRecord], today: date,
     # minimal company signature.
     html = (f"<div dir='rtl' style='direction:rtl;text-align:right'>"
             f"<p>{_esc(greeting)}</p><p>{brand_html(p1)}</p>{_table_html_he(records, today)}"
-            f"<p>{brand_html(p2)}</p><p>{brand_html(p3)}</p></div>")
+            f"<p>{p2_html}</p><p>{brand_html(p3)}</p></div>")
     return subject, "\n".join(lines), html
 
 
