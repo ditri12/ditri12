@@ -94,9 +94,26 @@ without Outlook the default mail client opens instead.
    *Tare* / *Undo last* / per-slot ✕ are available. After the 12th weight the
    results are calculated automatically.
 4. **Results** - PASS / FAIL with all figures. Nothing is saved to disk until
-   you choose **Save PDF**, **Print** or **Email** in the footer.
-5. **History** - search past calibrations, re-create a PDF, or load one back
-   into the form.
+   you choose **Save PDF**, **Print** or **Email** in the footer. **Email**
+   opens an Outlook draft to the customer's address with the certificate
+   attached and your Outlook signature below the text.
+   **Add another pipette** keeps the finished pipette aside and starts the
+   next one for the same customer; Email then attaches one PDF per pipette
+   in a single message (Save PDF / Print handle all of them too).
+5. **History** - search past calibrations (also by customer), re-create a
+   PDF, or load one back into the form.
+
+### Recalibration reminders
+
+Each certificate carries a next-calibration date one year ahead. When the
+program starts (and on *Send reminders now* in the History tab) it looks for
+pipettes whose date falls within the next 30 days or is already overdue,
+takes the latest calibration of each serial number, and sends ONE e-mail to
+the office address set in Settings (*Reminder e-mail*) listing model,
+serial, customer, customer e-mail, certificate, due date and a suggested
+message offering a recalibration. Each certificate is reminded once. With
+*Send reminders automatically* set to no, the draft is opened instead of
+sent. Outlook must be installed on the PC that runs the program.
 
 ## Pipette models and limits
 
@@ -121,7 +138,8 @@ python -m pipette_cal
 | `pipette_cal/scale.py` | RADWAG TCP protocol, parser, polling thread, simulator |
 | `pipette_cal/certificate.py` | PDF certificate (reportlab) |
 | `pipette_cal/storage.py` | settings file, SQLite history, document numbers |
-| `pipette_cal/report.py` | open / print / e-mail the PDF |
+| `pipette_cal/report.py` | open / print / e-mail (Outlook, keeps the user's signature) |
+| `pipette_cal/reminders.py` | annual recalibration reminder e-mail |
 | `pipette_cal/app.py` | Tkinter GUI |
 
 The calibration is an internal, non-accredited procedure. The certificate

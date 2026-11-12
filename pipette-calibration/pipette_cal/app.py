@@ -33,7 +33,8 @@ from .certificate import CertificateInfo, build_certificate, default_filename
 from .models import (CATALOGUE, LEVELS, REPLICATES, Level, PipetteSpec, full_model_name,
                      resolve_catalogue_name)
 from .physics import Environment, air_density, water_density, z_factor
-from .report import email_file, open_file, print_file
+from .report import compose_email, open_file, print_file
+from .reminders import check_and_send
 from .scale import BaseScale, RadwagScale, Reading, ScaleError, SimulatedScale
 from .stats import CalibrationResult, evaluate
 from .storage import AppConfig, CalibrationRecord, History, now_iso
@@ -50,8 +51,6 @@ DEFAULT_OPERATOR = "Dmitri Trakhtman"
 # and waits until the reading is back below AUTO_REARM_FRACTION before it will
 # capture again, so one drop can never be recorded twice.
 AUTO_STABLE_READINGS = 3
-AUTO_STABLE_SECONDS = 0.8
-AUTO_UNFLAGGED_SECONDS = 2.5      # unchanged this long counts as stable even without the balance's flag
 AUTO_MIN_FRACTION = 0.30
 AUTO_REARM_FRACTION = 0.15
 AUTO_MIN_ABS_G = 0.00005          # never capture below 0.05 mg whatever the volume
@@ -214,6 +213,7 @@ class App(tk.Tk):
         self.result: CalibrationResult | None = None
         self.current_record: CalibrationRecord | None = None
         self.pdf_path: Path | None = None
+        self.batch: list[CalibrationRecord] = []       # finished pipettes waiting for one e-mail
         self._next_date_auto = True
         self.current_tab = tk.StringVar(value=TABS[0])
 
@@ -226,6 +226,8 @@ class App(tk.Tk):
         self.v_date = tk.StringVar(value=today.strftime(DATE_FMT))
         self.v_next = tk.StringVar(value=add_months(today, self.cfg.next_calibration_months).strftime(DATE_FMT))
         self.v_comments = tk.StringVar()
+        self.v_customer = tk.StringVar()
+        self.v_customer_email = tk.StringVar()
         self.v_temp = tk.StringVar(value=f"{self.cfg.default_temperature_c:g}")
         self.v_air = tk.StringVar(value=f"{self.cfg.default_air_temperature_c:g}")
         self.v_hum = tk.StringVar(value=f"{self.cfg.default_humidity_pct:g}")
@@ -249,14 +251,25 @@ class App(tk.Tk):
         self.after(100, self._poll_scale)
         if self.cfg.auto_connect:
             self.after(600, lambda: self._connect(silent=True))
+        self.after(4000, lambda: self._run_reminders(silent=True))
 
     # ------------------------------------------------------------------
     # Building the UI
     # ------------------------------------------------------------------
+    _PAGE_WIDGETS = ("spec_info", "serial_info", "env_readout", "live_hint", "auto_status", "slot_rows",
+                     "live_target", "batch_info", "side_labels", "history_tree", "reminder_info")
+
+    def _ready(self, name: str) -> bool:
+        """True when the page widget *name* exists and has not been destroyed
+        by a rebuild (theme change / settings)."""
+        return getattr(self, name, None) is not None
+
     def _build(self):
         p = self.p
         self.configure(bg=p["bg"])
         self._style_ttk()
+        for name in self._PAGE_WIDGETS:          # forget widgets of the previous build
+            setattr(self, name, None)
         for child in list(self.winfo_children()):
             child.destroy()
         self._build_header()
@@ -438,6 +451,8 @@ class App(tk.Tk):
         inner = tk.Frame(f, bg=p["surface"])
         inner.pack(fill="x", padx=18, pady=10)
         Button(inner, self, "New calibration", self._new_calibration, "secondary").pack(side="left")
+        self.btn_add = Button(inner, self, "Add another pipette", self._add_another_pipette, "secondary")
+        self.btn_add.pack(side="left", padx=8)
         self.btn_calc = Button(inner, self, "Calculate", self._calculate, "success")
         self.btn_calc.pack(side="right")
         self.btn_pdf = Button(inner, self, "Save PDF", self._save_pdf, "primary")
@@ -516,6 +531,18 @@ class App(tk.Tk):
                                        fg=p["text"], font=self.f_body, padx=6), 1, 1)
         self._field(g2, "Comments", lambda m: self._entry(m, self.v_comments), 2, 0)
         g2.grid_slaves(row=2, column=0)[0].grid_configure(columnspan=3)
+
+        card3 = Card(page, self, "Customer", p["amber"])
+        card3.pack(fill="x", pady=(0, 12))
+        g3 = card3.body
+        for c in range(3):
+            g3.columnconfigure(c, weight=1)
+        self._field(g3, "Customer / department", lambda m: self._entry(m, self.v_customer), 0, 0,
+                    "Optional - printed on the certificate and used for reminders")
+        self._field(g3, "Customer e-mail", lambda m: self._entry(m, self.v_customer_email), 0, 1,
+                    "Recipient of the certificate e-mail")
+        self.batch_info = tk.Label(g3, text="", bg=p["surface"], fg=p["muted"], font=self.f_small, justify="left")
+        self.batch_info.grid(row=0, column=2, sticky="w")
         return page
 
     def _page_environment(self):
@@ -694,9 +721,12 @@ class App(tk.Tk):
         e.bind("<KeyRelease>", lambda ev: self._refresh_history())
         Button(top, self, "Re-create PDF", self._history_pdf, "primary").pack(side="right")
         Button(top, self, "Load into form", self._history_load, "secondary").pack(side="right", padx=8)
-        cols = ("document", "date", "model", "serial", "tip", "verdict", "operator")
+        Button(top, self, "Send reminders now", lambda: self._run_reminders(silent=False), "secondary").pack(side="right")
+        self.reminder_info = tk.Label(top, text="", bg=p["surface"], fg=p["muted"], font=self.f_small)
+        self.reminder_info.pack(side="right", padx=10)
+        cols = ("document", "date", "model", "serial", "customer", "verdict", "next")
         self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="browse")
-        for c, w in zip(cols, (150, 140, 90, 130, 80, 80, 140)):
+        for c, w in zip(cols, (150, 140, 90, 120, 160, 70, 100)):
             self.history_tree.heading(c, text=c.upper())
             self.history_tree.column(c, width=w, anchor="w")
         sb = ttk.Scrollbar(card.body, orient="vertical", command=self.history_tree.yview)
@@ -720,7 +750,7 @@ class App(tk.Tk):
         return self.cfg.operator.strip() or DEFAULT_OPERATOR
 
     def _on_model_change(self):
-        if not hasattr(self, "spec_info"):
+        if not self._ready("spec_info"):
             return
         s = self.spec()
         self.v_tip.set(s.default_tip)
@@ -734,7 +764,7 @@ class App(tk.Tk):
         self._refresh_target()
 
     def _on_serial_change(self):
-        if not hasattr(self, "serial_info"):
+        if not self._ready("serial_info"):
             return
         rec = self.history.last_for_serial(self.v_serial.get())
         if rec:
@@ -763,7 +793,7 @@ class App(tk.Tk):
         return env
 
     def _update_env_readout(self):
-        if not hasattr(self, "env_readout"):
+        if not self._ready("env_readout"):
             return
         try:
             env = self._environment()
@@ -956,7 +986,7 @@ class App(tk.Tk):
         self.cfg.save()
         self._auto_run = []
         self._auto_armed = True
-        if hasattr(self, "live_hint"):
+        if self._ready("live_hint"):
             self._refresh_auto_labels()
 
     def _refresh_auto_labels(self, status: str = "", colour: str | None = None):
@@ -971,7 +1001,7 @@ class App(tk.Tk):
 
     def _auto_capture(self, r: Reading):
         """Called for every reading while auto-save is on."""
-        if not hasattr(self, "auto_status"):
+        if not self._ready("auto_status"):
             return
         expected = self._expected_mass_g()
         if expected is None:                       # all slots full
@@ -993,26 +1023,32 @@ class App(tk.Tk):
             self._refresh_auto_labels(f"READY - waiting for a drop (saves above {min_capture:.5f} g)")
             return
 
-        # consecutive readings that stay within the tolerance, whatever the balance's flag says
-        tolerance = max(expected * 0.002, 3e-6)
-        if self._auto_run and abs(value - self._auto_run[-1].value_g) > tolerance:
-            delta = abs(value - self._auto_run[-1].value_g)
-            self._auto_run = []
-            self._refresh_auto_labels(f"DRIFTING - reading moved by {delta:.6f} g")
+        # A run of readings counts as stable only if every reading in it stays
+        # within the tolerance of the FIRST one (catches slow creep, not just
+        # jumps). The tolerance follows the balance readability, not the volume.
+        tolerance = max(10 * self.cfg.balance_readability_mg / 1000.0, expected * 0.0001)
+        if self._auto_run:
+            values = [x.value_g for x in self._auto_run] + [value]
+            spread = max(values) - min(values)
+            if spread > tolerance:
+                self._auto_run = []
+                self._refresh_auto_labels(f"SETTLING - reading moved by {spread:.6f} g")
         self._auto_run.append(r)
         n = len(self._auto_run)
         span = self._auto_run[-1].timestamp - self._auto_run[0].timestamp
-        flagged = all(x.stable for x in self._auto_run[-AUTO_STABLE_READINGS:]) and r.stable
-        if (flagged and n >= AUTO_STABLE_READINGS and span >= AUTO_STABLE_SECONDS) or span >= AUTO_UNFLAGGED_SECONDS:
+        flagged = r.stable and all(x.stable for x in self._auto_run[-AUTO_STABLE_READINGS:])
+        need = self.cfg.auto_stable_seconds
+        if (flagged and n >= AUTO_STABLE_READINGS and span >= need) or span >= self.cfg.auto_unflagged_seconds:
             log.info("auto-save: capturing %.6f g after %d readings / %.1f s (balance flag stable=%s, raw=%r)",
                      value, n, span, r.stable, r.raw)
             self._auto_run = []
             self._auto_armed = False
             self._commit_reading(value, auto=True)
         elif not r.stable:
-            self._refresh_auto_labels(f"UNSTABLE (balance flag) - unchanged {span:.1f} s, saves at {AUTO_UNFLAGGED_SECONDS:.1f} s")
+            self._refresh_auto_labels(f"UNSTABLE (balance flag) - unchanged {span:.1f} s, saves at "
+                                      f"{self.cfg.auto_unflagged_seconds:.1f} s")
         else:
-            self._refresh_auto_labels(f"STABLE {min(n, AUTO_STABLE_READINGS)}/{AUTO_STABLE_READINGS}  ({span:.1f} s) ...")
+            self._refresh_auto_labels(f"STABLE  {span:.1f} / {need:.1f} s ...")
 
     def _commit_reading(self, value: float, auto: bool):
         """Store *value* in the next slot, tare the balance, advance."""
@@ -1068,7 +1104,7 @@ class App(tk.Tk):
             self._refresh_slots()
 
     def _refresh_slots(self):
-        if not hasattr(self, "slot_rows"):
+        if not self._ready("slot_rows"):
             return
         p = self.p
         nxt = self._next_slot()
@@ -1101,7 +1137,7 @@ class App(tk.Tk):
         self._refresh_target()
 
     def _refresh_target(self):
-        if not hasattr(self, "live_target"):
+        if not self._ready("live_target"):
             return
         nxt = self._next_slot()
         if nxt is None:
@@ -1127,7 +1163,8 @@ class App(tk.Tk):
             operator=self.operator(), balance_id=self.v_balance.get().strip(),
             place=self.cfg.place_of_calibration, comments=self.v_comments.get(),
             series=self.series(), procedure=self.cfg.procedure, logo_path=self._logo_path(),
-            signature_path=self._signature_path(), signer_name=self.cfg.signer_name)
+            signature_path=self._signature_path(), signer_name=self.cfg.signer_name,
+            customer=self.v_customer.get().strip())
 
     def _calculate(self):
         try:
@@ -1161,8 +1198,12 @@ class App(tk.Tk):
             "weights_g": {lv.value: list(result.level(lv).weights_g) for lv in LEVELS},
             "z": result.z, "verdict": result.verdict,
         }
+        payload["customer"] = self.v_customer.get().strip()
+        payload["customer_email"] = self.v_customer_email.get().strip()
         rec = CalibrationRecord(info.document_no, now_iso(), result.spec.model, info.serial_no,
-                                info.tip, result.verdict, info.operator, payload)
+                                info.tip, result.verdict, info.operator, payload,
+                                customer=payload["customer"], customer_email=payload["customer_email"],
+                                next_calibration=info.next_calibration_date.isoformat())
         try:
             self.history.add(rec)
             self.current_record = rec
@@ -1224,6 +1265,22 @@ class App(tk.Tk):
             messagebox.showwarning("Certificate", str(exc), parent=self)
             return
         initial_dir = self.cfg.pdf_folder or str(Path.home() / "Documents")
+        records = self._batch_records()
+        if len(records) > 1:
+            folder = filedialog.askdirectory(parent=self, title=f"Folder for the {len(records)} certificates",
+                                             initialdir=initial_dir)
+            if not folder:
+                return
+            try:
+                paths = [self._pdf_for_record(rec, Path(folder)) for rec in records]
+            except Exception as exc:  # noqa: BLE001
+                messagebox.showerror("Certificate", f"Could not create the PDFs:\n{exc}", parent=self)
+                return
+            self.pdf_path = paths[-1]
+            self.cfg.pdf_folder = folder
+            self.cfg.save()
+            messagebox.showinfo("Certificate", f"Saved {len(paths)} certificates in:\n{folder}", parent=self)
+            return
         target = filedialog.asksaveasfilename(
             parent=self, title="Save calibration certificate", defaultextension=".pdf",
             filetypes=[("PDF", "*.pdf")], initialdir=initial_dir,
@@ -1241,6 +1298,15 @@ class App(tk.Tk):
             open_file(self.pdf_path)
 
     def _print(self):
+        records = self._batch_records()
+        if len(records) > 1:
+            folder = Path(tempfile.mkdtemp(prefix="lifegene_print_"))
+            try:
+                for rec in records:
+                    print_file(self._pdf_for_record(rec, folder))
+            except Exception as exc:  # noqa: BLE001
+                messagebox.showerror("Print", str(exc), parent=self)
+            return
         path = self._ensure_pdf()
         if path:
             try:
@@ -1249,38 +1315,106 @@ class App(tk.Tk):
                 messagebox.showerror("Print", str(exc), parent=self)
 
     def _email(self):
-        path = self._ensure_pdf()
-        if not path or not self.result:
+        records = self._batch_records()
+        if not records:
+            messagebox.showinfo("Email", "Calculate the results first.", parent=self)
             return
-        info = self._certificate_info()
-        subject = f"Pipette calibration certificate {info.document_no} - Gilson {self.result.spec.model} S/N {info.serial_no}"
-        body = (f"Please find attached the calibration certificate {info.document_no}.\n\n"
-                f"Pipette: Gilson {self.result.spec.model}, S/N {info.serial_no}\n"
-                f"Result: {self.result.verdict}\n"
-                f"Calibration date: {info.calibration_date:%d/%m/%Y}\n"
-                f"Next calibration: {info.next_calibration_date:%d/%m/%Y}\n\n"
-                "LifeGene Ltd., Mevo Horon, Israel\n+972-(0)8-6444314 | info@lifegene.co.il\n")
+        folder = Path(tempfile.mkdtemp(prefix="lifegene_cert_"))
         try:
-            msg = email_file(path, self.cfg.email_to, subject, body)
+            paths = [self._pdf_for_record(rec, folder) for rec in records]
+        except Exception as exc:  # noqa: BLE001
+            messagebox.showerror("Email", f"Could not create the PDF(s):\n{exc}", parent=self)
+            return
+        to = self.v_customer_email.get().strip() or self.cfg.email_to
+        customer = self.v_customer_email.get().strip() and self.v_customer.get().strip()
+        if len(records) == 1:
+            r = records[0]
+            subject = f"Pipette calibration certificate {r.document_no} - Gilson {r.model} S/N {r.serial_no}"
+            intro = f"Please find attached the calibration certificate {r.document_no}."
+        else:
+            subject = f"Pipette calibration certificates - {len(records)} pipettes" + \
+                      (f" - {customer}" if customer else "")
+            intro = f"Please find attached the calibration certificates for your {len(records)} pipettes."
+        lines = [intro, ""]
+        for r in records:
+            nxt = r.next_calibration or r.payload.get("next_calibration_date", "")
+            lines.append(f"- Gilson {r.model}, S/N {r.serial_no or '-'}: {r.verdict}  "
+                         f"(certificate {r.document_no}, calibrated {r.calibrated_at[:10]}, "
+                         f"next calibration {parse_date(nxt).strftime(DATE_FMT) if nxt else '-'})")
+        lines += ["", "LifeGene Ltd., Mevo Horon, Israel", "+972-(0)8-6444314 | info@lifegene.co.il"]
+        try:
+            msg = compose_email(to, subject, "\n".join(lines), paths)
             messagebox.showinfo("Email", msg, parent=self)
+            self.batch = []
+            self._refresh_output_buttons()
         except Exception as exc:  # noqa: BLE001
             messagebox.showerror("Email", str(exc), parent=self)
 
     def _refresh_output_buttons(self):
         have = self.result is not None
-        for b in (self.btn_pdf, self.btn_print, self.btn_email):
-            b.set_enabled(have)
+        for b in (self.btn_pdf, self.btn_print, self.btn_email, self.btn_add):
+            b.set_enabled(have or (b is self.btn_email and bool(self.batch)))
+        if self._ready("batch_info"):
+            if self.batch:
+                names = ", ".join(f"{r.model} {r.serial_no or '-'}" for r in self.batch)
+                self.batch_info.config(text=f"Pipettes waiting for one e-mail ({len(self.batch)}): {names}")
+            else:
+                self.batch_info.config(text="")
+
+    # ---- several pipettes of one customer in one e-mail ------------------
+    def _add_another_pipette(self):
+        """Keep the finished calibration in the batch and start the next pipette
+        for the same customer (same environment, new document number)."""
+        if not self.result or not self.current_record:
+            messagebox.showinfo("Batch", "Calculate the current pipette first.", parent=self)
+            return
+        if self.current_record not in self.batch:
+            self.batch.append(self.current_record)
+        self.weights = {lv: [] for lv in LEVELS}
+        self.result, self.pdf_path, self.current_record = None, None, None
+        self._auto_armed, self._auto_run = True, []
+        self.v_serial.set("")
+        self.v_comments.set("")
+        self.v_doc.set(self.history.next_document_number())
+        self.verdict_label.config(text="No results yet", fg=self.p["muted"])
+        self.verdict_sub.config(text="Complete 12 measurements or press Calculate.", fg=self.p["muted"])
+        self._refresh_slots()
+        self._refresh_sidebar()
+        self._refresh_output_buttons()
+        self._refresh_auto_labels()
+        self._show_tab("Setup")
+        self.after(100, lambda: messagebox.showinfo(
+            "Batch", f"{len(self.batch)} pipette(s) kept for the e-mail. Enter the next serial number, "
+                     "measure, and press Email when the last one is done.", parent=self))
+
+    def _batch_records(self) -> list[CalibrationRecord]:
+        """Everything that goes into the e-mail: the batch plus the current result."""
+        records = list(self.batch)
+        if self.current_record and self.current_record not in records:
+            records.append(self.current_record)
+        return records
+
+    def _pdf_for_record(self, rec: CalibrationRecord, folder: Path) -> Path:
+        info, result = self._rebuild_from_record(rec)
+        info.logo_path, info.signature_path = self._logo_path(), self._signature_path()
+        info.signer_name = self.cfg.signer_name
+        return build_certificate(folder / default_filename(info, result.spec.model), info, result)
 
     def _new_calibration(self):
-        if any(self.weights.values()) and not messagebox.askyesno(
-                "New calibration", "Discard the current measurements and start a new calibration?", parent=self):
+        if (any(self.weights.values()) or self.batch) and not messagebox.askyesno(
+                "New calibration", "Discard the current measurements" +
+                (f" and the {len(self.batch)} pipette(s) waiting for an e-mail" if self.batch else "") +
+                " and start a new calibration?", parent=self):
             return
         self.weights = {lv: [] for lv in LEVELS}
         self.result, self.pdf_path, self.current_record = None, None, None
+        self.batch = []
         self._auto_armed, self._auto_run = True, []
         self._refresh_auto_labels()
         self.v_serial.set("")
         self.v_comments.set("")
+        self.v_customer.set("")
+        self.v_customer_email.set("")
         self.v_doc.set(self.history.next_document_number())
         today = date.today()
         self.v_date.set(today.strftime(DATE_FMT))
@@ -1294,7 +1428,7 @@ class App(tk.Tk):
         self._show_tab("Setup")
 
     def _refresh_sidebar(self):
-        if not hasattr(self, "side_labels"):
+        if not self._ready("side_labels"):
             return
         p = self.p
         self.side_labels["Document"].config(text=self.v_doc.get() or "-")
@@ -1311,12 +1445,34 @@ class App(tk.Tk):
     # History
     # ------------------------------------------------------------------
     def _refresh_history(self):
-        if not hasattr(self, "history_tree"):
+        if not self._ready("history_tree"):
             return
         self.history_tree.delete(*self.history_tree.get_children())
         for rec in self.history.list(search=self.v_search.get()):
+            nxt = rec.next_calibration or rec.payload.get("next_calibration_date", "")
+            try:
+                nxt = parse_date(nxt).strftime(DATE_FMT) if nxt else ""
+            except ValueError:
+                pass
             self.history_tree.insert("", "end", iid=str(rec.id), tags=(rec.verdict,), values=(
-                rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.tip, rec.verdict, rec.operator))
+                rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.customer, rec.verdict, nxt))
+
+    def _run_reminders(self, silent: bool):
+        """Send the recalibration reminder e-mail for pipettes due within the
+        configured number of days. Runs at start-up and from the History tab."""
+        if silent and not self.cfg.reminder_email_to.strip():
+            return
+        try:
+            n, msg = check_and_send(self.history, self.cfg)
+        except Exception as exc:  # noqa: BLE001
+            log.warning("reminder failed: %s", exc)
+            if not silent:
+                messagebox.showerror("Reminders", str(exc), parent=self)
+            return
+        if self._ready("reminder_info"):
+            self.reminder_info.config(text=msg if n else "")
+        if n or not silent:
+            messagebox.showinfo("Reminders", msg, parent=self)
 
     def _selected_record(self) -> CalibrationRecord | None:
         sel = self.history_tree.selection()
@@ -1338,7 +1494,7 @@ class App(tk.Tk):
             next_calibration_date=date.fromisoformat(pl["next_calibration_date"]),
             serial_no=pl["serial_no"], tip=pl["tip"], operator=pl.get("operator", ""),
             balance_id=pl.get("balance_id", ""), place=pl.get("place", ""), comments=pl.get("comments", ""),
-            series=series, procedure=pl.get("procedure", ""))
+            series=series, procedure=pl.get("procedure", ""), customer=pl.get("customer", ""))
         return info, result
 
     def _history_pdf(self):
@@ -1378,6 +1534,8 @@ class App(tk.Tk):
         self.v_date.set(info.calibration_date.strftime(DATE_FMT))
         self.v_next.set(info.next_calibration_date.strftime(DATE_FMT))
         self.v_comments.set(info.comments)
+        self.v_customer.set(rec.customer)
+        self.v_customer_email.set(rec.customer_email)
         self.v_temp.set(f"{result.environment.temperature_c:g}")
         self.v_air.set(f"{result.environment.air_t:g}")
         self.v_hum.set(f"{result.environment.humidity_pct:g}")
@@ -1406,7 +1564,12 @@ class App(tk.Tk):
         fields = (
             ("Calibrated by (operator)", "operator", str),
             ("Signer name (next to the signature)", "signer_name", str),
-            ("Default e-mail recipient", "email_to", str),
+            ("Default e-mail recipient (certificates)", "email_to", str),
+            ("Reminder e-mail (office)", "reminder_email_to", str),
+            ("Remind this many days before the due date", "reminder_days_before", int),
+            ("Send reminders automatically (yes/no)", "reminder_auto_send", _parse_bool),
+            ("Auto-save after stable for (s)", "auto_stable_seconds", float),
+            ("Auto-save without stability flag after (s)", "auto_unflagged_seconds", float),
             ("Place of calibration", "place_of_calibration", str),
             ("Standard / procedure (on certificate)", "procedure", str),
             ("Next calibration after (months)", "next_calibration_months", int),

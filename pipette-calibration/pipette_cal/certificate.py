@@ -111,6 +111,7 @@ class CertificateInfo:
     comments: str = ""
     series: str = "Classic"          # PIPETMAN series: Classic / Neo / L / Multi
     procedure: str = ""              # "Standard" line, printed when set
+    customer: str = ""               # customer / department, printed when set
     logo_path: Path | None = None
     signature_path: Path | None = None   # image of the operator's signature (optional)
     signer_name: str = ""                # printed next to the signature; defaults to operator
@@ -313,7 +314,8 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
     story += [bar, Spacer(1, 4 * mm)]
 
     # ---- three info columns --------------------------------------------------
-    cal_pairs = [("Place of calibration:", info.place), ("Calibration method:", CALIBRATION_METHOD),
+    cal_pairs = ([("Customer:", info.customer.strip())] if info.customer.strip() else []) + \
+                [("Place of calibration:", info.place), ("Calibration method:", CALIBRATION_METHOD),
                  ("Measurements:", f"{len(result.levels[0].weights_g)} per test volume"), ("Mass unit:", "g")]
     if info.procedure.strip():
         cal_pairs.append(("Standard:", info.procedure.strip()))

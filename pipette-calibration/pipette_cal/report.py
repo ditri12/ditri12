@@ -32,14 +32,16 @@ def _html_escape(text: str) -> str:
     return (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
 
-def email_file(path: Path, to: str, subject: str, body: str) -> str:
-    """Create an e-mail with the certificate attached.
+def compose_email(to: str, subject: str, body: str, attachments: list[Path],
+                  send: bool = False, html: str | None = None) -> str:
+    """Create an e-mail with *attachments*.
 
-    Uses Outlook through COM when available (Windows + pywin32). The draft is
+    Outlook (COM, Windows + pywin32) is used when available. The draft is
     opened with Outlook's own default signature: reading ``GetInspector``
-    makes Outlook insert the signature into the body, and the message text is
-    then placed above it. Otherwise the default mail client is opened with a
-    pre-filled message and the file has to be attached manually.
+    makes Outlook insert it, and the message text is placed above it. With
+    ``send=True`` the message is sent immediately instead of being shown.
+    Without Outlook the default mail client is opened through a mailto link
+    and the files have to be attached by hand.
     """
     if sys.platform.startswith("win"):
         try:
@@ -50,16 +52,26 @@ def email_file(path: Path, to: str, subject: str, body: str) -> str:
             mail.Subject = subject
             mail.GetInspector                      # loads the default signature into HTMLBody
             signature_html = mail.HTMLBody or ""
-            text_html = "<br>".join(_html_escape(line) for line in body.splitlines())
+            text_html = html or "<br>".join(_html_escape(line) for line in body.splitlines())
             mail.HTMLBody = (f'<div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">'
                              f'{text_html}</div><br>{signature_html}')
-            mail.Attachments.Add(str(path.resolve()))
+            for path in attachments:
+                mail.Attachments.Add(str(Path(path).resolve()))
+            if send:
+                mail.Send()
+                return f"E-mail sent to {to} with {len(attachments)} attachment(s)."
             mail.Display(False)
-            return "Outlook message opened with the certificate attached and your signature."
+            return (f"Outlook message opened with {len(attachments)} certificate(s) attached "
+                    "and your signature.")
         except ImportError:
             pass
         except Exception as exc:  # noqa: BLE001 - COM errors are not typed
             raise RuntimeError(f"Outlook could not be started: {exc}") from exc
     webbrowser.open(f"mailto:{quote(to)}?subject={quote(subject)}&body={quote(body)}")
-    return ("Your mail client was opened. Please attach the certificate manually:\n"
-            f"{path.resolve()}")
+    files = "\n".join(str(Path(p).resolve()) for p in attachments)
+    return f"Your mail client was opened. Please attach the file(s) manually:\n{files}"
+
+
+def email_file(path: Path, to: str, subject: str, body: str) -> str:
+    """Create an e-mail with one certificate attached (kept for compatibility)."""
+    return compose_email(to, subject, body, [path])
