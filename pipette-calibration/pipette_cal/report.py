@@ -31,7 +31,9 @@ def print_file(path: Path) -> None:
         subprocess.Popen(["lp", str(path)])
 
 
-BRAND_HTML = ('<span style="font-weight:bold;letter-spacing:0.5px">'
+# LIFE in the logo blue, GENE in the logo green; dir="ltr" keeps the order
+# inside right-to-left (Hebrew) text.
+BRAND_HTML = ('<span dir="ltr" style="font-weight:bold;letter-spacing:0.5px;unicode-bidi:isolate">'
               '<span style="color:#2e7db6">LIFE</span><span style="color:#77b957">GENE</span></span>')
 _BRAND_WORDS = ("LifeGene", "LIFEGENE", "Lifegene")
 
