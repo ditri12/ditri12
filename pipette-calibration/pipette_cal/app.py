@@ -228,6 +228,7 @@ class App(tk.Tk):
         self.v_comments = tk.StringVar()
         self.v_customer = tk.StringVar()
         self.v_customer_email = tk.StringVar()
+        self.v_no_reminder = tk.BooleanVar(value=False)
         self.v_temp = tk.StringVar(value=f"{self.cfg.default_temperature_c:g}")
         self.v_air = tk.StringVar(value=f"{self.cfg.default_air_temperature_c:g}")
         self.v_hum = tk.StringVar(value=f"{self.cfg.default_humidity_pct:g}")
@@ -543,6 +544,8 @@ class App(tk.Tk):
                     "Recipient of the certificate e-mail")
         self.batch_info = tk.Label(g3, text="", bg=p["surface"], fg=p["muted"], font=self.f_small, justify="left")
         self.batch_info.grid(row=0, column=2, sticky="w")
+        ttk.Checkbutton(g3, text="Do not send recalibration reminders for this pipette",
+                        variable=self.v_no_reminder).grid(row=1, column=0, columnspan=3, sticky="w", pady=(4, 0))
         return page
 
     def _page_environment(self):
@@ -721,11 +724,15 @@ class App(tk.Tk):
         e.bind("<KeyRelease>", lambda ev: self._refresh_history())
         Button(top, self, "Re-create PDF", self._history_pdf, "primary").pack(side="right")
         Button(top, self, "Load into form", self._history_load, "secondary").pack(side="right", padx=8)
+        Button(top, self, "Delete", self._history_delete, "danger").pack(side="right")
+        Button(top, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="right", padx=8)
         Button(top, self, "Send reminders now", lambda: self._run_reminders(silent=False), "secondary").pack(side="right")
         self.reminder_info = tk.Label(top, text="", bg=p["surface"], fg=p["muted"], font=self.f_small)
         self.reminder_info.pack(side="right", padx=10)
+        tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
+                 bg=p["surface"], fg=p["muted"], font=self.f_small).pack(anchor="w", pady=(0, 4))
         cols = ("document", "date", "model", "serial", "customer", "verdict", "next", "reminder")
-        self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="browse")
+        self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="extended")
         for c, w in zip(cols, (140, 130, 80, 110, 150, 60, 90, 180)):
             self.history_tree.heading(c, text=c.upper())
             self.history_tree.column(c, width=w, anchor="w")
@@ -735,6 +742,7 @@ class App(tk.Tk):
         sb.pack(side="right", fill="y")
         self.history_tree.tag_configure("PASS", foreground=p["green"])
         self.history_tree.tag_configure("FAIL", foreground=p["red"])
+        self.history_tree.tag_configure("muted", foreground=p["muted"])
         return page
 
     # ------------------------------------------------------------------
@@ -1203,7 +1211,8 @@ class App(tk.Tk):
         rec = CalibrationRecord(info.document_no, now_iso(), result.spec.model, info.serial_no,
                                 info.tip, result.verdict, info.operator, payload,
                                 customer=payload["customer"], customer_email=payload["customer_email"],
-                                next_calibration=info.next_calibration_date.isoformat())
+                                next_calibration=info.next_calibration_date.isoformat(),
+                                no_reminder=self.v_no_reminder.get())
         try:
             self.history.add(rec)
             self.current_record = rec
@@ -1415,6 +1424,7 @@ class App(tk.Tk):
         self.v_comments.set("")
         self.v_customer.set("")
         self.v_customer_email.set("")
+        self.v_no_reminder.set(False)
         self.v_doc.set(self.history.next_document_number())
         today = date.today()
         self.v_date.set(today.strftime(DATE_FMT))
@@ -1456,13 +1466,16 @@ class App(tk.Tk):
                 sent_at, sent_to = mark
                 reminder = (f"skipped {sent_at[:10]}" if sent_to.startswith("not sent") else
                             f"sent {sent_at[:10]} to {sent_to.split(';')[0]}")
+            if rec.no_reminder:
+                reminder = "OFF" + (f"  ({reminder})" if reminder else "")
             nxt = rec.next_calibration or rec.payload.get("next_calibration_date", "")
             try:
                 nxt = parse_date(nxt).strftime(DATE_FMT) if nxt else ""
             except ValueError:
                 pass
-            self.history_tree.insert("", "end", iid=str(rec.id), tags=(rec.verdict,), values=(
-                rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.customer, rec.verdict, nxt, reminder))
+            self.history_tree.insert("", "end", iid=str(rec.id), tags=("muted" if rec.no_reminder else rec.verdict,),
+                                     values=(rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.customer,
+                                             rec.verdict, nxt, reminder))
 
     def _run_reminders(self, silent: bool):
         """Send the recalibration reminder e-mail for pipettes due within the
@@ -1479,12 +1492,51 @@ class App(tk.Tk):
         if n or not silent:
             messagebox.showinfo("Reminders", msg, parent=self)
 
+    def _selected_ids(self) -> list[int]:
+        ids = [int(i) for i in self.history_tree.selection()]
+        if not ids:
+            messagebox.showinfo("History", "Select one or more calibrations first.", parent=self)
+        return ids
+
     def _selected_record(self) -> CalibrationRecord | None:
-        sel = self.history_tree.selection()
-        if not sel:
-            messagebox.showinfo("History", "Select a calibration first.", parent=self)
+        ids = self._selected_ids()
+        if not ids:
             return None
-        return self.history.get(int(sel[0]))
+        if len(ids) > 1:
+            messagebox.showinfo("History", "Select a single calibration for this action.", parent=self)
+            return None
+        return self.history.get(ids[0])
+
+    def _history_delete(self):
+        ids = self._selected_ids()
+        if not ids:
+            return
+        docs = [self.history_tree.item(str(i), "values")[0] for i in ids]
+        shown = "\n".join(docs[:8]) + ("\n..." if len(docs) > 8 else "")
+        if not messagebox.askyesno("Delete", f"Delete {len(ids)} calibration(s) from the history?\n\n{shown}\n\n"
+                                             "This cannot be undone.", parent=self, icon="warning"):
+            return
+        n = self.history.delete(ids)
+        if self.current_record and self.current_record.id in ids:
+            self.current_record = None
+        self.batch = [r for r in self.batch if r.id not in ids]
+        self._refresh_history()
+        self._refresh_output_buttons()
+        messagebox.showinfo("Delete", f"{n} calibration(s) deleted.", parent=self)
+
+    def _history_toggle_reminder(self):
+        ids = self._selected_ids()
+        if not ids:
+            return
+        records = [self.history.get(i) for i in ids]
+        # if any selected record still receives reminders, switch all off; otherwise switch all on
+        turn_off = any(r and not r.no_reminder for r in records)
+        self.history.set_no_reminder(ids, turn_off)
+        self._refresh_history()
+        for i in ids:
+            self.history_tree.selection_add(str(i))
+        messagebox.showinfo("Reminders", f"Recalibration reminders {'switched OFF' if turn_off else 'switched ON'} "
+                                         f"for {len(ids)} calibration(s).", parent=self)
 
     @staticmethod
     def _rebuild_from_record(rec: CalibrationRecord) -> tuple[CertificateInfo, CalibrationResult]:
@@ -1541,6 +1593,7 @@ class App(tk.Tk):
         self.v_comments.set(info.comments)
         self.v_customer.set(rec.customer)
         self.v_customer_email.set(rec.customer_email)
+        self.v_no_reminder.set(rec.no_reminder)
         self.v_temp.set(f"{result.environment.temperature_c:g}")
         self.v_air.set(f"{result.environment.air_t:g}")
         self.v_hum.set(f"{result.environment.humidity_pct:g}")

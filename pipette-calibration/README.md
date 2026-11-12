@@ -101,7 +101,12 @@ without Outlook the default mail client opens instead.
    next one for the same customer; Email then attaches one PDF per pipette
    in a single message (Save PDF / Print handle all of them too).
 5. **History** - search past calibrations (also by customer), re-create a
-   PDF, or load one back into the form.
+   PDF, load one back into the form, **Delete** one or several rows
+   (Ctrl / Shift to multi-select, with confirmation), or switch the
+   recalibration **reminders on / off** per calibration. The Setup tab has
+   the same "Do not send recalibration reminders" checkbox for a pipette you
+   are calibrating now; muted rows are grey and show OFF in the Reminder
+   column.
 
 ### Recalibration reminders
 

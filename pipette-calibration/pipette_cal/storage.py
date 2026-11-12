@@ -110,6 +110,7 @@ class CalibrationRecord:
     customer: str = ""
     customer_email: str = ""
     next_calibration: str = ""   # ISO date
+    no_reminder: bool = False    # excluded from the recalibration reminders
 
 
 class History:
@@ -153,6 +154,8 @@ class History:
         for name in ("customer", "customer_email", "next_calibration"):
             if name not in cols:
                 self._conn.execute(f"ALTER TABLE calibrations ADD COLUMN {name} TEXT DEFAULT ''")
+        if "no_reminder" not in cols:
+            self._conn.execute("ALTER TABLE calibrations ADD COLUMN no_reminder INTEGER DEFAULT 0")
         if "next_calibration" not in cols:          # back-fill from the stored payload
             for row in self._conn.execute("SELECT id, payload FROM calibrations").fetchall():
                 try:
@@ -177,11 +180,11 @@ class History:
     def add(self, rec: CalibrationRecord) -> int:
         cur = self._conn.execute(
             "INSERT INTO calibrations (document_no, calibrated_at, model, serial_no, tip, "
-            "verdict, operator, payload, customer, customer_email, next_calibration) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+            "verdict, operator, payload, customer, customer_email, next_calibration, no_reminder) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
             (rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.tip,
              rec.verdict, rec.operator, json.dumps(rec.payload), rec.customer, rec.customer_email,
-             rec.next_calibration or rec.payload.get("next_calibration_date", "")))
+             rec.next_calibration or rec.payload.get("next_calibration_date", ""), int(rec.no_reminder)))
         self._conn.commit()
         rec.id = cur.lastrowid
         return rec.id
@@ -204,10 +207,29 @@ class History:
         rows = self._conn.execute(
             "SELECT c.* FROM calibrations c "
             "WHERE c.next_calibration != '' AND c.next_calibration <= ? "
+            "AND COALESCE(c.no_reminder, 0) = 0 "
             "AND c.document_no NOT IN (SELECT document_no FROM reminders) "
             "AND c.id = (SELECT MAX(id) FROM calibrations c2 WHERE c2.serial_no = c.serial_no) "
             "ORDER BY c.next_calibration", (horizon,)).fetchall()
         return [self._to_record(r) for r in rows]
+
+    def delete(self, record_ids: list[int]) -> int:
+        """Delete calibrations (and their reminder marks). Returns the number removed."""
+        if not record_ids:
+            return 0
+        marks = [r["document_no"] for r in self._conn.execute(
+            f"SELECT document_no FROM calibrations WHERE id IN ({','.join('?' * len(record_ids))})", record_ids)]
+        if marks:
+            self._conn.execute(f"DELETE FROM reminders WHERE document_no IN ({','.join('?' * len(marks))})", marks)
+        cur = self._conn.execute(f"DELETE FROM calibrations WHERE id IN ({','.join('?' * len(record_ids))})", record_ids)
+        self._conn.commit()
+        return cur.rowcount
+
+    def set_no_reminder(self, record_ids: list[int], value: bool) -> None:
+        if record_ids:
+            self._conn.execute(f"UPDATE calibrations SET no_reminder = ? WHERE id IN ({','.join('?' * len(record_ids))})",
+                               [int(value)] + list(record_ids))
+            self._conn.commit()
 
     def mark_reminded(self, document_no: str, sent_to: str) -> None:
         self._conn.execute("INSERT OR REPLACE INTO reminders (document_no, sent_at, sent_to) VALUES (?,?,?)",
@@ -250,7 +272,8 @@ class History:
             model=row["model"], serial_no=row["serial_no"] or "", tip=row["tip"] or "",
             verdict=row["verdict"], operator=row["operator"] or "",
             payload=json.loads(row["payload"]), customer=row["customer"] or "",
-            customer_email=row["customer_email"] or "", next_calibration=row["next_calibration"] or "")
+            customer_email=row["customer_email"] or "", next_calibration=row["next_calibration"] or "",
+            no_reminder=bool(row["no_reminder"]) if "no_reminder" in row.keys() else False)
 
 
 def now_iso() -> str:

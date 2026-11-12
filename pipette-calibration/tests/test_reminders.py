@@ -94,3 +94,25 @@ def test_history_migration_adds_columns(tmp_path):
     assert rec.next_calibration == "2026-11-20" and rec.customer == ""
     assert [r.document_no for r in h.due_for_reminder(30, date(2026, 11, 12))] == ["LG-CAL-2025-0001"]
     h.close()
+
+
+def test_delete_and_no_reminder_flag(tmp_path):
+    h = History(tmp_path / "h.sqlite")
+    a = _rec("LG-CAL-2025-0001", "SN-1", "2025-11-20", "2026-11-20")
+    b = _rec("LG-CAL-2025-0002", "SN-2", "2025-11-21", "2026-11-21")
+    c = _rec("LG-CAL-2025-0003", "SN-3", "2025-11-22", "2026-11-22")
+    for r in (a, b, c):
+        h.add(r)
+    today = date(2026, 11, 12)
+    assert len(h.due_for_reminder(30, today)) == 3
+    h.set_no_reminder([b.id], True)
+    assert h.get(b.id).no_reminder is True
+    assert [r.serial_no for r in h.due_for_reminder(30, today)] == ["SN-1", "SN-3"]
+    h.set_no_reminder([b.id], False)
+    assert len(h.due_for_reminder(30, today)) == 3
+    h.mark_reminded(a.document_no, "x")
+    assert h.delete([a.id, c.id]) == 2
+    assert [r.document_no for r in h.list()] == ["LG-CAL-2025-0002"]
+    assert a.document_no not in h.reminder_marks()
+    assert h.delete([]) == 0
+    h.close()
