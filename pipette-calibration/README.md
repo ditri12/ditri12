@@ -47,7 +47,21 @@ a small, tested application:
 * **Windows helpers** - `install.bat`, `run.bat`, and `build_exe.bat`
   (PyInstaller) to hand out a single `PipetteCalibration.exe`.
 
-## Installation (Windows)
+## Ready-made Windows program (no Python needed)
+
+Every push of this folder builds `PipetteCalibration-<version>.exe` on a
+Windows runner (`.github/workflows/build-pipette-exe.yml`) and publishes it
+under **Releases** in this repository, together with a zip that contains the
+README and a SHA256 list. Download the EXE, put it in any folder (optionally
+with a `logo.png` next to it) and double-click it. Windows SmartScreen may
+warn because the file is not code-signed: choose *More info* and *Run anyway*.
+Settings and the calibration history are stored per user in
+`%APPDATA%\LifeGene\PipetteCalibration`, and `app.log` in the same folder
+records any error.
+
+To build the EXE yourself on a Windows PC run `build_exe.bat`.
+
+## Installation from source (Windows)
 
 1. Install Python 3.10 or newer from python.org (tick *Add python to PATH*).
 2. Copy this folder anywhere (e.g. `C:\PipetteCalibration`).
