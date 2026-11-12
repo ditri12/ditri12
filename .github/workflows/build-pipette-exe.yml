@@ -1,0 +1,97 @@
+name: build-pipette-exe
+
+# Builds the single-file Windows executable of the pipette calibration tool
+# on a Windows runner and publishes it as a GitHub release asset.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "pipette-calibration/**"
+      - ".github/workflows/build-pipette-exe.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-pipette-exe-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: pipette-calibration
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipette-calibration/requirements-dev.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Read version
+        id: ver
+        run: |
+          $v = python -c "import pipette_cal; print(pipette_cal.__version__)"
+          "version=$v" >> $env:GITHUB_OUTPUT
+
+      - name: Build executable
+        run: |
+          python -m PyInstaller --noconfirm --clean --onefile --windowed `
+            --name PipetteCalibration --icon assets\app.ico --add-data "assets;assets" `
+            --collect-submodules win32com --hidden-import win32timezone gilson_calibration.py
+          Get-Item dist\PipetteCalibration.exe | Format-List Name, Length
+
+      - name: Smoke-test the executable
+        run: |
+          # The GUI needs a desktop; the runner has one. Start, wait, verify the
+          # process is alive and the log file was created, then stop it.
+          $p = Start-Process -FilePath dist\PipetteCalibration.exe -PassThru
+          Start-Sleep -Seconds 12
+          if ($p.HasExited) { throw "PipetteCalibration.exe exited early with code $($p.ExitCode)" }
+          $log = Join-Path $env:APPDATA "LifeGene\PipetteCalibration\app.log"
+          if (-not (Test-Path $log)) { throw "app.log was not created at $log" }
+          Stop-Process -Id $p.Id -Force
+          Write-Host "Smoke test passed"
+
+      - name: Package
+        run: |
+          $v = "${{ steps.ver.outputs.version }}"
+          New-Item -ItemType Directory -Force out | Out-Null
+          Copy-Item dist\PipetteCalibration.exe "out\PipetteCalibration-$v.exe"
+          Compress-Archive -Force -Path dist\PipetteCalibration.exe, README.md, docs\PROTOCOL.md, assets\README.txt `
+            -DestinationPath "out\PipetteCalibration-$v-windows.zip"
+          Get-FileHash out\*.exe, out\*.zip -Algorithm SHA256 | ForEach-Object { "$($_.Hash)  $(Split-Path $_.Path -Leaf)" } | Set-Content out\SHA256SUMS.txt
+          Get-Content out\SHA256SUMS.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PipetteCalibration-${{ steps.ver.outputs.version }}-windows
+          path: pipette-calibration/out/*
+          if-no-files-found: error
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $v = "${{ steps.ver.outputs.version }}"
+          $tag = "pipette-calibration-v$v-build${{ github.run_number }}"
+          $notes = "Windows build of the LifeGene Pipette Calibration tool v$v (run ${{ github.run_number }}, commit ${{ github.sha }}).`n`n" +
+                   "* **PipetteCalibration-$v.exe** - single-file program, no installation needed.`n" +
+                   "* **PipetteCalibration-$v-windows.zip** - the same EXE with the README and protocol notes.`n`n" +
+                   "Windows SmartScreen may warn because the file is not code-signed: choose *More info* -> *Run anyway*."
+          gh release create $tag out\PipetteCalibration-$v.exe out\PipetteCalibration-$v-windows.zip out\SHA256SUMS.txt `
+            --repo "${{ github.repository }}" --target "${{ github.sha }}" `
+            --title "Pipette Calibration v$v (build ${{ github.run_number }})" --notes $notes

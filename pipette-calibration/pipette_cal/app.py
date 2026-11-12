@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import logging
 import queue
+import sys
 import tempfile
 import tkinter as tk
 import tkinter.font as tkfont
@@ -155,6 +156,12 @@ class App(tk.Tk):
 
         self.title(f"{__app_name__} v{__version__}")
         self.minsize(1180, 740)
+        icon = self._asset("app.ico")
+        if icon and sys.platform.startswith("win"):
+            try:
+                self.iconbitmap(default=str(icon))
+            except tk.TclError:
+                pass
         try:
             self.state("zoomed")            # Windows: open maximised
         except tk.TclError:
@@ -1271,14 +1278,30 @@ class App(tk.Tk):
             self._show_reading(self.last_reading)
 
     @staticmethod
-    def _logo_path() -> Path | None:
-        here = Path(__file__).resolve().parent.parent
-        for name in ("logo.png", "logo.jpg", "logo.jpeg", "images.jpg"):
-            for folder in (here / "assets", here, Path.cwd()):
-                candidate = folder / name
-                if candidate.exists():
-                    return candidate
+    def _resource_dirs() -> list[Path]:
+        """Folders searched for assets: next to the EXE / script first, then the
+        bundled package folder (PyInstaller unpacks it to sys._MEIPASS)."""
+        dirs: list[Path] = []
+        if getattr(sys, "frozen", False):
+            dirs.append(Path(sys.executable).resolve().parent)
+            dirs.append(Path(getattr(sys, "_MEIPASS", Path(sys.executable).parent)))
+        dirs.append(Path(__file__).resolve().parent.parent)
+        dirs.append(Path.cwd())
+        return dirs
+
+    @classmethod
+    def _asset(cls, *names: str) -> Path | None:
+        for base in cls._resource_dirs():
+            for name in names:
+                for folder in (base / "assets", base):
+                    candidate = folder / name
+                    if candidate.exists():
+                        return candidate
         return None
+
+    @classmethod
+    def _logo_path(cls) -> Path | None:
+        return cls._asset("logo.png", "logo.jpg", "logo.jpeg")
 
     def _load_logo(self):
         path = self._logo_path()
@@ -1302,5 +1325,25 @@ class App(tk.Tk):
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
-    App().mainloop()
+    """Entry point. Logs to the console when there is one, otherwise (windowed
+    EXE) to app.log in the per-user application-data folder."""
+    from .storage import app_data_dir
+    handlers: list[logging.Handler] = []
+    if sys.stderr is not None:
+        handlers.append(logging.StreamHandler())
+    try:
+        handlers.append(logging.FileHandler(app_data_dir() / "app.log", encoding="utf-8"))
+    except OSError:
+        pass
+    logging.basicConfig(level=logging.INFO, handlers=handlers,
+                        format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+    try:
+        App().mainloop()
+    except Exception:  # noqa: BLE001 - last-resort report for the windowed build
+        log.exception("fatal error")
+        try:
+            messagebox.showerror(__app_name__, "The program stopped because of an unexpected error.\n"
+                                 f"Details were written to {app_data_dir() / 'app.log'}")
+        except tk.TclError:
+            pass
+        raise
