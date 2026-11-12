@@ -27,7 +27,7 @@ from __future__ import annotations
 import logging
 from datetime import date, datetime, timedelta
 
-from .report import compose_email
+from .report import brand_html, compose_email
 from .storage import AppConfig, CalibrationRecord, History
 
 log = logging.getLogger(__name__)
@@ -121,11 +121,11 @@ def build_customer_reminder(records: list[CalibrationRecord], today: date,
     many = n > 1
     p1 = ("לפי הרישומים שלנו, מועד הכיול השנתי של " +
           ("הפיפטורים הבאים שכוילו" if many else "הפיפטור הבא שכויל") +
-          " על ידי LifeGene מתקרב. כיול תקופתי שומר על דיוק התוצאות ועל עקיבותן, "
+          " על ידי LIFEGENE מתקרב. כיול תקופתי שומר על דיוק התוצאות ועל עקיבותן, "
           "ואנו ממליצים לבצע כיול חוזר לפני המועד המצוין.")
     p2 = ("נשמח לשלוח לך הצעת מחיר לכיול החוזר. לקבלת הצעה או לתיאום מועד נוח, ניתן להשיב למייל זה "
           f"או לפנות למשרדנו: {office_email} | {OFFICE_PHONE}.")
-    p3 = "תודה שבחרתם ב-LifeGene, נשמח לעמוד לשירותכם."
+    p3 = "תודה שבחרתם ב-LIFEGENE, נשמח לעמוד לשירותכם."
     sign_lines = ["LifeGene Ltd. - שירות טכני", "מבוא חורון, ישראל", f"{OFFICE_PHONE} | {office_email}"]
     lines = [greeting, "", p1, ""]
     for r in records:
@@ -137,8 +137,8 @@ def build_customer_reminder(records: list[CalibrationRecord], today: date,
     # signature. The plain-text version (used only without Outlook) keeps a
     # minimal company signature.
     html = (f"<div dir='rtl' style='direction:rtl;text-align:right'>"
-            f"<p>{_esc(greeting)}</p><p>{_esc(p1)}</p>{_table_html_he(records, today)}"
-            f"<p>{_esc(p2)}</p><p>{_esc(p3)}</p></div>")
+            f"<p>{_esc(greeting)}</p><p>{brand_html(p1)}</p>{_table_html_he(records, today)}"
+            f"<p>{brand_html(p2)}</p><p>{brand_html(p3)}</p></div>")
     return subject, "\n".join(lines), html
 
 

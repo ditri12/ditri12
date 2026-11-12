@@ -31,8 +31,21 @@ def print_file(path: Path) -> None:
         subprocess.Popen(["lp", str(path)])
 
 
+BRAND_HTML = ('<span style="font-weight:bold;letter-spacing:0.5px">'
+              '<span style="color:#2e7db6">LIFE</span><span style="color:#77b957">GENE</span></span>')
+_BRAND_WORDS = ("LifeGene", "LIFEGENE", "Lifegene")
+
+
 def _html_escape(text: str) -> str:
     return (text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def brand_html(text: str) -> str:
+    """Escape *text* for HTML and show every 'LifeGene' as the coloured brand word."""
+    out = _html_escape(text)
+    for word in _BRAND_WORDS:
+        out = out.replace(word, BRAND_HTML)
+    return out
 
 
 def compose_email(to: str, subject: str, body: str, attachments: list[Path],
@@ -81,7 +94,7 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
                     log.warning("could not read the Outlook signature: %s", exc)
                     signature_html = ""
                 step = "set body"
-                text_html = html or "<br>".join(_html_escape(line) for line in body.splitlines())
+                text_html = html or "<br>".join(brand_html(line) for line in body.splitlines())
                 mail.HTMLBody = (f'<div style="font-family:Calibri,Arial,sans-serif;font-size:11pt">'
                                  f'{text_html}</div><br>{signature_html}')
                 if not send:
