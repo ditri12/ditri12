@@ -351,9 +351,9 @@ class App(tk.Tk):
             txt.pack(side="left", padx=(0, 14))
             row = tk.Frame(txt, bg=p["header"])
             row.pack(anchor="w")
-            tk.Label(row, text="LIFE", fg="#4a9be0", bg=p["header"],
+            tk.Label(row, text="LIFE", fg="#8cd36a", bg=p["header"],
                      font=(self.f_title.cget("family"), 17, "bold")).pack(side="left")
-            tk.Label(row, text="GENE", fg="#8cd36a", bg=p["header"],
+            tk.Label(row, text="GENE", fg="#4a9be0", bg=p["header"],
                      font=(self.f_title.cget("family"), 17, "bold")).pack(side="left")
             tk.Label(txt, text="Supporting Science", fg="#94a3b8", bg=p["header"],
                      font=(self.f_small.cget("family"), 8, "italic")).pack(anchor="w")

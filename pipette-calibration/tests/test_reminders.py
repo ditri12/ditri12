@@ -34,7 +34,7 @@ def test_customer_reminder_is_hebrew_and_personal():
     assert body.startswith("שלום דניאל,") and "הצעת מחיר" in body and "naama@lifegene.co.il" in body
     assert "SN-1" in body and "בעוד 8 ימים" in body and "עבר לפני" in body
     assert "dir='rtl'" in html and "naama@lifegene.co.il" in html
-    assert 'color:#2e7db6">LIFE</span><span style="color:#77b957">GENE' in html   # brand word in logo colours
+    assert 'color:#77b957">LIFE</span><span style="color:#2e7db6">GENE' in html   # LIFE green, GENE blue as in the logo
     assert "LifeGene Ltd" not in html                                               # Outlook signature follows
     # without a contact person the company name is used
     assert build_customer_reminder([_rec("LG-CAL-2025-0002", "SN-2", "2025-11-20", "2026-11-20")],

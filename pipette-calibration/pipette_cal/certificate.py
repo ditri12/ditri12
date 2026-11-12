@@ -177,8 +177,8 @@ def _logo(info: CertificateInfo):
     else:
         head = None
     if head is None:
-        head = Paragraph(f'<font color="{LOGO_BLUE.hexval()}"><b>LIFE</b></font>'
-                         f'<font color="{LOGO_GREEN.hexval()}"><b>GENE</b></font>'
+        head = Paragraph(f'<font color="{LOGO_GREEN.hexval()}"><b>LIFE</b></font>'
+                         f'<font color="{LOGO_BLUE.hexval()}"><b>GENE</b></font>'
                          f'<br/><font size="7" color="{LOGO_GREEN.hexval()}"><i>{COMPANY_TAGLINE}</i></font>',
                          _ps("lg", 20, leading=22))
     rows = [[head], [Paragraph(COMPANY_ADDRESS, st_addr)],
