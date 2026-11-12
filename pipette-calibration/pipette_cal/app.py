@@ -21,6 +21,7 @@ import logging
 import queue
 import sys
 import tempfile
+import threading
 import tkinter as tk
 import tkinter.font as tkfont
 from datetime import date, datetime
@@ -53,6 +54,15 @@ PALETTES = {
                   green="#16a34a", red="#dc2626", amber="#d97706", entry="#ffffff",
                   low="#2563eb", mid="#0891b2", high="#7c3aed", header="#0f172a"),
 }
+
+
+def _parse_bool(text: str) -> bool:
+    t = text.strip().lower()
+    if t in ("yes", "y", "true", "1", "on", "כן"):
+        return True
+    if t in ("no", "n", "false", "0", "off", "לא"):
+        return False
+    raise ValueError(f"expected yes or no, got {text!r}")
 
 
 def add_months(d: date, months: int) -> date:
@@ -182,6 +192,7 @@ class App(tk.Tk):
 
         # ---- state -----------------------------------------------------
         self.scale: BaseScale | None = None
+        self._connecting = False
         self.last_reading: Reading | None = None
         self.weights: dict[Level, list[float]] = {lv: [] for lv in LEVELS}
         self.result: CalibrationResult | None = None
@@ -218,6 +229,8 @@ class App(tk.Tk):
         self.bind_all("<Return>", self._on_enter)
         self.protocol("WM_DELETE_WINDOW", self._on_close)
         self.after(100, self._poll_scale)
+        if self.cfg.auto_connect:
+            self.after(600, lambda: self._connect(silent=True))
 
     # ------------------------------------------------------------------
     # Building the UI
@@ -314,8 +327,9 @@ class App(tk.Tk):
         Button(right, self, "Settings", self._open_settings, "ghost").pack(side="right", padx=(8, 0))
         Button(right, self, "Light mode" if self.cfg.theme == "dark" else "Dark mode",
                self._toggle_theme, "ghost").pack(side="right")
-        self.scale_pill = Pill(right, self, "BALANCE: DISCONNECTED", "#475569")
+        self.scale_pill = Pill(right, self, "BALANCE: DISCONNECTED", "#475569", cursor="hand2")
         self.scale_pill.pack(side="right", padx=12)
+        self.scale_pill.bind("<Button-1>", lambda e: self._show_tab("Measurements"))
 
     def _build_tabbar(self):
         p = self.p
@@ -391,6 +405,14 @@ class App(tk.Tk):
         self.side_scale_status = tk.Label(sc.body, text="Not connected", bg=p["surface"],
                                           fg=p["muted"], font=self.f_small)
         self.side_scale_status.pack(anchor="w")
+        row = tk.Frame(sc.body, bg=p["surface"])
+        row.pack(fill="x", pady=(8, 0))
+        self.side_connect_btn = Button(row, self, "Connect", self._toggle_connect, "primary")
+        self.side_connect_btn.pack(side="left")
+        self.side_scale_addr = tk.Label(row, text="", bg=p["surface"], fg=p["muted"], font=self.f_small,
+                                        cursor="hand2")
+        self.side_scale_addr.pack(side="left", padx=10)
+        self.side_scale_addr.bind("<Button-1>", lambda e: self._show_tab("Measurements"))
 
     def _build_footer(self):
         p = self.p
@@ -737,30 +759,66 @@ class App(tk.Tk):
     # Balance
     # ------------------------------------------------------------------
     def _toggle_connect(self):
+        if self._connecting:
+            return
         if self.scale and self.scale.connected:
             self.scale.disconnect()
             self.scale = None
             self._refresh_scale_widgets()
             return
+        self._connect(silent=False)
+
+    def _connect(self, silent: bool):
+        """Open the balance connection on a worker thread; *silent* suppresses
+        the error dialog (used for the automatic connection at start-up)."""
         try:
             if self.v_demo.get():
-                self.scale = SimulatedScale(poll_interval=self.cfg.poll_interval_s)
+                scale: BaseScale = SimulatedScale(poll_interval=self.cfg.poll_interval_s)
             else:
-                port = int(self.v_port.get())
-                self.scale = RadwagScale(self.v_ip.get().strip(), port, self.cfg.poll_interval_s)
-            self.scale.connect()
-            self.scale.start_listening()
-        except (ScaleError, ValueError) as exc:
-            self.scale = None
-            messagebox.showerror("Balance", str(exc), parent=self)
-        self.cfg.scale_ip, self.cfg.demo_mode = self.v_ip.get().strip(), self.v_demo.get()
-        try:
-            self.cfg.scale_port = int(self.v_port.get())
+                scale = RadwagScale(self.v_ip.get().strip(), int(self.v_port.get()), self.cfg.poll_interval_s)
         except ValueError:
-            pass
+            if not silent:
+                messagebox.showerror("Balance", "The port must be a number.", parent=self)
+            return
+        self.cfg.scale_ip, self.cfg.demo_mode = self.v_ip.get().strip(), self.v_demo.get()
+        self.cfg.scale_port = scale.port if isinstance(scale, RadwagScale) else self.cfg.scale_port
         self.cfg.save()
-        self._refresh_scale_widgets()
-        self._refresh_target()
+        self._connecting = True
+        self._set_connecting_ui(True)
+
+        def work():
+            try:
+                scale.connect()
+                error = None
+            except ScaleError as exc:
+                error = str(exc)
+            self.after(0, lambda: done(error))
+
+        def done(error: str | None):
+            self._connecting = False
+            if error is None:
+                self.scale = scale
+                try:
+                    self.scale.start_listening()
+                except ScaleError as exc:
+                    error = str(exc)
+            if error is not None:
+                log.warning("balance connection failed: %s", error)
+                if not silent:
+                    messagebox.showerror("Balance", error, parent=self)
+            self._set_connecting_ui(False)
+            self._refresh_scale_widgets()
+            self._refresh_target()
+
+        threading.Thread(target=work, name="balance-connect", daemon=True).start()
+
+    def _set_connecting_ui(self, busy: bool):
+        for b in (self.btn_connect, self.side_connect_btn):
+            b.config(text="Connecting..." if busy else b.cget("text"))
+            b.set_enabled(not busy)
+        if busy:
+            self.scale_pill.set("BALANCE: CONNECTING...", self.p["amber"])
+            self.side_scale_status.config(text=f"Connecting to {self.v_ip.get().strip()}:{self.v_port.get()} ...")
 
     def _toggle_listen(self):
         if not self.scale or not self.scale.connected:
@@ -829,6 +887,9 @@ class App(tk.Tk):
         listening = bool(connected and self.scale.listening)
         demo = isinstance(self.scale, SimulatedScale)
         self.btn_connect.config(text="Disconnect" if connected else "Connect")
+        self.side_connect_btn.config(text="Disconnect" if connected else "Connect")
+        self.side_scale_addr.config(text="Demo mode" if self.v_demo.get() else
+                                    f"{self.v_ip.get().strip()}:{self.v_port.get()}  (Measurements tab)")
         self.btn_listen.config(text="Stop listening" if listening else "Start listening")
         for b in (self.btn_listen, self.btn_zero, self.btn_tare):
             b.set_enabled(connected)
@@ -1236,6 +1297,7 @@ class App(tk.Tk):
             ("Next calibration after (months)", "next_calibration_months", int),
             ("Balance readability (mg)", "balance_readability_mg", float),
             ("Balance poll interval (s)", "poll_interval_s", float),
+            ("Connect to the balance at start-up (yes/no)", "auto_connect", _parse_bool),
             ("Default water temperature (°C)", "default_temperature_c", float),
             ("Default air temperature (°C)", "default_air_temperature_c", float),
             ("Default humidity (%)", "default_humidity_pct", float),
@@ -1246,7 +1308,8 @@ class App(tk.Tk):
         for i, (label, key, _) in enumerate(fields):
             tk.Label(body, text=label, bg=p["surface"], fg=p["muted"], font=self.f_small,
                      anchor="w").grid(row=i, column=0, sticky="w", pady=4, padx=(0, 14))
-            v = tk.StringVar(value=str(getattr(self.cfg, key)))
+            value = getattr(self.cfg, key)
+            v = tk.StringVar(value=("yes" if value else "no") if isinstance(value, bool) else str(value))
             vars_[key] = v
             self._entry(body, v, width=38).grid(row=i, column=1, sticky="ew", ipady=3)
         msg = tk.Label(body, text="", bg=p["surface"], fg=p["red"], font=self.f_small)
