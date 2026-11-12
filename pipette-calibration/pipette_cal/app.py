@@ -51,9 +51,10 @@ DEFAULT_OPERATOR = "Dmitri Trakhtman"
 # capture again, so one drop can never be recorded twice.
 AUTO_STABLE_READINGS = 3
 AUTO_STABLE_SECONDS = 0.8
+AUTO_UNFLAGGED_SECONDS = 2.5      # unchanged this long counts as stable even without the balance's flag
 AUTO_MIN_FRACTION = 0.30
 AUTO_REARM_FRACTION = 0.15
-AUTO_MIN_ABS_G = 0.00015          # never capture below 0.15 mg whatever the volume
+AUTO_MIN_ABS_G = 0.00005          # never capture below 0.05 mg whatever the volume
 DATE_FMT = "%d/%m/%Y"
 
 PALETTES = {
@@ -964,6 +965,8 @@ class App(tk.Tk):
             self.live_hint.config(text="Auto-save is on: dispense, wait for a stable reading.  Enter still saves manually.")
         else:
             self.live_hint.config(text="Press  Enter  to save the reading into the next slot")
+        if status != self.auto_status.cget("text"):
+            log.info("auto-save: %s", status or "-")      # state changes only, for app.log
         self.auto_status.config(text=status, fg=colour or p["amber"])
 
     def _auto_capture(self, r: Reading):
@@ -987,23 +990,29 @@ class App(tk.Tk):
 
         if value < min_capture:
             self._auto_run = []
-            self._refresh_auto_labels("READY - waiting for the next drop")
+            self._refresh_auto_labels(f"READY - waiting for a drop (saves above {min_capture:.5f} g)")
             return
 
+        # consecutive readings that stay within the tolerance, whatever the balance's flag says
         tolerance = max(expected * 0.002, 3e-6)
-        if not r.stable or (self._auto_run and abs(value - self._auto_run[-1].value_g) > tolerance):
-            self._auto_run = [r] if r.stable else []
-            self._refresh_auto_labels("STABILISING ...")
-            return
+        if self._auto_run and abs(value - self._auto_run[-1].value_g) > tolerance:
+            delta = abs(value - self._auto_run[-1].value_g)
+            self._auto_run = []
+            self._refresh_auto_labels(f"DRIFTING - reading moved by {delta:.6f} g")
         self._auto_run.append(r)
         n = len(self._auto_run)
         span = self._auto_run[-1].timestamp - self._auto_run[0].timestamp
-        if n >= AUTO_STABLE_READINGS and span >= AUTO_STABLE_SECONDS:
+        flagged = all(x.stable for x in self._auto_run[-AUTO_STABLE_READINGS:]) and r.stable
+        if (flagged and n >= AUTO_STABLE_READINGS and span >= AUTO_STABLE_SECONDS) or span >= AUTO_UNFLAGGED_SECONDS:
+            log.info("auto-save: capturing %.6f g after %d readings / %.1f s (balance flag stable=%s, raw=%r)",
+                     value, n, span, r.stable, r.raw)
             self._auto_run = []
             self._auto_armed = False
             self._commit_reading(value, auto=True)
+        elif not r.stable:
+            self._refresh_auto_labels(f"UNSTABLE (balance flag) - unchanged {span:.1f} s, saves at {AUTO_UNFLAGGED_SECONDS:.1f} s")
         else:
-            self._refresh_auto_labels(f"STABLE {min(n, AUTO_STABLE_READINGS)}/{AUTO_STABLE_READINGS} ...")
+            self._refresh_auto_labels(f"STABLE {min(n, AUTO_STABLE_READINGS)}/{AUTO_STABLE_READINGS}  ({span:.1f} s) ...")
 
     def _commit_reading(self, value: float, auto: bool):
         """Store *value* in the next slot, tare the balance, advance."""
