@@ -724,9 +724,9 @@ class App(tk.Tk):
         Button(top, self, "Send reminders now", lambda: self._run_reminders(silent=False), "secondary").pack(side="right")
         self.reminder_info = tk.Label(top, text="", bg=p["surface"], fg=p["muted"], font=self.f_small)
         self.reminder_info.pack(side="right", padx=10)
-        cols = ("document", "date", "model", "serial", "customer", "verdict", "next")
+        cols = ("document", "date", "model", "serial", "customer", "verdict", "next", "reminder")
         self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="browse")
-        for c, w in zip(cols, (150, 140, 90, 120, 160, 70, 100)):
+        for c, w in zip(cols, (140, 130, 80, 110, 150, 60, 90, 180)):
             self.history_tree.heading(c, text=c.upper())
             self.history_tree.column(c, width=w, anchor="w")
         sb = ttk.Scrollbar(card.body, orient="vertical", command=self.history_tree.yview)
@@ -1448,14 +1448,21 @@ class App(tk.Tk):
         if not self._ready("history_tree"):
             return
         self.history_tree.delete(*self.history_tree.get_children())
+        marks = self.history.reminder_marks()
         for rec in self.history.list(search=self.v_search.get()):
+            mark = marks.get(rec.document_no)
+            reminder = ""
+            if mark:
+                sent_at, sent_to = mark
+                reminder = (f"skipped {sent_at[:10]}" if sent_to.startswith("not sent") else
+                            f"sent {sent_at[:10]} to {sent_to.split(';')[0]}")
             nxt = rec.next_calibration or rec.payload.get("next_calibration_date", "")
             try:
                 nxt = parse_date(nxt).strftime(DATE_FMT) if nxt else ""
             except ValueError:
                 pass
             self.history_tree.insert("", "end", iid=str(rec.id), tags=(rec.verdict,), values=(
-                rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.customer, rec.verdict, nxt))
+                rec.document_no, rec.calibrated_at, rec.model, rec.serial_no, rec.customer, rec.verdict, nxt, reminder))
 
     def _run_reminders(self, silent: bool):
         """Send the recalibration reminder e-mail for pipettes due within the
@@ -1566,6 +1573,7 @@ class App(tk.Tk):
             ("Office address copied on reminders", "reminder_email_to", str),
             ("Remind this many days before the due date", "reminder_days_before", int),
             ("Send reminders automatically (yes/no)", "reminder_auto_send", _parse_bool),
+            ("Do not e-mail the same customer again within (days)", "reminder_repeat_days", int),
             ("Auto-save after stable for (s)", "auto_stable_seconds", float),
             ("Auto-save without stability flag after (s)", "auto_unflagged_seconds", float),
             ("Place of calibration", "place_of_calibration", str),

@@ -114,9 +114,13 @@ office (info@lifegene.co.il, changeable in Settings). The message tells the
 customer that the annual calibration is due, lists the pipettes with their
 certificate numbers and due dates, and invites them to reply or contact the
 office for a quotation. Pipettes recorded without a customer e-mail are
-listed in an internal message to the office only. Each certificate is
-reminded once. With *Send reminders automatically* set to no, drafts are
-opened instead of sent. Outlook must be installed on the PC that runs the
+listed in an internal message to the office only. Two guards prevent
+nagging: each certificate is reminded once, and a customer address that
+already received a reminder is not e-mailed again for a year (Settings:
+*Do not e-mail the same customer again within*); pipettes that become due in
+that period are marked as covered. The History tab shows for every
+certificate whether and when a reminder was sent, and to whom. With *Send
+reminders automatically* set to no, drafts are opened instead of sent. Outlook must be installed on the PC that runs the
 program.
 
 ## Pipette models and limits

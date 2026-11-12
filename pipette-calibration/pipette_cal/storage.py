@@ -61,6 +61,7 @@ class AppConfig:
     reminder_email_to: str = "info@lifegene.co.il"   # office address: copied on every customer reminder
     reminder_days_before: int = 30       # how long before the due date the reminder goes out
     reminder_auto_send: bool = True      # send through Outlook without opening the draft
+    reminder_repeat_days: int = 365      # never e-mail the same customer address again within this period
     place_of_calibration: str = "LifeGene Lab, Mevo Horon, Israel"
     next_calibration_months: int = 12
     procedure: str = "W-004-04 Calibration of Pipette"   # "Standard" line on the certificate
@@ -136,6 +137,13 @@ class History:
                    sent_at     TEXT NOT NULL,
                    sent_to     TEXT
                )""")
+        self._conn.execute(
+            """CREATE TABLE IF NOT EXISTS reminder_sends (
+                   id           INTEGER PRIMARY KEY AUTOINCREMENT,
+                   email        TEXT NOT NULL,
+                   sent_at      TEXT NOT NULL,
+                   document_nos TEXT
+               )""")
         self._migrate()
         self._conn.commit()
 
@@ -204,6 +212,22 @@ class History:
     def mark_reminded(self, document_no: str, sent_to: str) -> None:
         self._conn.execute("INSERT OR REPLACE INTO reminders (document_no, sent_at, sent_to) VALUES (?,?,?)",
                            (document_no, now_iso(), sent_to))
+        self._conn.commit()
+
+    def reminder_marks(self) -> dict[str, tuple[str, str]]:
+        """document_no -> (sent_at, sent_to) for every reminded certificate."""
+        return {r["document_no"]: (r["sent_at"], r["sent_to"] or "")
+                for r in self._conn.execute("SELECT * FROM reminders")}
+
+    def last_reminder_to(self, email: str) -> str | None:
+        """ISO timestamp of the last reminder e-mail sent to *email* (case-insensitive)."""
+        row = self._conn.execute("SELECT sent_at FROM reminder_sends WHERE lower(email) = lower(?) "
+                                 "ORDER BY sent_at DESC LIMIT 1", (email.strip(),)).fetchone()
+        return row["sent_at"] if row else None
+
+    def record_reminder_send(self, email: str, document_nos: list[str]) -> None:
+        self._conn.execute("INSERT INTO reminder_sends (email, sent_at, document_nos) VALUES (?,?,?)",
+                           (email.strip(), now_iso(), ", ".join(document_nos)))
         self._conn.commit()
 
     def get(self, record_id: int) -> CalibrationRecord | None:

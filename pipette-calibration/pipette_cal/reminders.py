@@ -11,12 +11,21 @@ per customer:
 
 Pipettes recorded without a customer e-mail are listed in a separate
 internal message to the office only, so the office can contact the customer
-by other means. Each certificate is reminded once (table ``reminders``).
+by other means.
+
+Two guards keep customers from being pestered:
+
+* each certificate is reminded once (table ``reminders``);
+* a customer address that already received a reminder within
+  ``reminder_repeat_days`` (default one year) is not e-mailed again: any
+  further pipette of that customer that becomes due is marked as covered by
+  that earlier contact (table ``reminder_sends``) and only reported to the
+  office summary.
 """
 from __future__ import annotations
 
 import logging
-from datetime import date
+from datetime import date, datetime, timedelta
 
 from .report import compose_email
 from .storage import AppConfig, CalibrationRecord, History
@@ -123,9 +132,25 @@ def check_and_send(history: History, cfg: AppConfig, today: date | None = None) 
     for r in due:
         (by_customer.setdefault(r.customer_email.strip().lower(), []) if r.customer_email.strip() else internal).append(r)
     messages = []
+    suppressed = 0
     for email, recs in by_customer.items():
+        last = history.last_reminder_to(email)
+        if last:
+            try:
+                last_dt = datetime.fromisoformat(last).date()
+            except ValueError:
+                last_dt = None
+            if last_dt and today - last_dt < timedelta(days=cfg.reminder_repeat_days):
+                # customer already contacted recently: do not e-mail again
+                for r in recs:
+                    history.mark_reminded(r.document_no, f"not sent - {email} already contacted on {last[:10]}")
+                suppressed += len(recs)
+                log.info("reminder suppressed for %s (contacted %s): %s", email, last[:10],
+                         ", ".join(r.document_no for r in recs))
+                continue
         subject, body, html = build_customer_reminder(recs, today, office)
         messages.append(compose_email(email, subject, body, [], send=cfg.reminder_auto_send, html=html, cc=office))
+        history.record_reminder_send(email, [r.document_no for r in recs])
         for r in recs:
             history.mark_reminded(r.document_no, f"{email}; cc {office}")
         log.info("reminder: %d pipette(s) -> %s (cc %s)", len(recs), email, office)
@@ -135,6 +160,10 @@ def check_and_send(history: History, cfg: AppConfig, today: date | None = None) 
         for r in internal:
             history.mark_reminded(r.document_no, office)
         log.info("internal reminder: %d pipette(s) -> %s", len(internal), office)
-    summary = (f"Reminders for {len(due)} pipette(s): {len(by_customer)} customer e-mail(s)"
-               + (f" and 1 internal e-mail" if internal else "") + f", office copy to {office}.")
+    sent_customers = len(messages) - (1 if internal else 0)
+    summary = (f"{len(due)} pipette(s) due: {sent_customers} customer e-mail(s) sent"
+               + (f", {suppressed} pipette(s) skipped because the customer was contacted recently" if suppressed else "")
+               + (", 1 internal e-mail" if internal else "") + f"; office copy to {office}.")
+    if not messages:
+        return 0, summary
     return len(due), summary + "\n" + "\n".join(messages)

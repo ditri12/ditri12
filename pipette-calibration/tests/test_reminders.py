@@ -63,6 +63,18 @@ def test_check_and_send_groups_by_customer_and_copies_office(tmp_path, monkeypat
     assert ("info@lifegene.co.il", "") in {(t, c) for t, c, _, _ in sent}       # internal message
     assert all(send is True for *_, send in sent)
     assert check_and_send(h, cfg, date(2026, 11, 12))[0] == 0      # reminded only once
+    # a new pipette of Lab A becomes due a month later: the customer was contacted
+    # recently, so nothing is sent and the certificate is marked as covered
+    h.add(_rec("LG-CAL-2025-0005", "SN-5", "2025-12-20", "2026-12-20", "Lab A", "a@example.com"))
+    sent.clear()
+    n, msg = check_and_send(h, cfg, date(2026, 12, 12))
+    assert n == 0 and sent == [] and "skipped" in msg
+    assert h.reminder_marks()["LG-CAL-2025-0005"][1].startswith("not sent")
+    assert h.last_reminder_to("A@Example.com") is not None
+    # after the repeat period the same customer may be contacted again
+    h.add(_rec("LG-CAL-2026-0006", "SN-6", "2026-12-01", "2027-12-01", "Lab A", "a@example.com"))
+    n, _ = check_and_send(h, cfg, date(2027, 11, 20))
+    assert n == 1 and sent[0][0] == "a@example.com"
     h.close()
 
 
