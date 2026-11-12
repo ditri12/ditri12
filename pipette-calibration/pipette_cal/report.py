@@ -118,6 +118,36 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
     return f"Your mail client was opened. Please attach the file(s) manually:\n{files}"
 
 
+def certificate_email(records, contact: str, customer: str, office_email: str) -> tuple[str, str]:
+    """(subject, plain-text body) of the e-mail that carries the certificate PDFs.
+    *records* are CalibrationRecord objects (one per attached PDF)."""
+    n = len(records)
+    first = records[0]
+    if n == 1:
+        subject = f"Pipette calibration certificate {first.document_no} - Gilson {first.model} S/N {first.serial_no}"
+        intro = f"Please find attached the calibration certificate {first.document_no} for your pipette."
+    else:
+        subject = f"Pipette calibration certificates - {n} pipettes" + (f" - {customer}" if customer else "")
+        intro = f"Please find attached the calibration certificates for your {n} pipettes."
+    lines = [f"Dear {contact}," if contact else "Dear customer,", "", intro, ""]
+    for r in records:
+        nxt = r.next_calibration or r.payload.get("next_calibration_date", "")
+        try:
+            from datetime import date as _date
+            nxt = _date.fromisoformat(nxt).strftime("%d/%m/%Y") if nxt else "-"
+        except ValueError:
+            pass
+        lines.append(f"- Gilson {r.model}, S/N {r.serial_no or '-'}: {r.verdict}  "
+                     f"(certificate {r.document_no}, calibrated {r.calibrated_at[:10]}, next calibration {nxt})")
+    lines += ["", "The certificate states the measured volumes, the systematic and random errors against the "
+                  "acceptance limits, and the recommended date of the next calibration. We will remind you "
+                  "shortly before that date.",
+              "", "For any question about the results, or to schedule the next calibration, simply reply to "
+                  f"this e-mail or contact our office at {office_email}.",
+              "", "Thank you for choosing LIFEGENE. We look forward to assisting you."]
+    return subject, "\n".join(lines)
+
+
 def _split_addresses(text: str) -> list[str]:
     return [a.strip() for a in text.replace(",", ";").split(";") if a.strip()]
 

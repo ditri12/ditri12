@@ -33,7 +33,7 @@ from .certificate import CertificateInfo, build_certificate, default_filename
 from .models import (CATALOGUE, LEVELS, REPLICATES, Level, PipetteSpec, full_model_name,
                      resolve_catalogue_name)
 from .physics import Environment, air_density, water_density, z_factor
-from .report import compose_email, open_file, print_file
+from .report import certificate_email, compose_email, open_file, print_file
 from . import autostart
 from .reminders import check_and_send, send_manual
 from .scale import BaseScale, RadwagScale, Reading, ScaleError, SimulatedScale
@@ -1358,25 +1358,9 @@ class App(tk.Tk):
         to = self.v_customer_email.get().strip() or self.cfg.email_to
         customer = self.v_customer.get().strip()
         contact = self.v_contact.get().strip() or customer
-        if len(records) == 1:
-            r = records[0]
-            subject = f"Pipette calibration certificate {r.document_no} - Gilson {r.model} S/N {r.serial_no}"
-            intro = f"Please find attached the calibration certificate {r.document_no} for your pipette."
-        else:
-            subject = f"Pipette calibration certificates - {len(records)} pipettes" + \
-                      (f" - {customer}" if customer else "")
-            intro = f"Please find attached the calibration certificates for your {len(records)} pipettes."
-        lines = [f"Dear {contact}," if contact else "Dear customer,", "", intro, ""]
-        for r in records:
-            nxt = r.next_calibration or r.payload.get("next_calibration_date", "")
-            lines.append(f"- Gilson {r.model}, S/N {r.serial_no or '-'}: {r.verdict}  "
-                         f"(certificate {r.document_no}, calibrated {r.calibrated_at[:10]}, "
-                         f"next calibration {parse_date(nxt).strftime(DATE_FMT) if nxt else '-'})")
-        lines += ["", "Thank you for choosing LifeGene. We look forward to assisting you.", "",
-                  "LifeGene Ltd. - Technical Service", "Mevo Horon, Israel",
-                  f"+972-(0)8-6444314 | {self.cfg.email_cc or 'info@lifegene.co.il'}"]
+        subject, body = certificate_email(records, contact, customer, self.cfg.email_cc or "info@lifegene.co.il")
         try:
-            msg = compose_email(to, subject, "\n".join(lines), paths, cc=self.cfg.email_cc)
+            msg = compose_email(to, subject, body, paths, cc=self.cfg.email_cc)
             messagebox.showinfo("Email", msg, parent=self)
             self.batch = []
             self._refresh_output_buttons()
