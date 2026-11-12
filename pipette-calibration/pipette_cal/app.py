@@ -331,8 +331,9 @@ class App(tk.Tk):
               foreground=[("selected", "#ffffff")])
         s.configure("TCheckbutton", background=p["surface"], foreground=p["text"], font=self.f_body)
         s.map("TCheckbutton", background=[("active", p["surface"])])
-        s.configure("Vertical.TScrollbar", background=p["surface2"], troughcolor=p["surface"],
-                    bordercolor=p["border"], arrowcolor=p["muted"])
+        for name in ("Vertical.TScrollbar", "Horizontal.TScrollbar"):
+            s.configure(name, background=p["surface2"], troughcolor=p["surface"],
+                        bordercolor=p["border"], arrowcolor=p["muted"])
 
     def _build_header(self):
         p = self.p
@@ -745,14 +746,20 @@ class App(tk.Tk):
         tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
                  bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x", pady=(0, 4))
         cols = ("document", "date", "model", "serial", "customer", "contact", "email", "verdict", "next", "reminder")
-        self.history_tree = ttk.Treeview(card.body, columns=cols, show="headings", selectmode="extended")
-        for c, w in zip(cols, (130, 120, 70, 100, 130, 110, 150, 55, 85, 150)):
+        table = tk.Frame(card.body, bg=p["surface"])
+        table.pack(fill="both", expand=True)
+        table.rowconfigure(0, weight=1)
+        table.columnconfigure(0, weight=1)
+        self.history_tree = ttk.Treeview(table, columns=cols, show="headings", selectmode="extended")
+        for c, w in zip(cols, (125, 105, 60, 95, 130, 110, 160, 55, 80, 170)):
             self.history_tree.heading(c, text=c.upper())
-            self.history_tree.column(c, width=w, anchor="w")
-        sb = ttk.Scrollbar(card.body, orient="vertical", command=self.history_tree.yview)
-        self.history_tree.configure(yscrollcommand=sb.set)
-        self.history_tree.pack(side="left", fill="both", expand=True)
-        sb.pack(side="right", fill="y")
+            self.history_tree.column(c, width=w, minwidth=w, anchor="w", stretch=(c == "reminder"))
+        vsb = ttk.Scrollbar(table, orient="vertical", command=self.history_tree.yview)
+        hsb = ttk.Scrollbar(table, orient="horizontal", command=self.history_tree.xview)
+        self.history_tree.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+        self.history_tree.grid(row=0, column=0, sticky="nsew")
+        vsb.grid(row=0, column=1, sticky="ns")
+        hsb.grid(row=1, column=0, sticky="ew")
         self.history_tree.tag_configure("PASS", foreground=p["green"])
         self.history_tree.tag_configure("FAIL", foreground=p["red"])
         self.history_tree.tag_configure("muted", foreground=p["muted"])
