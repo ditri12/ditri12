@@ -54,6 +54,7 @@ class AppConfig:
     email_to: str = ""
     demo_mode: bool = False
     auto_connect: bool = True        # try the saved balance address when the program starts
+    auto_capture: bool = True        # save a reading automatically once it is stable
     place_of_calibration: str = "LifeGene Lab, Mevo Horon, Israel"
     next_calibration_months: int = 12
     procedure: str = "W-004-04 Calibration of Pipette"   # "Standard" line on the certificate

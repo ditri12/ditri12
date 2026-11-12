@@ -42,6 +42,18 @@ log = logging.getLogger(__name__)
 
 TABS = ("Setup", "Environment", "Measurements", "Results", "History")
 DEFAULT_OPERATOR = "LifeGene Technical Service"
+
+# Automatic capture: a drop is saved when the balance reports a stable reading
+# that has not moved for AUTO_STABLE_READINGS consecutive readings spanning at
+# least AUTO_STABLE_SECONDS, and that is at least AUTO_MIN_FRACTION of the
+# expected mass of the current test volume. After a capture the program tares
+# and waits until the reading is back below AUTO_REARM_FRACTION before it will
+# capture again, so one drop can never be recorded twice.
+AUTO_STABLE_READINGS = 3
+AUTO_STABLE_SECONDS = 0.8
+AUTO_MIN_FRACTION = 0.30
+AUTO_REARM_FRACTION = 0.15
+AUTO_MIN_ABS_G = 0.00015          # never capture below 0.15 mg whatever the volume
 DATE_FMT = "%d/%m/%Y"
 
 PALETTES = {
@@ -194,6 +206,9 @@ class App(tk.Tk):
         self.scale: BaseScale | None = None
         self._connecting = False
         self.last_reading: Reading | None = None
+        self._auto_armed = True            # False after a capture until the pan reads ~0 again
+        self._auto_run: list[Reading] = []  # consecutive stable readings being evaluated
+        self._auto_flash_after: str | None = None
         self.weights: dict[Level, list[float]] = {lv: [] for lv in LEVELS}
         self.result: CalibrationResult | None = None
         self.current_record: CalibrationRecord | None = None
@@ -218,6 +233,8 @@ class App(tk.Tk):
         self.v_ip = tk.StringVar(value=self.cfg.scale_ip)
         self.v_port = tk.StringVar(value=str(self.cfg.scale_port))
         self.v_demo = tk.BooleanVar(value=self.cfg.demo_mode)
+        self.v_auto = tk.BooleanVar(value=self.cfg.auto_capture)
+        self.v_auto.trace_add("write", lambda *_: self._on_auto_toggle())
         self.v_search = tk.StringVar()
 
         self.v_model.trace_add("write", lambda *_: self._on_model_change())
@@ -265,6 +282,7 @@ class App(tk.Tk):
         self._refresh_slots()
         self._refresh_sidebar()
         self._refresh_scale_widgets()
+        self._refresh_auto_labels()
         self._refresh_history()
 
     def _style_ttk(self):
@@ -549,6 +567,7 @@ class App(tk.Tk):
         tk.Label(row, text="PORT", bg=p["surface"], fg=p["muted"], font=self.f_caption).pack(side="left")
         self._entry(row, self.v_port, width=6, mono=True).pack(side="left", padx=(6, 14), ipady=3)
         ttk.Checkbutton(row, text="Demo mode (no balance)", variable=self.v_demo).pack(side="left", padx=(0, 14))
+        ttk.Checkbutton(row, text="Auto-save when stable", variable=self.v_auto).pack(side="left", padx=(0, 14))
         self.btn_connect = Button(row, self, "Connect", self._toggle_connect, "primary")
         self.btn_connect.pack(side="left")
         self.btn_listen = Button(row, self, "Start listening", self._toggle_listen, "secondary")
@@ -576,8 +595,10 @@ class App(tk.Tk):
         self.live_target = tk.Label(right, text="", bg=p["surface"], fg=p["text"], font=self.f_h,
                                     justify="right")
         self.live_target.pack(anchor="e", pady=(10, 0))
-        tk.Label(right, text="Press  Enter  to save the reading into the next slot", bg=p["surface"],
-                 fg=p["muted"], font=self.f_small).pack(anchor="e", pady=(4, 0))
+        self.live_hint = tk.Label(right, text="", bg=p["surface"], fg=p["muted"], font=self.f_small)
+        self.live_hint.pack(anchor="e", pady=(4, 0))
+        self.auto_status = tk.Label(right, text="", bg=p["surface"], fg=p["amber"], font=self.f_caption)
+        self.auto_status.pack(anchor="e", pady=(2, 0))
         btns = tk.Frame(right, bg=p["surface"])
         btns.pack(anchor="e", pady=(8, 0))
         Button(btns, self, "Undo last", self._undo_last, "ghost").pack(side="left", padx=(0, 6))
@@ -855,6 +876,8 @@ class App(tk.Tk):
             try:
                 while True:
                     reading = self.scale.readings.get_nowait()
+                    if self.v_auto.get():
+                        self._auto_capture(reading)
             except queue.Empty:
                 pass
             if reading:
@@ -919,6 +942,90 @@ class App(tk.Tk):
             return
         self._save_reading()
 
+    def _expected_mass_g(self) -> float | None:
+        slot = self._next_slot()
+        if slot is None:
+            return None
+        return self.spec().volume_for(slot[0]) / 1000.0 / z_factor(self._safe_env())
+
+    def _on_auto_toggle(self):
+        self.cfg.auto_capture = self.v_auto.get()
+        self.cfg.save()
+        self._auto_run = []
+        self._auto_armed = True
+        if hasattr(self, "live_hint"):
+            self._refresh_auto_labels()
+
+    def _refresh_auto_labels(self, status: str = "", colour: str | None = None):
+        p = self.p
+        if self.v_auto.get():
+            self.live_hint.config(text="Auto-save is on: dispense, wait for a stable reading.  Enter still saves manually.")
+        else:
+            self.live_hint.config(text="Press  Enter  to save the reading into the next slot")
+        self.auto_status.config(text=status, fg=colour or p["amber"])
+
+    def _auto_capture(self, r: Reading):
+        """Called for every reading while auto-save is on."""
+        if not hasattr(self, "auto_status"):
+            return
+        expected = self._expected_mass_g()
+        if expected is None:                       # all slots full
+            return
+        min_capture = max(expected * AUTO_MIN_FRACTION, AUTO_MIN_ABS_G)
+        rearm_below = max(expected * AUTO_REARM_FRACTION, AUTO_MIN_ABS_G * 0.5)
+        value = r.value_g
+
+        if not self._auto_armed:
+            # wait for the tare to take effect / the pan to read ~0 again
+            if abs(value) < rearm_below:
+                self._auto_armed = True
+                self._auto_run = []
+                self._refresh_auto_labels("READY - waiting for the next drop")
+            return
+
+        if value < min_capture:
+            self._auto_run = []
+            self._refresh_auto_labels("READY - waiting for the next drop")
+            return
+
+        tolerance = max(expected * 0.002, 3e-6)
+        if not r.stable or (self._auto_run and abs(value - self._auto_run[-1].value_g) > tolerance):
+            self._auto_run = [r] if r.stable else []
+            self._refresh_auto_labels("STABILISING ...")
+            return
+        self._auto_run.append(r)
+        n = len(self._auto_run)
+        span = self._auto_run[-1].timestamp - self._auto_run[0].timestamp
+        if n >= AUTO_STABLE_READINGS and span >= AUTO_STABLE_SECONDS:
+            self._auto_run = []
+            self._auto_armed = False
+            self._commit_reading(value, auto=True)
+        else:
+            self._refresh_auto_labels(f"STABLE {min(n, AUTO_STABLE_READINGS)}/{AUTO_STABLE_READINGS} ...")
+
+    def _commit_reading(self, value: float, auto: bool):
+        """Store *value* in the next slot, tare the balance, advance."""
+        slot = self._next_slot()
+        if slot is None:
+            return
+        lv, idx = slot
+        self.weights[lv].append(value)
+        try:
+            if self.scale:
+                self.scale.tare()                # ready for the next drop
+        except (ScaleError, OSError) as exc:
+            log.warning("tare failed: %s", exc)
+        if isinstance(self.scale, SimulatedScale):
+            self.scale.target_g = self.scale._offset_g = 0.0
+        self.last_reading = None
+        self._refresh_slots()
+        self._refresh_auto_labels(f"SAVED {lv.value} #{idx + 1}:  {value:.6f} g" + ("  (auto)" if auto else ""),
+                                  self.p["green"])
+        if auto:
+            self.bell()                      # audible confirmation, hands stay on the pipette
+        if self._next_slot() is None:
+            self.after(150, self._calculate)
+
     def _save_reading(self):
         if not self.last_reading or not self.scale or not self.scale.connected:
             messagebox.showinfo("Balance", "No reading from the balance yet.", parent=self)
@@ -933,17 +1040,9 @@ class App(tk.Tk):
             if not messagebox.askyesno("Measurements", f"The reading is {value:+.6f} g. Save it anyway?",
                                        parent=self):
                 return
-        self.weights[lv].append(value)
-        try:
-            self.scale.tare()                # ready for the next drop
-        except (ScaleError, OSError) as exc:
-            log.warning("tare failed: %s", exc)
-        if isinstance(self.scale, SimulatedScale):
-            self.scale.target_g = self.scale._offset_g = 0.0
-        self.last_reading = None
-        self._refresh_slots()
-        if self._next_slot() is None:
-            self.after(150, self._calculate)
+        self._auto_armed = False
+        self._auto_run = []
+        self._commit_reading(value, auto=False)
 
     def _undo_last(self):
         for lv in reversed(LEVELS):
@@ -1165,6 +1264,8 @@ class App(tk.Tk):
             return
         self.weights = {lv: [] for lv in LEVELS}
         self.result, self.pdf_path, self.current_record = None, None, None
+        self._auto_armed, self._auto_run = True, []
+        self._refresh_auto_labels()
         self.v_serial.set("")
         self.v_comments.set("")
         self.v_doc.set(self.history.next_document_number())
