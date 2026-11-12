@@ -107,13 +107,17 @@ without Outlook the default mail client opens instead.
 
 Each certificate carries a next-calibration date one year ahead. When the
 program starts (and on *Send reminders now* in the History tab) it looks for
-pipettes whose date falls within the next 30 days or is already overdue,
-takes the latest calibration of each serial number, and sends ONE e-mail to
-the office address set in Settings (*Reminder e-mail*) listing model,
-serial, customer, customer e-mail, certificate, due date and a suggested
-message offering a recalibration. Each certificate is reminded once. With
-*Send reminders automatically* set to no, the draft is opened instead of
-sent. Outlook must be installed on the PC that runs the program.
+pipettes whose date falls within the next 30 days or has passed, takes the
+latest calibration of each serial number, and sends one e-mail per customer:
+**To** the customer e-mail stored with the calibration, **CC** the LifeGene
+office (info@lifegene.co.il, changeable in Settings). The message tells the
+customer that the annual calibration is due, lists the pipettes with their
+certificate numbers and due dates, and invites them to reply or contact the
+office for a quotation. Pipettes recorded without a customer e-mail are
+listed in an internal message to the office only. Each certificate is
+reminded once. With *Send reminders automatically* set to no, drafts are
+opened instead of sent. Outlook must be installed on the PC that runs the
+program.
 
 ## Pipette models and limits
 

@@ -58,7 +58,7 @@ class AppConfig:
     auto_capture: bool = True        # save a reading automatically once it is stable
     auto_stable_seconds: float = 1.5     # reading must be unchanged this long (balance flag stable)
     auto_unflagged_seconds: float = 3.0  # ... or this long when the balance never flags stable
-    reminder_email_to: str = ""          # office address that receives the recalibration reminders
+    reminder_email_to: str = "info@lifegene.co.il"   # office address: copied on every customer reminder
     reminder_days_before: int = 30       # how long before the due date the reminder goes out
     reminder_auto_send: bool = True      # send through Outlook without opening the draft
     place_of_calibration: str = "LifeGene Lab, Mevo Horon, Israel"

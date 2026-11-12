@@ -33,7 +33,7 @@ def _html_escape(text: str) -> str:
 
 
 def compose_email(to: str, subject: str, body: str, attachments: list[Path],
-                  send: bool = False, html: str | None = None) -> str:
+                  send: bool = False, html: str | None = None, cc: str = "") -> str:
     """Create an e-mail with *attachments*.
 
     Outlook (COM, Windows + pywin32) is used when available. The draft is
@@ -49,6 +49,8 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
             outlook = win32com.client.Dispatch("Outlook.Application")
             mail = outlook.CreateItem(0)
             mail.To = to
+            if cc:
+                mail.CC = cc
             mail.Subject = subject
             mail.GetInspector                      # loads the default signature into HTMLBody
             signature_html = mail.HTMLBody or ""
@@ -67,7 +69,8 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
             pass
         except Exception as exc:  # noqa: BLE001 - COM errors are not typed
             raise RuntimeError(f"Outlook could not be started: {exc}") from exc
-    webbrowser.open(f"mailto:{quote(to)}?subject={quote(subject)}&body={quote(body)}")
+    webbrowser.open(f"mailto:{quote(to)}?subject={quote(subject)}&body={quote(body)}"
+                    + (f"&cc={quote(cc)}" if cc else ""))
     files = "\n".join(str(Path(p).resolve()) for p in attachments)
     return f"Your mail client was opened. Please attach the file(s) manually:\n{files}"
 

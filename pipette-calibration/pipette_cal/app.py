@@ -1460,8 +1460,6 @@ class App(tk.Tk):
     def _run_reminders(self, silent: bool):
         """Send the recalibration reminder e-mail for pipettes due within the
         configured number of days. Runs at start-up and from the History tab."""
-        if silent and not self.cfg.reminder_email_to.strip():
-            return
         try:
             n, msg = check_and_send(self.history, self.cfg)
         except Exception as exc:  # noqa: BLE001
@@ -1565,7 +1563,7 @@ class App(tk.Tk):
             ("Calibrated by (operator)", "operator", str),
             ("Signer name (next to the signature)", "signer_name", str),
             ("Default e-mail recipient (certificates)", "email_to", str),
-            ("Reminder e-mail (office)", "reminder_email_to", str),
+            ("Office address copied on reminders", "reminder_email_to", str),
             ("Remind this many days before the due date", "reminder_days_before", int),
             ("Send reminders automatically (yes/no)", "reminder_auto_send", _parse_bool),
             ("Auto-save after stable for (s)", "auto_stable_seconds", float),
