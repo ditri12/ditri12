@@ -45,7 +45,7 @@ class AppConfig:
     poll_interval_s: float = 0.25
     balance_id: str = ""
     balance_readability_mg: float = 0.001
-    operator: str = "LifeGene Technical Service"
+    operator: str = "Dmitri Trakhtman"     # "Calibrated by" on the certificate
     signer_name: str = "Dmitri Trakhtman"   # person who signs the certificate (printed next to the signature)
     theme: str = "dark"
     default_temperature_c: float = 22.0
@@ -79,6 +79,8 @@ class AppConfig:
         for key, value in data.items():
             if key in known:
                 setattr(cfg, key, value)
+        if cfg.operator.strip() in ("", "LifeGene Technical Service"):
+            cfg.operator = cls.operator          # settings saved by an earlier version
         return cfg
 
     def save(self) -> None:

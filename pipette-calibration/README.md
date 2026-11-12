@@ -29,7 +29,7 @@ a small, tested application:
   numbers are generated automatically (`LG-CAL-2026-0001`, ...), a certificate
   can be re-created from history at any time, and the Setup tab warns when a
   serial number was calibrated before.
-* **Settings dialog** - operator name (default "LifeGene Technical Service"),
+* **Settings dialog** - operator name (printed as "Calibrated by"),
   e-mail recipient, standard / procedure line, balance readability, default
   environment, PDF folder, next-calibration interval. Stored per user in
   `%APPDATA%\LifeGene\PipetteCalibration`.

@@ -105,7 +105,7 @@ class CertificateInfo:
     next_calibration_date: date
     serial_no: str
     tip: str
-    operator: str = "LifeGene Technical Service"
+    operator: str = "Dmitri Trakhtman"
     balance_id: str = ""
     place: str = "LifeGene Lab, Mevo Horon, Israel"
     comments: str = ""

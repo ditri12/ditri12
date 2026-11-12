@@ -59,11 +59,13 @@ def test_config_roundtrip(tmp_path, monkeypatch):
     monkeypatch.setattr("pipette_cal.storage.app_data_dir", lambda: tmp_path)
     cfg = AppConfig.load()
     assert cfg.scale_ip == "10.0.0.112"
-    assert cfg.operator == "LifeGene Technical Service"
+    assert cfg.operator == "Dmitri Trakhtman"
     cfg.scale_ip = "192.168.1.5"
     cfg.operator = "Dmitri"
     cfg.save()
     again = AppConfig.load()
     assert again.scale_ip == "192.168.1.5" and again.operator == "Dmitri"
+    (tmp_path / "config.json").write_text('{"operator": "LifeGene Technical Service"}')
+    assert AppConfig.load().operator == "Dmitri Trakhtman"      # old default is migrated
     (tmp_path / "config.json").write_text("{not json")
     assert AppConfig.load().scale_ip == "10.0.0.112"

@@ -41,7 +41,7 @@ from .storage import AppConfig, CalibrationRecord, History, now_iso
 log = logging.getLogger(__name__)
 
 TABS = ("Setup", "Environment", "Measurements", "Results", "History")
-DEFAULT_OPERATOR = "LifeGene Technical Service"
+DEFAULT_OPERATOR = "Dmitri Trakhtman"
 
 # Automatic capture: a drop is saved when the balance reports a stable reading
 # that has not moved for AUTO_STABLE_READINGS consecutive readings spanning at
