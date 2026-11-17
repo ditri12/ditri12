@@ -1,0 +1,858 @@
+<title>ספירת מלאי</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Rubik:wght@500;700&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+/* Layout: phone-first single column, sticky top bar, fixed bottom nav. Warehouse palette: cool off-white, deep teal accent. */
+:root{
+  --bg:#F3F6F4; --surface:#FFFFFF; --surface2:#E7EDE9; --fg:#17212B; --muted:#5B6B73; --line:#D3DCD7;
+  --accent:#0E6B64; --accent-fg:#FFFFFF; --accent-soft:#D9EEEB;
+  --warn:#B4650C; --warn-soft:#FBEBD3; --good:#2A7A4B; --good-soft:#DCEFE2; --bad:#B23A2E; --bad-soft:#F7DCD8;
+  --focus:#3E9E95; --shadow:0 1px 2px rgba(23,33,43,.06),0 6px 20px rgba(23,33,43,.06);
+  --font:"Heebo",system-ui,-apple-system,"Segoe UI",Arial,sans-serif; --display:"Rubik","Heebo",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E151B; --surface:#161F28; --surface2:#1F2A34; --fg:#E7EDEF; --muted:#9AA9B2; --line:#2B3843;
+  --accent:#3FB5A9; --accent-fg:#06231F; --accent-soft:#163A37;
+  --warn:#E2A24C; --warn-soft:#3A2A12; --good:#5CC48C; --good-soft:#163A26; --bad:#E3786D; --bad-soft:#3F1F1B;
+  --focus:#5FD0C4; --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.35); color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#0E151B; --surface:#161F28; --surface2:#1F2A34; --fg:#E7EDEF; --muted:#9AA9B2; --line:#2B3843;
+  --accent:#3FB5A9; --accent-fg:#06231F; --accent-soft:#163A37;
+  --warn:#E2A24C; --warn-soft:#3A2A12; --good:#5CC48C; --good-soft:#163A26; --bad:#E3786D; --bad-soft:#3F1F1B;
+  --focus:#5FD0C4; --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 20px rgba(0,0,0,.35); color-scheme:dark }
+
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:16px;line-height:1.45;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+#app{min-height:100%;display:flex;flex-direction:column}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:10px;padding-block:10px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brand{font-family:var(--display);font-weight:700;font-size:1.15rem;letter-spacing:-.01em}
+.spacer{flex:1}
+.chip{border:1px solid var(--line);background:var(--surface2);color:var(--fg);border-radius:999px;padding:4px 12px;font:inherit;font-size:.85rem;cursor:pointer;max-width:45vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
+.dot.on{background:var(--good)} .dot.local{background:var(--warn)} .dot.ro{background:var(--bad)}
+main{flex:1;max-width:760px;width:100%;margin:0 auto;padding-block:14px 110px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:14px}
+.view{display:flex;flex-direction:column;gap:14px;min-width:0}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;line-height:1.2}
+h2{font-size:1.25rem} h3{font-size:1.02rem}
+p{margin:0}
+.muted{color:var(--muted)} .small{font-size:.85rem}
+.eyebrow{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card.warn{border-color:var(--warn);background:var(--warn-soft)}
+.card.flat{box-shadow:none}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.row>input{flex:1;min-width:0}
+input[type=text],input[type=search],input[type=number],input:not([type]),select{width:100%;font:inherit;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:11px 12px;min-width:0}
+input:focus,select:focus,button:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+input.scan{border:2px dashed var(--accent);background:var(--accent-soft);font-family:var(--display);font-size:1.05rem;text-align:center;letter-spacing:.04em}
+input.scan:focus{border-style:solid}
+.btn{font:inherit;font-weight:500;border-radius:10px;padding:11px 16px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;min-height:44px}
+.btn.primary{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+.btn.ghost{background:transparent}
+.btn.danger{color:var(--bad);border-color:var(--bad)}
+.btn.big{font-size:1.05rem;padding:14px 18px;width:100%}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.sm{padding:6px 10px;min-height:34px;font-size:.88rem}
+.locbar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 58px);z-index:8;box-shadow:var(--shadow)}
+.loccode{font-family:var(--display);font-size:1.6rem;font-weight:700;word-break:break-word}
+.stats{font-variant-numeric:tabular-nums;color:var(--muted)}
+.stats b{color:var(--fg)}
+.toggle{display:flex;gap:8px;align-items:center;font-size:.92rem;color:var(--muted)}
+.toggle input{width:20px;height:20px;accent-color:var(--accent)}
+.searchwrap{position:relative}
+.results{position:absolute;inset-inline:0;top:calc(100% + 4px);background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);max-height:46vh;overflow:auto;z-index:7}
+.results button{display:flex;flex-direction:column;align-items:flex-start;gap:2px;width:100%;text-align:start;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--fg);padding:10px 12px;font:inherit;cursor:pointer}
+.results button:last-child{border-bottom:0}
+.results button:hover,.results button:focus{background:var(--surface2)}
+.results .nm{font-weight:500}
+.results .cd{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.results mark{background:var(--accent-soft);color:inherit;border-radius:3px;padding:0 1px}
+.lines{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.line{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:1fr auto;gap:6px 10px;align-items:center}
+.line.fresh{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.line.unknown{border-color:var(--warn)}
+.line .nm{font-weight:500;word-break:break-word}
+.line .meta{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums;display:flex;gap:8px;flex-wrap:wrap}
+.qty{display:flex;align-items:center;gap:4px}
+.qty button{width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--fg);font-size:1.3rem;cursor:pointer;line-height:1}
+.qty input{width:64px;text-align:center;font-family:var(--display);font-weight:700;font-size:1.1rem;padding:7px 4px}
+.line .del{grid-column:1 / -1;justify-self:start;background:none;border:0;color:var(--bad);font:inherit;font-size:.82rem;cursor:pointer;padding:2px 0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}
+.tile .v{font-family:var(--display);font-size:1.7rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.tile .l{font-size:.8rem;color:var(--muted)}
+.tbl{width:100%;border-collapse:collapse;font-size:.9rem;font-variant-numeric:tabular-nums}
+.tbl th,.tbl td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:start;vertical-align:top}
+.tbl th{font-weight:500;color:var(--muted);font-size:.78rem}
+.tblwrap{overflow-x:auto;min-width:0}
+.pill{display:inline-block;border-radius:999px;padding:1px 9px;font-size:.75rem;font-weight:500}
+.pill.done{background:var(--good-soft);color:var(--good)} .pill.open{background:var(--warn-soft);color:var(--warn)}
+.locrow{cursor:pointer}
+.locrow:hover{background:var(--surface2)}
+.detail td{background:var(--surface2)}
+.bar{height:8px;background:var(--surface2);border-radius:999px;overflow:hidden}
+.bar>div{height:100%;background:var(--accent);width:0;transition:width .3s}
+.bottom{position:fixed;inset:auto 0 0 0;z-index:9;background:var(--surface);border-top:1px solid var(--line);display:flex;
+  padding-bottom:env(safe-area-inset-bottom,0px);padding-left:max(0px,env(safe-area-inset-left,0px));padding-right:max(0px,env(safe-area-inset-right,0px))}
+.bottom button{flex:1;border:0;background:transparent;color:var(--muted);font:inherit;font-size:.78rem;padding:10px 4px 8px;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;min-width:0}
+.bottom button svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.bottom button.active{color:var(--accent);font-weight:500}
+.toast{position:fixed;inset-inline:16px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:20;background:var(--fg);color:var(--bg);padding:12px 16px;border-radius:12px;box-shadow:var(--shadow);display:flex;gap:12px;align-items:center;justify-content:space-between;max-width:600px;margin:0 auto}
+.toast button{background:transparent;border:0;color:var(--accent);font:inherit;font-weight:700;cursor:pointer}
+.toast.err{background:var(--bad);color:#fff} .toast.err button{color:#fff}
+.sheet{position:fixed;inset:0;z-index:30;background:rgba(10,16,20,.55);display:flex;align-items:flex-end;justify-content:center}
+.sheet .panel{background:var(--surface);color:var(--fg);width:100%;max-width:560px;border-radius:18px 18px 0 0;padding:18px;padding-bottom:calc(18px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+.sheet .panel input[type=number]{font-family:var(--display);font-size:1.6rem;text-align:center;font-weight:700}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;font-size:.92rem}
+.kv dt{color:var(--muted)} .kv dd{margin:0;font-variant-numeric:tabular-nums}
+.map{display:grid;grid-template-columns:1fr;gap:8px}
+.map label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--muted)}
+@media (min-width:560px){.map{grid-template-columns:1fr 1fr}}
+.recent{display:flex;gap:6px;flex-wrap:wrap}
+ul.plain{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;gap:4px}
+.hero{border-color:var(--accent);background:linear-gradient(180deg,var(--surface),var(--accent-soft))}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div id="app" dir="rtl" lang="he">
+  <header class="top">
+    <div class="brand">ספירת מלאי</div>
+    <span class="spacer"></span>
+    <button id="deviceBtn" class="chip" title="שם המכשיר/הסופר">מכשיר</button>
+    <span id="syncDot" class="dot" title="מתחבר…"></span>
+  </header>
+
+  <main id="main">
+    <!-- ===== COUNT ===== -->
+    <section id="view-count" class="view">
+      <div id="noCatalog" class="card warn" hidden>
+        <b>עוד לא נטען קטלוג פריטים.</b>
+        <p class="small">אפשר לספור גם בלי קטלוג (הפריטים יישמרו לפי הברקוד בלבד), אבל חיפוש ידני ושמות ספקים דורשים קטלוג. טענו אותו במסך <a href="#catalog">קטלוג</a>.</p>
+      </div>
+
+      <div id="locStart" class="card hero">
+        <div class="eyebrow">שלב 1</div>
+        <h2>סרקו ברקוד איתור / מדף</h2>
+        <p class="muted small">הסורק צריך להיות מחובר לטלפון (Bluetooth). אם לאיתור אין ברקוד, הקלידו את שמו ולחצו "התחל".</p>
+        <input id="locScan" class="scan" inputmode="none" autocomplete="off" placeholder="▮ מוכן לסריקת איתור…" aria-label="סריקת איתור">
+        <div class="row">
+          <input id="locManual" type="text" autocomplete="off" placeholder="שם או קוד איתור ידני (לדוגמה: מדף A-12)" aria-label="איתור ידני">
+          <button id="locStartBtn" class="btn primary">התחל</button>
+        </div>
+        <div id="recentLocs" class="recent"></div>
+      </div>
+
+      <div id="locActive" class="view" hidden>
+        <div class="card locbar">
+          <div class="row" style="justify-content:space-between">
+            <div style="min-width:0">
+              <div class="eyebrow">איתור נוכחי</div>
+              <div class="loccode" id="curCode"></div>
+            </div>
+            <div class="stats"><b id="curLines">0</b> פריטים · <b id="curUnits">0</b> יח׳</div>
+          </div>
+          <button id="finishBtn" class="btn primary big">סיום איתור ← איתור נוסף</button>
+        </div>
+
+        <input id="itemScan" class="scan" inputmode="none" autocomplete="off" placeholder="▮ סרקו פריט…" aria-label="סריקת פריט">
+
+        <div class="searchwrap">
+          <input id="itemSearch" type="search" autocomplete="off" placeholder="חיפוש ידני: שם, חלק ממילה, ספרות או ספק" aria-label="חיפוש פריט">
+          <div id="searchResults" class="results" hidden></div>
+        </div>
+
+        <label class="toggle"><input type="checkbox" id="askQty"> לשאול כמות אחרי כל סריקה (במקום +1)</label>
+
+        <div id="unknownCard" class="card warn" hidden>
+          <b>הברקוד <span id="unkCode"></span> לא נמצא בקטלוג</b>
+          <input id="unkName" type="text" autocomplete="off" placeholder="תיאור הפריט (לא חובה)">
+          <div class="row">
+            <button id="unkAdd" class="btn primary">הוסף לספירה כפריט לא מזוהה</button>
+            <button id="unkCancel" class="btn ghost">בטל</button>
+          </div>
+        </div>
+
+        <ul id="lines" class="lines"></ul>
+        <p id="emptyLines" class="muted small">עדיין לא נספרו פריטים באיתור הזה. סרקו ברקוד או חפשו ידנית.</p>
+        <button id="cancelLocBtn" class="btn ghost danger">מחיקת האיתור הנוכחי</button>
+      </div>
+    </section>
+
+    <!-- ===== PROGRESS ===== -->
+    <section id="view-progress" class="view" hidden>
+      <h2>התקדמות הספירה</h2>
+      <p id="progNote" class="muted small" hidden>הנתונים עדיין לא נטענו מהשרת. ייתכן שאינם מעודכנים.</p>
+      <div class="tiles">
+        <div class="tile"><div class="v" id="tLocs">0</div><div class="l">איתורים שהסתיימו</div></div>
+        <div class="tile"><div class="v" id="tOpen">0</div><div class="l">איתורים פתוחים כעת</div></div>
+        <div class="tile"><div class="v" id="tItems">0</div><div class="l">פריטים שונים שנספרו</div></div>
+        <div class="tile"><div class="v" id="tUnits">0</div><div class="l">סה״כ יחידות</div></div>
+        <div class="tile"><div class="v" id="tUnknown">0</div><div class="l">ברקודים לא מזוהים</div></div>
+        <div class="tile"><div class="v" id="tCov">—</div><div class="l">כיסוי קטלוג (פריטים שנספרו)</div></div>
+      </div>
+      <div class="card">
+        <h3>לפי מכשיר</h3>
+        <div class="tblwrap"><table class="tbl"><thead><tr><th>מכשיר</th><th>איתורים</th><th>פריטים</th><th>יחידות</th><th>פעילות אחרונה</th></tr></thead><tbody id="devRows"></tbody></table></div>
+      </div>
+      <div class="card">
+        <div class="row" style="justify-content:space-between"><h3>איתורים</h3><input id="locFilter" type="search" placeholder="סינון…" style="max-width:180px" autocomplete="off"></div>
+        <div class="tblwrap"><table class="tbl"><thead><tr><th>איתור</th><th>מכשיר</th><th>פריטים</th><th>יח׳</th><th>מצב</th><th>עודכן</th></tr></thead><tbody id="locRows"></tbody></table></div>
+        <p id="noLocs" class="muted small">עוד לא נספר אף איתור.</p>
+      </div>
+      <div class="card" id="resetCard">
+        <h3>ספירה חדשה</h3>
+        <p class="muted small">מוחק את כל האיתורים והספירות (הקטלוג נשאר). ייצאו קודם לאקסל.</p>
+        <button id="resetBtn" class="btn danger">אפס את הספירה…</button>
+      </div>
+    </section>
+
+    <!-- ===== CATALOG ===== -->
+    <section id="view-catalog" class="view" hidden>
+      <h2>קטלוג פריטים</h2>
+      <div class="card">
+        <dl class="kv">
+          <dt>פריטים בקטלוג</dt><dd id="catCount">0</dd>
+          <dt>נטען לאחרונה</dt><dd id="catDate">—</dd>
+          <dt>ספקים</dt><dd id="catSuppliers">—</dd>
+        </dl>
+      </div>
+      <div class="card">
+        <h3>טעינת קטלוג מקובץ אקסל / CSV</h3>
+        <p class="muted small">השורה הראשונה צריכה להיות כותרות. אחרי הבחירה תוכלו להתאים אילו עמודות הן ברקוד, שם פריט וספק. טעינה חדשה מחליפה את הקטלוג הקיים (הספירות נשמרות).</p>
+        <input id="catFile" type="file" accept=".xlsx,.xls,.csv">
+        <div id="mapWrap" hidden>
+          <div class="map">
+            <label>עמודת ברקוד / קוד פריט<select id="mapCode"></select></label>
+            <label>עמודת שם פריט<select id="mapName"></select></label>
+            <label>עמודת ספק<select id="mapSupplier"></select></label>
+            <label>עמודה נוספת (לא חובה, לדוגמה מק״ט פנימי)<select id="mapExtra"></select></label>
+          </div>
+          <p class="small muted" id="mapInfo"></p>
+          <div class="tblwrap"><table class="tbl"><thead><tr><th>ברקוד</th><th>שם</th><th>ספק</th><th>נוסף</th></tr></thead><tbody id="mapPreview"></tbody></table></div>
+          <button id="catLoadBtn" class="btn primary big">טען קטלוג</button>
+          <div class="bar" id="catBar" hidden><div></div></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>בדיקת פריט</h3>
+        <input id="catTest" type="search" autocomplete="off" placeholder="סרקו או הקלידו ברקוד / שם לבדיקה">
+        <div id="catTestOut" class="small muted"></div>
+      </div>
+    </section>
+
+    <!-- ===== EXPORT ===== -->
+    <section id="view-export" class="view" hidden>
+      <h2>ייצוא לאקסל</h2>
+      <div class="card">
+        <p>הקובץ כולל את הגיליונות הבאים:</p>
+        <ul class="plain small">
+          <li><b>סיכום לפי ספק</b> — כל פריט שנספר, ממוין לפי ספק ואז לפי שם, עם סה״כ כמות ורשימת האיתורים.</li>
+          <li><b>סה״כ לספק</b> — שורה לכל ספק: מספר פריטים ויחידות.</li>
+          <li><b>פירוט לפי איתור</b> — כל שורת ספירה: איתור, מכשיר, ברקוד, שם, ספק, כמות, שעה.</li>
+          <li><b>לא נספרו</b> — פריטי קטלוג שלא נספרו באף איתור, לפי ספק.</li>
+          <li><b>לא מזוהים</b> — ברקודים שנסרקו ולא נמצאו בקטלוג.</li>
+        </ul>
+        <div class="kv small"><dt>איתורים</dt><dd id="xLocs">0</dd><dt>פריטים שנספרו</dt><dd id="xItems">0</dd><dt>יחידות</dt><dd id="xUnits">0</dd></div>
+        <label class="toggle"><input type="checkbox" id="xOnlyDone"> לכלול רק איתורים שהסתיימו</label>
+        <button id="exportBtn" class="btn primary big">הורדת קובץ אקסל</button>
+        <p id="exportMsg" class="small muted"></p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom" aria-label="ניווט">
+    <button data-view="count" class="active"><svg viewBox="0 0 24 24"><path d="M4 7V5a1 1 0 0 1 1-1h2M17 4h2a1 1 0 0 1 1 1v2M20 17v2a1 1 0 0 1-1 1h-2M7 20H5a1 1 0 0 1-1-1v-2M7 9v6M11 9v6M15 9v6"/></svg>ספירה</button>
+    <button data-view="progress"><svg viewBox="0 0 24 24"><path d="M4 19h16M6 16V10M11 16V6M16 16v-3M21 16V8"/></svg>התקדמות</button>
+    <button data-view="catalog"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zM8 7h8M8 11h8M8 15h5"/></svg>קטלוג</button>
+    <button data-view="export"><svg viewBox="0 0 24 24"><path d="M12 3v12M8 11l4 4 4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>ייצוא</button>
+  </nav>
+
+  <div id="toast" class="toast" hidden><span id="toastMsg"></span><button id="toastBtn" hidden></button></div>
+  <div id="sheet" class="sheet" hidden><div class="panel" id="sheetPanel"></div></div>
+</div>
+
+<script>
+(() => {
+'use strict';
+document.documentElement.lang = 'he';
+document.documentElement.dir = 'rtl';
+const $ = s => document.querySelector(s);
+const $$ = s => Array.from(document.querySelectorAll(s));
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtN = n => (Number(n) || 0).toLocaleString('he-IL');
+const fmtT = ts => ts ? new Date(ts).toLocaleString('he-IL', {day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit'}) : '—';
+const ls = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  del(k) { try { localStorage.removeItem(k); } catch {} }
+};
+const randId = n => { const a = 'abcdefghijkmnpqrstuvwxyz23456789'; let s = ''; for (let i = 0; i < n; i++) s += a[Math.floor(Math.random() * a.length)]; return s; };
+const hexId = s => Array.from(new TextEncoder().encode(String(s))).slice(0, 80).map(b => b.toString(16).padStart(2, '0')).join('');
+const normCode = s => String(s ?? '').trim();
+const normKey = s => normCode(s).toLowerCase();
+const stripZeros = s => s.replace(/^0+(?=\d)/, '');
+
+/* ---------------- state ---------------- */
+const state = {
+  deviceId: ls.get('ic_deviceId') || null,
+  deviceName: ls.get('ic_deviceName') || '',
+  catalog: [], byCode: new Map(), meta: null, catalogVersion: null,
+  locations: new Map(), locsLoaded: false,
+  current: ls.get('ic_current') || null,
+  askQty: !!ls.get('ic_askQty'),
+  readOnly: false, mode: 'connecting', lastKey: null, undo: null
+};
+if (!state.deviceId) { state.deviceId = randId(6); ls.set('ic_deviceId', state.deviceId); }
+
+/* ---------------- store (db with local fallback) ---------------- */
+const Store = (() => {
+  let db = null;
+  const subs = { meta: [], locations: [] };
+  const emit = (k, v) => subs[k].forEach(f => { try { f(v); } catch (e) { console.error(e); } });
+  async function init() {
+    if (window.claude && typeof window.claude.use === 'function') {
+      try { db = await window.claude.use('db'); } catch { db = null; }
+    }
+    state.mode = db ? 'db' : 'local';
+    if (db) {
+      let metaTimer = setTimeout(() => emit('meta', undefined), 10000);
+      db.doc('meta/session').onSnapshot(s => { clearTimeout(metaTimer); emit('meta', s.exists ? s.data() : null); }, e => { clearTimeout(metaTimer); console.error(e); emit('meta', null); });
+      let locTimer = setTimeout(() => { state.locsLoaded = false; emit('locations', null); }, 10000);
+      db.collection('locations').onSnapshot(s => {
+        if (!s.metadata.fromCache) { clearTimeout(locTimer); state.locsLoaded = true; }
+        emit('locations', s.docs.map(d => ({ id: d.id, ...d.data() })));
+      }, e => { clearTimeout(locTimer); console.error(e); toast('הקריאה מהשרת נכשלה: ' + (e.message || e.code), true); });
+    } else {
+      state.locsLoaded = true;
+      setTimeout(() => { emit('meta', ls.get('ic_meta', null)); emit('locations', Object.values(ls.get('ic_locs', {}))); }, 0);
+    }
+    return state.mode;
+  }
+  const on = (k, f) => subs[k].push(f);
+  async function getCatalog(meta) {
+    if (!meta || !meta.chunks) return [];
+    if (!db) return ls.get('ic_catalog', []);
+    const snaps = await Promise.all(Array.from({ length: meta.chunks }, (_, i) => db.doc('catalog/c' + i).get()));
+    return snaps.flatMap(s => (s.exists && Array.isArray(s.data().items)) ? s.data().items : []);
+  }
+  async function saveCatalog(items, columns, onProgress) {
+    const CH = 400, chunks = Math.ceil(items.length / CH);
+    const meta = { catalogVersion: Date.now(), chunks, count: items.length, columns, updatedAt: new Date().toISOString(), updatedBy: state.deviceName };
+    if (!db) { ls.set('ic_catalog', items); ls.set('ic_meta', meta); emit('meta', meta); onProgress(1); return; }
+    for (let i = 0; i < chunks; i++) {
+      await db.doc('catalog/c' + i).set({ items: items.slice(i * CH, (i + 1) * CH) });
+      onProgress((i + 1) / (chunks + 1));
+    }
+    const oldChunks = (state.meta && state.meta.chunks) || 0;
+    for (let i = chunks; i < oldChunks; i++) await db.doc('catalog/c' + i).delete();
+    await db.doc('meta/session').set(meta);
+    onProgress(1);
+  }
+  function locBody(loc) {
+    const b = { ...loc }; delete b.id; return b;
+  }
+  async function saveLocation(loc) {
+    if (!db) { const all = ls.get('ic_locs', {}); all[loc.id] = loc; ls.set('ic_locs', all); emit('locations', Object.values(all)); return; }
+    await db.doc('locations/' + loc.id).set(locBody(loc));
+  }
+  async function deleteLocation(id) {
+    if (!db) { const all = ls.get('ic_locs', {}); delete all[id]; ls.set('ic_locs', all); emit('locations', Object.values(all)); return; }
+    await db.doc('locations/' + id).delete();
+  }
+  return { init, on, getCatalog, saveCatalog, saveLocation, deleteLocation, get db() { return db; } };
+})();
+
+/* ---------------- write queue (one in-flight write per location) ---------------- */
+const Writer = (() => {
+  const timers = {}, inflight = {}, dirty = {}, bodies = {};
+  async function flush(id) {
+    clearTimeout(timers[id]);
+    if (inflight[id]) { dirty[id] = true; return; }
+    const body = bodies[id]; if (!body) return;
+    inflight[id] = true;
+    try { await Store.saveLocation(body); setSync(true); }
+    catch (e) {
+      console.error(e);
+      if (e && e.code === 'invalid_argument' && state.mode === 'db') { state.readOnly = true; renderSync(); toast('אין לך הרשאת כתיבה למאגר הזה. הספירה נשמרת רק מקומית.', true); }
+      else toast('השמירה לשרת נכשלה (' + (e.message || e.code || e) + '). ננסה שוב.', true);
+      dirty[id] = true; setTimeout(() => flush(id), 4000);
+    }
+    finally { inflight[id] = false; if (dirty[id]) { dirty[id] = false; flush(id); } }
+  }
+  function schedule(loc, delay = 700) {
+    bodies[loc.id] = JSON.parse(JSON.stringify(loc));
+    clearTimeout(timers[loc.id]);
+    timers[loc.id] = setTimeout(() => flush(loc.id), delay);
+  }
+  async function now(loc) { bodies[loc.id] = JSON.parse(JSON.stringify(loc)); await flush(loc.id); }
+  return { schedule, now };
+})();
+let syncOk = null;
+function setSync(ok) { syncOk = ok; renderSync(); }
+
+/* ---------------- toast / sheet ---------------- */
+let toastT;
+function toast(msg, err = false, action = null) {
+  const t = $('#toast'), b = $('#toastBtn');
+  $('#toastMsg').textContent = msg; t.classList.toggle('err', !!err); t.hidden = false;
+  b.hidden = !action; if (action) { b.textContent = action.label; b.onclick = () => { t.hidden = true; action.fn(); }; }
+  clearTimeout(toastT); toastT = setTimeout(() => { t.hidden = true; }, err ? 6000 : 4000);
+}
+function openSheet(html) { $('#sheetPanel').innerHTML = html; $('#sheet').hidden = false; }
+function closeSheet() { $('#sheet').hidden = true; $('#sheetPanel').innerHTML = ''; }
+$('#sheet').addEventListener('click', e => { if (e.target === $('#sheet')) closeSheet(); });
+
+/* ---------------- routing ---------------- */
+const VIEWS = ['count', 'progress', 'catalog', 'export'];
+function route() {
+  let v = (location.hash || '#count').slice(1);
+  if (!VIEWS.includes(v)) v = 'count';
+  VIEWS.forEach(x => { $('#view-' + x).hidden = x !== v; });
+  $$('.bottom button').forEach(b => b.classList.toggle('active', b.dataset.view === v));
+  if (v === 'count') focusScan();
+  if (v === 'export') renderExportStats();
+}
+window.addEventListener('hashchange', route);
+$$('.bottom button').forEach(b => b.addEventListener('click', () => { location.hash = '#' + b.dataset.view; }));
+
+/* ---------------- device name ---------------- */
+function renderDevice() { $('#deviceBtn').textContent = state.deviceName || 'הגדרת שם מכשיר'; }
+function askDeviceName(force) {
+  openSheet(`<h3>שם המכשיר / הסופר</h3><p class="muted small">השם יופיע במסך ההתקדמות ובקובץ האקסל ליד כל איתור שנספר מהטלפון הזה.</p>
+    <input id="devInput" type="text" autocomplete="off" placeholder="לדוגמה: טלפון 1 / דני" value="${esc(state.deviceName)}">
+    <button id="devSave" class="btn primary big">שמור</button>${force ? '' : '<button id="devCancel" class="btn ghost">בטל</button>'}`);
+  const inp = $('#devInput'); setTimeout(() => inp.focus(), 50);
+  const save = () => { const v = inp.value.trim(); if (!v) { inp.focus(); return; } state.deviceName = v; ls.set('ic_deviceName', v); renderDevice(); closeSheet(); focusScan(); };
+  $('#devSave').onclick = save; inp.onkeydown = e => { if (e.key === 'Enter') save(); };
+  const c = $('#devCancel'); if (c) c.onclick = closeSheet;
+}
+$('#deviceBtn').addEventListener('click', () => askDeviceName(false));
+
+function renderSync() {
+  const d = $('#syncDot'); d.className = 'dot';
+  if (state.readOnly) { d.classList.add('ro'); d.title = 'קריאה בלבד: אין הרשאת כתיבה למאגר המשותף'; }
+  else if (state.mode === 'db') { d.classList.add(syncOk === false ? 'local' : 'on'); d.title = syncOk === false ? 'שגיאת שמירה, מנסה שוב' : 'מסונכרן למאגר המשותף'; }
+  else if (state.mode === 'local') { d.classList.add('local'); d.title = 'מצב מקומי: אין חיבור למאגר המשותף, הנתונים נשמרים רק במכשיר הזה'; }
+  else d.title = 'מתחבר…';
+}
+
+/* ---------------- catalog ---------------- */
+function indexCatalog() {
+  state.byCode = new Map(); state.byKey = new Map();
+  for (const it of state.catalog) {
+    const lk = lineKey(it.code, it.name); if (!state.byKey.has(lk)) state.byKey.set(lk, it);
+    it._s = ((it.code || '') + ' ' + (it.name || '') + ' ' + (it.supplier || '') + ' ' + (it.extra || '')).toLowerCase();
+    const c = normKey(it.code); if (!c) continue;
+    if (!state.byCode.has(c)) state.byCode.set(c, it);
+    const z = stripZeros(c); if (z !== c && !state.byCode.has(z)) state.byCode.set(z, it);
+  }
+  $('#noCatalog').hidden = state.catalog.length > 0;
+  renderCatalogInfo();
+}
+function catalogFor(line) { return (line.code ? findByCode(line.code) : null) || (state.byKey && state.byKey.get(lineKey(line.code, line.name))) || null; }
+function findByCode(code) {
+  const k = normKey(code); if (!k) return null;
+  return state.byCode.get(k) || state.byCode.get(stripZeros(k)) || null;
+}
+function search(q, limit = 30) {
+  const toks = q.toLowerCase().trim().split(/\s+/).filter(Boolean); if (!toks.length) return [];
+  const out = [];
+  for (const it of state.catalog) {
+    let ok = true; for (const t of toks) if (!it._s.includes(t)) { ok = false; break; }
+    if (!ok) continue;
+    const q0 = toks[0];
+    const rank = normKey(it.code) === q.toLowerCase().trim() ? 0 : (it.name || '').toLowerCase().startsWith(q0) ? 1 : normKey(it.code).startsWith(q0) ? 2 : 3;
+    out.push({ it, rank });
+    if (out.length > 400) break;
+  }
+  out.sort((a, b) => a.rank - b.rank || String(a.it.name).localeCompare(String(b.it.name), 'he'));
+  return out.slice(0, limit).map(x => x.it);
+}
+function hl(text, q) {
+  const toks = q.toLowerCase().trim().split(/\s+/).filter(Boolean); let s = esc(text);
+  for (const t of toks) { const re = new RegExp('(' + t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi'); s = s.replace(re, '<mark>$1</mark>'); }
+  return s;
+}
+function renderCatalogInfo() {
+  $('#catCount').textContent = fmtN(state.catalog.length);
+  $('#catDate').textContent = state.meta && state.meta.updatedAt ? fmtT(state.meta.updatedAt) + (state.meta.updatedBy ? ' · ' + state.meta.updatedBy : '') : '—';
+  const sup = new Set(state.catalog.map(i => i.supplier || '').filter(Boolean));
+  $('#catSuppliers').textContent = sup.size ? fmtN(sup.size) : '—';
+}
+Store.on('meta', async meta => {
+  if (meta === undefined) { toast('לא הצלחנו להגיע לשרת המאגר. בודקים שוב…', true); return; }
+  state.meta = meta;
+  const v = meta && meta.catalogVersion;
+  if (v !== state.catalogVersion) {
+    state.catalogVersion = v;
+    try { state.catalog = await Store.getCatalog(meta); } catch (e) { console.error(e); toast('טעינת הקטלוג נכשלה: ' + (e.message || e), true); state.catalog = []; }
+    indexCatalog(); renderProgress();
+  } else indexCatalog();
+});
+
+/* --- catalog upload --- */
+let parsed = null; // {headers, rows}
+$('#catFile').addEventListener('change', async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try {
+    const buf = await f.arrayBuffer();
+    const wb = XLSX.read(buf, { type: 'array', codepage: 65001 });
+    const ws = wb.Sheets[wb.SheetNames[0]];
+    const rows = XLSX.utils.sheet_to_json(ws, { header: 1, raw: true, defval: '' }).filter(r => r.some(c => String(c).trim() !== ''));
+    if (rows.length < 2) { toast('הקובץ ריק או שיש בו רק שורת כותרות.', true); return; }
+    const headers = rows[0].map((h, i) => String(h).trim() || ('עמודה ' + (i + 1)));
+    parsed = { headers, rows: rows.slice(1) };
+    const opts = (allowNone) => (allowNone ? '<option value="-1">— ללא —</option>' : '') + headers.map((h, i) => `<option value="${i}">${esc(h)}</option>`).join('');
+    $('#mapCode').innerHTML = opts(false); $('#mapName').innerHTML = opts(false); $('#mapSupplier').innerHTML = opts(true); $('#mapExtra').innerHTML = opts(true);
+    const guess = (re, def) => { const i = headers.findIndex(h => re.test(h)); return i >= 0 ? i : def; };
+    $('#mapCode').value = guess(/ברקוד|barcode|קוד|code|מק"ט|מקט|sku|ean|upc/i, 0);
+    $('#mapName').value = guess(/שם|תיאור|name|desc|פריט|item|מוצר/i, Math.min(1, headers.length - 1));
+    $('#mapSupplier').value = guess(/ספק|supplier|vendor|יצרן|brand|מותג/i, -1);
+    $('#mapExtra').value = -1;
+    $('#mapInfo').textContent = `${fmtN(parsed.rows.length)} שורות בקובץ "${f.name}". תצוגה מקדימה של 5 הראשונות:`;
+    $('#mapWrap').hidden = false; renderMapPreview();
+  } catch (err) { console.error(err); toast('לא הצלחנו לקרוא את הקובץ: ' + (err.message || err), true); }
+});
+const cell = (r, i) => { if (i < 0 || i == null) return ''; const v = r[i]; if (v == null) return ''; return (typeof v === 'number') ? (Number.isInteger(v) ? String(v) : String(v)) : String(v).trim(); };
+function mapping() { return { code: +$('#mapCode').value, name: +$('#mapName').value, supplier: +$('#mapSupplier').value, extra: +$('#mapExtra').value }; }
+function renderMapPreview() {
+  if (!parsed) return; const m = mapping();
+  $('#mapPreview').innerHTML = parsed.rows.slice(0, 5).map(r => `<tr><td>${esc(cell(r, m.code))}</td><td>${esc(cell(r, m.name))}</td><td>${esc(cell(r, m.supplier))}</td><td>${esc(cell(r, m.extra))}</td></tr>`).join('');
+}
+['#mapCode', '#mapName', '#mapSupplier', '#mapExtra'].forEach(s => $(s).addEventListener('change', renderMapPreview));
+$('#catLoadBtn').addEventListener('click', async () => {
+  if (!parsed) return; const m = mapping();
+  const items = [], seen = new Set(); let dup = 0, noCode = 0;
+  for (const r of parsed.rows) {
+    const code = cell(r, m.code), name = cell(r, m.name);
+    if (!code && !name) continue;
+    if (!code) { noCode++; }
+    const it = { code, name, supplier: cell(r, m.supplier), extra: cell(r, m.extra) };
+    const k = normKey(code); if (k) { if (seen.has(k)) { dup++; continue; } seen.add(k); }
+    items.push(it);
+  }
+  if (!items.length) { toast('לא נמצאו פריטים לטעינה.', true); return; }
+  const btn = $('#catLoadBtn'); btn.disabled = true; $('#catBar').hidden = false;
+  try {
+    await Store.saveCatalog(items, m, p => { $('#catBar div').style.width = Math.round(p * 100) + '%'; });
+    toast(`הקטלוג נטען: ${fmtN(items.length)} פריטים` + (dup ? `, ${fmtN(dup)} כפולים הושמטו` : '') + (noCode ? `, ${fmtN(noCode)} ללא ברקוד (ניתנים לחיפוש ידני)` : ''));
+    $('#mapWrap').hidden = true; $('#catFile').value = ''; parsed = null;
+    if (state.mode === 'local') { state.meta = ls.get('ic_meta'); state.catalog = items; state.catalogVersion = state.meta.catalogVersion; indexCatalog(); }
+  } catch (e) {
+    console.error(e);
+    toast('טעינת הקטלוג לשרת נכשלה: ' + (e.message || e.code || e), true);
+  } finally { btn.disabled = false; $('#catBar').hidden = true; $('#catBar div').style.width = '0'; }
+});
+$('#catTest').addEventListener('input', e => {
+  const q = e.target.value.trim(); const out = $('#catTestOut'); if (!q) { out.textContent = ''; return; }
+  const exact = findByCode(q);
+  const res = exact ? [exact] : search(q, 8);
+  out.innerHTML = res.length ? res.map(it => `<div>${esc(it.name)} · <b>${esc(it.code)}</b>${it.supplier ? ' · ' + esc(it.supplier) : ''}</div>`).join('') : 'לא נמצא בקטלוג';
+});
+
+/* ---------------- locations / counting ---------------- */
+function lineKey(code, name) { const c = normKey(code); return c ? 'c:' + c : 'm:' + normKey(name); }
+function saveCurrent() { ls.set('ic_current', state.current); }
+function newLocation(code) {
+  code = normCode(code); if (!code) return;
+  const now = Date.now();
+  state.current = { id: hexId(code) + '_' + state.deviceId + '_' + now.toString(36), code, device: state.deviceName, deviceId: state.deviceId, status: 'open', startedAt: now, updatedAt: now, finishedAt: null, lines: {}, n: 0, units: 0 };
+  saveCurrent(); Writer.schedule(state.current, 100); renderCount(); focusScan();
+}
+function recalc(loc) {
+  const ls_ = Object.values(loc.lines); loc.n = ls_.length; loc.units = ls_.reduce((s, l) => s + (Number(l.qty) || 0), 0); loc.updatedAt = Date.now();
+}
+function touch() { recalc(state.current); saveCurrent(); Writer.schedule(state.current); renderCount(); }
+function addLine(item, { code, name, src, qty = 1 }) {
+  const loc = state.current; if (!loc) return;
+  const c = item ? item.code : code; const nm = item ? item.name : (name || ''); const key = lineKey(c, nm);
+  let line = loc.lines[key];
+  if (line) { line.qty = (Number(line.qty) || 0) + qty; line.ts = Date.now(); }
+  else line = loc.lines[key] = { code: c || '', name: nm, supplier: item ? (item.supplier || '') : '', extra: item ? (item.extra || '') : '', qty, ts: Date.now(), src: item ? src : 'unknown' };
+  state.lastKey = key; touch();
+  if (state.askQty) promptQty(key, line);
+}
+function setQty(key, q) {
+  const loc = state.current; if (!loc || !loc.lines[key]) return;
+  q = Math.max(0, Math.round(Number(q) || 0)); loc.lines[key].qty = q; loc.lines[key].ts = Date.now(); touch();
+}
+function removeLine(key) {
+  const loc = state.current; if (!loc || !loc.lines[key]) return;
+  const removed = loc.lines[key]; delete loc.lines[key]; touch();
+  toast(`הוסר: ${removed.name || removed.code}`, false, { label: 'בטל', fn: () => { if (state.current && state.current.id === loc.id) { loc.lines[key] = removed; touch(); } } });
+}
+async function finishLocation() {
+  const loc = state.current; if (!loc) return;
+  loc.status = 'done'; loc.finishedAt = Date.now(); recalc(loc);
+  state.current = null; ls.del('ic_current'); state.lastKey = null; renderCount();
+  try { await Writer.now(loc); toast(`האיתור ${loc.code} נשמר: ${fmtN(loc.n)} פריטים, ${fmtN(loc.units)} יח׳`); } catch {}
+  focusScan();
+}
+async function cancelLocation() {
+  const loc = state.current; if (!loc) return;
+  openSheet(`<h3>למחוק את האיתור ${esc(loc.code)}?</h3><p class="muted small">${fmtN(loc.n)} פריטים ו-${fmtN(loc.units)} יחידות ימחקו מהספירה.</p>
+    <button id="cfYes" class="btn danger big">כן, מחק</button><button id="cfNo" class="btn ghost">לא</button>`);
+  $('#cfNo').onclick = closeSheet;
+  $('#cfYes').onclick = async () => { closeSheet(); state.current = null; ls.del('ic_current'); renderCount(); try { await Store.deleteLocation(loc.id); } catch (e) { toast('המחיקה נכשלה: ' + (e.message || e), true); } focusScan(); };
+}
+function reopenLocation(id) {
+  const loc = state.locations.get(id); if (!loc) return;
+  if (state.current) { toast('סיימו קודם את האיתור הנוכחי.', true); return; }
+  state.current = JSON.parse(JSON.stringify(loc)); state.current.status = 'open'; state.current.finishedAt = null;
+  state.current.device = state.deviceName; state.current.deviceId = state.deviceId;
+  saveCurrent(); Writer.schedule(state.current, 100); renderCount(); location.hash = '#count'; toast('האיתור נפתח מחדש לעריכה');
+}
+function handleLocationScan(v) { v = normCode(v); if (!v) return; newLocation(v); }
+function handleItemScan(v) {
+  v = normCode(v); if (!v || !state.current) return;
+  const it = findByCode(v);
+  if (it) { addLine(it, { src: 'scan' }); hideUnknown(); return; }
+  showUnknown(v);
+}
+function showUnknown(code) { $('#unkCode').textContent = code; $('#unkName').value = ''; $('#unknownCard').hidden = false; $('#unknownCard').dataset.code = code; if (navigator.vibrate) try { navigator.vibrate([80, 60, 80]); } catch {} }
+function hideUnknown() { $('#unknownCard').hidden = true; }
+$('#unkAdd').addEventListener('click', () => { const code = $('#unknownCard').dataset.code; addLine(null, { code, name: $('#unkName').value.trim(), src: 'unknown' }); hideUnknown(); focusScan(); });
+$('#unkCancel').addEventListener('click', () => { hideUnknown(); focusScan(); });
+
+function promptQty(key, line) {
+  openSheet(`<div class="eyebrow">כמות</div><h3>${esc(line.name || line.code)}</h3><p class="muted small">${esc(line.code)}${line.supplier ? ' · ' + esc(line.supplier) : ''}</p>
+    <input id="qtyInput" type="number" inputmode="numeric" min="0" step="1" value="${line.qty}">
+    <button id="qtyOk" class="btn primary big">אישור</button>`);
+  const inp = $('#qtyInput'); setTimeout(() => { inp.focus(); inp.select(); }, 50);
+  let firstKey = 0;
+  const commit = () => { setQty(key, inp.value); closeSheet(); focusScan(); };
+  inp.addEventListener('keydown', e => {
+    if (!firstKey && e.key.length === 1) firstKey = Date.now();
+    if (e.key === 'Enter' || e.key === 'Tab') {
+      e.preventDefault();
+      const v = inp.value; const fast = firstKey && (Date.now() - firstKey) < 400 && v.length >= 6;
+      if (fast) { // a barcode was scanned into the quantity box: keep previous qty, treat as a new scan
+        closeSheet(); handleItemScan(v); return;
+      }
+      commit();
+    }
+  });
+  $('#qtyOk').onclick = commit;
+}
+
+/* scan inputs */
+function focusScan() {
+  if (!$('#view-count').hidden && $('#sheet').hidden) {
+    const el = state.current ? $('#itemScan') : $('#locScan');
+    if (el && document.activeElement !== $('#itemSearch') && document.activeElement !== $('#locManual') && document.activeElement !== $('#unkName')) el.focus({ preventScroll: true });
+  }
+}
+$('#locScan').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === 'Tab') { e.preventDefault(); const v = e.target.value; e.target.value = ''; handleLocationScan(v); } });
+$('#locStartBtn').addEventListener('click', () => { const v = $('#locManual').value; $('#locManual').value = ''; handleLocationScan(v); });
+$('#locManual').addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); $('#locStartBtn').click(); } });
+$('#itemScan').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === 'Tab') { e.preventDefault(); const v = e.target.value; e.target.value = ''; handleItemScan(v); } });
+$('#finishBtn').addEventListener('click', finishLocation);
+$('#cancelLocBtn').addEventListener('click', cancelLocation);
+$('#askQty').checked = state.askQty;
+$('#askQty').addEventListener('change', e => { state.askQty = e.target.checked; ls.set('ic_askQty', state.askQty); focusScan(); });
+
+/* global capture: a scanner typing while nothing is focused */
+let gbuf = '', gtime = 0;
+document.addEventListener('keydown', e => {
+  const a = document.activeElement; const tag = a && a.tagName;
+  if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || !$('#sheet').hidden || $('#view-count').hidden) return;
+  if (e.key === 'Enter' || e.key === 'Tab') { if (gbuf.length >= 2) { const v = gbuf; gbuf = ''; e.preventDefault(); if (state.current) handleItemScan(v); else handleLocationScan(v); } return; }
+  if (e.key.length === 1 && !e.ctrlKey && !e.metaKey) { if (Date.now() - gtime > 400) gbuf = ''; gbuf += e.key; gtime = Date.now(); }
+});
+
+/* manual search */
+const srch = $('#itemSearch'), sres = $('#searchResults');
+let srchT;
+srch.addEventListener('input', () => { clearTimeout(srchT); srchT = setTimeout(renderSearch, 60); });
+srch.addEventListener('focus', renderSearch);
+srch.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { srch.value = ''; sres.hidden = true; focusScan(); }
+  if (e.key === 'Enter') {
+    e.preventDefault(); const q = srch.value.trim(); if (!q) return;
+    const exact = findByCode(q); if (exact) { pickItem(exact); return; }
+    const res = search(q, 2); if (res.length === 1) pickItem(res[0]);
+    else if (!res.length && /^\d{6,}$/.test(q)) { srch.value = ''; sres.hidden = true; showUnknown(q); }
+  }
+});
+document.addEventListener('click', e => { if (!e.target.closest('.searchwrap')) sres.hidden = true; });
+function renderSearch() {
+  const q = srch.value.trim();
+  if (!q) { sres.hidden = true; return; }
+  if (!state.catalog.length) { sres.innerHTML = '<button type="button" disabled>אין קטלוג טעון. טענו קטלוג במסך "קטלוג".</button>'; sres.hidden = false; return; }
+  const res = search(q);
+  sres.innerHTML = res.length ? res.map((it, i) => `<button type="button" data-i="${i}"><span class="nm">${hl(it.name, q)}</span><span class="cd">${hl(it.code, q)}${it.supplier ? ' · ' + hl(it.supplier, q) : ''}${it.extra ? ' · ' + hl(it.extra, q) : ''}</span></button>`).join('')
+    : '<button type="button" disabled>לא נמצאו פריטים מתאימים</button>';
+  sres.hidden = false;
+  sres.querySelectorAll('button[data-i]').forEach(b => b.addEventListener('click', () => pickItem(res[+b.dataset.i])));
+}
+function pickItem(it) { srch.value = ''; sres.hidden = true; addLine(it, { src: 'manual' }); focusScan(); }
+
+/* render count view */
+function renderCount() {
+  const cur = state.current;
+  $('#locStart').hidden = !!cur; $('#locActive').hidden = !cur;
+  renderRecent();
+  if (!cur) return;
+  $('#curCode').textContent = cur.code; $('#curLines').textContent = fmtN(cur.n); $('#curUnits').textContent = fmtN(cur.units);
+  const lines = Object.entries(cur.lines).sort((a, b) => b[1].ts - a[1].ts);
+  $('#emptyLines').hidden = lines.length > 0;
+  $('#lines').innerHTML = lines.map(([k, l]) => `<li class="line${k === state.lastKey ? ' fresh' : ''}${l.src === 'unknown' ? ' unknown' : ''}" data-k="${esc(k)}">
+      <div style="min-width:0"><div class="nm">${esc(l.name || (l.src === 'unknown' ? 'פריט לא מזוהה' : l.code))}</div>
+        <div class="meta"><span>${esc(l.code || 'ללא ברקוד')}</span>${l.supplier ? `<span>${esc(l.supplier)}</span>` : ''}${l.src === 'manual' ? '<span>ידני</span>' : ''}${l.src === 'unknown' ? '<span>לא בקטלוג</span>' : ''}</div></div>
+      <div class="qty"><button type="button" data-d="1" aria-label="הוסף אחד">+</button><input type="number" inputmode="numeric" min="0" value="${l.qty}" aria-label="כמות"><button type="button" data-d="-1" aria-label="הפחת אחד">−</button></div>
+      <button type="button" class="del">הסרה מהאיתור</button></li>`).join('');
+  $('#lines').querySelectorAll('.line').forEach(li => {
+    const k = li.dataset.k;
+    li.querySelectorAll('button[data-d]').forEach(b => b.addEventListener('click', () => { setQty(k, (Number(cur.lines[k].qty) || 0) + (+b.dataset.d)); state.lastKey = k; }));
+    const inp = li.querySelector('input');
+    inp.addEventListener('change', () => { setQty(k, inp.value); });
+    inp.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); inp.blur(); focusScan(); } });
+    li.querySelector('.del').addEventListener('click', () => removeLine(k));
+  });
+}
+function renderRecent() {
+  const mine = Array.from(state.locations.values()).filter(l => l.deviceId === state.deviceId && l.status === 'done').sort((a, b) => (b.finishedAt || 0) - (a.finishedAt || 0)).slice(0, 6);
+  $('#recentLocs').innerHTML = mine.length ? `<span class="small muted" style="width:100%">איתורים אחרונים מהמכשיר הזה (לחיצה פותחת לעריכה):</span>` + mine.map(l => `<button type="button" class="chip" data-id="${esc(l.id)}">${esc(l.code)} · ${fmtN(l.n)}</button>`).join('') : '';
+  $('#recentLocs').querySelectorAll('button').forEach(b => b.addEventListener('click', () => reopenLocation(b.dataset.id)));
+}
+
+/* ---------------- progress ---------------- */
+Store.on('locations', list => {
+  if (list === null) { $('#progNote').hidden = false; return; }
+  $('#progNote').hidden = state.locsLoaded;
+  state.locations = new Map(list.map(l => [l.id, l]));
+  if (state.current) state.locations.set(state.current.id, state.current);
+  renderProgress(); renderRecent(); renderExportStats();
+});
+function allLocations(onlyDone = false) {
+  const m = new Map(state.locations); if (state.current) m.set(state.current.id, state.current);
+  return Array.from(m.values()).filter(l => !onlyDone || l.status === 'done');
+}
+function aggregate(onlyDone = false) {
+  const locs = allLocations(onlyDone); const items = new Map(); let units = 0, unknown = 0;
+  for (const loc of locs) for (const [k, l] of Object.entries(loc.lines || {})) {
+    const q = Number(l.qty) || 0; units += q;
+    const cat = catalogFor(l);
+    let a = items.get(k);
+    if (!a) { a = { key: k, code: l.code, name: cat ? cat.name : l.name, supplier: cat ? (cat.supplier || '') : (l.supplier || ''), extra: cat ? (cat.extra || '') : (l.extra || ''), qty: 0, locs: new Map(), unknown: !cat }; items.set(k, a); }
+    a.qty += q; a.locs.set(loc.code, (a.locs.get(loc.code) || 0) + q);
+    if (!cat && !a._cu) { a._cu = true; unknown++; }
+  }
+  return { locs, items, units, unknown };
+}
+let locFilterQ = '';
+$('#locFilter').addEventListener('input', e => { locFilterQ = e.target.value.trim().toLowerCase(); renderProgress(); });
+const expanded = new Set();
+function renderProgress() {
+  const { locs, items, units, unknown } = aggregate(false);
+  const done = locs.filter(l => l.status === 'done');
+  $('#tLocs').textContent = fmtN(done.length); $('#tOpen').textContent = fmtN(locs.length - done.length);
+  $('#tItems').textContent = fmtN(items.size); $('#tUnits').textContent = fmtN(units); $('#tUnknown').textContent = fmtN(unknown);
+  if (state.catalog.length) { const counted = new Set(); for (const a of items.values()) if (!a.unknown) counted.add(lineKey(a.code, a.name)); $('#tCov').textContent = Math.round(100 * counted.size / state.catalog.length) + '%'; } else $('#tCov').textContent = '—';
+  const dev = new Map();
+  for (const l of locs) { const k = l.deviceId || '?'; const d = dev.get(k) || { name: l.device || k, locs: 0, n: 0, units: 0, last: 0 }; d.locs++; d.n += l.n || 0; d.units += l.units || 0; d.last = Math.max(d.last, l.updatedAt || 0); d.name = l.device || d.name; dev.set(k, d); }
+  $('#devRows').innerHTML = dev.size ? Array.from(dev.values()).sort((a, b) => b.last - a.last).map(d => `<tr><td>${esc(d.name)}</td><td>${fmtN(d.locs)}</td><td>${fmtN(d.n)}</td><td>${fmtN(d.units)}</td><td>${fmtT(d.last)}</td></tr>`).join('') : '<tr><td colspan="5" class="muted">—</td></tr>';
+  const rows = locs.filter(l => !locFilterQ || (l.code + ' ' + (l.device || '')).toLowerCase().includes(locFilterQ)).sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  $('#noLocs').hidden = locs.length > 0;
+  $('#locRows').innerHTML = rows.map(l => {
+    const open = expanded.has(l.id);
+    let det = '';
+    if (open) {
+      const lines = Object.values(l.lines || {}).sort((a, b) => b.ts - a.ts);
+      det = `<tr class="detail"><td colspan="6"><div class="tblwrap"><table class="tbl"><tbody>${lines.map(x => `<tr><td>${esc(x.name || 'פריט לא מזוהה')}</td><td>${esc(x.code)}</td><td>${esc(x.supplier)}</td><td><b>${fmtN(x.qty)}</b></td></tr>`).join('') || '<tr><td class="muted">אין פריטים</td></tr>'}</tbody></table></div>
+        ${l.status === 'done' && !state.current ? `<button type="button" class="btn sm" data-reopen="${esc(l.id)}">פתיחה מחדש לעריכה במכשיר הזה</button>` : ''}
+        <button type="button" class="btn sm danger" data-del="${esc(l.id)}">מחיקת האיתור</button></td></tr>`;
+    }
+    return `<tr class="locrow" data-id="${esc(l.id)}"><td><b>${esc(l.code)}</b></td><td>${esc(l.device || '')}</td><td>${fmtN(l.n)}</td><td>${fmtN(l.units)}</td><td><span class="pill ${l.status === 'done' ? 'done' : 'open'}">${l.status === 'done' ? 'הסתיים' : 'בספירה'}</span></td><td>${fmtT(l.updatedAt)}</td></tr>${det}`;
+  }).join('');
+  $('#locRows').querySelectorAll('tr.locrow').forEach(tr => tr.addEventListener('click', () => { const id = tr.dataset.id; expanded.has(id) ? expanded.delete(id) : expanded.add(id); renderProgress(); }));
+  $('#locRows').querySelectorAll('[data-reopen]').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); reopenLocation(b.dataset.reopen); }));
+  $('#locRows').querySelectorAll('[data-del]').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation(); const id = b.dataset.del; const l = state.locations.get(id);
+    openSheet(`<h3>למחוק את האיתור ${esc(l ? l.code : '')}?</h3><button id="cfYes" class="btn danger big">כן, מחק</button><button id="cfNo" class="btn ghost">לא</button>`);
+    $('#cfNo').onclick = closeSheet;
+    $('#cfYes').onclick = async () => { closeSheet(); if (state.current && state.current.id === id) { state.current = null; ls.del('ic_current'); renderCount(); } try { await Store.deleteLocation(id); toast('האיתור נמחק'); } catch (err) { toast('המחיקה נכשלה: ' + (err.message || err), true); } };
+  }));
+}
+$('#resetBtn').addEventListener('click', () => {
+  const n = allLocations().length;
+  openSheet(`<h3>לאפס את כל הספירה?</h3><p class="muted small">${fmtN(n)} איתורים ימחקו לצמיתות משני המכשירים. הקטלוג יישאר. מומלץ לייצא לאקסל קודם.</p>
+    <input id="rsConfirm" type="text" autocomplete="off" placeholder='הקלידו "מחק" לאישור'><button id="rsYes" class="btn danger big" disabled>איפוס הספירה</button><button id="rsNo" class="btn ghost">בטל</button>`);
+  $('#rsConfirm').addEventListener('input', e => { $('#rsYes').disabled = e.target.value.trim() !== 'מחק'; });
+  $('#rsNo').onclick = closeSheet;
+  $('#rsYes').onclick = async () => {
+    closeSheet(); const ids = allLocations().map(l => l.id); state.current = null; ls.del('ic_current'); renderCount();
+    let fail = 0; for (let i = 0; i < ids.length; i += 8) { await Promise.all(ids.slice(i, i + 8).map(id => Store.deleteLocation(id).catch(() => fail++))); }
+    toast(fail ? `${fail} איתורים לא נמחקו, נסו שוב` : 'הספירה אופסה', !!fail);
+  };
+});
+
+/* ---------------- export ---------------- */
+function renderExportStats() {
+  const { locs, items, units } = aggregate($('#xOnlyDone').checked);
+  $('#xLocs').textContent = fmtN(locs.length); $('#xItems').textContent = fmtN(items.size); $('#xUnits').textContent = fmtN(units);
+}
+$('#xOnlyDone').addEventListener('change', renderExportStats);
+const bySupplier = (a, b) => (a.supplier || 'ללא ספק').localeCompare(b.supplier || 'ללא ספק', 'he') || String(a.name || '').localeCompare(String(b.name || ''), 'he') || String(a.code).localeCompare(String(b.code));
+function buildWorkbook(onlyDone) {
+  const { locs, items } = aggregate(onlyDone);
+  const wb = XLSX.utils.book_new(); wb.Workbook = { Views: [{ RTL: true }] };
+  const sup = s => s || 'ללא ספק';
+  const add = (name, rows, widths) => { const ws = XLSX.utils.aoa_to_sheet(rows); ws['!cols'] = widths.map(w => ({ wch: w })); if (rows.length > 1) ws['!autofilter'] = { ref: XLSX.utils.encode_range({ s: { r: 0, c: 0 }, e: { r: rows.length - 1, c: rows[0].length - 1 } }) }; XLSX.utils.book_append_sheet(wb, ws, name); };
+  const list = Array.from(items.values()).sort(bySupplier);
+  add('סיכום לפי ספק', [['ספק', 'ברקוד', 'שם פריט', 'נוסף', 'סה״כ כמות', 'מס׳ איתורים', 'איתורים (איתור: כמות)', 'בקטלוג']]
+    .concat(list.map(a => [sup(a.supplier), a.code, a.name, a.extra, a.qty, a.locs.size, Array.from(a.locs, ([c, q]) => `${c}: ${q}`).join(' | '), a.unknown ? 'לא' : 'כן'])), [18, 16, 36, 14, 10, 10, 40, 8]);
+  const totals = new Map();
+  for (const a of list) { const k = sup(a.supplier); const t = totals.get(k) || { items: 0, units: 0 }; t.items++; t.units += a.qty; totals.set(k, t); }
+  add('סה״כ לספק', [['ספק', 'פריטים שונים', 'סה״כ יחידות']].concat(Array.from(totals, ([k, t]) => [k, t.items, t.units]).sort((a, b) => a[0].localeCompare(b[0], 'he'))), [24, 14, 14]);
+  const detail = [];
+  for (const loc of locs.slice().sort((a, b) => (a.startedAt || 0) - (b.startedAt || 0))) for (const l of Object.values(loc.lines || {}).sort((a, b) => a.ts - b.ts)) {
+    const cat = catalogFor(l);
+    detail.push([loc.code, loc.device || '', l.code, cat ? cat.name : l.name, sup(cat ? cat.supplier : l.supplier), Number(l.qty) || 0, l.src === 'scan' ? 'סריקה' : l.src === 'manual' ? 'ידני' : 'לא מזוהה', l.ts ? new Date(l.ts).toLocaleString('he-IL') : '', loc.status === 'done' ? 'הסתיים' : 'פתוח']);
+  }
+  add('פירוט לפי איתור', [['איתור', 'מכשיר', 'ברקוד', 'שם פריט', 'ספק', 'כמות', 'מקור', 'שעה', 'מצב איתור']].concat(detail), [16, 12, 16, 36, 18, 8, 10, 18, 10]);
+  const countedKeys = new Set(items.keys());
+  const notCounted = state.catalog.filter(it => !countedKeys.has(lineKey(it.code, it.name))).sort(bySupplier);
+  add('לא נספרו', [['ספק', 'ברקוד', 'שם פריט', 'נוסף']].concat(notCounted.map(it => [sup(it.supplier), it.code, it.name, it.extra || ''])), [18, 16, 36, 14]);
+  const unk = list.filter(a => a.unknown);
+  add('לא מזוהים', [['ברקוד', 'תיאור שהוקלד', 'סה״כ כמות', 'איתורים']].concat(unk.map(a => [a.code, a.name, a.qty, Array.from(a.locs, ([c, q]) => `${c}: ${q}`).join(' | ')])), [18, 30, 10, 40]);
+  return wb;
+}
+$('#exportBtn').addEventListener('click', async () => {
+  const msg = $('#exportMsg'); const btn = $('#exportBtn'); btn.disabled = true; msg.textContent = 'מכין את הקובץ…';
+  try {
+    const wb = buildWorkbook($('#xOnlyDone').checked);
+    const buf = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    const d = new Date(); const pad = n => String(n).padStart(2, '0');
+    const filename = `ספירת-מלאי-${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}.xlsx`;
+    const blob = new Blob([buf], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+    let dl = null; if (window.claude && window.claude.use) { try { dl = await window.claude.use('downloads'); } catch {} }
+    if (dl) {
+      try { await dl.save({ filename, data: blob }); msg.textContent = 'הקובץ נשמר: ' + filename; }
+      catch (e) { msg.textContent = e && e.code === 'declined' ? 'ההורדה בוטלה.' : 'ההורדה נכשלה: ' + (e.message || e.code || e); }
+    } else {
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 2000);
+      msg.textContent = 'הקובץ ' + filename + ' נשלח להורדה.';
+    }
+  } catch (e) { console.error(e); msg.textContent = 'יצירת הקובץ נכשלה: ' + (e.message || e); }
+  finally { btn.disabled = false; }
+});
+
+/* ---------------- boot ---------------- */
+renderDevice(); renderSync(); renderCount(); route();
+(async () => {
+  await Store.init(); renderSync();
+  if (state.mode === 'db' && window.claude) {
+    try { const u = await window.claude.use('user'); if (u) { const w = await u.can('data.write'); if (w === false) { state.readOnly = true; renderSync(); toast('לחשבון הזה יש הרשאת צפייה בלבד: אפשר לראות את ההתקדמות ולייצא, אבל לא לספור.', true); } } } catch {}
+  }
+  if (state.mode === 'local') toast('אין חיבור למאגר המשותף. הספירה נשמרת רק בטלפון הזה.', true);
+  if (!state.deviceName) askDeviceName(true);
+  else focusScan();
+})();
+})();
+</script>
