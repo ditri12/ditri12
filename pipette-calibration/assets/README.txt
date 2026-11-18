@@ -12,3 +12,7 @@ signature.png      - image of the operator's signature (transparent or white
 
 app.ico / app.png  - application icon used for the window and the EXE.
 logo_source.jpg    - the low-resolution logo received from the lab (reference only).
+
+fonts/             - DejaVu Sans (regular + bold), bundled so that Hebrew and
+                     other non-Latin text prints correctly on the certificate.
+                     Licence in LICENSE-DejaVu.txt.

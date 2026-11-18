@@ -171,3 +171,17 @@ def test_autostart_command_and_noop_outside_windows():
     if not autostart.is_supported():
         assert autostart.is_enabled() is False
         autostart.set_enabled(True)          # no-op, must not raise
+
+
+def test_certificate_email_is_hebrew_and_personal():
+    from pipette_cal.report import certificate_email
+    a = _rec("LG-CAL-2026-0003", "GK22619", "2026-11-18", "2027-11-18", customer="מעבדת הדסה", email="x@example.com")
+    subject, body, html = certificate_email([a], "חן", "מעבדת הדסה", "naama@lifegene.co.il")
+    assert subject.startswith("תעודת כיול לפיפטור") and "GK22619" in subject
+    assert body.startswith("שלום חן,") and "מצורפת תעודת הכיול LG-CAL-2026-0003" in body and "תקין (PASS)" in body
+    assert "18/11/2027" in body and "naama@lifegene.co.il" in body
+    assert "dir='rtl'" in html and 'color:#77b957">LIFE' in html
+    b = _rec("LG-CAL-2026-0004", "GK1", "2026-11-18", "2027-11-18", customer="מעבדת הדסה", email="x@example.com")
+    b.verdict = "FAIL"
+    subject, body, _ = certificate_email([a, b], "", "מעבדת הדסה", "naama@lifegene.co.il")
+    assert "2 פיפטורים" in subject and body.startswith("שלום רב,") and "לא תקין (FAIL)" in body

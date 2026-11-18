@@ -15,9 +15,16 @@ Page 2  signature block + contact details, decision-rule notes, the bold
 from __future__ import annotations
 
 import logging
+import re
+import sys
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
+
+try:
+    from bidi.algorithm import get_display as _bidi_display
+except ImportError:  # pragma: no cover - python-bidi is a declared dependency
+    _bidi_display = None
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
@@ -117,31 +124,74 @@ class CertificateInfo:
     signer_name: str = ""                # printed next to the signature; defaults to operator
 
 
-# ---- symbol font for the check marks -----------------------------------------
-_SYMBOL_FONT: str | None = None
+# ---- Unicode font (Hebrew, check marks) ---------------------------------------
+# The standard PDF fonts (Helvetica) have no Hebrew glyphs, so every text a user
+# can type (customer, comments, serial numbers, names) is set in a bundled
+# TrueType font. DejaVu Sans ships with the program (assets/fonts); Arial from
+# Windows is the fallback.
+UNICODE_FONT = "CertSans"
+_UNICODE_FONT_STATE: str | None = None      # "" = not available
+_NON_LATIN = re.compile(r"[^\u0000-\u024F\u2010-\u2027\u20AC\u00B0\u00B5]")
+_RTL = re.compile(r"[\u0590-\u08FF]")
+
+
+def _font_dirs() -> list[Path]:
+    dirs: list[Path] = []
+    if getattr(sys, "frozen", False):
+        dirs.append(Path(sys.executable).resolve().parent / "assets" / "fonts")
+        dirs.append(Path(getattr(sys, "_MEIPASS", Path(sys.executable).parent)) / "assets" / "fonts")
+    dirs.append(Path(__file__).resolve().parent.parent / "assets" / "fonts")
+    return dirs
+
+
+def unicode_font() -> str | None:
+    """Register the Unicode font family once; returns its name or None."""
+    global _UNICODE_FONT_STATE
+    if _UNICODE_FONT_STATE is not None:
+        return _UNICODE_FONT_STATE or None
+    candidates = [(d / "DejaVuSans.ttf", d / "DejaVuSans-Bold.ttf") for d in _font_dirs()] + [
+        (Path("C:/Windows/Fonts/arial.ttf"), Path("C:/Windows/Fonts/arialbd.ttf")),
+        (Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"), Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")),
+        (Path("/Library/Fonts/Arial Unicode.ttf"), Path("/Library/Fonts/Arial Unicode.ttf")),
+    ]
+    for regular, bold in candidates:
+        if regular.exists():
+            try:
+                pdfmetrics.registerFont(TTFont(UNICODE_FONT, str(regular)))
+                bold_name = UNICODE_FONT + "-Bold"
+                pdfmetrics.registerFont(TTFont(bold_name, str(bold if bold.exists() else regular)))
+                pdfmetrics.registerFontFamily(UNICODE_FONT, normal=UNICODE_FONT, bold=bold_name,
+                                              italic=UNICODE_FONT, boldItalic=bold_name)
+                _UNICODE_FONT_STATE = UNICODE_FONT
+                log.info("certificate Unicode font: %s", regular)
+                return UNICODE_FONT
+            except Exception as exc:  # noqa: BLE001
+                log.debug("font %s not usable: %s", regular, exc)
+    _UNICODE_FONT_STATE = ""
+    log.warning("no Unicode font found - non-Latin text on the certificate will not render")
+    return None
+
+
+def _esc(text: str) -> str:
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def _t(text: str) -> str:
+    """Prepare user-entered text for a Paragraph: escape it and, when it
+    contains non-Latin characters, put it in the Unicode font with the
+    right-to-left runs reordered (PDF has no bidi layout of its own)."""
+    text = (text or "").strip()
+    if not _NON_LATIN.search(text):
+        return _esc(text)
+    if _RTL.search(text) and _bidi_display is not None:
+        text = _bidi_display(text, base_dir="L")
+    font = unicode_font()
+    return f'<font name="{font}">{_esc(text)}</font>' if font else _esc(text)
 
 
 def _symbol_font() -> str | None:
-    """Register a TrueType font that contains U+2713/U+2717 (once); None if unavailable."""
-    global _SYMBOL_FONT
-    if _SYMBOL_FONT is not None:
-        return _SYMBOL_FONT or None
-    candidates = (
-        Path("C:/Windows/Fonts/seguisym.ttf"), Path("C:/Windows/Fonts/DejaVuSans.ttf"),
-        Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
-        Path("/usr/share/fonts/dejavu/DejaVuSans.ttf"),
-        Path("/Library/Fonts/Arial Unicode.ttf"), Path("/System/Library/Fonts/Supplemental/Arial Unicode.ttf"),
-    )
-    for path in candidates:
-        if path.exists():
-            try:
-                pdfmetrics.registerFont(TTFont("CertSymbols", str(path)))
-                _SYMBOL_FONT = "CertSymbols"
-                return _SYMBOL_FONT
-            except Exception as exc:  # noqa: BLE001
-                log.debug("font %s not usable: %s", path, exc)
-    _SYMBOL_FONT = ""
-    return None
+    """Font for the check marks (U+2713 / U+2717)."""
+    return unicode_font()
 
 
 def _mark(ok: bool, style: ParagraphStyle) -> Paragraph:
@@ -209,7 +259,7 @@ def _signature_image(info: CertificateInfo):
 def _info_column(title: str, pairs: list[tuple[str, str]]):
     st = _ps("ic", 8, TEXT, leading=11)
     rows = [[Paragraph(f"<b>{title}</b>", _ps("ih", 9, bold=True))]]
-    rows += [[Paragraph(f'<font color="{DGREY.hexval()}">{k}</font>  <b>{v}</b>', st)] for k, v in pairs]
+    rows += [[Paragraph(f'<font color="{DGREY.hexval()}">{k}</font>  <b>{_t(v)}</b>', st)] for k, v in pairs]
     t = Table(rows, colWidths=[CONTENT_W / 3 - 3 * mm])
     t.setStyle(TableStyle([("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
                            ("TOPPADDING", (0, 0), (-1, -1), 1), ("BOTTOMPADDING", (0, 0), (-1, -1), 1),
@@ -303,7 +353,7 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
     bar = Table([[Paragraph("Document No.", st_bold), Paragraph("Operator", st_bold),
                   Paragraph("Calibration date", st_bold),
                   Paragraph("CALIBRATION RESULT", _ps("cr", 8, colors.white, TA_CENTER, bold=True))],
-                 [Paragraph(info.document_no, st_body), Paragraph(info.operator or "-", st_body),
+                 [Paragraph(_t(info.document_no), st_body), Paragraph(_t(info.operator or "-"), st_body),
                   Paragraph(cal_date, st_body),
                   Paragraph(result.verdict, _ps("res", 14, res_colour, TA_CENTER, bold=True))]],
                 colWidths=[4 * cm, 4.3 * cm, 4 * cm, CONTENT_W - 12.3 * cm])
@@ -344,13 +394,13 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
     # ---- page 2 ------------------------------------------------------------
     story.append(PageBreak())
     story += [HRFlowable(width="100%", thickness=0.75, color=HDRGREY), Spacer(1, 3 * mm)]
-    left = [Paragraph(f"Calibrated by:  <b>{info.operator or '-'}</b>", st_body), Spacer(1, 2 * mm)]
+    left = [Paragraph(f"Calibrated by:  <b>{_t(info.operator or '-')}</b>", st_body), Spacer(1, 2 * mm)]
     sig_img = _signature_image(info)
     signer = info.signer_name.strip() or info.operator or ""
     # one signature row: the name at the left, the signature image to its right,
     # both standing on the signature line
     line_w = 8 * cm
-    name_cell = Paragraph(f"<b>{signer}</b>", _ps("sn", 9, bold=True))
+    name_cell = Paragraph(f"<b>{_t(signer)}</b>", _ps("sn", 9, bold=True))
     row = Table([[name_cell, sig_img if sig_img is not None else ""]],
                 colWidths=[4.2 * cm, line_w - 4.2 * cm],
                 rowHeights=[max(18 * mm, (sig_img.drawHeight + 1 * mm) if sig_img is not None else 0)])
@@ -361,7 +411,7 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
     left += [row, Paragraph(f"Authorized Signature{'' if sig_img is None else '  -  signed electronically'}"
                             f"   {cal_date}", _ps("as", 7, DGREY))]
     if info.comments.strip():
-        left += [Spacer(1, 3 * mm), Paragraph(f"Comments:  {info.comments.strip()}", st_body)]
+        left += [Spacer(1, 3 * mm), Paragraph(f"Comments:  {_t(info.comments)}", st_body)]
     right = [Paragraph(f"<b><font color='{BLUE.hexval()}'>{COMPANY}</font></b>", _ps("co", 10, bold=True)),
              Paragraph(COMPANY_ADDRESS, st_body), Paragraph(COMPANY_PHONE, st_body),
              Paragraph(COMPANY_EMAIL, st_body), Paragraph(COMPANY_WEB, st_body)]

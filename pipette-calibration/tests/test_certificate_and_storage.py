@@ -72,3 +72,19 @@ def test_config_roundtrip(tmp_path, monkeypatch):
     assert migrated.reminder_email_to == "naama@lifegene.co.il" and migrated.email_cc == "naama@lifegene.co.il"
     (tmp_path / "config.json").write_text("{not json")
     assert AppConfig.load().scale_ip == "10.0.0.112"
+
+
+def test_certificate_with_hebrew_customer_and_comments(tmp_path):
+    """Hebrew text must be set in the bundled Unicode font (not Helvetica boxes)
+    and reordered for right-to-left display."""
+    from pipette_cal.certificate import _t, unicode_font
+    assert unicode_font() == "CertSans"
+    assert _t("Hadassah") == "Hadassah"                       # Latin text untouched
+    rendered = _t("חן לוי")
+    assert rendered.startswith('<font name="CertSans">') and "יול ןח" in rendered   # visual order
+    res = _result()
+    info = CertificateInfo("LG-CAL-2026-0003", date(2026, 11, 18), date(2027, 11, 18), "GK22619", "DF30",
+                           operator="dmitri trakhtman", comments="הערה בעברית", customer="מעבדת הדסה", signer_name="דמיטרי")
+    data = build_certificate(tmp_path / "he.pdf", info, res).read_bytes()
+    assert data.count(b"/Type /Page") - data.count(b"/Type /Pages") == 2
+    assert b"DejaVuSans" in data                                # the Unicode font is embedded

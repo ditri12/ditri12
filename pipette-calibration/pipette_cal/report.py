@@ -118,34 +118,57 @@ def compose_email(to: str, subject: str, body: str, attachments: list[Path],
     return f"Your mail client was opened. Please attach the file(s) manually:\n{files}"
 
 
-def certificate_email(records, contact: str, customer: str, office_email: str) -> tuple[str, str]:
-    """(subject, plain-text body) of the e-mail that carries the certificate PDFs.
-    *records* are CalibrationRecord objects (one per attached PDF)."""
+def certificate_email(records, contact: str, customer: str, office_email: str) -> tuple[str, str, str]:
+    """(subject, plain-text body, HTML body) of the Hebrew e-mail that carries the
+    certificate PDFs. *records* are CalibrationRecord objects (one per PDF)."""
+    from datetime import date as _date
     n = len(records)
     first = records[0]
-    if n == 1:
-        subject = f"Pipette calibration certificate {first.document_no} - Gilson {first.model} S/N {first.serial_no}"
-        intro = f"Please find attached the calibration certificate {first.document_no} for your pipette."
+    many = n > 1
+
+    def fmt(iso: str) -> str:
+        try:
+            return _date.fromisoformat(iso[:10]).strftime("%d/%m/%Y") if iso else "-"
+        except ValueError:
+            return iso
+
+    if many:
+        subject = f"תעודות כיול לפיפטורים - {n} פיפטורים" + (f" - {customer}" if customer else "")
+        intro = f"מצורפות תעודות הכיול של {n} הפיפטורים שלכם."
     else:
-        subject = f"Pipette calibration certificates - {n} pipettes" + (f" - {customer}" if customer else "")
-        intro = f"Please find attached the calibration certificates for your {n} pipettes."
-    lines = [f"Dear {contact}," if contact else "Dear customer,", "", intro, ""]
+        subject = f"תעודת כיול לפיפטור - Gilson {first.model} S/N {first.serial_no} ({first.document_no})"
+        intro = f"מצורפת תעודת הכיול {first.document_no} של הפיפטור שלכם."
+    greeting = f"שלום {contact}," if contact else "שלום רב,"
+    items = []
     for r in records:
         nxt = r.next_calibration or r.payload.get("next_calibration_date", "")
-        try:
-            from datetime import date as _date
-            nxt = _date.fromisoformat(nxt).strftime("%d/%m/%Y") if nxt else "-"
-        except ValueError:
-            pass
-        lines.append(f"- Gilson {r.model}, S/N {r.serial_no or '-'}: {r.verdict}  "
-                     f"(certificate {r.document_no}, calibrated {r.calibrated_at[:10]}, next calibration {nxt})")
-    lines += ["", "The certificate states the measured volumes, the systematic and random errors against the "
-                  "acceptance limits, and the recommended date of the next calibration. We will remind you "
-                  "shortly before that date.",
-              "", "For any question about the results, or to schedule the next calibration, simply reply to "
-                  f"this e-mail or contact our office at {office_email}.",
-              "", "Thank you for choosing LIFEGENE. We look forward to assisting you."]
-    return subject, "\n".join(lines)
+        verdict = "תקין (PASS)" if r.verdict == "PASS" else "לא תקין (FAIL)"
+        items.append((f"Gilson {r.model}", r.serial_no or "-", verdict, r.document_no,
+                      fmt(r.calibrated_at), fmt(nxt)))
+    p_cert = ("התעודה מפרטת את הנפחים שנמדדו, את השגיאה השיטתית והאקראית מול גבולות הקבלה, "
+              "ואת המועד המומלץ לכיול הבא. נשלח לכם תזכורת סמוך למועד זה.")
+    p_contact_text = "לכל שאלה על התוצאות או לתיאום הכיול הבא, ניתן להשיב למייל זה או לפנות למשרדנו: "
+    p_thanks = "תודה שבחרתם ב-LIFEGENE, נשמח לעמוד לשירותכם."
+
+    lines = [greeting, "", intro, ""]
+    for model, sn, verdict, doc, cal, nxt in items:
+        lines.append(f"  - {model}, מספר סידורי {sn}: {verdict} (תעודה {doc}, כויל ב-{cal}, כיול הבא {nxt})")
+    lines += ["", p_cert, "", p_contact_text + office_email + ".", "", p_thanks]
+
+    heads = ["פיפטור", "מספר סידורי", "תוצאה", "מספר תעודה", "תאריך כיול", "כיול הבא"]
+    th = "".join(f"<th style='padding:5px 10px;border:1px solid #cfd8e3;background:#eef3f8;text-align:right'>{h}</th>"
+                 for h in heads)
+    rows = "".join("<tr>" + "".join(
+        f"<td style='padding:5px 10px;border:1px solid #cfd8e3;text-align:right'>{_html_escape(c)}</td>"
+        for c in item) + "</tr>" for item in items)
+    html = (f"<div dir='rtl' style='direction:rtl;text-align:right'>"
+            f"<p>{_html_escape(greeting)}</p><p>{_html_escape(intro)}</p>"
+            f"<table dir='rtl' style='border-collapse:collapse;font-size:10.5pt;direction:rtl'><tr>{th}</tr>{rows}</table>"
+            f"<p>{_html_escape(p_cert)}</p>"
+            f"<p>{_html_escape(p_contact_text)}<span dir='ltr' style='unicode-bidi:isolate'>"
+            f"<a href='mailto:{office_email}'>{office_email}</a></span>.</p>"
+            f"<p>{brand_html(p_thanks)}</p></div>")
+    return subject, "\n".join(lines), html
 
 
 def _split_addresses(text: str) -> list[str]:

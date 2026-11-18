@@ -1358,9 +1358,9 @@ class App(tk.Tk):
         to = self.v_customer_email.get().strip() or self.cfg.email_to
         customer = self.v_customer.get().strip()
         contact = self.v_contact.get().strip() or customer
-        subject, body = certificate_email(records, contact, customer, self.cfg.email_cc or "info@lifegene.co.il")
+        subject, body, html = certificate_email(records, contact, customer, self.cfg.email_cc or "info@lifegene.co.il")
         try:
-            msg = compose_email(to, subject, body, paths, cc=self.cfg.email_cc)
+            msg = compose_email(to, subject, body, paths, cc=self.cfg.email_cc, html=html)
             messagebox.showinfo("Email", msg, parent=self)
             self.batch = []
             self._refresh_output_buttons()

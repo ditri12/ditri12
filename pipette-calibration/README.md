@@ -45,6 +45,9 @@ a small, tested application:
   except in full" footer. Always exactly two pages, no clipped text.
 * **Full PIPETMAN catalogue** - Classic, Neo (N), L and Multi models with the
   original tip assignments (GS-10, DF30, D100, DF200, DF1000, ...).
+* **Hebrew on the certificate** - customer, contact, comments and names
+  typed in Hebrew print correctly (bundled DejaVu font, right-to-left
+  ordering); the standard PDF fonts would show boxes.
 * **Dark / light theme**, maximised window, logo from `assets/logo.png`.
 * **Windows helpers** - `install.bat`, `run.bat`, and `build_exe.bat`
   (PyInstaller) to hand out a single `PipetteCalibration.exe`.
@@ -97,8 +100,9 @@ without Outlook the default mail client opens instead.
    results are calculated automatically.
 4. **Results** - PASS / FAIL with all figures. Nothing is saved to disk until
    you choose **Save PDF**, **Print** or **Email** in the footer. **Email**
-   opens an Outlook draft to the customer's address with the certificate
-   attached and your Outlook signature below the text.
+   opens an Outlook draft to the customer's address, in Hebrew and addressed
+   to the contact person, with the certificate attached and your Outlook
+   signature below the text.
    **Add another pipette** keeps the finished pipette aside and starts the
    next one for the same customer; Email then attaches one PDF per pipette
    in a single message (Save PDF / Print handle all of them too).
