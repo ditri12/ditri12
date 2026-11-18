@@ -167,6 +167,7 @@ ul.plain{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;g
         </div>
 
         <label class="toggle"><input type="checkbox" id="askQty"> לשאול כמות אחרי כל סריקה (במקום +1)</label>
+        <label class="toggle"><input type="checkbox" id="trackLots"> לספור בנפרד לפי מספר אצווה (ברקוד GS1 משולב)</label>
 
         <div id="unknownCard" class="card warn" hidden>
           <b>הברקוד <span id="unkCode"></span> לא נמצא בקטלוג</b>
@@ -240,6 +241,7 @@ ul.plain{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;g
       </div>
       <div class="card">
         <h3>בדיקת פריט</h3>
+        <p class="muted small">סרקו כאן ברקוד מהמחסן כדי לוודא שהמערכת מזהה את המוצר ואת מספר האצווה.</p>
         <input id="catTest" type="search" autocomplete="off" placeholder="סרקו או הקלידו ברקוד / שם לבדיקה">
         <div id="catTestOut" class="small muted"></div>
       </div>
@@ -304,7 +306,7 @@ const state = {
   catalog: [], byCode: new Map(), meta: null, catalogVersion: null,
   locations: new Map(), locsLoaded: false,
   current: ls.get('ic_current') || null,
-  askQty: !!ls.get('ic_askQty'),
+  askQty: !!ls.get('ic_askQty'), trackLots: ls.get('ic_trackLots', true),
   readOnly: false, mode: 'connecting', lastKey: null, undo: null
 };
 if (!state.deviceId) { state.deviceId = randId(6); ls.set('ic_deviceId', state.deviceId); }
@@ -451,8 +453,55 @@ function indexCatalog() {
     if (!state.byCode.has(c)) state.byCode.set(c, it);
     const z = stripZeros(c); if (z !== c && !state.byCode.has(z)) state.byCode.set(z, it);
   }
+  state.codesByLen = Array.from(state.byCode.entries()).filter(([c]) => c.length >= 6).sort((a, b) => b[0].length - a[0].length);
   $('#noCatalog').hidden = state.catalog.length > 0;
   renderCatalogInfo();
+}
+/* --- GS1 (barcode + batch) parsing --- */
+const GS = '\x1d';
+const AI_FIXED = { '00': 18, '01': 14, '02': 14, '03': 14, '11': 6, '12': 6, '13': 6, '15': 6, '16': 6, '17': 6, '20': 2 };
+const AI_VAR2 = ['10', '21', '22', '30', '37', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99'];
+function finishGS1(out) {
+  const gtin = out['01'] || out['02'] || ''; if (!gtin) return null;
+  return { gtin, lot: out['10'] || '', expiry: out['17'] || out['15'] || '', serial: out['21'] || '', count: out['30'] || out['37'] || '', ais: out };
+}
+function parseGS1(raw) {
+  let s = String(raw).replace(/^\]([A-Za-z]\d)/, '').replace(/[\x1d\x1e\x04\x1c]/g, GS).trim();
+  if (/^\(\d{2,4}\)/.test(s)) { const out = {}; const re = /\((\d{2,4})\)([^(]*)/g; let m; while ((m = re.exec(s))) out[m[1]] = m[2].replace(GS, ''); return finishGS1(out); }
+  if (!/^0[12]\d{14}/.test(s)) return null;
+  const out = {}; let i = 0;
+  while (i < s.length) {
+    if (s[i] === GS) { i++; continue; }
+    const a2 = s.substr(i, 2), a3 = s.substr(i, 3), a4 = s.substr(i, 4); let ai = null, len = null;
+    if (AI_FIXED[a2] != null) { ai = a2; len = AI_FIXED[a2]; }
+    else if (/^3[1-6]\d\d$/.test(a4)) { ai = a4; len = 6; }
+    else if (/^41[0-7]$/.test(a3)) { ai = a3; len = 13; }
+    else if (AI_VAR2.includes(a2)) { ai = a2; }
+    else if (/^(24[0-3]|25[0-5]|40[0-3]|42[0-7])/.test(a3)) { ai = a3; }
+    else if (/^(39\d\d|70\d\d|71\d\d|8\d\d\d)/.test(a4)) { ai = a4; }
+    else break;
+    i += ai.length;
+    if (len != null) { out[ai] = s.substr(i, len); i += len; }
+    else { const e = s.indexOf(GS, i); out[ai] = e < 0 ? s.slice(i) : s.slice(i, e); i = e < 0 ? s.length : e; }
+  }
+  return finishGS1(out);
+}
+function fmtExp(e) { if (!e || !/^\d{6}$/.test(e)) return e || ''; const yy = e.slice(0, 2), mm = e.slice(2, 4), dd = e.slice(4, 6); return (dd === '00' ? '' : dd + '.') + mm + '.20' + yy; }
+/* Resolve a raw scan to a catalog item: exact code, GS1 structure, or catalog code embedded in a longer string (rest = batch). */
+function resolveScan(raw) {
+  raw = normCode(raw);
+  const exact = findByCode(raw); if (exact) return { item: exact, code: exact.code, lot: '', expiry: '', raw };
+  const g = parseGS1(raw);
+  if (g) { const it = findByCode(g.gtin); return { item: it, code: it ? it.code : stripZeros(g.gtin), lot: g.lot, expiry: g.expiry, serial: g.serial, raw, gs1: g }; }
+  const k = normKey(raw);
+  if (k.length >= 10 && state.codesByLen) {
+    for (const [c, it] of state.codesByLen) {
+      const at = k.indexOf(c); if (at < 0) continue;
+      const rest = (raw.slice(0, at) + ' ' + raw.slice(at + c.length)).trim().replace(/^[\s\-_/|.]+|[\s\-_/|.]+$/g, '');
+      return { item: it, code: it.code, lot: rest, expiry: '', raw, embedded: true };
+    }
+  }
+  return { item: null, code: raw, lot: '', expiry: '', raw };
 }
 function catalogFor(line) { return (line.code ? findByCode(line.code) : null) || (state.byKey && state.byKey.get(lineKey(line.code, line.name))) || null; }
 function findByCode(code) {
@@ -550,9 +599,11 @@ $('#catLoadBtn').addEventListener('click', async () => {
 });
 $('#catTest').addEventListener('input', e => {
   const q = e.target.value.trim(); const out = $('#catTestOut'); if (!q) { out.textContent = ''; return; }
-  const exact = findByCode(q);
-  const res = exact ? [exact] : search(q, 8);
-  out.innerHTML = res.length ? res.map(it => `<div>${esc(it.name)} · <b>${esc(it.code)}</b>${it.supplier ? ' · ' + esc(it.supplier) : ''}</div>`).join('') : 'לא נמצא בקטלוג';
+  const r = resolveScan(q); let head = '';
+  if (r.gs1) head = `<div>ברקוד משולב (GS1): מוצר <b>${esc(r.gs1.gtin)}</b>${r.gs1.lot ? ' · אצווה <b>' + esc(r.gs1.lot) + '</b>' : ''}${r.gs1.expiry ? ' · תוקף <b>' + esc(fmtExp(r.gs1.expiry)) + '</b>' : ''}${r.gs1.serial ? ' · סריאלי ' + esc(r.gs1.serial) : ''}</div>`;
+  else if (r.embedded) head = `<div>זוהה ברקוד קטלוג <b>${esc(r.code)}</b> בתוך המחרוזת${r.lot ? ' · שאר הברקוד (אצווה?) <b>' + esc(r.lot) + '</b>' : ''}</div>`;
+  const res = r.item ? [r.item] : search(q, 8);
+  out.innerHTML = head + (res.length ? res.map(it => `<div>${esc(it.name)} · <b>${esc(it.code)}</b>${it.supplier ? ' · ' + esc(it.supplier) : ''}</div>`).join('') : '<div>לא נמצא בקטלוג</div>');
 });
 
 /* ---------------- locations / counting ---------------- */
@@ -568,12 +619,13 @@ function recalc(loc) {
   const ls_ = Object.values(loc.lines); loc.n = ls_.length; loc.units = ls_.reduce((s, l) => s + (Number(l.qty) || 0), 0); loc.updatedAt = Date.now();
 }
 function touch() { recalc(state.current); saveCurrent(); Writer.schedule(state.current); renderCount(); }
-function addLine(item, { code, name, src, qty = 1 }) {
+function addLine(item, { code, name, src, qty = 1, lot = '', expiry = '', raw = '' }) {
   const loc = state.current; if (!loc) return;
-  const c = item ? item.code : code; const nm = item ? item.name : (name || ''); const key = lineKey(c, nm);
+  const c = item ? item.code : code; const nm = item ? item.name : (name || '');
+  const key = lineKey(c, nm) + (state.trackLots && lot ? '|' + normKey(lot) : '');
   let line = loc.lines[key];
-  if (line) { line.qty = (Number(line.qty) || 0) + qty; line.ts = Date.now(); }
-  else line = loc.lines[key] = { code: c || '', name: nm, supplier: item ? (item.supplier || '') : '', extra: item ? (item.extra || '') : '', qty, ts: Date.now(), src: item ? src : 'unknown' };
+  if (line) { line.qty = (Number(line.qty) || 0) + qty; line.ts = Date.now(); if (lot && !line.lot) line.lot = lot; if (expiry && !line.expiry) line.expiry = expiry; }
+  else line = loc.lines[key] = { code: c || '', name: nm, supplier: item ? (item.supplier || '') : '', extra: item ? (item.extra || '') : '', qty, ts: Date.now(), src: item ? src : 'unknown', lot: state.trackLots ? (lot || '') : '', expiry: state.trackLots ? (expiry || '') : '', raw: item ? '' : (raw || '') };
   state.lastKey = key; touch();
   if (state.askQty) promptQty(key, line);
 }
@@ -610,13 +662,15 @@ function reopenLocation(id) {
 function handleLocationScan(v) { v = normCode(v); if (!v) return; newLocation(v); }
 function handleItemScan(v) {
   v = normCode(v); if (!v || !state.current) return;
-  const it = findByCode(v);
-  if (it) { addLine(it, { src: 'scan' }); hideUnknown(); return; }
-  showUnknown(v);
+  const r = resolveScan(v);
+  if (r.item) { addLine(r.item, { src: 'scan', lot: r.lot, expiry: r.expiry }); hideUnknown(); return; }
+  showUnknown(v, r);
 }
-function showUnknown(code) { $('#unkCode').textContent = code; $('#unkName').value = ''; $('#unknownCard').hidden = false; $('#unknownCard').dataset.code = code; if (navigator.vibrate) try { navigator.vibrate([80, 60, 80]); } catch {} }
+function showUnknown(code, r) {
+  const g = r && r.gs1; $('#unkCode').textContent = g ? `${g.gtin} (מתוך ברקוד משולב${g.lot ? ', אצווה ' + g.lot : ''})` : code;
+  $('#unkName').value = ''; $('#unknownCard').hidden = false; $('#unknownCard').dataset.code = g ? stripZeros(g.gtin) : code; $('#unknownCard').dataset.lot = g ? g.lot : ''; $('#unknownCard').dataset.expiry = g ? g.expiry : ''; $('#unknownCard').dataset.raw = code; if (navigator.vibrate) try { navigator.vibrate([80, 60, 80]); } catch {} }
 function hideUnknown() { $('#unknownCard').hidden = true; }
-$('#unkAdd').addEventListener('click', () => { const code = $('#unknownCard').dataset.code; addLine(null, { code, name: $('#unkName').value.trim(), src: 'unknown' }); hideUnknown(); focusScan(); });
+$('#unkAdd').addEventListener('click', () => { const d = $('#unknownCard').dataset; addLine(null, { code: d.code, name: $('#unkName').value.trim(), src: 'unknown', lot: d.lot, expiry: d.expiry, raw: d.raw }); hideUnknown(); focusScan(); });
 $('#unkCancel').addEventListener('click', () => { hideUnknown(); focusScan(); });
 
 function promptQty(key, line) {
@@ -655,6 +709,8 @@ $('#finishBtn').addEventListener('click', finishLocation);
 $('#cancelLocBtn').addEventListener('click', cancelLocation);
 $('#askQty').checked = state.askQty;
 $('#askQty').addEventListener('change', e => { state.askQty = e.target.checked; ls.set('ic_askQty', state.askQty); focusScan(); });
+$('#trackLots').checked = state.trackLots;
+$('#trackLots').addEventListener('change', e => { state.trackLots = e.target.checked; ls.set('ic_trackLots', state.trackLots); focusScan(); });
 
 /* global capture: a scanner typing while nothing is focused */
 let gbuf = '', gtime = 0;
@@ -703,7 +759,7 @@ function renderCount() {
   $('#emptyLines').hidden = lines.length > 0;
   $('#lines').innerHTML = lines.map(([k, l]) => `<li class="line${k === state.lastKey ? ' fresh' : ''}${l.src === 'unknown' ? ' unknown' : ''}" data-k="${esc(k)}">
       <div style="min-width:0"><div class="nm">${esc(l.name || (l.src === 'unknown' ? 'פריט לא מזוהה' : l.code))}</div>
-        <div class="meta"><span>${esc(l.code || 'ללא ברקוד')}</span>${l.supplier ? `<span>${esc(l.supplier)}</span>` : ''}${l.src === 'manual' ? '<span>ידני</span>' : ''}${l.src === 'unknown' ? '<span>לא בקטלוג</span>' : ''}</div></div>
+        <div class="meta"><span>${esc(l.code || 'ללא ברקוד')}</span>${l.lot ? `<span>אצווה ${esc(l.lot)}</span>` : ''}${l.expiry ? `<span>תוקף ${esc(fmtExp(l.expiry))}</span>` : ''}${l.supplier ? `<span>${esc(l.supplier)}</span>` : ''}${l.src === 'manual' ? '<span>ידני</span>' : ''}${l.src === 'unknown' ? '<span>לא בקטלוג</span>' : ''}</div></div>
       <div class="qty"><button type="button" data-d="1" aria-label="הוסף אחד">+</button><input type="number" inputmode="numeric" min="0" value="${l.qty}" aria-label="כמות"><button type="button" data-d="-1" aria-label="הפחת אחד">−</button></div>
       <button type="button" class="del">הסרה מהאיתור</button></li>`).join('');
   $('#lines').querySelectorAll('.line').forEach(li => {
@@ -737,10 +793,11 @@ function aggregate(onlyDone = false) {
   const locs = allLocations(onlyDone); const items = new Map(); let units = 0, unknown = 0;
   for (const loc of locs) for (const [k, l] of Object.entries(loc.lines || {})) {
     const q = Number(l.qty) || 0; units += q;
-    const cat = catalogFor(l);
-    let a = items.get(k);
-    if (!a) { a = { key: k, code: l.code, name: cat ? cat.name : l.name, supplier: cat ? (cat.supplier || '') : (l.supplier || ''), extra: cat ? (cat.extra || '') : (l.extra || ''), qty: 0, locs: new Map(), unknown: !cat }; items.set(k, a); }
+    const cat = catalogFor(l); const ik = lineKey(l.code, l.name);
+    let a = items.get(ik);
+    if (!a) { a = { key: ik, code: l.code, name: cat ? cat.name : l.name, supplier: cat ? (cat.supplier || '') : (l.supplier || ''), extra: cat ? (cat.extra || '') : (l.extra || ''), qty: 0, locs: new Map(), lots: new Map(), unknown: !cat }; items.set(ik, a); }
     a.qty += q; a.locs.set(loc.code, (a.locs.get(loc.code) || 0) + q);
+    const lk = (l.lot || '') + '\u0001' + (l.expiry || ''); const lt = a.lots.get(lk) || { lot: l.lot || '', expiry: l.expiry || '', qty: 0, locs: new Map() }; lt.qty += q; lt.locs.set(loc.code, (lt.locs.get(loc.code) || 0) + q); a.lots.set(lk, lt);
     if (!cat && !a._cu) { a._cu = true; unknown++; }
   }
   return { locs, items, units, unknown };
@@ -753,7 +810,7 @@ function renderProgress() {
   const done = locs.filter(l => l.status === 'done');
   $('#tLocs').textContent = fmtN(done.length); $('#tOpen').textContent = fmtN(locs.length - done.length);
   $('#tItems').textContent = fmtN(items.size); $('#tUnits').textContent = fmtN(units); $('#tUnknown').textContent = fmtN(unknown);
-  if (state.catalog.length) { const counted = new Set(); for (const a of items.values()) if (!a.unknown) counted.add(lineKey(a.code, a.name)); $('#tCov').textContent = Math.round(100 * counted.size / state.catalog.length) + '%'; } else $('#tCov').textContent = '—';
+  if (state.catalog.length) { const counted = new Set(); for (const a of items.values()) if (!a.unknown) counted.add(a.key); $('#tCov').textContent = Math.round(100 * counted.size / state.catalog.length) + '%'; } else $('#tCov').textContent = '—';
   const dev = new Map();
   for (const l of locs) { const k = l.deviceId || '?'; const d = dev.get(k) || { name: l.device || k, locs: 0, n: 0, units: 0, last: 0 }; d.locs++; d.n += l.n || 0; d.units += l.units || 0; d.last = Math.max(d.last, l.updatedAt || 0); d.name = l.device || d.name; dev.set(k, d); }
   $('#devRows').innerHTML = dev.size ? Array.from(dev.values()).sort((a, b) => b.last - a.last).map(d => `<tr><td>${esc(d.name)}</td><td>${fmtN(d.locs)}</td><td>${fmtN(d.n)}</td><td>${fmtN(d.units)}</td><td>${fmtT(d.last)}</td></tr>`).join('') : '<tr><td colspan="5" class="muted">—</td></tr>';
@@ -764,7 +821,7 @@ function renderProgress() {
     let det = '';
     if (open) {
       const lines = Object.values(l.lines || {}).sort((a, b) => b.ts - a.ts);
-      det = `<tr class="detail"><td colspan="6"><div class="tblwrap"><table class="tbl"><tbody>${lines.map(x => `<tr><td>${esc(x.name || 'פריט לא מזוהה')}</td><td>${esc(x.code)}</td><td>${esc(x.supplier)}</td><td><b>${fmtN(x.qty)}</b></td></tr>`).join('') || '<tr><td class="muted">אין פריטים</td></tr>'}</tbody></table></div>
+      det = `<tr class="detail"><td colspan="6"><div class="tblwrap"><table class="tbl"><tbody>${lines.map(x => `<tr><td>${esc(x.name || 'פריט לא מזוהה')}</td><td>${esc(x.code)}</td><td>${x.lot ? 'אצווה ' + esc(x.lot) : ''}${x.expiry ? ' · ' + esc(fmtExp(x.expiry)) : ''}</td><td>${esc(x.supplier)}</td><td><b>${fmtN(x.qty)}</b></td></tr>`).join('') || '<tr><td class="muted">אין פריטים</td></tr>'}</tbody></table></div>
         ${l.status === 'done' && !state.current ? `<button type="button" class="btn sm" data-reopen="${esc(l.id)}">פתיחה מחדש לעריכה במכשיר הזה</button>` : ''}
         <button type="button" class="btn sm danger" data-del="${esc(l.id)}">מחיקת האיתור</button></td></tr>`;
     }
@@ -813,9 +870,12 @@ function buildWorkbook(onlyDone) {
   const detail = [];
   for (const loc of locs.slice().sort((a, b) => (a.startedAt || 0) - (b.startedAt || 0))) for (const l of Object.values(loc.lines || {}).sort((a, b) => a.ts - b.ts)) {
     const cat = catalogFor(l);
-    detail.push([loc.code, loc.device || '', l.code, cat ? cat.name : l.name, sup(cat ? cat.supplier : l.supplier), Number(l.qty) || 0, l.src === 'scan' ? 'סריקה' : l.src === 'manual' ? 'ידני' : 'לא מזוהה', l.ts ? new Date(l.ts).toLocaleString('he-IL') : '', loc.status === 'done' ? 'הסתיים' : 'פתוח']);
+    detail.push([loc.code, loc.device || '', l.code, cat ? cat.name : l.name, sup(cat ? cat.supplier : l.supplier), l.lot || '', fmtExp(l.expiry), Number(l.qty) || 0, l.src === 'scan' ? 'סריקה' : l.src === 'manual' ? 'ידני' : 'לא מזוהה', l.ts ? new Date(l.ts).toLocaleString('he-IL') : '', loc.status === 'done' ? 'הסתיים' : 'פתוח']);
   }
-  add('פירוט לפי איתור', [['איתור', 'מכשיר', 'ברקוד', 'שם פריט', 'ספק', 'כמות', 'מקור', 'שעה', 'מצב איתור']].concat(detail), [16, 12, 16, 36, 18, 8, 10, 18, 10]);
+  add('פירוט לפי איתור', [['איתור', 'מכשיר', 'ברקוד', 'שם פריט', 'ספק', 'אצווה', 'תוקף', 'כמות', 'מקור', 'שעה', 'מצב איתור']].concat(detail), [16, 12, 16, 36, 18, 14, 12, 8, 10, 18, 10]);
+  const lotRows = [];
+  for (const a of list) for (const lt of Array.from(a.lots.values()).sort((x, y) => String(x.lot).localeCompare(String(y.lot)))) lotRows.push([sup(a.supplier), a.code, a.name, lt.lot, fmtExp(lt.expiry), lt.qty, Array.from(lt.locs, ([c, q]) => `${c}: ${q}`).join(' | ')]);
+  add('לפי אצווה', [['ספק', 'ברקוד', 'שם פריט', 'אצווה', 'תוקף', 'כמות', 'איתורים (איתור: כמות)']].concat(lotRows), [18, 16, 36, 16, 12, 8, 40]);
   const countedKeys = new Set(items.keys());
   const notCounted = state.catalog.filter(it => !countedKeys.has(lineKey(it.code, it.name))).sort(bySupplier);
   add('לא נספרו', [['ספק', 'ברקוד', 'שם פריט', 'נוסף']].concat(notCounted.map(it => [sup(it.supplier), it.code, it.name, it.extra || ''])), [18, 16, 36, 14]);
