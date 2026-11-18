@@ -115,6 +115,12 @@ input.scan:focus{border-style:solid}
 @media (min-width:560px){.map{grid-template-columns:1fr 1fr}}
 .recent{display:flex;gap:6px;flex-wrap:wrap}
 ul.plain{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;gap:4px}
+.split{direction:ltr;text-align:left;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:1rem;word-break:break-all;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+.split .pre{background:var(--accent-soft);color:var(--fg);border-radius:3px;padding:1px 2px}
+.split .rest{background:var(--warn-soft);border-radius:3px;padding:1px 2px}
+.split .cut{color:var(--accent);font-weight:700;margin:0 2px}
+input[type=range]{width:100%;direction:ltr;accent-color:var(--accent)}
+.results.inline{position:static;max-height:32vh;margin-top:4px}
 .hero{border-color:var(--accent);background:linear-gradient(180deg,var(--surface),var(--accent-soft))}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -170,10 +176,19 @@ ul.plain{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;g
         <label class="toggle"><input type="checkbox" id="trackLots"> לספור בנפרד לפי מספר אצווה (ברקוד GS1 משולב)</label>
 
         <div id="unknownCard" class="card warn" hidden>
-          <b>הברקוד <span id="unkCode"></span> לא נמצא בקטלוג</b>
+          <b>הסריקה לא זוהתה: <span id="unkCode"></span></b>
+          <div id="unkSplitWrap">
+            <div class="split"><span class="pre" id="unkPre"></span><span class="cut">|</span><span class="rest" id="unkRest"></span></div>
+            <label class="small muted" for="unkCut">גררו כדי לסמן איפה נגמר ברקוד המוצר ומתחילה האצווה</label>
+            <input type="range" id="unkCut" min="1" max="10" value="10" step="1">
+          </div>
+          <p class="small">קישור לפריט בקטלוג (פעם אחת, ואז כל ברקוד כזה יזוהה אוטומטית בשני הטלפונים):</p>
+          <input id="unkLink" type="search" autocomplete="off" placeholder="חפשו את הפריט לפי שם / מק״ט / ספק">
+          <div id="unkResults" class="results inline" hidden></div>
+          <p class="small muted">או:</p>
           <input id="unkName" type="text" autocomplete="off" placeholder="תיאור הפריט (לא חובה)">
           <div class="row">
-            <button id="unkAdd" class="btn primary">הוסף לספירה כפריט לא מזוהה</button>
+            <button id="unkAdd" class="btn">הוסף כפריט לא מזוהה</button>
             <button id="unkCancel" class="btn ghost">בטל</button>
           </div>
         </div>
@@ -238,6 +253,12 @@ ul.plain{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;g
           <button id="catLoadBtn" class="btn primary big">טען קטלוג</button>
           <div class="bar" id="catBar" hidden><div></div></div>
         </div>
+      </div>
+      <div class="card">
+        <h3>קישורי ברקוד שנלמדו</h3>
+        <p class="muted small">ברקודים שקושרו ידנית לפריטי קטלוג בזמן הספירה. "תחילית" מזהה גם את האצווה שאחריה.</p>
+        <div class="tblwrap"><table class="tbl"><thead><tr><th>ברקוד / תחילית</th><th>סוג</th><th>פריט</th><th></th></tr></thead><tbody id="aliasRows"></tbody></table></div>
+        <p id="noAliases" class="muted small">אין קישורים עדיין.</p>
       </div>
       <div class="card">
         <h3>בדיקת פריט</h3>
@@ -307,14 +328,14 @@ const state = {
   locations: new Map(), locsLoaded: false,
   current: ls.get('ic_current') || null,
   askQty: !!ls.get('ic_askQty'), trackLots: ls.get('ic_trackLots', true),
-  readOnly: false, mode: 'connecting', lastKey: null, undo: null
+  aliases: [], readOnly: false, mode: 'connecting', lastKey: null, undo: null
 };
 if (!state.deviceId) { state.deviceId = randId(6); ls.set('ic_deviceId', state.deviceId); }
 
 /* ---------------- store (db with local fallback) ---------------- */
 const Store = (() => {
   let db = null;
-  const subs = { meta: [], locations: [] };
+  const subs = { meta: [], locations: [], aliases: [] };
   const emit = (k, v) => subs[k].forEach(f => { try { f(v); } catch (e) { console.error(e); } });
   async function init() {
     if (window.claude && typeof window.claude.use === 'function') {
@@ -329,9 +350,10 @@ const Store = (() => {
         if (!s.metadata.fromCache) { clearTimeout(locTimer); state.locsLoaded = true; }
         emit('locations', s.docs.map(d => ({ id: d.id, ...d.data() })));
       }, e => { clearTimeout(locTimer); console.error(e); toast('הקריאה מהשרת נכשלה: ' + (e.message || e.code), true); });
+      db.collection('aliases').onSnapshot(s => emit('aliases', s.docs.map(d => ({ id: d.id, ...d.data() }))), e => console.error(e));
     } else {
       state.locsLoaded = true;
-      setTimeout(() => { emit('meta', ls.get('ic_meta', null)); emit('locations', Object.values(ls.get('ic_locs', {}))); }, 0);
+      setTimeout(() => { emit('meta', ls.get('ic_meta', null)); emit('locations', Object.values(ls.get('ic_locs', {}))); emit('aliases', Object.values(ls.get('ic_aliases', {}))); }, 0);
     }
     return state.mode;
   }
@@ -366,7 +388,15 @@ const Store = (() => {
     if (!db) { const all = ls.get('ic_locs', {}); delete all[id]; ls.set('ic_locs', all); emit('locations', Object.values(all)); return; }
     await db.doc('locations/' + id).delete();
   }
-  return { init, on, getCatalog, saveCatalog, saveLocation, deleteLocation, get db() { return db; } };
+  async function saveAlias(a) {
+    if (!db) { const all = ls.get('ic_aliases', {}); all[a.id] = a; ls.set('ic_aliases', all); emit('aliases', Object.values(all)); return; }
+    const b = { ...a }; delete b.id; await db.doc('aliases/' + a.id).set(b);
+  }
+  async function deleteAlias(id) {
+    if (!db) { const all = ls.get('ic_aliases', {}); delete all[id]; ls.set('ic_aliases', all); emit('aliases', Object.values(all)); return; }
+    await db.doc('aliases/' + id).delete();
+  }
+  return { init, on, getCatalog, saveCatalog, saveLocation, deleteLocation, saveAlias, deleteAlias, get db() { return db; } };
 })();
 
 /* ---------------- write queue (one in-flight write per location) ---------------- */
@@ -492,8 +522,16 @@ function resolveScan(raw) {
   raw = normCode(raw);
   const exact = findByCode(raw); if (exact) return { item: exact, code: exact.code, lot: '', expiry: '', raw };
   const g = parseGS1(raw);
-  if (g) { const it = findByCode(g.gtin); return { item: it, code: it ? it.code : stripZeros(g.gtin), lot: g.lot, expiry: g.expiry, serial: g.serial, raw, gs1: g }; }
+  if (g) { const it = findByCode(g.gtin) || aliasItem(stripZeros(normKey(g.gtin)), true); return { item: it, code: it ? it.code : stripZeros(g.gtin), lot: g.lot, expiry: g.expiry, serial: g.serial, raw, gs1: g }; }
   const k = normKey(raw);
+  for (const a of state.aliases) {
+    const pat = normKey(a.pattern); if (!pat) continue;
+    if (a.kind === 'exact' ? k === pat : k.startsWith(pat)) {
+      const it = aliasTarget(a); if (!it) continue;
+      const rest = a.kind === 'exact' ? '' : raw.slice(pat.length).replace(/^[\s\-_/|.]+|[\s\-_/|.]+$/g, '');
+      return { item: it, code: it.code, lot: rest, expiry: '', raw, alias: a };
+    }
+  }
   if (k.length >= 10 && state.codesByLen) {
     for (const [c, it] of state.codesByLen) {
       const at = k.indexOf(c); if (at < 0) continue;
@@ -503,6 +541,8 @@ function resolveScan(raw) {
   }
   return { item: null, code: raw, lot: '', expiry: '', raw };
 }
+function aliasTarget(a) { return findByCode(a.code) || (state.byKey && state.byKey.get(a.target)) || null; }
+function aliasItem(k, exactOnly) { for (const a of state.aliases) { const pat = normKey(a.pattern); if (pat && (a.kind === 'exact' || !exactOnly) && (a.kind === 'exact' ? k === pat : k.startsWith(pat))) { const it = aliasTarget(a); if (it) return it; } } return null; }
 function catalogFor(line) { return (line.code ? findByCode(line.code) : null) || (state.byKey && state.byKey.get(lineKey(line.code, line.name))) || null; }
 function findByCode(code) {
   const k = normKey(code); if (!k) return null;
@@ -532,6 +572,13 @@ function renderCatalogInfo() {
   $('#catDate').textContent = state.meta && state.meta.updatedAt ? fmtT(state.meta.updatedAt) + (state.meta.updatedBy ? ' · ' + state.meta.updatedBy : '') : '—';
   const sup = new Set(state.catalog.map(i => i.supplier || '').filter(Boolean));
   $('#catSuppliers').textContent = sup.size ? fmtN(sup.size) : '—';
+}
+Store.on('aliases', list => { state.aliases = (list || []).slice().sort((a, b) => String(b.pattern).length - String(a.pattern).length); renderAliases(); });
+function renderAliases() {
+  const rows = state.aliases.slice().sort((a, b) => (b.ts || 0) - (a.ts || 0));
+  $('#noAliases').hidden = rows.length > 0;
+  $('#aliasRows').innerHTML = rows.map(a => `<tr><td dir="ltr" style="text-align:start">${esc(a.pattern)}</td><td>${a.kind === 'prefix' ? 'תחילית + אצווה' : 'מדויק'}</td><td>${esc(a.name || a.code)}</td><td><button type="button" class="btn sm" data-del-alias="${esc(a.id)}">הסר</button></td></tr>`).join('');
+  $('#aliasRows').querySelectorAll('[data-del-alias]').forEach(b => b.addEventListener('click', async () => { try { await Store.deleteAlias(b.dataset.delAlias); } catch (e) { toast('ההסרה נכשלה: ' + (e.message || e), true); } }));
 }
 Store.on('meta', async meta => {
   if (meta === undefined) { toast('לא הצלחנו להגיע לשרת המאגר. בודקים שוב…', true); return; }
@@ -666,10 +713,43 @@ function handleItemScan(v) {
   if (r.item) { addLine(r.item, { src: 'scan', lot: r.lot, expiry: r.expiry }); hideUnknown(); return; }
   showUnknown(v, r);
 }
+let unk = null; // {raw, gs1, cut}
 function showUnknown(code, r) {
-  const g = r && r.gs1; $('#unkCode').textContent = g ? `${g.gtin} (מתוך ברקוד משולב${g.lot ? ', אצווה ' + g.lot : ''})` : code;
+  const g = r && r.gs1; unk = { raw: code, gs1: g || null, cut: code.length };
+  $('#unkCode').textContent = g ? `${g.gtin} (מתוך ברקוד משולב${g.lot ? ', אצווה ' + g.lot : ''})` : code;
+  $('#unkSplitWrap').hidden = !!g || code.length < 4;
+  const cut = $('#unkCut'); cut.max = code.length; cut.value = code.length; renderSplit();
+  $('#unkLink').value = ''; $('#unkResults').hidden = true;
   $('#unkName').value = ''; $('#unknownCard').hidden = false; $('#unknownCard').dataset.code = g ? stripZeros(g.gtin) : code; $('#unknownCard').dataset.lot = g ? g.lot : ''; $('#unknownCard').dataset.expiry = g ? g.expiry : ''; $('#unknownCard').dataset.raw = code; if (navigator.vibrate) try { navigator.vibrate([80, 60, 80]); } catch {} }
-function hideUnknown() { $('#unknownCard').hidden = true; }
+function hideUnknown() { $('#unknownCard').hidden = true; unk = null; }
+function renderSplit() {
+  if (!unk) return; const n = +$('#unkCut').value; unk.cut = n;
+  $('#unkPre').textContent = unk.raw.slice(0, n); $('#unkRest').textContent = unk.raw.slice(n);
+}
+$('#unkCut').addEventListener('input', renderSplit);
+let unkT;
+$('#unkLink').addEventListener('input', () => { clearTimeout(unkT); unkT = setTimeout(renderUnkResults, 60); });
+function renderUnkResults() {
+  const q = $('#unkLink').value.trim(); const box = $('#unkResults');
+  if (!q) { box.hidden = true; return; }
+  const res = search(q, 12);
+  box.innerHTML = res.length ? res.map((it, i) => `<button type="button" data-i="${i}"><span class="nm">${hl(it.name, q)}</span><span class="cd">${hl(it.code, q)}${it.supplier ? ' · ' + hl(it.supplier, q) : ''}</span></button>`).join('') : '<button type="button" disabled>לא נמצאו פריטים מתאימים</button>';
+  box.hidden = false;
+  box.querySelectorAll('button[data-i]').forEach(b => b.addEventListener('click', () => linkUnknown(res[+b.dataset.i])));
+}
+async function linkUnknown(it) {
+  if (!unk) return;
+  const isG = !!unk.gs1;
+  const pattern = isG ? stripZeros(unk.gs1.gtin) : unk.raw.slice(0, unk.cut);
+  const rest = isG ? unk.gs1.lot : unk.raw.slice(unk.cut).replace(/^[\s\-_/|.]+|[\s\-_/|.]+$/g, '');
+  const kind = isG || unk.cut >= unk.raw.length ? 'exact' : 'prefix';
+  const alias = { id: hexId(normKey(pattern)), pattern, kind, code: it.code || '', target: lineKey(it.code, it.name), name: it.name, createdBy: state.deviceName, ts: Date.now() };
+  state.aliases = [alias].concat(state.aliases.filter(a => a.id !== alias.id)).sort((a, b) => String(b.pattern).length - String(a.pattern).length);
+  addLine(it, { src: 'scan', lot: rest, expiry: isG ? unk.gs1.expiry : '' });
+  hideUnknown(); focusScan();
+  try { await Store.saveAlias(alias); toast(kind === 'prefix' ? `נשמר: כל ברקוד שמתחיל ב-${pattern} יזוהה כ"${it.name}"` : `נשמר: הברקוד ${pattern} מקושר ל"${it.name}"`); }
+  catch (e) { console.error(e); toast('הקישור לא נשמר לשרת: ' + (e.message || e.code || e), true); }
+}
 $('#unkAdd').addEventListener('click', () => { const d = $('#unknownCard').dataset; addLine(null, { code: d.code, name: $('#unkName').value.trim(), src: 'unknown', lot: d.lot, expiry: d.expiry, raw: d.raw }); hideUnknown(); focusScan(); });
 $('#unkCancel').addEventListener('click', () => { hideUnknown(); focusScan(); });
 
@@ -698,7 +778,7 @@ function promptQty(key, line) {
 function focusScan() {
   if (!$('#view-count').hidden && $('#sheet').hidden) {
     const el = state.current ? $('#itemScan') : $('#locScan');
-    if (el && document.activeElement !== $('#itemSearch') && document.activeElement !== $('#locManual') && document.activeElement !== $('#unkName')) el.focus({ preventScroll: true });
+    if (el && document.activeElement !== $('#itemSearch') && document.activeElement !== $('#locManual') && document.activeElement !== $('#unkName') && document.activeElement !== $('#unkLink')) el.focus({ preventScroll: true });
   }
 }
 $('#locScan').addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === 'Tab') { e.preventDefault(); const v = e.target.value; e.target.value = ''; handleLocationScan(v); } });
@@ -880,6 +960,7 @@ function buildWorkbook(onlyDone) {
   const notCounted = state.catalog.filter(it => !countedKeys.has(lineKey(it.code, it.name))).sort(bySupplier);
   add('לא נספרו', [['ספק', 'ברקוד', 'שם פריט', 'נוסף']].concat(notCounted.map(it => [sup(it.supplier), it.code, it.name, it.extra || ''])), [18, 16, 36, 14]);
   const unk = list.filter(a => a.unknown);
+  add('קישורי ברקוד', [['ברקוד / תחילית', 'סוג', 'ברקוד בקטלוג', 'שם פריט']].concat(state.aliases.map(a => [a.pattern, a.kind === 'prefix' ? 'תחילית + אצווה' : 'מדויק', a.code, a.name])), [28, 14, 16, 36]);
   add('לא מזוהים', [['ברקוד', 'תיאור שהוקלד', 'סה״כ כמות', 'איתורים']].concat(unk.map(a => [a.code, a.name, a.qty, Array.from(a.locs, ([c, q]) => `${c}: ${q}`).join(' | ')])), [18, 30, 10, 40]);
   return wb;
 }
