@@ -184,10 +184,16 @@ class History:
         """LG-CAL-YYYY-NNNN, sequential within the calendar year."""
         year = (on or date.today()).year
         prefix = f"{DOC_PREFIX}-{year}-"
-        row = self._conn.execute(
-            "SELECT document_no FROM calibrations WHERE document_no LIKE ? "
-            "ORDER BY document_no DESC LIMIT 1", (prefix + "%",)).fetchone()
-        last = int(row["document_no"].rsplit("-", 1)[1]) if row else 0
+        # Highest sequence number in this year. Recalibration numbers carry an
+        # "-R1" suffix and edited numbers may carry anything, so parse with a
+        # pattern instead of trusting the last "-" segment.
+        pattern = re.compile(re.escape(prefix) + r"(\d+)(?:-R\d+)?$")
+        last = 0
+        for row in self._conn.execute("SELECT document_no FROM calibrations WHERE document_no LIKE ?",
+                                      (prefix + "%",)):
+            m = pattern.match(row["document_no"].strip())
+            if m:
+                last = max(last, int(m.group(1)))
         return f"{prefix}{last + 1:04d}"
 
     def add(self, rec: CalibrationRecord) -> int:

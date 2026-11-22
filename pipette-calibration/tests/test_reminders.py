@@ -235,3 +235,14 @@ def test_same_customer_same_day(tmp_path):
     assert [r.serial_no for r in h.same_customer_same_day(h.get(a.id))] == ["SN-1"]
     assert [r.serial_no for r in h.same_customer_same_day(h.get(e.id))] == ["SN-5"]
     h.close()
+
+
+def test_next_document_number_ignores_recalibration_suffix(tmp_path):
+    h = History(tmp_path / "h.sqlite")
+    h.add(_rec("LG-CAL-2026-0003", "SN-1", "2026-11-22", "2027-11-22"))
+    h.add(_rec("LG-CAL-2026-0003-R1", "SN-1", "2026-11-22", "2027-11-22"))      # sorts last as a string
+    h.add(_rec("LG-CAL-2026-custom", "SN-9", "2026-11-22", "2027-11-22"))       # hand-edited number
+    assert h.next_document_number(date(2026, 12, 1)) == "LG-CAL-2026-0004"
+    h.add(_rec("LG-CAL-2026-0010-R2", "SN-2", "2026-11-22", "2027-11-22"))
+    assert h.next_document_number(date(2026, 12, 1)) == "LG-CAL-2026-0011"
+    h.close()
