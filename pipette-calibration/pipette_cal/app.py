@@ -742,20 +742,22 @@ class App(tk.Tk):
         self.reminder_info = tk.Label(top, text="", bg=p["surface"], fg=p["muted"], font=self.f_small)
         self.reminder_info.pack(side="right", padx=10)
         actions = tk.Frame(card.body, bg=p["surface"])
-        actions.pack(fill="x", pady=(0, 8))
-        Button(actions, self, "Re-create PDF", self._history_pdf, "primary").pack(side="left")
-        Button(actions, self, "Load into form", self._history_load, "secondary").pack(side="left", padx=8)
+        actions.pack(fill="x", pady=(0, 6))
         Button(actions, self, "Continue customer", self._history_continue_customer, "success").pack(side="left")
         Button(actions, self, "Email selected", self._history_email_selected, "secondary").pack(side="left", padx=8)
-        Button(actions, self, "Edit customer", self._history_edit_customer, "secondary").pack(side="left")
-        Button(actions, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left", padx=8)
-        Button(actions, self, "Send reminder now", self._history_send_reminder, "secondary").pack(side="left")
-        Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left", padx=8)
-        tk.Label(card.body, text="Continue customer: the selected calibrations go into the e-mail batch and the next "
-                                 "pipette of that customer can be measured; Email then sends all certificates together.",
-                 bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x")
-        tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
-                 bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x", pady=(0, 4))
+        Button(actions, self, "Re-create PDF", self._history_pdf, "primary").pack(side="left")
+        Button(actions, self, "Load into form", self._history_load, "secondary").pack(side="left", padx=8)
+        tk.Label(actions, text="Continue customer: the selected certificates go back into the e-mail batch, "
+                               "then measure the next pipette and press Email.",
+                 bg=p["surface"], fg=p["muted"], font=self.f_small).pack(side="left", padx=6)
+        admin = tk.Frame(card.body, bg=p["surface"])
+        admin.pack(fill="x", pady=(0, 6))
+        Button(admin, self, "Edit customer", self._history_edit_customer, "secondary").pack(side="left")
+        Button(admin, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left", padx=8)
+        Button(admin, self, "Send reminder now", self._history_send_reminder, "secondary").pack(side="left")
+        Button(admin, self, "Delete", self._history_delete, "danger").pack(side="left", padx=8)
+        tk.Label(admin, text="Select one row, or several with Ctrl / Shift.",
+                 bg=p["surface"], fg=p["muted"], font=self.f_small).pack(side="left", padx=6)
         cols = ("document", "date", "model", "serial", "customer", "contact", "email", "verdict", "next", "reminder")
         table = tk.Frame(card.body, bg=p["surface"])
         table.pack(fill="both", expand=True)
