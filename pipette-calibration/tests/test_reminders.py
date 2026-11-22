@@ -189,3 +189,20 @@ def test_certificate_email_is_hebrew_and_personal():
     b.verdict = "FAIL"
     subject, body, _ = certificate_email([a, b], "", "מעבדת הדסה", "naama@lifegene.co.il")
     assert "2 פיפטורים" in subject and body.startswith("שלום רב,") and "לא תקין (FAIL)" in body
+
+
+def test_recalibration_numbers_and_supersede(tmp_path):
+    h = History(tmp_path / "h.sqlite")
+    a = _rec("LG-CAL-2026-0003", "GK1", "2026-11-22", "2027-11-22")
+    a.verdict = "FAIL"
+    h.add(a)
+    assert h.recalibration_document_number("LG-CAL-2026-0003") == "LG-CAL-2026-0003-R1"
+    b = _rec("LG-CAL-2026-0003-R1", "GK1", "2026-11-22", "2027-11-22")
+    h.add(b)
+    assert h.recalibration_document_number("LG-CAL-2026-0003-R1") == "LG-CAL-2026-0003-R2"
+    h.mark_superseded(a.id, b.document_no)
+    old = h.get(a.id)
+    assert old.no_reminder is True and old.payload["superseded_by"] == "LG-CAL-2026-0003-R1"
+    # only the recalibration is considered for reminders
+    assert [r.document_no for r in h.due_for_reminder(30, date(2027, 11, 1))] == ["LG-CAL-2026-0003-R1"]
+    h.close()

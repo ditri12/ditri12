@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import dataclasses
 import json
+import re
 import logging
 import os
 import sqlite3
@@ -263,6 +264,26 @@ class History:
             n += 1
         self._conn.commit()
         return n
+
+    def mark_superseded(self, record_id: int, by_document_no: str) -> None:
+        """A failed (as-found) attempt replaced by a recalibration after adjustment:
+        excluded from reminders and labelled in the history."""
+        row = self._conn.execute("SELECT payload FROM calibrations WHERE id = ?", (record_id,)).fetchone()
+        if not row:
+            return
+        payload = json.loads(row["payload"])
+        payload["superseded_by"] = by_document_no
+        self._conn.execute("UPDATE calibrations SET payload = ?, no_reminder = 1 WHERE id = ?",
+                           (json.dumps(payload), record_id))
+        self._conn.commit()
+
+    def recalibration_document_number(self, original: str) -> str:
+        """LG-CAL-2026-0003 -> LG-CAL-2026-0003-R1 (R2, R3 ... if those exist already)."""
+        base = re.sub(r"-R\d+$", "", original.strip())
+        n = 1
+        while self._conn.execute("SELECT 1 FROM calibrations WHERE document_no = ?", (f"{base}-R{n}",)).fetchone():
+            n += 1
+        return f"{base}-R{n}"
 
     def set_no_reminder(self, record_ids: list[int], value: bool) -> None:
         if record_ids:

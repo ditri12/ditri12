@@ -217,6 +217,7 @@ class App(tk.Tk):
         self.current_record: CalibrationRecord | None = None
         self.pdf_path: Path | None = None
         self.batch: list[CalibrationRecord] = []       # finished pipettes waiting for one e-mail
+        self.recal_of: CalibrationRecord | None = None  # as-found attempt the current run replaces
         self._next_date_auto = True
         self.current_tab = tk.StringVar(value=TABS[0])
 
@@ -464,6 +465,8 @@ class App(tk.Tk):
         Button(inner, self, "New calibration", self._new_calibration, "secondary").pack(side="left")
         self.btn_add = Button(inner, self, "Add another pipette", self._add_another_pipette, "secondary")
         self.btn_add.pack(side="left", padx=8)
+        self.btn_recal = Button(inner, self, "Recalibrate (after adjustment)", self._recalibrate, "secondary")
+        self.btn_recal.pack(side="left")
         self.btn_calc = Button(inner, self, "Calculate", self._calculate, "success")
         self.btn_calc.pack(side="right")
         self.btn_pdf = Button(inner, self, "Save PDF", self._save_pdf, "primary")
@@ -1220,7 +1223,9 @@ class App(tk.Tk):
             place=self.cfg.place_of_calibration, comments=self.v_comments.get(),
             series=self.series(), procedure=self.cfg.procedure, logo_path=self._logo_path(),
             signature_path=self._signature_path(), signer_name=self.cfg.signer_name,
-            customer=self.v_customer.get().strip())
+            customer=self.v_customer.get().strip(),
+            as_found_document=self.recal_of.document_no if self.recal_of else "",
+            as_found_verdict=self.recal_of.verdict if self.recal_of else "")
 
     def _calculate(self):
         try:
@@ -1262,9 +1267,15 @@ class App(tk.Tk):
                                 customer=payload["customer"], customer_email=payload["customer_email"],
                                 next_calibration=info.next_calibration_date.isoformat(),
                                 no_reminder=self.v_no_reminder.get(), contact_name=payload["contact_name"])
+        if self.recal_of:
+            payload["as_found_document"] = self.recal_of.document_no
+            payload["as_found_verdict"] = self.recal_of.verdict
         try:
             self.history.add(rec)
             self.current_record = rec
+            if self.recal_of and self.recal_of.id is not None:
+                self.history.mark_superseded(self.recal_of.id, rec.document_no)
+                # keep self.recal_of: Save PDF / Print of this result still need the as-found line
         except Exception as exc:  # noqa: BLE001 - duplicate document number etc.
             log.warning("history: %s", exc)
             messagebox.showwarning("History", f"The calibration was not stored in the history:\n{exc}\n\n"
@@ -1397,7 +1408,7 @@ class App(tk.Tk):
 
     def _refresh_output_buttons(self):
         have = self.result is not None
-        for b in (self.btn_pdf, self.btn_print, self.btn_email, self.btn_add):
+        for b in (self.btn_pdf, self.btn_print, self.btn_email, self.btn_add, self.btn_recal):
             b.set_enabled(have or (b is self.btn_email and bool(self.batch)))
         if self._ready("batch_info"):
             if self.batch:
@@ -1417,6 +1428,7 @@ class App(tk.Tk):
             self.batch.append(self.current_record)
         self.weights = {lv: [] for lv in LEVELS}
         self.result, self.pdf_path, self.current_record = None, None, None
+        self.recal_of = None
         self._auto_armed, self._auto_run = True, []
         self.v_serial.set("")
         self.v_comments.set("")
@@ -1431,6 +1443,39 @@ class App(tk.Tk):
         self.after(100, lambda: messagebox.showinfo(
             "Batch", f"{len(self.batch)} pipette(s) kept for the e-mail. Enter the next serial number, "
                      "measure, and press Email when the last one is done.", parent=self))
+
+    def _recalibrate(self):
+        """The pipette just measured failed (or needs a repeat): keep everything
+        about it, clear the 12 weights and measure again under a document
+        number derived from the first one (…-R1). The first attempt stays in
+        the history as the as-found result, marked as superseded."""
+        if not self.result or not self.current_record:
+            messagebox.showinfo("Recalibrate", "Calculate the current pipette first.", parent=self)
+            return
+        verdict = self.result.verdict
+        if not messagebox.askyesno(
+                "Recalibrate", f"Result of {self.current_record.document_no}: {verdict}.\n\n"
+                               "Start a new measurement of the SAME pipette after adjustment?\n"
+                               "The current result is kept in the history as the as-found result and "
+                               "will not be used for reminders; the new certificate gets the number "
+                               f"{self.history.recalibration_document_number(self.current_record.document_no)}.",
+                parent=self, icon="question"):
+            return
+        self.recal_of = self.current_record
+        if self.current_record in self.batch:
+            self.batch.remove(self.current_record)
+        self.v_doc.set(self.history.recalibration_document_number(self.current_record.document_no))
+        self.weights = {lv: [] for lv in LEVELS}
+        self.result, self.pdf_path, self.current_record = None, None, None
+        self._auto_armed, self._auto_run, self._auto_above_since = True, [], None
+        self.verdict_label.config(text="Recalibration in progress", fg=self.p["amber"])
+        self.verdict_sub.config(text=f"As found: {verdict} ({self.recal_of.document_no}). "
+                                     "Measure the 12 drops again after adjusting the pipette.", fg=self.p["muted"])
+        self._refresh_slots()
+        self._refresh_sidebar()
+        self._refresh_output_buttons()
+        self._refresh_auto_labels()
+        self._show_tab("Measurements")
 
     def _batch_records(self) -> list[CalibrationRecord]:
         """Everything that goes into the e-mail: the batch plus the current result."""
@@ -1454,6 +1499,7 @@ class App(tk.Tk):
         self.weights = {lv: [] for lv in LEVELS}
         self.result, self.pdf_path, self.current_record = None, None, None
         self.batch = []
+        self.recal_of = None
         self._auto_armed, self._auto_run = True, []
         self._refresh_auto_labels()
         self.v_serial.set("")
@@ -1503,7 +1549,9 @@ class App(tk.Tk):
                 sent_at, sent_to = mark
                 reminder = (f"skipped {sent_at[:10]}" if sent_to.startswith("not sent") else
                             f"sent {sent_at[:10]} to {sent_to.split(';')[0]}" + (" (manual)" if "(manual)" in sent_to else ""))
-            if rec.no_reminder:
+            if rec.payload.get("superseded_by"):
+                reminder = f"as found - replaced by {rec.payload['superseded_by']}"
+            elif rec.no_reminder:
                 reminder = "OFF" + (f"  ({reminder})" if reminder else "")
             nxt = rec.next_calibration or rec.payload.get("next_calibration_date", "")
             try:
@@ -1660,7 +1708,8 @@ class App(tk.Tk):
             next_calibration_date=date.fromisoformat(pl["next_calibration_date"]),
             serial_no=pl["serial_no"], tip=pl["tip"], operator=pl.get("operator", ""),
             balance_id=pl.get("balance_id", ""), place=pl.get("place", ""), comments=pl.get("comments", ""),
-            series=series, procedure=pl.get("procedure", ""), customer=pl.get("customer", ""))
+            series=series, procedure=pl.get("procedure", ""), customer=pl.get("customer", ""),
+            as_found_document=pl.get("as_found_document", ""), as_found_verdict=pl.get("as_found_verdict", ""))
         return info, result
 
     def _history_pdf(self):

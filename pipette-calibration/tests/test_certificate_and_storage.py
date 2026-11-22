@@ -88,3 +88,11 @@ def test_certificate_with_hebrew_customer_and_comments(tmp_path):
     data = build_certificate(tmp_path / "he.pdf", info, res).read_bytes()
     assert data.count(b"/Type /Page") - data.count(b"/Type /Pages") == 2
     assert b"DejaVuSans" in data                                # the Unicode font is embedded
+
+
+def test_certificate_shows_as_found_result(tmp_path):
+    res = _result()
+    info = CertificateInfo("LG-CAL-2026-0003-R1", date(2026, 11, 22), date(2027, 11, 22), "GK1", "DF200",
+                           as_found_document="LG-CAL-2026-0003", as_found_verdict="FAIL")
+    data = build_certificate(tmp_path / "r1.pdf", info, res).read_bytes()
+    assert data.count(b"/Type /Page") - data.count(b"/Type /Pages") == 2

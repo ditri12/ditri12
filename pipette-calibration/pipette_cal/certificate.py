@@ -119,6 +119,8 @@ class CertificateInfo:
     series: str = "Classic"          # PIPETMAN series: Classic / Neo / L / Multi
     procedure: str = ""              # "Standard" line, printed when set
     customer: str = ""               # customer / department, printed when set
+    as_found_document: str = ""      # for a recalibration after adjustment: the as-found attempt
+    as_found_verdict: str = ""
     logo_path: Path | None = None
     signature_path: Path | None = None   # image of the operator's signature (optional)
     signer_name: str = ""                # printed next to the signature; defaults to operator
@@ -369,6 +371,9 @@ def build_certificate(path: str | Path, info: CertificateInfo, result: Calibrati
                  ("Measurements:", f"{len(result.levels[0].weights_g)} per test volume"), ("Mass unit:", "g")]
     if info.procedure.strip():
         cal_pairs.append(("Standard:", info.procedure.strip()))
+    if info.as_found_document.strip():
+        cal_pairs.append(("As found:", f"{info.as_found_verdict or '-'} ({info.as_found_document}) - "
+                                       "adjusted and recalibrated"))
     cal_pairs.append(("Recommended next calibration:", info.next_calibration_date.strftime(DATE_FMT)))
     cols = Table([[
         _info_column("Pipettes data", [

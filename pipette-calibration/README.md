@@ -107,6 +107,12 @@ without Outlook the default mail client opens instead.
    **Add another pipette** keeps the finished pipette aside and starts the
    next one for the same customer; Email then attaches one PDF per pipette
    in a single message (Save PDF / Print handle all of them too).
+   **Recalibrate (after adjustment)** is for a pipette that failed: adjust
+   it and measure the same pipette again. Everything stays filled in, the
+   new run gets the number of the first one with "-R1" (then -R2 ...), the
+   certificate carries an "As found: FAIL (LG-CAL-...)" line, and the first
+   attempt stays in the history marked "as found - replaced by ...", excluded
+   from reminders and from the e-mail.
 5. **History** - search past calibrations (also by customer), re-create a
    PDF, load one back into the form, **Delete** one or several rows
    (Ctrl / Shift to multi-select, with confirmation), or switch the
