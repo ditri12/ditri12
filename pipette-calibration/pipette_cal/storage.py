@@ -312,6 +312,29 @@ class History:
                            (email.strip(), now_iso(), ", ".join(document_nos)))
         self._conn.commit()
 
+    def get_by_document(self, document_no: str) -> CalibrationRecord | None:
+        row = self._conn.execute("SELECT * FROM calibrations WHERE document_no = ?",
+                                 (document_no.strip(),)).fetchone()
+        return self._to_record(row) if row else None
+
+    def replace(self, rec: CalibrationRecord) -> int:
+        """Overwrite the record that has rec.document_no (same pipette calculated
+        again, e.g. after a corrected weight). Returns its id."""
+        existing = self.get_by_document(rec.document_no)
+        if existing is None:
+            return self.add(rec)
+        self._conn.execute(
+            "UPDATE calibrations SET calibrated_at = ?, model = ?, serial_no = ?, tip = ?, verdict = ?, "
+            "operator = ?, payload = ?, customer = ?, customer_email = ?, next_calibration = ?, "
+            "no_reminder = ?, contact_name = ? WHERE id = ?",
+            (rec.calibrated_at, rec.model, rec.serial_no, rec.tip, rec.verdict, rec.operator,
+             json.dumps(rec.payload), rec.customer, rec.customer_email,
+             rec.next_calibration or rec.payload.get("next_calibration_date", ""), int(rec.no_reminder),
+             rec.contact_name, existing.id))
+        self._conn.commit()
+        rec.id = existing.id
+        return rec.id
+
     def get(self, record_id: int) -> CalibrationRecord | None:
         row = self._conn.execute("SELECT * FROM calibrations WHERE id = ?",
                                  (record_id,)).fetchone()

@@ -218,6 +218,7 @@ class App(tk.Tk):
         self.pdf_path: Path | None = None
         self.batch: list[CalibrationRecord] = []       # finished pipettes waiting for one e-mail
         self.recal_of: CalibrationRecord | None = None  # as-found attempt the current run replaces
+        self._loading = False                           # True while a history record fills the form
         self._next_date_auto = True
         self.current_tab = tk.StringVar(value=TABS[0])
 
@@ -799,6 +800,13 @@ class App(tk.Tk):
     def _on_serial_change(self):
         if not self._ready("serial_info"):
             return
+        # A different serial number typed after a finished calibration means the
+        # next pipette of the same customer: keep the finished one for the e-mail
+        # and start a new measurement, exactly like "Add another pipette".
+        if (self.result is not None and self.current_record is not None and not self._loading
+                and self.v_serial.get().strip() != self.current_record.serial_no.strip()):
+            typed = self.v_serial.get()
+            self._start_next_pipette(keep_serial=typed)
         rec = self.history.last_for_serial(self.v_serial.get())
         if rec:
             self.serial_info.config(text=f"Previous calibration of this serial: {rec.document_no} "
@@ -1271,8 +1279,22 @@ class App(tk.Tk):
             payload["as_found_document"] = self.recal_of.document_no
             payload["as_found_verdict"] = self.recal_of.verdict
         try:
-            self.history.add(rec)
+            existing = self.history.get_by_document(rec.document_no)
+            if existing is None:
+                self.history.add(rec)
+            elif (self.current_record and existing.id == self.current_record.id) or \
+                    existing.serial_no.strip() == rec.serial_no.strip():
+                # the same pipette calculated again: overwrite its record
+                self.history.replace(rec)
+            else:
+                # the number belongs to another pipette: take the next free number instead
+                rec.document_no = self.history.next_document_number()
+                payload["document_no"] = rec.document_no
+                self.v_doc.set(rec.document_no)
+                self.history.add(rec)
+                log.info("document number was taken by %s - stored as %s", existing.serial_no, rec.document_no)
             self.current_record = rec
+            self._refresh_sidebar()
             if self.recal_of and self.recal_of.id is not None:
                 self.history.mark_superseded(self.recal_of.id, rec.document_no)
                 # keep self.recal_of: Save PDF / Print of this result still need the as-found line
@@ -1292,7 +1314,9 @@ class App(tk.Tk):
             f"Gilson {full_model_name(result.spec, self.series())}  ·  S/N {self.v_serial.get().strip()}  ·  "
             f"Z = {result.z:.5f} µL/mg\n"
             + ("All test volumes are within the acceptance limits." if ok else
-               f"Out of limits at: {', '.join(failed)}.")), fg=p["text"])
+               f"Out of limits at: {', '.join(failed)}.  Adjust and press 'Recalibrate (after adjustment)'.")
+            + "\nNext pipette of the same customer: type its serial number (or press 'Add another pipette'); "
+              "Email sends all certificates together."), fg=p["text"])
         for lv in result.levels:
             c = self.result_cards[lv.level]
             c["nominal"].config(text=f"nominal {lv.nominal_ul:g} µL")
@@ -1424,13 +1448,24 @@ class App(tk.Tk):
         if not self.result or not self.current_record:
             messagebox.showinfo("Batch", "Calculate the current pipette first.", parent=self)
             return
-        if self.current_record not in self.batch:
+        self._start_next_pipette(keep_serial="")
+        self._show_tab("Setup")
+        self.after(100, lambda: messagebox.showinfo(
+            "Batch", f"{len(self.batch)} pipette(s) kept for the e-mail. Enter the next serial number, "
+                     "measure, and press Email when the last one is done.", parent=self))
+
+    def _start_next_pipette(self, keep_serial: str):
+        """Move the finished pipette into the e-mail batch and prepare the form
+        for the next one of the same customer (customer, contact, e-mail and
+        environment stay; weights, comments and document number are new)."""
+        if self.current_record and self.current_record not in self.batch:
             self.batch.append(self.current_record)
         self.weights = {lv: [] for lv in LEVELS}
         self.result, self.pdf_path, self.current_record = None, None, None
         self.recal_of = None
-        self._auto_armed, self._auto_run = True, []
-        self.v_serial.set("")
+        self._auto_armed, self._auto_run, self._auto_above_since = True, [], None
+        if self.v_serial.get() != keep_serial:
+            self.v_serial.set(keep_serial)
         self.v_comments.set("")
         self.v_doc.set(self.history.next_document_number())
         self.verdict_label.config(text="No results yet", fg=self.p["muted"])
@@ -1439,10 +1474,8 @@ class App(tk.Tk):
         self._refresh_sidebar()
         self._refresh_output_buttons()
         self._refresh_auto_labels()
-        self._show_tab("Setup")
-        self.after(100, lambda: messagebox.showinfo(
-            "Batch", f"{len(self.batch)} pipette(s) kept for the e-mail. Enter the next serial number, "
-                     "measure, and press Email when the last one is done.", parent=self))
+        if self._ready("batch_info") and self.batch:
+            self.batch_info.config(fg=self.p["green"])
 
     def _recalibrate(self):
         """The pipette just measured failed (or needs a repeat): keep everything
@@ -1742,6 +1775,7 @@ class App(tk.Tk):
         except (KeyError, ValueError) as exc:
             messagebox.showerror("History", f"This record cannot be loaded: {exc}", parent=self)
             return
+        self._loading = True
         self.v_model.set(full_model_name(result.spec, info.series))
         self.v_tip.set(info.tip)
         self.v_serial.set(info.serial_no)
@@ -1760,6 +1794,7 @@ class App(tk.Tk):
         self.v_balance.set(info.balance_id)
         self.weights = {lv: list(result.level(lv).weights_g) for lv in LEVELS}
         self.result, self.pdf_path, self.current_record = result, None, rec
+        self._loading = False
         self._show_results(result)
         self._refresh_slots()
         self._refresh_sidebar()

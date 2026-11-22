@@ -206,3 +206,16 @@ def test_recalibration_numbers_and_supersede(tmp_path):
     # only the recalibration is considered for reminders
     assert [r.document_no for r in h.due_for_reminder(30, date(2027, 11, 1))] == ["LG-CAL-2026-0003-R1"]
     h.close()
+
+
+def test_replace_and_get_by_document(tmp_path):
+    h = History(tmp_path / "h.sqlite")
+    a = _rec("LG-CAL-2026-0001", "SN-1", "2026-11-22", "2027-11-22")
+    h.add(a)
+    assert h.get_by_document("LG-CAL-2026-0001").serial_no == "SN-1"
+    again = _rec("LG-CAL-2026-0001", "SN-1", "2026-11-22", "2027-11-22")
+    again.verdict = "FAIL"
+    assert h.replace(again) == a.id
+    assert h.get(a.id).verdict == "FAIL" and len(h.list()) == 1
+    assert h.get_by_document("nope") is None
+    h.close()

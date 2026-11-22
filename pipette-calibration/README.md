@@ -105,8 +105,11 @@ without Outlook the default mail client opens instead.
    to the contact person, with the certificate attached and your Outlook
    signature below the text.
    **Add another pipette** keeps the finished pipette aside and starts the
-   next one for the same customer; Email then attaches one PDF per pipette
-   in a single message (Save PDF / Print handle all of them too).
+   next one for the same customer; simply typing a different serial number
+   after a result does the same. Email then attaches one PDF per pipette in
+   a single message (Save PDF / Print handle all of them too). Calculating
+   the same pipette again overwrites its record instead of failing on the
+   document number.
    **Recalibrate (after adjustment)** is for a pipette that failed: adjust
    it and measure the same pipette again. Everything stays filled in, the
    new run gets the number of the first one with "-R1" (then -R2 ...), the
