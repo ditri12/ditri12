@@ -92,10 +92,11 @@ without Outlook the default mail client opens instead.
    (10.0.0.112 : 4001 by default) when it starts; *Connect* is also in the
    sidebar. The live reading is always shown. With **Auto-save when stable**
    (default) you only dispense: as soon as the balance reports a stable
-   reading that has not moved for three readings over at least 0.8 s, and
-   that is at least 30 % of the expected mass, the weight is stored, the
-   balance is tared, a beep confirms, and the next slot is armed once the pan
-   reads zero again. **Enter** or *Save reading* still save manually. *Zero* /
+   reading whose spread stays within 3 x readability + 0.01 % of the expected
+   mass for 2 s (4 s for small volumes below 15 mg, i.e. P2, P10 and the low
+   volumes of P20 and P100), and that is at least 30 % of the expected mass, the weight
+   is stored, the balance is tared, a beep confirms, and the next slot is
+   armed once the pan reads zero again. All times are in Settings. **Enter** or *Save reading* still save manually. *Zero* /
    *Tare* / *Undo last* / per-slot ✕ are available. After the 12th weight the
    results are calculated automatically.
 4. **Results** - PASS / FAIL with all figures. Nothing is saved to disk until

@@ -209,6 +209,8 @@ class App(tk.Tk):
         self.last_reading: Reading | None = None
         self._auto_armed = True            # False after a capture until the pan reads ~0 again
         self._auto_run: list[Reading] = []  # consecutive stable readings being evaluated
+        self._auto_above_since: float | None = None   # when the reading first exceeded the capture threshold
+        self._auto_recent: list[Reading] = []         # last ~1.5 s of readings, independent of band resets
         self._auto_flash_after: str | None = None
         self.weights: dict[Level, list[float]] = {lv: [] for lv in LEVELS}
         self.result: CalibrationResult | None = None
@@ -1048,13 +1050,26 @@ class App(tk.Tk):
 
         if value < min_capture:
             self._auto_run = []
+            self._auto_above_since = None
             self._refresh_auto_labels(f"READY - waiting for a drop (saves above {min_capture:.5f} g)")
             return
 
         # A run of readings counts as stable only if every reading in it stays
         # within the tolerance of the FIRST one (catches slow creep, not just
         # jumps). The tolerance follows the balance readability, not the volume.
-        tolerance = max(10 * self.cfg.balance_readability_mg / 1000.0, expected * 0.0001)
+        # Allowed spread of the window: 3 x readability plus 0.01 % of the mass.
+        # For a 1 ug balance that is ~3 ug at 0.2 mg (P2) and ~100 ug at 1 g;
+        # the old "10 x readability" floor was 5 % of a P2 drop and let a
+        # still-creeping reading pass.
+        readability_g = self.cfg.balance_readability_mg / 1000.0
+        tolerance = 4 * readability_g + expected * 0.0001
+        now = r.timestamp
+        if self._auto_above_since is None:
+            self._auto_above_since = now          # first reading above the capture threshold
+        self._auto_recent = [x for x in self._auto_recent if now - x.timestamp <= 1.5] + [r]
+        small = expected * 1000.0 < self.cfg.auto_small_mass_mg
+        need = self.cfg.auto_stable_seconds_small if small else self.cfg.auto_stable_seconds
+        unflagged_after = self.cfg.auto_unflagged_seconds_small if small else self.cfg.auto_unflagged_seconds
         if self._auto_run:
             values = [x.value_g for x in self._auto_run] + [value]
             spread = max(values) - min(values)
@@ -1064,19 +1079,32 @@ class App(tk.Tk):
         self._auto_run.append(r)
         n = len(self._auto_run)
         span = self._auto_run[-1].timestamp - self._auto_run[0].timestamp
-        flagged = r.stable and all(x.stable for x in self._auto_run[-AUTO_STABLE_READINGS:])
-        need = self.cfg.auto_stable_seconds
-        if (flagged and n >= AUTO_STABLE_READINGS and span >= need) or span >= self.cfg.auto_unflagged_seconds:
-            log.info("auto-save: capturing %.6f g after %d readings / %.1f s (balance flag stable=%s, raw=%r)",
-                     value, n, span, r.stable, r.raw)
+        flagged = r.stable and all(x.stable for x in self._auto_run)
+        # Safety net for a noisy balance whose readings never stay inside the
+        # strict band: once the drop has been on the pan for 3 x the required
+        # window, the balance has flagged the last readings stable, and the
+        # last 1.5 s stayed within three times the band, take the reading.
+        on_pan = now - self._auto_above_since
+        recent = self._auto_recent
+        recent_ok = (len(recent) >= AUTO_STABLE_READINGS and all(x.stable for x in recent)
+                     and max(x.value_g for x in recent) - min(x.value_g for x in recent) <= 3 * tolerance)
+        noisy_ok = recent_ok and on_pan >= max(3 * need, unflagged_after)
+        if noisy_ok and not (flagged and n >= AUTO_STABLE_READINGS and span >= need):
+            log.info("auto-save: noisy readings, capturing on the balance flag after %.1f s on the pan", on_pan)
+        if (flagged and n >= AUTO_STABLE_READINGS and span >= need) or span >= unflagged_after or noisy_ok:
+            log.info("auto-save: capturing %.6f g after %d readings / %.1f s (expected %.6f g, small=%s, "
+                     "tolerance %.6f g, balance flag stable=%s, raw=%r)",
+                     value, n, span, expected, small, tolerance, r.stable, r.raw)
             self._auto_run = []
+            self._auto_recent = []
+            self._auto_above_since = None
             self._auto_armed = False
             self._commit_reading(value, auto=True)
         elif not r.stable:
             self._refresh_auto_labels(f"UNSTABLE (balance flag) - unchanged {span:.1f} s, saves at "
-                                      f"{self.cfg.auto_unflagged_seconds:.1f} s")
+                                      f"{unflagged_after:.1f} s")
         else:
-            self._refresh_auto_labels(f"STABLE  {span:.1f} / {need:.1f} s ...")
+            self._refresh_auto_labels(f"STABLE  {span:.1f} / {need:.1f} s{'  (small volume)' if small else ''} ...")
 
     def _commit_reading(self, value: float, auto: bool):
         """Store *value* in the next slot, tare the balance, advance."""
@@ -1712,6 +1740,9 @@ class App(tk.Tk):
             ("Do not e-mail the same customer again within (days)", "reminder_repeat_days", int),
             ("Auto-save after stable for (s)", "auto_stable_seconds", float),
             ("Auto-save without stability flag after (s)", "auto_unflagged_seconds", float),
+            ("Small volume below (mg)", "auto_small_mass_mg", float),
+            ("Small volume: stable for (s)", "auto_stable_seconds_small", float),
+            ("Small volume: without flag after (s)", "auto_unflagged_seconds_small", float),
             ("Place of calibration", "place_of_calibration", str),
             ("Standard / procedure (on certificate)", "procedure", str),
             ("Next calibration after (months)", "next_calibration_months", int),

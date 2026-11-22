@@ -288,7 +288,7 @@ class SimulatedScale(BaseScale):
             self._pending.append(f"{cmd}_A")
         elif cmd == "SI":
             unstable = time.time() < self._settle_until
-            jitter = self._rng.gauss(0.0, 2e-6) if not unstable else self._rng.gauss(0.0, 2e-4)
+            jitter = self._rng.gauss(0.0, 0.8e-6) if not unstable else self._rng.gauss(0.0, 2e-4)
             value = self.target_g - self._offset_g + jitter
             sign = "-" if value < 0 else " "
             marker = "?" if unstable else " "

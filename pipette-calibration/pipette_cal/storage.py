@@ -57,8 +57,11 @@ class AppConfig:
     auto_connect: bool = True        # try the saved balance address when the program starts
     start_with_windows: bool = True  # register in the user's Run key (applied on first start / Settings)
     auto_capture: bool = True        # save a reading automatically once it is stable
-    auto_stable_seconds: float = 1.5     # reading must be unchanged this long (balance flag stable)
-    auto_unflagged_seconds: float = 3.0  # ... or this long when the balance never flags stable
+    auto_stable_seconds: float = 2.0     # reading must be unchanged this long (balance flag stable)
+    auto_unflagged_seconds: float = 4.0  # ... or this long when the balance never flags stable
+    auto_small_mass_mg: float = 15.0     # below this expected mass the stricter small-volume rules apply
+    auto_stable_seconds_small: float = 4.0    # stable window for small volumes (P2, P10, P20 low)
+    auto_unflagged_seconds_small: float = 8.0 # fallback without the balance flag for small volumes
     reminder_email_to: str = "naama@lifegene.co.il"   # office address: copied on every customer reminder
     email_cc: str = "naama@lifegene.co.il"            # office copy on certificate e-mails
     reminder_days_before: int = 30       # how long before the due date the reminder goes out
@@ -91,6 +94,8 @@ class AppConfig:
             cfg.operator = cls.operator          # settings saved by an earlier version
         if cfg.reminder_email_to.strip() in ("", "info@lifegene.co.il"):
             cfg.reminder_email_to = cls.reminder_email_to
+        if cfg.auto_stable_seconds <= 1.5 and cfg.auto_unflagged_seconds <= 3.0:
+            cfg.auto_stable_seconds, cfg.auto_unflagged_seconds = cls.auto_stable_seconds, cls.auto_unflagged_seconds
         return cfg
 
     def save(self) -> None:
