@@ -219,3 +219,19 @@ def test_replace_and_get_by_document(tmp_path):
     assert h.get(a.id).verdict == "FAIL" and len(h.list()) == 1
     assert h.get_by_document("nope") is None
     h.close()
+
+
+def test_same_customer_same_day(tmp_path):
+    h = History(tmp_path / "h.sqlite")
+    a = _rec("LG-CAL-2026-0001", "SN-1", "2026-11-22", "2027-11-22", "Lab A", "a@example.com")
+    b = _rec("LG-CAL-2026-0002", "SN-2", "2026-11-22", "2027-11-22", "Lab A", "A@example.com")
+    c = _rec("LG-CAL-2026-0003", "SN-3", "2026-11-21", "2027-11-21", "Lab A", "a@example.com")   # another day
+    d = _rec("LG-CAL-2026-0004", "SN-4", "2026-11-22", "2027-11-22", "Lab B", "b@example.com")
+    e = _rec("LG-CAL-2026-0005", "SN-5", "2026-11-22", "2027-11-22", "Walk-in", "")
+    for r in (a, b, c, d, e):
+        h.add(r)
+    assert [r.serial_no for r in h.same_customer_same_day(h.get(a.id))] == ["SN-1", "SN-2"]
+    h.mark_superseded(b.id, "X")
+    assert [r.serial_no for r in h.same_customer_same_day(h.get(a.id))] == ["SN-1"]
+    assert [r.serial_no for r in h.same_customer_same_day(h.get(e.id))] == ["SN-5"]
+    h.close()

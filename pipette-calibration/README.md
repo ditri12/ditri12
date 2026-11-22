@@ -117,7 +117,13 @@ without Outlook the default mail client opens instead.
    attempt stays in the history marked "as found - replaced by ...", excluded
    from reminders and from the e-mail.
 5. **History** - search past calibrations (also by customer), re-create a
-   PDF, load one back into the form, **Delete** one or several rows
+   PDF, load one back into the form, **Continue customer** to pick a
+   customer up again later (the selected calibrations, or all of that
+   customer's calibrations of the same day, go back into the e-mail batch,
+   the customer details fill the form, and the next pipette can be measured;
+   Email then sends the earlier and the new certificates together),
+   **Email selected** to e-mail any set of certificates in one message,
+   **Delete** one or several rows
    (Ctrl / Shift to multi-select, with confirmation), or switch the
    recalibration **reminders on / off** per calibration, **Edit customer** to
    fill in or correct customer, contact person and e-mail of past calibrations

@@ -745,10 +745,15 @@ class App(tk.Tk):
         actions.pack(fill="x", pady=(0, 8))
         Button(actions, self, "Re-create PDF", self._history_pdf, "primary").pack(side="left")
         Button(actions, self, "Load into form", self._history_load, "secondary").pack(side="left", padx=8)
+        Button(actions, self, "Continue customer", self._history_continue_customer, "success").pack(side="left")
+        Button(actions, self, "Email selected", self._history_email_selected, "secondary").pack(side="left", padx=8)
         Button(actions, self, "Edit customer", self._history_edit_customer, "secondary").pack(side="left")
         Button(actions, self, "Reminders on / off", self._history_toggle_reminder, "secondary").pack(side="left", padx=8)
         Button(actions, self, "Send reminder now", self._history_send_reminder, "secondary").pack(side="left")
         Button(actions, self, "Delete", self._history_delete, "danger").pack(side="left", padx=8)
+        tk.Label(card.body, text="Continue customer: the selected calibrations go into the e-mail batch and the next "
+                                 "pipette of that customer can be measured; Email then sends all certificates together.",
+                 bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x")
         tk.Label(card.body, text="Select one row, or several with Ctrl / Shift, for Delete and Reminders on / off.",
                  bg=p["surface"], fg=p["muted"], font=self.f_small, anchor="w").pack(fill="x", pady=(0, 4))
         cols = ("document", "date", "model", "serial", "customer", "contact", "email", "verdict", "next", "reminder")
@@ -1412,23 +1417,96 @@ class App(tk.Tk):
         if not records:
             messagebox.showinfo("Email", "Calculate the results first.", parent=self)
             return
+        to = self.v_customer_email.get().strip() or self.cfg.email_to
+        customer = self.v_customer.get().strip()
+        contact = self.v_contact.get().strip() or customer
+        if self._email_records(records, to, customer, contact):
+            self.batch = []
+            self._refresh_output_buttons()
+
+    def _email_records(self, records: list[CalibrationRecord], to: str, customer: str, contact: str) -> bool:
+        """One e-mail with one PDF per record. Returns True when the message was created."""
         folder = Path(tempfile.mkdtemp(prefix="lifegene_cert_"))
         try:
             paths = [self._pdf_for_record(rec, folder) for rec in records]
         except Exception as exc:  # noqa: BLE001
             messagebox.showerror("Email", f"Could not create the PDF(s):\n{exc}", parent=self)
-            return
-        to = self.v_customer_email.get().strip() or self.cfg.email_to
-        customer = self.v_customer.get().strip()
-        contact = self.v_contact.get().strip() or customer
+            return False
         subject, body, html = certificate_email(records, contact, customer, self.cfg.email_cc or "info@lifegene.co.il")
         try:
             msg = compose_email(to, subject, body, paths, cc=self.cfg.email_cc, html=html)
-            messagebox.showinfo("Email", msg, parent=self)
-            self.batch = []
-            self._refresh_output_buttons()
         except Exception as exc:  # noqa: BLE001
             messagebox.showerror("Email", str(exc), parent=self)
+            return False
+        messagebox.showinfo("Email", msg, parent=self)
+        return True
+
+    # ---- continue a customer's batch later / e-mail from the history ----------
+    def _history_continue_customer(self):
+        """Pick up a customer again: the selected calibrations (or all of that
+        customer's calibrations of the same day) go into the e-mail batch, the
+        customer details fill the form, and the next pipette can be measured.
+        Email then sends the earlier and the new certificates together."""
+        ids = self._selected_ids()
+        if not ids:
+            return
+        records = [r for r in (self.history.get(i) for i in ids) if r]
+        if len(records) == 1:
+            same_day = self.history.same_customer_same_day(records[0])
+            if len(same_day) > 1 and messagebox.askyesno(
+                    "Continue customer", f"{records[0].customer or records[0].customer_email or 'This customer'} has "
+                                         f"{len(same_day)} calibrations on {records[0].calibrated_at[:10]}.\n\n"
+                                         "Include all of them in the e-mail batch?", parent=self):
+                records = same_day
+        records = [r for r in records if not r.payload.get("superseded_by")]
+        if (any(self.weights.values()) or self.batch) and not messagebox.askyesno(
+                "Continue customer", "Discard the current measurements / batch and continue with the selected "
+                                     "customer?", parent=self):
+            return
+        first = records[0]
+        self._loading = True
+        self.v_customer.set(first.customer)
+        self.v_contact.set(first.contact_name)
+        self.v_customer_email.set(first.customer_email)
+        self.v_no_reminder.set(False)
+        self._loading = False
+        self.batch = list(records)
+        self.result, self.pdf_path, self.current_record, self.recal_of = None, None, None, None
+        self.weights = {lv: [] for lv in LEVELS}
+        self._auto_armed, self._auto_run, self._auto_above_since = True, [], None
+        self._loading = True
+        self.v_serial.set("")
+        self._loading = False
+        self.v_comments.set("")
+        self.v_doc.set(self.history.next_document_number())
+        self.verdict_label.config(text="No results yet", fg=self.p["muted"])
+        self.verdict_sub.config(text="Complete 12 measurements or press Calculate.", fg=self.p["muted"])
+        self._refresh_slots()
+        self._refresh_sidebar()
+        self._refresh_output_buttons()
+        self._refresh_auto_labels()
+        self._show_tab("Setup")
+        names = ", ".join(f"{r.model} {r.serial_no or '-'}" for r in records)
+        messagebox.showinfo("Continue customer",
+                            f"{len(records)} certificate(s) of {first.customer or first.customer_email or 'the customer'} "
+                            f"are in the e-mail batch:\n{names}\n\nEnter the serial number of the next pipette and "
+                            "measure. Email sends all of them together.", parent=self)
+
+    def _history_email_selected(self):
+        """E-mail the selected certificates (one message, one PDF each)."""
+        ids = self._selected_ids()
+        if not ids:
+            return
+        records = [r for r in (self.history.get(i) for i in ids) if r]
+        first = records[0]
+        to = first.customer_email.strip()
+        if not to:
+            to = simpledialog.askstring("Email", "No customer e-mail on record. Send to:", parent=self) or ""
+            if not to.strip():
+                return
+        contact = first.contact_name or first.customer
+        if messagebox.askyesno("Email", f"Send {len(records)} certificate(s) to {to}?", parent=self):
+            self._email_records(records, to.strip(), first.customer, contact)
 
     def _refresh_output_buttons(self):
         have = self.result is not None

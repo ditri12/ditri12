@@ -312,6 +312,22 @@ class History:
                            (email.strip(), now_iso(), ", ".join(document_nos)))
         self._conn.commit()
 
+    def same_customer_same_day(self, rec: CalibrationRecord) -> list[CalibrationRecord]:
+        """All calibrations of rec's customer (by e-mail, else by name) made on
+        the same day as rec, excluding superseded as-found attempts."""
+        day = rec.calibrated_at[:10]
+        if rec.customer_email.strip():
+            rows = self._conn.execute(
+                "SELECT * FROM calibrations WHERE lower(customer_email) = lower(?) AND substr(calibrated_at, 1, 10) = ? "
+                "ORDER BY id", (rec.customer_email.strip(), day)).fetchall()
+        elif rec.customer.strip():
+            rows = self._conn.execute(
+                "SELECT * FROM calibrations WHERE customer = ? AND substr(calibrated_at, 1, 10) = ? ORDER BY id",
+                (rec.customer.strip(), day)).fetchall()
+        else:
+            rows = self._conn.execute("SELECT * FROM calibrations WHERE id = ?", (rec.id,)).fetchall()
+        return [r for r in (self._to_record(x) for x in rows) if not r.payload.get("superseded_by")]
+
     def get_by_document(self, document_no: str) -> CalibrationRecord | None:
         row = self._conn.execute("SELECT * FROM calibrations WHERE document_no = ?",
                                  (document_no.strip(),)).fetchone()
